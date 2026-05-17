@@ -3,5 +3,24 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# v1 (기존)
 *.xlsx
 !data/verification_results.csv
+
+# v2 — venv·로그·백업
+v2/.venv*/
+v2/logs/
+v2/backups/
+
+# v2 — 큰 데이터 (외부 호스팅)
+v2/data/raw/
+50_전체기사_*.csv
+50_전체기사_*.xlsx
+50_정책마스터.xlsx
+article_scores_hybrid.csv
+article_scores_hybrid_sample50.csv
+
+# v2 — Test 잠금
+v2/data/labels/test_split.csv
+v2/data/splits/test_split.csv

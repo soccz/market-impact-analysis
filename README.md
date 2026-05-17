@@ -55,6 +55,11 @@ python scripts/build_reproducible_data_package.py
 | 방향 일치 검증 | 50/50 PASS |
 | 날짜 팩트체크 | 41 PASS / 9 WARN / 0 FAIL |
 
+## Sub-tracks
+
+- **v1 (1차 CAR 검증)**: 본 디렉토리 (`verify_50_events.py`, `scripts/`, `data/`, `assets/`)
+- **v2 (NLP 트랙 — PTEI)**: [`v2/`](v2/) — Policy-to-Price Transmission NLP v2.11
+
 ## Project Page
 
 [https://soccz.github.io](https://soccz.github.io)
