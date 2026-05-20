@@ -1,0 +1,18 @@
+﻿pn,alias,industry,type_subtype,n_articles,ptei_mean,contra_mean,signal,aligned,suspicious_d_i
+3,일본 수출규제,반도체,E_foreign_shock,1798,0.387,0.382,-0.004,False,False
+7,미국 반도체 수출규제,반도체,E_foreign_shock,339,0.241,0.196,-0.045,False,False
+11,5개 은행 퇴출,금융/증권,D_crisis_shock,1239,0.139,0.083,-0.056,False,False
+12,리먼 파산,금융/증권,E_foreign_shock,3840,0.07,0.056,-0.013,False,False
+22,10·29 대책,부동산/건설,B_restriction_negative,754,0.169,0.145,-0.024,False,False
+23,8·31 대책,부동산/건설,B_restriction_negative,1714,0.149,0.144,-0.005,False,False
+27,6·19 대책,부동산/건설,B_restriction_negative,676,0.189,0.204,0.015,True,False
+28,8·2 대책,부동산/건설,B_restriction_negative,1687,0.325,0.23,-0.096,False,False
+29,9·13 대책,부동산/건설,B_restriction_negative,1540,0.217,0.209,-0.007,False,False
+31,의약분업,바이오/제약,B_restriction_negative,1550,0.136,0.107,-0.03,False,False
+33,황우석 폭로,바이오/제약,D_crisis_shock,1246,0.032,0.014,-0.017,False,True
+35,쌍벌제,바이오/제약,B_restriction_negative,75,0.27,0.188,-0.083,False,False
+36,약가인하,바이오/제약,B_restriction_negative,119,0.126,0.105,-0.022,False,False
+39,의대증원,바이오/제약,B_restriction_negative,1704,0.03,0.028,-0.002,False,False
+44,ESS 화재,2차전지/에너지,D_crisis_shock,157,0.07,0.101,0.032,True,False
+45,EU CBAM,2차전지/에너지,E_foreign_shock,222,0.084,0.098,0.015,True,False
+49,IRA 축소,2차전지/에너지,E_foreign_shock,99,0.016,0.025,0.009,True,False

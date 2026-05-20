@@ -24,3 +24,7 @@ article_scores_hybrid_sample50.csv
 # v2 — Test 잠금
 v2/data/labels/test_split.csv
 v2/data/splits/test_split.csv
+
+# v2 — fine-tune 체크포인트 (외부 호스팅)
+v2/models/
+*.pt

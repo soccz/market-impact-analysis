@@ -1,0 +1,110 @@
+{
+  "mode": "full",
+  "model_name": "klue/roberta-base",
+  "epochs": 5,
+  "batch_size": 4,
+  "train_size": 500,
+  "dev_size": 95,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8555,
+      "rel_accuracy": 0.4737,
+      "rel_kappa": 0.0,
+      "rel_macro_f1": 0.2143,
+      "stance_accuracy": 0.6737,
+      "stance_kappa": 0.3165,
+      "stance_macro_f1": 0.429,
+      "rel_pred_dist": {
+        "2": 95
+      },
+      "stance_pred_dist": {
+        "support": 81,
+        "neutral": 14
+      },
+      "stance_kappa_rel_pos": 0.1573
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.4614,
+      "rel_accuracy": 0.6421,
+      "rel_kappa": 0.41,
+      "rel_macro_f1": 0.4956,
+      "stance_accuracy": 0.7368,
+      "stance_kappa": 0.4816,
+      "stance_macro_f1": 0.5032,
+      "rel_pred_dist": {
+        "0": 29,
+        "2": 66
+      },
+      "stance_pred_dist": {
+        "neutral": 31,
+        "support": 64
+      },
+      "stance_kappa_rel_pos": 0.2598
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0992,
+      "rel_accuracy": 0.6421,
+      "rel_kappa": 0.3788,
+      "rel_macro_f1": 0.5692,
+      "stance_accuracy": 0.6737,
+      "stance_kappa": 0.3114,
+      "stance_macro_f1": 0.4235,
+      "rel_pred_dist": {
+        "1": 15,
+        "2": 71,
+        "0": 9
+      },
+      "stance_pred_dist": {
+        "support": 83,
+        "neutral": 12
+      },
+      "stance_kappa_rel_pos": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8261,
+      "rel_accuracy": 0.6842,
+      "rel_kappa": 0.4623,
+      "rel_macro_f1": 0.6194,
+      "stance_accuracy": 0.7263,
+      "stance_kappa": 0.4469,
+      "stance_macro_f1": 0.4889,
+      "rel_pred_dist": {
+        "1": 20,
+        "2": 65,
+        "0": 10
+      },
+      "stance_pred_dist": {
+        "support": 73,
+        "neutral": 21,
+        "contradict": 1
+      },
+      "stance_kappa_rel_pos": 0.1538
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6161,
+      "rel_accuracy": 0.7158,
+      "rel_kappa": 0.5201,
+      "rel_macro_f1": 0.6691,
+      "stance_accuracy": 0.7474,
+      "stance_kappa": 0.4999,
+      "stance_macro_f1": 0.5144,
+      "rel_pred_dist": {
+        "1": 13,
+        "2": 66,
+        "0": 16
+      },
+      "stance_pred_dist": {
+        "neutral": 24,
+        "support": 69,
+        "contradict": 2
+      },
+      "stance_kappa_rel_pos": 0.1876
+    }
+  ],
+  "best_combined_kappa": 0.5100012906347315
+}

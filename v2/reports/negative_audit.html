@@ -1,0 +1,385 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><title>악재 정책 진단</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, AppleGothic, sans-serif; max-width: 1200px; margin: 20px auto; padding: 0 20px; color: #222; line-height: 1.55; }
+h1 { font-size: 22px; }
+h2 { font-size: 18px; margin-top: 28px; }
+.summary { background: #f0f7ff; border: 1px solid #b3d4fc; padding: 14px 18px; border-radius: 6px; margin: 16px 0; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 14px 18px; margin: 16px 0; background: #fafafa; }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; color: #555; }
+.policy { font-weight: 600; color: #1a73e8; font-size: 16px; }
+.aligned { color: #137333; font-weight: 600; }
+.misaligned { color: #c5221f; font-weight: 600; }
+.suspicious { background: #fff3cd; padding: 2px 6px; border-radius: 3px; color: #856404; font-weight: 600; }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 12px; }
+th, td { border: 1px solid #e0e0e0; padding: 4px 8px; text-align: left; vertical-align: top; }
+th { background: #f0f0f0; font-weight: 600; }
+.title-cell { max-width: 380px; }
+.bar { display: inline-block; height: 12px; background: #1a73e8; vertical-align: middle; }
+.bar-red { background: #d93025; }
+</style></head><body>
+<h1>악재 정책 17건 정성 진단</h1>
+<div class="summary">
+<b>전체 일치율</b>: 4/17 (23.5%)<br>
+<b>D_i 의심 케이스</b> (PTEI >> Contradict): 1건<br>
+<b>판독 가이드</b>: PTEI 막대(파랑)가 Contradict(빨강)보다 길면 → 뉴스가 정책을 호재로 보도 → 정책 방향(-)과 모순<br>
+PTEI ≈ Contradict면 → 보도가 양면 또는 사실 보도 중심<br>
+Contradict가 길면 → 뉴스가 정책에 비판적 (D_i=- 일치)
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=44 · ESS 화재</span> · 2차전지/에너지 · D_crisis_shock</span><span class="aligned">✅ 일치 (D_i=- 따라감)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 157건 · PTEI 평균 <b>0.070</b> · Contradict 평균 <b>0.101</b> · 신호=+0.032 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:138px"></span> 0.070<br>Contra: <span class="bar bar-red" style="width:200px"></span> 0.101</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2019-07-30</td><td>-2</td><td class="title-cell">[2분기 실적]삼성SDI 영업익 1,573억...악재에도 시장 예측치 웃돌아</td><td>0.698</td><td>0.380</td><td>0.42</td><td>0.23</td></tr>
+<tr><td>2019-07-31</td><td>-1</td><td class="title-cell">[2분기 실적]삼성SDI 영업익 1,573억...악재에도 시장 예측치 웃돌아</td><td>0.698</td><td>0.380</td><td>0.42</td><td>0.23</td></tr>
+<tr><td>2019-08-06</td><td>5</td><td class="title-cell">[오늘의 추천종목-한국투자증권]SK텔레콤·현대차 등</td><td>0.693</td><td>0.741</td><td>0.29</td><td>0.31</td></tr>
+<tr><td>2019-07-26</td><td>-6</td><td class="title-cell">LS산전, ESS 화재 영향 등 전망치 밑돈 2Q 실적…목표가↓-대신</td><td>0.627</td><td>0.163</td><td>0.63</td><td>0.16</td></tr>
+<tr><td>2019-08-05</td><td>4</td><td class="title-cell">[오늘의 추천종목-한국투자증권]삼성SDI·에코프로비엠 등</td><td>0.620</td><td>0.716</td><td>0.26</td><td>0.30</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2019-07-26</td><td>-6</td><td class="title-cell">ESS 화재로 위축된 배터리업계… &quot;전기차용 수요로 파고 넘을 것&quot;</td><td>0.602</td><td>1.247</td><td>0.25</td><td>0.52</td></tr>
+<tr><td>2019-07-31</td><td>-1</td><td class="title-cell">배터리업계, 2분기 실적 희비…반등 열쇠 &#x27;ESS·신차&#x27;</td><td>0.304</td><td>1.082</td><td>0.18</td><td>0.64</td></tr>
+<tr><td>2019-07-30</td><td>-2</td><td class="title-cell">[컨콜] 삼성SDI &quot;ESS, 6월부터 매출 회복…8월부터 본격 성장 예상&quot;</td><td>0.478</td><td>0.944</td><td>0.28</td><td>0.56</td></tr>
+<tr><td>2019-07-30</td><td>-2</td><td class="title-cell">&quot;ESS 매출 8월부터 본격 증가, 전기차 배터리도 하반기 성장&quot;-삼성SDI 컨콜</td><td>0.190</td><td>0.758</td><td>0.16</td><td>0.63</td></tr>
+<tr><td>2019-08-06</td><td>5</td><td class="title-cell">[오늘의 추천종목-한국투자증권]SK텔레콤·현대차 등</td><td>0.693</td><td>0.741</td><td>0.29</td><td>0.31</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=27 · 6·19 대책</span> · 부동산/건설 · B_restriction_negative</span><span class="aligned">✅ 일치 (D_i=- 따라감)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 676건 · PTEI 평균 <b>0.189</b> · Contradict 평균 <b>0.204</b> · 신호=+0.015 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:185px"></span> 0.189<br>Contra: <span class="bar bar-red" style="width:200px"></span> 0.204</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2017-06-21</td><td>2</td><td class="title-cell">[영상] &quot;뜨겁던 열기는 어디로?&quot;..주택시장, 6.19대책에 거래문의 &#x27;뚝&#x27;</td><td>1.523</td><td>0.240</td><td>0.76</td><td>0.12</td></tr>
+<tr><td>2017-06-19</td><td>0</td><td class="title-cell">[6.19부동산대책] 정부대책, 최대 타격은 강북 뉴타운</td><td>1.213</td><td>0.100</td><td>0.87</td><td>0.07</td></tr>
+<tr><td>2017-06-19</td><td>0</td><td class="title-cell">숨죽인 주택 시장…‘풍선효과’ 우려도</td><td>1.124</td><td>0.448</td><td>0.56</td><td>0.22</td></tr>
+<tr><td>2017-06-19</td><td>0</td><td class="title-cell">6·19 대책 경기도내 업계 반응, &quot;거래 위축&quot; vs &quot;내집마련 더 힘들 것&quot;</td><td>0.986</td><td>0.269</td><td>0.70</td><td>0.19</td></tr>
+<tr><td>2017-06-20</td><td>1</td><td class="title-cell">건설/건자재, 6.19 대책: 투기수요 근절과 균형 개발 - 한국투자</td><td>0.943</td><td>0.670</td><td>0.47</td><td>0.34</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2017-06-20</td><td>1</td><td class="title-cell">6.19 부동산 대책, 非조정대상지역 풍선효과로 수혜 기대</td><td>0.249</td><td>1.553</td><td>0.12</td><td>0.78</td></tr>
+<tr><td>2017-06-22</td><td>3</td><td class="title-cell">신정뉴타운 아이파크 위브, 6.19 대책 피한 수혜 단지 &#x27;주목&#x27;</td><td>0.273</td><td>1.481</td><td>0.14</td><td>0.74</td></tr>
+<tr><td>2017-06-19</td><td>0</td><td class="title-cell">6.19 대책에도 세종 부동산 시장 기대감을 여전해</td><td>0.262</td><td>1.446</td><td>0.13</td><td>0.72</td></tr>
+<tr><td>2017-06-23</td><td>4</td><td class="title-cell">6.19 대책 반사이익 수혜단지, ‘힐스테이트 평택’ 인기</td><td>0.386</td><td>1.398</td><td>0.19</td><td>0.70</td></tr>
+<tr><td>2017-06-20</td><td>1</td><td class="title-cell">은행, 6.19 부동산 대책: 은행 자산성장은 이상무 - 한국투자</td><td>0.355</td><td>1.374</td><td>0.18</td><td>0.69</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=45 · EU CBAM</span> · 2차전지/에너지 · E_foreign_shock</span><span class="aligned">✅ 일치 (D_i=- 따라감)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 222건 · PTEI 평균 <b>0.084</b> · Contradict 평균 <b>0.098</b> · 신호=+0.015 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:171px"></span> 0.084<br>Contra: <span class="bar bar-red" style="width:200px"></span> 0.098</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">전경련 &quot;EU 탄소국경조정제, 산업 전반 경쟁력 약화 우려&quot;</td><td>0.779</td><td>0.580</td><td>0.39</td><td>0.29</td></tr>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">EU 탄소국경세 도입, 국내 증시 수혜주·피해주는 어디? [허란의 경제한끼]</td><td>0.648</td><td>0.739</td><td>0.32</td><td>0.37</td></tr>
+<tr><td>2021-07-16</td><td>2</td><td class="title-cell">탄소국경조정세 어떻게 매기나</td><td>0.641</td><td>0.805</td><td>0.32</td><td>0.40</td></tr>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">EU 탄소국경세 추진에…전경련 &quot;산업계 경쟁력 약화 우려&quot;</td><td>0.630</td><td>0.201</td><td>0.63</td><td>0.20</td></tr>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">전경련 &quot;EU 탄소국경조정세, 韓 수출환경 악화 우려&quot;</td><td>0.543</td><td>0.299</td><td>0.54</td><td>0.30</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2021-07-17</td><td>3</td><td class="title-cell">EU &#x27;탄소국경세&#x27;로 탄소중립 속도…저탄소에 투자하려면?</td><td>0.492</td><td>1.190</td><td>0.25</td><td>0.59</td></tr>
+<tr><td>2021-07-16</td><td>2</td><td class="title-cell">탄소국경조정세 어떻게 매기나</td><td>0.641</td><td>0.805</td><td>0.32</td><td>0.40</td></tr>
+<tr><td>2021-07-19</td><td>5</td><td class="title-cell">EU 탄소국경세 산업별 희비에도 국내 시멘트 업계 &quot;타격 無&quot;</td><td>0.281</td><td>0.789</td><td>0.14</td><td>0.39</td></tr>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">EU 탄소국경세 도입, 국내 증시 수혜주·피해주는 어디? [허란의 경제한끼]</td><td>0.648</td><td>0.739</td><td>0.32</td><td>0.37</td></tr>
+<tr><td>2021-07-15</td><td>1</td><td class="title-cell">순환매 장세 속 뜨거운 2차전지주…분할 이슈가 희비 갈랐다 [株포트라이트]</td><td>0.132</td><td>0.709</td><td>0.13</td><td>0.71</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=49 · IRA 축소</span> · 2차전지/에너지 · E_foreign_shock</span><span class="aligned">✅ 일치 (D_i=- 따라감)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 99건 · PTEI 평균 <b>0.016</b> · Contradict 평균 <b>0.025</b> · 신호=+0.009 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:128px"></span> 0.016<br>Contra: <span class="bar bar-red" style="width:200px"></span> 0.025</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">AMPC 보조금에 기댄 K-배터리…美 ESS·현지 생산 전환 가속화</td><td>0.346</td><td>0.411</td><td>0.35</td><td>0.41</td></tr>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">미국 의존도 커지는 K-배터리…LG엔솔 “현지 생산 역량 갈수록 중요”</td><td>0.331</td><td>0.418</td><td>0.39</td><td>0.50</td></tr>
+<tr><td>2025-05-05</td><td>4</td><td class="title-cell">현대차, &#x27;트럼프發 관세 전쟁&#x27; 속 고군분투…실타래 하나씩 푼다</td><td>0.307</td><td>0.626</td><td>0.22</td><td>0.45</td></tr>
+<tr><td>2025-04-29</td><td>-2</td><td class="title-cell">[자원개발, 新동력 찾자①] 韓 자원개발률 10년간 20~30%… &quot;민관협력 원팀 만들어야&quot;</td><td>0.272</td><td>0.321</td><td>0.39</td><td>0.46</td></tr>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">LG엔솔 흑자전환 성공…&quot;시설투자 축소, 3대 핵심과제 추진&quot;</td><td>0.162</td><td>0.465</td><td>0.19</td><td>0.55</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2025-05-05</td><td>4</td><td class="title-cell">현대차, &#x27;트럼프發 관세 전쟁&#x27; 속 고군분투…실타래 하나씩 푼다</td><td>0.307</td><td>0.626</td><td>0.22</td><td>0.45</td></tr>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">LG엔솔 흑자전환 성공…&quot;시설투자 축소, 3대 핵심과제 추진&quot;</td><td>0.162</td><td>0.465</td><td>0.19</td><td>0.55</td></tr>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">미국 의존도 커지는 K-배터리…LG엔솔 “현지 생산 역량 갈수록 중요”</td><td>0.331</td><td>0.418</td><td>0.39</td><td>0.50</td></tr>
+<tr><td>2025-04-30</td><td>-1</td><td class="title-cell">AMPC 보조금에 기댄 K-배터리…美 ESS·현지 생산 전환 가속화</td><td>0.346</td><td>0.411</td><td>0.35</td><td>0.41</td></tr>
+<tr><td>2025-04-29</td><td>-2</td><td class="title-cell">[자원개발, 新동력 찾자①] 韓 자원개발률 10년간 20~30%… &quot;민관협력 원팀 만들어야&quot;</td><td>0.272</td><td>0.321</td><td>0.39</td><td>0.46</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=39 · 의대증원</span> · 바이오/제약 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1704건 · PTEI 평균 <b>0.030</b> · Contradict 평균 <b>0.028</b> · 신호=-0.002 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.030<br>Contra: <span class="bar bar-red" style="width:186px"></span> 0.028</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">박민수 차관 &quot;의대쏠림 가속화 않을 것&quot;…의대증원, 공학·자연계 1.6% 불과</td><td>0.765</td><td>0.588</td><td>0.38</td><td>0.29</td></tr>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">“‘응급실 뺑뺑이’ 현실은 부끄러운 일… 의대 증원 더 못 미뤄”</td><td>0.630</td><td>0.277</td><td>0.63</td><td>0.28</td></tr>
+<tr><td>2024-02-07</td><td>1</td><td class="title-cell">복지부, 전공의 수련병원에 집단사직서 수리 금지 명령</td><td>0.591</td><td>0.209</td><td>0.59</td><td>0.21</td></tr>
+<tr><td>2024-02-06</td><td>0</td><td class="title-cell">정부, &#x27;의대증원 반대&#x27; 의협 총파업 조짐에 &quot;집단행동 금지명령&quot;</td><td>0.578</td><td>0.269</td><td>0.58</td><td>0.27</td></tr>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">복지부 &quot;의사 늘리면 의대 쏠림 완화될 것&quot;</td><td>0.577</td><td>0.564</td><td>0.41</td><td>0.40</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2024-02-05</td><td>-1</td><td class="title-cell">의대 증원, 전남권 국립의대 추진 동력 확보</td><td>0.203</td><td>0.665</td><td>0.20</td><td>0.66</td></tr>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">박민수 차관 &quot;의대쏠림 가속화 않을 것&quot;…의대증원, 공학·자연계 1.6% 불과</td><td>0.765</td><td>0.588</td><td>0.38</td><td>0.29</td></tr>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">목포시, 의대 정원 확대 발표 환영...정부 의대 정원 2000명 증원 발표</td><td>0.194</td><td>0.571</td><td>0.19</td><td>0.57</td></tr>
+<tr><td>2024-02-01</td><td>-5</td><td class="title-cell">&quot;내년부터 반드시 의대 증원&quot;…필수의료에 건보 &#x27;10조+α&#x27; 투입</td><td>0.291</td><td>0.569</td><td>0.29</td><td>0.57</td></tr>
+<tr><td>2024-02-08</td><td>2</td><td class="title-cell">복지부 &quot;의사 늘리면 의대 쏠림 완화될 것&quot;</td><td>0.577</td><td>0.564</td><td>0.41</td><td>0.40</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=3 · 일본 수출규제</span> · 반도체 · E_foreign_shock</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1798건 · PTEI 평균 <b>0.387</b> · Contradict 평균 <b>0.382</b> · 신호=-0.004 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.387<br>Contra: <span class="bar bar-red" style="width:197px"></span> 0.382</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2019-07-02</td><td>1</td><td class="title-cell">반도체·디스플레이社 &quot;재고물량 한달치, 최악땐 라인 멈춰야&quot;[&#x27;日 경제보복&#x27; 비상 걸린 기업]</td><td>1.298</td><td>0.587</td><td>0.54</td><td>0.24</td></tr>
+<tr><td>2019-07-01</td><td>0</td><td class="title-cell">日 반도체·OLED 소재 규제에…삼성·하이닉스 초긴장</td><td>1.284</td><td>0.742</td><td>0.53</td><td>0.31</td></tr>
+<tr><td>2019-07-04</td><td>3</td><td class="title-cell">무디스 “日 수출규제, 한국 기업 신용도에 부정적”</td><td>1.250</td><td>0.087</td><td>0.74</td><td>0.05</td></tr>
+<tr><td>2019-07-02</td><td>1</td><td class="title-cell">코 앞에 닥친 일본 4일 규제…삼성ㆍSK하이닉스, 시간과의 싸움 돌입</td><td>1.240</td><td>0.758</td><td>0.52</td><td>0.32</td></tr>
+<tr><td>2019-07-02</td><td>1</td><td class="title-cell">[NEWS&amp;VIEW] 한국산업 급소 찌른 &#x27;일본의 보복&#x27;</td><td>1.193</td><td>0.319</td><td>0.71</td><td>0.19</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2019-07-05</td><td>4</td><td class="title-cell">[SEN]디엔에프, 일본 수출규제에 따른 정부지원 기대감에 강세…삼성전자와 반도체 공동특허 부각</td><td>0.212</td><td>1.931</td><td>0.09</td><td>0.80</td></tr>
+<tr><td>2019-07-04</td><td>3</td><td class="title-cell">[특징주]경인양행, 삼성전자 종기원·SDI 등과 CPI 필름 개발…日 수출규제 반사익</td><td>0.249</td><td>1.750</td><td>0.10</td><td>0.73</td></tr>
+<tr><td>2019-07-01</td><td>0</td><td class="title-cell">日 수출 규제에도 반도체株 주가 버티는 이유</td><td>0.419</td><td>1.682</td><td>0.17</td><td>0.70</td></tr>
+<tr><td>2019-07-01</td><td>0</td><td class="title-cell">日 수출 규제에 반도체 소재株 &#x27;들썩&#x27;</td><td>0.013</td><td>1.636</td><td>0.01</td><td>0.97</td></tr>
+<tr><td>2019-07-03</td><td>2</td><td class="title-cell">왜풍에 ‘출렁’ 반도체 빅2…`반사익` 소재·부품주는 급등</td><td>0.118</td><td>1.597</td><td>0.05</td><td>0.67</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=23 · 8·31 대책</span> · 부동산/건설 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1714건 · PTEI 평균 <b>0.149</b> · Contradict 평균 <b>0.144</b> · 신호=-0.005 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.149<br>Contra: <span class="bar bar-red" style="width:193px"></span> 0.144</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2005-09-01</td><td>1</td><td class="title-cell">[전문가의견] 미분양 물량늘어 주택공급시장 위축</td><td>1.756</td><td>0.134</td><td>0.88</td><td>0.07</td></tr>
+<tr><td>2005-09-01</td><td>1</td><td class="title-cell">[8.31 대책 이후...] 강남 주상복합 등 &#x27;후폭풍&#x27;</td><td>1.654</td><td>0.172</td><td>0.83</td><td>0.09</td></tr>
+<tr><td>2005-09-01</td><td>1</td><td class="title-cell">[8.31 대책 이후] 부동산시장 어떻게 될까‥(1) 고개 숙이는 빅3</td><td>1.572</td><td>0.159</td><td>0.79</td><td>0.08</td></tr>
+<tr><td>2005-09-05</td><td>5</td><td class="title-cell">기획 / ‘8·31 부동산 대책’ 평가 - 전문가 70명 설문</td><td>1.553</td><td>0.236</td><td>0.78</td><td>0.12</td></tr>
+<tr><td>2005-09-05</td><td>5</td><td class="title-cell">[8.31 대책 이후] (4) 토지시장은 이제 출입금지</td><td>1.466</td><td>0.214</td><td>0.73</td><td>0.11</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2005-09-01</td><td>1</td><td class="title-cell">대신,건설업종 &#x27;비중확대로 상향&#x27;</td><td>0.227</td><td>1.789</td><td>0.09</td><td>0.75</td></tr>
+<tr><td>2005-08-31</td><td>0</td><td class="title-cell">[8·31 부동산종합대책]재계“시의적절…경기활력 기대”</td><td>0.134</td><td>1.688</td><td>0.07</td><td>0.84</td></tr>
+<tr><td>2005-08-25</td><td>-6</td><td class="title-cell">[가을 분양대전 막 오른다]호재지역 매도타이밍 신중해야</td><td>0.285</td><td>1.549</td><td>0.14</td><td>0.77</td></tr>
+<tr><td>2005-08-30</td><td>-1</td><td class="title-cell">[8·31 부동산대책]그린벨트 풀어 임대 2만가구 건설</td><td>0.191</td><td>1.529</td><td>0.10</td><td>0.76</td></tr>
+<tr><td>2005-08-31</td><td>0</td><td class="title-cell">[8·31대책] 도심 광역개발 활성화 꾀한다</td><td>0.216</td><td>1.514</td><td>0.11</td><td>0.76</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=29 · 9·13 대책</span> · 부동산/건설 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1540건 · PTEI 평균 <b>0.217</b> · Contradict 평균 <b>0.209</b> · 신호=-0.007 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.217<br>Contra: <span class="bar bar-red" style="width:192px"></span> 0.209</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2018-09-17</td><td>4</td><td class="title-cell">[사설] 양도세 한시적 인하해 다주택자 매물 나오게 해야</td><td>1.779</td><td>0.090</td><td>0.89</td><td>0.05</td></tr>
+<tr><td>2018-09-14</td><td>1</td><td class="title-cell">&quot;9.13 대책, 주택매매 거래량 감소…은행권 이익훼손 불가피&quot;</td><td>1.620</td><td>0.194</td><td>0.81</td><td>0.10</td></tr>
+<tr><td>2018-09-16</td><td>3</td><td class="title-cell">9·13 대책…울산 부동산시장 침체 장기화 우려</td><td>1.614</td><td>0.077</td><td>0.81</td><td>0.04</td></tr>
+<tr><td>2018-09-16</td><td>3</td><td class="title-cell">[9ㆍ13 후폭풍]진입장벽 높아진 강남3구, 거래절벽 오나</td><td>1.552</td><td>0.227</td><td>0.78</td><td>0.11</td></tr>
+<tr><td>2018-09-14</td><td>1</td><td class="title-cell">은행업, 9·13 대책으로 성장 둔화 우려-메리츠증권</td><td>1.550</td><td>0.164</td><td>0.77</td><td>0.08</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2018-09-13</td><td>0</td><td class="title-cell">[9.13 부동산 대책] 전문가들, 서울 집값 진정효과 분명…중.장기적으로는 &quot;글쎄&quot;</td><td>0.197</td><td>1.625</td><td>0.10</td><td>0.81</td></tr>
+<tr><td>2018-09-13</td><td>0</td><td class="title-cell">[속보][9·13 부동산대책] 김동연 “투기·집값 꼭 잡겠다”</td><td>0.258</td><td>1.536</td><td>0.13</td><td>0.77</td></tr>
+<tr><td>2018-09-13</td><td>0</td><td class="title-cell">그린벨트 해제 등 21일 1차 주택공급 계획 발표</td><td>0.349</td><td>1.414</td><td>0.17</td><td>0.71</td></tr>
+<tr><td>2018-09-15</td><td>2</td><td class="title-cell">&quot;투기 잡기 위한 최선의 카드&quot;...&quot;공급 대책 없이 해결 못 해&quot;</td><td>0.375</td><td>1.407</td><td>0.19</td><td>0.70</td></tr>
+<tr><td>2018-09-14</td><td>1</td><td class="title-cell">[9·13 부동산 대책] 힘들게 집장만…징벌적 과세라니…고소득 직장인·은퇴자들 불만 고조</td><td>0.564</td><td>1.350</td><td>0.28</td><td>0.67</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=12 · 리먼 파산</span> · 금융/증권 · E_foreign_shock</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 3840건 · PTEI 평균 <b>0.070</b> · Contradict 평균 <b>0.056</b> · 신호=-0.013 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.070<br>Contra: <span class="bar bar-red" style="width:160px"></span> 0.056</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2008-09-17</td><td>2</td><td class="title-cell">꺼지지않는 불씨는‘물가’</td><td>1.674</td><td>0.222</td><td>0.84</td><td>0.11</td></tr>
+<tr><td>2008-09-18</td><td>3</td><td class="title-cell">美 SEC &quot;주식 공매도 전면금지 검토&quot;</td><td>1.651</td><td>0.129</td><td>0.83</td><td>0.06</td></tr>
+<tr><td>2008-09-19</td><td>4</td><td class="title-cell">중국·일본 ‘흔들’ … 세계 주가 연쇄폭락</td><td>1.550</td><td>0.296</td><td>0.78</td><td>0.15</td></tr>
+<tr><td>2008-09-16</td><td>1</td><td class="title-cell">☞이 시각 전국 헤드라인 뉴스(08:00)</td><td>1.545</td><td>0.143</td><td>0.77</td><td>0.07</td></tr>
+<tr><td>2008-09-18</td><td>3</td><td class="title-cell">`리먼 때문에 못살아`..국내 금융시장 투매양상</td><td>1.268</td><td>0.440</td><td>0.63</td><td>0.22</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2008-09-16</td><td>1</td><td class="title-cell">한은 &quot;당분간 금융.외환시장 변동성 증대&quot;</td><td>0.420</td><td>1.239</td><td>0.21</td><td>0.62</td></tr>
+<tr><td>2008-09-16</td><td>1</td><td class="title-cell">주요국·월가 금융위기 진화 총력전</td><td>0.553</td><td>1.127</td><td>0.28</td><td>0.56</td></tr>
+<tr><td>2008-09-16</td><td>1</td><td class="title-cell">세계 중앙은행들, 비상대책 마련 봇물(종합)</td><td>0.475</td><td>1.046</td><td>0.24</td><td>0.52</td></tr>
+<tr><td>2008-09-18</td><td>3</td><td class="title-cell">호주 중앙銀, 3일간 총 88억弗 공급</td><td>0.516</td><td>0.929</td><td>0.26</td><td>0.46</td></tr>
+<tr><td>2008-09-17</td><td>2</td><td class="title-cell">증권사 데일리 헤드라인(17일)</td><td>0.522</td><td>0.915</td><td>0.26</td><td>0.46</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=33 · 황우석 폭로</span> · 바이오/제약 · D_crisis_shock</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1246건 · PTEI 평균 <b>0.032</b> · Contradict 평균 <b>0.014</b> · 신호=-0.017 <span class="suspicious">⚠️ D_i 의심 — PTEI 신호가 너무 강함</span></div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.032<br>Contra: <span class="bar bar-red" style="width:87px"></span> 0.014</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2005-12-16</td><td>1</td><td class="title-cell">황우석 ‘줄기세포 조작’ 논란 / 제약·의약 관련주 등 타격…투자심리 위축</td><td>1.633</td><td>0.095</td><td>0.82</td><td>0.05</td></tr>
+<tr><td>2005-12-16</td><td>1</td><td class="title-cell">[황우석 &#x27;줄기세포 조작&#x27; 논란] 증시 쇼크</td><td>1.296</td><td>0.198</td><td>0.65</td><td>0.10</td></tr>
+<tr><td>2005-12-17</td><td>2</td><td class="title-cell">[줄기세포’진실게임’] 사이언스 “조사결과 본뒤 입장 결정”</td><td>1.059</td><td>0.443</td><td>0.53</td><td>0.22</td></tr>
+<tr><td>2005-12-17</td><td>2</td><td class="title-cell">줄기세포 조작 파문 / 경제계 반응 ...민간·해외투자 위축 등 악영향</td><td>0.995</td><td>0.310</td><td>0.50</td><td>0.15</td></tr>
+<tr><td>2005-12-16</td><td>1</td><td class="title-cell">[사설] 황우석 사태 경제적 파장 최소화해야</td><td>0.951</td><td>0.003</td><td>0.95</td><td>0.00</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2005-12-20</td><td>5</td><td class="title-cell">PD수첩 27일 방송 재개할 듯</td><td>0.608</td><td>0.477</td><td>0.43</td><td>0.34</td></tr>
+<tr><td>2005-12-17</td><td>2</td><td class="title-cell">[줄기세포’진실게임’] 사이언스 “조사결과 본뒤 입장 결정”</td><td>1.059</td><td>0.443</td><td>0.53</td><td>0.22</td></tr>
+<tr><td>2005-12-19</td><td>4</td><td class="title-cell">뉴스전망대 / &#x27;黃파문&#x27; 오늘 靑 수석회의 주목</td><td>0.678</td><td>0.425</td><td>0.48</td><td>0.30</td></tr>
+<tr><td>2005-12-19</td><td>4</td><td class="title-cell">서울대조사위, 황교수 조사중</td><td>0.508</td><td>0.348</td><td>0.51</td><td>0.35</td></tr>
+<tr><td>2005-12-16</td><td>1</td><td class="title-cell">우여곡절끝 방송 &#x27;PD수첩&#x27;2탄, 시청률 급등</td><td>0.273</td><td>0.310</td><td>0.39</td><td>0.44</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=36 · 약가인하</span> · 바이오/제약 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 119건 · PTEI 평균 <b>0.126</b> · Contradict 평균 <b>0.105</b> · 신호=-0.022 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.126<br>Contra: <span class="bar bar-red" style="width:166px"></span> 0.105</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2012-03-29</td><td>-3</td><td class="title-cell">[&#x27;약값인하&#x27; 허와 실]실적 압박·고용 불안…제약사 영업사원 &quot;울고 싶어라&quot;</td><td>0.942</td><td>0.377</td><td>0.47</td><td>0.19</td></tr>
+<tr><td>2012-04-04</td><td>3</td><td class="title-cell">“약가인하, 단기적으로 제약산업 주가 악영향”</td><td>0.789</td><td>0.074</td><td>0.79</td><td>0.07</td></tr>
+<tr><td>2012-04-03</td><td>2</td><td class="title-cell">왜냐면/ 정부의 약가 일괄인하 환영한다</td><td>0.695</td><td>0.088</td><td>0.69</td><td>0.09</td></tr>
+<tr><td>2012-03-27</td><td>-5</td><td class="title-cell">약가인하후 제네릭서 오리지널로 대이동?</td><td>0.685</td><td>0.909</td><td>0.34</td><td>0.45</td></tr>
+<tr><td>2012-04-02</td><td>1</td><td class="title-cell">[왜냐면] 정부의 약가 일괄인하 환영한다 / 안기종</td><td>0.670</td><td>0.090</td><td>0.67</td><td>0.09</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2012-03-30</td><td>-2</td><td class="title-cell">&quot;녹십자, 해외 비즈니스 두각&quot;-대신</td><td>0.462</td><td>1.121</td><td>0.23</td><td>0.56</td></tr>
+<tr><td>2012-03-30</td><td>-2</td><td class="title-cell">녹십자, 수출 증가로 안정적 성장 기대-대신證</td><td>0.466</td><td>1.039</td><td>0.23</td><td>0.52</td></tr>
+<tr><td>2012-03-27</td><td>-5</td><td class="title-cell">약가인하후 제네릭서 오리지널로 대이동?</td><td>0.685</td><td>0.909</td><td>0.34</td><td>0.45</td></tr>
+<tr><td>2012-04-04</td><td>3</td><td class="title-cell">&quot;제약, 차별화된 실적株를 주목해야&quot;-현대證</td><td>0.098</td><td>0.634</td><td>0.10</td><td>0.63</td></tr>
+<tr><td>2012-03-29</td><td>-3</td><td class="title-cell">[&#x27;약값인하&#x27; 허와 실] 약값 인하 &quot;무분별한 약 사용 자제…비싼 약 처방도 개선해야&quot;</td><td>0.169</td><td>0.572</td><td>0.17</td><td>0.57</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=22 · 10·29 대책</span> · 부동산/건설 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 754건 · PTEI 평균 <b>0.169</b> · Contradict 평균 <b>0.145</b> · 신호=-0.024 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.169<br>Contra: <span class="bar bar-red" style="width:171px"></span> 0.145</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2003-11-03</td><td>5</td><td class="title-cell">아파트 분양시장 &quot;찬바람&quot; 부나?</td><td>1.708</td><td>0.187</td><td>0.85</td><td>0.09</td></tr>
+<tr><td>2003-10-30</td><td>1</td><td class="title-cell">[10·29 종합대책 후 부동산 주요 상품 기상도] 아파트 위축, 신규분양 ‘흐림’</td><td>1.471</td><td>0.344</td><td>0.74</td><td>0.17</td></tr>
+<tr><td>2003-11-03</td><td>5</td><td class="title-cell">`보유세 강화` 약발 받는다</td><td>1.467</td><td>0.275</td><td>0.73</td><td>0.14</td></tr>
+<tr><td>2003-10-29</td><td>0</td><td class="title-cell">[10.29대책] 건설·시행업계 반응</td><td>1.350</td><td>0.453</td><td>0.68</td><td>0.23</td></tr>
+<tr><td>2003-10-29</td><td>0</td><td class="title-cell">[10.29대책] 건설·시행업계 반응</td><td>1.350</td><td>0.453</td><td>0.68</td><td>0.23</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2003-10-29</td><td>0</td><td class="title-cell">[10·29 부동산 종합대책-주요내용] 실거래가 과세로 투기차단</td><td>0.202</td><td>1.657</td><td>0.10</td><td>0.83</td></tr>
+<tr><td>2003-10-29</td><td>0</td><td class="title-cell">[10·29 부동산 종합대책-주요내용] 실거래가 과세로 투기차단</td><td>0.202</td><td>1.657</td><td>0.10</td><td>0.83</td></tr>
+<tr><td>2003-11-03</td><td>5</td><td class="title-cell">‘연내분양’ 주상복합 프리미엄 돌풍</td><td>0.341</td><td>1.321</td><td>0.17</td><td>0.66</td></tr>
+<tr><td>2003-10-29</td><td>0</td><td class="title-cell">[전문]10ㆍ29 대책(공급확대 및 공급제도개선)</td><td>0.155</td><td>1.053</td><td>0.11</td><td>0.75</td></tr>
+<tr><td>2003-10-30</td><td>1</td><td class="title-cell">10.29 부동산대책 분야별 문답풀이 / 세무조사 어떻게</td><td>0.294</td><td>1.031</td><td>0.21</td><td>0.74</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=31 · 의약분업</span> · 바이오/제약 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1550건 · PTEI 평균 <b>0.136</b> · Contradict 평균 <b>0.107</b> · 신호=-0.030 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.136<br>Contra: <span class="bar bar-red" style="width:157px"></span> 0.107</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2000-07-04</td><td>3</td><td class="title-cell">중소제약사 절반이상 도산 위기</td><td>1.130</td><td>0.296</td><td>0.56</td><td>0.15</td></tr>
+<tr><td>2000-07-06</td><td>5</td><td class="title-cell">의약분업 다시 혼미</td><td>1.107</td><td>0.265</td><td>0.55</td><td>0.13</td></tr>
+<tr><td>2000-06-26</td><td>-5</td><td class="title-cell">醫-藥 줄다리기 불보듯…곳곳 암초</td><td>1.044</td><td>0.502</td><td>0.52</td><td>0.25</td></tr>
+<tr><td>2000-07-05</td><td>4</td><td class="title-cell">약사법 개정 난항</td><td>1.036</td><td>0.515</td><td>0.52</td><td>0.26</td></tr>
+<tr><td>2000-07-03</td><td>2</td><td class="title-cell">醫協 이번엔 내부갈등 조짐…원외처방전 발행싸고 대립</td><td>1.030</td><td>0.411</td><td>0.52</td><td>0.21</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2000-06-27</td><td>-4</td><td class="title-cell">동아제약 의약분업 영향 6개월내 4만원 평가</td><td>0.485</td><td>1.319</td><td>0.24</td><td>0.66</td></tr>
+<tr><td>2000-07-03</td><td>2</td><td class="title-cell">자투리</td><td>0.470</td><td>1.076</td><td>0.23</td><td>0.54</td></tr>
+<tr><td>2000-07-04</td><td>3</td><td class="title-cell">낱알 포장단위 시장자율에 .. 의약분업대책 6인소위</td><td>0.725</td><td>1.001</td><td>0.36</td><td>0.50</td></tr>
+<tr><td>2000-06-30</td><td>-1</td><td class="title-cell">産災 1인 사업장까지 확대</td><td>0.753</td><td>0.930</td><td>0.38</td><td>0.46</td></tr>
+<tr><td>2000-06-26</td><td>-5</td><td class="title-cell">약사회 반발 맞물려 당분간 파행 우려</td><td>0.721</td><td>0.865</td><td>0.36</td><td>0.43</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=7 · 미국 반도체 수출규제</span> · 반도체 · E_foreign_shock</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 339건 · PTEI 평균 <b>0.241</b> · Contradict 평균 <b>0.196</b> · 신호=-0.045 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.241<br>Contra: <span class="bar bar-red" style="width:162px"></span> 0.196</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2022-10-08</td><td>1</td><td class="title-cell">中 반도체 시장 위축되나…삼성·SK, 美 고강도 규제 예의주시</td><td>1.056</td><td>0.400</td><td>0.63</td><td>0.24</td></tr>
+<tr><td>2022-10-11</td><td>4</td><td class="title-cell">&quot;세계 반도체株 급락, 시총 344조 증발&quot;…美, 중국 겨냥 규제에 &#x27;와르르&#x27;</td><td>1.012</td><td>0.394</td><td>0.60</td><td>0.23</td></tr>
+<tr><td>2022-10-08</td><td>1</td><td class="title-cell">[EBN 오늘(8일) 이슈 종합] 中 반도체 시장 위축되나…삼성·SK, 美 고강도 규제 예의주시 등</td><td>1.005</td><td>0.432</td><td>0.60</td><td>0.26</td></tr>
+<tr><td>2022-10-07</td><td>0</td><td class="title-cell">미국, 반도체 장비 중국 수출 통제…한국 기업 영향 촉각</td><td>0.995</td><td>0.474</td><td>0.59</td><td>0.28</td></tr>
+<tr><td>2022-10-10</td><td>3</td><td class="title-cell">AMD 실적 쇼크에 美반도체주 된서리</td><td>0.974</td><td>0.201</td><td>0.70</td><td>0.14</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2022-10-12</td><td>5</td><td class="title-cell">삼성전자·SK하이닉스 반도체장비 수출통제 1년 유예‥코스피 상승</td><td>0.082</td><td>1.387</td><td>0.05</td><td>0.83</td></tr>
+<tr><td>2022-10-09</td><td>2</td><td class="title-cell">[사설] 이번엔 반도체 수출 통제, 미·중 갈등 장기 대책 세워야</td><td>0.702</td><td>0.845</td><td>0.42</td><td>0.50</td></tr>
+<tr><td>2022-10-12</td><td>5</td><td class="title-cell">미국, 삼성·SK 중국 공장은 반도체 장비 수출 통제 1년 유예</td><td>0.566</td><td>0.840</td><td>0.34</td><td>0.50</td></tr>
+<tr><td>2022-10-04</td><td>-3</td><td class="title-cell">미국의 대중 수출 규제 확대 소식에 美반도체주 &#x27;햇살&#x27;</td><td>0.170</td><td>0.824</td><td>0.12</td><td>0.59</td></tr>
+<tr><td>2022-10-12</td><td>5</td><td class="title-cell">[속보] 美, 삼성·SK 中공장 반도체 장비 수출통제 1년 유예</td><td>0.628</td><td>0.787</td><td>0.37</td><td>0.47</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=11 · 5개 은행 퇴출</span> · 금융/증권 · D_crisis_shock</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1239건 · PTEI 평균 <b>0.139</b> · Contradict 평균 <b>0.083</b> · 신호=-0.056 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.139<br>Contra: <span class="bar bar-red" style="width:119px"></span> 0.083</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>1998-06-24</td><td>-5</td><td class="title-cell">하락세 지속 300선 위협(증권시장)</td><td>1.539</td><td>0.194</td><td>0.77</td><td>0.10</td></tr>
+<tr><td>1998-07-01</td><td>2</td><td class="title-cell">[오늘의 증시시황] 신용경색 우려 하락세 지속..금융주 급락&quot; ...</td><td>1.212</td><td>0.243</td><td>0.61</td><td>0.12</td></tr>
+<tr><td>1998-06-30</td><td>1</td><td class="title-cell">[문닫는 경기은행] 강화된 기준 소급적용 반강제</td><td>1.154</td><td>0.436</td><td>0.58</td><td>0.22</td></tr>
+<tr><td>1998-06-29</td><td>0</td><td class="title-cell">5개은행 퇴출</td><td>1.045</td><td>0.536</td><td>0.52</td><td>0.27</td></tr>
+<tr><td>1998-06-27</td><td>-2</td><td class="title-cell">[1면톱] 퇴출은행 4곳 확실시 .. 빠르면 29일 영업정지&quot;</td><td>1.025</td><td>0.616</td><td>0.51</td><td>0.31</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>1998-07-01</td><td>2</td><td class="title-cell">엔화 강세로 3백선 복귀(시황)</td><td>0.286</td><td>1.456</td><td>0.14</td><td>0.73</td></tr>
+<tr><td>1998-06-27</td><td>-2</td><td class="title-cell">은행 5개 안팎 퇴출/不實 12곳 평가작업 완료… 내일 최종확정</td><td>0.810</td><td>0.722</td><td>0.41</td><td>0.36</td></tr>
+<tr><td>1998-07-02</td><td>3</td><td class="title-cell">퇴출銀 오늘 전산망 가동</td><td>0.433</td><td>0.717</td><td>0.31</td><td>0.51</td></tr>
+<tr><td>1998-07-03</td><td>4</td><td class="title-cell">외평채등 한국물가격 오름세로 반전</td><td>0.534</td><td>0.696</td><td>0.38</td><td>0.50</td></tr>
+<tr><td>1998-06-30</td><td>1</td><td class="title-cell">“5개銀 간부 2천명 정리 불가피”/이헌재 금감위원장 일문일답</td><td>0.771</td><td>0.683</td><td>0.39</td><td>0.34</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=35 · 쌍벌제</span> · 바이오/제약 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 75건 · PTEI 평균 <b>0.270</b> · Contradict 평균 <b>0.188</b> · 신호=-0.083 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.270<br>Contra: <span class="bar bar-red" style="width:139px"></span> 0.188</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2010-11-26</td><td>-2</td><td class="title-cell">&#x27;리베이트 쌍벌제&#x27;본격 시행…제약업계 혼란 가중</td><td>1.388</td><td>0.358</td><td>0.69</td><td>0.18</td></tr>
+<tr><td>2010-11-24</td><td>-4</td><td class="title-cell">[위기의 제약업계] 규제보다 육성 필요</td><td>1.186</td><td>0.127</td><td>0.85</td><td>0.09</td></tr>
+<tr><td>2010-11-22</td><td>-6</td><td class="title-cell">내년 바이오제약·헬스케어, 대기업이 주도하나</td><td>1.158</td><td>0.479</td><td>0.58</td><td>0.24</td></tr>
+<tr><td>2010-11-27</td><td>-1</td><td class="title-cell">28일부터 리베이트 받은 의료인도 형사처벌 ‘쌍벌제’ 시행</td><td>0.959</td><td>0.507</td><td>0.48</td><td>0.25</td></tr>
+<tr><td>2010-12-03</td><td>5</td><td class="title-cell">리베이트 쌍벌제, 대형 제약사도 ‘시름’</td><td>0.920</td><td>0.032</td><td>0.92</td><td>0.03</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2010-11-26</td><td>-2</td><td class="title-cell">‘쌍벌제’ 혼란 우려속 28일부터 시행</td><td>0.491</td><td>0.790</td><td>0.25</td><td>0.40</td></tr>
+<tr><td>2010-11-27</td><td>-1</td><td class="title-cell">‘쌍벌제’ 혼란 우려속 28일부터 시행</td><td>0.491</td><td>0.790</td><td>0.25</td><td>0.40</td></tr>
+<tr><td>2010-11-26</td><td>-2</td><td class="title-cell">리베이트 판결보니..&quot;과징금, 해당품목 총매출로 부과 정당&quot;</td><td>0.767</td><td>0.765</td><td>0.38</td><td>0.38</td></tr>
+<tr><td>2010-12-01</td><td>3</td><td class="title-cell">쌍벌제 시행, 유한양행 수혜 예상&lt;토러스證&gt;</td><td>0.121</td><td>0.762</td><td>0.12</td><td>0.76</td></tr>
+<tr><td>2010-11-28</td><td>0</td><td class="title-cell">의약품 `리베이트 쌍벌제` 시행</td><td>0.109</td><td>0.698</td><td>0.11</td><td>0.70</td></tr>
+</tbody></table></details>
+</div>
+<div class="card">
+<div class="card-head"><span><span class="policy">pn=28 · 8·2 대책</span> · 부동산/건설 · B_restriction_negative</span><span class="misaligned">❌ 불일치 (호재처럼 보도됨)</span></div>
+<div style="margin-top:8px; font-size:13px;">기사 1687건 · PTEI 평균 <b>0.325</b> · Contradict 평균 <b>0.230</b> · 신호=-0.096 </div>
+<div style="margin-top:6px; font-size:11px;">PTEI: <span class="bar" style="width:200px"></span> 0.325<br>Contra: <span class="bar bar-red" style="width:141px"></span> 0.230</div>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 PTEI 기사 (호재 톤으로 잡힌 — 모순일 가능성)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2017-08-03</td><td>1</td><td class="title-cell">‘규제종합세트’ 집값 하락… 부산 빠져 풍선효과 우려… 강남 대체 공급정책 필요</td><td>1.922</td><td>0.026</td><td>0.96</td><td>0.01</td></tr>
+<tr><td>2017-08-07</td><td>5</td><td class="title-cell">[&#x27;8·2대책&#x27; 후폭풍 분양절벽 오나] 실수요자까지 돈줄 옥좨...건설사 &quot;흥행커녕 미분양 걱정할 판&quot;</td><td>1.814</td><td>0.039</td><td>0.91</td><td>0.02</td></tr>
+<tr><td>2017-08-03</td><td>1</td><td class="title-cell">분양권 전매비율 전국 최고…양도세 50% 일괄적용</td><td>1.803</td><td>0.070</td><td>0.90</td><td>0.03</td></tr>
+<tr><td>2017-08-03</td><td>1</td><td class="title-cell">“예상보다 강한 규제” 재건축단지 술렁… 다주택자들 “급매로 내놔야하나” 고심</td><td>1.751</td><td>0.151</td><td>0.88</td><td>0.08</td></tr>
+<tr><td>2017-08-02</td><td>0</td><td class="title-cell">[8.2 대책] 건설업계 &quot;분양시장침체 불가피..하반기 우려&quot;</td><td>1.731</td><td>0.142</td><td>0.87</td><td>0.07</td></tr>
+</tbody></table></details>
+<details><summary style="cursor:pointer; margin-top:8px; font-size:13px;">▶ Top 5 Contradict 기사 (악재 톤으로 잡힌 — D_i=- 일치)</summary>
+<table><thead><tr><th>날짜</th><th>D±</th><th>제목</th><th>PTEI</th><th>Contra</th><th>p_sup</th><th>p_con</th></tr></thead><tbody>
+<tr><td>2017-08-07</td><td>5</td><td class="title-cell">[정정당담]실수요자 보호 위한 주택정책은</td><td>0.199</td><td>1.728</td><td>0.10</td><td>0.86</td></tr>
+<tr><td>2017-08-03</td><td>1</td><td class="title-cell">[8·2부동산대책] 세종시 투기과열지구 투기지역 중복지정 ‘극약처방’</td><td>0.204</td><td>1.691</td><td>0.10</td><td>0.85</td></tr>
+<tr><td>2017-08-05</td><td>3</td><td class="title-cell">초강도 8·2 부동산 대책 투기 열풍 잡히나?</td><td>0.246</td><td>1.680</td><td>0.12</td><td>0.84</td></tr>
+<tr><td>2017-08-03</td><td>1</td><td class="title-cell">건설, 8.2 부동산 대책 발표에 따른 타격 올해까진 미미</td><td>0.284</td><td>1.652</td><td>0.14</td><td>0.83</td></tr>
+<tr><td>2017-08-06</td><td>4</td><td class="title-cell">[주간추천주] 8·2 대책? 건설株 좋다…태영건설·한샘</td><td>0.300</td><td>1.542</td><td>0.12</td><td>0.64</td></tr>
+</tbody></table></details>
+</div>
+</body></html>
