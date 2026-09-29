@@ -1,116 +1,33 @@
-# v2 — NLP 트랙 (PPT-NLP / PTEI)
+# 초기 NLP 트랙 — PPT-NLP / PTEI
 
-**Policy-to-Price Transmission NLP v2.11**
-정책이 시장으로 번역되는 전달경로를 측정하는 계량 텍스트 분석 프레임워크
+이 디렉터리는 2026년 5월의 정책 뉴스 NLP 구현과 탐색 기록입니다. 당시 99,539건 코퍼스를 기준으로 작성한 자료이며, 이후 연구용 최종본·서울경제 납품본의 데이터 기준 및 분석 방법과 구별해야 합니다.
 
-본 디렉토리는 [v1 CAR 검증 트랙](../README.md)의 후속으로 진행한 NLP 트랙의 산출물이다. 같은 50건 정책의 뉴스 99,539건에서 정책 전달경로 증거(PTEI)를 측정한다.
+[현재의 개발 사례와 방법론 회고](https://soccz.github.io/projects/market-impact-v2/) · [개발 기여 및 커밋 이력](../docs/DEVELOPMENT.md)
 
-## 결과 요약
+## 구현한 질문
 
-| 항목 | 값 |
+기사 전체의 긍정·부정만 요약하는 대신, 정책 관련성과 지지·반박 내용을 정책 맥락과 함께 처리하려는 초기 구현입니다. 정책 카드에서 비교 가설을 만들고, 기사별 값을 계산한 뒤 정책·날짜별 패널로 집계합니다.
+
+## 코드 진입점
+
+| 단계 | 파일 |
 |---|---|
-| 처리 기사 | 99,539건 (102 언론사) |
-| 정책 카드 | 50건 (1.1 동결, 8 type_subtype) |
-| 사람-사람 라벨 κ | relevance 0.968 · stance 0.946 (Dev 100) |
-| Zero-shot baseline κ | 0.18~0.39 (fine-tune 필요성 확인) |
-| 1차 PTEI sum | 13,761.5 (PTEI/Contradiction 1.39) |
-| 인용 논문 | 19편 (papers/ → 외부 호스팅) |
-| 시각화 | 16개 (PNG·WebP·Plotly HTML) |
+| 정책 정보와 가설 생성 | [code/build](code/build/) |
+| 공통 점수 처리 | [ptei_utils.py](code/ptei_utils.py) |
+| 초기 추론 | [run_ptei_full_inference_batched.py](code/run_ptei_full_inference_batched.py) |
+| 정책·날짜별 집계 | [build_daily_ptei_panel.py](code/build_daily_ptei_panel.py) |
+| 점검 사례와 평가 | [code/sanity](code/sanity/), [code/eval](code/eval/) |
+| 학습·후속 추론 | [code/finetune](code/finetune/) |
+| 후속 결과 분석 | [code/analysis](code/analysis/) |
 
-## 보고서 페이지
+일부 코드는 당시 로컬 작업 경로 및 저장소 외부의 입력을 전제로 합니다. 실행 전 입력·출력 위치와 의존성, 자료 이용 권한을 확인해야 합니다. 이 문서 정리에서 전체 추론·학습을 다시 실행하지는 않았습니다.
 
-전체 narrative + 시각화는 GitHub Pages에서 확인:
-- **[Market Impact v2 보고서](https://soccz.github.io/projects/market-impact-v2/)** — 8 Part 해설형 보고서
+## 초기 문서를 읽을 때
 
-## 디렉토리 구조
+- [당시 실험 일지](docs/REPORT.md)는 개발 과정의 기록이며 현재 검증된 결과표가 아닙니다. 본문에 있는 가설·탐색 수치·향후 계획을 완료된 성과로 합쳐 읽지 않습니다.
+- 초기 Dev 100 자료에는 AI 생성·보조 라벨의 출처 문제가 명시돼 있습니다. 당시의 일치도 수치를 독립된 사람-사람 판독 일치도로 간주하지 않습니다.
+- 이후 Train 500 자료와 초기 Dev 100은 별개의 라벨링 단계입니다. 생성 주체와 검토 과정, 평가에 사용한 표본을 각각 확인해야 합니다.
+- 점수의 방향을 정의하거나 결과에 맞춰 설정을 탐색한 과정과 독립적인 예측 성능 검증은 구분합니다. 초기 문서의 '증명'·'인과'·'일치 보장' 표현을 현재의 실증 결론으로 사용하지 않습니다.
+- 공개되어 있다는 사실만으로 코드에 결합된 원천 기사·제3자 자료의 재배포 권한이 보장되지는 않습니다.
 
-```
-v2/
-├── docs/
-│   ├── REPORT.md                          ← 8 Part 보고서 (37KB)
-│   ├── NLP_방법론.md                       ← 본 방법론 (60KB, v2.11)
-│   └── labeling_guide_v1.1.md             ← 라벨링 가이드
-├── code/
-│   ├── ptei_utils.py                      ← PTEI 공통 유틸
-│   ├── run_ptei_full_inference_batched.py ← 99,539건 전수 추론
-│   ├── build_daily_ptei_panel.py          ← 일별 패널 생성
-│   ├── build/                              ← 카드·가설·파이프라인
-│   ├── sanity/                             ← 4번의 sanity 실험
-│   └── eval/                               ← κ 측정 + zero-shot 평가
-├── data/
-│   ├── policy_cards_v1.1.csv              ← 정책 카드 50건
-│   ├── policy_hypotheses_v1.1.csv         ← 가설 자동 생성 50×3
-│   ├── channel_keywords_v0.2.json         ← 6채널 시드
-│   ├── daily_ptei_panel.csv               ← 정책×날짜 일별 패널
-│   └── labels/                             ← pilot 30 + Dev 100 라벨
-├── reports/
-│   ├── ptei_inference_summary.md          ← 전수 추론 요약
-│   └── dev100_zero_shot_eval_summary.md   ← Zero-shot 평가
-└── figures/
-    ├── F1~F16 PNG/WebP                    ← 정적 시각화
-    └── F11·F13·F15.html                   ← Plotly 인터랙티브
-```
-
-## 방법론 핵심 (한 화면)
-
-```text
-PTEI_{a,c} = relevance_a
-           × I(channel_match_{a,c} ≥ τ_c)
-           × p_support_{a,c}
-           × specificity_a
-           × novelty_a
-```
-
-- **D_i** = sign(CAR_{i, [0, k_i]}) — 서강대 검증 산출물 (NLP 추정 금지, 앵커)
-- **6채널**: C1 비용 · C2 수요 · C3 공급 · C4 규제 · C5 유동성 · C6 심리
-- **검정**: H1 NewsFlow>Contradiction · H2 회귀 · H3 위약 2-track · H4 타이밍 · H5 lag
-
-## 재현 절차
-
-```bash
-# 1. 환경
-python3 -m venv .venv-nlp && source .venv-nlp/bin/activate
-pip install transformers torch sentencepiece openpyxl pandas matplotlib plotly scikit-learn
-
-# 2. 정책 카드·가설 v1.1 재생성
-python code/build/build_v1_1_pipeline.py
-
-# 3. Sanity check (선택)
-python code/sanity/sanity_check_v3_1.py
-python code/sanity/sanity_check_D_channel_match_v1_1.py
-
-# 4. 라벨 κ 계산
-python code/eval/calc_kappa_dev100.py
-
-# 5. 99,539건 전수 추론 (CPU 4시간 / MPS 30~40분)
-python code/run_ptei_full_inference_batched.py
-python code/build_daily_ptei_panel.py
-
-# 6. 시각화 16개 생성
-python code/make_figures_part1.py
-python code/make_figures_part2.py
-python code/make_figures_part3.py
-```
-
-## 주의
-
-- 원본 기사 코퍼스 `50_전체기사_99539건.csv` (75MB)는 GitHub 제외 — 외부 호스팅 또는 BigKinds API 재수집 필요
-- BigKinds API 키는 `.env`로 외부 보관 (코드에 hardcoding 금지)
-- 라벨 데이터의 `labelerB` 컬럼 `human_simulated_labelerB`는 외부 제출 전 정직성 표기 정리 필요
-- Test set 300건은 분석 종료 시점까지 1회 평가만 허용 (NLP_방법론.md §0.3 #6)
-
-## 인용
-
-본 방법론은 19편 선행연구를 결합·재구성했다 (Tetlock 2007, Loughran-McDonald 2011, Baker-Bloom-Davis 2016, KLUE 2021, FinBERT 2019/2020, BERTopic 2022, Adams-MacKay 2007 등). 자세한 매핑은 [REPORT.md §11](docs/REPORT.md) 또는 [NLP_방법론.md §11.1](docs/NLP_방법론.md) 참조.
-
-## 다음 단계
-
-1. **서강대 CAR 결합** — H1~H5 검정 (CAR 산출물 도착 시)
-2. **Train 500 라벨링** — fine-tune 시드 (외부 라벨러 1~2주)
-3. **KLUE-RoBERTa fine-tune** — 사람-사람 κ 0.95 라벨로 stance 분류기 학습
-4. **2차 PTEI 재추론** — fine-tuned 모델로
-5. **5부작 기사 + 인터랙티브 시각화** — 한국언론진흥재단 산출물
-
----
-
-*PPT-NLP v2.11 · 서울경제 × 서강대 김세준 교수 연구실 · 2026.05*
+공통 분석 구조를 개발하면서 어떤 판단을 했는지는 홈페이지에서, 구체적인 초기 구현은 이 디렉터리에서 확인할 수 있습니다. 이후 납품 데이터와 내부 협의 자료를 추가 공개하기 위한 문서는 아닙니다.

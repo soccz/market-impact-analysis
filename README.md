@@ -1,65 +1,47 @@
 # Policy & Market Impact Analysis
 
-정책 변수와 자본시장 반응에 관한 정량적 분석 코드입니다.
+정책 뉴스와 시장 데이터를 연결하는 분석 파이프라인의 공개 개발 기록입니다. **soccz가 담당한 데이터 처리·NLP 분석·집계·결과 생성 구현**을 정리합니다.
 
-## Structure
+교수님의 연구 요구와 피드백을 반영한 분석 기반을 개발하고, 서울경제의 기획취재 요구에 맞춰 정책별 흐름과 시각화용 데이터·보고서 생성 과정으로 확장했습니다. 이 저장소는 그중 **2026년 3~5월의 초기 공개 구현**을 중심으로 합니다. 이후 연구용 최종본과 서울경제 납품 코드·데이터 전체를 포함하지 않습니다.
 
-```
-.
-├── verify_50_events.py              # 50건 이벤트 주가 변동 검증
-├── scripts/
-│   ├── build_reproducible_data_package.py   # 검증 가능 데이터 패키지 생성
-│   ├── collect_japan_regulation_dataset.py   # 사례 B: 소재 공급 충격 분석
-│   └── collect_kchips_dataset.py            # 사례 A: 반도체 세제 정책 분석
-├── data/
-│   └── verification_results.csv     # 50건 검증 결과
-└── assets/
-    ├── case_a_visualization.png     # 사례 A 시각화
-    └── case_b_visualization.png     # 사례 B 시각화
-```
+- [방법론을 고민한 과정과 다음 연구 구상](https://soccz.github.io/projects/market-impact-v2/)
+- [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
+- [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
+- [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
 
-## Overview
+## 직접 구현한 범위
 
-- **50건 이벤트 검증**: 1998~2025년, 5개 산업 섹터 x 10건
-- **이벤트 스터디**: CAR/AR 산출, KOSPI 벤치마크 대비 초과수익 측정
-- **NLP 감성분석**: 뉴스 기사 감성(긍정/중립/부정) 분류 및 순감성지수 추적
-- **인과관계 검정**: Granger causality, ADF 단위근 검정, 비율검정
+| 업무 | 공개된 초기 구현 |
+|---|---|
+| 이벤트·기사·시장 데이터 연결 및 계산값 확인 | `verify_50_events.py`, `scripts/` |
+| 정책 정보를 입력으로 비교 가설 생성 | `v2/code/build/` |
+| 정책 맥락의 뉴스 점수화와 일별 집계 | `v2/code/ptei_utils.py`, `v2/code/build_daily_ptei_panel.py` |
+| 점검 사례·라벨 비교·학습 및 추론 | `v2/code/sanity/`, `v2/code/eval/`, `v2/code/finetune/` |
+| 중간 결과 분석과 시각화 | `v2/code/analysis/`, `v2/code/make_figures_part*.py` |
 
-## Requirements
+사전학습 모델과 공개 라이브러리를 활용해 분석에 필요한 처리 과정을 구현했습니다. 연구 요구와 검토에는 지도교수님·연구실이, 기획취재 요구와 보도·편집에는 서울경제가 참여했습니다. 개발 기여의 설명은 법률상 권리 귀속이나 단독 저작자라는 주장을 대신하지 않습니다.
 
-```
-pip install FinanceDataReader pandas numpy matplotlib scipy statsmodels openpyxl beautifulsoup4 requests
-```
+## 기록을 읽는 기준
 
-## Usage
+- 초기 이벤트 분석과 후속 NLP 실험은 서로 다른 단계입니다. 개별 수치를 이후 최종 분석의 성과로 합쳐 읽지 않습니다.
+- 텍스트와 수익률의 동행·방향 비교는 예측 정확도나 인과 효과의 입증과 구분합니다.
+- 초기 문서에는 라벨 출처, 표본 구성, 탐색 결과의 해석에 관한 한계가 있습니다. 사람의 독립 판독과 AI 생성·보조 라벨을 구별해야 합니다.
+- 기존 공개 파일은 개발 이력의 일부입니다. 이 소개가 원천 데이터나 제3자 자료의 재배포 권한을 부여하지는 않습니다.
+
+## 실행에 관하여
+
+공개 관련성 규칙은 아래 명령으로 합성 입력 네 건에 직접 실행할 수 있습니다. Python 표준 라이브러리만 사용합니다. [입력·실제 결과·해석 범위](docs/REPRODUCIBLE_EXAMPLES.md)를 함께 정리했습니다.
 
 ```bash
-# 50건 이벤트 주가 변동 검증
-python verify_50_events.py
-
-# 사례 분석 데이터셋 수집 (API 키 필요)
-export BIGKINDS_KEY="your_api_key"
-python scripts/collect_kchips_dataset.py
-python scripts/collect_japan_regulation_dataset.py
-
-# 검증 가능 데이터 패키지 생성
-python scripts/build_reproducible_data_package.py
+python examples/methodology_demo.py --check
 ```
 
-## Verification
+일부 스크립트에는 당시 작업 경로와 별도로 준비해야 할 입력이 남아 있습니다. 저장소를 내려받는 것만으로 모든 실험이 그대로 재현된다고 보장하지 않습니다. 실행 전 해당 스크립트의 입력 경로, 데이터 이용 권한, 의존성, 출력 위치를 확인해야 합니다.
 
-| 검증 항목 | 결과 |
-|----------|------|
-| FDR 수익률 재현 (2014~) | 33/33 PASS, 오차 0.00% |
-| 크롤링 데이터 재현 (~2013) | 17/17 PASS, 오차 0.00% |
-| 방향 일치 검증 | 50/50 PASS |
-| 날짜 팩트체크 | 41 PASS / 9 WARN / 0 FAIL |
+[초기 NLP 트랙 안내](v2/README.md)에서 전체 구현의 진입점을 확인할 수 있습니다. 이번에는 합성 입력의 관련성 함수만 실행했으며 전체 코퍼스 추론이나 모델 학습은 다시 수행하지 않았습니다.
 
-## Sub-tracks
+## 변경 이력
 
-- **v1 (1차 CAR 검증)**: 본 디렉토리 (`verify_50_events.py`, `scripts/`, `data/`, `assets/`)
-- **v2 (NLP 트랙 — PTEI)**: [`v2/`](v2/) — Policy-to-Price Transmission NLP v2.11
+원래 커밋을 보존하고 현재 설명을 추가하는 방식으로 관리합니다. 최초 이벤트 분석은 [2026-03-26 커밋](https://github.com/soccz/market-impact-analysis/commit/15c1775), NLP 확장은 [2026-05-17 커밋](https://github.com/soccz/market-impact-analysis/commit/bb6fc2c), 라벨링·학습·후속 분석 확장은 [2026-05-20 커밋](https://github.com/soccz/market-impact-analysis/commit/5193cbb)에 기록돼 있습니다.
 
-## Project Page
-
-[https://soccz.github.io](https://soccz.github.io)
+2026년 9월의 개인 후속 연구는 기존 개발 실적과 구별합니다. 별도 로컬 프로토타입의 합성 입력 검증과 실제 뉴스·시장 성능의 검증은 다른 단계입니다. 후자는 아직 수행하지 않았으며 신규 구상을 납품 성과로 표시하지 않습니다. 공개 개요와 구현 상태는 [개발 기록](docs/DEVELOPMENT.md)에 설명했습니다.
