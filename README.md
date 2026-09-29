@@ -8,6 +8,7 @@
 - [3–8월의 문제·실험·수정·후속 적용 과정](docs/DEVELOPMENT_JOURNEY.md)
 - [수집부터 검수까지 전체 구현 지도](docs/WORKSTREAMS.md)
 - [원본 코드와 합성 입력으로 읽는 네 가지 구현 사례](docs/ENGINEERING_CASES.md)
+- [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
 - [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
 - [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
