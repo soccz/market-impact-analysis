@@ -6,6 +6,8 @@
 
 - [방법론을 고민한 과정과 다음 연구 구상](https://soccz.github.io/projects/market-impact-v2/)
 - [3–8월의 문제·실험·수정·후속 적용 과정](docs/DEVELOPMENT_JOURNEY.md)
+- [수집부터 검수까지 전체 구현 지도](docs/WORKSTREAMS.md)
+- [원본 코드와 합성 입력으로 읽는 네 가지 구현 사례](docs/ENGINEERING_CASES.md)
 - [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
 - [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
@@ -34,6 +36,14 @@
 - 텍스트와 수익률의 동행·방향 비교는 예측 정확도나 인과 효과의 입증과 구분합니다.
 - 초기 문서에는 라벨 출처, 표본 구성, 탐색 결과의 해석에 관한 한계가 있습니다. 사람의 독립 판독과 AI 생성·보조 라벨을 구별해야 합니다.
 - 기존 공개 파일은 개발 이력의 일부입니다. 이 소개가 원천 데이터나 제3자 자료의 재배포 권한을 부여하지는 않습니다.
+
+## 더 깊게 읽는 구현
+
+[전체 구현 지도](docs/WORKSTREAMS.md)는 사건·수집·규칙·판독 도구·배치 추론·모델 실행·종목 구성·비교·검증·별도 예측 실험·보고·전달 검수를 연결합니다. [네 가지 구현 사례](docs/ENGINEERING_CASES.md)에서는 공개 합의 프로그램을 가상 판독 파일로 실행해 자동 처리와 재검토, 누락과 분기 우선순위까지 확인합니다. 날짜·커버리지 사례는 이번 회고에서 만든 별도의 설명용 계산입니다.
+
+```bash
+python examples/engineering_demo.py --check
+```
 
 ## 실행에 관하여
 
