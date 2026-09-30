@@ -1,0 +1,5167 @@
+{
+  "models": {
+    "character": {
+      "initial_joint": {
+        "mean": 0.6805555555555556,
+        "min": 0.6805555555555556,
+        "max": 0.6805555555555556,
+        "seeds": [
+          0.6805555555555556
+        ]
+      },
+      "fit_joint": {
+        "mean": 0.6805555555555556,
+        "min": 0.6805555555555556,
+        "max": 0.6805555555555556,
+        "seeds": [
+          0.6805555555555556
+        ]
+      },
+      "fit_axes": {
+        "mean": 0.7517361111111112,
+        "min": 0.7517361111111112,
+        "max": 0.7517361111111112,
+        "seeds": [
+          0.7517361111111112
+        ]
+      },
+      "held_axes": {
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "seeds": [
+          0.5
+        ]
+      },
+      "seen_axes": {
+        "mean": 0.8020833333333334,
+        "min": 0.8020833333333334,
+        "max": 0.8020833333333334,
+        "seeds": [
+          0.8020833333333334
+        ]
+      },
+      "official_axes": {
+        "mean": 0.3333333333333333,
+        "min": 0.3333333333333333,
+        "max": 0.3333333333333333,
+        "seeds": [
+          0.3333333333333333
+        ]
+      },
+      "official_joint": {
+        "mean": 0.08333333333333333,
+        "min": 0.08333333333333333,
+        "max": 0.08333333333333333,
+        "seeds": [
+          0.08333333333333333
+        ]
+      },
+      "distractor_joint": {
+        "mean": 0.1371527777777778,
+        "min": 0.1371527777777778,
+        "max": 0.1371527777777778,
+        "seeds": [
+          0.1371527777777778
+        ]
+      },
+      "units_joint": {
+        "mean": 0.052083333333333336,
+        "min": 0.052083333333333336,
+        "max": 0.052083333333333336,
+        "seeds": [
+          0.052083333333333336
+        ]
+      }
+    },
+    "flat": {
+      "initial_joint": {
+        "mean": 0.017939814814814815,
+        "min": 0.008680555555555556,
+        "max": 0.027777777777777776,
+        "seeds": [
+          0.008680555555555556,
+          0.017361111111111112,
+          0.027777777777777776
+        ]
+      },
+      "fit_joint": {
+        "mean": 0.7534722222222223,
+        "min": 0.7065972222222222,
+        "max": 0.8177083333333334,
+        "seeds": [
+          0.7065972222222222,
+          0.8177083333333334,
+          0.7361111111111112
+        ]
+      },
+      "fit_axes": {
+        "mean": 0.8177083333333334,
+        "min": 0.8125,
+        "max": 0.8229166666666666,
+        "seeds": [
+          0.8229166666666666,
+          0.8177083333333334,
+          0.8125
+        ]
+      },
+      "held_axes": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "seeds": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "seen_axes": {
+        "mean": 0.9812500000000001,
+        "min": 0.975,
+        "max": 0.9875,
+        "seeds": [
+          0.9875,
+          0.98125,
+          0.975
+        ]
+      },
+      "official_axes": {
+        "mean": 0.19444444444444442,
+        "min": 0.16666666666666666,
+        "max": 0.25,
+        "seeds": [
+          0.25,
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "official_joint": {
+        "mean": 0.08333333333333333,
+        "min": 0.08333333333333333,
+        "max": 0.08333333333333333,
+        "seeds": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "distractor_joint": {
+        "mean": 0.003472222222222222,
+        "min": 0.0,
+        "max": 0.010416666666666666,
+        "seeds": [
+          0.0,
+          0.010416666666666666,
+          0.0
+        ]
+      },
+      "units_joint": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "seeds": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "flat_marginal": {
+      "initial_joint": {
+        "mean": 0.015625,
+        "min": 0.010416666666666666,
+        "max": 0.024305555555555556,
+        "seeds": [
+          0.010416666666666666,
+          0.024305555555555556,
+          0.012152777777777778
+        ]
+      },
+      "fit_joint": {
+        "mean": 0.7604166666666666,
+        "min": 0.7065972222222222,
+        "max": 0.8263888888888888,
+        "seeds": [
+          0.7065972222222222,
+          0.8263888888888888,
+          0.7482638888888888
+        ]
+      },
+      "fit_axes": {
+        "mean": 0.8258101851851851,
+        "min": 0.8229166666666666,
+        "max": 0.828125,
+        "seeds": [
+          0.8229166666666666,
+          0.8263888888888888,
+          0.828125
+        ]
+      },
+      "held_axes": {
+        "mean": 0.04861111111111111,
+        "min": 0.0,
+        "max": 0.09375,
+        "seeds": [
+          0.0,
+          0.052083333333333336,
+          0.09375
+        ]
+      },
+      "seen_axes": {
+        "mean": 0.9812500000000001,
+        "min": 0.975,
+        "max": 0.9875,
+        "seeds": [
+          0.9875,
+          0.98125,
+          0.975
+        ]
+      },
+      "official_axes": {
+        "mean": 0.19444444444444442,
+        "min": 0.16666666666666666,
+        "max": 0.25,
+        "seeds": [
+          0.25,
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "official_joint": {
+        "mean": 0.08333333333333333,
+        "min": 0.08333333333333333,
+        "max": 0.08333333333333333,
+        "seeds": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "distractor_joint": {
+        "mean": 0.003472222222222222,
+        "min": 0.0,
+        "max": 0.010416666666666666,
+        "seeds": [
+          0.0,
+          0.010416666666666666,
+          0.0
+        ]
+      },
+      "units_joint": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "seeds": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "factor": {
+      "initial_joint": {
+        "mean": 0.03298611111111111,
+        "min": 0.019097222222222224,
+        "max": 0.041666666666666664,
+        "seeds": [
+          0.041666666666666664,
+          0.03819444444444445,
+          0.019097222222222224
+        ]
+      },
+      "fit_joint": {
+        "mean": 0.8819444444444443,
+        "min": 0.8350694444444444,
+        "max": 0.9131944444444444,
+        "seeds": [
+          0.8350694444444444,
+          0.9131944444444444,
+          0.8975694444444444
+        ]
+      },
+      "fit_axes": {
+        "mean": 0.9039351851851851,
+        "min": 0.8993055555555556,
+        "max": 0.9131944444444444,
+        "seeds": [
+          0.8993055555555556,
+          0.9131944444444444,
+          0.8993055555555556
+        ]
+      },
+      "held_axes": {
+        "mean": 0.4895833333333333,
+        "min": 0.46875,
+        "max": 0.53125,
+        "seeds": [
+          0.46875,
+          0.53125,
+          0.46875
+        ]
+      },
+      "seen_axes": {
+        "mean": 0.9868055555555556,
+        "min": 0.9854166666666667,
+        "max": 0.9895833333333334,
+        "seeds": [
+          0.9854166666666667,
+          0.9895833333333334,
+          0.9854166666666667
+        ]
+      },
+      "official_axes": {
+        "mean": 0.27777777777777773,
+        "min": 0.25,
+        "max": 0.3333333333333333,
+        "seeds": [
+          0.3333333333333333,
+          0.25,
+          0.25
+        ]
+      },
+      "official_joint": {
+        "mean": 0.13888888888888887,
+        "min": 0.08333333333333333,
+        "max": 0.16666666666666666,
+        "seeds": [
+          0.16666666666666666,
+          0.08333333333333333,
+          0.16666666666666666
+        ]
+      },
+      "distractor_joint": {
+        "mean": 0.006365740740740741,
+        "min": 0.0,
+        "max": 0.019097222222222224,
+        "seeds": [
+          0.0,
+          0.019097222222222224,
+          0.0
+        ]
+      },
+      "units_joint": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "seeds": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "evidence": {
+      "initial_joint": {
+        "mean": 0.032407407407407406,
+        "min": 0.022569444444444444,
+        "max": 0.043402777777777776,
+        "seeds": [
+          0.043402777777777776,
+          0.03125,
+          0.022569444444444444
+        ]
+      },
+      "fit_joint": {
+        "mean": 0.8831018518518517,
+        "min": 0.8333333333333334,
+        "max": 0.9114583333333334,
+        "seeds": [
+          0.8333333333333334,
+          0.9114583333333334,
+          0.9045138888888888
+        ]
+      },
+      "fit_axes": {
+        "mean": 0.9108796296296297,
+        "min": 0.9045138888888888,
+        "max": 0.9166666666666666,
+        "seeds": [
+          0.9166666666666666,
+          0.9114583333333334,
+          0.9045138888888888
+        ]
+      },
+      "held_axes": {
+        "mean": 0.5277777777777778,
+        "min": 0.5,
+        "max": 0.5625,
+        "seeds": [
+          0.5625,
+          0.5208333333333334,
+          0.5
+        ]
+      },
+      "seen_axes": {
+        "mean": 0.9874999999999999,
+        "min": 0.9854166666666667,
+        "max": 0.9895833333333334,
+        "seeds": [
+          0.9875,
+          0.9895833333333334,
+          0.9854166666666667
+        ]
+      },
+      "official_axes": {
+        "mean": 0.25,
+        "min": 0.25,
+        "max": 0.25,
+        "seeds": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "official_joint": {
+        "mean": 0.1111111111111111,
+        "min": 0.08333333333333333,
+        "max": 0.16666666666666666,
+        "seeds": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.16666666666666666
+        ]
+      },
+      "distractor_joint": {
+        "mean": 0.008101851851851851,
+        "min": 0.0,
+        "max": 0.024305555555555556,
+        "seeds": [
+          0.0,
+          0.024305555555555556,
+          0.0
+        ]
+      },
+      "units_joint": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "seeds": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "seed_rows": [
+    {
+      "model": "flat",
+      "seed": 17,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.7065972222222222,
+      "official_axes": 0.25,
+      "threshold": 0.66,
+      "accepted": 314,
+      "wrong": 26,
+      "official_accepted": 8,
+      "official_wrong": 7,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "flat",
+      "seed": 42,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.8177083333333334,
+      "official_axes": 0.16666666666666666,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 105,
+      "official_accepted": 12,
+      "official_wrong": 11,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.010416666666666666,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "flat",
+      "seed": 2026,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.7361111111111112,
+      "official_axes": 0.16666666666666666,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 152,
+      "official_accepted": 12,
+      "official_wrong": 11,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "factor",
+      "seed": 17,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.8350694444444444,
+      "official_axes": 0.3333333333333333,
+      "threshold": 0.66,
+      "accepted": 355,
+      "wrong": 17,
+      "official_accepted": 9,
+      "official_wrong": 8,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "factor",
+      "seed": 42,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.9131944444444444,
+      "official_axes": 0.25,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 50,
+      "official_accepted": 12,
+      "official_wrong": 11,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.019097222222222224,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "factor",
+      "seed": 2026,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.8975694444444444,
+      "official_axes": 0.25,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 59,
+      "official_accepted": 12,
+      "official_wrong": 10,
+      "evidence_character_f1": 0.0,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "evidence",
+      "seed": 17,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.8333333333333334,
+      "official_axes": 0.25,
+      "threshold": 0.66,
+      "accepted": 373,
+      "wrong": 18,
+      "official_accepted": 8,
+      "official_wrong": 7,
+      "evidence_character_f1": 0.9886804657179818,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "evidence",
+      "seed": 42,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.9114583333333334,
+      "official_axes": 0.25,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 51,
+      "official_accepted": 12,
+      "official_wrong": 11,
+      "evidence_character_f1": 0.9877755889575519,
+      "distractor_joint": 0.024305555555555556,
+      "unit_joint": 0.0
+    },
+    {
+      "model": "evidence",
+      "seed": 2026,
+      "training_joint": 1.0,
+      "evaluation_joint": 0.9045138888888888,
+      "official_axes": 0.25,
+      "threshold": 0.0,
+      "accepted": 576,
+      "wrong": 55,
+      "official_accepted": 12,
+      "official_wrong": 10,
+      "evidence_character_f1": 0.9831487982716716,
+      "distractor_joint": 0.0,
+      "unit_joint": 0.0
+    }
+  ],
+  "evidence_matrix": [
+    [
+      1.0,
+      0.5277777777777778,
+      0.9861111111111112,
+      1.0,
+      1.0,
+      0.7638888888888888
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5694444444444444,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.5138888888888888,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "official": [
+    {
+      "case": {
+        "id": "incheon-error",
+        "text": "공사비 산출 오류에 따른 공사비 정정 - (당초) 289,000천원 / (변경) 169,206천원",
+        "relation": "correction",
+        "spans": [
+          {
+            "start": 28,
+            "end": 37,
+            "text": "289,000천원",
+            "won": "289000000",
+            "role": "before"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "text": "169,206천원",
+            "won": "169206000",
+            "role": "after"
+          }
+        ],
+        "url": "https://www.incheon.go.kr/jonggeon/JO020101/3008010",
+        "publisher": "인천광역시 종합건설본부",
+        "date": "2025-04-21",
+        "note": "Newly inspected source; explicit calculation error. Before/after report values, not a claim that actual spending changed. v3 labels and prospective roles newly assigned; v2 immutable. Non-finalized is not a denial.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "source_normalized_sha256": "d42140ced62a6999d487520a4ae62c31fbe0cbe1886185177b4521a842841825",
+        "excerpt_start": 803,
+        "excerpt_end": 857,
+        "retrieved_utc": "2026-09-30T10:55:34.660666+00:00",
+        "reuse": "Short attributed excerpt; KOGL attribution notice observed on source page. No full-page redistribution.",
+        "query": "공사비",
+        "state": "asserted",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": true,
+        "pair_id": "incheon-error",
+        "evidence": [
+          {
+            "start": 4,
+            "end": 20,
+            "text": "산출 오류에 따른 공사비 정정",
+            "kind": "relation"
+          }
+        ],
+        "state_ambiguity": []
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "correction",
+            "state": "asserted",
+            "confidence": 0.22397460846188857,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "before",
+                "probabilities": [
+                  0.2380484664086317,
+                  0.4553534145988293,
+                  0.3065981189925391
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "before",
+                "probabilities": [
+                  0.2256432374704408,
+                  0.6349523181443488,
+                  0.1394044443852104
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.4653792977333069,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.07057543843984604,
+                  0.18792879581451416,
+                  0.7414957880973816
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.1803140491247177,
+                  0.0016456777229905128,
+                  0.8180402517318726
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.39717164635658264,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.12032423168420792,
+                  0.22845618426799774,
+                  0.6512195467948914
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.14096806943416595,
+                  0.0016500174533575773,
+                  0.8573819398880005
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.571374773979187,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.08178602159023285,
+                  0.17700766026973724,
+                  0.7412063479423523
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.06237601116299629,
+                  0.0004209954640828073,
+                  0.9372029304504395
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "correction",
+            "state": "hypothetical",
+            "confidence": 0.3862244784832001,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.07869887351989746,
+                  0.2354678511619568,
+                  0.685833215713501
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.18799562752246857,
+                  0.005598423536866903,
+                  0.8064059019088745
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.5080621242523193,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.12175517529249191,
+                  0.2537786364555359,
+                  0.6244661808013916
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.15383310616016388,
+                  0.003219613339751959,
+                  0.8429473638534546
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.7140085101127625,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.08433156460523605,
+                  0.2016599327325821,
+                  0.7140085101127625
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.08010615408420563,
+                  0.0011883057886734605,
+                  0.9187055826187134
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "correction",
+            "state": "hypothetical",
+            "confidence": 0.40588462352752686,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.06718112528324127,
+                  0.2216203659772873,
+                  0.7111985087394714
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.1900360882282257,
+                  0.0037383437156677246,
+                  0.806225597858429
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 20,
+                "kind": "relation",
+                "text": "공사비 산출 오류에 따른 공사비 정정"
+              },
+              {
+                "start": 40,
+                "end": 43,
+                "kind": "relation",
+                "text": "(변경"
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.46788129210472107,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.11342791467905045,
+                  0.2352776676416397,
+                  0.6512944102287292
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.1403999775648117,
+                  0.0016226290026679635,
+                  0.8579773902893066
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 20,
+                "kind": "relation",
+                "text": "공사비 산출 오류에 따른 공사비 정정"
+              },
+              {
+                "start": 40,
+                "end": 43,
+                "kind": "relation",
+                "text": "(변경"
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.6752116680145264,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 28,
+                "end": 37,
+                "text": "289,000천원",
+                "won": "289000000",
+                "role": "after",
+                "probabilities": [
+                  0.07556967437267303,
+                  0.20495843887329102,
+                  0.7194718718528748
+                ]
+              },
+              {
+                "start": 45,
+                "end": 54,
+                "text": "169,206천원",
+                "won": "169206000",
+                "role": "after",
+                "probabilities": [
+                  0.07817448675632477,
+                  0.0010355513077229261,
+                  0.9207900166511536
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 20,
+                "kind": "relation",
+                "text": "공사비 산출 오류에 따른 공사비 정정"
+              },
+              {
+                "start": 40,
+                "end": 43,
+                "kind": "relation",
+                "text": "(변경"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "youth-increase",
+        "text": "자립준비 청년에게 지원되는 자립수당은 월 40만 원에서 50만 원으로 인상하고 멘토링, 장학금 등 민간 협력을 강화한다.",
+        "relation": "policy_change",
+        "spans": [
+          {
+            "start": 23,
+            "end": 28,
+            "text": "40만 원",
+            "won": "400000",
+            "role": "before"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "text": "50만 원",
+            "won": "500000",
+            "role": "after"
+          }
+        ],
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148920503",
+        "publisher": "보건복지부·정책브리핑",
+        "date": "2023-09-19",
+        "note": "Known v1 source. Announced benefit increase; passage-level relation, not proof of later implementation. v3 labels and prospective roles newly assigned; v2 immutable. Non-finalized is not a denial.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "source_normalized_sha256": "9379eec5c2cbc0261772c73bcd9564977b355a3188c37a8c8135353d4ef14b5f",
+        "excerpt_start": 1648,
+        "excerpt_end": 1715,
+        "retrieved_utc": "2026-09-30T10:55:35.368626+00:00",
+        "reuse": "Short attributed excerpt; KOGL attribution notice observed on source page. No full-page redistribution.",
+        "query": "자립수당",
+        "state": "asserted",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": true,
+        "pair_id": "youth-increase",
+        "evidence": [
+          {
+            "start": 39,
+            "end": 43,
+            "text": "인상하고",
+            "kind": "relation"
+          }
+        ],
+        "state_ambiguity": [
+          "asserted",
+          "planned"
+        ]
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "hypothetical",
+            "confidence": 0.21242216894545288,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.18887750761020244,
+                  0.5041142384506335,
+                  0.307008253939164
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.21435377696198168,
+                  0.28367460254340054,
+                  0.5019716204946179
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8972848057746887,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.0013987403362989426,
+                  0.9913139343261719,
+                  0.007287271786481142
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.0009227595292031765,
+                  0.0014318510657176375,
+                  0.997645378112793
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8425151109695435,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.0026721314061433077,
+                  0.9887566566467285,
+                  0.0085712606087327
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.009916654787957668,
+                  0.008675483986735344,
+                  0.981407880783081
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8669636249542236,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.016331667080521584,
+                  0.8669636249542236,
+                  0.11670467257499695
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.00577005697414279,
+                  0.0011577653931453824,
+                  0.9930722117424011
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.9853990077972412,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.0016234288923442364,
+                  0.9879788756370544,
+                  0.0103977145627141
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.0010509502608329058,
+                  0.0020841548684984446,
+                  0.9968649744987488
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.970098078250885,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.0019149030558764935,
+                  0.994062602519989,
+                  0.004022474866360426
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.012615176849067211,
+                  0.009144135750830173,
+                  0.9782406687736511
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8084240555763245,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.014850915409624577,
+                  0.8084240555763245,
+                  0.17672498524188995
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.0039902362041175365,
+                  0.0007255547679960728,
+                  0.9952842593193054
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.9849345684051514,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.0019421527395024896,
+                  0.9849345684051514,
+                  0.013123312033712864
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.0015693128807470202,
+                  0.002074392279610038,
+                  0.9963563084602356
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 4,
+                "kind": "state",
+                "text": "비"
+              },
+              {
+                "start": 41,
+                "end": 43,
+                "kind": "relation",
+                "text": "하고"
+              },
+              {
+                "start": 55,
+                "end": 57,
+                "kind": "relation",
+                "text": "민간"
+              },
+              {
+                "start": 62,
+                "end": 67,
+                "kind": "state",
+                "text": "강화한다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.9732102155685425,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.003634871682152152,
+                  0.980339527130127,
+                  0.016025589779019356
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.010422001592814922,
+                  0.004112616181373596,
+                  0.9854653477668762
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 4,
+                "kind": "relation",
+                "text": "비"
+              },
+              {
+                "start": 39,
+                "end": 41,
+                "kind": "relation",
+                "text": "인상"
+              },
+              {
+                "start": 41,
+                "end": 43,
+                "kind": "state",
+                "text": "하고"
+              },
+              {
+                "start": 55,
+                "end": 57,
+                "kind": "relation",
+                "text": "민간"
+              },
+              {
+                "start": 62,
+                "end": 67,
+                "kind": "state",
+                "text": "강화한다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7985488772392273,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 23,
+                "end": 28,
+                "text": "40만 원",
+                "won": "400000",
+                "role": "before",
+                "probabilities": [
+                  0.011895467527210712,
+                  0.7985488772392273,
+                  0.18955568969249725
+                ]
+              },
+              {
+                "start": 31,
+                "end": 36,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "after",
+                "probabilities": [
+                  0.0036730135325342417,
+                  0.000581405300181359,
+                  0.9957455992698669
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 4,
+                "kind": "relation",
+                "text": "비"
+              },
+              {
+                "start": 39,
+                "end": 43,
+                "kind": "relation",
+                "text": "인상하고"
+              },
+              {
+                "start": 55,
+                "end": 57,
+                "kind": "relation",
+                "text": "민간"
+              },
+              {
+                "start": 60,
+                "end": 61,
+                "kind": "relation",
+                "text": "을"
+              },
+              {
+                "start": 62,
+                "end": 67,
+                "kind": "state",
+                "text": "강화한다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "wonju-increase",
+        "text": "올해 원주사랑상품권 발행규모를 당초 600억 원에서 1,300억 원으로 대폭 늘렸다.",
+        "relation": "policy_change",
+        "spans": [
+          {
+            "start": 20,
+            "end": 26,
+            "text": "600억 원",
+            "won": "60000000000",
+            "role": "before"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "text": "1,300억 원",
+            "won": "130000000000",
+            "role": "after"
+          }
+        ],
+        "url": "https://www.wonju.go.kr/media/selectBbsNttView.do?bbsNo=145&key=3450&nttNo=416729",
+        "publisher": "원주시",
+        "date": "2023",
+        "note": "Known v1 source. Issuance level increased, not reported error or increment value. v3 labels and prospective roles newly assigned; v2 immutable. Non-finalized is not a denial.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "source_normalized_sha256": "0f775040f6099b4fb900ca6a012939dbb5a4100616762831779dbc9e322e3b84",
+        "excerpt_start": 1579,
+        "excerpt_end": 1626,
+        "retrieved_utc": "2026-09-30T10:55:36.325523+00:00",
+        "reuse": "Short attributed excerpt; KOGL attribution notice observed on source page. No full-page redistribution.",
+        "query": "원주사랑상품권 발행규모",
+        "state": "asserted",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": true,
+        "pair_id": "wonju-increase",
+        "evidence": [
+          {
+            "start": 40,
+            "end": 47,
+            "text": "대폭 늘렸다.",
+            "kind": "relation"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "text": "늘렸다.",
+            "kind": "state"
+          }
+        ],
+        "state_ambiguity": []
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.2061789799581528,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "before",
+                "probabilities": [
+                  0.21994513973247531,
+                  0.5262226054925481,
+                  0.2538322547749766
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "before",
+                "probabilities": [
+                  0.20198228459490708,
+                  0.6248809492035449,
+                  0.17313676620154805
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.5075795650482178,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.27288275957107544,
+                  0.007988366298377514,
+                  0.7191288471221924
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.03255857527256012,
+                  0.0027571034152060747,
+                  0.9646843671798706
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "restatement",
+            "state": "planned",
+            "confidence": 0.43418970704078674,
+            "matches": {
+              "relation": false,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.2769334018230438,
+                  0.14963604509830475,
+                  0.5734304785728455
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.07603347301483154,
+                  0.009404681622982025,
+                  0.9145618677139282
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.5261073112487793,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "other",
+                "probabilities": [
+                  0.5261073112487793,
+                  0.03491891175508499,
+                  0.4389738142490387
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.09437523782253265,
+                  0.0067243874073028564,
+                  0.8989003896713257
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.521154522895813,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.35057416558265686,
+                  0.028380094096064568,
+                  0.6210457682609558
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.04266960173845291,
+                  0.005550617352128029,
+                  0.9517797231674194
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.5303419828414917,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.30779215693473816,
+                  0.15208899974822998,
+                  0.5401188135147095
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.1022765040397644,
+                  0.009790509939193726,
+                  0.8879329562187195
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "restatement",
+            "state": "asserted",
+            "confidence": 0.5361211895942688,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "other",
+                "probabilities": [
+                  0.5394902229309082,
+                  0.02951730787754059,
+                  0.4309925138950348
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.11031933128833771,
+                  0.00799508485943079,
+                  0.8816855549812317
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.5328921675682068,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.3319356143474579,
+                  0.013312662951648235,
+                  0.654751718044281
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.04644417017698288,
+                  0.004561035428196192,
+                  0.9489948153495789
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 11,
+                "end": 13,
+                "kind": "relation",
+                "text": "발행"
+              },
+              {
+                "start": 40,
+                "end": 42,
+                "kind": "relation",
+                "text": "대폭"
+              },
+              {
+                "start": 45,
+                "end": 47,
+                "kind": "state",
+                "text": "다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "asserted",
+            "confidence": 0.5148935914039612,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "after",
+                "probabilities": [
+                  0.2799959182739258,
+                  0.14950935542583466,
+                  0.5704947113990784
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.09836989641189575,
+                  0.008121801540255547,
+                  0.8935083150863647
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "relation",
+                "text": "올해"
+              },
+              {
+                "start": 11,
+                "end": 16,
+                "kind": "relation",
+                "text": "발행규모를"
+              },
+              {
+                "start": 17,
+                "end": 19,
+                "kind": "state",
+                "text": "당초"
+              },
+              {
+                "start": 40,
+                "end": 45,
+                "kind": "relation",
+                "text": "대폭 늘렸"
+              },
+              {
+                "start": 45,
+                "end": 47,
+                "kind": "state",
+                "text": "다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "restatement",
+            "state": "asserted",
+            "confidence": 0.574420690536499,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 20,
+                "end": 26,
+                "text": "600억 원",
+                "won": "60000000000",
+                "role": "other",
+                "probabilities": [
+                  0.5745584964752197,
+                  0.01784556359052658,
+                  0.4075959622859955
+                ]
+              },
+              {
+                "start": 29,
+                "end": 37,
+                "text": "1,300억 원",
+                "won": "130000000000",
+                "role": "after",
+                "probabilities": [
+                  0.1351167857646942,
+                  0.007967369630932808,
+                  0.8569158315658569
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 11,
+                "end": 13,
+                "kind": "relation",
+                "text": "발행"
+              },
+              {
+                "start": 15,
+                "end": 16,
+                "kind": "relation",
+                "text": "를"
+              },
+              {
+                "start": 17,
+                "end": 19,
+                "kind": "state",
+                "text": "당초"
+              },
+              {
+                "start": 40,
+                "end": 45,
+                "kind": "relation",
+                "text": "대폭 늘렸"
+              },
+              {
+                "start": 45,
+                "end": 47,
+                "kind": "state",
+                "text": "다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "infant-plan",
+        "text": "특히 2022년도 출생아부터 생후 24개월 이내의 아동에 대해 영아수당을 도입, 2022년 30만 원부터 시작해 단계적으로 인상해 2025년 50만 원을 매월 지급할 계획이다.",
+        "relation": "policy_change",
+        "spans": [
+          {
+            "start": 51,
+            "end": 56,
+            "text": "30만 원",
+            "won": "300000",
+            "role": "before"
+          },
+          {
+            "start": 79,
+            "end": 84,
+            "text": "50만 원",
+            "won": "500000",
+            "role": "after"
+          }
+        ],
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148881122",
+        "publisher": "저출산고령사회위원회·정책브리핑",
+        "date": "2020-12-15",
+        "note": "Known v1 source. A multi-year future plan; no asserted current/previous implemented amount under this study's narrow schema. Alternative plan-aware schema is needed. v3 labels and prospective roles newly assigned; v2 immutable. Non-finalized is not a denial.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "source_normalized_sha256": "ede09c6c7fa4c8f2d26f9aa6b6b452381cc893cda5c58539d943bd8065a124dc",
+        "excerpt_start": 2886,
+        "excerpt_end": 2984,
+        "retrieved_utc": "2026-09-30T10:55:37.079680+00:00",
+        "reuse": "Short attributed excerpt; KOGL attribution notice observed on source page. No full-page redistribution.",
+        "query": "영아수당",
+        "state": "planned",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": true,
+        "pair_id": "infant-plan",
+        "evidence": [
+          {
+            "start": 63,
+            "end": 72,
+            "text": "단계적으로 인상해",
+            "kind": "relation"
+          },
+          {
+            "start": 89,
+            "end": 98,
+            "text": "지급할 계획이다.",
+            "kind": "state"
+          }
+        ],
+        "state_ambiguity": []
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.33365518245415515,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.19583143728153127,
+                  0.6053688972960428,
+                  0.198799665422426
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.23759126544748735,
+                  0.5403989533247395,
+                  0.22200978122777312
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6726786494255066,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.03617562726140022,
+                  0.6726786494255066,
+                  0.2911457419395447
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.0872863307595253,
+                  0.7188946604728699,
+                  0.193819060921669
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7102630734443665,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.13888917863368988,
+                  0.7102630734443665,
+                  0.1508476883172989
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.10824841260910034,
+                  0.7913434505462646,
+                  0.10040810704231262
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7047123908996582,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.0710710659623146,
+                  0.7047123908996582,
+                  0.2242165058851242
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.17175991833209991,
+                  0.707020103931427,
+                  0.1212199255824089
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6674025654792786,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.025381186977028847,
+                  0.6674025654792786,
+                  0.30721625685691833
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.1100376769900322,
+                  0.6931509971618652,
+                  0.19681137800216675
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6954877376556396,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.14142338931560516,
+                  0.6954877376556396,
+                  0.1630888134241104
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.16611100733280182,
+                  0.7538745999336243,
+                  0.08001430332660675
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6173691153526306,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.051924172788858414,
+                  0.6927993893623352,
+                  0.2552763819694519
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.19023390114307404,
+                  0.6173691153526306,
+                  0.19239692389965057
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6522943377494812,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.02818222902715206,
+                  0.6637893319129944,
+                  0.3080284297466278
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.13273698091506958,
+                  0.6522943377494812,
+                  0.21496868133544922
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 7,
+                "kind": "state",
+                "text": "2022"
+              },
+              {
+                "start": 10,
+                "end": 12,
+                "kind": "state",
+                "text": "출생"
+              },
+              {
+                "start": 21,
+                "end": 22,
+                "kind": "state",
+                "text": "개"
+              },
+              {
+                "start": 63,
+                "end": 68,
+                "kind": "state",
+                "text": "단계적으로"
+              },
+              {
+                "start": 73,
+                "end": 77,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 89,
+                "end": 91,
+                "kind": "relation",
+                "text": "지급"
+              },
+              {
+                "start": 91,
+                "end": 95,
+                "kind": "state",
+                "text": "할 계획"
+              },
+              {
+                "start": 97,
+                "end": 98,
+                "kind": "state",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6570079922676086,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.13250760734081268,
+                  0.6854974627494812,
+                  0.1819949895143509
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.21184323728084564,
+                  0.6570079922676086,
+                  0.1311488002538681
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 7,
+                "kind": "state",
+                "text": "2022"
+              },
+              {
+                "start": 10,
+                "end": 12,
+                "kind": "state",
+                "text": "출생"
+              },
+              {
+                "start": 24,
+                "end": 26,
+                "kind": "state",
+                "text": "이내"
+              },
+              {
+                "start": 45,
+                "end": 49,
+                "kind": "state",
+                "text": "2022"
+              },
+              {
+                "start": 59,
+                "end": 68,
+                "kind": "state",
+                "text": "시작해 단계적으로"
+              },
+              {
+                "start": 69,
+                "end": 71,
+                "kind": "relation",
+                "text": "인상"
+              },
+              {
+                "start": 71,
+                "end": 77,
+                "kind": "state",
+                "text": "해 2025"
+              },
+              {
+                "start": 89,
+                "end": 91,
+                "kind": "relation",
+                "text": "지급"
+              },
+              {
+                "start": 91,
+                "end": 98,
+                "kind": "state",
+                "text": "할 계획이다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.5748869180679321,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 51,
+                "end": 56,
+                "text": "30만 원",
+                "won": "300000",
+                "role": "before",
+                "probabilities": [
+                  0.05735096335411072,
+                  0.6886913180351257,
+                  0.2539576590061188
+                ]
+              },
+              {
+                "start": 79,
+                "end": 84,
+                "text": "50만 원",
+                "won": "500000",
+                "role": "before",
+                "probabilities": [
+                  0.2145586609840393,
+                  0.5748869180679321,
+                  0.21055443584918976
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 3,
+                "end": 7,
+                "kind": "state",
+                "text": "2022"
+              },
+              {
+                "start": 16,
+                "end": 22,
+                "kind": "state",
+                "text": "생후 24개"
+              },
+              {
+                "start": 24,
+                "end": 26,
+                "kind": "state",
+                "text": "이내"
+              },
+              {
+                "start": 45,
+                "end": 49,
+                "kind": "state",
+                "text": "2022"
+              },
+              {
+                "start": 61,
+                "end": 68,
+                "kind": "state",
+                "text": "해 단계적으로"
+              },
+              {
+                "start": 69,
+                "end": 71,
+                "kind": "relation",
+                "text": "인상"
+              },
+              {
+                "start": 71,
+                "end": 78,
+                "kind": "state",
+                "text": "해 2025년"
+              },
+              {
+                "start": 89,
+                "end": 91,
+                "kind": "relation",
+                "text": "지급"
+              },
+              {
+                "start": 91,
+                "end": 98,
+                "kind": "state",
+                "text": "할 계획이다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "forest-unconfirmed",
+        "text": "산불재난특수진화대 증원 및 예산 규모는 확정된 바 없습니다.",
+        "relation": "unspecified",
+        "spans": [],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148970350",
+        "publisher": "기획예산처·정책브리핑",
+        "date": "2026-08-20",
+        "note": "Known v1 source; title-only evidence and no monetary values. v3 labels and prospective roles newly assigned; v2 immutable. Non-finalized is not a denial.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "source_normalized_sha256": "ea77b29b1648865a6f851b28935318cc1066c2f3586add90a0d284ed3c921dee",
+        "excerpt_start": 7,
+        "excerpt_end": 40,
+        "retrieved_utc": "2026-09-30T10:55:37.984648+00:00",
+        "reuse": "Short attributed excerpt; KOGL attribution notice observed on source page. No full-page redistribution.",
+        "query": "산불재난특수진화대 증원 및 예산 규모",
+        "state": "under_review",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": true,
+        "pair_id": "forest-unconfirmed",
+        "evidence": [
+          {
+            "start": 22,
+            "end": 33,
+            "text": "확정된 바 없습니다.",
+            "kind": "state"
+          }
+        ],
+        "state_ambiguity": []
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.38176990282030426,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9843955636024475,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9641456007957458,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9521912932395935,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9876042604446411,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.989577054977417,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9886291027069092,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9882765412330627,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 15,
+                "end": 20,
+                "kind": "relation",
+                "text": "예산 규모"
+              },
+              {
+                "start": 22,
+                "end": 33,
+                "kind": "state",
+                "text": "확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9902805089950562,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 13,
+                "end": 20,
+                "kind": "relation",
+                "text": "및 예산 규모"
+              },
+              {
+                "start": 22,
+                "end": 33,
+                "kind": "state",
+                "text": "확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9911070466041565,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 15,
+                "end": 20,
+                "kind": "relation",
+                "text": "예산 규모"
+              },
+              {
+                "start": 22,
+                "end": 33,
+                "kind": "state",
+                "text": "확정된 바 없습니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "water-budget",
+        "pair_id": "water-budget",
+        "query": "수리시설개보수 및 배수개선사업 예산",
+        "text": "2025년 수리시설개보수 및 배수개선사업 예산은 재정 당국과 협의 중으로 아직 확정된 바 없습니다.",
+        "relation": "unspecified",
+        "state": "under_review",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 27,
+            "end": 55,
+            "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다.",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148932342",
+        "publisher": "농림축산식품부",
+        "date": "2024-08-07",
+        "source_normalized_sha256": "1e5b430fd5d50ea9f4e848a70700f113eabfa53286fea15379dc20ecfc77d3a5",
+        "excerpt_start": 1686,
+        "excerpt_end": 1741,
+        "retrieved_utc": "2026-09-30T11:39:42.614376+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.33738943811864847,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9745038151741028,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9848886132240295,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9889692664146423,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9908648133277893,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9936333894729614,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9952453970909119,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9859258532524109,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 6,
+                "end": 8,
+                "kind": "state",
+                "text": "수리"
+              },
+              {
+                "start": 23,
+                "end": 25,
+                "kind": "relation",
+                "text": "예산"
+              },
+              {
+                "start": 27,
+                "end": 55,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9902563095092773,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 4,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 6,
+                "end": 8,
+                "kind": "state",
+                "text": "수리"
+              },
+              {
+                "start": 11,
+                "end": 13,
+                "kind": "relation",
+                "text": "보수"
+              },
+              {
+                "start": 18,
+                "end": 19,
+                "kind": "relation",
+                "text": "개"
+              },
+              {
+                "start": 23,
+                "end": 25,
+                "kind": "relation",
+                "text": "예산"
+              },
+              {
+                "start": 27,
+                "end": 55,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.993147075176239,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 4,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 6,
+                "end": 8,
+                "kind": "state",
+                "text": "수리"
+              },
+              {
+                "start": 11,
+                "end": 13,
+                "kind": "relation",
+                "text": "보수"
+              },
+              {
+                "start": 18,
+                "end": 19,
+                "kind": "relation",
+                "text": "개"
+              },
+              {
+                "start": 27,
+                "end": 55,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "voucher-budget",
+        "pair_id": "voucher-budget",
+        "query": "농식품 바우처 예산",
+        "text": "2025년 농식품 바우처 예산은 재정 당국과 협의 중으로 아직 확정된 바 없습니다.",
+        "relation": "unspecified",
+        "state": "under_review",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 18,
+            "end": 46,
+            "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다.",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148930563",
+        "publisher": "농림축산식품부",
+        "date": "2024-06-21",
+        "source_normalized_sha256": "4b93140bf47563d2b8cc652da44a4b58376709b4b762b632fc1a882c6c8fd0df",
+        "excerpt_start": 1624,
+        "excerpt_end": 1670,
+        "retrieved_utc": "2026-09-30T11:39:42.614531+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.3595329087869923,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9896765351295471,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.994924008846283,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9941716194152832,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9989393353462219,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9986785054206848,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9992695450782776,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9984163045883179,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 4,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 18,
+                "end": 46,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9981252551078796,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 4,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 18,
+                "end": 46,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9991540908813477,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 4,
+                "kind": "state",
+                "text": "2025"
+              },
+              {
+                "start": 18,
+                "end": 46,
+                "kind": "state",
+                "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "cbam-expansion",
+        "pair_id": "cbam-expansion",
+        "query": "CBAM 적용 품목 확대",
+        "text": "EU CBAM이 2030년에 플라스틱, 자동차, 반도체, 배터리 등 전 품목으로 확장될 예정이라는 보도는 사실과 다릅니다.",
+        "relation": "policy_change",
+        "state": "denied",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 38,
+            "end": 51,
+            "text": "전 품목으로 확장될 예정",
+            "kind": "relation"
+          },
+          {
+            "start": 59,
+            "end": 68,
+            "text": "사실과 다릅니다.",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148932239",
+        "publisher": "산업통상자원부",
+        "date": "2024-08-02",
+        "source_normalized_sha256": "73b0656c681352ac4a97a6d101342c568393042727d613694d027ba6f53d7d98",
+        "excerpt_start": 1773,
+        "excerpt_end": 1841,
+        "retrieved_utc": "2026-09-30T11:39:42.614690+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "restatement",
+            "state": "denied",
+            "confidence": 0.28732497009207936,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7041906714439392,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.624786376953125,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6907186508178711,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7767856121063232,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7396157383918762,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.520453155040741,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.712098240852356,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "state",
+                "text": "EU"
+              },
+              {
+                "start": 9,
+                "end": 13,
+                "kind": "state",
+                "text": "2030"
+              },
+              {
+                "start": 22,
+                "end": 25,
+                "kind": "state",
+                "text": "자동차"
+              },
+              {
+                "start": 45,
+                "end": 68,
+                "kind": "state",
+                "text": "확장될 예정이라는 보도는 사실과 다릅니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.742169976234436,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "state",
+                "text": "EU"
+              },
+              {
+                "start": 9,
+                "end": 15,
+                "kind": "state",
+                "text": "2030년에"
+              },
+              {
+                "start": 22,
+                "end": 25,
+                "kind": "state",
+                "text": "자동차"
+              },
+              {
+                "start": 45,
+                "end": 68,
+                "kind": "state",
+                "text": "확장될 예정이라는 보도는 사실과 다릅니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.5276137590408325,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "state",
+                "text": "EU"
+              },
+              {
+                "start": 9,
+                "end": 15,
+                "kind": "state",
+                "text": "2030년에"
+              },
+              {
+                "start": 22,
+                "end": 25,
+                "kind": "state",
+                "text": "자동차"
+              },
+              {
+                "start": 27,
+                "end": 30,
+                "kind": "state",
+                "text": "반도체"
+              },
+              {
+                "start": 32,
+                "end": 35,
+                "kind": "relation",
+                "text": "배터리"
+              },
+              {
+                "start": 38,
+                "end": 39,
+                "kind": "relation",
+                "text": "전"
+              },
+              {
+                "start": 45,
+                "end": 68,
+                "kind": "state",
+                "text": "확장될 예정이라는 보도는 사실과 다릅니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "nuclear-structure",
+        "pair_id": "nuclear-structure",
+        "query": "원전 수출체계 효율화 방안",
+        "text": "원전 수출체계 효율화 방안은 결정된 바 없습니다",
+        "relation": "policy_change",
+        "state": "under_review",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 3,
+            "end": 11,
+            "text": "수출체계 효율화",
+            "kind": "relation"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "text": "결정된 바 없습니다",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148963183",
+        "publisher": "산업통상부",
+        "date": "2026-04-22",
+        "source_normalized_sha256": "dd4517a34b137ebebfdfd205b3eeda9c40b23c48ebacf832df2a02a2f9cff972",
+        "excerpt_start": 6,
+        "excerpt_end": 32,
+        "retrieved_utc": "2026-09-30T11:39:42.614820+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "correction",
+            "state": "asserted",
+            "confidence": 0.30812800559065484,
+            "matches": {
+              "relation": false,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9506111741065979,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9851911664009094,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9788811802864075,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9554046988487244,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9781928062438965,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9957858920097351,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9550855159759521,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "state",
+                "text": "원전"
+              },
+              {
+                "start": 6,
+                "end": 7,
+                "kind": "state",
+                "text": "계"
+              },
+              {
+                "start": 8,
+                "end": 11,
+                "kind": "relation",
+                "text": "효율화"
+              },
+              {
+                "start": 16,
+                "end": 26,
+                "kind": "state",
+                "text": "결정된 바 없습니다"
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9769169688224792,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 6,
+                "end": 7,
+                "kind": "state",
+                "text": "계"
+              },
+              {
+                "start": 8,
+                "end": 11,
+                "kind": "relation",
+                "text": "효율화"
+              },
+              {
+                "start": 16,
+                "end": 26,
+                "kind": "state",
+                "text": "결정된 바 없습니다"
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "under_review",
+            "confidence": 0.9965798258781433,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 8,
+                "end": 11,
+                "kind": "relation",
+                "text": "효율화"
+              },
+              {
+                "start": 16,
+                "end": 26,
+                "kind": "state",
+                "text": "결정된 바 없습니다"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "health-living",
+        "pair_id": "health-living",
+        "query": "건강생활유지비",
+        "text": "본인부담금 지원을 위한 건강생활유지비도 월 6000원에서 1만 2000원으로 2배 인상한다.",
+        "relation": "policy_change",
+        "state": "asserted",
+        "spans": [
+          {
+            "start": 24,
+            "end": 29,
+            "text": "6000원",
+            "won": "6000",
+            "role": "before"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "text": "1만 2000원",
+            "won": "12000",
+            "role": "after"
+          }
+        ],
+        "evidence": [
+          {
+            "start": 43,
+            "end": 51,
+            "text": "2배 인상한다.",
+            "kind": "relation"
+          }
+        ],
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148931883",
+        "publisher": "보건복지부",
+        "date": "2024-07-25",
+        "source_normalized_sha256": "8fe30cf464ad04a253c7ed208e32be06e6056ea52b6118fa70d49483ecdc7206",
+        "excerpt_start": 3927,
+        "excerpt_end": 3978,
+        "retrieved_utc": "2026-09-30T11:39:42.615015+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [
+          "asserted",
+          "planned"
+        ],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "restatement",
+            "state": "planned",
+            "confidence": 0.19575719322239193,
+            "matches": {
+              "relation": false,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "before",
+                "probabilities": [
+                  0.11791248488436307,
+                  0.7431587363935261,
+                  0.13892877872211082
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "before",
+                "probabilities": [
+                  0.10287585393101421,
+                  0.8327224829920506,
+                  0.06440166307693518
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7232606410980225,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.00845870841294527,
+                  0.006432469468563795,
+                  0.9851089119911194
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.014172118157148361,
+                  0.11492575705051422,
+                  0.8709020614624023
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.5529373288154602,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.005026894621551037,
+                  0.03591424226760864,
+                  0.9590588808059692
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.02454100176692009,
+                  0.14338327944278717,
+                  0.8320757150650024
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7781380414962769,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.006027691066265106,
+                  0.005779643077403307,
+                  0.988192617893219
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.039361514151096344,
+                  0.1825004667043686,
+                  0.7781380414962769
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.825768232345581,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.005601189099252224,
+                  0.0057180654257535934,
+                  0.9886807203292847
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.01422930508852005,
+                  0.16000241041183472,
+                  0.825768232345581
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8118230700492859,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.0038372641429305077,
+                  0.02852599136531353,
+                  0.9676367044448853
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.024432219564914703,
+                  0.1637447327375412,
+                  0.8118230700492859
+                ]
+              }
+            ],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7195942401885986,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.0040830448269844055,
+                  0.0056555746123194695,
+                  0.990261435508728
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.04137856140732765,
+                  0.1569817215204239,
+                  0.8016396164894104
+                ]
+              }
+            ],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.8363041281700134,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.005919748451560736,
+                  0.007872780784964561,
+                  0.9862074851989746
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.017375662922859192,
+                  0.1463201493024826,
+                  0.8363041281700134
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 43,
+                "end": 45,
+                "kind": "relation",
+                "text": "2배"
+              },
+              {
+                "start": 50,
+                "end": 51,
+                "kind": "state",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.7818353176116943,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.0037312163040041924,
+                  0.017768923193216324,
+                  0.9784998297691345
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.02415725775063038,
+                  0.19400739669799805,
+                  0.7818353176116943
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 43,
+                "end": 45,
+                "kind": "relation",
+                "text": "2배"
+              },
+              {
+                "start": 50,
+                "end": 51,
+                "kind": "state",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "planned",
+            "confidence": 0.6861329674720764,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": false,
+              "joint": false
+            },
+            "spans": [
+              {
+                "start": 24,
+                "end": 29,
+                "text": "6000원",
+                "won": "6000",
+                "role": "after",
+                "probabilities": [
+                  0.004094619303941727,
+                  0.006718610413372517,
+                  0.9891867637634277
+                ]
+              },
+              {
+                "start": 32,
+                "end": 40,
+                "text": "1만 2000원",
+                "won": "12000",
+                "role": "after",
+                "probabilities": [
+                  0.03446375951170921,
+                  0.16217026114463806,
+                  0.80336594581604
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "start": 6,
+                "end": 8,
+                "kind": "relation",
+                "text": "지원"
+              },
+              {
+                "start": 43,
+                "end": 45,
+                "kind": "relation",
+                "text": "2배"
+              },
+              {
+                "start": 50,
+                "end": 51,
+                "kind": "state",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "coupon-funding",
+        "pair_id": "coupon-funding",
+        "query": "필수 예산 삭감을 통한 소비쿠폰 재원 마련",
+        "text": "필수 예산을 삭감해 민생회복 소비쿠폰의 재원이 마련되었다는 주장은 전혀 사실이 아닙니다.",
+        "relation": "policy_change",
+        "state": "denied",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 0,
+            "end": 10,
+            "text": "필수 예산을 삭감해",
+            "kind": "relation"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "text": "전혀 사실이 아닙니다.",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148946134",
+        "publisher": "관계부처 합동",
+        "date": "2025-07-17",
+        "source_normalized_sha256": "6fe5f719369650a9b7c0797813d6fe23f534bb2e9433327a712d14c466cf6b94",
+        "excerpt_start": 1728,
+        "excerpt_end": 1777,
+        "retrieved_utc": "2026-09-30T11:39:43.288293+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "restatement",
+            "state": "denied",
+            "confidence": 0.2783852378981444,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "unspecified",
+            "state": "denied",
+            "confidence": 0.48696374893188477,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.46715813875198364,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.46572965383529663,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "unspecified",
+            "state": "denied",
+            "confidence": 0.7035573124885559,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "unspecified",
+            "state": "denied",
+            "confidence": 0.35598960518836975,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.40304505825042725,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "unspecified",
+            "state": "denied",
+            "confidence": 0.6918278336524963,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "relation",
+                "text": "필수"
+              },
+              {
+                "start": 13,
+                "end": 14,
+                "kind": "relation",
+                "text": "회"
+              },
+              {
+                "start": 16,
+                "end": 18,
+                "kind": "relation",
+                "text": "소비"
+              },
+              {
+                "start": 28,
+                "end": 35,
+                "kind": "state",
+                "text": "되었다는 주장"
+              },
+              {
+                "start": 37,
+                "end": 49,
+                "kind": "state",
+                "text": "전혀 사실이 아닙니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "unspecified",
+            "state": "denied",
+            "confidence": 0.36427178978919983,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "relation",
+                "text": "필수"
+              },
+              {
+                "start": 13,
+                "end": 14,
+                "kind": "relation",
+                "text": "회"
+              },
+              {
+                "start": 16,
+                "end": 18,
+                "kind": "relation",
+                "text": "소비"
+              },
+              {
+                "start": 26,
+                "end": 28,
+                "kind": "relation",
+                "text": "마련"
+              },
+              {
+                "start": 28,
+                "end": 49,
+                "kind": "state",
+                "text": "되었다는 주장은 전혀 사실이 아닙니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.38221463561058044,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 0,
+                "end": 2,
+                "kind": "relation",
+                "text": "필수"
+              },
+              {
+                "start": 14,
+                "end": 18,
+                "kind": "relation",
+                "text": "복 소비"
+              },
+              {
+                "start": 26,
+                "end": 28,
+                "kind": "relation",
+                "text": "마련"
+              },
+              {
+                "start": 28,
+                "end": 49,
+                "kind": "state",
+                "text": "되었다는 주장은 전혀 사실이 아닙니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "id": "officer-cut",
+        "pair_id": "officer-cut",
+        "query": "초급간부 처우개선 예산 대폭 삭감",
+        "text": "내년 초급간부 처우개선 예산 대폭 삭감은 사실이 아닙니다.",
+        "relation": "policy_change",
+        "state": "denied",
+        "spans": [],
+        "evidence": [
+          {
+            "start": 13,
+            "end": 21,
+            "text": "예산 대폭 삭감",
+            "kind": "relation"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "text": "사실이 아닙니다.",
+            "kind": "state"
+          }
+        ],
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148934797",
+        "publisher": "기획재정부·국방부",
+        "date": "2024-10-08",
+        "source_normalized_sha256": "cb0cf3a092a978cda7e0827beccb2adbba9cbfb81b5c3f67b15518cffa097901",
+        "excerpt_start": 1599,
+        "excerpt_end": 1631,
+        "retrieved_utc": "2026-09-30T11:39:43.929359+00:00",
+        "reuse": "Short unmodified attributed text; KOGL type 1 notice observed. Full source cache not redistributed.",
+        "label_status": "AI provisional; independent human adjudication pending",
+        "split": "official",
+        "condition": "official",
+        "composition": "not_applicable",
+        "known_source": false,
+        "state_ambiguity": [],
+        "note": "Selected short passage, manually specified query. Authority statement is not independent verification of reality. No fabricated before/after document pair."
+      },
+      "predictions": {
+        "character": [
+          {
+            "seed": null,
+            "relation": "policy_change",
+            "state": "denied",
+            "confidence": 0.33580341010293163,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "flat": [
+          {
+            "seed": 17,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.46434485912323,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.5740296244621277,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "correction",
+            "state": "denied",
+            "confidence": 0.4432007670402527,
+            "matches": {
+              "relation": false,
+              "state": true,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "factor": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "denied",
+            "confidence": 0.510281503200531,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "hypothetical",
+            "confidence": 0.5357804894447327,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": []
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "denied",
+            "confidence": 0.46218979358673096,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": []
+          }
+        ],
+        "evidence": [
+          {
+            "seed": 17,
+            "relation": "policy_change",
+            "state": "hypothetical",
+            "confidence": 0.5247905254364014,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 23,
+                "end": 32,
+                "kind": "state",
+                "text": "사실이 아닙니다."
+              }
+            ]
+          },
+          {
+            "seed": 42,
+            "relation": "policy_change",
+            "state": "hypothetical",
+            "confidence": 0.6127066016197205,
+            "matches": {
+              "relation": true,
+              "state": false,
+              "axes": false,
+              "roles": true,
+              "joint": false
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 19,
+                "end": 21,
+                "kind": "state",
+                "text": "삭감"
+              },
+              {
+                "start": 23,
+                "end": 32,
+                "kind": "state",
+                "text": "사실이 아닙니다."
+              }
+            ]
+          },
+          {
+            "seed": 2026,
+            "relation": "policy_change",
+            "state": "denied",
+            "confidence": 0.5341336131095886,
+            "matches": {
+              "relation": true,
+              "state": true,
+              "axes": true,
+              "roles": true,
+              "joint": true
+            },
+            "spans": [],
+            "evidence": [
+              {
+                "start": 10,
+                "end": 11,
+                "kind": "relation",
+                "text": "개"
+              },
+              {
+                "start": 19,
+                "end": 21,
+                "kind": "state",
+                "text": "삭감"
+              },
+              {
+                "start": 23,
+                "end": 32,
+                "kind": "state",
+                "text": "사실이 아닙니다."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "interpretation": "Synthetic authored grammar; post-hoc second regime; official AI provisional labels, not independent human gold; seed ranges are not population confidence intervals."
+}

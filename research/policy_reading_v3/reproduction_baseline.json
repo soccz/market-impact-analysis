@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Independent repeat of deterministic character fitting and all six prediction sets in a separate directory, same data and environment. Not new data.",
+  "files": [
+    {
+      "file": "units_predictions.json",
+      "sha256": "81914fe7b50bb7b4209b0b8e29155690d73747a3bea9c4f19f31e345f8d332cf"
+    },
+    {
+      "file": "evaluation_predictions.json",
+      "sha256": "c6db6954ce8c00b3834afca21d682c404f3fcbcf5b3144f5461a31071fd555cf"
+    },
+    {
+      "file": "official_predictions.json",
+      "sha256": "be6d0affc1e4d24e505d80ccc819213252daeb89844b6aa7e9f66458f7b4489b"
+    },
+    {
+      "file": "distractor_predictions.json",
+      "sha256": "e8e19eb3bc636dd800c288816ba203e5834fa93c9956d29e1e52925047582f83"
+    },
+    {
+      "file": "validation_predictions.json",
+      "sha256": "85d1c36a2eb0d67e4e2280f4664661c9bc3790b9ba4982e6bd84cd7c57004eff"
+    },
+    {
+      "file": "evidence_removed_predictions.json",
+      "sha256": "3f3b0fe83b22542bcfbbadb46cecaf9ff78c473880365e48562d089200077ac8"
+    }
+  ]
+}

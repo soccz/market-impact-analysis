@@ -9,7 +9,7 @@
 - [수집부터 검수까지 전체 구현 지도](docs/WORKSTREAMS.md)
 - [원본 코드와 합성 입력으로 읽는 네 가지 구현 사례](docs/ENGINEERING_CASES.md)
 - [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
-- [한국어 정책 NLP: 3 seed 학습, 정정·변경 근거 추출, 실패 분석](docs/KOREAN_POLICY_NLP.md)
+- [한국어 정책 NLP: 관계·상태·근거 판독과 2×2 보강 실험](docs/KOREAN_POLICY_NLP.md)
 - [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
 - [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
@@ -64,3 +64,6 @@ python examples/methodology_demo.py --check
 원래 커밋을 보존하고 현재 설명을 추가하는 방식으로 관리합니다. 최초 이벤트 분석은 [2026-03-26 커밋](https://github.com/soccz/market-impact-analysis/commit/15c1775), NLP 확장은 [2026-05-17 커밋](https://github.com/soccz/market-impact-analysis/commit/bb6fc2c), 라벨링·학습·후속 분석 확장은 [2026-05-20 커밋](https://github.com/soccz/market-impact-analysis/commit/5193cbb)에 기록돼 있습니다.
 
 2026년 9월의 개인 후속 연구는 기존 개발 실적과 구별합니다. 한국어 NLI의 세 초기값 학습, 표현 변화 진단, 원문 금액 위치에 연결한 관계·역할 판독을 실제 실행했습니다. 합성 평가와 선정한 공식 문서의 임시 판독 사례를 사용했으며 독립 사람 평가·실제 서비스 일반화·시장 성과는 검증 전입니다. 새 연구를 납품 성과로 소급하지 않습니다. [NLP 실험 기록](docs/KOREAN_POLICY_NLP.md)과 [개발 기록](docs/DEVELOPMENT.md)을 함께 볼 수 있습니다.
+
+<!-- V3_LINK -->
+관계·상태·사유 분리와 단위·대상 문맥의 2×2 보강까지 확장한 [v3 실험](research/policy_reading_v3/)도 기록했습니다. 27회 신경망 학습과 개선·역효과를 모두 보존하고 공식 구절에서의 한계를 함께 표시합니다.

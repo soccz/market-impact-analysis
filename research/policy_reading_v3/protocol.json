@@ -1,0 +1,99 @@
+{
+  "version": "3.0",
+  "purpose": "Korean query-conditioned policy passage reading: relation, assertion status, monetary roles and supporting phrases. Independent personal research; no client material.",
+  "authoring": "AI-assisted synthetic grammar and provisional official annotations; no independent human annotation completed.",
+  "relations": [
+    "correction",
+    "policy_change",
+    "restatement",
+    "unspecified"
+  ],
+  "states": [
+    "asserted",
+    "planned",
+    "under_review",
+    "denied",
+    "hypothetical",
+    "unspecified"
+  ],
+  "held_out_compositions": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "semantics": {
+    "asserted": "The passage presents the event as settled or performed, not verified real-world implementation.",
+    "relation": "The event being discussed, even if denied, hypothetical or planned. Denied policy_change is NOT an actual policy change.",
+    "money_roles": "before and after are reference/proposed report positions, not evidence that proposed amounts took effect.",
+    "unspecified": "Insufficient passage evidence for this axis; separate from model abstention.",
+    "query": "Manually supplied target. No automatic document retrieval, entity discovery or full-document understanding claim.",
+    "under_review": "Discussion or explicit non-finalization. Non-finalization alone does not prove an active review process."
+  },
+  "data": {
+    "train_families": 6,
+    "validation_families": 2,
+    "evaluation_families": 4,
+    "train_frames": 8,
+    "validation_frames": 4,
+    "evaluation_frames": 6,
+    "official": "Purposive passage audit reported separately; no population accuracy claim."
+  },
+  "models": [
+    "flat",
+    "factor",
+    "evidence"
+  ],
+  "backbone": "klue/roberta-base@02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "training": {
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "epochs": 3,
+    "micro_batch": 8,
+    "effective_batch": 32,
+    "max_length": 128,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "precision": "CUDA fp16 autocast + GradScaler",
+    "checkpoint": "Final epoch, no evaluation-based selection",
+    "shared_initialization": "All heads instantiated in all conditions; identical seed initializes identical encoder and heads. Unused head parameters receive no loss."
+  },
+  "loss": "flat: CE(24 joint classes) + CE(money tokens); factor: CE(relation)+CE(state)+CE(money tokens); evidence: factor + 0.5 CE(evidence tokens). Different objectives; not identical loss scales or head capacity.",
+  "decoders": {
+    "flat_marginals": "Sum 24-way probabilities by each axis and take independent argmax, allowing unseen combinations; report alongside flat argmax.",
+    "numeric": "For models' greedy money-role pair only: if both roles exist and unequal won, set restatement probability to zero and renormalize. No gold roles, no assignment to correction from inequality. Report as ablation, not theorem."
+  },
+  "evaluation": [
+    "axis accuracy and macro-F1",
+    "joint relation/state",
+    "all detected money roles exact",
+    "joint axes plus money roles",
+    "support non-whitespace character micro F1 for evidence model",
+    "seen and held-out compositions separately",
+    "validation-selected abstention with per-relation and per-state coverage/error"
+  ],
+  "abstention": "Thresholds 0.00..0.99 in steps .01; confidence=min(max relation p,max state p,min per-amount role p), empty amounts omit role. Choose highest validation coverage with >=20 answers and joint+roles error<=5%; if none, answer zero. One threshold per run, no evaluation tuning.",
+  "stress": {
+    "distractor": "Add another named policy's correction denial with two amounts; target labels unchanged.",
+    "units": "Express every amount in won, preserving numerical value and role/evidence offsets.",
+    "evidence_removed": "Oracle diagnostic: replace annotated relation/status words with a neutral omission marker. Report decision retention and confidence drop, not task accuracy."
+  },
+  "reporting": "All seeds and negative outcomes. Row counts and normalized surface counts. Seed range is optimization variability, not population CI. Synthetic same-author grammar and unreviewed official labels prohibit real-world generalization claims. Existing v1/v2 are known development material. Freeze inputs, code, protocol before fitting. Subsequent fixes logged rather than silently overwriting frozen artifacts.",
+  "stop": "Nine actual matched-budget training runs, raw predictions and independent checks; source-linked provisional audit, human review packet, GitHub report and existing research page with results and limits; publish after browser and numerical verification."
+}

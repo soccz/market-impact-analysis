@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "freeze_files": 24,
+  "variants": {
+    "character:native": "PASS",
+    "character:numeric": "PASS",
+    "evidence-17:native": "PASS",
+    "evidence-17:numeric": "PASS",
+    "evidence-2026:native": "PASS",
+    "evidence-2026:numeric": "PASS",
+    "evidence-42:native": "PASS",
+    "evidence-42:numeric": "PASS",
+    "factor-17:native": "PASS",
+    "factor-17:numeric": "PASS",
+    "factor-2026:native": "PASS",
+    "factor-2026:numeric": "PASS",
+    "factor-42:native": "PASS",
+    "factor-42:numeric": "PASS",
+    "flat-17:native": "PASS",
+    "flat-17:numeric": "PASS",
+    "flat-17:marginal": "PASS",
+    "flat-2026:native": "PASS",
+    "flat-2026:numeric": "PASS",
+    "flat-2026:marginal": "PASS",
+    "flat-42:native": "PASS",
+    "flat-42:numeric": "PASS",
+    "flat-42:marginal": "PASS"
+  },
+  "training": {
+    "flat-17": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "36e37aa6ab7abf7f6daeeb35f30c9b0d5ccc760202d24374f8d8717b3a21622a"
+    },
+    "factor-17": {
+      "attempted": 300,
+      "skipped": 2,
+      "checkpoint_sha256": "a91d0659ccbfc7cdf2d0b423073640d3e57c723d0a33420924ef60b84d0d1ead"
+    },
+    "evidence-17": {
+      "attempted": 300,
+      "skipped": 2,
+      "checkpoint_sha256": "c34d598886cd196837b45ac57a4d13a75b45d63a0c01c694b382818f62b8211d"
+    },
+    "flat-42": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "fb74aa85a285296b0779bda45bc4141aeed4d52e5238d8724272f71ed94d854e"
+    },
+    "factor-42": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "e8ff90fbbbb78b2870fe9dc36d6fbfd12e0341aeade51f63e9bcfb7cce6283e8"
+    },
+    "evidence-42": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "bd7299878066364feb09c8bc90e5e91ff446a0d76a41a8501cf61291e99eefb1"
+    },
+    "flat-2026": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "0d1a55b0f5d7db060a0c16a556f818b5605d57261df94c5b068fe63046594733"
+    },
+    "factor-2026": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "c5e62bfaea133bb3092d3a4cad5f59d53cef2ebc0cb9c5f623bd238f172f25dc"
+    },
+    "evidence-2026": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "df4befc206f9324867d51ef33af9938c91864101f7393449f3cc7ce79c3df701"
+    }
+  },
+  "human_reviews_completed": 0,
+  "limits": "Mechanical consistency, not linguistic gold validation or generalization proof."
+}

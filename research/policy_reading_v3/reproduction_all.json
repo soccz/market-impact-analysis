@@ -1,0 +1,728 @@
+{
+  "status": "PASS",
+  "models": 27,
+  "prediction_files": 180,
+  "method": "Reload all 27 retained checkpoints and repeat fp32 fixed-padding inference on all original sets. Every serialized prediction byte identical, including probabilities and extracted spans. Not an independent training replication or new-data validation.",
+  "files": [
+    {
+      "file": "results/evidence-17/distractor_predictions.json",
+      "sha256": "13e83a99d55ba1c9aba5f42a1573023846bd760c52582e3ad053d8064fc711ed"
+    },
+    {
+      "file": "results/evidence-17/evaluation_predictions.json",
+      "sha256": "3f15bb07cf0f834e1428e28403fabed952c508eaca3da0b81b5bf1cc5c5d8c94"
+    },
+    {
+      "file": "results/evidence-17/evidence_removed_predictions.json",
+      "sha256": "31ce45b2f8e61585c29bb956f77642fca584e970b5abedc701fb71a2b523a27e"
+    },
+    {
+      "file": "results/evidence-17/official_predictions.json",
+      "sha256": "d3ef7d951e2d20d85f0ecc0e4ad097d29c3d17e05e720548b1757c84d0075444"
+    },
+    {
+      "file": "results/evidence-17/units_predictions.json",
+      "sha256": "f1bdb130220140ccfb5280bf46993562ce58b06b6ca03224b29c65499bf0087c"
+    },
+    {
+      "file": "results/evidence-17/validation_predictions.json",
+      "sha256": "66924c6dcccc3aac9682ffab8d6b2b129e87bbba1e2cc2581146486e21d71be7"
+    },
+    {
+      "file": "results/evidence-2026/distractor_predictions.json",
+      "sha256": "9961a4a30de97e29af6ab6cc6d7e6d26722774e46eaba4ef91c4fe2350d80853"
+    },
+    {
+      "file": "results/evidence-2026/evaluation_predictions.json",
+      "sha256": "07ce02752dea0c614cd7fda84b5b19aab7b1fc4a675961538e00404b8d984fe0"
+    },
+    {
+      "file": "results/evidence-2026/evidence_removed_predictions.json",
+      "sha256": "ce6d6e73cd60fc6af46199167d3decf545363df8b30a400bf9631c5f1d6e008c"
+    },
+    {
+      "file": "results/evidence-2026/official_predictions.json",
+      "sha256": "c3b3950b6511169da17bf824423848724256e4ecfaa2aa5054bb3b1097c657ea"
+    },
+    {
+      "file": "results/evidence-2026/units_predictions.json",
+      "sha256": "c744273a17adb9029f64a1b4d291fa74bb2b20193a6da3dabdefa807b8e3d203"
+    },
+    {
+      "file": "results/evidence-2026/validation_predictions.json",
+      "sha256": "a5febcb6e0fcb92a693a185b496312c55ed22ae4110ae34031943c14199b1e46"
+    },
+    {
+      "file": "results/evidence-42/distractor_predictions.json",
+      "sha256": "318c31461a5611fda2ec1f2f1aa7d42c4a8a80df07c0d0dfdefa2ad75756c14d"
+    },
+    {
+      "file": "results/evidence-42/evaluation_predictions.json",
+      "sha256": "24b76b52fce6e3fcff8692266c0c3d49efa484da92d826488672b94de4bd035b"
+    },
+    {
+      "file": "results/evidence-42/evidence_removed_predictions.json",
+      "sha256": "b400aa2bbad84750649c4ec0dc3fe56058f567db768ebb45ea7480f3a893dc47"
+    },
+    {
+      "file": "results/evidence-42/official_predictions.json",
+      "sha256": "f152cec496cf4b3f078bf4bf6c9ddb5ebc7d5d3d0ca3acdf0729a3d6ad753549"
+    },
+    {
+      "file": "results/evidence-42/units_predictions.json",
+      "sha256": "26b32f020f247cca876e7c829ddb4519042f7c0e8df4659a6de50539b5bafc48"
+    },
+    {
+      "file": "results/evidence-42/validation_predictions.json",
+      "sha256": "5bcc1c19f2f8fb53dee3ff4eed886f9576838e8194a0230e8d38051b6faaa0dd"
+    },
+    {
+      "file": "results/factor-17/distractor_predictions.json",
+      "sha256": "60ea30b823c843edb08867a5dad15c950970a4298132db669b7a0512879f7322"
+    },
+    {
+      "file": "results/factor-17/evaluation_predictions.json",
+      "sha256": "a4e77e62fbfe3575d5dccd5a79cac795f17c85f5a70ba382e1305c741e2c061a"
+    },
+    {
+      "file": "results/factor-17/evidence_removed_predictions.json",
+      "sha256": "2ab995ecc3702b2f55adf7fd532f15bc0ebe4a63e7688c683b703a4c834327c9"
+    },
+    {
+      "file": "results/factor-17/official_predictions.json",
+      "sha256": "becf6c19613fe6d55237b5259a6514876292d2301ac732419b842b36445d3cf6"
+    },
+    {
+      "file": "results/factor-17/units_predictions.json",
+      "sha256": "4afb61b4bde662d4172e9f858a6624b95c1fdcc16dcca114d4bb696618f31cb0"
+    },
+    {
+      "file": "results/factor-17/validation_predictions.json",
+      "sha256": "59154485cb3ef7a4cdf5d37612f10a0acfa434d335cfffb2ca09eea080a06be4"
+    },
+    {
+      "file": "results/factor-2026/distractor_predictions.json",
+      "sha256": "fda7944cc11f6112b6ad139d7b08e92263dab08a1c4693cc448c350159daacd8"
+    },
+    {
+      "file": "results/factor-2026/evaluation_predictions.json",
+      "sha256": "1cf872d120b87dfc4ba907269f322891de925cd9587904a10a5594d4424b627f"
+    },
+    {
+      "file": "results/factor-2026/evidence_removed_predictions.json",
+      "sha256": "75401a4fa8f0969c9581ef966ba3740584f055214654c59f85525971ee91e955"
+    },
+    {
+      "file": "results/factor-2026/official_predictions.json",
+      "sha256": "a9b011bca798fce313ee3cfc27f268719657ee598f97758edf76da57035363b9"
+    },
+    {
+      "file": "results/factor-2026/units_predictions.json",
+      "sha256": "667e5953082e2888906fb3de21a6a4a76668741d91f7695f956401ea7cbaae88"
+    },
+    {
+      "file": "results/factor-2026/validation_predictions.json",
+      "sha256": "69bea01b5496490399d7ab88a8d498b5335ce23fe010e560317aced5a48c1598"
+    },
+    {
+      "file": "results/factor-42/distractor_predictions.json",
+      "sha256": "7453bd2020dfc56b2a2676809fc53f51ec96a19475f3fcf91b968248e740be54"
+    },
+    {
+      "file": "results/factor-42/evaluation_predictions.json",
+      "sha256": "3f045f7f0e5b747449d97bf6ea47c0df2585b0f0224fbf5976ddba4beca30417"
+    },
+    {
+      "file": "results/factor-42/evidence_removed_predictions.json",
+      "sha256": "8eefb8d2ad0fa29930cc18af13eb67d6b151dd1eac4505db46b511e73d99da00"
+    },
+    {
+      "file": "results/factor-42/official_predictions.json",
+      "sha256": "8cd503ad256a143fade862f9f0805b3a776c1a98e2df569aac6b8c8c766b4822"
+    },
+    {
+      "file": "results/factor-42/units_predictions.json",
+      "sha256": "de5cfa0e69a9006945bd7030cbacd4ddf2e688b56da3765e813e93d3ecbd5052"
+    },
+    {
+      "file": "results/factor-42/validation_predictions.json",
+      "sha256": "7049e52aeb322f581b8468d1b1ed4cac7e5b5fafc3cc7f9f40e9a24bfabe5303"
+    },
+    {
+      "file": "results/flat-17/distractor_predictions.json",
+      "sha256": "87744460388d093a392aab5907d8c4ab7b3405546afc3c8bb907407cea56260d"
+    },
+    {
+      "file": "results/flat-17/evaluation_predictions.json",
+      "sha256": "fcdf2ddd854720a8ac8f692c6ed856ddcc2ed0c6bbdadacff72c4d2828f529f5"
+    },
+    {
+      "file": "results/flat-17/evidence_removed_predictions.json",
+      "sha256": "aa3cb81ef0a3789dacceae977b95a90dd6eac1ef2213cae9e18d116155251634"
+    },
+    {
+      "file": "results/flat-17/official_predictions.json",
+      "sha256": "0105fc9a9e51fde9b13db39cd6fb983bf0b39b64c7d23f7d38a8d365f8c87793"
+    },
+    {
+      "file": "results/flat-17/units_predictions.json",
+      "sha256": "6fca559f0c293167cecf3aac9b5a6920e8e2c719b365289731dc83e13bd53c44"
+    },
+    {
+      "file": "results/flat-17/validation_predictions.json",
+      "sha256": "849620465dfc0738606b332767ef6b89d686444e21ef208b8c2e587a276593d0"
+    },
+    {
+      "file": "results/flat-2026/distractor_predictions.json",
+      "sha256": "128c14681de8c01d19bef0fd008d1fe23f13ea84162a126ac795722ffe5ebe5d"
+    },
+    {
+      "file": "results/flat-2026/evaluation_predictions.json",
+      "sha256": "dc33674a41c7c5fe172433f2b17d4ec3125732e35cdd338b57a7798e0ec6309e"
+    },
+    {
+      "file": "results/flat-2026/evidence_removed_predictions.json",
+      "sha256": "37a3af5b928487337914916eaa39ec6fbc3e7999d79c0237baff0ed72d5819f3"
+    },
+    {
+      "file": "results/flat-2026/official_predictions.json",
+      "sha256": "8be680c37a98b89065baf7ea15e112660147cbcb9d34c6a3b56367cd18494a13"
+    },
+    {
+      "file": "results/flat-2026/units_predictions.json",
+      "sha256": "d5af4af99283f8c26804cb9ae14ed5304c095731007ab211002f85a9f38293fa"
+    },
+    {
+      "file": "results/flat-2026/validation_predictions.json",
+      "sha256": "d65f18fd5bf2892ac9c84ca48cce3ab65b2384ad94291b4cc35f206e47d789dd"
+    },
+    {
+      "file": "results/flat-42/distractor_predictions.json",
+      "sha256": "2262b3134881ce973ca073071c8090a971bb7a7781bdebd6e219a5007619db6f"
+    },
+    {
+      "file": "results/flat-42/evaluation_predictions.json",
+      "sha256": "b04ae6c84f89a68a5f44ba57bea378c21dc38958bad548f6b7e0924252499c82"
+    },
+    {
+      "file": "results/flat-42/evidence_removed_predictions.json",
+      "sha256": "d8f1506d1313e8942d0eff938c4fc4911484427637505b65bc24e1713620fc7d"
+    },
+    {
+      "file": "results/flat-42/official_predictions.json",
+      "sha256": "fabeceada38291c2d82c5652118c33c68a8c3bde3874aa6a28e345a075c9bbee"
+    },
+    {
+      "file": "results/flat-42/units_predictions.json",
+      "sha256": "272223818c7c8f55c2cf24e16549c4208cb1af93d1aef04afd98a2164c26182f"
+    },
+    {
+      "file": "results/flat-42/validation_predictions.json",
+      "sha256": "0301b3bac5672cf0f194813ab986c76fd93aa44292d7456288508b44f94aa118"
+    },
+    {
+      "file": "results_fit/evidence-17/distractor_predictions.json",
+      "sha256": "c59a34310603ffb9d01fe3d2520e2029453d9b8597d11325ff0ae4d5d9396e22"
+    },
+    {
+      "file": "results_fit/evidence-17/evaluation_predictions.json",
+      "sha256": "d297938e14bf514bf7d36664496da695936499cb89dc13c7c853f013b2896c3a"
+    },
+    {
+      "file": "results_fit/evidence-17/evidence_removed_predictions.json",
+      "sha256": "359173600cd9590a710c4592c52f2c0ca17d9d45033059cda9d3d63e38eab021"
+    },
+    {
+      "file": "results_fit/evidence-17/official_predictions.json",
+      "sha256": "96148aae80ab98296f2aeb675b709c0747d64fe816d2ed90697d4336b0f52091"
+    },
+    {
+      "file": "results_fit/evidence-17/train_predictions.json",
+      "sha256": "362da86b55e1674b6b3d5190eb1edb7b70bf75aba2fe85d9ab155f6d6110d0e2"
+    },
+    {
+      "file": "results_fit/evidence-17/units_predictions.json",
+      "sha256": "025244cd641c097a1abd532cd9f100af5aca98b0fc59c5c4a136a194ffe0bbb9"
+    },
+    {
+      "file": "results_fit/evidence-17/validation_predictions.json",
+      "sha256": "e8e4502c0656987e3a0cb00d406fa82d09ddef98fe3889b87378a1e0200485e5"
+    },
+    {
+      "file": "results_fit/evidence-2026/distractor_predictions.json",
+      "sha256": "4a0bf56c4b586739231e6be3a8d57d1e1dbc0936bab20e62692b96bba334accf"
+    },
+    {
+      "file": "results_fit/evidence-2026/evaluation_predictions.json",
+      "sha256": "c21837a5ecc4b72f7f2cee7518c99e877f49921f5d7ceb4fab4666ea7615f6b9"
+    },
+    {
+      "file": "results_fit/evidence-2026/evidence_removed_predictions.json",
+      "sha256": "e7c5914fb1864685b90acf544ebf6bd5b2b7d1bbca4c2351676c0d84818e0f41"
+    },
+    {
+      "file": "results_fit/evidence-2026/official_predictions.json",
+      "sha256": "61297cd1cff7727fe0861617ed580b2daf5805945c4ee471c9ef2700bd792c63"
+    },
+    {
+      "file": "results_fit/evidence-2026/train_predictions.json",
+      "sha256": "bf301b13ddf531d00454b8a410f90ec807e3c960ac573e186d6ca5e7d76cbde3"
+    },
+    {
+      "file": "results_fit/evidence-2026/units_predictions.json",
+      "sha256": "b034b3a76d0835d9bd8628585c456369e1cd2219729d790fde223d359a2fb504"
+    },
+    {
+      "file": "results_fit/evidence-2026/validation_predictions.json",
+      "sha256": "6c32ab47d436c5388589d883e176b9021ae34bb5d28ed11e5a280b9ed8061d6b"
+    },
+    {
+      "file": "results_fit/evidence-42/distractor_predictions.json",
+      "sha256": "92d6acea7603dfcf890624f61e0da5bf0bd0ef1e8b91f4231d4ef10f73517d88"
+    },
+    {
+      "file": "results_fit/evidence-42/evaluation_predictions.json",
+      "sha256": "e1cf444deba7ad1e1cb9b0e0c94bce72a55c990654fa349fa4a776f9d1aa73d2"
+    },
+    {
+      "file": "results_fit/evidence-42/evidence_removed_predictions.json",
+      "sha256": "6ab846eb7683d8f828edff26eced46386b7f9c7e3276c293941adc985d884a10"
+    },
+    {
+      "file": "results_fit/evidence-42/official_predictions.json",
+      "sha256": "cd8f24dc82efca681234acce4d70bb79d84b2b4057a2ac0531d41dadd4169c68"
+    },
+    {
+      "file": "results_fit/evidence-42/train_predictions.json",
+      "sha256": "f709c2430e9b19727265f43c6f263c80d02fdf3c9825b3138d57b732f19fbd50"
+    },
+    {
+      "file": "results_fit/evidence-42/units_predictions.json",
+      "sha256": "5389cc7cdd412f4e664bf206ef66078dac98b4f36be185bc366c72491a04a614"
+    },
+    {
+      "file": "results_fit/evidence-42/validation_predictions.json",
+      "sha256": "dc8f2eee1522d1162b209b7f7b7da5f75a41de38ca742145b0e708cb6981e6a6"
+    },
+    {
+      "file": "results_fit/factor-17/distractor_predictions.json",
+      "sha256": "29a81dc6dcda5b4d75ebde96667cb696093aa58792d5c2d4903a9709f60bff40"
+    },
+    {
+      "file": "results_fit/factor-17/evaluation_predictions.json",
+      "sha256": "6a50ce19c6ea2d3d7e3afccc446e8510304dfbd7890d5446e28b479cbc4253f8"
+    },
+    {
+      "file": "results_fit/factor-17/evidence_removed_predictions.json",
+      "sha256": "d45111b645a6158be3e264ea404c0fc364da44d81e7eac60a5734f11835d8ed6"
+    },
+    {
+      "file": "results_fit/factor-17/official_predictions.json",
+      "sha256": "55fcb1e6aad513708632c65fcfd5aa69c492217cfa9ff6c5ba7dfb5547ff15bb"
+    },
+    {
+      "file": "results_fit/factor-17/train_predictions.json",
+      "sha256": "6551e8b7acc58d507c8f7f2229eaa1bd4ac831e1f59017aba57a2338d3a3910e"
+    },
+    {
+      "file": "results_fit/factor-17/units_predictions.json",
+      "sha256": "9b65c8bc88a66d50d3ff54b2500097916661eefce15ce6c0e759ade3e2a7b3fd"
+    },
+    {
+      "file": "results_fit/factor-17/validation_predictions.json",
+      "sha256": "7f35d990e4792d886959b920003901532a68228c23d4d24837bb53049168841d"
+    },
+    {
+      "file": "results_fit/factor-2026/distractor_predictions.json",
+      "sha256": "7c36893aa1d3f3acad1b55401255672b8b5a206162ef6f60a37ce41b81ef6538"
+    },
+    {
+      "file": "results_fit/factor-2026/evaluation_predictions.json",
+      "sha256": "d9723839f7adff13836f5a7ee048f955740d829731858a860f17e3cdf401f5a6"
+    },
+    {
+      "file": "results_fit/factor-2026/evidence_removed_predictions.json",
+      "sha256": "8415db7daf4408f6857687b179dcb2b25618a4f76a38746fa9d11fbffd9ab9de"
+    },
+    {
+      "file": "results_fit/factor-2026/official_predictions.json",
+      "sha256": "019d93bf3ca7eead39e4ea0b688a15290d04090b4914c34452a9fa3d3ffecfdf"
+    },
+    {
+      "file": "results_fit/factor-2026/train_predictions.json",
+      "sha256": "5f7604d4f13f18aa691f6722975b9dd31a8713b3761941a7bdbe335c9bca2280"
+    },
+    {
+      "file": "results_fit/factor-2026/units_predictions.json",
+      "sha256": "1e26562752e187e723cfbccb39c70f2ab8916645cd7c944a91bbf7a4bd0d8dea"
+    },
+    {
+      "file": "results_fit/factor-2026/validation_predictions.json",
+      "sha256": "7bdfa4a2ffc7e08d468cba6ea3faaedbc08627c397c4b4d96a136b2878bbb48a"
+    },
+    {
+      "file": "results_fit/factor-42/distractor_predictions.json",
+      "sha256": "251f98d514701f11fd30e2345ccb59211811870bba2842c06750b6280c1f2243"
+    },
+    {
+      "file": "results_fit/factor-42/evaluation_predictions.json",
+      "sha256": "20b40a680e3542295052aefe8d849c23d80812a6ae985ba61aac101f2bbdcf3a"
+    },
+    {
+      "file": "results_fit/factor-42/evidence_removed_predictions.json",
+      "sha256": "04d25a4cb55962a80b1ae03577206ea08c8f4f2b3953fad96c8f0abee0368c46"
+    },
+    {
+      "file": "results_fit/factor-42/official_predictions.json",
+      "sha256": "b127e2b60ec9bb642294e3a5a670cf6da9e916bc985c94cc29686121aa80db7f"
+    },
+    {
+      "file": "results_fit/factor-42/train_predictions.json",
+      "sha256": "daa5beb5a38ea0b504b20c2b03fcbc5e78cf57db182d0e22e86c189f80b4bf66"
+    },
+    {
+      "file": "results_fit/factor-42/units_predictions.json",
+      "sha256": "85a5271ddcddf202c16cdc0e8ef5be0d9a958532c517697440b1a3ddf32cf603"
+    },
+    {
+      "file": "results_fit/factor-42/validation_predictions.json",
+      "sha256": "18e53b028511449f0c289a398e8bcc0cd640646bc1e2e191f4e2d91b516905b9"
+    },
+    {
+      "file": "results_fit/flat-17/distractor_predictions.json",
+      "sha256": "e1b5689e87e1b0a5cf203a0eb918f5436e976c826758440f1ad14b12e2343894"
+    },
+    {
+      "file": "results_fit/flat-17/evaluation_predictions.json",
+      "sha256": "3386b86fb576adfb379d965153f71d45df0ac84a3aebed510d79e101d48ab874"
+    },
+    {
+      "file": "results_fit/flat-17/evidence_removed_predictions.json",
+      "sha256": "bff731d97a1d54fd957b122d6ff659349cca921e739adcb96540324ffefa8da2"
+    },
+    {
+      "file": "results_fit/flat-17/official_predictions.json",
+      "sha256": "1b334df502052aa267faff80fa57e286a52e53ac69c4efd7954d2474b6b2348f"
+    },
+    {
+      "file": "results_fit/flat-17/train_predictions.json",
+      "sha256": "09d8f557480e71774f3d40c4602b8f925c506f9858503ab9cd939a413ca4090c"
+    },
+    {
+      "file": "results_fit/flat-17/units_predictions.json",
+      "sha256": "4cbafc3c85a11f1dd8eb425c3eb0063e60ff755256eac076db860f1cd1632445"
+    },
+    {
+      "file": "results_fit/flat-17/validation_predictions.json",
+      "sha256": "844dbf81ef28d8b16ad66175a703e1d3646593c45a16be54a717b2b27b1e5b05"
+    },
+    {
+      "file": "results_fit/flat-2026/distractor_predictions.json",
+      "sha256": "2cfd254d63b0837e648a3a991e35530ed4601c0bc876aa428281fba0e0a03207"
+    },
+    {
+      "file": "results_fit/flat-2026/evaluation_predictions.json",
+      "sha256": "1b8a43314d89c13e85de8818bad2ee14fc9f876121aada1a500731758501b4bb"
+    },
+    {
+      "file": "results_fit/flat-2026/evidence_removed_predictions.json",
+      "sha256": "f8abd04a9f0ae2626183869bcbf3ef1f173d5cd974581cfc94dd70a26ad7f6a6"
+    },
+    {
+      "file": "results_fit/flat-2026/official_predictions.json",
+      "sha256": "d34eb0f6a0ae4b85b56406edd0c01b1a717f6bd7e12fcbe1d813ed011cbd22b5"
+    },
+    {
+      "file": "results_fit/flat-2026/train_predictions.json",
+      "sha256": "44be915af20f5f3d2803c4aef6b6002d4eb50add120f2f99baf2e2aa185fee5c"
+    },
+    {
+      "file": "results_fit/flat-2026/units_predictions.json",
+      "sha256": "916e5f40ecebefd10277cce10baacdac15734f5c0ec414d222853d7d0cb72c94"
+    },
+    {
+      "file": "results_fit/flat-2026/validation_predictions.json",
+      "sha256": "ffcf05320d1eaf2ca8b7e69d157e3c5690d5bd2495e1626cf6146ef940e036e9"
+    },
+    {
+      "file": "results_fit/flat-42/distractor_predictions.json",
+      "sha256": "49fd4123c89a8dacd4f909d89dadf0b043a013b4a1df9bd64082464f906231bc"
+    },
+    {
+      "file": "results_fit/flat-42/evaluation_predictions.json",
+      "sha256": "5c058e89863046861ceb3f412cc34cbf265d0cce02fef4ebc2edfcfb27ad73f2"
+    },
+    {
+      "file": "results_fit/flat-42/evidence_removed_predictions.json",
+      "sha256": "12d2aa48d8d8ff62d0eb58933f55dab468a86c06104c38469fb764434bd45066"
+    },
+    {
+      "file": "results_fit/flat-42/official_predictions.json",
+      "sha256": "8026a93b47a8145948ecb225310a1f05a48bf41ee614fcae2fb4dd718776d54b"
+    },
+    {
+      "file": "results_fit/flat-42/train_predictions.json",
+      "sha256": "1f917eb547ef78855ecf75be5a87963376f2af36a4779d8360def7fa0065a151"
+    },
+    {
+      "file": "results_fit/flat-42/units_predictions.json",
+      "sha256": "96c4762b9960de116510291730e64c2c86d3e805fddd73034acf5c79eddb759d"
+    },
+    {
+      "file": "results_fit/flat-42/validation_predictions.json",
+      "sha256": "7aa9020ca23e0b67e67fe1549af35b9a4cdba41c02566305dfa1fb7bea86a03a"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/distractor_predictions.json",
+      "sha256": "f2a58817d6601abdea723bd2626d7e36e12334a3a425c38fbd4719295d671077"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/evaluation_predictions.json",
+      "sha256": "44ed869adb27ac2c38670be3fc158e9306f895dd50dc232244129cb566dc1239"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/evidence_removed_predictions.json",
+      "sha256": "097c272a009d8f20905e2d378fb7bfa806e4c39a0bade003cf363721d3d85be5"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/official_predictions.json",
+      "sha256": "d725cd280bf0c2e8fe1b5cb7b3b1baeb38794e242738e446c478988e09210e40"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/train_predictions.json",
+      "sha256": "1f462384e4c5c4b2e828a0c52ba802967689335247a9f7722aa714bc07400b9a"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/units_predictions.json",
+      "sha256": "e88b8e8258994f64bc91d66e901c07d0330dc6f00659c0c132ba5d61c497717c"
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/validation_predictions.json",
+      "sha256": "312e9bdf7d1033babe2449c18a43ac487eef930a0c3e78fdd181a9614383a15f"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/distractor_predictions.json",
+      "sha256": "86a1383940ecfff7d11be114231f205f545dc7ecef63a783e13c21ac166d2ec4"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/evaluation_predictions.json",
+      "sha256": "75ef9a1bde158330631adabce829a0540d7c735fe65ca5b1e9e7b2f1125f2cf2"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/evidence_removed_predictions.json",
+      "sha256": "5e15bfb09a566dd232b91259114e9de27685945280d5e17e1f9c3aca1c9544e9"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/official_predictions.json",
+      "sha256": "608797362bc4c495fdf0c38d766235166f11c8910fa2975c1a55408563599078"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/train_predictions.json",
+      "sha256": "c1260e0dcc52dde75c6090a73a9c2f614913db82b1daacc035378c753f6493c3"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/units_predictions.json",
+      "sha256": "5c1187ffceb6f448e60e039a024d1970f9aa3dd958e767c607c7a91e121e320b"
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/validation_predictions.json",
+      "sha256": "611395dea37085f8363866b80f14ecf86082c7c3ab0fd5cf5fedd2c336a08ac5"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/distractor_predictions.json",
+      "sha256": "fab069d87eef33c13f21a1e61b8f82cb510212993e8376ad014c05ffdc7d8b04"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/evaluation_predictions.json",
+      "sha256": "0c20daa67ed0e48fb0e835888727ffbb14785838a816337fe015023764381dfb"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/evidence_removed_predictions.json",
+      "sha256": "bfff1f96a8ff8f4c18061b04c3e94684778aada26692f1d9575d5667bea4e6aa"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/official_predictions.json",
+      "sha256": "84fab20cb2971ca37d5b185a934f4be787dac85131424088d8e43a7cc1573f0e"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/train_predictions.json",
+      "sha256": "76ee974ab98efb7e2d5d8846c39a5a5ef3920f5b18f927309f78fe19e1387412"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/units_predictions.json",
+      "sha256": "24011fe72d96f17c316ec1a2e160244569fdff8f0c6eb5cf105bb76e2fb6c02a"
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/validation_predictions.json",
+      "sha256": "2bed7273ae0c7e2148633858409e10eae3c231f8581157a02078356784cf7c59"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/distractor_predictions.json",
+      "sha256": "c8c7bebe05743c12caaafbd5b431c24f4c3af109e2ac8802615e17807a728a64"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/evaluation_predictions.json",
+      "sha256": "bd33b4c97581d973ef19002fdea842d24b72580f050ab36edd9118356f604c6d"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/evidence_removed_predictions.json",
+      "sha256": "1f6a8857a691a9c2860ca8cc446e335496d1bace211afda35fa30d7d0159863d"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/official_predictions.json",
+      "sha256": "b4846abe916ba2ad20c96eb9e4d412962d45e0a505b7f14c75426e1aaacd7bf9"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/train_predictions.json",
+      "sha256": "3f0636cf1919e8a50e9a76ec36ac726b0d2d60bf10f70be36c370631eba6cbdc"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/units_predictions.json",
+      "sha256": "b0fc64e79c3bc6aa4165617492c2e98f73c0faff8232f779b59d3a983e0edc9d"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/validation_predictions.json",
+      "sha256": "0b091890685225429df8e03fa989713001384da1801fe0dae47fc24b5a75f224"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/distractor_predictions.json",
+      "sha256": "793ef871b73e433a694489de5681d608e300d7f535b796aa0d3813f2ca33052f"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/evaluation_predictions.json",
+      "sha256": "a5d72b3be46ad93bcf2d1152b396cdadeb9078fc6554be0ead151a7a70aa2ef3"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/evidence_removed_predictions.json",
+      "sha256": "929e9de64971483931401ee770683aed7de2b6ee1415c5115172751edb265c90"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/official_predictions.json",
+      "sha256": "91e490dd458e229c0e20740a8015f0a2b736ec28e0a4df940c81564df8a809b6"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/train_predictions.json",
+      "sha256": "526c92ea858559881f99b0531c4ba83df7a34cf5ae3ac781431f20d5b1bd2477"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/units_predictions.json",
+      "sha256": "5b43233a12b8f1e019f494b0ea7555d98dcddc34cafcfbde09c186b082597412"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/validation_predictions.json",
+      "sha256": "65b62071b67883a82c497522b3532d1dabc65b45cb1c55297bb50cb7aec7ae4b"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/distractor_predictions.json",
+      "sha256": "a98ddb86bc5f23c8eecfa031e97a5c7c4d2330a6b7dc2014ec9c949cf450a815"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/evaluation_predictions.json",
+      "sha256": "8e7f7db70081ce39335d7108b07cfbb0e4e8a644d8e004819280e994dc8b8a54"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/evidence_removed_predictions.json",
+      "sha256": "1428fbe61934add0b491f4aec3299aea85ec11846ab69c823dca9e2f3fbb8646"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/official_predictions.json",
+      "sha256": "9d83b2e31192cf3f6afd13d825c18d4012e24276b8033de7be4c45930bcf539e"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/train_predictions.json",
+      "sha256": "b8c27be75cd4697d2579ee165e195ca0f93ba521ea1ecd1728134aed7659c0e3"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/units_predictions.json",
+      "sha256": "95b4a4892aafaa741fbbf2551e2b26c5532e05dda50a97d6178d7d52e6d6a6f3"
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/validation_predictions.json",
+      "sha256": "52f355e3624042e60c2dd58d0e88fac1ea64673bbb72c6e720308962f9fc2094"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/distractor_predictions.json",
+      "sha256": "74f9ebbbe14991815d0a9690a6bf23c5624232c4ec23ec80918f2c3209b6f3b2"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/evaluation_predictions.json",
+      "sha256": "b49388319716ebbd759600a9c574ff67db5962bd21d66f3db6aa6817b24ebcde"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/evidence_removed_predictions.json",
+      "sha256": "8a267f8fee72497c625166ede420e43a2801b496a0fc3e73ce87702e55ec22f9"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/official_predictions.json",
+      "sha256": "6f33c4c57510b36ca64244b668f5cc52a3fe9ec9fafe90b5ae6eb6297ab2456f"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/train_predictions.json",
+      "sha256": "7a3c6f03b38160e2263679dc7614943ca4d3c4ed6b58f94310c7d69b3f7a77ef"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/units_predictions.json",
+      "sha256": "1865b5066de77ca96f3ba7c5a19106688cc587dfbc26d9359525009600da29b3"
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/validation_predictions.json",
+      "sha256": "b2824ba6ee24a411647bf2b9910cf56e9404cfb8cb56187de934373fae791782"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/distractor_predictions.json",
+      "sha256": "9ab38f06eef57ff7447db1f5396ed16449d367a0e904c3e2bdb07f68a5659e6e"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/evaluation_predictions.json",
+      "sha256": "5568a6e0b2b05450b22c5a5bdac9d9589578a121095d7eaca10678e7063d4d5c"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/evidence_removed_predictions.json",
+      "sha256": "b00bdf73f4a31c89545fe0c2d4e33fd4c838a820516f27511d2b98e5161ebf66"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/official_predictions.json",
+      "sha256": "98f4dbc11baab1eb61f4524394cb9b96856ccd3a25945523b16fe8fb86991021"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/train_predictions.json",
+      "sha256": "209f734eb1c19771bbfd9523e0f3900bee6fd63070781043a9c123e9fdff1821"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/units_predictions.json",
+      "sha256": "4bd3519ee30ba6365800c33e9d71b235908c06267ce4ab6539decc2043e29ff4"
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/validation_predictions.json",
+      "sha256": "181515bcadf7e486c3f079629511d15811247e87735469a676b1df5bba7ac219"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/distractor_predictions.json",
+      "sha256": "901e8cbc0c50e0d0f6b95bdb2a83d6d72074d7b0d29265457f6f11910b88c77f"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/evaluation_predictions.json",
+      "sha256": "53022dc974030a9624a9f71e82a3fc2bd15c0870fc7689861916489e5e3e2bc1"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/evidence_removed_predictions.json",
+      "sha256": "350b2d2bdf06b1295bfb2af8a050fe9650afc9d9869a0ba78756a96b13096e8a"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/official_predictions.json",
+      "sha256": "c107e8bb96c30c6bb2373049092f03f7e83db204f4b522132342254dcfc6f27b"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/train_predictions.json",
+      "sha256": "04d2d535394ef5e5bdd49d34a84fdeb000923d36193d4bb162f7ccd7a5a17462"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/units_predictions.json",
+      "sha256": "12550b6d03fb02a4b547df5543c45a16379fb6cccb9a20d89aced725aaab3099"
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/validation_predictions.json",
+      "sha256": "e736d692a4aeafc76e4fbf6ed1bf33f3a925f25095e550f1f1f496aa6a1b4e65"
+    }
+  ]
+}

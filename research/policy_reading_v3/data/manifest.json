@@ -1,0 +1,38 @@
+{
+  "train": {
+    "n": 960,
+    "families": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frames": 8,
+    "normalized_strings": 120,
+    "held_out": 0
+  },
+  "validation": {
+    "n": 160,
+    "families": [
+      6,
+      7
+    ],
+    "frames": 4,
+    "normalized_strings": 40,
+    "held_out": 0
+  },
+  "evaluation": {
+    "n": 576,
+    "families": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "frames": 6,
+    "normalized_strings": 96,
+    "held_out": 96
+  }
+}

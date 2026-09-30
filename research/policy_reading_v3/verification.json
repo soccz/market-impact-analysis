@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "freeze_files": 20,
+  "variants": {
+    "character:native": "PASS",
+    "character:numeric": "PASS",
+    "evidence-17:native": "PASS",
+    "evidence-17:numeric": "PASS",
+    "evidence-2026:native": "PASS",
+    "evidence-2026:numeric": "PASS",
+    "evidence-42:native": "PASS",
+    "evidence-42:numeric": "PASS",
+    "factor-17:native": "PASS",
+    "factor-17:numeric": "PASS",
+    "factor-2026:native": "PASS",
+    "factor-2026:numeric": "PASS",
+    "factor-42:native": "PASS",
+    "factor-42:numeric": "PASS",
+    "flat-17:native": "PASS",
+    "flat-17:numeric": "PASS",
+    "flat-17:marginal": "PASS",
+    "flat-2026:native": "PASS",
+    "flat-2026:numeric": "PASS",
+    "flat-2026:marginal": "PASS",
+    "flat-42:native": "PASS",
+    "flat-42:numeric": "PASS",
+    "flat-42:marginal": "PASS"
+  },
+  "training": {
+    "flat-17": {
+      "attempted": 90,
+      "skipped": 1,
+      "checkpoint_sha256": "c110af787f564e352764e9993092f061d54c41bbde911ecd93e399d04172fe71"
+    },
+    "factor-17": {
+      "attempted": 90,
+      "skipped": 2,
+      "checkpoint_sha256": "35da36f22df13622beba225d7a76baaa8383ae60ccbc02e62d0918d286cfa8d7"
+    },
+    "evidence-17": {
+      "attempted": 90,
+      "skipped": 2,
+      "checkpoint_sha256": "ce2850a09c2cf64f5bbd89bc48222db5c162a1e1bfd37db4f0c60b45636e8d7c"
+    },
+    "flat-42": {
+      "attempted": 90,
+      "skipped": 1,
+      "checkpoint_sha256": "52341cff104b68197dcfe09b649f4d42a255e24e8f74207d5c9259df7b00db12"
+    },
+    "factor-42": {
+      "attempted": 90,
+      "skipped": 1,
+      "checkpoint_sha256": "9b17025f850984e0dd53bd4275fd3355139f63e7bafc6a07fb5c07e5147130ad"
+    },
+    "evidence-42": {
+      "attempted": 90,
+      "skipped": 1,
+      "checkpoint_sha256": "b4598f3f2bca3e4a898f19270f16bceb14388a18e7dce3024636458060c8e9b2"
+    },
+    "flat-2026": {
+      "attempted": 90,
+      "skipped": 1,
+      "checkpoint_sha256": "52583a6749e889f06e019cdbaedbf54e514cae75e5913989b3f57aefe76fd0cd"
+    },
+    "factor-2026": {
+      "attempted": 90,
+      "skipped": 2,
+      "checkpoint_sha256": "1b03a9e0f45bf773157c8e771be4e54428e2edb81b84b5c8e299a0068b437861"
+    },
+    "evidence-2026": {
+      "attempted": 90,
+      "skipped": 2,
+      "checkpoint_sha256": "e097512cbdc29ad74a03c41d67b05375300bb2bf801fcebd7808aaaf9a572f90"
+    }
+  },
+  "human_reviews_completed": 0,
+  "limits": "Mechanical consistency, not linguistic gold validation or generalization proof."
+}

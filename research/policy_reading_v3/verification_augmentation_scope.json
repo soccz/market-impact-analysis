@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "freeze_files": 32,
+  "variants": {
+    "evidence-17:native": "PASS",
+    "evidence-17:numeric": "PASS",
+    "evidence-2026:native": "PASS",
+    "evidence-2026:numeric": "PASS",
+    "evidence-42:native": "PASS",
+    "evidence-42:numeric": "PASS"
+  },
+  "training": {
+    "evidence-17": {
+      "attempted": 300,
+      "skipped": 2,
+      "checkpoint_sha256": "f1d0d9e653cf97158d289b4ec35bb24fdcc59a636cb3882207416a4345a16c2b"
+    },
+    "evidence-42": {
+      "attempted": 300,
+      "skipped": 1,
+      "checkpoint_sha256": "89216dda347b0c31d523fa31a55aff99cf3c63400cdfb66d4635bc17392af485"
+    },
+    "evidence-2026": {
+      "attempted": 300,
+      "skipped": 2,
+      "checkpoint_sha256": "c1a05d1cc63b06212727d8632cca77e5ccb57df0b97bd6d48388b23b69533cdf"
+    }
+  },
+  "human_reviews_completed": 0,
+  "limits": "Mechanical consistency, not linguistic gold validation or generalization proof."
+}

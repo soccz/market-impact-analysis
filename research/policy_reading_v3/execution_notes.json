@@ -1,0 +1,15 @@
+{
+  "full_model_attempt": {
+    "status": "aborted before first optimizer update",
+    "reason": "Other process acquired approximately 6 GiB GPU memory after preflight; no changes to that process",
+    "outputs_retained": 0
+  },
+  "resource_checks": {
+    "cpu": "Three training-only forward/backward timings, no retained optimizer run",
+    "gpu_upper_two_layers": "Two training-only optimizer smoke batches discarded; all retained runs restarted with fixed seeds"
+  },
+  "waiter": "Read-only availability loop later saw free GPU, attempted original script, and stopped at overwrite protection; no published results changed.",
+  "primary_retained_regime": "partial_freeze.json, three epochs",
+  "posthoc_regime": "fit_freeze.json, ten epochs and output head learning rate .001",
+  "human_reviews_completed": 0
+}

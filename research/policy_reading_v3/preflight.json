@@ -1,0 +1,30 @@
+{
+  "official": {
+    "n": 12,
+    "max_tokens": 52
+  },
+  "train": {
+    "n": 960,
+    "max_tokens": 82
+  },
+  "evidence_removed": {
+    "n": 576,
+    "max_tokens": 73
+  },
+  "evaluation": {
+    "n": 576,
+    "max_tokens": 90
+  },
+  "validation": {
+    "n": 160,
+    "max_tokens": 85
+  },
+  "distractor": {
+    "n": 576,
+    "max_tokens": 116
+  },
+  "units": {
+    "n": 576,
+    "max_tokens": 95
+  }
+}

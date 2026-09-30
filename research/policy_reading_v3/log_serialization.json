@@ -1,0 +1,167 @@
+{
+  "note": "Raw training logs used Python JSON Infinity for overflowing gradient norms. Original bytes retained privately; public logs preserve these values as strings for strict JSON. Losses, updates, predictions and weights unchanged.",
+  "files": [
+    {
+      "file": "results/evidence-17/training.json",
+      "raw_sha256": "66bd0a95037374e359004a11c0839029bb9c607a1241ca49589cae741a941620",
+      "public_sha256": "c51b0e03aae2bfc49a74493e2a0d65e489dc50e71a573e09be191b1103cc17aa",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results/evidence-2026/training.json",
+      "raw_sha256": "1da4c2fcf43d547e428149a925461b1e9d1dc493d4850b6b79690ce20ed5a903",
+      "public_sha256": "d18a5bd404b29afe762eb38e9ed16986822fcf60517ca4e389d586d5e1fbac8e",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results/evidence-42/training.json",
+      "raw_sha256": "ccb83f8357f206fed3c9f57b00ad774c480ec669535c9ee5445f1844a8db1a77",
+      "public_sha256": "9b13a1a228774b0ed88b716a6e699ccdf5e1821318707525a41a86da517f3e63",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results/factor-17/training.json",
+      "raw_sha256": "4f7e0a45ebeb0058dd689fde65dc59061639b17851296818d7dddbf33bf59c00",
+      "public_sha256": "994f6a8f05b94654cbf68bb230b64234ae7cbc5a54ffacdc7b66cd700d7349f3",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results/factor-2026/training.json",
+      "raw_sha256": "68152b26873b7ba80a63da913b4bfb141c143dcef346f222656ac179e71c64b7",
+      "public_sha256": "2ed28bb4977e5dbfcf1bf9249053a70582bbaa1df7a289cb03b6ed40ce07017d",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results/factor-42/training.json",
+      "raw_sha256": "a159f3db18b850358afcd1162804fc72bdddbc8fae054e942b031f3a2a232a5b",
+      "public_sha256": "f430f54231adb46fd430e0387cd34f8f30c6d2508787b5c3917deae61f290037",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results/flat-17/training.json",
+      "raw_sha256": "bb13e0a9589640babfc311240d4d93c4286a1c2edfb81c25af633c3137010eef",
+      "public_sha256": "3e01e240b3f0ddeb65c5aafac801af8fb240a1b8ef0623adca906640610ac5b4",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results/flat-2026/training.json",
+      "raw_sha256": "27408de7bab9230edea2aa9f5a461410f9e0690fcc9c02ad9b8501665ca6a5b3",
+      "public_sha256": "8f45ce4d37b6bd7c072375817c49bf33171a7282ec6f2b5cf36a8e856129e7ed",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results/flat-42/training.json",
+      "raw_sha256": "69e4d876db8592df4567f1c946e565654db48abbb3b952189d8c6adfa61a10e8",
+      "public_sha256": "3fe4ba551b86f394c66d24fc570aa72681c02dc24f79e5288d73e3d2e519a488",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_augmentation/both/evidence-17/training.json",
+      "raw_sha256": "ade0f14dd44ed4adb5ae865634ee3239511f9f966210f8ed8a0dc17d4b60db33",
+      "public_sha256": "aff7ae0cbe3cc416dbe83a819998ad67a67bab0d0acf7ffb71c72b73b3981088",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_augmentation/both/evidence-2026/training.json",
+      "raw_sha256": "cc0811e39ffa33c7a3c61bf46bc157f54c78fd2a4a951a4ace5078f14f61afd6",
+      "public_sha256": "6851b8938cef42776ca60bf40f9b3d119f99890c0d41d61f63a5fbb545a89a60",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_augmentation/both/evidence-42/training.json",
+      "raw_sha256": "9348bfe06e7a7fe52f2ff7bdaa184ef9159b06215b91de0907fa57ee222a2c53",
+      "public_sha256": "54977721e7c359c13b8ff32ce05be598b4c2780cbb8b2a764cc17a31f7729bcc",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_augmentation/scope/evidence-17/training.json",
+      "raw_sha256": "14d5d7431f85112cdb674c9b0bd9d8965a34064511b2bc2900fd1dffc6367481",
+      "public_sha256": "7325ddfe0c92e7cbcd06ef9446e9f8711224cdd787e1fe089897093d2f44ff08",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_augmentation/scope/evidence-2026/training.json",
+      "raw_sha256": "d71b51eb57103635d890e26fe05157928858645655cfadda09d7b9b2b0a81836",
+      "public_sha256": "d8509c258d241fac369e2c450bff1446a60b10329a17371653d16338ea984d6e",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_augmentation/scope/evidence-42/training.json",
+      "raw_sha256": "4de037b57cf8ba998d382370c9f23dfd527d067d814fcdab0b6171dffe5b38dd",
+      "public_sha256": "3e30903b30683b5ae5935b377b8a64c43033196c247dfb8ba530658392d1c06f",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_augmentation/units/evidence-17/training.json",
+      "raw_sha256": "0c0e872af16dede3433c6f7b995fbe8cb69ae12f7242ec580f64af1f48208c2c",
+      "public_sha256": "df742229ab93310c0246a22096b4d48ee8d69e2b96e46e0bf9e07614db4bfbe4",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_augmentation/units/evidence-2026/training.json",
+      "raw_sha256": "fa88e1869d0a344403cdce210d051a7a0110db8098d1db33c877ac8726ccf14b",
+      "public_sha256": "2a770fb2937a95b91662fb47d62ae04f85e0b90318f5b4b37585c70fcbadb82f",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_augmentation/units/evidence-42/training.json",
+      "raw_sha256": "9c480c7ed54daf120186514b98cc6d60ddf4e05f1ba67366e6684bb779f8a76e",
+      "public_sha256": "c89e6480434d8c7dcf74b75f76b9b2b5b89321f45cb7a6a27517ec30e0cb9bac",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/evidence-17/training.json",
+      "raw_sha256": "e94bf7342e16665e441c7f1fd3b3e8b8cff1d62f5941c21435c031abb4fee3c5",
+      "public_sha256": "7054f241b25e110b076776c28d55cf865945e5596d1cc0ba94c2acb9902f7ebc",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_fit/evidence-2026/training.json",
+      "raw_sha256": "d9e526481def54422a5389d08b35d5c0c495e4af14301d97e7b7c0049c24dda7",
+      "public_sha256": "b8feed61dcc8c520caa0b1fe58116f467c4185bfe666d01b00c12de1bbe5a20b",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/evidence-42/training.json",
+      "raw_sha256": "5eb8853d70255405aec69c921eb88e115f9ed1ed4c7ea9a77e04c5b6d3808dea",
+      "public_sha256": "9e8b373f65b0e914adb331ce8c5e4ddc0d95f2920f50b7f200979e543a52c552",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/factor-17/training.json",
+      "raw_sha256": "db0c1f33880c254adaea815dda88f5eaa118f24870b3d00a83757c6f056cd769",
+      "public_sha256": "9f0f31dc056529ed82ab1ffdae1ffe6c9ddafb7fc231ce65a825153eac4612e1",
+      "nonfinite_gradient_norms": 2
+    },
+    {
+      "file": "results_fit/factor-2026/training.json",
+      "raw_sha256": "446a3b30af7f76796e80e05f62cadb4fab909dbf6dd76b90dccd9425b46c122f",
+      "public_sha256": "45d41c90823a87a21f0e80a0b115a3ab4b7b497d165e5233ae335b12b8842efd",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/factor-42/training.json",
+      "raw_sha256": "ec2b2bc72ac32797bf0fc68650237e82f73701c00d1619036711dd84f7091c42",
+      "public_sha256": "6d47c9656db760e4df4f210c528dd6ae32d67536e264ae5724d2f1bd704ee37e",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/flat-17/training.json",
+      "raw_sha256": "d976723c182e18e22381e1b72dab95456395b4fbea2d4855da55a72944084adc",
+      "public_sha256": "f36b3f28ebbd51e7840e0d3f5fd9aae92e6ecb405aadca5a0b14a0fd45df9fe4",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/flat-2026/training.json",
+      "raw_sha256": "a8aa39aa97ec9dbc37bbc3f0e2f68292c555ce7ef0264c4cc01ac7ae824dc65d",
+      "public_sha256": "57ffe5b73c591fa50d394a41a8eb8297253a07ddeaaec958d6ff7b0f2e7421df",
+      "nonfinite_gradient_norms": 1
+    },
+    {
+      "file": "results_fit/flat-42/training.json",
+      "raw_sha256": "945ae326a19fb59471953bf0e94526d0b6a6daa77d482acd3d10f21e7186f813",
+      "public_sha256": "5712d58d63b9aa677dc0af589c1c646c60e654243efdc12ac669cd719737a405",
+      "nonfinite_gradient_norms": 1
+    }
+  ]
+}

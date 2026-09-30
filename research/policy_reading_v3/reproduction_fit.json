@@ -1,0 +1,321 @@
+{
+  "status": "PASS",
+  "method": "Same nine saved checkpoints; repeated fp32 fixed-padding inference, all probabilities/spans byte-identical. Not an independent retraining or new validation.",
+  "files": [
+    {
+      "run": "evidence-17",
+      "set": "distractor_predictions",
+      "sha256": "c59a34310603ffb9d01fe3d2520e2029453d9b8597d11325ff0ae4d5d9396e22"
+    },
+    {
+      "run": "evidence-17",
+      "set": "evaluation_predictions",
+      "sha256": "d297938e14bf514bf7d36664496da695936499cb89dc13c7c853f013b2896c3a"
+    },
+    {
+      "run": "evidence-17",
+      "set": "evidence_removed_predictions",
+      "sha256": "359173600cd9590a710c4592c52f2c0ca17d9d45033059cda9d3d63e38eab021"
+    },
+    {
+      "run": "evidence-17",
+      "set": "official_predictions",
+      "sha256": "96148aae80ab98296f2aeb675b709c0747d64fe816d2ed90697d4336b0f52091"
+    },
+    {
+      "run": "evidence-17",
+      "set": "train_predictions",
+      "sha256": "362da86b55e1674b6b3d5190eb1edb7b70bf75aba2fe85d9ab155f6d6110d0e2"
+    },
+    {
+      "run": "evidence-17",
+      "set": "units_predictions",
+      "sha256": "025244cd641c097a1abd532cd9f100af5aca98b0fc59c5c4a136a194ffe0bbb9"
+    },
+    {
+      "run": "evidence-17",
+      "set": "validation_predictions",
+      "sha256": "e8e4502c0656987e3a0cb00d406fa82d09ddef98fe3889b87378a1e0200485e5"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "distractor_predictions",
+      "sha256": "4a0bf56c4b586739231e6be3a8d57d1e1dbc0936bab20e62692b96bba334accf"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "evaluation_predictions",
+      "sha256": "c21837a5ecc4b72f7f2cee7518c99e877f49921f5d7ceb4fab4666ea7615f6b9"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "evidence_removed_predictions",
+      "sha256": "e7c5914fb1864685b90acf544ebf6bd5b2b7d1bbca4c2351676c0d84818e0f41"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "official_predictions",
+      "sha256": "61297cd1cff7727fe0861617ed580b2daf5805945c4ee471c9ef2700bd792c63"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "train_predictions",
+      "sha256": "bf301b13ddf531d00454b8a410f90ec807e3c960ac573e186d6ca5e7d76cbde3"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "units_predictions",
+      "sha256": "b034b3a76d0835d9bd8628585c456369e1cd2219729d790fde223d359a2fb504"
+    },
+    {
+      "run": "evidence-2026",
+      "set": "validation_predictions",
+      "sha256": "6c32ab47d436c5388589d883e176b9021ae34bb5d28ed11e5a280b9ed8061d6b"
+    },
+    {
+      "run": "evidence-42",
+      "set": "distractor_predictions",
+      "sha256": "92d6acea7603dfcf890624f61e0da5bf0bd0ef1e8b91f4231d4ef10f73517d88"
+    },
+    {
+      "run": "evidence-42",
+      "set": "evaluation_predictions",
+      "sha256": "e1cf444deba7ad1e1cb9b0e0c94bce72a55c990654fa349fa4a776f9d1aa73d2"
+    },
+    {
+      "run": "evidence-42",
+      "set": "evidence_removed_predictions",
+      "sha256": "6ab846eb7683d8f828edff26eced46386b7f9c7e3276c293941adc985d884a10"
+    },
+    {
+      "run": "evidence-42",
+      "set": "official_predictions",
+      "sha256": "cd8f24dc82efca681234acce4d70bb79d84b2b4057a2ac0531d41dadd4169c68"
+    },
+    {
+      "run": "evidence-42",
+      "set": "train_predictions",
+      "sha256": "f709c2430e9b19727265f43c6f263c80d02fdf3c9825b3138d57b732f19fbd50"
+    },
+    {
+      "run": "evidence-42",
+      "set": "units_predictions",
+      "sha256": "5389cc7cdd412f4e664bf206ef66078dac98b4f36be185bc366c72491a04a614"
+    },
+    {
+      "run": "evidence-42",
+      "set": "validation_predictions",
+      "sha256": "dc8f2eee1522d1162b209b7f7b7da5f75a41de38ca742145b0e708cb6981e6a6"
+    },
+    {
+      "run": "factor-17",
+      "set": "distractor_predictions",
+      "sha256": "29a81dc6dcda5b4d75ebde96667cb696093aa58792d5c2d4903a9709f60bff40"
+    },
+    {
+      "run": "factor-17",
+      "set": "evaluation_predictions",
+      "sha256": "6a50ce19c6ea2d3d7e3afccc446e8510304dfbd7890d5446e28b479cbc4253f8"
+    },
+    {
+      "run": "factor-17",
+      "set": "evidence_removed_predictions",
+      "sha256": "d45111b645a6158be3e264ea404c0fc364da44d81e7eac60a5734f11835d8ed6"
+    },
+    {
+      "run": "factor-17",
+      "set": "official_predictions",
+      "sha256": "55fcb1e6aad513708632c65fcfd5aa69c492217cfa9ff6c5ba7dfb5547ff15bb"
+    },
+    {
+      "run": "factor-17",
+      "set": "train_predictions",
+      "sha256": "6551e8b7acc58d507c8f7f2229eaa1bd4ac831e1f59017aba57a2338d3a3910e"
+    },
+    {
+      "run": "factor-17",
+      "set": "units_predictions",
+      "sha256": "9b65c8bc88a66d50d3ff54b2500097916661eefce15ce6c0e759ade3e2a7b3fd"
+    },
+    {
+      "run": "factor-17",
+      "set": "validation_predictions",
+      "sha256": "7f35d990e4792d886959b920003901532a68228c23d4d24837bb53049168841d"
+    },
+    {
+      "run": "factor-2026",
+      "set": "distractor_predictions",
+      "sha256": "7c36893aa1d3f3acad1b55401255672b8b5a206162ef6f60a37ce41b81ef6538"
+    },
+    {
+      "run": "factor-2026",
+      "set": "evaluation_predictions",
+      "sha256": "d9723839f7adff13836f5a7ee048f955740d829731858a860f17e3cdf401f5a6"
+    },
+    {
+      "run": "factor-2026",
+      "set": "evidence_removed_predictions",
+      "sha256": "8415db7daf4408f6857687b179dcb2b25618a4f76a38746fa9d11fbffd9ab9de"
+    },
+    {
+      "run": "factor-2026",
+      "set": "official_predictions",
+      "sha256": "019d93bf3ca7eead39e4ea0b688a15290d04090b4914c34452a9fa3d3ffecfdf"
+    },
+    {
+      "run": "factor-2026",
+      "set": "train_predictions",
+      "sha256": "5f7604d4f13f18aa691f6722975b9dd31a8713b3761941a7bdbe335c9bca2280"
+    },
+    {
+      "run": "factor-2026",
+      "set": "units_predictions",
+      "sha256": "1e26562752e187e723cfbccb39c70f2ab8916645cd7c944a91bbf7a4bd0d8dea"
+    },
+    {
+      "run": "factor-2026",
+      "set": "validation_predictions",
+      "sha256": "7bdfa4a2ffc7e08d468cba6ea3faaedbc08627c397c4b4d96a136b2878bbb48a"
+    },
+    {
+      "run": "factor-42",
+      "set": "distractor_predictions",
+      "sha256": "251f98d514701f11fd30e2345ccb59211811870bba2842c06750b6280c1f2243"
+    },
+    {
+      "run": "factor-42",
+      "set": "evaluation_predictions",
+      "sha256": "20b40a680e3542295052aefe8d849c23d80812a6ae985ba61aac101f2bbdcf3a"
+    },
+    {
+      "run": "factor-42",
+      "set": "evidence_removed_predictions",
+      "sha256": "04d25a4cb55962a80b1ae03577206ea08c8f4f2b3953fad96c8f0abee0368c46"
+    },
+    {
+      "run": "factor-42",
+      "set": "official_predictions",
+      "sha256": "b127e2b60ec9bb642294e3a5a670cf6da9e916bc985c94cc29686121aa80db7f"
+    },
+    {
+      "run": "factor-42",
+      "set": "train_predictions",
+      "sha256": "daa5beb5a38ea0b504b20c2b03fcbc5e78cf57db182d0e22e86c189f80b4bf66"
+    },
+    {
+      "run": "factor-42",
+      "set": "units_predictions",
+      "sha256": "85a5271ddcddf202c16cdc0e8ef5be0d9a958532c517697440b1a3ddf32cf603"
+    },
+    {
+      "run": "factor-42",
+      "set": "validation_predictions",
+      "sha256": "18e53b028511449f0c289a398e8bcc0cd640646bc1e2e191f4e2d91b516905b9"
+    },
+    {
+      "run": "flat-17",
+      "set": "distractor_predictions",
+      "sha256": "e1b5689e87e1b0a5cf203a0eb918f5436e976c826758440f1ad14b12e2343894"
+    },
+    {
+      "run": "flat-17",
+      "set": "evaluation_predictions",
+      "sha256": "3386b86fb576adfb379d965153f71d45df0ac84a3aebed510d79e101d48ab874"
+    },
+    {
+      "run": "flat-17",
+      "set": "evidence_removed_predictions",
+      "sha256": "bff731d97a1d54fd957b122d6ff659349cca921e739adcb96540324ffefa8da2"
+    },
+    {
+      "run": "flat-17",
+      "set": "official_predictions",
+      "sha256": "1b334df502052aa267faff80fa57e286a52e53ac69c4efd7954d2474b6b2348f"
+    },
+    {
+      "run": "flat-17",
+      "set": "train_predictions",
+      "sha256": "09d8f557480e71774f3d40c4602b8f925c506f9858503ab9cd939a413ca4090c"
+    },
+    {
+      "run": "flat-17",
+      "set": "units_predictions",
+      "sha256": "4cbafc3c85a11f1dd8eb425c3eb0063e60ff755256eac076db860f1cd1632445"
+    },
+    {
+      "run": "flat-17",
+      "set": "validation_predictions",
+      "sha256": "844dbf81ef28d8b16ad66175a703e1d3646593c45a16be54a717b2b27b1e5b05"
+    },
+    {
+      "run": "flat-2026",
+      "set": "distractor_predictions",
+      "sha256": "2cfd254d63b0837e648a3a991e35530ed4601c0bc876aa428281fba0e0a03207"
+    },
+    {
+      "run": "flat-2026",
+      "set": "evaluation_predictions",
+      "sha256": "1b8a43314d89c13e85de8818bad2ee14fc9f876121aada1a500731758501b4bb"
+    },
+    {
+      "run": "flat-2026",
+      "set": "evidence_removed_predictions",
+      "sha256": "f8abd04a9f0ae2626183869bcbf3ef1f173d5cd974581cfc94dd70a26ad7f6a6"
+    },
+    {
+      "run": "flat-2026",
+      "set": "official_predictions",
+      "sha256": "d34eb0f6a0ae4b85b56406edd0c01b1a717f6bd7e12fcbe1d813ed011cbd22b5"
+    },
+    {
+      "run": "flat-2026",
+      "set": "train_predictions",
+      "sha256": "44be915af20f5f3d2803c4aef6b6002d4eb50add120f2f99baf2e2aa185fee5c"
+    },
+    {
+      "run": "flat-2026",
+      "set": "units_predictions",
+      "sha256": "916e5f40ecebefd10277cce10baacdac15734f5c0ec414d222853d7d0cb72c94"
+    },
+    {
+      "run": "flat-2026",
+      "set": "validation_predictions",
+      "sha256": "ffcf05320d1eaf2ca8b7e69d157e3c5690d5bd2495e1626cf6146ef940e036e9"
+    },
+    {
+      "run": "flat-42",
+      "set": "distractor_predictions",
+      "sha256": "49fd4123c89a8dacd4f909d89dadf0b043a013b4a1df9bd64082464f906231bc"
+    },
+    {
+      "run": "flat-42",
+      "set": "evaluation_predictions",
+      "sha256": "5c058e89863046861ceb3f412cc34cbf265d0cce02fef4ebc2edfcfb27ad73f2"
+    },
+    {
+      "run": "flat-42",
+      "set": "evidence_removed_predictions",
+      "sha256": "12d2aa48d8d8ff62d0eb58933f55dab468a86c06104c38469fb764434bd45066"
+    },
+    {
+      "run": "flat-42",
+      "set": "official_predictions",
+      "sha256": "8026a93b47a8145948ecb225310a1f05a48bf41ee614fcae2fb4dd718776d54b"
+    },
+    {
+      "run": "flat-42",
+      "set": "train_predictions",
+      "sha256": "1f917eb547ef78855ecf75be5a87963376f2af36a4779d8360def7fa0065a151"
+    },
+    {
+      "run": "flat-42",
+      "set": "units_predictions",
+      "sha256": "96c4762b9960de116510291730e64c2c86d3e805fddd73034acf5c79eddb759d"
+    },
+    {
+      "run": "flat-42",
+      "set": "validation_predictions",
+      "sha256": "7aa9020ca23e0b67e67fe1549af35b9a4cdba41c02566305dfa1fb7bea86a03a"
+    }
+  ]
+}

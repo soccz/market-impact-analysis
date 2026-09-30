@@ -1,0 +1,553 @@
+[
+  {
+    "id": "incheon-error",
+    "relation": "correction",
+    "state": "denied",
+    "relation_probabilities": [
+      0.9999881982803345,
+      3.675266498248675e-06,
+      6.776780992368003e-06,
+      1.3860136505172704e-06
+    ],
+    "state_probabilities": [
+      0.15904925763607025,
+      0.001751308562234044,
+      0.0362524539232254,
+      0.5816584229469299,
+      0.20421108603477478,
+      0.017077436670660973
+    ],
+    "joint_probabilities": null,
+    "spans": [
+      {
+        "start": 28,
+        "end": 37,
+        "text": "289,000천원",
+        "won": "289000000",
+        "role": "other",
+        "probabilities": [
+          0.788688600063324,
+          0.20650577545166016,
+          0.004805589560419321
+        ]
+      },
+      {
+        "start": 45,
+        "end": 54,
+        "text": "169,206천원",
+        "won": "169206000",
+        "role": "other",
+        "probabilities": [
+          0.862339198589325,
+          0.10369980335235596,
+          0.033960990607738495
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "start": 4,
+        "end": 13,
+        "kind": "relation",
+        "text": "산출 오류에 따른"
+      }
+    ]
+  },
+  {
+    "id": "youth-increase",
+    "relation": "policy_change",
+    "state": "planned",
+    "relation_probabilities": [
+      0.0003964089846704155,
+      0.9679136872291565,
+      0.02843833714723587,
+      0.003251499030739069
+    ],
+    "state_probabilities": [
+      0.09934588521718979,
+      0.8738200068473816,
+      0.012663109228014946,
+      0.0017884628614410758,
+      0.010411195456981659,
+      0.0019714131485670805
+    ],
+    "joint_probabilities": null,
+    "spans": [
+      {
+        "start": 23,
+        "end": 28,
+        "text": "40만 원",
+        "won": "400000",
+        "role": "before",
+        "probabilities": [
+          0.23766332864761353,
+          0.7125580906867981,
+          0.049778539687395096
+        ]
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "text": "50만 원",
+        "won": "500000",
+        "role": "after",
+        "probabilities": [
+          0.40296700596809387,
+          0.07482991367578506,
+          0.5222030282020569
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "start": 41,
+        "end": 43,
+        "kind": "state",
+        "text": "하고"
+      },
+      {
+        "start": 55,
+        "end": 57,
+        "kind": "relation",
+        "text": "민간"
+      },
+      {
+        "start": 62,
+        "end": 67,
+        "kind": "state",
+        "text": "강화한다."
+      }
+    ]
+  },
+  {
+    "id": "wonju-increase",
+    "relation": "policy_change",
+    "state": "asserted",
+    "relation_probabilities": [
+      0.03647111356258392,
+      0.5154589414596558,
+      0.44170355796813965,
+      0.006366339977830648
+    ],
+    "state_probabilities": [
+      0.7841483354568481,
+      0.18868036568164825,
+      0.008562392555177212,
+      0.01162735279649496,
+      0.0064285253174602985,
+      0.0005529767367988825
+    ],
+    "joint_probabilities": null,
+    "spans": [
+      {
+        "start": 20,
+        "end": 26,
+        "text": "600억 원",
+        "won": "60000000000",
+        "role": "other",
+        "probabilities": [
+          0.5106660723686218,
+          0.13579444587230682,
+          0.3535395562648773
+        ]
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "text": "1,300억 원",
+        "won": "130000000000",
+        "role": "other",
+        "probabilities": [
+          0.948769211769104,
+          0.013931830413639545,
+          0.037299007177352905
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "start": 11,
+        "end": 13,
+        "kind": "relation",
+        "text": "발행"
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "kind": "state",
+        "text": "다."
+      }
+    ]
+  },
+  {
+    "id": "infant-plan",
+    "relation": "policy_change",
+    "state": "planned",
+    "relation_probabilities": [
+      0.00029660333530046046,
+      0.984345018863678,
+      0.013479175046086311,
+      0.0018792484188452363
+    ],
+    "state_probabilities": [
+      0.004946989938616753,
+      0.9906277656555176,
+      0.0016008152160793543,
+      6.382044375641271e-05,
+      0.0026219747960567474,
+      0.00013870351540390402
+    ],
+    "joint_probabilities": null,
+    "spans": [
+      {
+        "start": 51,
+        "end": 56,
+        "text": "30만 원",
+        "won": "300000",
+        "role": "before",
+        "probabilities": [
+          0.012815256603062153,
+          0.8522810339927673,
+          0.1349036693572998
+        ]
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "text": "50만 원",
+        "won": "500000",
+        "role": "before",
+        "probabilities": [
+          0.21977518498897552,
+          0.542389452457428,
+          0.2378353476524353
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "start": 61,
+        "end": 68,
+        "kind": "state",
+        "text": "해 단계적으로"
+      },
+      {
+        "start": 71,
+        "end": 72,
+        "kind": "state",
+        "text": "해"
+      },
+      {
+        "start": 89,
+        "end": 91,
+        "kind": "relation",
+        "text": "지급"
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "kind": "state",
+        "text": "할 계획이다."
+      }
+    ]
+  },
+  {
+    "id": "forest-unconfirmed",
+    "relation": "policy_change",
+    "state": "under_review",
+    "relation_probabilities": [
+      0.016222519800066948,
+      0.9815973043441772,
+      0.0016709694173187017,
+      0.0005090847844257951
+    ],
+    "state_probabilities": [
+      0.00018627465760800987,
+      5.297210009302944e-05,
+      0.998880922794342,
+      2.4566070351283997e-05,
+      0.00019016697478946298,
+      0.0006651459261775017
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 22,
+        "end": 33,
+        "kind": "state",
+        "text": "확정된 바 없습니다."
+      }
+    ]
+  },
+  {
+    "id": "water-budget",
+    "relation": "policy_change",
+    "state": "under_review",
+    "relation_probabilities": [
+      0.006984162610024214,
+      0.9919901490211487,
+      0.0007642530254088342,
+      0.00026145626907236874
+    ],
+    "state_probabilities": [
+      2.993816087837331e-05,
+      5.365551260183565e-05,
+      0.9997181296348572,
+      1.748389422573382e-06,
+      4.693724258686416e-05,
+      0.0001495680771768093
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 27,
+        "end": 55,
+        "kind": "state",
+        "text": "재정 당국과 협의 중으로 아직 확정된 바 없습니다."
+      }
+    ]
+  },
+  {
+    "id": "voucher-budget",
+    "relation": "policy_change",
+    "state": "under_review",
+    "relation_probabilities": [
+      0.0030029371846467257,
+      0.9953717589378357,
+      0.0014227404026314616,
+      0.00020249615772627294
+    ],
+    "state_probabilities": [
+      1.973081089090556e-05,
+      9.609734843252227e-05,
+      0.9996376037597656,
+      1.4929950111763901e-06,
+      3.878161805914715e-05,
+      0.00020633969688788056
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 0,
+        "end": 4,
+        "kind": "state",
+        "text": "2025"
+      },
+      {
+        "start": 18,
+        "end": 20,
+        "kind": "state",
+        "text": "재정"
+      },
+      {
+        "start": 23,
+        "end": 46,
+        "kind": "state",
+        "text": "과 협의 중으로 아직 확정된 바 없습니다."
+      }
+    ]
+  },
+  {
+    "id": "cbam-expansion",
+    "relation": "policy_change",
+    "state": "planned",
+    "relation_probabilities": [
+      0.13040471076965332,
+      0.7009884119033813,
+      0.05067999288439751,
+      0.11792683601379395
+    ],
+    "state_probabilities": [
+      0.16281236708164215,
+      0.3472617268562317,
+      0.0268472321331501,
+      0.2491869032382965,
+      0.2104775458574295,
+      0.0034141980577260256
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 49,
+        "end": 57,
+        "kind": "state",
+        "text": "예정이라는 보도"
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "kind": "state",
+        "text": "사실과 다릅니다."
+      }
+    ]
+  },
+  {
+    "id": "nuclear-structure",
+    "relation": "policy_change",
+    "state": "under_review",
+    "relation_probabilities": [
+      0.033192574977874756,
+      0.9232167601585388,
+      0.04134812951087952,
+      0.002242550253868103
+    ],
+    "state_probabilities": [
+      0.00023305344802793115,
+      1.9573768440750428e-05,
+      0.9993380904197693,
+      2.8023638151353225e-05,
+      5.209083974477835e-05,
+      0.0003291313478257507
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 16,
+        "end": 24,
+        "kind": "state",
+        "text": "결정된 바 없습"
+      }
+    ]
+  },
+  {
+    "id": "health-living",
+    "relation": "policy_change",
+    "state": "planned",
+    "relation_probabilities": [
+      0.0005273906863294542,
+      0.9897695779800415,
+      0.008435037918388844,
+      0.001268044114112854
+    ],
+    "state_probabilities": [
+      0.4058453142642975,
+      0.5474503636360168,
+      0.01849769987165928,
+      0.0010458201868459582,
+      0.025832900777459145,
+      0.0013278808910399675
+    ],
+    "joint_probabilities": null,
+    "spans": [
+      {
+        "start": 24,
+        "end": 29,
+        "text": "6000원",
+        "won": "6000",
+        "role": "after",
+        "probabilities": [
+          0.008266621269285679,
+          0.20081940293312073,
+          0.790913999080658
+        ]
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "text": "1만 2000원",
+        "won": "12000",
+        "role": "other",
+        "probabilities": [
+          0.59908127784729,
+          0.11953018605709076,
+          0.281388521194458
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "start": 48,
+        "end": 51,
+        "kind": "state",
+        "text": "한다."
+      }
+    ]
+  },
+  {
+    "id": "coupon-funding",
+    "relation": "policy_change",
+    "state": "hypothetical",
+    "relation_probabilities": [
+      0.13750267028808594,
+      0.8025922775268555,
+      0.0034641376696527004,
+      0.05644085630774498
+    ],
+    "state_probabilities": [
+      0.03299738094210625,
+      0.016195785254240036,
+      0.008893604390323162,
+      0.33686164021492004,
+      0.6036319732666016,
+      0.001419692300260067
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 0,
+        "end": 5,
+        "kind": "relation",
+        "text": "필수 예산"
+      },
+      {
+        "start": 16,
+        "end": 18,
+        "kind": "relation",
+        "text": "소비"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "kind": "state",
+        "text": "었다는"
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "kind": "state",
+        "text": "전혀"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "kind": "state",
+        "text": "아닙니다."
+      }
+    ]
+  },
+  {
+    "id": "officer-cut",
+    "relation": "policy_change",
+    "state": "hypothetical",
+    "relation_probabilities": [
+      0.23567317426204681,
+      0.7533808350563049,
+      0.005351785570383072,
+      0.00559416227042675
+    ],
+    "state_probabilities": [
+      0.0037457484286278486,
+      0.013989520259201527,
+      0.0050575705245137215,
+      0.14599014818668365,
+      0.8269914984703064,
+      0.004225484561175108
+    ],
+    "joint_probabilities": null,
+    "spans": [],
+    "evidence": [
+      {
+        "start": 31,
+        "end": 32,
+        "kind": "state",
+        "text": "."
+      }
+    ]
+  }
+]
