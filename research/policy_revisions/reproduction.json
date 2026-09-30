@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "All probabilities, argument spans, abstention decisions and reported metrics reproduced exactly; runtimes excluded. Same CPU environment, not a second independent experiment.",
+  "prediction_files": [
+    "results/character/evaluation_predictions.json",
+    "results/character/validation_predictions.json",
+    "results/encoder/evaluation_predictions.json",
+    "results/encoder/official_cases_predictions.json",
+    "results/encoder/validation_predictions.json",
+    "results/matched_character/evaluation_predictions.json",
+    "results/matched_character/official_cases_predictions.json",
+    "results/matched_character/validation_predictions.json"
+  ],
+  "commands": [
+    "python research/policy_revisions/run.py --out NEW_DIRECTORY",
+    "python research/policy_revisions/frozen_encoder.py --encoder LOCAL_PINNED_MODEL --out NEW_DIRECTORY",
+    "python research/policy_revisions/matched_char.py --out NEW_DIRECTORY"
+  ]
+}

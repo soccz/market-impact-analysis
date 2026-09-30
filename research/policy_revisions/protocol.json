@@ -1,0 +1,74 @@
+{
+  "study": "policy-revisions-v2",
+  "date": "2026-09-30",
+  "question": "Can a small learned Korean text model distinguish explicit reporting errors from substantive changes and ground previous/current monetary values in text spans across unseen wording families?",
+  "scope": "Short, selected Korean monetary-policy passages; not document retrieval, legal interpretation, multi-document entity resolution, or complete fact checking.",
+  "labels": [
+    "correction",
+    "policy_change",
+    "equivalent",
+    "undetermined"
+  ],
+  "label_definition": {
+    "correction": "An asserted correction of an explicitly erroneous earlier monetary report.",
+    "policy_change": "An asserted substantive monetary change, not correction of an erroneous report.",
+    "equivalent": "An explicitly stated restatement of the same amount in different units.",
+    "undetermined": "The passage does not assert one of those relations: missing reason, denied change/correction, conditional scenario, proposal, or incomparable items. This is a semantic class, distinct from model abstention."
+  },
+  "authorship": "Independent personal follow-up directed by soccz; code, synthetic examples and provisional labels created with AI assistance. No independent human annotation.",
+  "development_context": "All v1 results and examples have already been inspected. V1 is regression/development evidence, never a new blind test. V2 grammar is designed by the same author as the method; held-out surface families are not independent human or population validation.",
+  "data": {
+    "train": {
+      "frames": 128,
+      "families": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "validation": {
+      "frames": 32,
+      "families": [
+        4,
+        5
+      ]
+    },
+    "evaluation": {
+      "frames": 48,
+      "families": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "per_frame_family": "All four relation classes; previous/current textual order balanced, independent distractor monetary span; undetermined subtypes rotate.",
+    "split": "Distinct fictional names, years and value ranges; no exact passage overlap. Every frame is rendered in every family in its split. Semantic frame is the bootstrap unit."
+  },
+  "method": {
+    "relation": "Character TF-IDF 2-5 grams, sublinear TF, min_df=2; logistic regression C=10, max_iter=1000. All numeric/currency spans masked before vectorization.",
+    "arguments": "The same classifier recipe predicts previous/current/other for each regex-extracted monetary span from 48 characters of left/right context, with all other numbers masked. No gold construction metadata is passed to prediction. Role training uses determinate examples only; relation=undetermined suppresses arguments.",
+    "constraints": "For a determinate relation require exactly one previous and one current span, equal normalized amounts for equivalent, unequal amounts for correction/change. Unsupported parses or failures abstain. An undetermined prediction returns no monetary relation.",
+    "selection": "On validation only, choose maximum-coverage threshold among 0, .05, ..., .95, .99 with at least 20 accepted items and joint error <=5%; ties choose smaller threshold. If no candidate qualifies, abstain on every item. No guarantee on evaluation risk.",
+    "gpu": "None; deterministic CPU linear classifiers, not another neural-model fine-tuning run."
+  },
+  "comparisons": [
+    "keyword-and-value-order baseline",
+    "learned relation with value-order arguments",
+    "learned relation with local span arguments",
+    "span model plus consistency constraints",
+    "validation-selected abstention"
+  ],
+  "metrics": [
+    "relation accuracy and macro F1",
+    "argument exact match (offsets/roles)",
+    "joint relation and argument exact match",
+    "coverage and joint error among answered items",
+    "four-family all-correct rate",
+    "per-family and undetermined-subtype errors"
+  ],
+  "statistics": "10000 paired bootstrap resamples of the 48 semantic frames, seed 731; conditions fixed. Intervals conditional on authored templates and frames; not independent annotation/template/population uncertainty.",
+  "stopping": "Freeze input/method/evaluation code before model fitting; run once, retain failures, independently recalculate metrics and validate spans, publish measured results and limits. Do not tune to evaluation scores.",
+  "disclosure": "No customer data or delivery implementation. Synthetic data and independent implementation may be published. Official excerpts, if used, are short attributed case studies with provisional labels; raw fetched pages stay local."
+}

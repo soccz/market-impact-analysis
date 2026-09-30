@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "registered_before_model_runs": true,
+  "research_question": "Does controlled semantic augmentation improve Korean policy NLI across held-out surface forms and values without degrading general Korean NLI?",
+  "scope": "Evidence-relative entailment, contradiction and insufficient information. Correction reason and change provenance are distinct tasks; neither is inferred from contradiction alone.",
+  "model": "klue/roberta-base@02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "multilingual_reference": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli@8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "seeds": [17, 42, 2026],
+  "data": {
+    "general": "Official KLUE-NLI v1.1 train; 10% premise-group hash split for local validation. Official dev 3000 used as evaluation, not called official test.",
+    "leakage": "Exclude official-train premise groups overlapping official-dev premises. Record source versions and all IDs. Test labels never passed to training.",
+    "policy": "AI-authored formal contrast sets. Identical hypothesis occurs with each of the three labels within a contrast group. Disjoint surface templates, entities and value ranges across train/validation/evaluation. Same designer knows the grammar: not independently human-validated.",
+    "old_pilot": "All initial 48 + stress 5 are known development/regression material, never new held-out evidence.",
+    "official_documents": "Source-grounded case studies with provenance and explicit provisional labels; no claim of independent annotation or population representativeness. Never used for training."
+  },
+  "base_training": {"epochs": 2, "learning_rate": 0.00002, "weight_decay": 0.01, "warmup_ratio": 0.06, "micro_batch": 8, "accumulation": 4, "max_tokens": 256, "precision": "fp16 AMP", "selection": "fixed last epoch, no score-based selection"},
+  "paired_continuation": {"steps": 240, "learning_rate": 0.00001, "weight_decay": 0.01, "warmup_steps": 24, "effective_batch": 32, "control": "32 general training examples per step", "augmentation": "same first 16 general examples plus 16 policy training examples per step", "initialization": "same base checkpoint per seed; reset optimizer and RNG for both branches; fixed last step"},
+  "evaluation": {"primary": "Policy held-out accuracy difference between matched control and augmentation; all 3 seeds separately and mean/std", "secondary": ["macro F1", "complete contrast-group accuracy", "per-phenomenon accuracy", "KLUE official dev retention", "paired group bootstrap 95% CI", "hypothesis-only and lexical baselines", "token truncation counts", "known pilot regressions"], "bootstrap": "10000 paired resamples of contrast groups; benchmark resamples grouped by normalized premise; intervals conditional on designed dataset and observed seeds", "claim_gate": "Report negative results. No policy generalization claim from synthetic improvement alone. No significance claim from overlapping triplets or selective best seed."},
+  "limits": ["Public benchmark contamination in pretraining cannot be ruled out", "Synthetic grammar validity is not independent linguistic annotation", "Three training seeds are a small replication sample", "Actual policy correction extraction requires separate evidence annotation", "No claim of new model architecture or established academic novelty"]
+}

@@ -1,0 +1,53 @@
+{
+  "normalization": {
+    "control": {
+      "policy_evaluation": {
+        "raw_mean": 0.439429012345679,
+        "normalized_mean": 0.5046296296296297,
+        "fixes_across_3_runs": 362,
+        "regressions_across_3_runs": 193
+      },
+      "official_cases": {
+        "raw_mean": 0.7407407407407408,
+        "normalized_mean": 0.6851851851851851,
+        "fixes_across_3_runs": 3,
+        "regressions_across_3_runs": 6
+      }
+    },
+    "augmentation": {
+      "policy_evaluation": {
+        "raw_mean": 0.6022376543209876,
+        "normalized_mean": 0.6508487654320988,
+        "fixes_across_3_runs": 228,
+        "regressions_across_3_runs": 102
+      },
+      "official_cases": {
+        "raw_mean": 0.7407407407407408,
+        "normalized_mean": 0.7407407407407408,
+        "fixes_across_3_runs": 3,
+        "regressions_across_3_runs": 3
+      }
+    }
+  },
+  "factors": {
+    "train_surface__train_values": {
+      "control": 0.5229024943310657,
+      "augmentation": 0.9147392290249433
+    },
+    "train_surface__evaluation_values": {
+      "control": 0.4594104308390023,
+      "augmentation": 0.8390022675736962
+    },
+    "evaluation_surface__train_values": {
+      "control": 0.45759637188208613,
+      "augmentation": 0.6512471655328799
+    },
+    "evaluation_surface__evaluation_values": {
+      "control": 0.4340136054421769,
+      "augmentation": 0.6126984126984127
+    }
+  },
+  "factor_pairs_per_cell": 735,
+  "all_unchanged_input_flips_matched_probe": 0,
+  "surface_drop_at_heldout_values": 0.22630385487528348
+}

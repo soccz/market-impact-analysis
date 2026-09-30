@@ -1,0 +1,4919 @@
+{
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "aggregate": {
+    "base": {
+      "klue_official_dev": {
+        "accuracy": {
+          "mean": 0.8485555555555556,
+          "std": 0.003746603400019402,
+          "by_seed": {
+            "17": 0.8476666666666667,
+            "42": 0.8526666666666667,
+            "2026": 0.8453333333333334
+          }
+        },
+        "macro_f1": {
+          "mean": 0.8482438317462339,
+          "std": 0.003809756004656595,
+          "by_seed": {
+            "17": 0.847477506738417,
+            "42": 0.8523785006544834,
+            "2026": 0.844875487845801
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.6263333333333333,
+          "std": 0.008736894948054113,
+          "by_seed": {
+            "17": 0.624,
+            "42": 0.636,
+            "2026": 0.619
+          }
+        }
+      },
+      "policy_evaluation": {
+        "accuracy": {
+          "mean": 0.4367283950617284,
+          "std": 0.016422682603235175,
+          "by_seed": {
+            "17": 0.4398148148148148,
+            "42": 0.41898148148148145,
+            "2026": 0.4513888888888889
+          }
+        },
+        "macro_f1": {
+          "mean": 0.42676745113558506,
+          "std": 0.016894497105496016,
+          "by_seed": {
+            "17": 0.42900228453428185,
+            "42": 0.40886676383102794,
+            "2026": 0.4424333050414455
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.0787037037037037,
+          "std": 0.011161632825223325,
+          "by_seed": {
+            "17": 0.08680555555555555,
+            "42": 0.08333333333333333,
+            "2026": 0.06597222222222222
+          }
+        }
+      },
+      "policy_validation": {
+        "accuracy": {
+          "mean": 0.4969135802469136,
+          "std": 0.031257143673656014,
+          "by_seed": {
+            "17": 0.4652777777777778,
+            "42": 0.4976851851851852,
+            "2026": 0.5277777777777778
+          }
+        },
+        "macro_f1": {
+          "mean": 0.4966249276907339,
+          "std": 0.036287905211934264,
+          "by_seed": {
+            "17": 0.46076922415655247,
+            "42": 0.4957754405163774,
+            "2026": 0.5333301183992719
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.08796296296296297,
+          "std": 0.010607814108694071,
+          "by_seed": {
+            "17": 0.0763888888888889,
+            "42": 0.09027777777777778,
+            "2026": 0.09722222222222222
+          }
+        }
+      },
+      "official_cases": {
+        "accuracy": {
+          "mean": 0.7407407407407408,
+          "std": 0.03207501495497923,
+          "by_seed": {
+            "17": 0.7777777777777778,
+            "42": 0.7222222222222222,
+            "2026": 0.7222222222222222
+          }
+        },
+        "macro_f1": {
+          "mean": 0.7373293373293374,
+          "std": 0.02953080297952931,
+          "by_seed": {
+            "17": 0.7714285714285715,
+            "42": 0.7202797202797203,
+            "2026": 0.7202797202797203
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.27777777777777773,
+          "std": 0.09622504486493763,
+          "by_seed": {
+            "17": 0.3333333333333333,
+            "42": 0.16666666666666666,
+            "2026": 0.3333333333333333
+          }
+        }
+      },
+      "known_pilot": {
+        "accuracy": {
+          "mean": 0.6792452830188679,
+          "std": 0.018867924528301883,
+          "by_seed": {
+            "17": 0.6792452830188679,
+            "42": 0.660377358490566,
+            "2026": 0.6981132075471698
+          }
+        },
+        "macro_f1": {
+          "mean": 0.6761454667469103,
+          "std": 0.01429418800096273,
+          "by_seed": {
+            "17": 0.6770025839793282,
+            "42": 0.6614420062695925,
+            "2026": 0.68999180999181
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.6792452830188679,
+          "std": 0.018867924528301883,
+          "by_seed": {
+            "17": 0.6792452830188679,
+            "42": 0.660377358490566,
+            "2026": 0.6981132075471698
+          }
+        }
+      }
+    },
+    "control": {
+      "klue_official_dev": {
+        "accuracy": {
+          "mean": 0.8456666666666667,
+          "std": 0.005364492313143689,
+          "by_seed": {
+            "17": 0.8396666666666667,
+            "42": 0.8473333333333334,
+            "2026": 0.85
+          }
+        },
+        "macro_f1": {
+          "mean": 0.8453083023392964,
+          "std": 0.005561337260332565,
+          "by_seed": {
+            "17": 0.8390886037468661,
+            "42": 0.8470343220984464,
+            "2026": 0.8498019811725767
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.619,
+          "std": 0.014000000000000012,
+          "by_seed": {
+            "17": 0.605,
+            "42": 0.619,
+            "2026": 0.633
+          }
+        }
+      },
+      "policy_evaluation": {
+        "accuracy": {
+          "mean": 0.43904320987654316,
+          "std": 0.0006682294782287525,
+          "by_seed": {
+            "17": 0.4386574074074074,
+            "42": 0.4386574074074074,
+            "2026": 0.4398148148148148
+          }
+        },
+        "macro_f1": {
+          "mean": 0.4282621691507229,
+          "std": 0.007626559874218808,
+          "by_seed": {
+            "17": 0.42183342062198464,
+            "42": 0.42626426850093707,
+            "2026": 0.43668881832924694
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.07986111111111112,
+          "std": 0.009186636496752047,
+          "by_seed": {
+            "17": 0.09027777777777778,
+            "42": 0.0763888888888889,
+            "2026": 0.07291666666666667
+          }
+        }
+      },
+      "policy_validation": {
+        "accuracy": {
+          "mean": 0.5092592592592592,
+          "std": 0.02669574674692311,
+          "by_seed": {
+            "17": 0.4791666666666667,
+            "42": 0.5185185185185185,
+            "2026": 0.5300925925925926
+          }
+        },
+        "macro_f1": {
+          "mean": 0.5062767891626088,
+          "std": 0.03209379476759713,
+          "by_seed": {
+            "17": 0.47000016313775766,
+            "42": 0.5178564082673671,
+            "2026": 0.5309737960827013
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.11805555555555554,
+          "std": 0.013888888888888888,
+          "by_seed": {
+            "17": 0.13194444444444445,
+            "42": 0.10416666666666667,
+            "2026": 0.11805555555555555
+          }
+        }
+      },
+      "official_cases": {
+        "accuracy": {
+          "mean": 0.7407407407407408,
+          "std": 0.08486251286955263,
+          "by_seed": {
+            "17": 0.8333333333333334,
+            "42": 0.7222222222222222,
+            "2026": 0.6666666666666666
+          }
+        },
+        "macro_f1": {
+          "mean": 0.734942834942835,
+          "std": 0.09078593357229538,
+          "by_seed": {
+            "17": 0.8321678321678322,
+            "42": 0.7202797202797203,
+            "2026": 0.6523809523809524
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.38888888888888884,
+          "std": 0.09622504486493764,
+          "by_seed": {
+            "17": 0.5,
+            "42": 0.3333333333333333,
+            "2026": 0.3333333333333333
+          }
+        }
+      },
+      "known_pilot": {
+        "accuracy": {
+          "mean": 0.710691823899371,
+          "std": 0.02178680261092927,
+          "by_seed": {
+            "17": 0.7358490566037735,
+            "42": 0.6981132075471698,
+            "2026": 0.6981132075471698
+          }
+        },
+        "macro_f1": {
+          "mean": 0.7082190326604372,
+          "std": 0.021564328471870307,
+          "by_seed": {
+            "17": 0.7328042328042329,
+            "42": 0.699346405228758,
+            "2026": 0.6925064599483205
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.710691823899371,
+          "std": 0.02178680261092927,
+          "by_seed": {
+            "17": 0.7358490566037735,
+            "42": 0.6981132075471698,
+            "2026": 0.6981132075471698
+          }
+        }
+      }
+    },
+    "augmentation": {
+      "klue_official_dev": {
+        "accuracy": {
+          "mean": 0.8483333333333333,
+          "std": 0.0008819171036882256,
+          "by_seed": {
+            "17": 0.848,
+            "42": 0.8476666666666667,
+            "2026": 0.8493333333333334
+          }
+        },
+        "macro_f1": {
+          "mean": 0.8480929379338059,
+          "std": 0.0009928212196574338,
+          "by_seed": {
+            "17": 0.84771561153198,
+            "42": 0.8473440977672229,
+            "2026": 0.8492191045022145
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.6243333333333333,
+          "std": 0.005686240703077332,
+          "by_seed": {
+            "17": 0.626,
+            "42": 0.618,
+            "2026": 0.629
+          }
+        }
+      },
+      "policy_evaluation": {
+        "accuracy": {
+          "mean": 0.6022376543209876,
+          "std": 0.0582893781583008,
+          "by_seed": {
+            "17": 0.6689814814814815,
+            "42": 0.5613425925925926,
+            "2026": 0.5763888888888888
+          }
+        },
+        "macro_f1": {
+          "mean": 0.5789356241691057,
+          "std": 0.06951517408494938,
+          "by_seed": {
+            "17": 0.6579933519215216,
+            "42": 0.5273748780615309,
+            "2026": 0.5514386425242646
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.21759259259259256,
+          "std": 0.1163237630486318,
+          "by_seed": {
+            "17": 0.3506944444444444,
+            "42": 0.13541666666666666,
+            "2026": 0.16666666666666666
+          }
+        }
+      },
+      "policy_validation": {
+        "accuracy": {
+          "mean": 0.7754629629629629,
+          "std": 0.006944444444444475,
+          "by_seed": {
+            "17": 0.7824074074074074,
+            "42": 0.7754629629629629,
+            "2026": 0.7685185185185185
+          }
+        },
+        "macro_f1": {
+          "mean": 0.7698988135173922,
+          "std": 0.009101589105892424,
+          "by_seed": {
+            "17": 0.7799019607843137,
+            "42": 0.7676886029595115,
+            "2026": 0.7621058768083516
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.4976851851851852,
+          "std": 0.004009376869372387,
+          "by_seed": {
+            "17": 0.5,
+            "42": 0.4930555555555556,
+            "2026": 0.5
+          }
+        }
+      },
+      "official_cases": {
+        "accuracy": {
+          "mean": 0.7407407407407408,
+          "std": 0.03207501495497923,
+          "by_seed": {
+            "17": 0.7222222222222222,
+            "42": 0.7777777777777778,
+            "2026": 0.7222222222222222
+          }
+        },
+        "macro_f1": {
+          "mean": 0.7293175959842627,
+          "std": 0.03675295555151272,
+          "by_seed": {
+            "17": 0.7037037037037036,
+            "42": 0.7714285714285715,
+            "2026": 0.7128205128205128
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.27777777777777773,
+          "std": 0.09622504486493763,
+          "by_seed": {
+            "17": 0.16666666666666666,
+            "42": 0.3333333333333333,
+            "2026": 0.3333333333333333
+          }
+        }
+      },
+      "known_pilot": {
+        "accuracy": {
+          "mean": 0.7295597484276729,
+          "std": 0.021786802610929336,
+          "by_seed": {
+            "17": 0.7169811320754716,
+            "42": 0.7169811320754716,
+            "2026": 0.7547169811320755
+          }
+        },
+        "macro_f1": {
+          "mean": 0.7346920222307219,
+          "std": 0.019729641427512642,
+          "by_seed": {
+            "17": 0.7244152046783624,
+            "42": 0.7222222222222222,
+            "2026": 0.757438639791581
+          }
+        },
+        "all_correct_group_rate": {
+          "mean": 0.7295597484276729,
+          "std": 0.021786802610929336,
+          "by_seed": {
+            "17": 0.7169811320754716,
+            "42": 0.7169811320754716,
+            "2026": 0.7547169811320755
+          }
+        }
+      }
+    }
+  },
+  "paired_comparisons": {
+    "policy_evaluation": {
+      "delta": 0.16319444444444445,
+      "ci95": [
+        0.13773148148148145,
+        0.189429012345679
+      ],
+      "groups": 288,
+      "resamples": 10000,
+      "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+    },
+    "klue_official_dev": {
+      "delta": 0.0026666666666666666,
+      "ci95": [
+        -0.002113888888888887,
+        0.007555555555555555
+      ],
+      "groups": 1000,
+      "resamples": 10000,
+      "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+    }
+  },
+  "policy_slices": {
+    "boundary": {
+      "base": 0.34375,
+      "control": 0.3333333333333333,
+      "augmentation": 0.5763888888888888,
+      "paired": {
+        "delta": 0.24305555555555555,
+        "ci95": [
+          0.20833333333333334,
+          0.27777777777777773
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "correction": {
+      "base": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "augmentation": 0.42361111111111116,
+      "paired": {
+        "delta": 0.09027777777777778,
+        "ci95": [
+          0.05555555555555555,
+          0.1284722222222222
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "entity": {
+      "base": 0.71875,
+      "control": 0.7222222222222223,
+      "augmentation": 0.7430555555555555,
+      "paired": {
+        "delta": 0.02083333333333333,
+        "ci95": [
+          -0.08333333333333333,
+          0.1284722222222222
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "negation": {
+      "base": 0.375,
+      "control": 0.37847222222222215,
+      "augmentation": 0.8159722222222222,
+      "paired": {
+        "delta": 0.4375,
+        "ci95": [
+          0.375,
+          0.49652777777777773
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "percentage_point": {
+      "base": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "augmentation": 0.3333333333333333,
+      "paired": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "role": {
+      "base": 0.3993055555555555,
+      "control": 0.40972222222222215,
+      "augmentation": 0.625,
+      "paired": {
+        "delta": 0.21527777777777776,
+        "ci95": [
+          0.15624999999999997,
+          0.27777777777777773
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "status": {
+      "base": 0.579861111111111,
+      "control": 0.5833333333333334,
+      "augmentation": 0.6006944444444443,
+      "paired": {
+        "delta": 0.01736111111111111,
+        "ci95": [
+          -0.04861111111111111,
+          0.08333333333333333
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "time": {
+      "base": 0.45138888888888884,
+      "control": 0.4548611111111111,
+      "augmentation": 0.6875,
+      "paired": {
+        "delta": 0.23263888888888892,
+        "ci95": [
+          0.17013888888888892,
+          0.29513888888888884
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    },
+    "unit": {
+      "base": 0.3958333333333333,
+      "control": 0.40277777777777773,
+      "augmentation": 0.6145833333333334,
+      "paired": {
+        "delta": 0.21180555555555558,
+        "ci95": [
+          0.14930555555555555,
+          0.27777777777777773
+        ],
+        "groups": 32,
+        "resamples": 10000,
+        "interpretation": "conditional on designed data and 3 observed seeds; not independent template or annotator uncertainty"
+      }
+    }
+  },
+  "other_baselines": {
+    "multilingual_reference": {
+      "klue_official_dev": {
+        "n": 3000,
+        "accuracy": 0.7966666666666666,
+        "macro_f1": 0.7931050123849865,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            940,
+            24,
+            36
+          ],
+          [
+            215,
+            635,
+            150
+          ],
+          [
+            143,
+            42,
+            815
+          ]
+        ],
+        "groups": 1000,
+        "all_correct_group_rate": 0.489,
+        "slices": {
+          "contains_digit": {
+            "n": 1164,
+            "accuracy": 0.8049828178694158,
+            "macro_f1": 0.8045343482387691,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                344,
+                10,
+                17
+              ],
+              [
+                64,
+                296,
+                56
+              ],
+              [
+                65,
+                15,
+                297
+              ]
+            ],
+            "groups": 425,
+            "all_correct_group_rate": 0.5529411764705883
+          },
+          "no_digit": {
+            "n": 1836,
+            "accuracy": 0.7913943355119826,
+            "macro_f1": 0.7830944099002063,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                596,
+                14,
+                19
+              ],
+              [
+                151,
+                339,
+                94
+              ],
+              [
+                78,
+                27,
+                518
+              ]
+            ],
+            "groups": 631,
+            "all_correct_group_rate": 0.4849445324881141
+          }
+        }
+      },
+      "policy_evaluation": {
+        "n": 864,
+        "accuracy": 0.4652777777777778,
+        "macro_f1": 0.4443846881605895,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            195,
+            61,
+            32
+          ],
+          [
+            77,
+            52,
+            159
+          ],
+          [
+            68,
+            65,
+            155
+          ]
+        ],
+        "groups": 288,
+        "all_correct_group_rate": 0.003472222222222222,
+        "slices": {
+          "boundary": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2513641542243809,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                29,
+                3
+              ],
+              [
+                0,
+                24,
+                8
+              ],
+              [
+                0,
+                24,
+                8
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2658748762827525,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                20,
+                12,
+                0
+              ],
+              [
+                20,
+                12,
+                0
+              ],
+              [
+                9,
+                23,
+                0
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "entity": {
+            "n": 96,
+            "accuracy": 0.6041666666666666,
+            "macro_f1": 0.4823848238482385,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                32,
+                0,
+                0
+              ],
+              [
+                12,
+                0,
+                20
+              ],
+              [
+                6,
+                0,
+                26
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "negation": {
+            "n": 96,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5340843895060763,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                32,
+                0,
+                0
+              ],
+              [
+                13,
+                0,
+                19
+              ],
+              [
+                0,
+                0,
+                32
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "percentage_point": {
+            "n": 96,
+            "accuracy": 0.25,
+            "macro_f1": 0.20147679324894516,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                20,
+                12
+              ],
+              [
+                1,
+                10,
+                21
+              ],
+              [
+                0,
+                18,
+                14
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 96,
+            "accuracy": 0.4166666666666667,
+            "macro_f1": 0.3304575163398693,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                24,
+                0,
+                8
+              ],
+              [
+                13,
+                0,
+                19
+              ],
+              [
+                16,
+                0,
+                16
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "status": {
+            "n": 96,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                32,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                0,
+                0,
+                32
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 96,
+            "accuracy": 0.5104166666666666,
+            "macro_f1": 0.45411834671424317,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                32,
+                0,
+                0
+              ],
+              [
+                10,
+                6,
+                16
+              ],
+              [
+                21,
+                0,
+                11
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.03125
+          },
+          "unit": {
+            "n": 96,
+            "accuracy": 0.40625,
+            "macro_f1": 0.3257800698025733,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                23,
+                0,
+                9
+              ],
+              [
+                8,
+                0,
+                24
+              ],
+              [
+                16,
+                0,
+                16
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "policy_validation": {
+        "n": 432,
+        "accuracy": 0.5300925925925926,
+        "macro_f1": 0.49914215686274516,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            110,
+            11,
+            23
+          ],
+          [
+            50,
+            30,
+            64
+          ],
+          [
+            36,
+            19,
+            89
+          ]
+        ],
+        "groups": 144,
+        "all_correct_group_rate": 0.041666666666666664,
+        "slices": {
+          "boundary": {
+            "n": 48,
+            "accuracy": 0.3958333333333333,
+            "macro_f1": 0.3782505910165484,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                4,
+                8,
+                4
+              ],
+              [
+                1,
+                11,
+                4
+              ],
+              [
+                0,
+                12,
+                4
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 48,
+            "accuracy": 0.3541666666666667,
+            "macro_f1": 0.3174025390405572,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                11,
+                3,
+                2
+              ],
+              [
+                9,
+                4,
+                3
+              ],
+              [
+                7,
+                7,
+                2
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "entity": {
+            "n": 48,
+            "accuracy": 0.6875,
+            "macro_f1": 0.5943320674778475,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                14,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0625
+          },
+          "negation": {
+            "n": 48,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5864889279523426,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                14,
+                0,
+                2
+              ],
+              [
+                7,
+                2,
+                7
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.125
+          },
+          "percentage_point": {
+            "n": 48,
+            "accuracy": 0.3958333333333333,
+            "macro_f1": 0.2830409356725146,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                12,
+                3,
+                1
+              ],
+              [
+                16,
+                0,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 48,
+            "accuracy": 0.3958333333333333,
+            "macro_f1": 0.3194444444444444,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                8,
+                0,
+                8
+              ],
+              [
+                3,
+                0,
+                13
+              ],
+              [
+                5,
+                0,
+                11
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "status": {
+            "n": 48,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 48,
+            "accuracy": 0.7291666666666666,
+            "macro_f1": 0.7088023088023087,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                0,
+                6,
+                10
+              ],
+              [
+                3,
+                0,
+                13
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.1875
+          },
+          "unit": {
+            "n": 48,
+            "accuracy": 0.4791666666666667,
+            "macro_f1": 0.4522763817889457,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                9,
+                0,
+                7
+              ],
+              [
+                4,
+                3,
+                9
+              ],
+              [
+                5,
+                0,
+                11
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "official_cases": {
+        "n": 18,
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.6501089324618736,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ]
+        ],
+        "groups": 6,
+        "all_correct_group_rate": 0.3333333333333333,
+        "slices": {
+          "explicit_correction": {
+            "n": 6,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.6555555555555556,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                1
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.5
+          },
+          "policy_change": {
+            "n": 6,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.0
+          },
+          "policy_change_plan": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "undecided": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          }
+        }
+      },
+      "known_pilot": {
+        "n": 53,
+        "accuracy": 0.7169811320754716,
+        "macro_f1": 0.7178362573099415,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            12,
+            2,
+            3
+          ],
+          [
+            3,
+            12,
+            3
+          ],
+          [
+            4,
+            0,
+            14
+          ]
+        ],
+        "groups": 53,
+        "all_correct_group_rate": 0.7169811320754716,
+        "slices": {
+          "amount": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "attribution": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "boundary": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "condition": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "correction": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "date": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "different_year": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "entity_binding": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "modality": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "negation": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "percentage_points": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2222222222222222,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "reported_claim": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "temporal_binding": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "unit": {
+            "n": 6,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.6666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                0,
+                1
+              ]
+            ],
+            "groups": 6,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "upper_bound": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2222222222222222,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "단위 동치 대조": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "명사형 부정": {
+            "n": 1,
+            "accuracy": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          },
+          "비교급과 정확값": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "총액과 삭감액": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "확정과 집행": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      }
+    },
+    "lexical_pair": {
+      "klue_official_dev": {
+        "n": 3000,
+        "accuracy": 0.5123333333333333,
+        "macro_f1": 0.5099326978812924,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            595,
+            211,
+            194
+          ],
+          [
+            277,
+            520,
+            203
+          ],
+          [
+            323,
+            255,
+            422
+          ]
+        ],
+        "groups": 1000,
+        "all_correct_group_rate": 0.097,
+        "slices": {
+          "contains_digit": {
+            "n": 1164,
+            "accuracy": 0.5008591065292096,
+            "macro_f1": 0.49595037194446395,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                219,
+                79,
+                73
+              ],
+              [
+                97,
+                223,
+                96
+              ],
+              [
+                129,
+                107,
+                141
+              ]
+            ],
+            "groups": 425,
+            "all_correct_group_rate": 0.15294117647058825
+          },
+          "no_digit": {
+            "n": 1836,
+            "accuracy": 0.5196078431372549,
+            "macro_f1": 0.517805678559704,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                376,
+                132,
+                121
+              ],
+              [
+                180,
+                297,
+                107
+              ],
+              [
+                194,
+                148,
+                281
+              ]
+            ],
+            "groups": 631,
+            "all_correct_group_rate": 0.11727416798732171
+          }
+        }
+      },
+      "policy_evaluation": {
+        "n": 864,
+        "accuracy": 0.5300925925925926,
+        "macro_f1": 0.5232949258316282,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            154,
+            44,
+            90
+          ],
+          [
+            110,
+            107,
+            71
+          ],
+          [
+            68,
+            23,
+            197
+          ]
+        ],
+        "groups": 288,
+        "all_correct_group_rate": 0.0798611111111111,
+        "slices": {
+          "boundary": {
+            "n": 96,
+            "accuracy": 0.4479166666666667,
+            "macro_f1": 0.35287881799509707,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                0,
+                11,
+                21
+              ],
+              [
+                0,
+                0,
+                32
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 96,
+            "accuracy": 0.4479166666666667,
+            "macro_f1": 0.3881766381766381,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                10,
+                22,
+                0
+              ],
+              [
+                3,
+                29,
+                0
+              ],
+              [
+                7,
+                21,
+                4
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.03125
+          },
+          "entity": {
+            "n": 96,
+            "accuracy": 0.5208333333333334,
+            "macro_f1": 0.42537112010796224,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                27,
+                0,
+                5
+              ],
+              [
+                27,
+                0,
+                5
+              ],
+              [
+                9,
+                0,
+                23
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "negation": {
+            "n": 96,
+            "accuracy": 0.7291666666666666,
+            "macro_f1": 0.6756335282651073,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                32,
+                0,
+                0
+              ],
+              [
+                26,
+                6,
+                0
+              ],
+              [
+                0,
+                0,
+                32
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.1875
+          },
+          "percentage_point": {
+            "n": 96,
+            "accuracy": 0.6145833333333334,
+            "macro_f1": 0.49411764705882355,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                22,
+                10
+              ],
+              [
+                0,
+                29,
+                3
+              ],
+              [
+                0,
+                2,
+                30
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 96,
+            "accuracy": 0.8229166666666666,
+            "macro_f1": 0.8193441261934412,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                28,
+                0,
+                4
+              ],
+              [
+                0,
+                32,
+                0
+              ],
+              [
+                13,
+                0,
+                19
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.5
+          },
+          "status": {
+            "n": 96,
+            "accuracy": 0.19791666666666666,
+            "macro_f1": 0.11014492753623188,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                13,
+                0,
+                19
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 96,
+            "accuracy": 0.5104166666666666,
+            "macro_f1": 0.41269841269841273,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                26,
+                0,
+                6
+              ],
+              [
+                24,
+                0,
+                8
+              ],
+              [
+                9,
+                0,
+                23
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "unit": {
+            "n": 96,
+            "accuracy": 0.4791666666666667,
+            "macro_f1": 0.3878787878787879,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                31,
+                0,
+                1
+              ],
+              [
+                30,
+                0,
+                2
+              ],
+              [
+                17,
+                0,
+                15
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "policy_validation": {
+        "n": 432,
+        "accuracy": 0.5023148148148148,
+        "macro_f1": 0.49428768429207465,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            78,
+            25,
+            41
+          ],
+          [
+            60,
+            46,
+            38
+          ],
+          [
+            47,
+            4,
+            93
+          ]
+        ],
+        "groups": 144,
+        "all_correct_group_rate": 0.041666666666666664,
+        "slices": {
+          "boundary": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 48,
+            "accuracy": 0.5208333333333334,
+            "macro_f1": 0.4173441734417344,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                10,
+                6
+              ],
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                3,
+                13
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "entity": {
+            "n": 48,
+            "accuracy": 0.4375,
+            "macro_f1": 0.3395211191821361,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                11,
+                0,
+                5
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "negation": {
+            "n": 48,
+            "accuracy": 0.6875,
+            "macro_f1": 0.6150722915428798,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                15,
+                0,
+                1
+              ],
+              [
+                13,
+                2,
+                1
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.125
+          },
+          "percentage_point": {
+            "n": 48,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5877616747181965,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                15,
+                0
+              ],
+              [
+                1,
+                15,
+                0
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 48,
+            "accuracy": 0.75,
+            "macro_f1": 0.722943722943723,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                15,
+                0,
+                1
+              ],
+              [
+                0,
+                16,
+                0
+              ],
+              [
+                11,
+                0,
+                5
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.25
+          },
+          "status": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 48,
+            "accuracy": 0.375,
+            "macro_f1": 0.24611708482676223,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                14,
+                0,
+                2
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "unit": {
+            "n": 48,
+            "accuracy": 0.4166666666666667,
+            "macro_f1": 0.33682058682058685,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                15,
+                0,
+                1
+              ],
+              [
+                14,
+                1,
+                1
+              ],
+              [
+                11,
+                1,
+                4
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "official_cases": {
+        "n": 18,
+        "accuracy": 0.5,
+        "macro_f1": 0.466015466015466,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            5,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "groups": 6,
+        "all_correct_group_rate": 0.0,
+        "slices": {
+          "explicit_correction": {
+            "n": 6,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.3,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                2,
+                0,
+                0
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.0
+          },
+          "policy_change": {
+            "n": 6,
+            "accuracy": 0.5,
+            "macro_f1": 0.38888888888888884,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.0
+          },
+          "policy_change_plan": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "undecided": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "known_pilot": {
+        "n": 53,
+        "accuracy": 0.41509433962264153,
+        "macro_f1": 0.4090322580645161,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            1,
+            10
+          ],
+          [
+            2,
+            5,
+            11
+          ],
+          [
+            6,
+            1,
+            11
+          ]
+        ],
+        "groups": 53,
+        "all_correct_group_rate": 0.41509433962264153,
+        "slices": {
+          "amount": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "attribution": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "boundary": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "condition": {
+            "n": 3,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "date": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "different_year": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "entity_binding": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "modality": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "negation": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "percentage_points": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "reported_claim": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "temporal_binding": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "unit": {
+            "n": 6,
+            "accuracy": 0.5,
+            "macro_f1": 0.5222222222222221,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                1
+              ]
+            ],
+            "groups": 6,
+            "all_correct_group_rate": 0.5
+          },
+          "upper_bound": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "단위 동치 대조": {
+            "n": 1,
+            "accuracy": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          },
+          "명사형 부정": {
+            "n": 1,
+            "accuracy": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          },
+          "비교급과 정확값": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "총액과 삭감액": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "확정과 집행": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      }
+    },
+    "hypothesis_only": {
+      "klue_official_dev": {
+        "n": 3000,
+        "accuracy": 0.44533333333333336,
+        "macro_f1": 0.4438263288165519,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            501,
+            297,
+            202
+          ],
+          [
+            336,
+            463,
+            201
+          ],
+          [
+            326,
+            302,
+            372
+          ]
+        ],
+        "groups": 1000,
+        "all_correct_group_rate": 0.076,
+        "slices": {
+          "contains_digit": {
+            "n": 1164,
+            "accuracy": 0.4209621993127148,
+            "macro_f1": 0.4167952467158706,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                168,
+                122,
+                81
+              ],
+              [
+                128,
+                200,
+                88
+              ],
+              [
+                133,
+                122,
+                122
+              ]
+            ],
+            "groups": 425,
+            "all_correct_group_rate": 0.11764705882352941
+          },
+          "no_digit": {
+            "n": 1836,
+            "accuracy": 0.46078431372549017,
+            "macro_f1": 0.45930106771175067,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                333,
+                175,
+                121
+              ],
+              [
+                208,
+                263,
+                113
+              ],
+              [
+                193,
+                180,
+                250
+              ]
+            ],
+            "groups": 631,
+            "all_correct_group_rate": 0.09984152139461172
+          }
+        }
+      },
+      "policy_evaluation": {
+        "n": 864,
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.3326742969775021,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            108,
+            92,
+            88
+          ],
+          [
+            108,
+            92,
+            88
+          ],
+          [
+            108,
+            92,
+            88
+          ]
+        ],
+        "groups": 288,
+        "all_correct_group_rate": 0.0,
+        "slices": {
+          "boundary": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.22152560083594566,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                28,
+                4
+              ],
+              [
+                0,
+                28,
+                4
+              ],
+              [
+                0,
+                28,
+                4
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                32,
+                0
+              ],
+              [
+                0,
+                32,
+                0
+              ],
+              [
+                0,
+                32,
+                0
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "entity": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.27679566810001593,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                20,
+                1,
+                11
+              ],
+              [
+                20,
+                1,
+                11
+              ],
+              [
+                20,
+                1,
+                11
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "negation": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.22152560083594566,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                28,
+                0,
+                4
+              ],
+              [
+                28,
+                0,
+                4
+              ],
+              [
+                28,
+                0,
+                4
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "percentage_point": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.1990221455277538,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                30,
+                2
+              ],
+              [
+                0,
+                30,
+                2
+              ],
+              [
+                0,
+                30,
+                2
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2601889338731444,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                21,
+                0,
+                11
+              ],
+              [
+                21,
+                0,
+                11
+              ],
+              [
+                21,
+                0,
+                11
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "status": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                0,
+                0,
+                32
+              ],
+              [
+                0,
+                0,
+                32
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.27901677524942564,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                19,
+                1,
+                12
+              ],
+              [
+                19,
+                1,
+                12
+              ],
+              [
+                19,
+                1,
+                12
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          },
+          "unit": {
+            "n": 96,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2625745950554135,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                20,
+                0,
+                12
+              ],
+              [
+                20,
+                0,
+                12
+              ],
+              [
+                20,
+                0,
+                12
+              ]
+            ],
+            "groups": 32,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "policy_validation": {
+        "n": 432,
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.31455972301042723,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            78,
+            43,
+            23
+          ],
+          [
+            78,
+            43,
+            23
+          ],
+          [
+            78,
+            43,
+            23
+          ]
+        ],
+        "groups": 144,
+        "all_correct_group_rate": 0.0,
+        "slices": {
+          "boundary": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.22152560083594566,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                14,
+                2
+              ],
+              [
+                0,
+                14,
+                2
+              ],
+              [
+                0,
+                14,
+                2
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.1990221455277538,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                15,
+                1
+              ],
+              [
+                0,
+                15,
+                1
+              ],
+              [
+                0,
+                15,
+                1
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "entity": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "negation": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "percentage_point": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2490842490842491,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                12,
+                4
+              ],
+              [
+                0,
+                12,
+                4
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "role": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "status": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ],
+              [
+                0,
+                0,
+                16
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "time": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ],
+              [
+                16,
+                0,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          },
+          "unit": {
+            "n": 48,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.22152560083594566,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                14,
+                2,
+                0
+              ],
+              [
+                14,
+                2,
+                0
+              ],
+              [
+                14,
+                2,
+                0
+              ]
+            ],
+            "groups": 16,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "official_cases": {
+        "n": 18,
+        "accuracy": 0.2777777777777778,
+        "macro_f1": 0.21241830065359477,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            3,
+            3,
+            0
+          ]
+        ],
+        "groups": 6,
+        "all_correct_group_rate": 0.0,
+        "slices": {
+          "explicit_correction": {
+            "n": 6,
+            "accuracy": 0.16666666666666666,
+            "macro_f1": 0.1111111111111111,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.0
+          },
+          "policy_change": {
+            "n": 6,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.19047619047619047,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "groups": 2,
+            "all_correct_group_rate": 0.0
+          },
+          "policy_change_plan": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "undecided": {
+            "n": 3,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      },
+      "known_pilot": {
+        "n": 53,
+        "accuracy": 0.39622641509433965,
+        "macro_f1": 0.3823655913978494,
+        "label_order": [
+          "entailment",
+          "neutral",
+          "contradiction"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            0,
+            11
+          ],
+          [
+            4,
+            4,
+            10
+          ],
+          [
+            4,
+            3,
+            11
+          ]
+        ],
+        "groups": 53,
+        "all_correct_group_rate": 0.39622641509433965,
+        "slices": {
+          "amount": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "attribution": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "boundary": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "condition": {
+            "n": 3,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.0
+          },
+          "correction": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "date": {
+            "n": 3,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.0
+          },
+          "different_year": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.2222222222222222,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "entity_binding": {
+            "n": 3,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.0
+          },
+          "modality": {
+            "n": 3,
+            "accuracy": 1.0,
+            "macro_f1": 1.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 1.0
+          },
+          "negation": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "percentage_points": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "reported_claim": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.5555555555555555,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.6666666666666666
+          },
+          "temporal_binding": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "unit": {
+            "n": 6,
+            "accuracy": 0.5,
+            "macro_f1": 0.43333333333333335,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                0
+              ]
+            ],
+            "groups": 6,
+            "all_correct_group_rate": 0.5
+          },
+          "upper_bound": {
+            "n": 3,
+            "accuracy": 0.3333333333333333,
+            "macro_f1": 0.16666666666666666,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 3,
+            "all_correct_group_rate": 0.3333333333333333
+          },
+          "단위 동치 대조": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "명사형 부정": {
+            "n": 1,
+            "accuracy": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          },
+          "비교급과 정확값": {
+            "n": 1,
+            "accuracy": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 1.0
+          },
+          "총액과 삭감액": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          },
+          "확정과 집행": {
+            "n": 1,
+            "accuracy": 0.0,
+            "macro_f1": 0.0,
+            "label_order": [
+              "entailment",
+              "neutral",
+              "contradiction"
+            ],
+            "confusion_matrix": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "groups": 1,
+            "all_correct_group_rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "official_cases_status": "18 AI-provisional claims from 6 selected official sources; descriptive only",
+  "known_pilot_status": "53 previously inspected development examples; regression only",
+  "limits": [
+    "No independent human validation of generated policy grammar or official-case claims",
+    "General benchmark is public KLUE official dev, not the unreleased test",
+    "Shared template families limit population generalization; resampling groups cannot resolve this",
+    "Per-phenomenon intervals are exploratory; no corrected significance claims",
+    "Correction provenance and evidence-span extraction are not trained/evaluated as separate tasks here"
+  ]
+}

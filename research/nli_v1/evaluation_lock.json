@@ -1,0 +1,19 @@
+{
+  "phase": "before policy training and all evaluation predictions",
+  "files": {
+    "protocol.json": "f250bed5dc8f22f4b524e2bb5b47cc33d16a8304a7e704ee3e70f16dfce8f445",
+    "train.py": "75f184c86b62db0e28f6f52948578afe8fa28a5e34b36bcf464572da8db79248",
+    "build_policy.py": "c7e77d90f4007bac3e806f2a4d5a12f206d5291d4cdcb9c5cd9d8f11ec5f4fda",
+    "evaluate.py": "d656287f69c9433df25b664964369aaf6b625a0ce8b469121fcd197e4e382c22",
+    "official_cases.py": "00936ff9e08f49a78bd56d46eebb8d02ff8c19528c29337d6abb869294f6ace4",
+    "data/policy_train.jsonl": "c44c5a983d33150a14f865979baac27af19091b2186c9cc07895cb830456ee27",
+    "data/policy_validation.jsonl": "2c4c5c0e4de350f4db4595ed6b837aee95ac889a00e25e4820203499b18b31de",
+    "data/policy_evaluation.jsonl": "c9d4ad63285dcd62a64ea90dc81ef64fa54a8393eec0278c8df3d6d7c5738b89",
+    "data/policy_manifest.json": "77c3a7a7091d52e590dbbde155d3536feb8ceb95ac5c040edce07b1d8eed0a67",
+    "data/official_cases.jsonl": "c0a784476b99df50c466480d15ad3ca00ea5961901c0e4858cfd820784dbdbb3",
+    "data/official_sources.json": "898d3eab9acdcc12b576bee0fcbdeaef95c4033abda215286df2eb6132967698",
+    "data/klue_train.json": "8d32e7e4ff97804a23f277fee8740f1341ac82e1c0c7b34f1be21952e4813996",
+    "data/klue_dev.json": "0699db82be17766b26e199864e6260443e17ec6e91d1870e876419e388f245b1",
+    "data/split.json": "702e6b8d8c3e9ebe762a1417cc213b25ea5474ae50c0048c981a77995a8ee34f"
+  }
+}

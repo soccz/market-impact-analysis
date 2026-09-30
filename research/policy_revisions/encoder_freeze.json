@@ -1,0 +1,14 @@
+{
+  "status": "post-hoc exploration after v2 evaluation inspection",
+  "fixed_design": "Frozen klue/roberta-base MLM encoder; CPU fp32; concatenate CLS and mean for relation, monetary token mean and passage mean for span role; StandardScaler + LogisticRegression(C=.1,max_iter=2000). No backbone updates. Same train, validation threshold selection and evaluation; no new independent test.",
+  "freeze_time_utc": "2026-09-30T10:56:02.455131+00:00",
+  "official_cases": "5 selected excerpts, four known v1 sources; provisional AI labels. Definition restricts undetermined to insufficient asserted relation; interpretation adjudication pending.",
+  "sha256": {
+    "frozen_encoder.py": "3c2befcdfec95b7dd05863b614e90c890f6befd56dda7698acd61369ea567357",
+    "model.py": "cc1295700729b0b4b50220455130920e6f16327ce88bf8e3f05d7dc565b87fff",
+    "run.py": "39a9ba8a3f976b14c1b22997750501e6d43854cbceb5192866008654dff22bbd",
+    "freeze.json": "ce4200c6297fd62b723ef4807ad74851d849cc3cac1c112ce0cecc054077503c",
+    "data/official_cases.jsonl": "5f2bbd115efed11c2ac4e1b7532b89167d06bb43cb3995ef350f23ad929b3615",
+    "official_cases.py": "847fa13f581746884f42491c5ea892a578d911f9a171d5c4434ef45b59f130a1"
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "status": "post-hoc matched-input character ablation; not a new test",
+  "threshold": 0.5,
+  "sets": {
+    "validation": {
+      "keyword_order": {
+        "n": 256,
+        "relation_accuracy": 0.71875,
+        "macro_f1": 0.7015151515151515,
+        "confusion": [
+          [
+            64,
+            0,
+            0,
+            0
+          ],
+          [
+            32,
+            32,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ],
+          [
+            16,
+            24,
+            0,
+            24
+          ]
+        ],
+        "argument_exact": 0.28125,
+        "joint_exact": 0.28125,
+        "accepted": 256,
+        "coverage": 1.0,
+        "accepted_errors": 184,
+        "selective_joint_error": 0.71875,
+        "correctly_answered_fraction": 0.28125
+      },
+      "learned_order": {
+        "n": 256,
+        "relation_accuracy": 0.75,
+        "macro_f1": 0.65,
+        "confusion": [
+          [
+            0,
+            32,
+            32,
+            0
+          ],
+          [
+            0,
+            64,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            64
+          ]
+        ],
+        "argument_exact": 0.4375,
+        "joint_exact": 0.375,
+        "accepted": 256,
+        "coverage": 1.0,
+        "accepted_errors": 160,
+        "selective_joint_error": 0.625,
+        "correctly_answered_fraction": 0.375
+      },
+      "span_model": {
+        "n": 256,
+        "relation_accuracy": 0.75,
+        "macro_f1": 0.65,
+        "confusion": [
+          [
+            0,
+            32,
+            32,
+            0
+          ],
+          [
+            0,
+            64,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            64
+          ]
+        ],
+        "argument_exact": 0.3125,
+        "joint_exact": 0.25,
+        "accepted": 256,
+        "coverage": 1.0,
+        "accepted_errors": 192,
+        "selective_joint_error": 0.75,
+        "correctly_answered_fraction": 0.25
+      },
+      "constrained": {
+        "n": 256,
+        "relation_accuracy": 0.75,
+        "macro_f1": 0.65,
+        "confusion": [
+          [
+            0,
+            32,
+            32,
+            0
+          ],
+          [
+            0,
+            64,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            64
+          ]
+        ],
+        "argument_exact": 0.3125,
+        "joint_exact": 0.25,
+        "accepted": 80,
+        "coverage": 0.3125,
+        "accepted_errors": 16,
+        "selective_joint_error": 0.2,
+        "correctly_answered_fraction": 0.25
+      },
+      "selective": {
+        "n": 256,
+        "relation_accuracy": 0.75,
+        "macro_f1": 0.65,
+        "confusion": [
+          [
+            0,
+            32,
+            32,
+            0
+          ],
+          [
+            0,
+            64,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            64
+          ]
+        ],
+        "argument_exact": 0.3125,
+        "joint_exact": 0.25,
+        "accepted": 64,
+        "coverage": 0.25,
+        "accepted_errors": 0,
+        "selective_joint_error": 0.0,
+        "correctly_answered_fraction": 0.25
+      }
+    },
+    "evaluation": {
+      "keyword_order": {
+        "n": 768,
+        "relation_accuracy": 0.734375,
+        "macro_f1": 0.7228088336783989,
+        "confusion": [
+          [
+            192,
+            0,
+            0,
+            0
+          ],
+          [
+            96,
+            96,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            192,
+            0
+          ],
+          [
+            60,
+            48,
+            0,
+            84
+          ]
+        ],
+        "argument_exact": 0.296875,
+        "joint_exact": 0.234375,
+        "accepted": 768,
+        "coverage": 1.0,
+        "accepted_errors": 588,
+        "selective_joint_error": 0.765625,
+        "correctly_answered_fraction": 0.234375
+      },
+      "learned_order": {
+        "n": 768,
+        "relation_accuracy": 0.59375,
+        "macro_f1": 0.5481481481481482,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            192
+          ],
+          [
+            48,
+            96,
+            0,
+            48
+          ],
+          [
+            0,
+            0,
+            168,
+            24
+          ],
+          [
+            0,
+            0,
+            0,
+            192
+          ]
+        ],
+        "argument_exact": 0.34375,
+        "joint_exact": 0.3125,
+        "accepted": 768,
+        "coverage": 1.0,
+        "accepted_errors": 528,
+        "selective_joint_error": 0.6875,
+        "correctly_answered_fraction": 0.3125
+      },
+      "span_model": {
+        "n": 768,
+        "relation_accuracy": 0.59375,
+        "macro_f1": 0.5481481481481482,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            192
+          ],
+          [
+            48,
+            96,
+            0,
+            48
+          ],
+          [
+            0,
+            0,
+            168,
+            24
+          ],
+          [
+            0,
+            0,
+            0,
+            192
+          ]
+        ],
+        "argument_exact": 0.25,
+        "joint_exact": 0.25,
+        "accepted": 768,
+        "coverage": 1.0,
+        "accepted_errors": 576,
+        "selective_joint_error": 0.75,
+        "correctly_answered_fraction": 0.25
+      },
+      "constrained": {
+        "n": 768,
+        "relation_accuracy": 0.59375,
+        "macro_f1": 0.5481481481481482,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            192
+          ],
+          [
+            48,
+            96,
+            0,
+            48
+          ],
+          [
+            0,
+            0,
+            168,
+            24
+          ],
+          [
+            0,
+            0,
+            0,
+            192
+          ]
+        ],
+        "argument_exact": 0.25,
+        "joint_exact": 0.25,
+        "accepted": 456,
+        "coverage": 0.59375,
+        "accepted_errors": 264,
+        "selective_joint_error": 0.5789473684210527,
+        "correctly_answered_fraction": 0.25
+      },
+      "selective": {
+        "n": 768,
+        "relation_accuracy": 0.59375,
+        "macro_f1": 0.5481481481481482,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            192
+          ],
+          [
+            48,
+            96,
+            0,
+            48
+          ],
+          [
+            0,
+            0,
+            168,
+            24
+          ],
+          [
+            0,
+            0,
+            0,
+            192
+          ]
+        ],
+        "argument_exact": 0.25,
+        "joint_exact": 0.25,
+        "accepted": 300,
+        "coverage": 0.390625,
+        "accepted_errors": 120,
+        "selective_joint_error": 0.4,
+        "correctly_answered_fraction": 0.234375
+      }
+    },
+    "official_cases": {
+      "keyword_order": {
+        "n": 5,
+        "relation_accuracy": 0.8,
+        "macro_f1": 0.6166666666666667,
+        "confusion": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "argument_exact": 0.8,
+        "joint_exact": 0.8,
+        "accepted": 5,
+        "coverage": 1.0,
+        "accepted_errors": 1,
+        "selective_joint_error": 0.2,
+        "correctly_answered_fraction": 0.8
+      },
+      "learned_order": {
+        "n": 5,
+        "relation_accuracy": 0.4,
+        "macro_f1": 0.14285714285714285,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "argument_exact": 0.4,
+        "joint_exact": 0.4,
+        "accepted": 5,
+        "coverage": 1.0,
+        "accepted_errors": 3,
+        "selective_joint_error": 0.6,
+        "correctly_answered_fraction": 0.4
+      },
+      "span_model": {
+        "n": 5,
+        "relation_accuracy": 0.4,
+        "macro_f1": 0.14285714285714285,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "argument_exact": 0.4,
+        "joint_exact": 0.4,
+        "accepted": 5,
+        "coverage": 1.0,
+        "accepted_errors": 3,
+        "selective_joint_error": 0.6,
+        "correctly_answered_fraction": 0.4
+      },
+      "constrained": {
+        "n": 5,
+        "relation_accuracy": 0.4,
+        "macro_f1": 0.14285714285714285,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "argument_exact": 0.4,
+        "joint_exact": 0.4,
+        "accepted": 5,
+        "coverage": 1.0,
+        "accepted_errors": 3,
+        "selective_joint_error": 0.6,
+        "correctly_answered_fraction": 0.4
+      },
+      "selective": {
+        "n": 5,
+        "relation_accuracy": 0.4,
+        "macro_f1": 0.14285714285714285,
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "argument_exact": 0.4,
+        "joint_exact": 0.4,
+        "accepted": 5,
+        "coverage": 1.0,
+        "accepted_errors": 3,
+        "selective_joint_error": 0.6,
+        "correctly_answered_fraction": 0.4
+      }
+    }
+  }
+}

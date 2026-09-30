@@ -1,0 +1,16 @@
+{
+  "source": "klue/roberta-base",
+  "checkpoint_directory": "02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "unique_masked_passages": 105,
+  "max_tokens": 63,
+  "truncated": 0,
+  "seconds": 3.959,
+  "torch": "2.2.2+cu121",
+  "device": "CPU",
+  "threads": 4,
+  "weights_updated": false,
+  "encoder_files": {
+    "model.safetensors": "0833ea5b78f6d45cc713d097ebd8206d30c892ddbb46ae6c6122aae2efcb7c59",
+    "config.json": "71e0b0ea43d6b05c1a92484e0deb8a71b471f7787c3a7c97fc664e62347a08f5"
+  }
+}

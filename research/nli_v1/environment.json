@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-30T10:30:02.002803+00:00",
+  "python": "3.12.9",
+  "packages": {
+    "torch": "2.2.2+cu121",
+    "transformers": "4.39.3",
+    "tokenizers": "0.15.2",
+    "safetensors": "0.8.0rc0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.8",
+    "requests": "2.32.5",
+    "beautifulsoup4": "4.14.3"
+  },
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "cuda": "12.1",
+  "training_model_cache": "klue/roberta-base@02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "independent_human_review": false,
+  "publication_status": "local only"
+}
