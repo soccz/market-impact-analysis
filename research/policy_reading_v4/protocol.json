@@ -1,0 +1,28 @@
+{
+  "version": "4.0-posthoc-money-view",
+  "purpose": "Separate money surface forms from context-based monetary role prediction while retaining original values and offsets.",
+  "status": "Designed after observing v3 failures. Existing evaluation and official passages are known development data; combined perturbation is new but derived from the same authored grammar. Not a blind or independent linguistic test.",
+  "authoring": "Personal soccz follow-up; AI-assisted design, code, synthetic data and provisional labels; independent human reviews completed: 0.",
+  "conditions": {
+    "raw": "Reuse three v3 fit evidence models; original training960",
+    "raw_scope": "Reuse three v3 scope-augmentation evidence models; scope training960",
+    "normalized": "Three new fits; original training960; every parsed amount replaced with 0원",
+    "normalized_scope": "Three new fits; scope training960; every parsed amount replaced with 0원"
+  },
+  "training": {"seeds": [17, 42, 2026], "epochs": 10, "micro_batch": 8, "effective_batch": 32, "max_length": 128, "lr": 0.00002, "head_lr": 0.001, "weight_decay": 0.01, "warmup_fraction": 0.1},
+  "backbone": "klue/roberta-base@02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "model": "v3 evidence reader, upper two encoder layers and heads trainable, unchanged losses. CUDA fp16 training with overflow skips recorded; fp32 inference. Last epoch, no checkpoint selection.",
+  "inputs": "Only query and passage determine model features. Gold labels used only for supervised loss/evaluation. Original parser values/offsets kept outside encoder; predicted roles and evidence remapped to source characters.",
+  "hypotheses": [
+    "Within parser-supported value-preserving rewrites, normalized input tokens are identical; consequently predictions should match. This is invariance imposed by representation, not learned numeric reasoning.",
+    "Scope-augmented training may reduce distraction, but gains under the joint perturbation and on official passages are not assumed.",
+    "Normalization hides value distinctions from the encoder. Retaining parsed numbers permits a separate numeric decoder, but does not restore all quantitative reasoning."
+  ],
+  "evaluation": ["joint relation/state/all money roles", "separate axes and roles", "relation/state macro F1", "original-character evidence F1", "paired decision consistency", "seen vs held-out target compositions", "validation-selected coverage and risk by class", "official12 reported separately"],
+  "decoders": ["native", "v3 numeric: suppress restatement only for model-selected unique before/after values that differ; never supply gold roles"],
+  "gate": "v3 threshold 0.00..0.99, at least20 validation answers with joint error<=5%, choose maximum coverage. If none, answer none. No evaluation tuning.",
+  "paired_uncertainty": "For combined-probe normalized_scope minus raw_scope, report paired frame bootstrap of mean-over-seed joint correctness, 6 frame clusters, 10000 replicates seed1729. Conditional synthetic variability, not population confidence.",
+  "display_example": {"pair_id": "evaluation-8-0-0-0", "seed": 42, "reason": "Fixed first evaluation case before v4 inference, not selected for success."},
+  "stop": "Six new fits, six existing-model inference audits, both decoders, all seeds and failures retained. No result-dependent extra fitting in this round.",
+  "limits": "Arabic-number Korean won parser only; unsupported forms/signs may be incomplete. No new human gold, agency/event holdout, document-version collection, speaker/negation-scope solution, or novelty/generalization claim."
+}

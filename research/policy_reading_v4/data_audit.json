@@ -1,0 +1,62 @@
+{
+  "base": {
+    "train": {
+      "rows": 960,
+      "normalized_query_masked_strings": 120
+    },
+    "validation": {
+      "rows": 160,
+      "normalized_query_masked_strings": 40
+    },
+    "evaluation": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "units": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "distractor": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "official": {
+      "rows": 12,
+      "normalized_query_masked_strings": 11
+    },
+    "combined": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    }
+  },
+  "scope": {
+    "train": {
+      "rows": 960,
+      "normalized_query_masked_strings": 480
+    },
+    "validation": {
+      "rows": 160,
+      "normalized_query_masked_strings": 40
+    },
+    "evaluation": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "units": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "distractor": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    },
+    "official": {
+      "rows": 12,
+      "normalized_query_masked_strings": 11
+    },
+    "combined": {
+      "rows": 576,
+      "normalized_query_masked_strings": 96
+    }
+  }
+}

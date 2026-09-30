@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "text": "가람지원금의 기준 안내는 50만 원, 후속 안내는 500,000원이다.",
+      "model_text": "가람지원금의 기준 안내는 0원, 후속 안내는 0원이다.",
+      "values_won": [
+        "500000",
+        "500000"
+      ]
+    },
+    {
+      "text": "가람지원금의 기준 안내는 50만 원, 후속 안내는 600,000원이다.",
+      "model_text": "가람지원금의 기준 안내는 0원, 후속 안내는 0원이다.",
+      "values_won": [
+        "500000",
+        "600000"
+      ]
+    }
+  ],
+  "interpretation": "Identical encoder text can have different amounts. Values remain in a side record and numeric decoder, not in encoder features. This is a tradeoff demonstration, not an accuracy benchmark."
+}

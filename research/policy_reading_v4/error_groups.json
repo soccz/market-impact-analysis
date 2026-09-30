@@ -1,0 +1,312 @@
+{
+  "status": "Descriptive post-result audit, no extra fitting",
+  "roles": [
+    "before",
+    "after",
+    "other"
+  ],
+  "matrices": {
+    "raw_scope": [
+      [
+        1692,
+        36,
+        0
+      ],
+      [
+        0,
+        1679,
+        49
+      ],
+      [
+        0,
+        12,
+        3876
+      ]
+    ],
+    "normalized_scope": [
+      [
+        1728,
+        0,
+        0
+      ],
+      [
+        0,
+        1728,
+        0
+      ],
+      [
+        184,
+        1336,
+        2368
+      ]
+    ]
+  },
+  "unit": "One parsed amount; all three seeds pooled. Not the all-amounts exact metric.",
+  "fixed_example": {
+    "row": {
+      "id": "d4755c63249e4eed",
+      "pair_id": "evaluation-8-0-0-0",
+      "split": "evaluation",
+      "family": 8,
+      "frame": 0,
+      "query": "가람정착금",
+      "text": "가람정착금에 관한 설명이다. 기준 문서에는 111만 원, 후속안에는 128만 원이라고 적혀 있다. 가람정착금의 잘못 산출된 공고 금액을 바로잡는 조치 사안은 결정을 끝내고 이행한 사항이라고 알렸다. 한편 별빛수당은 710만 원에서 930만 원으로 오류 정정을 했다는 보도를 부인했다.",
+      "relation": "correction",
+      "state": "asserted",
+      "spans": [
+        {
+          "start": 24,
+          "end": 30,
+          "text": "111만 원",
+          "won": "1110000",
+          "role": "before"
+        },
+        {
+          "start": 38,
+          "end": 44,
+          "text": "128만 원",
+          "won": "1280000",
+          "role": "after"
+        },
+        {
+          "start": 120,
+          "end": 126,
+          "text": "710만 원",
+          "won": "7100000",
+          "role": "other"
+        },
+        {
+          "start": 129,
+          "end": 135,
+          "text": "930만 원",
+          "won": "9300000",
+          "role": "other"
+        }
+      ],
+      "evidence": [
+        {
+          "start": 62,
+          "end": 83,
+          "kind": "relation",
+          "text": "잘못 산출된 공고 금액을 바로잡는 조치"
+        },
+        {
+          "start": 88,
+          "end": 110,
+          "kind": "state",
+          "text": "결정을 끝내고 이행한 사항이라고 알렸다."
+        }
+      ],
+      "composition": "seen",
+      "condition": "distractor",
+      "label_status": "AI-authored provisional synthetic"
+    },
+    "seed": 42,
+    "predictions": {
+      "raw_scope": {
+        "id": "d4755c63249e4eed",
+        "relation": "correction",
+        "state": "asserted",
+        "relation_probabilities": [
+          0.9985345602035522,
+          0.0004134703194722533,
+          0.0004637588863261044,
+          0.0005882199620828032
+        ],
+        "state_probabilities": [
+          0.9992965459823608,
+          3.4167771900683874e-06,
+          1.600013638380915e-05,
+          0.0006818347028456628,
+          2.080850208585616e-06,
+          1.390430099945661e-07
+        ],
+        "joint_probabilities": null,
+        "spans": [
+          {
+            "start": 24,
+            "end": 30,
+            "text": "111만 원",
+            "won": "1110000",
+            "role": "before",
+            "probabilities": [
+              0.026687124744057655,
+              0.9430306553840637,
+              0.030282186344265938
+            ]
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "text": "128만 원",
+            "won": "1280000",
+            "role": "after",
+            "probabilities": [
+              0.0161832757294178,
+              0.000522741989698261,
+              0.9832939505577087
+            ]
+          },
+          {
+            "start": 120,
+            "end": 126,
+            "text": "710만 원",
+            "won": "7100000",
+            "role": "other",
+            "probabilities": [
+              0.7547595500946045,
+              0.02348383329808712,
+              0.22175663709640503
+            ]
+          },
+          {
+            "start": 129,
+            "end": 135,
+            "text": "930만 원",
+            "won": "9300000",
+            "role": "other",
+            "probabilities": [
+              0.8281778693199158,
+              0.017152052372694016,
+              0.1546700894832611
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "start": 53,
+            "end": 54,
+            "kind": "state",
+            "text": "."
+          },
+          {
+            "start": 62,
+            "end": 83,
+            "kind": "relation",
+            "text": "잘못 산출된 공고 금액을 바로잡는 조치"
+          },
+          {
+            "start": 88,
+            "end": 109,
+            "kind": "state",
+            "text": "결정을 끝내고 이행한 사항이라고 알렸다"
+          },
+          {
+            "start": 138,
+            "end": 144,
+            "kind": "relation",
+            "text": "오류 정정을"
+          },
+          {
+            "start": 145,
+            "end": 158,
+            "kind": "state",
+            "text": "했다는 보도를 부인했다."
+          }
+        ]
+      },
+      "normalized_scope": {
+        "id": "d4755c63249e4eed",
+        "relation": "correction",
+        "state": "asserted",
+        "relation_probabilities": [
+          0.9981833100318909,
+          0.0008634565747343004,
+          0.0003347813617438078,
+          0.0006184517405927181
+        ],
+        "state_probabilities": [
+          0.9997721314430237,
+          3.0853377666062443e-06,
+          1.4092894161876757e-05,
+          0.0002090152120217681,
+          1.5629722156518255e-06,
+          1.1671013311342904e-07
+        ],
+        "joint_probabilities": null,
+        "spans": [
+          {
+            "start": 24,
+            "end": 30,
+            "text": "111만 원",
+            "won": "1110000",
+            "role": "before",
+            "probabilities": [
+              4.6485502025461756e-07,
+              0.9999889731407166,
+              1.0506182661629282e-05
+            ]
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "text": "128만 원",
+            "won": "1280000",
+            "role": "after",
+            "probabilities": [
+              4.862032255914528e-06,
+              8.730038825888187e-05,
+              0.9999078512191772
+            ]
+          },
+          {
+            "start": 120,
+            "end": 126,
+            "text": "710만 원",
+            "won": "7100000",
+            "role": "other",
+            "probabilities": [
+              0.49078142642974854,
+              0.4631045460700989,
+              0.046114057302474976
+            ]
+          },
+          {
+            "start": 129,
+            "end": 135,
+            "text": "930만 원",
+            "won": "9300000",
+            "role": "after",
+            "probabilities": [
+              0.21044686436653137,
+              0.00036741967778652906,
+              0.7891857624053955
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "start": 53,
+            "end": 54,
+            "kind": "state",
+            "text": "."
+          },
+          {
+            "start": 62,
+            "end": 83,
+            "kind": "relation",
+            "text": "잘못 산출된 공고 금액을 바로잡는 조치"
+          },
+          {
+            "start": 88,
+            "end": 109,
+            "kind": "state",
+            "text": "결정을 끝내고 이행한 사항이라고 알렸다"
+          },
+          {
+            "start": 138,
+            "end": 144,
+            "kind": "relation",
+            "text": "오류 정정을"
+          },
+          {
+            "start": 145,
+            "end": 158,
+            "kind": "state",
+            "text": "했다는 보도를 부인했다."
+          }
+        ]
+      }
+    }
+  }
+}

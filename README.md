@@ -9,7 +9,7 @@
 - [수집부터 검수까지 전체 구현 지도](docs/WORKSTREAMS.md)
 - [원본 코드와 합성 입력으로 읽는 네 가지 구현 사례](docs/ENGINEERING_CASES.md)
 - [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
-- [한국어 정책 NLP: 관계·상태·근거 판독과 2×2 보강 실험](docs/KOREAN_POLICY_NLP.md)
+- [한국어 정책 NLP: 관계·상태·근거, 금액 표기와 사건 범위 실험](docs/KOREAN_POLICY_NLP.md)
 - [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
 - [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
@@ -67,3 +67,5 @@ python examples/methodology_demo.py --check
 
 <!-- V3_LINK -->
 관계·상태·사유 분리와 단위·대상 문맥의 2×2 보강까지 확장한 [v3 실험](research/policy_reading_v3/)도 기록했습니다. 27회 신경망 학습과 개선·역효과를 모두 보존하고 공식 구절에서의 한계를 함께 표시합니다.
+
+이어 [v4 금액 표기 분리 실험](research/policy_reading_v4/)에서 6회 더 학습했습니다. 원 단위 반례의 공동 일치는 90.39%로 높아졌지만, 문맥 보강과 결합하면 다른 사업의 금액을 잘못 연결하는 오류가 늘었습니다. 단위 안정성과 사건 범위 판독을 별도 문제로 좁힌 과정·실패·전체 결과를 남겼습니다.

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "locked_files": 22,
+  "metric_sets": 168,
+  "reused_prediction_files_equal": 36,
+  "new_fits": {
+    "normalized/17": {
+      "attempted": 300,
+      "skipped": 2
+    },
+    "normalized/42": {
+      "attempted": 300,
+      "skipped": 1
+    },
+    "normalized/2026": {
+      "attempted": 300,
+      "skipped": 1
+    },
+    "normalized_scope/17": {
+      "attempted": 300,
+      "skipped": 2
+    },
+    "normalized_scope/42": {
+      "attempted": 300,
+      "skipped": 1
+    },
+    "normalized_scope/2026": {
+      "attempted": 300,
+      "skipped": 2
+    }
+  },
+  "normalized_pair_probabilities": "Exact equality for all 576+576 paired passages per seed/condition",
+  "human_reviews_completed": 0,
+  "composition_metrics_and_frame_bootstrap": "PASS",
+  "error_confusions_recomputed": "PASS",
+  "limit": "Mechanical validity; no independent human gold or real-world generalization proof."
+}

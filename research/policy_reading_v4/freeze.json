@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-30T14:42:57.076182+00:00",
+  "note": "Inputs and run settings fixed before v4 fitting; post-hoc relative to v3, not an external preregistration.",
+  "files": {
+    "common.py": "da596fad626e3ff9f6f5693e9513ab3cab4619dff0d2ca802c92cb12ebe58eeb",
+    "representation.py": "ed018f9e38f55f2789eb17c05065b8ace409e461dc0cd8f1da3bf614c99147c8",
+    "build_probe.py": "fbb8c6fbccaf460c8a3821d6ffa4b1f86e3d490cbb2607d90cb2cb986e852d47",
+    "run.py": "9039abad309825cb35e889258a913d97732edc731bd71be3bce1858bd5935876",
+    "analyze.py": "14c628d216716ad38eb23ded84df13baf668a69ee4c5ae44b33a10f5ba153b4d",
+    "test_representation.py": "4fa00d9b18d6667c61b8df68213a544271d23b8e91ad5060f6ccf613e8c7ae5f",
+    "freeze.py": "8384e757ab137c13ac672cbc21664567ac92d257a3a017b7fbd5b926d412ac86",
+    "protocol.json": "ffe39ed2a55d9b3cd2dfb837e4edba435764784460b9b128531584802e81ea45",
+    "data/value_information.json": "edbc5eb83f97f48048096c2fe9c75fe4dea3c3924c8d4188f997921246d12dac",
+    "data/combined.jsonl": "22f12c42d8ceee3259b1e95c6fbe85c7786166edf19522e0205052fb2bbf00a6",
+    "../policy_reading_v3/build_data.py": "d67498d6a5b01d118166ccd8828d7443caaefe82a06f729ae25196611cc9a6f7",
+    "../policy_reading_v3/model.py": "528ca07f1d0ec0a3ebbb317baa7cb11458a7d85600f0652fa89625980c09a77f",
+    "../policy_reading_v3/partial_model.py": "d32113a33b5172e96f1b5955b026c2a6a16d97eb46aeb04a9f15cf647fc9fd7c",
+    "../policy_reading_v3/evaluate.py": "d91f9db151b1a1a97a2855fcb68e4043705f82826cfa33aeb10cff00890a6048",
+    "../policy_reading_v3/verify.py": "af408581e1619ec861c77e35c0f110e6dc0873d2f196b2a1233fdcfe294af86f",
+    "../policy_reading_v3/augmentation_data/scope.jsonl": "be0e1d6e4b1676b7056fea51b680691b6a1c4e29d563ead7bbdb53b71f15e18e",
+    "../policy_reading_v3/data/train.jsonl": "2c912b0e92c1bfe307d8eaa320ce445ebb400e83693d3730e2edc04744072d51",
+    "../policy_reading_v3/data/validation.jsonl": "9a879282616e7544175baea65cdd8b33fd61ebc852f77ab7af4128a672e31a5d",
+    "../policy_reading_v3/data/evaluation.jsonl": "9d30e6c3e6c725ef3b85c20b14a2f2f9dfe9c8fc33cb1489dd76c0ee05a8de62",
+    "../policy_reading_v3/data/units.jsonl": "63bcfe94fb546266a55207207bc8346e015f1e0745aea772677f3584549ab79f",
+    "../policy_reading_v3/data/distractor.jsonl": "67cd4b986a59173b4142de0d3a021362c3001ecee3be27f9002995c126125b0a",
+    "../policy_reading_v3/data/official.jsonl": "94df6da6533c81fbd04d4d87b18b1197d43c4835b47f52b42afd751ca8de764b"
+  }
+}
