@@ -1,0 +1,22 @@
+{
+  "study": "policy-semantic-diff-case-01",
+  "status": "exploratory source-grounded rule audit; not preregistered or a held-out NLP benchmark",
+  "question": "지원금 상한이 같을 때, 바뀐 조건은 어떤 가상 사례의 판독을 바꾸는가?",
+  "documents": ["Seoul notice 2022-2542 dated 2022-09-06", "Seoul notice 2023-1362 dated 2023-05-08"],
+  "relation": "annual program versions, not an erratum pair",
+  "unit": "one historical program / two notices / one version pair",
+  "formalization": "AI-assisted manual reading of official full attachments; no automatic rule extraction",
+  "implemented": ["housing thresholds and exception", "specified welfare-benefit exclusion", "three-valued conjunction", "two explicit readings of 2022 rounding", "minimal rule-change subsets", "missing input and evidence interventions"],
+  "not_implemented": ["automatic document or entity linking", "income / health-insurance table", "age", "move and application dates", "domicile", "home ownership", "family landlord", "other-provider duplicate support", "actual eligible expense definitions", "budget and selection priority"],
+  "interpretation_policy": "Preserve the published housing table and a candidate 1000-KRW-floor reading separately. If decisions differ, abstain on the housing component. This does not establish an error in the official notice.",
+  "population_claim": "None. Identical fictional inputs are projected onto selected rule fragments, not a person's historical eligibility or actual outcomes.",
+  "grid": {
+    "deposit_won": [0, 319999, 320000, 3199999, 3200000, 30000000, 31999999, 32000000, 47999999, 48000000, 50000000, 50000001, 100000000, 199999999, 200000000, 200000001],
+    "rent_won": [0, 399999, 400000, 400001, 450000, 456999, 457000, 457001, 460000, 460001, 480000, 550000, 550001, 1000000, 1000001, 2000000, 2000001],
+    "benefits": [[], ["education"], ["livelihood"], ["medical"], ["housing"]]
+  },
+  "controls": ["unchanged 400000-KRW award cap alone", "remove old housing exception", "carry old welfare exclusions into new version"],
+  "metrics": "counts over the fixed grid, raw traces, disagreement with declared formalization; not measured model accuracy or population effects",
+  "independent_human_reviews": 0,
+  "future_evaluation": "freeze new event-level document pairs and an annotation guide before independent dual annotation; assess extraction, entailment and scenario outcomes separately"
+}

@@ -1,0 +1,65 @@
+{
+  "documents": {
+    "notice2022": {
+      "url": "https://www.gangnam.go.kr/file/1/get/ea599d5c-8fec-46af-b19d-08b70c2cb2f8/download.do",
+      "resolved_url": "https://www.gangnam.go.kr/file/1/get/ea599d5c-8fec-46af-b19d-08b70c2cb2f8/download.do",
+      "sha256": "67dd20de8cdc8825335b599b6daa45bbbcb2143e37f167d516fe0daa34ffb19a",
+      "bytes": 251841,
+      "notice_number": "2022-2542",
+      "document_date": "2022-09-06",
+      "landing_url": "https://www.gangnam.go.kr/center/board/B_000282/1089596/view.do?mid=MC020301&office=3220058",
+      "retrieved_at": "2026-10-01T05:25:49.507213+00:00",
+      "locators": {
+        "2022-housing": {
+          "location": "신청 자격 → 거주기준; 월세 40만원 초과 구간표; 임차보증금 상한 각주",
+          "quote": "천원 단위 절사",
+          "annotation": "보증금 상한과 월세 기본 조건, 예외 및 15개 구간을 함께 읽음. 1천원 내림 후보와 표의 판독이 다르면 보류."
+        },
+        "2022-welfare": {
+          "location": "신청 자격 → 신청 제외 대상자 → 주거급여 및 단서",
+          "quote": "생계‧의료‧교육급여 대상자는 신청 가능",
+          "annotation": "선택한 네 급여 중 주거급여를 제외 목록으로 형식화."
+        }
+      },
+      "publication": "Only source metadata, short quotations and original derived annotations; full attachment retained locally, not republished."
+    },
+    "notice2023": {
+      "url": "https://youth.seoul.go.kr/resource/file/conts015_1.pdf",
+      "resolved_url": "https://youth.seoul.go.kr/resource/file/conts015_1.pdf",
+      "sha256": "383c433869a21bb159af83e22b3c24fa217fd0225648855f19f85e7fd432a256",
+      "bytes": 300860,
+      "notice_number": "2023-1362",
+      "document_date": "2023-05-08",
+      "landing_url": "https://youth.seoul.go.kr/bbs/view.do?key=2303300002&pstSn=2001040880",
+      "retrieved_at": "2026-10-01T05:25:52.147197+00:00",
+      "locators": {
+        "2023-housing": {
+          "location": "PDF 3쪽 → 주택 / 거래금액 산식",
+          "quote": "거래금액 2억원 이하 전‧월세 거주",
+          "annotation": "보증금+월세×100, 이 값이 5천만원 미만이면 ×70으로 계산. 2억원 이하."
+        },
+        "2023-welfare": {
+          "location": "PDF 3쪽 → 참여 제한 대상",
+          "quote": "국민기초생활수급자 중 생계·의료·주거급여 수급자",
+          "annotation": "생계·의료·주거급여를 제외 목록으로 형식화."
+        }
+      },
+      "publication": "Only source metadata, short quotations and original derived annotations; full attachment retained locally, not republished."
+    }
+  },
+  "context": {
+    "summary2023": {
+      "url": "https://mediahub.seoul.go.kr/archives/2007852",
+      "resolved_url": "https://mediahub.seoul.go.kr/archives/2007852",
+      "sha256": "0957a09a7017f6ae34cca07f12e20027c40575ca48a533d3fa76645e63291fce",
+      "bytes": 134028,
+      "role": "2023년 지원기준 달라진 내용 표; 예외 생략을 살피는 설명 자료, 전체 규칙의 대체 근거로 사용하지 않음."
+    }
+  },
+  "retrieval_notes": [
+    "2023년 공식 게시물은 등록일 2023-05-04이고 첨부 공고 본문은 2023-05-08이다. 공고문 날짜를 문서 버전 표시에 사용하며 수집 시각과 구분한다.",
+    "현재 공식 게시물의 PDF 표시 링크(atch/fileDown.do?cnncSn=2001040880&cnncTy=bbs&ordr=1)를 따라가면 공고 PDF 대신 HWP 서식이 반환되었다. 그 바이트는 규칙 근거로 사용하지 않았다. youth.seoul.go.kr/resource/file/conts015_1.pdf에서 공고번호·내용·PDF 3쪽을 직접 확인하고 해시를 남겼다.",
+    "서대문구 2023년 안내에서도 동일 제목의 공고 PDF 첨부 링크를 찾았으나 다운로드가 시간 초과되어 동일 바이트의 독립 미러 확인으로 세지 않았다."
+  ],
+  "scope": "Two selected condition families only; one annual version pair, not correction detection. AI-assisted provisional reading, independent human reviews = 0."
+}

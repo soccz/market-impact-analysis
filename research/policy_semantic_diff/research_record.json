@@ -1,0 +1,40 @@
+{
+  "recorded_utc": "2026-10-01T05:45:41.290651+00:00",
+  "author": "soccz",
+  "assistance": "AI-assisted source review, coding, provisional formalization and verification",
+  "actual_programs": 1,
+  "official_notices": 2,
+  "version_pairs": 1,
+  "fictional_grid_profiles": 1360,
+  "explanation_profiles": 14,
+  "new_model_fits": 0,
+  "independent_human_reviews": 0,
+  "behavioral_tests": 10,
+  "deterministically_regenerated_result_files": 5,
+  "source_snapshot_check": "Original HWPX/PDF SHA-256, notice identifiers, source locations and short quotations checked locally. PDF page 3 visually inspected. Full originals not republished.",
+  "artifact_hash_algorithm": "SHA-256",
+  "artifacts": {
+    "README.md": "524bfd3027d3168d90d70fd7d22a0cf5d30d848c2723d4fdb83b2a11db9fcdbe",
+    "REVIEW_GUIDE.md": "d1a67adc3a9c25cb7942ef5b4f9963bfe5061cfc0cd5ca9856b47e96bb5b1e54",
+    "cases.json": "e18a48db73dc83b669af3df91feffff495210e3571ccb747efedda0f019947e2",
+    "engine.py": "d3c77d7ff908dda847b49920048c28f6ec4b335a68184d12eaeef198681cd306",
+    "human_review_blank.csv": "005adb793b8114e20c5a71309dc9796afa4e9cfab621ed6e6859630bd019444b",
+    "protocol.json": "f195ee3802b5240e2fb62d1e913774342d7b012f8b036961265addab410107a4",
+    "results/RESULTS.md": "be9abb393dea10a0d87cf0918baa06b48d29dd3da15e57672aa0e5c9501b46f8",
+    "results/grid.csv": "65ba09d3631357dd7086c81a48056f4d1a0f59117f3f869cdb0a69847404296e",
+    "results/grid.jsonl": "91713731c0efd2323e67355fd5081965b740c68b351d57bbb585a22b74e51c4a",
+    "results/scenarios.json": "47190386bf914c964f831a5f744253af2a3067e7353729c95058f80b36046381",
+    "results/summary.json": "ddec4f10d02c76e0d565d09dfb34063cd52c990f39613afef04b5c15338dca21",
+    "run.py": "92cf1b50b9f21eeb7f45eb44ccc66ecf67453cf48b16303bd6251e11fb2f97f4",
+    "sources.json": "083d5beaa63472befacf11705e7bd7da8d5053df5877d54c81e4049565b105b2",
+    "test_engine.py": "de9c72e53c1b5e162ae3f1ccbbc125f77bce18debce0f115ff66b81fc6686ca7",
+    "verify.py": "51403eea2bb6f6ae3f33496cb3ab5c63686b4ae4a3bc520bb558ee0d3ce57ffa"
+  },
+  "limits": [
+    "Selected housing and welfare exclusions only, not actual eligibility or award",
+    "Exploratory source selection and AI-assisted manual formalization, not automatic NLP extraction",
+    "Two rounding readings are operational candidates; unknown reflects this experiment, not an official ambiguity finding",
+    "Fixed grid counts are not population effects or independent benchmark accuracy",
+    "Human review forms remain blank"
+  ]
+}

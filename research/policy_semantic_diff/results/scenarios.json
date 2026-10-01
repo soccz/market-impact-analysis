@@ -1,0 +1,2486 @@
+[
+  {
+    "id": "housing_expansion",
+    "label": "주거 조건이 넓어진 사례",
+    "profile": {
+      "deposit_won": 100000000,
+      "rent_won": 700000,
+      "benefits": []
+    },
+    "note": "보증금 1억원·월세 70만원. 선택한 주거 조건이 미충족에서 충족으로 바뀐다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 170000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "included",
+        "minimal_rule_changes": [
+          [
+            "housing"
+          ]
+        ]
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 170000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "welfare_exclusion",
+    "label": "제외 목록이 달라진 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 450000,
+      "benefits": [
+        "livelihood"
+      ]
+    },
+    "note": "생계급여를 받는 가상 사례. 주거 조건은 충족하지만 새 제외 목록에 걸린다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "excluded",
+        "minimal_rule_changes": [
+          [
+            "welfare"
+          ]
+        ]
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "old_exception",
+    "label": "예외를 빼면 변화를 오인하는 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 450000,
+      "benefits": []
+    },
+    "note": "2022년 예외를 함께 읽으면 두 버전 모두 선택 조건을 충족한다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "retained",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "rounding_question",
+    "label": "환산 문구의 해석을 확인할 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 460000,
+      "benefits": []
+    },
+    "note": "2022년 1천원 내림 후보는 55.3만원, 공고 구간표는 월세 46만원까지 허용한다. 이 연구에서는 한쪽을 자동 확정하지 않는다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "interpretation_disagreement",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "interpretation_disagreement"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 76000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 76000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "interpretation_disagreement",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "interpretation_disagreement"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "missing_deposit",
+    "label": "보증금 정보가 빠진 사례",
+    "profile": {
+      "deposit_won": null,
+      "rent_won": 450000,
+      "benefits": []
+    },
+    "note": "보증금을 0으로 채우지 않고 추가 확인이 필요함을 남긴다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "readings": {
+                "thousand_floor": "unknown",
+                "published_table": "unknown"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_housing"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "transaction_won": null
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_housing"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "transaction_won": null
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_housing"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "readings": {
+                "thousand_floor": "unknown",
+                "published_table": "unknown"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_housing"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "missing_benefit",
+    "label": "수급 종류가 확인되지 않은 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 450000,
+      "benefits": null
+    },
+    "note": "명시적인 비수급과 미확인을 구분한다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "missing_benefits",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_benefits"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "missing_benefits",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_benefits"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "missing_benefits",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_benefits"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "missing_benefits",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "missing_benefits"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "decisive_exclusion",
+    "label": "정보가 빠져도 제외가 명확한 사례",
+    "profile": {
+      "deposit_won": null,
+      "rent_won": 450000,
+      "benefits": [
+        "housing"
+      ]
+    },
+    "note": "보증금은 모르지만 두 버전의 명시적 주거급여 제외 조건이 성립한다. 다른 AND 조건을 추측할 필요가 없다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "readings": {
+                "thousand_floor": "unknown",
+                "published_table": "unknown"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "transaction_won": null
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "outside",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "transaction_won": null
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "missing_housing",
+              "readings": {
+                "thousand_floor": "unknown",
+                "published_table": "unknown"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "new_boundary",
+    "label": "새 거래금액 상한과 정확히 같은 사례",
+    "profile": {
+      "deposit_won": 100000000,
+      "rent_won": 1000000,
+      "benefits": []
+    },
+    "note": "거래금액 2억원은 이하 조건에 포함된다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 200000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "included",
+        "minimal_rule_changes": [
+          [
+            "housing"
+          ]
+        ]
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 200000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "new_boundary_plus",
+    "label": "상한을 월세 1원만큼 넘긴 사례",
+    "profile": {
+      "deposit_won": 100000000,
+      "rent_won": 1000001,
+      "benefits": []
+    },
+    "note": "월세 1원 증가는 거래금액 산식에서 100원 증가이다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "fail",
+              "reason": "transaction_rule",
+              "transaction_won": 200000100
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "outside",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "fail",
+              "reason": "transaction_rule",
+              "transaction_won": 200000100
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "old_deposit_plus",
+    "label": "예외와 별개인 보증금 상한",
+    "profile": {
+      "deposit_won": 50000001,
+      "rent_won": 0,
+      "benefits": []
+    },
+    "note": "2022년 보증금 상한은 예외와 독립적으로 적용된다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 50000001
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "included",
+        "minimal_rule_changes": [
+          [
+            "housing"
+          ]
+        ]
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 50000001
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "fail",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "fail"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "both_excluded",
+    "label": "두 버전 모두 제외되는 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 450000,
+      "benefits": [
+        "housing"
+      ]
+    },
+    "note": "주거 조건 변화만으로 전체 선택 조건이 바뀌었다고 말하지 않는다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "outside",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "fail",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "fail",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "education",
+    "label": "교육급여만 받는 사례",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 450000,
+      "benefits": [
+        "education"
+      ]
+    },
+    "note": "지정한 두 공고의 해당 제외 목록에서 교육급여만으로 탈락시키지 않는다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "retained",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75000000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "table_below",
+    "label": "환산 해석의 일치 경계",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 457000,
+      "benefits": []
+    },
+    "note": "1천원 내림 후보와 공고 표가 모두 허용하는 끝값 중 하나이다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75700000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "retained",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75700000
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "pass",
+              "reason": "housing_rule",
+              "readings": {
+                "thousand_floor": "pass",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  },
+  {
+    "id": "table_above",
+    "label": "환산 해석이 갈리는 첫 1원",
+    "profile": {
+      "deposit_won": 30000000,
+      "rent_won": 457001,
+      "benefits": []
+    },
+    "note": "바로 앞 사례와 월세가 1원 다르지만 2022년 두 해석의 판독이 갈린다.",
+    "modes": {
+      "complete": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "interpretation_disagreement",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "interpretation_disagreement"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75700100
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_old": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "2023": {
+          "state": "pass",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "pass",
+              "reason": "transaction_rule",
+              "transaction_won": 75700100
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing",
+                "livelihood",
+                "medical"
+              ]
+            }
+          },
+          "next_checks": []
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      },
+      "hide_new": {
+        "2022": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2022-housing"
+              ],
+              "state": "unknown",
+              "reason": "interpretation_disagreement",
+              "readings": {
+                "thousand_floor": "fail",
+                "published_table": "pass"
+              }
+            },
+            "welfare": {
+              "evidence": [
+                "2022-welfare"
+              ],
+              "state": "pass",
+              "reason": "exclusion_list",
+              "excluded": [
+                "housing"
+              ]
+            }
+          },
+          "next_checks": [
+            "interpretation_disagreement"
+          ]
+        },
+        "2023": {
+          "state": "unknown",
+          "components": {
+            "housing": {
+              "evidence": [
+                "2023-housing"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            },
+            "welfare": {
+              "evidence": [
+                "2023-welfare"
+              ],
+              "state": "unknown",
+              "reason": "evidence_hidden"
+            }
+          },
+          "next_checks": [
+            "evidence_hidden"
+          ]
+        },
+        "change": "unresolved",
+        "minimal_rule_changes": []
+      }
+    }
+  }
+]
