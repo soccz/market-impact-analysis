@@ -1,0 +1,47 @@
+{
+  "version": "exploratory-1",
+  "date": "2026-10-01",
+  "documents": 8,
+  "programs": 4,
+  "pairs": 4,
+  "slots": 32,
+  "answerable": 30,
+  "not_established": 2,
+  "independent_human_reviews": 0,
+  "blind": false,
+  "selection": "Purposive exploratory selection. All source texts inspected before parser design. No held-out generalization claim.",
+  "fields": [
+    "age",
+    "birth",
+    "income",
+    "welfare"
+  ],
+  "methods": [
+    "document_first",
+    "tfidf_top1",
+    "klue_top1",
+    "tfidf_consensus3"
+  ],
+  "chunk_chars": 320,
+  "stride_chars": 160,
+  "tfidf": "Document-local char 2–4 grams; sublinear tf; L2; no label fitting.",
+  "model": {
+    "id": "klue/roberta-base",
+    "revision": "02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+    "weights_sha256": "0833ea5b78f6d45cc713d097ebd8206d30c892ddbb46ae6c6122aae2efcb7c59",
+    "pooling": "attention-mask mean including special tokens",
+    "training": "none; masked language pretraining only; no retrieval fine-tuning",
+    "device": "cpu",
+    "max_tokens": 384
+  },
+  "extraction": {
+    "pdf": "PyMuPDF sorted geometric text; no OCR/manual correction",
+    "pymupdf": "1.27.2.3",
+    "hwpx": "Contents/section*.xml t elements",
+    "normalization": "Unicode NFC then remove whitespace",
+    "offsets": "0-based Unicode code points in page/section canonical text; end exclusive"
+  },
+  "metrics": "Value exact agreement and value+reference-evidence joint agreement on 30 answerable slots; wrong and abstain separate; 2 not-established slots separately. Recall of ALL required evidence groups for retrieval. Descriptive only; eight docs from one municipality.",
+  "freeze": "Code, protocol and reference hashes recorded before first inference; exploratory, not preregistration.",
+  "scope": "Selected conditions only. Income input represents a pre-established administrative percent category, not salary/insurance conversion. No actual applicants. No true erratum pairs; no causal policy effect estimate."
+}

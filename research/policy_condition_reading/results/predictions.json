@@ -1,0 +1,4399 @@
+{
+  "allowance2023": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 171,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 165
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 442,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 683,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 664,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 555,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "884a4c3b8ff7a73139ddc4a3a5aa772063c4d00b60489b9c4e51b1f2843a2d39",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 442,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 683,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 664,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 555,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1988-06-01",
+          "2004-06-30"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 291,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 281
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 442,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 683,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 664,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 555,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 329,
+            "page": 2,
+            "sha256": "c09d6d22b4a9ece9d551fd2fe1070c48b60a13dfa4b65771f638b5f7222f381a",
+            "start": 307
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 442,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 683,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 664,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 555,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 664,
+            "page": 4,
+            "start": 640
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 664,
+            "page": 4,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 582,
+            "page": 3,
+            "sha256": "24b240282e3714d82903b2c123b827cecb0a506aa799001f3f2ebc0ceb4ce6ef",
+            "start": 560
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 171,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 165
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 442,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "884a4c3b8ff7a73139ddc4a3a5aa772063c4d00b60489b9c4e51b1f2843a2d39",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 683,
+            "page": 2,
+            "start": 640
+          },
+          {
+            "end": 664,
+            "page": 4,
+            "start": 480
+          }
+        ],
+        "value": [
+          "1988-06-01",
+          "2004-06-30"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 291,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 281
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 582,
+            "page": 3,
+            "sha256": "24b240282e3714d82903b2c123b827cecb0a506aa799001f3f2ebc0ceb4ce6ef",
+            "start": 560
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          },
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 602,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 171,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 165
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "884a4c3b8ff7a73139ddc4a3a5aa772063c4d00b60489b9c4e51b1f2843a2d39",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1988-06-01",
+          "2004-06-30"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 291,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 281
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 582,
+            "page": 3,
+            "sha256": "24b240282e3714d82903b2c123b827cecb0a506aa799001f3f2ebc0ceb4ce6ef",
+            "start": 560
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 174,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 168
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 442,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 122,
+            "page": 2,
+            "sha256": "884a4c3b8ff7a73139ddc4a3a5aa772063c4d00b60489b9c4e51b1f2843a2d39",
+            "start": 102
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1988-06-01",
+          "2004-06-30"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 294,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 284
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 585,
+            "page": 3,
+            "sha256": "24b240282e3714d82903b2c123b827cecb0a506aa799001f3f2ebc0ceb4ce6ef",
+            "start": 563
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 602,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    }
+  },
+  "allowance2024": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 159,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 153
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 428,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 694,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 700,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 470,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 691,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 762,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 563,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "352f0122c3b3194009172fefc3d86fd3a72a3cbfa9261341d3c11fa155a7fec9",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 428,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 694,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 700,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 470,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 691,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 762,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 563,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1989-03-01",
+          "2005-03-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 302,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 292
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 428,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 694,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 700,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 470,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 691,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 762,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 563,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 340,
+            "page": 2,
+            "sha256": "c09d6d22b4a9ece9d551fd2fe1070c48b60a13dfa4b65771f638b5f7222f381a",
+            "start": 318
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 428,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 694,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 700,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 470,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 691,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 762,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 563,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 159,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 153
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 640,
+            "page": 4,
+            "start": 320
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 179,
+            "page": 5,
+            "sha256": "ac5a0219f56453f8e3fe8daf4a2cf022805e634390179165aa254c95baaec05b",
+            "start": 170
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 85.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 159,
+            "page": 1,
+            "sha256": "9b078c621e6909298a137fe6c0fecc19b50b32b2c02291e7a5f4dffc25881547",
+            "start": 153
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          },
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          34
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "352f0122c3b3194009172fefc3d86fd3a72a3cbfa9261341d3c11fa155a7fec9",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 694,
+            "page": 2,
+            "start": 640
+          },
+          {
+            "end": 700,
+            "page": 4,
+            "start": 480
+          }
+        ],
+        "value": [
+          "1989-03-01",
+          "2005-03-31"
+        ]
+      },
+      "income": {
+        "evidence": [],
+        "reason": "retrieved_values_conflict",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": null
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 468,
+            "page": 3,
+            "sha256": "24b240282e3714d82903b2c123b827cecb0a506aa799001f3f2ebc0ceb4ce6ef",
+            "start": 446
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          },
+          {
+            "end": 606,
+            "page": 3,
+            "start": 320
+          },
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": [
+          "education",
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "352f0122c3b3194009172fefc3d86fd3a72a3cbfa9261341d3c11fa155a7fec9",
+            "start": 99
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1989-03-01",
+          "2005-03-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 302,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 292
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 122,
+            "page": 2,
+            "sha256": "352f0122c3b3194009172fefc3d86fd3a72a3cbfa9261341d3c11fa155a7fec9",
+            "start": 102
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1989-03-01",
+          "2005-03-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 305,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 295
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 606,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    }
+  },
+  "culture2023": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 242,
+            "page": 1,
+            "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+            "start": 236
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 304,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          22
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 264,
+            "page": 1,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 243
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 304,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 231,
+            "page": 1,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 221
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 304,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 486,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 304,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": null
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 242,
+            "page": 1,
+            "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+            "start": 236
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          22
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 478,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 618,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 618,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 242,
+            "page": 1,
+            "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+            "start": 236
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          22
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 373,
+            "page": 1,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 352
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          },
+          {
+            "end": 443,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 478,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 392,
+            "page": 1,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 382
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 320
+          },
+          {
+            "end": 443,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 618,
+            "page": 2,
+            "start": 480
+          },
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 618,
+            "page": 2,
+            "start": 320
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 242,
+            "page": 1,
+            "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+            "start": 236
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          22
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 373,
+            "page": 1,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 352
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 392,
+            "page": 1,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 382
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 618,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 245,
+            "page": 1,
+            "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+            "start": 239
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          22
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 376,
+            "page": 1,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 355
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 395,
+            "page": 1,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 385
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 443,
+            "page": 1,
+            "start": 320
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 618,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    }
+  },
+  "culture2024": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 218,
+            "page": 1,
+            "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+            "start": 212
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 504,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 873,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 518,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 445,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 383,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": [
+          20,
+          23
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 40,
+            "page": 2,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 19
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 504,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 873,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 518,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 445,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 383,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "c7ae654c8cfd5573ffd16dbc9871fd64d921febf2a5e6c0eefce12e4ee9f483d",
+            "start": 79
+          },
+          {
+            "end": 146,
+            "page": 2,
+            "sha256": "ef70c1ef8f762963c7e4b7405f4bc1987778831b438598569c9a74910116735a",
+            "start": 106
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 504,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 873,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 518,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 445,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 383,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": {
+          "first": 150.0,
+          "returning": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 504,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 873,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 518,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 445,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 383,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": null
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 18,
+            "page": 2,
+            "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+            "start": 12
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          20,
+          23
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 40,
+            "page": 2,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 19
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "c7ae654c8cfd5573ffd16dbc9871fd64d921febf2a5e6c0eefce12e4ee9f483d",
+            "start": 79
+          },
+          {
+            "end": 146,
+            "page": 2,
+            "sha256": "ef70c1ef8f762963c7e4b7405f4bc1987778831b438598569c9a74910116735a",
+            "start": 106
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": {
+          "first": 150.0,
+          "returning": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 218,
+            "page": 1,
+            "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+            "start": 212
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          20,
+          23
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 40,
+            "page": 2,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 19
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 3,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "c7ae654c8cfd5573ffd16dbc9871fd64d921febf2a5e6c0eefce12e4ee9f483d",
+            "start": 79
+          },
+          {
+            "end": 146,
+            "page": 2,
+            "sha256": "ef70c1ef8f762963c7e4b7405f4bc1987778831b438598569c9a74910116735a",
+            "start": 106
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 640,
+            "page": 2,
+            "start": 320
+          }
+        ],
+        "value": {
+          "first": 150.0,
+          "returning": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 518,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 218,
+            "page": 1,
+            "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+            "start": 212
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          20,
+          23
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 40,
+            "page": 2,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 19
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 119,
+            "page": 2,
+            "sha256": "c7ae654c8cfd5573ffd16dbc9871fd64d921febf2a5e6c0eefce12e4ee9f483d",
+            "start": 79
+          },
+          {
+            "end": 146,
+            "page": 2,
+            "sha256": "ef70c1ef8f762963c7e4b7405f4bc1987778831b438598569c9a74910116735a",
+            "start": 106
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": {
+          "first": 150.0,
+          "returning": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": null
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 221,
+            "page": 1,
+            "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+            "start": 215
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          20,
+          23
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 43,
+            "page": 2,
+            "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+            "start": 22
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          "2001-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 122,
+            "page": 2,
+            "sha256": "c7ae654c8cfd5573ffd16dbc9871fd64d921febf2a5e6c0eefce12e4ee9f483d",
+            "start": 82
+          },
+          {
+            "end": 149,
+            "page": 2,
+            "sha256": "ef70c1ef8f762963c7e4b7405f4bc1987778831b438598569c9a74910116735a",
+            "start": 109
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": {
+          "first": 150.0,
+          "returning": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": null
+      }
+    }
+  },
+  "moving2022": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 219,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 212
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 4279,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 895,
+            "page": 1,
+            "sha256": "9ec7186a7251462930f65223167775cc65ecbb124ffe6c0cd44e701119614058",
+            "start": 874
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 4279,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1982-01-01",
+          "2003-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 928,
+            "page": 1,
+            "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+            "start": 918
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 4279,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 2446,
+            "page": 1,
+            "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+            "start": 2425
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 4279,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 219,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 212
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 3360,
+            "page": 1,
+            "start": 3040
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 928,
+            "page": 1,
+            "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+            "start": 918
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 1120,
+            "page": 1,
+            "start": 800
+          }
+        ],
+        "value": {
+          "all": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 1120,
+            "page": 1,
+            "start": 800
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 855,
+            "page": 1,
+            "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+            "start": 849
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 960,
+            "page": 1,
+            "start": 640
+          },
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 895,
+            "page": 1,
+            "sha256": "9ec7186a7251462930f65223167775cc65ecbb124ffe6c0cd44e701119614058",
+            "start": 874
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 800,
+            "page": 1,
+            "start": 480
+          },
+          {
+            "end": 960,
+            "page": 1,
+            "start": 640
+          },
+          {
+            "end": 3520,
+            "page": 1,
+            "start": 3200
+          }
+        ],
+        "value": [
+          "1982-01-01",
+          "2003-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 928,
+            "page": 1,
+            "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+            "start": 918
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 1120,
+            "page": 1,
+            "start": 800
+          },
+          {
+            "end": 1280,
+            "page": 1,
+            "start": 960
+          },
+          {
+            "end": 960,
+            "page": 1,
+            "start": 640
+          }
+        ],
+        "value": {
+          "all": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 2446,
+            "page": 1,
+            "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+            "start": 2425
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 2560,
+            "page": 1,
+            "start": 2240
+          },
+          {
+            "end": 2720,
+            "page": 1,
+            "start": 2400
+          },
+          {
+            "end": 2400,
+            "page": 1,
+            "start": 2080
+          }
+        ],
+        "value": [
+          "housing"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 855,
+            "page": 1,
+            "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+            "start": 849
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 960,
+            "page": 1,
+            "start": 640
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 800,
+            "page": 1,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 928,
+            "page": 1,
+            "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+            "start": 918
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 1120,
+            "page": 1,
+            "start": 800
+          }
+        ],
+        "value": {
+          "all": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 2446,
+            "page": 1,
+            "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+            "start": 2425
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 2560,
+            "page": 1,
+            "start": 2240
+          }
+        ],
+        "value": [
+          "housing"
+        ]
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 855,
+            "page": 1,
+            "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+            "start": 849
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 960,
+            "page": 1,
+            "start": 640
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 800,
+            "page": 1,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 928,
+            "page": 1,
+            "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+            "start": 918
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 1120,
+            "page": 1,
+            "start": 800
+          }
+        ],
+        "value": {
+          "all": 120.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 2446,
+            "page": 1,
+            "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+            "start": 2425
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 2560,
+            "page": 1,
+            "start": 2240
+          }
+        ],
+        "value": [
+          "housing"
+        ]
+      }
+    }
+  },
+  "moving2023": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 258,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 251
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 445,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 740,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 595,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 896,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 656,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 477,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 461,
+            "page": 7,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 207,
+            "page": 2,
+            "sha256": "7d4a0a32ef8d22c9aee1c8f085cd4354e735f47c6ad6481948c63c8e055d618b",
+            "start": 186
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 445,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 740,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 595,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 896,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 656,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 477,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 461,
+            "page": 7,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1983-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 231,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 221
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 445,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 740,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 595,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 896,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 656,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 477,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 461,
+            "page": 7,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 368,
+            "page": 3,
+            "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+            "start": 345
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 445,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 740,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 595,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 896,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 656,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 477,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 461,
+            "page": 7,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 258,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 251
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 445,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 231,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 221
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 185,
+            "page": 2,
+            "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+            "start": 179
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 4,
+            "start": 160
+          },
+          {
+            "end": 656,
+            "page": 5,
+            "start": 640
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 5,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 320,
+            "page": 6,
+            "start": 0
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 231,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 221
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 640,
+            "page": 2,
+            "start": 320
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 368,
+            "page": 3,
+            "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+            "start": 345
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 595,
+            "page": 3,
+            "start": 320
+          },
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          },
+          {
+            "end": 896,
+            "page": 4,
+            "start": 640
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 4,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 5,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 231,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 221
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 368,
+            "page": 3,
+            "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+            "start": 345
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 595,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 4,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 5,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 234,
+            "page": 2,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 224
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 371,
+            "page": 3,
+            "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+            "start": 348
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 595,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    }
+  },
+  "rent2023": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 197,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 190
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 549,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 833,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 954,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 467,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 649,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 744,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 594,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 839,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 2,
+            "sha256": "d373d12aeaf1ec0e6eda54c435e5f8c4ce5a974833f07ddb75a6de84262a5b3c",
+            "start": 508
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 549,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 833,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 954,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 467,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 649,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 744,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 594,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 839,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1983-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 222,
+            "page": 2,
+            "sha256": "81ecf6d0b568ef494e39dbfb702096d2c6ec2146345356fb481c90f0ee0a90fe",
+            "start": 213
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 549,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 833,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 954,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 467,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 649,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 744,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 594,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 839,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 60.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 222,
+            "page": 4,
+            "sha256": "eb8ab1932dcb449e8d405fd499b94cd3f7481f547fe42c13ad861cd28d247f56",
+            "start": 193
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 549,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 833,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 954,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 467,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 649,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 744,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 594,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 839,
+            "page": 8,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 197,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 190
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 262,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 252
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 594,
+            "page": 7,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 498,
+            "page": 2,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 491
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          },
+          {
+            "end": 640,
+            "page": 2,
+            "start": 320
+          },
+          {
+            "end": 839,
+            "page": 8,
+            "start": 640
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 2,
+            "sha256": "d373d12aeaf1ec0e6eda54c435e5f8c4ce5a974833f07ddb75a6de84262a5b3c",
+            "start": 508
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 640,
+            "page": 2,
+            "start": 320
+          },
+          {
+            "end": 320,
+            "page": 1,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1983-01-01",
+          "2004-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 262,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 252
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          },
+          {
+            "end": 320,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 640,
+            "page": 3,
+            "start": 320
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 222,
+            "page": 4,
+            "sha256": "eb8ab1932dcb449e8d405fd499b94cd3f7481f547fe42c13ad861cd28d247f56",
+            "start": 193
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 467,
+            "page": 4,
+            "start": 160
+          },
+          {
+            "end": 594,
+            "page": 7,
+            "start": 480
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 262,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 252
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 222,
+            "page": 4,
+            "sha256": "eb8ab1932dcb449e8d405fd499b94cd3f7481f547fe42c13ad861cd28d247f56",
+            "start": 193
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 4,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 2,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": null
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 265,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 255
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 3,
+            "start": 160
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 225,
+            "page": 4,
+            "sha256": "eb8ab1932dcb449e8d405fd499b94cd3f7481f547fe42c13ad861cd28d247f56",
+            "start": 196
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 4,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    }
+  },
+  "rent2024": {
+    "document_first": {
+      "age": {
+        "evidence": [
+          {
+            "end": 185,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 178
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 561,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 684,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 692,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 861,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 498,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 678,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 617,
+            "page": 8,
+            "start": 0
+          },
+          {
+            "end": 554,
+            "page": 9,
+            "start": 0
+          },
+          {
+            "end": 626,
+            "page": 10,
+            "start": 0
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 680,
+            "page": 2,
+            "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+            "start": 660
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 561,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 684,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 692,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 861,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 498,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 678,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 617,
+            "page": 8,
+            "start": 0
+          },
+          {
+            "end": 554,
+            "page": 9,
+            "start": 0
+          },
+          {
+            "end": 626,
+            "page": 10,
+            "start": 0
+          }
+        ],
+        "value": [
+          "1984-01-01",
+          "2005-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 518
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 561,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 684,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 692,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 861,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 498,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 678,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 617,
+            "page": 8,
+            "start": 0
+          },
+          {
+            "end": 554,
+            "page": 9,
+            "start": 0
+          },
+          {
+            "end": 626,
+            "page": 10,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 220,
+            "page": 5,
+            "sha256": "ba27631c7c52bb969ee5738fc134077fadebd752f99f5a237814177263534874",
+            "start": 191
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 561,
+            "page": 1,
+            "start": 0
+          },
+          {
+            "end": 684,
+            "page": 2,
+            "start": 0
+          },
+          {
+            "end": 692,
+            "page": 3,
+            "start": 0
+          },
+          {
+            "end": 861,
+            "page": 4,
+            "start": 0
+          },
+          {
+            "end": 498,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 678,
+            "page": 6,
+            "start": 0
+          },
+          {
+            "end": 509,
+            "page": 7,
+            "start": 0
+          },
+          {
+            "end": 617,
+            "page": 8,
+            "start": 0
+          },
+          {
+            "end": 554,
+            "page": 9,
+            "start": 0
+          },
+          {
+            "end": 626,
+            "page": 10,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "klue_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 185,
+            "page": 1,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 178
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 680,
+            "page": 2,
+            "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+            "start": 660
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": [
+          "1984-01-01",
+          "2005-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 518
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 692,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 561,
+            "page": 1,
+            "start": 480
+          }
+        ],
+        "value": null
+      }
+    },
+    "tfidf_consensus3": {
+      "age": {
+        "evidence": [
+          {
+            "end": 650,
+            "page": 2,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 643
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          },
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          },
+          {
+            "end": 640,
+            "page": 2,
+            "start": 320
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 680,
+            "page": 2,
+            "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+            "start": 660
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          },
+          {
+            "end": 684,
+            "page": 2,
+            "start": 640
+          },
+          {
+            "end": 480,
+            "page": 1,
+            "start": 160
+          }
+        ],
+        "value": [
+          "1984-01-01",
+          "2005-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 518
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 692,
+            "page": 3,
+            "start": 480
+          },
+          {
+            "end": 640,
+            "page": 3,
+            "start": 320
+          },
+          {
+            "end": 320,
+            "page": 4,
+            "start": 0
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 220,
+            "page": 5,
+            "sha256": "ba27631c7c52bb969ee5738fc134077fadebd752f99f5a237814177263534874",
+            "start": 191
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          },
+          {
+            "end": 480,
+            "page": 5,
+            "start": 160
+          },
+          {
+            "end": 480,
+            "page": 9,
+            "start": 160
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "tfidf_top1": {
+      "age": {
+        "evidence": [
+          {
+            "end": 650,
+            "page": 2,
+            "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+            "start": 643
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": [
+          19,
+          39
+        ]
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 680,
+            "page": 2,
+            "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+            "start": 660
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": [
+          "1984-01-01",
+          "2005-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [
+          {
+            "end": 528,
+            "page": 3,
+            "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+            "start": 518
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 692,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": {
+          "all": 150.0
+        }
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 220,
+            "page": 5,
+            "sha256": "ba27631c7c52bb969ee5738fc134077fadebd752f99f5a237814177263534874",
+            "start": 191
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    },
+    "unsorted_tfidf_top1": {
+      "age": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "birth": {
+        "evidence": [
+          {
+            "end": 683,
+            "page": 2,
+            "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+            "start": 663
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 684,
+            "page": 2,
+            "start": 640
+          }
+        ],
+        "value": [
+          "1984-01-01",
+          "2005-12-31"
+        ]
+      },
+      "income": {
+        "evidence": [],
+        "reason": "no_parse",
+        "retrieved": [
+          {
+            "end": 692,
+            "page": 3,
+            "start": 480
+          }
+        ],
+        "value": null
+      },
+      "welfare": {
+        "evidence": [
+          {
+            "end": 223,
+            "page": 5,
+            "sha256": "a433c4e025cf839014d452ff23f29281d13b85fe8acba9dbfe3d7ec92486f584",
+            "start": 194
+          }
+        ],
+        "reason": "parsed",
+        "retrieved": [
+          {
+            "end": 320,
+            "page": 5,
+            "start": 0
+          }
+        ],
+        "value": [
+          "housing",
+          "livelihood",
+          "medical"
+        ]
+      }
+    }
+  }
+}

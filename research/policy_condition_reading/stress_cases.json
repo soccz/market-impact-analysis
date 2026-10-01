@@ -1,0 +1,10 @@
+[
+  {"id":"outside_scope", "field":"income", "text":"1.사업개요다른사업안내:중위소득60%이하.2.신청자격소득요건:중위소득150%이하.3.신청방법온라인접수", "reference":{"all":150}, "purpose":"다른 사업이 신청 자격 구역 밖에 있음"},
+  {"id":"inside_scope", "field":"income", "text":"2.신청자격참고:다른사업의소득기준은중위소득60%이하이다.이사업의소득요건은중위소득150%이하이다.3.신청방법온라인접수", "reference":{"all":150}, "purpose":"구역 안에 다른 사업의 조건을 넣음"},
+  {"id":"priority_not_eligibility", "field":"income", "text":"2.신청자격우선선정:중위소득85%이하.모든신청자의소득요건:중위소득150%이하.3.신청방법온라인접수", "reference":{"all":150}, "purpose":"우선순위와 자격 요건의 구분"},
+  {"id":"heading_paraphrase", "field":"income", "text":"2.참여요건가구당중위소득150%이하인사람.3.신청방법온라인접수", "reference":{"all":150}, "purpose":"동일 의미의 구역 제목으로 변경"},
+  {"id":"recipient_scope", "field":"income", "text":"2.신청자격생애최초수혜자:중위소득150%이하.2023년수혜자:중위소득120%이하.3.신청방법온라인접수", "reference":{"first":150,"returning":120}, "purpose":"최초·기존 수혜자별 분기"},
+  {"id":"allowed_is_not_excluded", "field":"welfare", "text":"2.신청자격기초생활수급자중교육급여대상자는신청가능.3.신청방법온라인접수", "reference":null, "purpose":"허용 문장을 제외 목록으로 읽지 않아야 함; 완전한 제외 조건은 미확인"},
+  {"id":"absent_condition", "field":"income", "text":"2.신청자격서울거주자.3.신청방법온라인접수", "reference":null, "purpose":"소득 조건 미언급은 무제한 지원이 아님"},
+  {"id":"date_is_not_birth", "field":"birth", "text":"2.신청자격접수기간2023.1.1.~2023.12.31.3.신청방법온라인접수", "reference":null, "purpose":"신청 기간을 출생일 범위로 오인하지 않음"}
+]

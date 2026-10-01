@@ -1,0 +1,578 @@
+[
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "age",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "age",
+    "method": "klue_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "birth",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": false,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "income",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "income",
+    "method": "klue_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "welfare",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "moving2023",
+    "before": "moving2022",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "age",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "age",
+    "method": "klue_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "birth",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": false,
+    "field": "income",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "income",
+    "method": "klue_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "rent2024",
+    "before": "rent2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "age",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "age",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "birth",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "income",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "income",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "allowance2024",
+    "before": "allowance2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "age",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "age",
+    "method": "klue_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "birth",
+    "method": "document_first",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unchanged"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "prediction": "unchanged",
+    "reference": "unchanged"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "income",
+    "method": "document_first",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": false,
+    "field": "income",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "prediction": "changed",
+    "reference": "changed"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "document_first",
+    "prediction": "unknown",
+    "reference": "unknown"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "prediction": "unknown",
+    "reference": "unknown"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "klue_top1",
+    "prediction": "unknown",
+    "reference": "unknown"
+  },
+  {
+    "after": "culture2024",
+    "before": "culture2023",
+    "exact": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "prediction": "unknown",
+    "reference": "unknown"
+  }
+]

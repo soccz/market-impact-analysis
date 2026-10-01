@@ -11,6 +11,7 @@
 - [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
 - [한국어 정책 NLP: 관계·상태·근거, 금액 표기와 사건 범위 실험](docs/KOREAN_POLICY_NLP.md)
 
+- [전체 공고에서 조건 자동 추출: 4개 사업·8개 공고, 검색 비교와 실패](research/policy_condition_reading/)
 - [실제 공고의 조건·예외와 사례별 의미 변화: 첫 문서 쌍 연구](research/policy_semantic_diff/)
 - [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)

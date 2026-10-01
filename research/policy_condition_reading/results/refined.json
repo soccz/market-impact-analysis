@@ -1,0 +1,639 @@
+{
+  "metrics": {
+    "absence_abstain": 2,
+    "abstain": 0,
+    "answerable": 30,
+    "correct_joint": 30,
+    "correct_value": 30,
+    "not_established": 2,
+    "wrong_value": 0
+  },
+  "predictions": {
+    "allowance2023": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 98,
+              "page": 2,
+              "sha256": "6e76477742fe465f628cda5963f3d15668905e6195c8b0f9b428aabc7da09284",
+              "start": 90
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            34
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 119,
+              "page": 2,
+              "sha256": "884a4c3b8ff7a73139ddc4a3a5aa772063c4d00b60489b9c4e51b1f2843a2d39",
+              "start": 99
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1988-06-01",
+            "2004-06-30"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 291,
+              "page": 2,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 281
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 329,
+              "page": 2,
+              "sha256": "c09d6d22b4a9ece9d551fd2fe1070c48b60a13dfa4b65771f638b5f7222f381a",
+              "start": 307
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "education",
+            "housing",
+            "livelihood",
+            "medical"
+          ]
+        }
+      },
+      "section_range": [
+        442,
+        1727
+      ]
+    },
+    "allowance2024": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 98,
+              "page": 2,
+              "sha256": "6e76477742fe465f628cda5963f3d15668905e6195c8b0f9b428aabc7da09284",
+              "start": 90
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            34
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 119,
+              "page": 2,
+              "sha256": "352f0122c3b3194009172fefc3d86fd3a72a3cbfa9261341d3c11fa155a7fec9",
+              "start": 99
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1989-03-01",
+            "2005-03-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 302,
+              "page": 2,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 292
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 340,
+              "page": 2,
+              "sha256": "c09d6d22b4a9ece9d551fd2fe1070c48b60a13dfa4b65771f638b5f7222f381a",
+              "start": 318
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "education",
+            "housing",
+            "livelihood",
+            "medical"
+          ]
+        }
+      },
+      "section_range": [
+        428,
+        1728
+      ]
+    },
+    "culture2023": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 242,
+              "page": 1,
+              "sha256": "2816257ff5795570788d1513b7cd11191c772fc57306b50e0c32fb6cfaa25692",
+              "start": 236
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            22
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 264,
+              "page": 1,
+              "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+              "start": 243
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "2001-01-01",
+            "2004-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 231,
+              "page": 1,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 221
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [],
+          "reason": "no_supported_parse",
+          "value": null
+        }
+      },
+      "section_range": [
+        203,
+        1061
+      ]
+    },
+    "culture2024": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 18,
+              "page": 2,
+              "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+              "start": 12
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            20,
+            23
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 40,
+              "page": 2,
+              "sha256": "3fabde04d613bb1b473202045213f8a18c457d4508f6ff64b28d85b072763c84",
+              "start": 19
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "2001-01-01",
+            "2004-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 119,
+              "page": 2,
+              "sha256": "7a286d838f391a7a7b79c67bb366defa87c2889002d3ea99bd7f74f825841601",
+              "start": 94
+            },
+            {
+              "end": 146,
+              "page": 2,
+              "sha256": "6cedacce9ae2e1abae32a1aa60c3da01468c06297cb99a6c5210a7c8d9ccf7f5",
+              "start": 120
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "first": 150.0,
+            "returning": 120.0
+          }
+        },
+        "welfare": {
+          "evidence": [],
+          "reason": "no_supported_parse",
+          "value": null
+        }
+      },
+      "section_range": [
+        504,
+        1377
+      ]
+    },
+    "moving2022": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 855,
+              "page": 1,
+              "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+              "start": 849
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            39
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 895,
+              "page": 1,
+              "sha256": "9ec7186a7251462930f65223167775cc65ecbb124ffe6c0cd44e701119614058",
+              "start": 874
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1982-01-01",
+            "2003-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 928,
+              "page": 1,
+              "sha256": "5275d5dfbf4e97496e57d13df0eda3942ab4e78a1d24ee0a2ca25ca4f6fbad0d",
+              "start": 918
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 120.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 2446,
+              "page": 1,
+              "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+              "start": 2425
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "housing"
+          ]
+        }
+      },
+      "section_range": [
+        626,
+        2488
+      ]
+    },
+    "moving2023": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 185,
+              "page": 2,
+              "sha256": "9eb887e4ef89f49c5374ecb21946c28b546e7a7ec2a8229b93ec5d41457644b9",
+              "start": 179
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            39
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 207,
+              "page": 2,
+              "sha256": "7d4a0a32ef8d22c9aee1c8f085cd4354e735f47c6ad6481948c63c8e055d618b",
+              "start": 186
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1983-01-01",
+            "2004-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 231,
+              "page": 2,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 221
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 368,
+              "page": 3,
+              "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+              "start": 345
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "housing",
+            "livelihood",
+            "medical"
+          ]
+        }
+      },
+      "section_range": [
+        445,
+        1574
+      ]
+    },
+    "rent2023": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 498,
+              "page": 2,
+              "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+              "start": 491
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            39
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 528,
+              "page": 2,
+              "sha256": "d373d12aeaf1ec0e6eda54c435e5f8c4ce5a974833f07ddb75a6de84262a5b3c",
+              "start": 508
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1983-01-01",
+            "2004-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 262,
+              "page": 3,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 252
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 222,
+              "page": 4,
+              "sha256": "eb8ab1932dcb449e8d405fd499b94cd3f7481f547fe42c13ad861cd28d247f56",
+              "start": 193
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "housing",
+            "livelihood",
+            "medical"
+          ]
+        }
+      },
+      "section_range": [
+        880,
+        2803
+      ]
+    },
+    "rent2024": {
+      "fields": {
+        "age": {
+          "evidence": [
+            {
+              "end": 650,
+              "page": 2,
+              "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+              "start": 643
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            19,
+            39
+          ]
+        },
+        "birth": {
+          "evidence": [
+            {
+              "end": 680,
+              "page": 2,
+              "sha256": "1400fe1468028d5bd9df3564e810be37acd7c57cc11d0e498efe2f4e4a32dc49",
+              "start": 660
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "1984-01-01",
+            "2005-12-31"
+          ]
+        },
+        "income": {
+          "evidence": [
+            {
+              "end": 528,
+              "page": 3,
+              "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+              "start": 518
+            }
+          ],
+          "reason": "parsed",
+          "value": {
+            "all": 150.0
+          }
+        },
+        "welfare": {
+          "evidence": [
+            {
+              "end": 220,
+              "page": 5,
+              "sha256": "ba27631c7c52bb969ee5738fc134077fadebd752f99f5a237814177263534874",
+              "start": 191
+            }
+          ],
+          "reason": "parsed",
+          "value": [
+            "housing",
+            "livelihood",
+            "medical"
+          ]
+        }
+      },
+      "section_range": [
+        1063,
+        3296
+      ]
+    }
+  },
+  "status": "post-hoc refinement on observed sources AND observed probes; not a held-out test",
+  "stress": [
+    {
+      "exact": true,
+      "field": "income",
+      "id": "outside_scope",
+      "prediction": {
+        "all": 150.0
+      },
+      "purpose": "다른 사업이 신청 자격 구역 밖에 있음",
+      "reference": {
+        "all": 150
+      },
+      "text": "1.사업개요다른사업안내:중위소득60%이하.2.신청자격소득요건:중위소득150%이하.3.신청방법온라인접수"
+    },
+    {
+      "exact": false,
+      "field": "income",
+      "id": "inside_scope",
+      "prediction": {
+        "all": 60.0
+      },
+      "purpose": "구역 안에 다른 사업의 조건을 넣음",
+      "reference": {
+        "all": 150
+      },
+      "text": "2.신청자격참고:다른사업의소득기준은중위소득60%이하이다.이사업의소득요건은중위소득150%이하이다.3.신청방법온라인접수"
+    },
+    {
+      "exact": false,
+      "field": "income",
+      "id": "priority_not_eligibility",
+      "prediction": {
+        "all": 85.0
+      },
+      "purpose": "우선순위와 자격 요건의 구분",
+      "reference": {
+        "all": 150
+      },
+      "text": "2.신청자격우선선정:중위소득85%이하.모든신청자의소득요건:중위소득150%이하.3.신청방법온라인접수"
+    },
+    {
+      "exact": true,
+      "field": "income",
+      "id": "heading_paraphrase",
+      "prediction": {
+        "all": 150.0
+      },
+      "purpose": "동일 의미의 구역 제목으로 변경",
+      "reference": {
+        "all": 150
+      },
+      "text": "2.참여요건가구당중위소득150%이하인사람.3.신청방법온라인접수"
+    },
+    {
+      "exact": true,
+      "field": "income",
+      "id": "recipient_scope",
+      "prediction": {
+        "first": 150.0,
+        "returning": 120.0
+      },
+      "purpose": "최초·기존 수혜자별 분기",
+      "reference": {
+        "first": 150,
+        "returning": 120
+      },
+      "text": "2.신청자격생애최초수혜자:중위소득150%이하.2023년수혜자:중위소득120%이하.3.신청방법온라인접수"
+    },
+    {
+      "exact": true,
+      "field": "welfare",
+      "id": "allowed_is_not_excluded",
+      "prediction": null,
+      "purpose": "허용 문장을 제외 목록으로 읽지 않아야 함; 완전한 제외 조건은 미확인",
+      "reference": null,
+      "text": "2.신청자격기초생활수급자중교육급여대상자는신청가능.3.신청방법온라인접수"
+    },
+    {
+      "exact": true,
+      "field": "income",
+      "id": "absent_condition",
+      "prediction": null,
+      "purpose": "소득 조건 미언급은 무제한 지원이 아님",
+      "reference": null,
+      "text": "2.신청자격서울거주자.3.신청방법온라인접수"
+    },
+    {
+      "exact": true,
+      "field": "birth",
+      "id": "date_is_not_birth",
+      "prediction": null,
+      "purpose": "신청 기간을 출생일 범위로 오인하지 않음",
+      "reference": null,
+      "text": "2.신청자격접수기간2023.1.1.~2023.12.31.3.신청방법온라인접수"
+    }
+  ]
+}

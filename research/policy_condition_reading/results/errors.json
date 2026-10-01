@@ -1,0 +1,2178 @@
+[
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "housing"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "wrong_value",
+    "prediction": {
+      "all": 60.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": false
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      22
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      22
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150,
+      "returning": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "housing"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      22
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      22
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150,
+      "returning": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "wrong_value",
+    "prediction": {
+      "all": 85.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      22
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      22
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150,
+      "returning": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1982-01-01",
+      "2003-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2022",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "housing"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": false,
+    "value_exact": false
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "moving2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1983-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1984-01-01",
+      "2005-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "rent2024",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1988-06-01",
+      "2004-06-30"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2023",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      34
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      34
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1989-03-01",
+      "2005-03-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "retrieved_values_conflict",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": false
+  },
+  {
+    "document": "allowance2024",
+    "evidence_complete": true,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "education",
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      19,
+      22
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      22
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2023",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2001-01-01",
+      "2004-12-31"
+    ],
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150,
+      "returning": 120
+    },
+    "retrieval_complete": true,
+    "value_exact": true
+  },
+  {
+    "document": "culture2024",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "retrieval_complete": false,
+    "value_exact": true
+  }
+]

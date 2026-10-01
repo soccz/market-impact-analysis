@@ -1,0 +1,2828 @@
+{
+  "counts": {
+    "document_first": {
+      "agreed": 28,
+      "rows": 28
+    },
+    "klue_top1": {
+      "agreed": 11,
+      "rows": 28
+    },
+    "refined_posthoc": {
+      "agreed": 28,
+      "rows": 28
+    },
+    "tfidf_consensus3": {
+      "agreed": 28,
+      "rows": 28
+    },
+    "tfidf_top1": {
+      "agreed": 28,
+      "rows": 28
+    }
+  },
+  "original_engine_sha256": "d3c77d7ff908dda847b49920048c28f6ec4b335a68184d12eaeef198681cd306",
+  "rows": [
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "housing_expansion",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "housing_expansion",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "housing_expansion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "welfare_exclusion",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "welfare_exclusion",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "welfare_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "old_exception",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "old_exception",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_exception",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "rounding_question",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "rounding_question",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "rounding_question",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_deposit",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_deposit",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "missing_deposit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "missing_benefit",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "decisive_exclusion",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "decisive_exclusion",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "decisive_exclusion",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "new_boundary",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "new_boundary",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "new_boundary_plus",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "new_boundary_plus",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "new_boundary_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "old_deposit_plus",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "old_deposit_plus",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "fail",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "old_deposit_plus",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "document_first",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_top1",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "both_excluded",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "both_excluded",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "tfidf_consensus3",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "fail",
+      "case": "both_excluded",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "fail",
+      "method": "refined_posthoc",
+      "state": "fail",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "education",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "education",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "education",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "table_below",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "table_below",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_below",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "document_first",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "document_first",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_top1",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "table_above",
+      "evidence": [],
+      "exact": true,
+      "extracted_list": null,
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "unknown",
+      "case": "table_above",
+      "evidence": [],
+      "exact": false,
+      "extracted_list": null,
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "klue_top1",
+      "state": "unknown",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "tfidf_consensus3",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "tfidf_consensus3",
+      "state": "pass",
+      "year": "2023"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 2446,
+          "page": 1,
+          "sha256": "81facd3055abb9109295527de6abe6f206550bc2d4552ae5f912dcb22270b150",
+          "start": 2425
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing"
+      ],
+      "manual_housing": "unknown",
+      "manual_reference": "unknown",
+      "method": "refined_posthoc",
+      "state": "unknown",
+      "year": "2022"
+    },
+    {
+      "automatic_welfare": "pass",
+      "case": "table_above",
+      "evidence": [
+        {
+          "end": 368,
+          "page": 3,
+          "sha256": "5975c519182d8afdfbd1832ccd1cf38bfeb0a48fb23f7aa7b5be34ca540f44e5",
+          "start": 345
+        }
+      ],
+      "exact": true,
+      "extracted_list": [
+        "housing",
+        "livelihood",
+        "medical"
+      ],
+      "manual_housing": "pass",
+      "manual_reference": "pass",
+      "method": "refined_posthoc",
+      "state": "pass",
+      "year": "2023"
+    }
+  ],
+  "scope": "Hybrid only: housing still manually formalized; welfare lists automatically read; 14 original hypothetical cases, not new applicants."
+}

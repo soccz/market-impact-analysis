@@ -1,0 +1,158 @@
+{
+  "documents": 8,
+  "gates": {
+    "document_first": {
+      "abstained_decidable": 0,
+      "agreed_decidable": 480,
+      "answered_unknown": 0,
+      "reference_decidable": 486,
+      "reference_unknown": 50,
+      "total": 536,
+      "wrong_decidable": 6
+    },
+    "klue_top1": {
+      "abstained_decidable": 261,
+      "agreed_decidable": 219,
+      "answered_unknown": 0,
+      "reference_decidable": 486,
+      "reference_unknown": 50,
+      "total": 536,
+      "wrong_decidable": 6
+    },
+    "tfidf_consensus3": {
+      "abstained_decidable": 47,
+      "agreed_decidable": 439,
+      "answered_unknown": 0,
+      "reference_decidable": 486,
+      "reference_unknown": 50,
+      "total": 536,
+      "wrong_decidable": 0
+    },
+    "tfidf_top1": {
+      "abstained_decidable": 134,
+      "agreed_decidable": 352,
+      "answered_unknown": 0,
+      "reference_decidable": 486,
+      "reference_unknown": 50,
+      "total": 536,
+      "wrong_decidable": 0
+    }
+  },
+  "independent_human_reviews": 0,
+  "layout_ablation": [
+    {
+      "answerable": 4,
+      "document": "allowance2023",
+      "sorted_correct": 4,
+      "unsorted_correct": 4
+    },
+    {
+      "answerable": 4,
+      "document": "allowance2024",
+      "sorted_correct": 2,
+      "unsorted_correct": 2
+    },
+    {
+      "answerable": 3,
+      "document": "culture2023",
+      "sorted_correct": 3,
+      "unsorted_correct": 3
+    },
+    {
+      "answerable": 3,
+      "document": "culture2024",
+      "sorted_correct": 3,
+      "unsorted_correct": 3
+    },
+    {
+      "answerable": 4,
+      "document": "moving2022",
+      "sorted_correct": 3,
+      "unsorted_correct": 3
+    },
+    {
+      "answerable": 4,
+      "document": "moving2023",
+      "sorted_correct": 2,
+      "unsorted_correct": 2
+    },
+    {
+      "answerable": 4,
+      "document": "rent2023",
+      "sorted_correct": 2,
+      "unsorted_correct": 2
+    },
+    {
+      "answerable": 4,
+      "document": "rent2024",
+      "sorted_correct": 4,
+      "unsorted_correct": 2
+    }
+  ],
+  "metrics": {
+    "document_first": {
+      "absence_abstain": 2,
+      "abstain": 0,
+      "answerable": 30,
+      "correct_joint": 29,
+      "correct_value": 29,
+      "not_established": 2,
+      "retrieval_complete": 30,
+      "wrong_value": 1
+    },
+    "klue_top1": {
+      "absence_abstain": 2,
+      "abstain": 14,
+      "answerable": 30,
+      "correct_joint": 15,
+      "correct_value": 15,
+      "not_established": 2,
+      "retrieval_complete": 15,
+      "wrong_value": 1
+    },
+    "tfidf_consensus3": {
+      "absence_abstain": 2,
+      "abstain": 2,
+      "answerable": 30,
+      "correct_joint": 28,
+      "correct_value": 28,
+      "not_established": 2,
+      "retrieval_complete": 29,
+      "wrong_value": 0
+    },
+    "tfidf_top1": {
+      "absence_abstain": 2,
+      "abstain": 7,
+      "answerable": 30,
+      "correct_joint": 23,
+      "correct_value": 23,
+      "not_established": 2,
+      "retrieval_complete": 23,
+      "wrong_value": 0
+    }
+  },
+  "pair_metrics": {
+    "document_first": {
+      "abstain": 0,
+      "correct": 14,
+      "decidable": 15
+    },
+    "klue_top1": {
+      "abstain": 10,
+      "correct": 5,
+      "decidable": 15
+    },
+    "tfidf_consensus3": {
+      "abstain": 2,
+      "correct": 13,
+      "decidable": 15
+    },
+    "tfidf_top1": {
+      "abstain": 6,
+      "correct": 9,
+      "decidable": 15
+    }
+  },
+  "pairs": 4,
+  "programs": 4
+}
