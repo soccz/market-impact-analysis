@@ -1,0 +1,114 @@
+{
+  "absent": {
+    "plain": {
+      "max_tokens": 119,
+      "normalized_expressions": 192
+    },
+    "marked": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    },
+    "blind": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    }
+  },
+  "anaphora": {
+    "plain": {
+      "max_tokens": 137,
+      "normalized_expressions": 384
+    },
+    "marked": {
+      "max_tokens": 133,
+      "normalized_expressions": 384
+    },
+    "blind": {
+      "max_tokens": 134,
+      "normalized_expressions": 192
+    }
+  },
+  "evaluation": {
+    "plain": {
+      "max_tokens": 119,
+      "normalized_expressions": 384
+    },
+    "marked": {
+      "max_tokens": 111,
+      "normalized_expressions": 384
+    },
+    "blind": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    }
+  },
+  "interleaved": {
+    "plain": {
+      "max_tokens": 119,
+      "normalized_expressions": 384
+    },
+    "marked": {
+      "max_tokens": 111,
+      "normalized_expressions": 384
+    },
+    "blind": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    }
+  },
+  "order": {
+    "plain": {
+      "max_tokens": 119,
+      "normalized_expressions": 384
+    },
+    "marked": {
+      "max_tokens": 111,
+      "normalized_expressions": 384
+    },
+    "blind": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    }
+  },
+  "train": {
+    "plain": {
+      "max_tokens": 113,
+      "normalized_expressions": 960
+    },
+    "marked": {
+      "max_tokens": 104,
+      "normalized_expressions": 960
+    },
+    "blind": {
+      "max_tokens": 110,
+      "normalized_expressions": 480
+    }
+  },
+  "units": {
+    "plain": {
+      "max_tokens": 119,
+      "normalized_expressions": 384
+    },
+    "marked": {
+      "max_tokens": 111,
+      "normalized_expressions": 384
+    },
+    "blind": {
+      "max_tokens": 116,
+      "normalized_expressions": 192
+    }
+  },
+  "validation": {
+    "plain": {
+      "max_tokens": 107,
+      "normalized_expressions": 192
+    },
+    "marked": {
+      "max_tokens": 103,
+      "normalized_expressions": 192
+    },
+    "blind": {
+      "max_tokens": 105,
+      "normalized_expressions": 96
+    }
+  }
+}

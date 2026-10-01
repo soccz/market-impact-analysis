@@ -1,0 +1,63 @@
+{
+  "version": "5.0-query-binding",
+  "authorship": "soccz personal follow-up; AI-assisted code/data/analysis; independent human judgments completed: 0",
+  "status": "Designed after observing v4 attachment failures. New authored query-pair probes, locally frozen before fitting; not an external preregistration or an independently authored real-document benchmark.",
+  "hypothesis": "Exact-query canonicalization can make target-dependent roles easier to learn; it need not solve discourse reference or transfer to real policies.",
+  "conditions": {
+    "legacy_plain": "Reuse v4 normalized_scope seeds, source names unchanged",
+    "legacy_marked": "Same v4 weights; replace exact query occurrences with 지정사업 and canonicalize query; zero new fitting",
+    "plain": "New paired-query training, original query/names",
+    "marked": "New paired-query training, exact query replaced with 지정사업 in query and passage",
+    "blind": "New paired-query training, query replaced with constant 지정사업, passage names unchanged. Contradictory labels for identical inputs intentionally remove target information."
+  },
+  "inputs": "All conditions replace every parser-found amount by 0원; original values/offsets are side records only. Canonicalization consults query/text alone, no gold spans, roles, entities, evidence, or labels. It is a deterministic exact-string transformation, NOT learned entity linking.",
+  "training": {
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "epochs": 10,
+    "micro_batch": 8,
+    "effective_batch": 32,
+    "max_length": 192,
+    "lr": 2e-05,
+    "head_lr": 0.001,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1
+  },
+  "backbone": "klue/roberta-base@02f94ba5e3fcb7e2a58a390b8639b0fac974a8da",
+  "model": "v3 evidence reader, upper two encoder layers and heads trainable, unchanged losses. CUDA fp16 training with overflow skips recorded; fp32 inference. Last epoch, no checkpoint selection.",
+  "data": "Train960/validation192/evaluation384 (480/96/192 passages with two queries each). All24 target classes trained. Train event-pair offsets1,7,11,13,19; validation/evaluation5,17. Names and event/state wording families differ by split; same author and finite grammar. Both targets and positions balanced. Rewrites share evaluation events.",
+  "evaluation": [
+    "primary: both queries jointly correct for axes and all amounts, per paired passage",
+    "row joint, axes, roles, evidence character F1",
+    "other-to-target attachment counts and target role errors",
+    "per lexical family and all three seeds; no IID row confidence interval",
+    "interleaved and former/latter reference transfer; unseen layouts",
+    "swapped block order and value-preserving unit rewrite",
+    "target absent192: all amounts other, relation/state unspecified; forced output and selective gating"
+  ],
+  "gate": "v3 threshold 0.00..0.99, at least20 validation answers with joint error<=5%, choose maximum coverage. If none, answer none. No evaluation tuning.",
+  "paired_invariance": "Unit rewrites should have identical neural inputs by construction; query-blind pair outputs should be identical; report correctness separately.",
+  "controls": "Compare new marked vs new plain for combined canonicalization intervention; legacy vs new changes training content and inference padding from v4, so not a single-factor training-data causal proof. All v5 conditions use fixed192 fp32 inference. The marker also removes target lexical identity, so cannot isolate marker position from anonymization.",
+  "display_example": {
+    "document_id": "evaluation-8-0-0",
+    "seed": 42,
+    "reason": "first evaluation passage fixed before inference; show both queries and actual predictions"
+  },
+  "stop": "Nine new fits (3 inputs x 3 seeds), two inference views of three existing weights. Last epoch only; no result-dependent hyperparameter or data tuning. Preserve failures.",
+  "limits": "No new official document collection, no human gold, no speaker-resolution model, no two-document version matching, no learned arithmetic. Exact matching can miss aliases and match substrings; query overlapping money unsupported. This experiment only tests the written inputs. A marker method is not novel by itself.",
+  "references": [
+    {
+      "title": "Matching the Blanks: Distributional Similarity for Relation Learning (ACL2019)",
+      "url": "https://aclanthology.org/P19-1279/",
+      "use": "Prior entity-centered relation representation, not an implementation reproduction or novelty claim."
+    },
+    {
+      "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList (ACL2020)",
+      "url": "https://aclanthology.org/2020.acl-main.442/",
+      "use": "Behavioral contrast tests; this package implements its own probes, not the CheckList library."
+    }
+  ]
+}

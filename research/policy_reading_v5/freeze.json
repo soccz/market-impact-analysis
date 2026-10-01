@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-01T04:39:00.474853+00:00",
+  "note": "Local pre-run lock after v4 observations; not external preregistration.",
+  "files": {
+    "run.py": "ac88d886e04d52f3a3811af8ffd7207352a6340b95686a126b613fabd0968a98",
+    "binding.py": "186af152e53edb75803709b2694532edd87c8ecbecf96f9c4395d9bb4780fb47",
+    "test_inputs.py": "34851418b1086aaf53e2b849ca386e7a3287f134e0ae14362296947c9bfa3130",
+    "common.py": "dbf43caa404bac5f0f27ef04b2a7d6efb92bd89add0e5703b2d8b936e5ffa89b",
+    "build_probe.py": "f3837786e6b4d6eb1929e26e19590dba9a9d970e914fe4ad1c4ba6f920b056a0",
+    "analyze.py": "92a1daa89d15674c77e1293a8ada12e40e22116df61f86278607c18798ea8285",
+    "freeze.py": "c35aab4d967af21b13e3dfd37e66fd7af405c45e8dbeb86fed3fc6c760c5a90d",
+    "protocol.json": "bf88049c664e2f95fccbea52b67a1bafc914ea0931946c7636a25228df4ec38c",
+    "input_audit.json": "db4cd22ea5d3e17f60b2602ce4d0f160d911e635b7cf03eb1ef48d51619ab423",
+    "data/interleaved.jsonl": "d819b921715b9792d551f690c46384c0daf2b37a1572f377eee0853b6cece775",
+    "data/train.jsonl": "93c31d1361fe8f1eebe19eb321f6fca5fc1ab7c483e6487ed4858076825dc372",
+    "data/evaluation.jsonl": "eda59c3e791e487aa1a2bc847d4e80c03aa8fa5ae1de8f55a4d8e88b23593dbb",
+    "data/validation.jsonl": "94c9d6cfbc0dd785f5137a6a3a3fe741c4b265eeafb0ab0db98675b56ba2c879",
+    "data/design.json": "7c24b6608215726c3a705534d0531aa4b5cb83724a21f4f3b3abc14fe8df2430",
+    "data/anaphora.jsonl": "c33554b0ddd6700e16102a7c2f3cffe22031ed9a804bd0463b0d25a829b1a081",
+    "data/order.jsonl": "d68f5e172a9ca658d7f5b210ab727234747132ae9ca17d346f23416c507f6998",
+    "data/absent.jsonl": "e70eaa1324c2faed30e2b4b5e6c60b96e953a96296f7dece84b7f30b8b8a1445",
+    "data/units.jsonl": "0a92d43f7ff25461a39f2742e63fc89a4046599f5030554ab3a9a3f13585b61e",
+    "../policy_reading_v3/model.py": "528ca07f1d0ec0a3ebbb317baa7cb11458a7d85600f0652fa89625980c09a77f",
+    "../policy_reading_v3/partial_model.py": "d32113a33b5172e96f1b5955b026c2a6a16d97eb46aeb04a9f15cf647fc9fd7c",
+    "../policy_reading_v3/build_data.py": "d67498d6a5b01d118166ccd8828d7443caaefe82a06f729ae25196611cc9a6f7",
+    "../policy_reading_v3/evaluate.py": "d91f9db151b1a1a97a2855fcb68e4043705f82826cfa33aeb10cff00890a6048",
+    "../policy_reading_v3/verify.py": "af408581e1619ec861c77e35c0f110e6dc0873d2f196b2a1233fdcfe294af86f",
+    "../policy_reading_v4/representation.py": "ed018f9e38f55f2789eb17c05065b8ace409e461dc0cd8f1da3bf614c99147c8",
+    "../policy_reading_v4/results/normalized_scope/17/training.json": "b24465b756fee021cbdb93c04414748b94754fe9f2b18a6969e379d2c7388176",
+    "../policy_reading_v4/results/normalized_scope/42/training.json": "f4b54655993bdf2b7ec3cd98c220f21684e34c9fcd8619ba186bc633859eca11",
+    "../policy_reading_v4/results/normalized_scope/2026/training.json": "ea129678d872db65ed2307666af44218aae7ca7882652f4f28f2a0ac2db7a422"
+  }
+}

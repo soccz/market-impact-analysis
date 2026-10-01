@@ -1,0 +1,391 @@
+{
+  "status": "PASS",
+  "method": "Reload retained nine new weights and three routing weights; fp32 same environment, not independent refitting or fresh evaluation",
+  "prediction_files": 96,
+  "byte_identical": [
+    {
+      "file": "results/plain/17/train.json",
+      "sha256": "dec48a4404921d6bd423f55e7001b6ea8e3693940059134e043fe1f5ced95f20"
+    },
+    {
+      "file": "results/plain/17/validation.json",
+      "sha256": "e3a2d7da8b0108d8f2e69043e6eafcf87e92057922947bc1617f7d6239a8498d"
+    },
+    {
+      "file": "results/plain/17/absent.json",
+      "sha256": "ed40de7e676b1c77ff1b6852ca34ddfc4f638bf632aea6c7c399c5a745e0a180"
+    },
+    {
+      "file": "results/plain/17/units.json",
+      "sha256": "123d8a0cc1660f5c27dc05884a1538cae3904860d6569552ed513fd875dca65a"
+    },
+    {
+      "file": "results/plain/17/interleaved.json",
+      "sha256": "3abfa8c8d4fdc2bd80fa8b0491b44e1a02641ca96a5f3cf707b9e46d8e0fb320"
+    },
+    {
+      "file": "results/plain/17/anaphora.json",
+      "sha256": "e63903b924e19604bd8b38f666b586fbe5c58a6dd9d1471f349d49ee2dfc1cf9"
+    },
+    {
+      "file": "results/plain/17/evaluation.json",
+      "sha256": "3a194db411f5d36c9f8ba070192979e2eea68505c228b75384461f523a5b0a5c"
+    },
+    {
+      "file": "results/plain/17/order.json",
+      "sha256": "6b1878fdb5927a906a4908781c68d66178b76c6b1fb260f3bb9d26aa980d78e4"
+    },
+    {
+      "file": "results/plain/42/train.json",
+      "sha256": "21f4b77c95278754a13ae5cc9e9937be54d00fce7d7e174327d81728c0a07cc5"
+    },
+    {
+      "file": "results/plain/42/validation.json",
+      "sha256": "44776be8c056036561c1004d70464c598ef2ab560210e93ce2878713172ea820"
+    },
+    {
+      "file": "results/plain/42/absent.json",
+      "sha256": "125a7a3c91d7cf2d11206aee3aa87ea37fe26bfa78ca0252c34be45247b449b0"
+    },
+    {
+      "file": "results/plain/42/units.json",
+      "sha256": "266f421def09d47e389df47c8af2a78717f10381620eadf4373ff0a99808052b"
+    },
+    {
+      "file": "results/plain/42/interleaved.json",
+      "sha256": "f07b302e430013ffcf4442c08667257de456baccfc1610ae17ed2ceb5f2af7dd"
+    },
+    {
+      "file": "results/plain/42/anaphora.json",
+      "sha256": "58683ac48aa2a6b469731cdd6c14f86192190453a07554392b221c509ed13228"
+    },
+    {
+      "file": "results/plain/42/evaluation.json",
+      "sha256": "a63c0cbfa10440b050a229d40c3f362479309dfa71b0082664407daee48025e7"
+    },
+    {
+      "file": "results/plain/42/order.json",
+      "sha256": "9c45e553e2730d1b53a515bc0ba9d82b293eea70cd30b5d2cfa24d1b805f5d01"
+    },
+    {
+      "file": "results/plain/2026/train.json",
+      "sha256": "55f0fb00ad62be98b05ecead5ac1dbcf50cbcb6a6946c530b67e593763cc3db1"
+    },
+    {
+      "file": "results/plain/2026/validation.json",
+      "sha256": "67e8955eb770a13ef0d172fb55209bfc96d716033f30762551b762c9d149b2ff"
+    },
+    {
+      "file": "results/plain/2026/absent.json",
+      "sha256": "6c891465078b570b131dd0c8b23f9e0db5c4c3a710ec7c35d958e2cc9e6b41b4"
+    },
+    {
+      "file": "results/plain/2026/units.json",
+      "sha256": "f5b76cea67c4eb1546b68a0980566fce760d9153cd65198c9aa3bdb15a6459c0"
+    },
+    {
+      "file": "results/plain/2026/interleaved.json",
+      "sha256": "38c090c012c0f3443dd21e75029702dd7b335dc2c6ab37c5e354a65217e19912"
+    },
+    {
+      "file": "results/plain/2026/anaphora.json",
+      "sha256": "48149364c33e26e41235e4bd54a9b1d7f45de79b935be992be7310790f08a543"
+    },
+    {
+      "file": "results/plain/2026/evaluation.json",
+      "sha256": "0ef4a6bb5fee28d5b922330d70b764718136fe3c672117d7b6a706af48dbca8d"
+    },
+    {
+      "file": "results/plain/2026/order.json",
+      "sha256": "c09525886e0ef3f4829f4d3d781e72c81faece616163280cbb9ed3953a62e23c"
+    },
+    {
+      "file": "results/marked/17/train.json",
+      "sha256": "681b7f9e3d0c0ff5003d88e0cbba18f08a4d10ec080af7b70d4ba8a420a1dc11"
+    },
+    {
+      "file": "results/marked/17/validation.json",
+      "sha256": "e54b9de2ca6bfb02bdcbbaea1d1fb4c6c6b4b2bba58a5e3acf1b27ca5a10d86d"
+    },
+    {
+      "file": "results/marked/17/absent.json",
+      "sha256": "4a1e1cbe33d0121194b3c7aeb17b5083d82b3574664a725ce32ebf48f9f07a0d"
+    },
+    {
+      "file": "results/marked/17/units.json",
+      "sha256": "8bc08d8c753bef3633e7f8c6ac599d0448e618790fda14f5da54d8ddada7bb9c"
+    },
+    {
+      "file": "results/marked/17/interleaved.json",
+      "sha256": "9a257b4a23c47b5bb99c17d704f00c6d332ac9269e07c9ef6708726ce98776c0"
+    },
+    {
+      "file": "results/marked/17/anaphora.json",
+      "sha256": "85e751f104b7f5b98d7dae5843ab09c9179a919119607855590495865f36c472"
+    },
+    {
+      "file": "results/marked/17/evaluation.json",
+      "sha256": "a4cb13d4dd28af9f27378849289d6f59786582344cf1a4636d1d890b47134eef"
+    },
+    {
+      "file": "results/marked/17/order.json",
+      "sha256": "2ae1580b92785f3c70877fc0e50e645aeac6acd6494a0625a5a379f21ac54f7e"
+    },
+    {
+      "file": "results/marked/42/train.json",
+      "sha256": "4f6848338609396c5327c9863cda8fdc1af975d82c18fb7dffbb1ff153cdf6d3"
+    },
+    {
+      "file": "results/marked/42/validation.json",
+      "sha256": "8438daf89efbf4def0b1f39666b5b48e21ec273ac001f294bb3eb336e582840e"
+    },
+    {
+      "file": "results/marked/42/absent.json",
+      "sha256": "7246387c797feef70682b9c8657028c541a0132051ef8bc9fe251fe2901cc02f"
+    },
+    {
+      "file": "results/marked/42/units.json",
+      "sha256": "13e71899899fadefe31972e922b0e24048a37696fa8cfa0327c029ae334b1575"
+    },
+    {
+      "file": "results/marked/42/interleaved.json",
+      "sha256": "7d137f03a55ae687f65859701a7532659e454e6fb63032ba20ab3608e3a393f2"
+    },
+    {
+      "file": "results/marked/42/anaphora.json",
+      "sha256": "541689efad1086b440ecb9bd1043c3b1df10d7003539d6b5dd0695a905f50761"
+    },
+    {
+      "file": "results/marked/42/evaluation.json",
+      "sha256": "7731e1bd60c727001d32b27161bf955d71ff3488767b9301719c3a7ceb4dddfc"
+    },
+    {
+      "file": "results/marked/42/order.json",
+      "sha256": "6e9af64a8412a7777ebff7f0de77f9c3cc92479897fe6912752904928fe2f101"
+    },
+    {
+      "file": "results/marked/2026/train.json",
+      "sha256": "d876ee9bbc2a67f72f2e4f6d1ff8f6c9ce27fd6b04d3689de30f06b8cb8deb0d"
+    },
+    {
+      "file": "results/marked/2026/validation.json",
+      "sha256": "66af7409f71b462301d5614dd7aa67d9e3be73c8cc142f94e93bb7a9c9616959"
+    },
+    {
+      "file": "results/marked/2026/absent.json",
+      "sha256": "7635d7214b80408fd4143f43aafa906e89db764036318acbb8391e6e306e0ed3"
+    },
+    {
+      "file": "results/marked/2026/units.json",
+      "sha256": "1e5c58dc34e2657f6c4cb01c42dddd8f37e7e4773b2d897db297e23fc3395c47"
+    },
+    {
+      "file": "results/marked/2026/interleaved.json",
+      "sha256": "875e33345d99177b73ab1497048b713a7dc7aac8095119f9c2fcd7da6f680e9b"
+    },
+    {
+      "file": "results/marked/2026/anaphora.json",
+      "sha256": "eb2e30888e996f9ffaab2fa0123d7c1f9e5417f604ffe5f852d830796c2bb86e"
+    },
+    {
+      "file": "results/marked/2026/evaluation.json",
+      "sha256": "0e9832d31cb1403e5bda0658c87d3d82272ddc44355915e1b6b6b3ee2083de87"
+    },
+    {
+      "file": "results/marked/2026/order.json",
+      "sha256": "d24b6c5f75e1951abecf38e19ebb903f88cc61391c387e828caee5fe551722b1"
+    },
+    {
+      "file": "results/blind/17/train.json",
+      "sha256": "0471b55340dfd7f0b200810fab3adf3f8bc363d7b57bde4394c0801e77a6292b"
+    },
+    {
+      "file": "results/blind/17/validation.json",
+      "sha256": "0715736b4e9c02d5b492784de7a970f7cab4644f25ce6481070abb92eafea18a"
+    },
+    {
+      "file": "results/blind/17/absent.json",
+      "sha256": "4c969279a0ef3b614980b8a491c01cdc18597c3ec600a4054a64909088b5c243"
+    },
+    {
+      "file": "results/blind/17/units.json",
+      "sha256": "de91c667df1132caea44164a4a1c140a52ab7fa2f77c3c59866f664afc7ee745"
+    },
+    {
+      "file": "results/blind/17/interleaved.json",
+      "sha256": "87c5f34c5fa73cded3b7d417dd75efabe5bd7e6862f58772c754e4c4e19e1d73"
+    },
+    {
+      "file": "results/blind/17/anaphora.json",
+      "sha256": "81f3e5395b523944a1bcb87c93bc6f0d3d4f51fa41bf124213f34b35ad33eeb7"
+    },
+    {
+      "file": "results/blind/17/evaluation.json",
+      "sha256": "5fbe16cb71b3943cb882691b644e6b79e54ff95e7f305725805f037bf1f7ea18"
+    },
+    {
+      "file": "results/blind/17/order.json",
+      "sha256": "f85bca53b14193c0876836e5f4996db4f22a0065025838a4ceaf1200c293fc24"
+    },
+    {
+      "file": "results/blind/42/train.json",
+      "sha256": "f12cf403a9721e17e3c86339e1b05663655d20cf6f2c58faf23c86e36040ccc0"
+    },
+    {
+      "file": "results/blind/42/validation.json",
+      "sha256": "9e91a0a0b3e61dc65e0a91be2ea01dac4351e85c484c1cbcb03768fbbcf2c771"
+    },
+    {
+      "file": "results/blind/42/absent.json",
+      "sha256": "e8e0252409cce573642172770e77415812f14a153d7dfe49103b249fee75197f"
+    },
+    {
+      "file": "results/blind/42/units.json",
+      "sha256": "cc720792a3fa1c7ebcad1ee4660e9cda5a9fb3284bb7f52173bc553afef860a1"
+    },
+    {
+      "file": "results/blind/42/interleaved.json",
+      "sha256": "d0228bb6e820ce7bdb799202a4ffe658ac843ab12ba1a423160f4606e7b142c2"
+    },
+    {
+      "file": "results/blind/42/anaphora.json",
+      "sha256": "c3977d67c883c25281771159015dbd4d849cd953f145727ce4a58de01c788aa1"
+    },
+    {
+      "file": "results/blind/42/evaluation.json",
+      "sha256": "81593b56f717f0501103290b3019860f236785eb56a3bdba45fa88c7feedce8e"
+    },
+    {
+      "file": "results/blind/42/order.json",
+      "sha256": "8611a6099f6ba88abafa07daaac820f8ecc8cee1c30da8e1b52e44756f69be5b"
+    },
+    {
+      "file": "results/blind/2026/train.json",
+      "sha256": "c303049e55f4da7b3b324b76323708a8b2c35508a96e6e2565aee7c7d9af8e04"
+    },
+    {
+      "file": "results/blind/2026/validation.json",
+      "sha256": "b603f974f119781687a2563d818b30bd25f0766e37a8aac193e47dc7caba04f0"
+    },
+    {
+      "file": "results/blind/2026/absent.json",
+      "sha256": "969f83d5708b797225177c3233afae6dea4a015ab079d6b1e5cabcd4e0de1aa6"
+    },
+    {
+      "file": "results/blind/2026/units.json",
+      "sha256": "0e1557bdf020d6b6b46250579e6e8caf588b3773b3872519e71837a557985ac8"
+    },
+    {
+      "file": "results/blind/2026/interleaved.json",
+      "sha256": "e2970f9daac5effe6fa6f0523b9b732dc3e4214ef4778e6a950b025432cc74e7"
+    },
+    {
+      "file": "results/blind/2026/anaphora.json",
+      "sha256": "64d856cb4852123aa42a3c582547a65773c1f75078094f967ac03c4b7c25e3b3"
+    },
+    {
+      "file": "results/blind/2026/evaluation.json",
+      "sha256": "e60a3a056553caa4e49decf79bf9f529fb7cbe14b3dc06706c4387bbdc10552c"
+    },
+    {
+      "file": "results/blind/2026/order.json",
+      "sha256": "2760bc937e1c651a7e4f8ca63928447d02f042c7d1a087916f3a666aaca52684"
+    },
+    {
+      "file": "routing_results/17/train.json",
+      "sha256": "36e50c50ae3449894ffa3d6c5282925b0d3d7d41c646a0510ffed2d58ff49424"
+    },
+    {
+      "file": "routing_results/17/validation.json",
+      "sha256": "0c69ac5557804184f892ef0d20a683b4ab804698faf6cbfe33402e742bfe08ae"
+    },
+    {
+      "file": "routing_results/17/absent.json",
+      "sha256": "28553eacae5bbf6b64bfca19e4d74874e5b464c0d7e4de1941d7db9714e88a75"
+    },
+    {
+      "file": "routing_results/17/units.json",
+      "sha256": "61e6a916ada62634262503430df0861245ae1addac1a8a5e5aad1d16f72355b4"
+    },
+    {
+      "file": "routing_results/17/interleaved.json",
+      "sha256": "2a9928d121a197694fbc8f43d4828f270d115e2d2cc6742569b197343bba9743"
+    },
+    {
+      "file": "routing_results/17/anaphora.json",
+      "sha256": "5a10e7e479788c0b4b56825d65811da3376168f505a0c2fd8cf8368d6b838e13"
+    },
+    {
+      "file": "routing_results/17/evaluation.json",
+      "sha256": "e650c69ef5bfc0c79ba4190c2ef95b56c0b966d2378525d379bf2ed82187d966"
+    },
+    {
+      "file": "routing_results/17/order.json",
+      "sha256": "a5e53d393a9c44cb273b95d2141a6eee3ac70818876ce3273e18dc2c2e0ae7f4"
+    },
+    {
+      "file": "routing_results/42/train.json",
+      "sha256": "b977601062a3c1ea76c8d869544389be919ae7a0bb15dd83b7601a1856a410d8"
+    },
+    {
+      "file": "routing_results/42/validation.json",
+      "sha256": "0058c15b4e45661f00abfae2ecc641c9a6235ada74d729cacfdfba599ee32908"
+    },
+    {
+      "file": "routing_results/42/absent.json",
+      "sha256": "28553eacae5bbf6b64bfca19e4d74874e5b464c0d7e4de1941d7db9714e88a75"
+    },
+    {
+      "file": "routing_results/42/units.json",
+      "sha256": "87b742d9995c0fe8af233e9c252fca5ea1a12ada21bd0e5782eb93250fef3492"
+    },
+    {
+      "file": "routing_results/42/interleaved.json",
+      "sha256": "c8d0fec94303d8778af98bbc6abdc2ab1a51fb2e82a38353ade168520b04611c"
+    },
+    {
+      "file": "routing_results/42/anaphora.json",
+      "sha256": "5a10e7e479788c0b4b56825d65811da3376168f505a0c2fd8cf8368d6b838e13"
+    },
+    {
+      "file": "routing_results/42/evaluation.json",
+      "sha256": "82a49dd4c567c44ad4c2ebcec4881c4f82d0064a1d2f064ec5775d677a741233"
+    },
+    {
+      "file": "routing_results/42/order.json",
+      "sha256": "596d0b99c9de7dc015f96e49a8fc701ac8202d3b2cf45d36cda340aca83c875f"
+    },
+    {
+      "file": "routing_results/2026/train.json",
+      "sha256": "18d2d2fd0910dc27931825b725b34279d74b9119a406f38fa44d6ea9b050198d"
+    },
+    {
+      "file": "routing_results/2026/validation.json",
+      "sha256": "2f23692293d00e77dfe243c42fb29a1fe8311de2f1346c14b94bae769a42a636"
+    },
+    {
+      "file": "routing_results/2026/absent.json",
+      "sha256": "28553eacae5bbf6b64bfca19e4d74874e5b464c0d7e4de1941d7db9714e88a75"
+    },
+    {
+      "file": "routing_results/2026/units.json",
+      "sha256": "fae0b9d3d1222f6d4c48586e1887346fc4a9bae8af24e182d618e8285ea83ab2"
+    },
+    {
+      "file": "routing_results/2026/interleaved.json",
+      "sha256": "037105661e992d1ea16fb1863a3c2272eaf259a9027cda73007d0b98c315b13e"
+    },
+    {
+      "file": "routing_results/2026/anaphora.json",
+      "sha256": "5a10e7e479788c0b4b56825d65811da3376168f505a0c2fd8cf8368d6b838e13"
+    },
+    {
+      "file": "routing_results/2026/evaluation.json",
+      "sha256": "8e40ca1dff7f744db3566db814b89a7de4d89d7bec265f236133a51b0dc7c1bc"
+    },
+    {
+      "file": "routing_results/2026/order.json",
+      "sha256": "faeeda398e1518aafcbfafbede3bddb5b87efbef4104e8574b8ce5f937343b46"
+    }
+  ]
+}

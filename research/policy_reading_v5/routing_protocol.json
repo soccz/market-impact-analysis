@@ -1,0 +1,9 @@
+{
+  "status": "Post-result inference-only baseline. Added after observing new plain/marked fits had zero paired joint success; no extra fitting or alteration of primary frozen results.",
+  "intervention": "Retrieve source sentences containing the exact query substring; concatenate selected sentences. Monetary normalization and restored predictions remain. Excluded amounts are set other by a deterministic rule. Query/evidence/gold entity lists are not used beyond the input query itself.",
+  "weights": "Same three v4 normalized_scope weights used by legacy_plain. No new fits.",
+  "answerability": "At least one parsed monetary span in selected sentences; otherwise explicitly abstain with null prediction. This is a routing policy, not model uncertainty or proof that the query is unanswerable.",
+  "scope_limit": "Only exact names and simple sentence boundaries. Cross-sentence references, aliases, substrings, shared-sentence multiple entities can fail.",
+  "metrics": "Full row and paired joint count abstentions as unsuccessful; show retrieval coverage separately. Model metrics and gate are conditional on routed rows; full answer coverage also reported. Validation-only threshold same20answers/error5% criterion.",
+  "stop": "Exactly three reused-weight runs and same-environment inference repeat. No further fitting based on this result."
+}
