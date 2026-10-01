@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "boundary-1",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-1",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-2",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-2",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-3",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "contradicted",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-3",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "contradicted",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-4",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-4",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-5",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-5",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-6",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-6",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-7",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-7",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-8",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-8",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-9",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-9",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-10",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "contradicted",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-10",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-11",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "supported",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-11",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "supported",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-12",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-12",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "application-distractor",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "contradicted",
+    "updated": "contradicted"
+  },
+  {
+    "id": "application-distractor",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "parent-distractor",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "부모의 보증 가입일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "parent-distractor",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "부모의 보증 가입일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "contradicted",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "unknown-with-application",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "unknown-with-application",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "not_established",
+    "grounded_contract_model_slots": "not_established",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "iso-date",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025-03-31이다. 이 보증료 지원 상한은 400,000원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "supported"
+  },
+  {
+    "id": "iso-date",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025-03-31이다. 이 보증료 지원 상한은 400,000원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "stable-false",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "stable-false",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "money-notation",
+    "model": "qwen",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 3십만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "money-notation",
+    "model": "qwen",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 3십만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-1",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-1",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-2",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-2",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-3",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-3",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-4",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-31",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-4",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-31",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-5",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-5",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-6",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-6",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-7",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-7",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-8",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-8",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "contradicted",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-9",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-9",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "boundary-10",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-10",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "boundary-11",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 300000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-11",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 300000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "supported",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-12",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 400000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "boundary-12",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 400000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "contradicted",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": false,
+    "review": true,
+    "stored": "contradicted",
+    "updated": "not_established"
+  },
+  {
+    "id": "application-distractor",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "application-distractor",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "contradicted"
+  },
+  {
+    "id": "parent-distractor",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "부모의 보증 가입일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "parent-distractor",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "부모의 보증 가입일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "contradicted",
+    "grounded_contract_model_slots": "contradicted",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "unknown-with-application",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "not_established"
+  },
+  {
+    "id": "unknown-with-application",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+    "before_label": "contradicted",
+    "label": "not_established",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 4000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "not_established",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "not_established"
+  },
+  {
+    "id": "iso-date",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025-03-31이다. 이 보증료 지원 상한은 400,000원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 400000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "supported"
+  },
+  {
+    "id": "iso-date",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025-03-31이다. 이 보증료 지원 상한은 400,000원이다.",
+    "before_label": "contradicted",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "model_slots": {
+      "asserted_cap": 400000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "slots_exact": true,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "supported",
+    "grounded_contract_model_slots": "supported",
+    "before": "contradicted",
+    "after": "supported",
+    "revision_changes_decision": true,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "stable-false",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "stable-false",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+    "before_label": "contradicted",
+    "label": "contradicted",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "model_slots": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "not_established",
+    "direct_after": "not_established",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "contradicted",
+    "after": "contradicted",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": true,
+    "review": true,
+    "stored": "not_established",
+    "updated": "contradicted"
+  },
+  {
+    "id": "money-notation",
+    "model": "kanana-public",
+    "condition": "saved",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 3십만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 300000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  },
+  {
+    "id": "money-notation",
+    "model": "kanana-public",
+    "condition": "corrupted",
+    "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 3십만원이다.",
+    "before_label": "supported",
+    "label": "supported",
+    "reference_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "model_slots": {
+      "asserted_cap": 300000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "grounded_slots": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "slots_exact": false,
+    "grounded_exact": true,
+    "direct_before": "supported",
+    "direct_after": "supported",
+    "raw_contract_model_slots": "abstain",
+    "grounded_contract_model_slots": "abstain",
+    "before": "supported",
+    "after": "supported",
+    "revision_changes_decision": false,
+    "prior_answer_disagrees": false,
+    "review": false,
+    "stored": "supported",
+    "updated": "supported"
+  }
+]

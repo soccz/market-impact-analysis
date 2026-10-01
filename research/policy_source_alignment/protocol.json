@@ -1,0 +1,12 @@
+{
+ "question":"Can source-literal candidate extraction and evidence-linked composition repair policy rules, then preserve selective revision behavior on new documents?",
+ "development":"The prior 32 authored controls and 16 Yangsan/Yongin claims have been observed. All development comparisons are post-hoc. Reuse their profile/direct outputs and claim-grounding method.",
+ "methods":["prior free-form typed extraction", "source-literal candidates plus a restricted deterministic conjunction/explicit-any baseline", "same candidates composed by each local model", "one source-only feedback repair for malformed, missing-candidate or mechanically inconsistent compositions; no claim/reference labels"],
+ "scope_dependency":"Scope text remains manually selected and can resolve exclusion polarity; report this explicitly. Candidate literals are grounded mechanically, their meaning and logical composition are not independently verified.",
+ "iteration":"Measure candidate coverage and rule errors separately. If repair fails, retain failures and run a distinct declared follow-up, without overwriting frozen results.",
+ "new_documents":"Freeze method before searching new sources. Target at least 2 previously unread official document families, 4 scopes and 16 authored claims with monetary and non-monetary conditions. Preserve scoped and wider-context comparisons separately.",
+ "revision_integration":"Apply policy/fact reading to before/after documents already held in the selective-update study, evaluate changed rules and changed applicant conclusions, including previously wrong stored answers. This is integration on old sources, not a new independent document test.",
+ "stop_work":"Complete executable corrections and diagnostics, source-referenced counterexamples, new-source transfer, revision integration, reproducibility and both repository/Pages publication. Do not label remaining model failures solved. Independent human adjudication requires external participants and is not simulated.",
+ "human_reviewers":0,
+ "training_runs":0
+}

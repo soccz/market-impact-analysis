@@ -1,0 +1,664 @@
+[
+  {
+    "model_id": "qwen",
+    "bundle": "changwon-housing",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 6,
+          "end": 12,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "f097607738b66d79f31ef152398d747d895157f2300308298ea4421dfaf36b39"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 18,
+          "end": 25,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "cde0be1a8f6616813fe92b82080be04a1c7cfbe67a7a70a06321872ffa9f53d9"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "qwen",
+    "bundle": "changwon-age",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [],
+      "derived": [],
+      "warnings": [
+        {
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "reason": "numeric_field_unresolved"
+        },
+        {
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "reason": "numeric_field_unresolved"
+        }
+      ]
+    },
+    "coverage": {
+      "covered": false,
+      "reasons": [
+        "no_supported_atom",
+        "unresolved_numeric_field"
+      ]
+    },
+    "rule_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": false,
+    "model_equivalent": false
+  },
+  {
+    "model_id": "qwen",
+    "bundle": "suwon-age",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": false,
+      "reasons": [
+        "no_supported_atom"
+      ]
+    },
+    "rule_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": false,
+    "model_equivalent": false
+  },
+  {
+    "model_id": "qwen",
+    "bundle": "suwon-income",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "changwon-housing",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 6,
+          "end": 12,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "f097607738b66d79f31ef152398d747d895157f2300308298ea4421dfaf36b39"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 18,
+          "end": 25,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "cde0be1a8f6616813fe92b82080be04a1c7cfbe67a7a70a06321872ffa9f53d9"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "changwon-age",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [],
+      "derived": [],
+      "warnings": [
+        {
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "reason": "numeric_field_unresolved"
+        },
+        {
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "reason": "numeric_field_unresolved"
+        }
+      ]
+    },
+    "coverage": {
+      "covered": false,
+      "reasons": [
+        "no_supported_atom",
+        "unresolved_numeric_field"
+      ]
+    },
+    "rule_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": false,
+    "model_equivalent": false
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "suwon-age",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": false,
+      "reasons": [
+        "no_supported_atom"
+      ]
+    },
+    "rule_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "insufficient",
+      "clauses": [],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": false,
+    "model_equivalent": false
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "suwon-income",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  }
+]

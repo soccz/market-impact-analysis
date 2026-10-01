@@ -1,0 +1,90 @@
+[
+  {
+    "model": "qwen",
+    "phase": "before",
+    "action": "unchanged",
+    "reason": "explicit_source_cap_and_date_spans",
+    "source_contract": {
+      "branches": [
+        {
+          "from_inclusive": null,
+          "until_exclusive": null,
+          "max_krw": 300000,
+          "evidence": [
+            "OCAP"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen",
+    "phase": "after",
+    "action": "unchanged",
+    "reason": "explicit_source_cap_and_date_spans",
+    "source_contract": {
+      "branches": [
+        {
+          "from_inclusive": null,
+          "until_exclusive": "2025-03-31",
+          "max_krw": 300000,
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        {
+          "from_inclusive": "2025-03-31",
+          "until_exclusive": null,
+          "max_krw": 400000,
+          "evidence": [
+            "NCAP"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "model": "kanana-public",
+    "phase": "before",
+    "action": "repaired",
+    "reason": "explicit_source_cap_and_date_spans",
+    "source_contract": {
+      "branches": [
+        {
+          "from_inclusive": null,
+          "until_exclusive": null,
+          "max_krw": 300000,
+          "evidence": [
+            "OCAP"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "model": "kanana-public",
+    "phase": "after",
+    "action": "unchanged",
+    "reason": "explicit_source_cap_and_date_spans",
+    "source_contract": {
+      "branches": [
+        {
+          "from_inclusive": null,
+          "until_exclusive": "2025-03-31",
+          "max_krw": 300000,
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        {
+          "from_inclusive": "2025-03-31",
+          "until_exclusive": null,
+          "max_krw": 400000,
+          "evidence": [
+            "NCAP"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "qwen": {
+    "saved": {
+      "n": 18,
+      "before_correct": 14,
+      "stored_after_correct": 6,
+      "direct_after_correct": 10,
+      "raw_pipeline_correct": 18,
+      "grounded_contract_correct": 18,
+      "updated_correct": 18,
+      "model_slots_exact": 18,
+      "grounded_slots_exact": 18,
+      "review": 12,
+      "decision_changes": 8,
+      "prior_errors": 4,
+      "stable_prior_errors": 4,
+      "fixes": 12,
+      "harms": 0
+    },
+    "corrupted": {
+      "n": 18,
+      "before_correct": 14,
+      "stored_after_correct": 4,
+      "direct_after_correct": 10,
+      "raw_pipeline_correct": 18,
+      "grounded_contract_correct": 18,
+      "updated_correct": 18,
+      "model_slots_exact": 18,
+      "grounded_slots_exact": 18,
+      "review": 14,
+      "decision_changes": 8,
+      "prior_errors": 7,
+      "stable_prior_errors": 6,
+      "fixes": 14,
+      "harms": 0
+    }
+  },
+  "kanana-public": {
+    "saved": {
+      "n": 18,
+      "before_correct": 7,
+      "stored_after_correct": 4,
+      "direct_after_correct": 6,
+      "raw_pipeline_correct": 3,
+      "grounded_contract_correct": 3,
+      "updated_correct": 18,
+      "model_slots_exact": 1,
+      "grounded_slots_exact": 18,
+      "review": 15,
+      "decision_changes": 8,
+      "prior_errors": 11,
+      "stable_prior_errors": 7,
+      "fixes": 14,
+      "harms": 0
+    },
+    "corrupted": {
+      "n": 18,
+      "before_correct": 7,
+      "stored_after_correct": 5,
+      "direct_after_correct": 6,
+      "raw_pipeline_correct": 3,
+      "grounded_contract_correct": 3,
+      "updated_correct": 18,
+      "model_slots_exact": 1,
+      "grounded_slots_exact": 18,
+      "review": 15,
+      "decision_changes": 8,
+      "prior_errors": 11,
+      "stable_prior_errors": 7,
+      "fixes": 13,
+      "harms": 0
+    }
+  }
+}

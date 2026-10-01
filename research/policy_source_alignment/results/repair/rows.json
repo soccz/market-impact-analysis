@@ -1,0 +1,2291 @@
+[
+  {
+    "id": "mixed-money-base",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "mixed-money-preserve",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "mixed-money-change",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "mixed-money-unknown",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "decimal-money-base",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "decimal-money-preserve",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "decimal-money-change",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 749999
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "decimal-money-unknown",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "money-polarity-base",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "money-polarity-preserve",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "money-polarity-change",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "money-polarity-unknown",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "subject-base",
+    "bundle": "subject",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "subject-preserve",
+    "bundle": "subject",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "subject-change",
+    "bundle": "subject",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "subject-unknown",
+    "bundle": "subject",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "age-boundary-base",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-boundary-preserve",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-boundary-change",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-boundary-unknown",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "and-both-base",
+    "bundle": "and-both",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "and-both-preserve",
+    "bundle": "and-both",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "and-both-change",
+    "bundle": "and-both",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "and-both-unknown",
+    "bundle": "and-both",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "or-either-base",
+    "bundle": "or-either",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "or-either-preserve",
+    "bundle": "or-either",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "or-either-change",
+    "bundle": "or-either",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "or-either-unknown",
+    "bundle": "or-either",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "age-strict-base",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-strict-preserve",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-strict-change",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 38
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-strict-unknown",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-1",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "yangsan-income-2",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-3",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-4",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 181
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "contradicted",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "mixed-money-base",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "mixed-money-preserve",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "mixed-money-change",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "mixed-money-unknown",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 2400.24
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "decimal-money-base",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "decimal-money-preserve",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "decimal-money-change",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 749999
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "decimal-money-unknown",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "money-polarity-base",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "money-polarity-preserve",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "money-polarity-change",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "money-polarity-unknown",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "subject-base",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "subject-preserve",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "subject-change",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "subject-unknown",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "age-boundary-base",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-boundary-preserve",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-boundary-change",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-boundary-unknown",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "and-both-base",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "and-both-preserve",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "and-both-change",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "and-both-unknown",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "or-either-base",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "or-either-preserve",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "or-either-change",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "or-either-unknown",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "age-strict-base",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-strict-preserve",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "contradicted",
+    "candidate_rules": "contradicted",
+    "candidate_model": "contradicted"
+  },
+  {
+    "id": "age-strict-change",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 38
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "age-strict-unknown",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "dataset": "metamorphic",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 39
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-1",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-2",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-3",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yangsan-income-4",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile_exact": true,
+    "direct": "not_established",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "abstain",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "abstain",
+    "candidate_rules": "contradicted",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "profile_exact": true,
+    "direct": "supported",
+    "previous": "abstain",
+    "candidate_rules": "supported",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 11250
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "abstain",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "supported",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "contradicted",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "not_established",
+    "candidate_rules": "not_established",
+    "candidate_model": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "dataset": "official",
+    "label": "not_established",
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "profile_exact": false,
+    "direct": "supported",
+    "previous": "supported",
+    "candidate_rules": "not_established",
+    "candidate_model": "supported"
+  }
+]

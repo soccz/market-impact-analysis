@@ -1,0 +1,2124 @@
+[
+  {
+    "model_id": "qwen",
+    "id": "changwon-housing-1",
+    "bundle": "changwon-housing",
+    "label": "supported",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600000,
+            "start": 29,
+            "end": 37,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-housing-2",
+    "bundle": "changwon-housing",
+    "label": "contradicted",
+    "claim": "내 보증금은 100,000,001원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000001,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,001원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600000,
+            "start": 29,
+            "end": 37,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-housing-3",
+    "bundle": "changwon-housing",
+    "label": "contradicted",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,001원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600001,
+            "start": 29,
+            "end": 37,
+            "text": "600,001원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-housing-4",
+    "bundle": "changwon-housing",
+    "label": "not_established",
+    "claim": "내 보증금은 밝히지 않았다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "explicit_unknown",
+            "start": 5,
+            "end": 10,
+            "text": "은 밝히지"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 18,
+            "cue_end": 20,
+            "status": "amount",
+            "value": 600000,
+            "start": 22,
+            "end": 30,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-housing-5",
+    "bundle": "changwon-housing",
+    "label": "not_established",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "explicit_unknown",
+            "start": 27,
+            "end": 32,
+            "text": "는 밝히지"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-age-1",
+    "bundle": "changwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-age-2",
+    "bundle": "changwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-age-3",
+    "bundle": "changwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-age-4",
+    "bundle": "changwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "changwon-age-5",
+    "bundle": "changwon-age",
+    "label": "not_established",
+    "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-age-1",
+    "bundle": "suwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-age-2",
+    "bundle": "suwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-age-3",
+    "bundle": "suwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-age-4",
+    "bundle": "suwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-age-5",
+    "bundle": "suwon-age",
+    "label": "not_established",
+    "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-income-1",
+    "bundle": "suwon-income",
+    "label": "supported",
+    "claim": "내 가구 기준중위소득 비율은 119%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-income-2",
+    "bundle": "suwon-income",
+    "label": "supported",
+    "claim": "내 가구 기준중위소득 비율은 120%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-income-3",
+    "bundle": "suwon-income",
+    "label": "contradicted",
+    "claim": "내 가구 기준중위소득 비율은 121%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-income-4",
+    "bundle": "suwon-income",
+    "label": "not_established",
+    "claim": "내 가구 기준중위소득 비율은 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "qwen",
+    "id": "suwon-income-5",
+    "bundle": "suwon-income",
+    "label": "contradicted",
+    "claim": "내 가구 기준중위소득 비율은 120.5%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-housing-1",
+    "bundle": "changwon-housing",
+    "label": "supported",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600000,
+            "start": 29,
+            "end": 37,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-housing-2",
+    "bundle": "changwon-housing",
+    "label": "contradicted",
+    "claim": "내 보증금은 100,000,001원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000001,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,001원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600000,
+            "start": 29,
+            "end": 37,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-housing-3",
+    "bundle": "changwon-housing",
+    "label": "contradicted",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,001원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "amount",
+            "value": 600001,
+            "start": 29,
+            "end": 37,
+            "text": "600,001원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-housing-4",
+    "bundle": "changwon-housing",
+    "label": "not_established",
+    "claim": "내 보증금은 밝히지 않았다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "explicit_unknown",
+            "start": 5,
+            "end": 10,
+            "text": "은 밝히지"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 18,
+            "cue_end": 20,
+            "status": "amount",
+            "value": 600000,
+            "start": 22,
+            "end": 30,
+            "text": "600,000원"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-housing-5",
+    "bundle": "changwon-housing",
+    "label": "not_established",
+    "claim": "내 보증금은 100,000,000원이다. 내 월세는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [
+          {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000000,
+            "start": 7,
+            "end": 19,
+            "text": "100,000,000원"
+          },
+          {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 25,
+            "cue_end": 27,
+            "status": "explicit_unknown",
+            "start": 27,
+            "end": 32,
+            "text": "는 밝히지"
+          }
+        ],
+        "issues": [],
+        "patches": {},
+        "checked": [
+          "deposit_krw",
+          "monthly_rent_krw"
+        ],
+        "status": "checked"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-age-1",
+    "bundle": "changwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-age-2",
+    "bundle": "changwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-age-3",
+    "bundle": "changwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-age-4",
+    "bundle": "changwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "changwon-age-5",
+    "bundle": "changwon-age",
+    "label": "not_established",
+    "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-age-1",
+    "bundle": "suwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-age-2",
+    "bundle": "suwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-age-3",
+    "bundle": "suwon-age",
+    "label": "supported",
+    "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-age-4",
+    "bundle": "suwon-age",
+    "label": "contradicted",
+    "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-age-5",
+    "bundle": "suwon-age",
+    "label": "not_established",
+    "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-income-1",
+    "bundle": "suwon-income",
+    "label": "supported",
+    "claim": "내 가구 기준중위소득 비율은 119%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-income-2",
+    "bundle": "suwon-income",
+    "label": "supported",
+    "claim": "내 가구 기준중위소득 비율은 120%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported",
+    "freeform": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-income-3",
+    "bundle": "suwon-income",
+    "label": "contradicted",
+    "claim": "내 가구 기준중위소득 비율은 121%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-income-4",
+    "bundle": "suwon-income",
+    "label": "not_established",
+    "claim": "내 가구 기준중위소득 비율은 밝히지 않았다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established",
+    "freeform": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "suwon-income-5",
+    "bundle": "suwon-income",
+    "label": "contradicted",
+    "claim": "내 가구 기준중위소득 비율은 120.5%이다. 이 범위의 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted",
+    "freeform": "contradicted"
+  }
+]

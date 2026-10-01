@@ -1,0 +1,595 @@
+[
+  {
+    "id": "mixed-money",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:54.728595+00:00",
+    "request_sha256": "fdce64bb260ecf6a0b17e5ced5399cafe6a0eae5dfc22ccb606c001df23c851b",
+    "input_sha256": "145e545d80acaad1839f47b43cbea13615775e2adca0652584dda643414865b6",
+    "elapsed_seconds": 5.667,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ]
+      ]
+    },
+    "response_sha256": "b52b9839f495f26cf026255f7fda2714de5f0c4873bd27f10e1230603ea47ca0"
+  },
+  {
+    "id": "decimal-money",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:55.181250+00:00",
+    "request_sha256": "2fc28281f3cc5af27644e270843b447927d054b1217b139b3cfa2633d014b865",
+    "input_sha256": "16fe58cff16f303d24f76de1effd9f2bd9d93722511d41cc022135d2b4c64699",
+    "elapsed_seconds": 0.452,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ]
+      ]
+    },
+    "response_sha256": "968ef764f42fdc9b120d449b245485fcbaab48da124f2d951b374d5434a5f41e"
+  },
+  {
+    "id": "money-polarity",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:55.704352+00:00",
+    "request_sha256": "ca9cf8748c983f2020d0a6e3714a117d623e57bdefac303b87a25a8f52448212",
+    "input_sha256": "a923a03ede3290f3eec539c9d961be6e03a68ebec840b64454e9fc0f43bfb462",
+    "elapsed_seconds": 0.523,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0",
+          "a1"
+        ]
+      ]
+    },
+    "response_sha256": "e455b3bd056416de7cb1068000ba304bcdaa8ad7eadb1caaddce1a373d9ad308"
+  },
+  {
+    "id": "subject",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:56.122109+00:00",
+    "request_sha256": "2ddc69b82843879d4df9106d8982f94cf76a0bb98905fbcec1be4a2cb8579f36",
+    "input_sha256": "2d44a1ab769931dc0d66da18826aeff5ad7cc0a47aa77f132e8bfe92a8297d46",
+    "elapsed_seconds": 0.417,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ]
+      ]
+    },
+    "response_sha256": "adc6fec6ca79b776177a544bf416420803918d18c43c8ef37c33ab4b37dc5399"
+  },
+  {
+    "id": "age-boundary",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:56.531857+00:00",
+    "request_sha256": "5947dc858065ddd35b12af18fd2fcd8659fadb71a95038a7bcd44bc79f4f73c5",
+    "input_sha256": "ccd666225c29da0155dd8e11d2d9ca19b9620fbbc05d79ce3ba5790aeb419399",
+    "elapsed_seconds": 0.409,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ]
+      ]
+    },
+    "response_sha256": "3461bd8d19939349ce11dc07ad6a562f57b06c151e84ae4b69a3dd18dc1edb91"
+  },
+  {
+    "id": "and-both",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:57.029060+00:00",
+    "request_sha256": "6055a6ffce2769a36749fd05db61288f4d09506d3a24c08761ec7df78b188cd1",
+    "input_sha256": "6ddbe62a4fa1ae85c164b1ae3f09d139638eddb9688fdbfc4b076f79a29652dc",
+    "elapsed_seconds": 0.497,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0",
+          "a1"
+        ]
+      ]
+    },
+    "response_sha256": "8aab3f377bddb6275c89480002b6d508a3e48925b1194e6dc49d56029ea5415b"
+  },
+  {
+    "id": "or-either",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:57.522210+00:00",
+    "request_sha256": "6e95e4d3996c0a68d0ba2f66ad0730fe5abfd35ca366a635ec7da9fa45aec9ed",
+    "input_sha256": "0b38b454f0cedc0e3336d49078d5d5ec7ed0c4bf6680034313c791d5c208820e",
+    "elapsed_seconds": 0.493,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ]
+      ]
+    },
+    "response_sha256": "e2a2c5093705acbfcc1d60d68b11a1f96ab09c68f3a1e341b7f92faa6ffc813e"
+  },
+  {
+    "id": "age-strict",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:57.933180+00:00",
+    "request_sha256": "e21519af319775f32752e2bca76ca8cf0b6cf1f9378e28843d7ffb54b381f64d",
+    "input_sha256": "c55710c96b780cc9bb493ac32bdf277a0a7f3be1cd661db8d3dd2c2ec95b6f89",
+    "elapsed_seconds": 0.41,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ]
+      ]
+    },
+    "response_sha256": "b62e264c89bfc927376f7d22b847347e7151a60d747ba5570f16439e4f33e0e9"
+  },
+  {
+    "id": "yangsan-housing",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:22:55.345155+00:00",
+    "request_sha256": "6422d1f11d583aa11010af1cb02977642d8eed9031988f98de5fc3ddc8a0db4f",
+    "input_sha256": "bf0466c3f77f274823838591602fa4f7e88c41d7ccca17e396d97971e711dfee",
+    "elapsed_seconds": 5.789,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0",
+          "a1"
+        ],
+        [
+          "a2"
+        ]
+      ]
+    },
+    "response_sha256": "893d94c822feccb792550d08b666472717e9689900f4d9481e9ef782397d2f85"
+  },
+  {
+    "id": "yangsan-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:58.979455+00:00",
+    "request_sha256": "378a0350ad40ff82f97bfc348cc2dc3716abfa9206dd8607bf2cf653dbf39fd3",
+    "input_sha256": "f7cf9e1822a3236076bf939ea9572285ca3a24e1951f5a31f128f4cf4a37eaca",
+    "elapsed_seconds": 0.452,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0",
+          "a1"
+        ]
+      ]
+    },
+    "response_sha256": "5bc0ce83d2e6d7fd25864d3bd98f4c350c0814eb261118bf989cd46cbd6a6e20"
+  },
+  {
+    "id": "yongin-conversion",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:20:59.480771+00:00",
+    "request_sha256": "6557fe837f50018dbb79e5ffc1ba9dfe263a5be7a7e088008c4d18fc482616ff",
+    "input_sha256": "483b3ef9ab4d10139e56419577abee65af84e512ebf1db994309287dadc8f4be",
+    "elapsed_seconds": 0.501,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a1"
+        ]
+      ]
+    },
+    "response_sha256": "0ec90ab200b8561650f2f7c4ef0fb5c61577bb7a90e07ac1cfcf2aafabbf9205"
+  },
+  {
+    "id": "yongin-income-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:22:56.407862+00:00",
+    "request_sha256": "ff10711b6f922034250e6d78ff094ddd44e4781c5fc236b9edebf5bd915a3db9",
+    "input_sha256": "7412e63e2c6ed923f2281dc86d2c2a5c136bcd5f7760c28de3df14742fd9d581",
+    "elapsed_seconds": 1.062,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1",
+          "a2",
+          "a3",
+          "a4"
+        ]
+      ]
+    },
+    "response_sha256": "3de2f77d6c7f784ff43814cd2040cf0fa86d6e151c84af47f8bae25d07d05d8a"
+  },
+  {
+    "id": "mixed-money",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:04.624985+00:00",
+    "request_sha256": "669ce317feecd6c05a02cf7e19e69d7ff927967be181f1122116088a22a786f4",
+    "input_sha256": "145e545d80acaad1839f47b43cbea13615775e2adca0652584dda643414865b6",
+    "elapsed_seconds": 4.253,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "34ef74dece9ee5ac7d8be2fe72a82c36770acd9ae7a78aa7492daf44881aec58"
+  },
+  {
+    "id": "decimal-money",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:04.925997+00:00",
+    "request_sha256": "52ffd0922f0f6945d76fe8f777a9218e672206dcb879fc634e5b01a954582a46",
+    "input_sha256": "16fe58cff16f303d24f76de1effd9f2bd9d93722511d41cc022135d2b4c64699",
+    "elapsed_seconds": 0.3,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "96915d7669f076ac42be6c5f863ab9758f3582b7db19565a2dab5ba23585b861"
+  },
+  {
+    "id": "money-polarity",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:23:00.670728+00:00",
+    "request_sha256": "822960020867d9b49ef65d91bbb09ecb42a939669de925101b4da77b7e1e7d6e",
+    "input_sha256": "c2125bf4b7bb33707644360d79d9f0e676227870160e36cc217676bcdbb335f0",
+    "elapsed_seconds": 4.258,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "dc562f2ca6a05a74e933f06c65d528680a8fdc0905cbfbd55fd702de817215d4"
+  },
+  {
+    "id": "subject",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:05.597412+00:00",
+    "request_sha256": "069d230ddbf272f7163161d94e217396ee9ac5a81cb1920a85dd6d9aadc03d0f",
+    "input_sha256": "2d44a1ab769931dc0d66da18826aeff5ad7cc0a47aa77f132e8bfe92a8297d46",
+    "elapsed_seconds": 0.297,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "009231b12ef79c3235e7ef33a25dac140017c5892b620c525ed937e3112e58e9"
+  },
+  {
+    "id": "age-boundary",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:05.897644+00:00",
+    "request_sha256": "7c1a5ed64bacb0010a459dcfa7205f8eb0d4485aec438921c28485ad9f5424ba",
+    "input_sha256": "ccd666225c29da0155dd8e11d2d9ca19b9620fbbc05d79ce3ba5790aeb419399",
+    "elapsed_seconds": 0.3,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "633b4ebb9f7cbd28dff407f5ec9caf11ea62fda30ce050587382121b8b2cd2e5"
+  },
+  {
+    "id": "and-both",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:06.270385+00:00",
+    "request_sha256": "765ce8cf1e7ae08d262922e00067fb4539a7614efab4f777fdec1a74b5c482e7",
+    "input_sha256": "6ddbe62a4fa1ae85c164b1ae3f09d139638eddb9688fdbfc4b076f79a29652dc",
+    "elapsed_seconds": 0.372,
+    "parsed": {
+      "clauses": [
+        [
+          "a0",
+          "a1"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "68ccebe77b8cf06c46998e6235324d713e21449e57e7221f382e1815562e2807"
+  },
+  {
+    "id": "or-either",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:06.642411+00:00",
+    "request_sha256": "5a642d95e5fc71357331c7e88842ac53623d0b9eaac05fb1c987b34b213f8ea1",
+    "input_sha256": "0b38b454f0cedc0e3336d49078d5d5ec7ed0c4bf6680034313c791d5c208820e",
+    "elapsed_seconds": 0.372,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "2f0b5e15b5ed8957851b10b3bf8e95e544ea515c6da6890bc021f4f3ad8a75d2"
+  },
+  {
+    "id": "age-strict",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:21:06.932617+00:00",
+    "request_sha256": "79399701c5e37f0e51d6146ebc1d7f0257ae0e661815d86b1501a309c563d731",
+    "input_sha256": "c55710c96b780cc9bb493ac32bdf277a0a7f3be1cd661db8d3dd2c2ec95b6f89",
+    "elapsed_seconds": 0.29,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "dd688194d78aee53f06f5faf3bd2b38811a9eec9a4318d8bec8feb018d296bdb"
+  },
+  {
+    "id": "yangsan-housing",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:23:01.245461+00:00",
+    "request_sha256": "a0a1127398e31403668e25af3b160f2e230bd36b32053bd3bcea384247d242cf",
+    "input_sha256": "689d589ef625e87b1cb74d1553366f858f5b254cfbf62b3deea3cecac338a99b",
+    "elapsed_seconds": 0.574,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ],
+        [
+          "a2"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "4f44a913f4795efba6fc347c0bca444355900fee299f12195c4336c9555ca3ab"
+  },
+  {
+    "id": "yangsan-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:23:01.806000+00:00",
+    "request_sha256": "a4df0ee514bd174c523364158c77cfe152fe9dfd12f738edd85f23ea3e9a91c9",
+    "input_sha256": "1b4f6966d2f6579e314ef76de94d9b44a72d4659d3d03cbf600d2acb759786ff",
+    "elapsed_seconds": 0.56,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "dcd87f0b769967942af81c09e0d7795ee86f1bb0a8cfb4dcb6aafd72e35ecf11"
+  },
+  {
+    "id": "yongin-conversion",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:23:02.352437+00:00",
+    "request_sha256": "f7b7531f688de06695487f3f72473605bcb4ec28fece87e5309345e127deebe2",
+    "input_sha256": "72f68af790c3ec7c509107f38f645e4b2d746550f410275b7f828a0d691ede09",
+    "elapsed_seconds": 0.546,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "faea463d98dfe2daa5e2828a6dbc232439b828cb79308d8e2c271dea4819e69b"
+  },
+  {
+    "id": "yongin-income-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:23:03.200627+00:00",
+    "request_sha256": "1b6f379a6d3cbb0d179288135490bb77e18df18c2134a7cf88891389f7e24598",
+    "input_sha256": "6feb42a744781b44cf445a25ce8b7d29505ac64f0e55412704cb108031991e0a",
+    "elapsed_seconds": 0.848,
+    "parsed": {
+      "clauses": [
+        [
+          "a0"
+        ],
+        [
+          "a1",
+          "a2",
+          "a3",
+          "a4"
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "930faca42b0cb4823cb6abce1b16da568be7dfaa7625b3412ce57fd89918512e"
+  }
+]

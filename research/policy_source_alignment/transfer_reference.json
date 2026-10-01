@@ -1,0 +1,480 @@
+{
+  "bundles": [
+    {
+      "id": "changwon-housing",
+      "source": "changwon",
+      "scope": "임차보증금 및 월세 금액 상한만 판단한다. 다른 사업 요건은 이 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 403,
+          "end": 428,
+          "sha256": "2e7c4e589296c83517b4b81d6b7333800cbe4d87fb210994da04abf7f82914c0"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 100000000,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "le",
+              "value": 600000,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    },
+    {
+      "id": "changwon-age",
+      "source": "changwon",
+      "scope": "청년 연령 범위만 판단한다. 주소·세대주·혼인 여부 등 다른 요건은 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 368,
+          "end": 381,
+          "sha256": "df514dee086a0a00d7e8e26329f1b23333e823e96ac67dae7c8035984e6f79e9"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 19,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "age_years",
+              "op": "le",
+              "value": 39,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    },
+    {
+      "id": "suwon-age",
+      "source": "suwon",
+      "scope": "청년 연령 범위만 판단한다. 주소·세대주·혼인 여부 등 다른 요건은 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 2783,
+          "end": 2792,
+          "sha256": "ded68e6e4cbbe67ad8fa32c8bf13b1194269220e7fc7b68e2c130c1fa9b6874c"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 19,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "age_years",
+              "op": "le",
+              "value": 39,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    },
+    {
+      "id": "suwon-income",
+      "source": "suwon",
+      "scope": "기준 중위소득 비율 상한만 판단한다. 다른 사업 요건은 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 2810,
+          "end": 2825,
+          "sha256": "a0da93947556761a4e4c237c1e8c1d39dd787617531b69f7c9f81600ec93c988"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 120,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "changwon-housing-1",
+      "bundle": "changwon-housing",
+      "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-housing-2",
+      "bundle": "changwon-housing",
+      "claim": "내 보증금은 100,000,001원이다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000001
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-housing-3",
+      "bundle": "changwon-housing",
+      "claim": "내 보증금은 100,000,000원이다. 내 월세는 600,001원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600001
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-housing-4",
+      "bundle": "changwon-housing",
+      "claim": "내 보증금은 밝히지 않았다. 내 월세는 600,000원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "not_established",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-housing-5",
+      "bundle": "changwon-housing",
+      "claim": "내 보증금은 100,000,000원이다. 내 월세는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000000
+          }
+        ]
+      },
+      "label": "not_established",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-age-1",
+      "bundle": "changwon-age",
+      "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 18
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-age-2",
+      "bundle": "changwon-age",
+      "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 19
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-age-3",
+      "bundle": "changwon-age",
+      "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-age-4",
+      "bundle": "changwon-age",
+      "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 40
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "changwon-age-5",
+      "bundle": "changwon-age",
+      "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-age-1",
+      "bundle": "suwon-age",
+      "claim": "내 만 나이는 18세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 18
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-age-2",
+      "bundle": "suwon-age",
+      "claim": "내 만 나이는 19세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 19
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-age-3",
+      "bundle": "suwon-age",
+      "claim": "내 만 나이는 39세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-age-4",
+      "bundle": "suwon-age",
+      "claim": "내 만 나이는 40세다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 40
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-age-5",
+      "bundle": "suwon-age",
+      "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-income-1",
+      "bundle": "suwon-income",
+      "claim": "내 가구 기준중위소득 비율은 119%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 119
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-income-2",
+      "bundle": "suwon-income",
+      "claim": "내 가구 기준중위소득 비율은 120%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 120
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-income-3",
+      "bundle": "suwon-income",
+      "claim": "내 가구 기준중위소득 비율은 121%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-income-4",
+      "bundle": "suwon-income",
+      "claim": "내 가구 기준중위소득 비율은 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established",
+      "dataset": "transfer"
+    },
+    {
+      "id": "suwon-income-5",
+      "bundle": "suwon-income",
+      "claim": "내 가구 기준중위소득 비율은 120.5%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 120.5
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "transfer"
+    }
+  ],
+  "annotation": "AI-authored provisional references; zero independent human annotators; manually selected numeric/age scope, not full programme eligibility"
+}

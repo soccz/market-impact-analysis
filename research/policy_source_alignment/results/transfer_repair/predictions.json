@@ -1,0 +1,2337 @@
+[
+  {
+    "id": "changwon-housing",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:39.731624+00:00",
+    "request_sha256": "f4a529cb74a36eab561d6d38e404c4c8d93a60d28772f404828362b5615768eb",
+    "input_sha256": "1cfd4d973eb1766f2a3b004f2a0a4c33cb004893c56ab7c7d0be8e13042cf882",
+    "elapsed_seconds": 5.667,
+    "parsed": {
+      "status": "ready",
+      "operator": "ALL",
+      "conditions": [
+        "a0",
+        "a1"
+      ]
+    },
+    "response_sha256": "8fabd06c1dfcce7a97b0962b7bce9bbf82e48f349dc6dd963951f3eb55b18f7d"
+  },
+  {
+    "id": "changwon-age",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:40.234640+00:00",
+    "request_sha256": "f1787972cc3c0536d7ff6c3eb218c0456346ef96602e8f5ae36e3f833b6691ec",
+    "input_sha256": "300b3578500148e943536d4a805c89f84967cd2e1a135de4d5b5fb881168bcf6",
+    "elapsed_seconds": 0.502,
+    "parsed": {
+      "status": "ready",
+      "operator": "ALL",
+      "conditions": [
+        "a0",
+        "a1"
+      ]
+    },
+    "response_sha256": "88a9d551c05552d1f96a7586e433e43ae3cc28cfd280bb9cc91422408adca1a2"
+  },
+  {
+    "id": "suwon-age",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:40.745073+00:00",
+    "request_sha256": "8df8032c2eb3912e28fd226073ae776116a2a7b20c06c11fd5256a70f76babb9",
+    "input_sha256": "ce519edba5c8bdd001d79a7c95a3258186cfd9c0d3337cc4a89352ef414616b8",
+    "elapsed_seconds": 0.509,
+    "parsed": {
+      "status": "ready",
+      "operator": "ALL",
+      "conditions": [
+        "a0",
+        "a1"
+      ]
+    },
+    "response_sha256": "863a9097f3dd44480d9e85acdd0fb5a9c5a11f0f2602c5bcb277247036094f4a"
+  },
+  {
+    "id": "suwon-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:41.185085+00:00",
+    "request_sha256": "7848f5629d1b1bce033f923c88bcc7a6106f089963def80c1d93c3e45ddd82e3",
+    "input_sha256": "e85a8fd103d18b510e8ac07564c09dac785c2013e7b12bfa22e909c6fa0cb64f",
+    "elapsed_seconds": 0.439,
+    "parsed": {
+      "status": "ready",
+      "operator": "ALL",
+      "conditions": [
+        "a0"
+      ]
+    },
+    "response_sha256": "a13bf4f2834f24f2a8f7420b3d6b0aafb2513407128506de99fb66ccde277ed9"
+  },
+  {
+    "id": "changwon-housing-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:43.026843+00:00",
+    "request_sha256": "d3ae45b893e5aabc1340fe1fc40d3c64404fb036ce4e305468a48f8ac9339266",
+    "input_sha256": "34ec12fad8a5ed485efcf888affbf9d9a3a8e363837fa5f806c2e4df581c388d",
+    "elapsed_seconds": 1.311,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "e80d84a72704bd8d2a4db3f6d7109752a083323af99bdfee904952b93427d781"
+  },
+  {
+    "id": "changwon-housing-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:43.768156+00:00",
+    "request_sha256": "a47a94b2882120980420fa790dd0fa8cc8fb2e19cbc70cb448fea01e40292d80",
+    "input_sha256": "41c6c6430b79dbc6e60811e443ac031f17fc302371e7d8889fdf5c9fe3d28163",
+    "elapsed_seconds": 0.741,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "78241b9af4a3ccde80ff2fb846186e331ec0cbb2ac90b46d6167c7006b9ad750"
+  },
+  {
+    "id": "changwon-housing-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:44.772781+00:00",
+    "request_sha256": "5a3a11eaa59e96ff3a0d50b5135631a551f9817ad23c5de06edacb1a2dc763cb",
+    "input_sha256": "967b5a2607502869dc401c41e0a5b148c3f2cba315c5de173bc3077265e4539b",
+    "elapsed_seconds": 1.004,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "389c7fd21724945d9d4c900d6f5c5af03d9e11922ca6be56b1e32e226af5eda4"
+  },
+  {
+    "id": "changwon-housing-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:45.538629+00:00",
+    "request_sha256": "8dd479c05bf27e4172d79eeb632ddcc73b048a08b1cff4e9605c8b850b3b94fb",
+    "input_sha256": "e4fa4c692f891ac2e231c8b3cc5451d01dc8d5840bfb50749fe8183a6be51d47",
+    "elapsed_seconds": 0.765,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "091361f3ca7b441250d93dcf1a4ec38da0ba85c85cf8b6fc96b667c67a18a732"
+  },
+  {
+    "id": "changwon-housing-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:47.132407+00:00",
+    "request_sha256": "c064730fd3901e5441a3f2f68b6d393aed80823778b9c8c10bab8b1d97bd6676",
+    "input_sha256": "3f382b84005f78c5da47898c1f3a132b8ffab47a240c6082688b7f7753c85093",
+    "elapsed_seconds": 1.593,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "response_sha256": "0426ea93894163b0cf60fdad73539f0e921f931363c652710df24c5dd85e7ed3"
+  },
+  {
+    "id": "changwon-housing-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:47.912245+00:00",
+    "request_sha256": "72bb92e408645a581d8a61d2b659e718b89ecbcb4e6c54e98acfcd13aa79dbfc",
+    "input_sha256": "db95895ff25ee2ba210e54596c2a455ef12284d01bbb5bdccb17008c20f8c32c",
+    "elapsed_seconds": 0.779,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "ed83a2669f4a81034d939547bbc1a10e49db739e93de4c7d0b26d665b8006f7c"
+  },
+  {
+    "id": "changwon-housing-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:49.064015+00:00",
+    "request_sha256": "ca9f41b2b92e3db9e6f1579d17818a297ea00c82d72e6d94bad79f5f831c02be",
+    "input_sha256": "a3164f6c8a380fa45881c305de7228f8505d60b956e3c8547e00c105845ff224",
+    "elapsed_seconds": 1.151,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "42c4f369e456351b42f0283602eea13e70669764e20c22d8ffa8c1ee625cbcec"
+  },
+  {
+    "id": "changwon-housing-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:49.835072+00:00",
+    "request_sha256": "8e9a77a5fd679eb2863f1b7c11753bbe0b5935c05d07cd73bf004455eb2fa290",
+    "input_sha256": "a07236739e2b18e1aa5dba76a9437badf7749bfa99654f6cdac3bda094ba3a0c",
+    "elapsed_seconds": 0.77,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "14d855e1cc8590dc39ce1f21edabef6d458b32ec7397bbbe67720f5667d09aa8"
+  },
+  {
+    "id": "changwon-housing-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:51.014492+00:00",
+    "request_sha256": "2cc34ca3764de83b2f87ba402d3d2ad93dce0202924ef088f86c336556ca589d",
+    "input_sha256": "8642dbc40e97371d798a4a2ccfbecade1aed04e1702b06ece84a239fac356d7b",
+    "elapsed_seconds": 1.179,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "response_sha256": "ee0b018cc8e514f23c95eacfbb3d6c861c58ea42b3895219890b8d927f616c51"
+  },
+  {
+    "id": "changwon-housing-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:51.831307+00:00",
+    "request_sha256": "771671886a14507d94c8421a5aa10235802443fbf795b7dcbf2e1286038b663e",
+    "input_sha256": "827417e32845cba99d9130af57b48a18e5c28f5f21b7111e7a8461a6766c8dd2",
+    "elapsed_seconds": 0.816,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "c7cc63f094feeb24492487542994636ff33af051cb986644dfc66c6801d9939d"
+  },
+  {
+    "id": "changwon-age-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:52.763696+00:00",
+    "request_sha256": "f8583a8d59aa58fc25b497a8fec651ad12dcff6d65c802a6ea6721f1ca4379f4",
+    "input_sha256": "db5f646ff5e6d25c4acfb5c9c3b7a4383114ff51fc4d0a94cf24e5dad5f835b1",
+    "elapsed_seconds": 0.932,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "response_sha256": "c45257a6b0452496a05d8cda315f614c277a5e3edf18ad9a42c1dfe49ebc1fb5"
+  },
+  {
+    "id": "changwon-age-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:53.411128+00:00",
+    "request_sha256": "0dd4895b8ee009f35e9b76f006fb0be859693a704c5383113dcd268e7dec19c2",
+    "input_sha256": "7f871ded79422efc3fb178e6f6cd03b96ec54507e4ddda9b40591ae3ee2ccdb7",
+    "elapsed_seconds": 0.647,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "5dfaecac19affc3865ab9102b95c6e51560438a572626202b2d9ba8141e508ef"
+  },
+  {
+    "id": "changwon-age-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:54.080136+00:00",
+    "request_sha256": "1901b995d2ff7a597a0dd09765e3d4a699af2849ed6a6ae2b828de31508bcd8d",
+    "input_sha256": "7d1f428809dd36571edd82e199fe3415a311655667b73bf8ea2ef3ccbaa726b1",
+    "elapsed_seconds": 0.668,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "response_sha256": "668725a2033e44eaf7efb09e7aa444c943546cf3e9ff0629d1fd176f06a1a44a"
+  },
+  {
+    "id": "changwon-age-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:54.716993+00:00",
+    "request_sha256": "cff8f754412844cec92505919c549c5ec27c959a26ae4cdaabbbdc5e77802e52",
+    "input_sha256": "ec45a2d67f7e8025b9ad9c1d53773c9075c00b5fc843afa8a8db877a9f682a2f",
+    "elapsed_seconds": 0.636,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b1ffa548781c214a14edd1a41b23d6aa09b42bc3b8dc77de589dba5ba6af9b57"
+  },
+  {
+    "id": "changwon-age-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:55.384615+00:00",
+    "request_sha256": "387a62842cd6b30c288b8b5a1480f39c0d1dea9cb247dcd6f07caa4a581a1d09",
+    "input_sha256": "c5bc9b3c44872d3683996042b5dd00e68be18a11c07ef2e2910def06f226a53d",
+    "elapsed_seconds": 0.667,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "response_sha256": "ea77284f1eaae3dabe5c09e6ea9315e7c5d9700d2441615e06cb28ad30caf32b"
+  },
+  {
+    "id": "changwon-age-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:56.039643+00:00",
+    "request_sha256": "b6837597db66e17acf03a996f6ea70c29b94552de5006b917f53db29d1f5510c",
+    "input_sha256": "2c48d16eb53f303c25f19e9fb4662e493fd9ac4121fcb89c196a6c7cc9383fad",
+    "elapsed_seconds": 0.654,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6eb78fcb8fc62108e86bebd62ba1d90325b6a6181abffdb5e8729451a415cae0"
+  },
+  {
+    "id": "changwon-age-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:56.711725+00:00",
+    "request_sha256": "de871eb37746178296df4cd37bb1e66da59381cc656a40a4b8cd0d40f8b49568",
+    "input_sha256": "ecfcc883206bfc458551e2d237d806b13514c14f3bed68291331a5f5ed78dd9f",
+    "elapsed_seconds": 0.671,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "response_sha256": "0d1d5e4b278f77f5e3c3b25751516269132d72c0243334c685ea2b8ab5f86f71"
+  },
+  {
+    "id": "changwon-age-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:57.377361+00:00",
+    "request_sha256": "464b244e9089e3f441d23fae83dd8e49c3f2eb6c5a01b32b0df680c23abad3bf",
+    "input_sha256": "bfa982d717086e3c0d788364e0f72d58573f9b5996552d0ac26f396f6b4f2a70",
+    "elapsed_seconds": 0.665,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6b1eb7f3b901c60f43bca2ac8baa0da8899a3839117c822aa6f4dc86a8a92a64"
+  },
+  {
+    "id": "changwon-age-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:58.034722+00:00",
+    "request_sha256": "b5cfeef437f65cbaba1ca49afab88a4457e40e360d53c38af268d35d954b570e",
+    "input_sha256": "a359cbc0ae80efec0c4386c99cc90ffd465fa9c179f2ccf80c55b61c18c3b133",
+    "elapsed_seconds": 0.657,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "b9a0f256e2db27d7a1842ea0fc234accd9b3facc79fbd154c9ca36213e37cb7c"
+  },
+  {
+    "id": "changwon-age-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:58.770722+00:00",
+    "request_sha256": "fe33961daf86da2c4c4f944e2bcf0e32a97f2f428e021238e26730c5a1cacf4a",
+    "input_sha256": "07e4801faa874273f05c44694617ce7595279446b31c107ca5bacf2029b7249e",
+    "elapsed_seconds": 0.736,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "d44e272bff10a9965f7996124b700c3aeb733cb466447894aeef2abcde57054f"
+  },
+  {
+    "id": "suwon-age-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:32:59.438613+00:00",
+    "request_sha256": "f8583a8d59aa58fc25b497a8fec651ad12dcff6d65c802a6ea6721f1ca4379f4",
+    "input_sha256": "db5f646ff5e6d25c4acfb5c9c3b7a4383114ff51fc4d0a94cf24e5dad5f835b1",
+    "elapsed_seconds": 0.667,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "response_sha256": "95a0892465401f4670565146b77ffd21ca06def4e355ba55c1745e0460230e4a"
+  },
+  {
+    "id": "suwon-age-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:00.191874+00:00",
+    "request_sha256": "31c7466c0993b407d661a0a4a2cab6c7b596fcfb869189d3714e698c358454e3",
+    "input_sha256": "14bf05ef61bc319ed0c6a6c9765e302ea9834759206f33b6bddace4b63ea3391",
+    "elapsed_seconds": 0.753,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "abbe87c8ed39595ed25f30fded5befd4606326005f7f7dae0beef89d53d852c3"
+  },
+  {
+    "id": "suwon-age-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:00.860471+00:00",
+    "request_sha256": "1901b995d2ff7a597a0dd09765e3d4a699af2849ed6a6ae2b828de31508bcd8d",
+    "input_sha256": "7d1f428809dd36571edd82e199fe3415a311655667b73bf8ea2ef3ccbaa726b1",
+    "elapsed_seconds": 0.668,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "response_sha256": "8772d71d092687f2d2e91545a3db538ea3e2835e501908e283bf768e3faf1e2a"
+  },
+  {
+    "id": "suwon-age-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:01.628072+00:00",
+    "request_sha256": "9752a8f40628e3a445bdd44fd87248f6b13de974c9498dad7c5e5ce67a97fe11",
+    "input_sha256": "a34dc9d4a7e3ab73bdf90c8e4a1a85311710e73065ceaefd3b4737ebcec0ec94",
+    "elapsed_seconds": 0.767,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "d5d466ce55f1da28802465357bbb591b33e308bf46279f433fca11bb79c8d116"
+  },
+  {
+    "id": "suwon-age-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:02.297055+00:00",
+    "request_sha256": "387a62842cd6b30c288b8b5a1480f39c0d1dea9cb247dcd6f07caa4a581a1d09",
+    "input_sha256": "c5bc9b3c44872d3683996042b5dd00e68be18a11c07ef2e2910def06f226a53d",
+    "elapsed_seconds": 0.669,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "response_sha256": "6e70433cf24053137904ebfa0ea91f65b861e7b8980dee0638736d381f06af50"
+  },
+  {
+    "id": "suwon-age-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:02.933323+00:00",
+    "request_sha256": "6d3368b685e22e793da7bbe47abe18a2f3aff4bb7daadf831947529f449761db",
+    "input_sha256": "590249a03602d7a81a782eb643dfb169d09806ec61452244526b46d646c35b6e",
+    "elapsed_seconds": 0.636,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b5840203264ccdc07fadce0cc7f754bbf2b32461b92d720e23bf1d161e2d2b61"
+  },
+  {
+    "id": "suwon-age-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:03.601891+00:00",
+    "request_sha256": "de871eb37746178296df4cd37bb1e66da59381cc656a40a4b8cd0d40f8b49568",
+    "input_sha256": "ecfcc883206bfc458551e2d237d806b13514c14f3bed68291331a5f5ed78dd9f",
+    "elapsed_seconds": 0.668,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "response_sha256": "fdc36efffe7855470481f305bcd5e9e99cc133e93c885a4569acd04325be2021"
+  },
+  {
+    "id": "suwon-age-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:04.352618+00:00",
+    "request_sha256": "f643ffc0cd3522ff668808c3499f8d4b0409397cdcf32f6f74c29e709a9d7fb6",
+    "input_sha256": "997116c75cc1625571a8fb7d0b0fe17c76c12cf3d2921dbbd65fca717254729e",
+    "elapsed_seconds": 0.75,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "f9ba86e270692f50192f0df58ee8e9f9d4f6e2f72a050b0d9a383d572e237f83"
+  },
+  {
+    "id": "suwon-age-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:05.006307+00:00",
+    "request_sha256": "b5cfeef437f65cbaba1ca49afab88a4457e40e360d53c38af268d35d954b570e",
+    "input_sha256": "a359cbc0ae80efec0c4386c99cc90ffd465fa9c179f2ccf80c55b61c18c3b133",
+    "elapsed_seconds": 0.653,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "d889507d97acf76ac04456e24799bd8f8703ac13372ebf6a12da1962de48541a"
+  },
+  {
+    "id": "suwon-age-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:05.771813+00:00",
+    "request_sha256": "40114619af130120306516323e0af4be161bafc1ac06c45992d213ace3556e9f",
+    "input_sha256": "2202da378e243cd9452bdd10a09c053d50fe98910afb7140ba2a5f18e9a67fca",
+    "elapsed_seconds": 0.765,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b7c3341d5e6fec5a8facbc397c008ecbc674701b455c93862647ee8858eefcca"
+  },
+  {
+    "id": "suwon-income-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:07.117996+00:00",
+    "request_sha256": "6c4dd1331d5348c42c5960d453fd706b3fef17479325219c3e98ba99fc603652",
+    "input_sha256": "893ddaec35baa1a88dac5ac33469e1c13436bb623d624d088a52081b0198fe1b",
+    "elapsed_seconds": 1.346,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "response_sha256": "16841c0c87833ef677087ad4fab9469159eb7ed63372903d17d87cc692a550c5"
+  },
+  {
+    "id": "suwon-income-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:07.867336+00:00",
+    "request_sha256": "4ea1fe7ef1bf70ece23abc1b4c29bd2f32902dafd4a4bce7d3c715f0a4b792f6",
+    "input_sha256": "c014f27abe2a6b70fd6ae07dae551f53af10de0d0d51892c31b612dc6f0d5e10",
+    "elapsed_seconds": 0.749,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "4e6c03ac5a898c1f6cd5211881313a3e50f69bb6417cf452ac5bddfcf44d923a"
+  },
+  {
+    "id": "suwon-income-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:08.946254+00:00",
+    "request_sha256": "18d1a50cb964047d2ad9e0e848eb37493a61dbad6b039b90cebf430a49d8e83f",
+    "input_sha256": "780bf6585771deba9d41a79bd80520f2916198bee8992ef58769e7793937f108",
+    "elapsed_seconds": 1.079,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "02c1abb4da405c90c59adf6bf4606a12f86ec2ff5791719ba1c99d8b56c28f5f"
+  },
+  {
+    "id": "suwon-income-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:09.713705+00:00",
+    "request_sha256": "9291f34908a004c6d80456f0f8bfc93be716e04c2eae9c01e413f94cd2878774",
+    "input_sha256": "95d123c966b1d191a6b78006fdb5768fdadba98df4a00ed57665cac229d1ee1a",
+    "elapsed_seconds": 0.767,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "0345287ab97fa4a75ebeab1976fff39db426f605be75a28082f4fe85ba1d8358"
+  },
+  {
+    "id": "suwon-income-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:10.797293+00:00",
+    "request_sha256": "9c3ad4ad4d43728dfa7b0a5327dacb64fb30ba5db423804b7a9ab157952c5833",
+    "input_sha256": "a7df8e9ccbf9342850a96d2020026b3f88b0f63fe89f2ee30681f10ec467bb2a",
+    "elapsed_seconds": 1.083,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "response_sha256": "d91ba9e139cf368cd65de111600cfc5eb0d38984b3fc81633c202c6fd8da5976"
+  },
+  {
+    "id": "suwon-income-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:11.546821+00:00",
+    "request_sha256": "2b4398eff6aa065d1d8090f0f09976c139aacff24ba63527fef9b6e79eebfc35",
+    "input_sha256": "4528c406dd4f8701c0188f7f16b90e0523aa105b2550b0af949c35d1e939832a",
+    "elapsed_seconds": 0.749,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "42ac8d33a07a617e87a1639edd70eff887dafd1eedcdfbd03ddb50ce570a5b23"
+  },
+  {
+    "id": "suwon-income-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:12.584024+00:00",
+    "request_sha256": "ed9bb3f55cd445374a8070c1c5d2bcb170a65e2683ed711f4bfbe253de861393",
+    "input_sha256": "0ce4a39435266ffd0039bbb0ec33c63eaaad18b3a5daae8a853ba5a8734c5b5f",
+    "elapsed_seconds": 1.037,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "d67765547dd3acc4c3ecc68a3b3359d993e77f0bc4afd1a610ac5f7b50642b4a"
+  },
+  {
+    "id": "suwon-income-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:13.348713+00:00",
+    "request_sha256": "b2829c3f63e17c24782d266f64ce3888145043712e2e57f759bdfaa3a70d1580",
+    "input_sha256": "58fcd4b311f8850ffcd09c1a453969b550af983fbf48a1f5fc1e5788f4cd4440",
+    "elapsed_seconds": 0.764,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "a4a8266116a24af78c6c583ffa1c0eda290487fee1a06146d8c58f83c932f9cd"
+  },
+  {
+    "id": "suwon-income-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:14.466596+00:00",
+    "request_sha256": "6fda2524f8f30357ae40f51e82cb35c55b9760faca852e943aee02751d67a32c",
+    "input_sha256": "b26567d56fd9be9740db804d48c70f7ebc11bd2f706bcb4b7aef52b4b9716030",
+    "elapsed_seconds": 1.117,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "response_sha256": "2c8ede13e30b6b7979089e6fefcbe8d96005941dbbd423683ea5d869be1c54c7"
+  },
+  {
+    "id": "suwon-income-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:15.225074+00:00",
+    "request_sha256": "14e168b8f72b27478a44edf1fa403fd05bfd0d47bad2243ea025c314e909d87e",
+    "input_sha256": "25cbbc7ad0e67748c4783740585bbc9753b85a26e52541c9210c5ea9fc1e763f",
+    "elapsed_seconds": 0.758,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "134ad7dfd3e76de8c58abb0c78a7982b146b895846032536a3ea1d16025f396c"
+  },
+  {
+    "id": "changwon-housing",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:45.273232+00:00",
+    "request_sha256": "aa133efc978c734871b3589b25cfddfa5ea8bbdcaff257f1e031594a526c71ec",
+    "input_sha256": "1cfd4d973eb1766f2a3b004f2a0a4c33cb004893c56ab7c7d0be8e13042cf882",
+    "elapsed_seconds": 4.085,
+    "parsed": {
+      "conditions": [
+        "a0",
+        "a1"
+      ],
+      "operator": "ALL",
+      "status": "ready"
+    },
+    "response_sha256": "c4e537567fccb0bfdfbe4a4ec8d4b0e1108d842b2a8f889657bbfab15a00ff83"
+  },
+  {
+    "id": "changwon-age",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:45.655892+00:00",
+    "request_sha256": "e0657010a1b37be350d817c22ca8640e9295a05c8ecb697e5fdadf474e461ba3",
+    "input_sha256": "300b3578500148e943536d4a805c89f84967cd2e1a135de4d5b5fb881168bcf6",
+    "elapsed_seconds": 0.382,
+    "parsed": {
+      "conditions": [
+        "a0",
+        "a1"
+      ],
+      "operator": "ALL",
+      "status": "ready"
+    },
+    "response_sha256": "5e2fa1ac4cef28e8dfa8f20a4829953e88342901d28f655e1af40459514bcdf8"
+  },
+  {
+    "id": "suwon-age",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:46.024683+00:00",
+    "request_sha256": "8679efe65561e3c412aba61720883ec97e300293243cf343559dbb54149c89f5",
+    "input_sha256": "ce519edba5c8bdd001d79a7c95a3258186cfd9c0d3337cc4a89352ef414616b8",
+    "elapsed_seconds": 0.368,
+    "parsed": {
+      "conditions": [
+        "a0",
+        "a1"
+      ],
+      "operator": "ALL",
+      "status": "ready"
+    },
+    "response_sha256": "a2733cfd88e55aa53013a52b862b5876a76f073103e2c10f164c8d9f66af41a0"
+  },
+  {
+    "id": "suwon-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:37:46.391746+00:00",
+    "request_sha256": "4faeba7fa6a493264234f981627535d7c3e0d0048f6dd0fa6247291f468ce30e",
+    "input_sha256": "e85a8fd103d18b510e8ac07564c09dac785c2013e7b12bfa22e909c6fa0cb64f",
+    "elapsed_seconds": 0.367,
+    "parsed": {
+      "conditions": [
+        "a0"
+      ],
+      "operator": "ALL",
+      "status": "ready"
+    },
+    "response_sha256": "7b7527b004432fd2bac9e8ac4b3b0a0cdb366aeea3cff8b70cb1092c61204307"
+  },
+  {
+    "id": "changwon-housing-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:21.835611+00:00",
+    "request_sha256": "5f6704a2babf1a7fc32561b07b5407f45343c0f98922ef0a624bd7d07be32eed",
+    "input_sha256": "34ec12fad8a5ed485efcf888affbf9d9a3a8e363837fa5f806c2e4df581c388d",
+    "elapsed_seconds": 1.155,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "63d4f9a75fb39590fbf8f436623f10e2ecc968997a5ffa0e3ce63e2725561244"
+  },
+  {
+    "id": "changwon-housing-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:22.262830+00:00",
+    "request_sha256": "d6027f9f39553d34e775555ae09f8882c6345d70d2e815db6aa953814b7b8872",
+    "input_sha256": "41c6c6430b79dbc6e60811e443ac031f17fc302371e7d8889fdf5c9fe3d28163",
+    "elapsed_seconds": 0.427,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "9a67abb06e69f18eb0b9ebe7504e36cb4c5385372fd57af9f06a8db0a523ea7e"
+  },
+  {
+    "id": "changwon-housing-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:23.015703+00:00",
+    "request_sha256": "3e63f4fd628fd85c78c181ab02b75fd98307e79177712979f0cf059218c615e7",
+    "input_sha256": "967b5a2607502869dc401c41e0a5b148c3f2cba315c5de173bc3077265e4539b",
+    "elapsed_seconds": 0.752,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "3682896c6129a29abc12afb6d89320b19749688d9644316d216313f0d69efbe7"
+  },
+  {
+    "id": "changwon-housing-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:23.442326+00:00",
+    "request_sha256": "8ac3ec1731c0bd9f598fc5c9f73e2e8a3687bb2e0e8b2e8d1963ac5cde6e29ce",
+    "input_sha256": "e4fa4c692f891ac2e231c8b3cc5451d01dc8d5840bfb50749fe8183a6be51d47",
+    "elapsed_seconds": 0.426,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6d5492a7ea2eceb2c1a9f13df0441df34cbceb16405911511df4dbb9ea078248"
+  },
+  {
+    "id": "changwon-housing-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:24.190484+00:00",
+    "request_sha256": "9da5e39035709d2c3a8693b3ed7885b5e8ba0e3a0efceafb6a589133d3fdbded",
+    "input_sha256": "3f382b84005f78c5da47898c1f3a132b8ffab47a240c6082688b7f7753c85093",
+    "elapsed_seconds": 0.748,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600001
+        }
+      ]
+    },
+    "response_sha256": "ba2c22f45c24312e828d48ce2097dcbf427097b40c524340c8c5bb2a7cf11893"
+  },
+  {
+    "id": "changwon-housing-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:24.621341+00:00",
+    "request_sha256": "6b031e10e090bc49f6f08c8681ce0f152ffa4d7e32625c6a61b66d3ee8f9859a",
+    "input_sha256": "db95895ff25ee2ba210e54596c2a455ef12284d01bbb5bdccb17008c20f8c32c",
+    "elapsed_seconds": 0.43,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "baad4285355849924d9e6b639f844c67a75b24257d4c66b1d816d91c04622807"
+  },
+  {
+    "id": "changwon-housing-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:25.212649+00:00",
+    "request_sha256": "9c64a6fdc0ca213e7bbab9c50ce1257b6bcdb39bfe40f5c07627e387304654db",
+    "input_sha256": "a3164f6c8a380fa45881c305de7228f8505d60b956e3c8547e00c105845ff224",
+    "elapsed_seconds": 0.591,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "48917352f7c8d8ed3705faddac85ef4020848b812c3dd2f6329b3d80ee1cafdb"
+  },
+  {
+    "id": "changwon-housing-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:25.611343+00:00",
+    "request_sha256": "33ca275443dbc9f5601b1ead09eff29f816335af5534145c2842a4fa8f4a2ae3",
+    "input_sha256": "a07236739e2b18e1aa5dba76a9437badf7749bfa99654f6cdac3bda094ba3a0c",
+    "elapsed_seconds": 0.398,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "850eb46eeddefeec684f810d2acce6d841f43d83bb419e971e206b4f4927092f"
+  },
+  {
+    "id": "changwon-housing-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:26.157018+00:00",
+    "request_sha256": "7bdbe44641805e07242350b54d2f5de3dab79d3d92e620320455ab87e08b100c",
+    "input_sha256": "8642dbc40e97371d798a4a2ccfbecade1aed04e1702b06ece84a239fac356d7b",
+    "elapsed_seconds": 0.545,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        }
+      ]
+    },
+    "response_sha256": "9535a4b4749e893cba324d6463ba2030a9acaa9cd2c6d46dfb6360d1c07a8d54"
+  },
+  {
+    "id": "changwon-housing-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:26.542520+00:00",
+    "request_sha256": "590c5999951b9524a05e1aa55008585d368e2122cfa03baedfa1bd0222063d1c",
+    "input_sha256": "827417e32845cba99d9130af57b48a18e5c28f5f21b7111e7a8461a6766c8dd2",
+    "elapsed_seconds": 0.385,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "737a0c6dd0be457c8e2477357bf715f88a6ca12ec8032f76cadbd34b827d4953"
+  },
+  {
+    "id": "changwon-age-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:27.221367+00:00",
+    "request_sha256": "cc04324b60c6624d40383c7a06008523fb93295d8727eb7aaf9af2e69351a197",
+    "input_sha256": "db5f646ff5e6d25c4acfb5c9c3b7a4383114ff51fc4d0a94cf24e5dad5f835b1",
+    "elapsed_seconds": 0.678,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "response_sha256": "0480311f79c3d956009b8a6471df8cd3102fb4c5d1a97f0c160a6c280b6daf61"
+  },
+  {
+    "id": "changwon-age-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:27.668793+00:00",
+    "request_sha256": "a120cac74c0082380f905c3a6d1ecb0b18324fb8da745fb713244dc17b197a7f",
+    "input_sha256": "7f871ded79422efc3fb178e6f6cd03b96ec54507e4ddda9b40591ae3ee2ccdb7",
+    "elapsed_seconds": 0.447,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "cb55cbdd5a6385b7751abac6823d1f89b400543f0243717fc6f00aaab01f9138"
+  },
+  {
+    "id": "changwon-age-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:28.128650+00:00",
+    "request_sha256": "1c359df736b08796ceb39b2e69cb1c00474cace1b8595960ea3cb687c8445ebd",
+    "input_sha256": "7d1f428809dd36571edd82e199fe3415a311655667b73bf8ea2ef3ccbaa726b1",
+    "elapsed_seconds": 0.459,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "response_sha256": "30bb0b8e6ecf8763da83ad15e4e749dc715362aec903c1a6a6c8cafe06b71954"
+  },
+  {
+    "id": "changwon-age-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:28.527983+00:00",
+    "request_sha256": "1d96cf5d11e1cd4e4e785dfc9fc11914d10a9ed1b3e8ed24d28c5d152df9611c",
+    "input_sha256": "ec45a2d67f7e8025b9ad9c1d53773c9075c00b5fc843afa8a8db877a9f682a2f",
+    "elapsed_seconds": 0.399,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "e9a7579116b83a99bb4630ee24db2198330e5a75f660d807947cbcbf66d395e7"
+  },
+  {
+    "id": "changwon-age-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:28.943678+00:00",
+    "request_sha256": "999d8cbd98712d4275c6cf62043dcac989e5f71eaa6449fb2e5cddeb3e64d9f6",
+    "input_sha256": "c5bc9b3c44872d3683996042b5dd00e68be18a11c07ef2e2910def06f226a53d",
+    "elapsed_seconds": 0.415,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "response_sha256": "b689351688faa2b7e4bb81dc680981e8ef1380c87639f7fa9484a4951a4a03bf"
+  },
+  {
+    "id": "changwon-age-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:29.321931+00:00",
+    "request_sha256": "cc3534c44fad292114241b4f347c6f90257a074c4e6d3e0a422a3f10b9fcbcdb",
+    "input_sha256": "2c48d16eb53f303c25f19e9fb4662e493fd9ac4121fcb89c196a6c7cc9383fad",
+    "elapsed_seconds": 0.378,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "f37bcc7de0639b56afac6837b15f319f44ee496062a135c3b2bd429e4927eeae"
+  },
+  {
+    "id": "changwon-age-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:29.728416+00:00",
+    "request_sha256": "78989ce7eaf7d45dadfc90218aa98774d6097bfec4201688f0285544130a3d3b",
+    "input_sha256": "ecfcc883206bfc458551e2d237d806b13514c14f3bed68291331a5f5ed78dd9f",
+    "elapsed_seconds": 0.406,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "response_sha256": "8ee115549c5d4912201c55eae786b7d8999561f2080736a25efb8053d8f560a3"
+  },
+  {
+    "id": "changwon-age-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:30.117971+00:00",
+    "request_sha256": "8d6f7476d3181e87fff4415149f476dd0051d5d461691df1f58211e2d4878a60",
+    "input_sha256": "bfa982d717086e3c0d788364e0f72d58573f9b5996552d0ac26f396f6b4f2a70",
+    "elapsed_seconds": 0.389,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "a3a20d57f5e11d344991a2d1c5cafcb7dd47b6e7d4562841a33df85d1751af02"
+  },
+  {
+    "id": "changwon-age-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:30.422736+00:00",
+    "request_sha256": "5dee1d687d986f41a41649517cf30e98d78913d37c26f926fbe85d4a8b7624c6",
+    "input_sha256": "a359cbc0ae80efec0c4386c99cc90ffd465fa9c179f2ccf80c55b61c18c3b133",
+    "elapsed_seconds": 0.304,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "a39bf9feb0ebf71cbc3a757461d467f3e0441ee90b7c00f20d57cb75bc458f49"
+  },
+  {
+    "id": "changwon-age-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:30.814014+00:00",
+    "request_sha256": "4391b7a75b8adff155db2f9aea6fb195ddffd35bd7b7c9e32f3855cb4b4c6c0e",
+    "input_sha256": "07e4801faa874273f05c44694617ce7595279446b31c107ca5bacf2029b7249e",
+    "elapsed_seconds": 0.391,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "4fd1ef2d8069ab9bc692e0b7a2f3cfcbaef83a713f5edb40503e46e87c306f9e"
+  },
+  {
+    "id": "suwon-age-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:31.235211+00:00",
+    "request_sha256": "cc04324b60c6624d40383c7a06008523fb93295d8727eb7aaf9af2e69351a197",
+    "input_sha256": "db5f646ff5e6d25c4acfb5c9c3b7a4383114ff51fc4d0a94cf24e5dad5f835b1",
+    "elapsed_seconds": 0.421,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "response_sha256": "4d002bbd952570f28ab81b0432588560677c9a221900b3f8e1834b8c79c14001"
+  },
+  {
+    "id": "suwon-age-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:31.623878+00:00",
+    "request_sha256": "4307df7b13a975cee3ddfc4d0f445b8a2347358b8fb15c478af93ed55646b01b",
+    "input_sha256": "14bf05ef61bc319ed0c6a6c9765e302ea9834759206f33b6bddace4b63ea3391",
+    "elapsed_seconds": 0.388,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "401fc2a729ebbf7ee98c658efc7b6358454cb4efea930e33281d7a474dd7fa1b"
+  },
+  {
+    "id": "suwon-age-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:32.036087+00:00",
+    "request_sha256": "1c359df736b08796ceb39b2e69cb1c00474cace1b8595960ea3cb687c8445ebd",
+    "input_sha256": "7d1f428809dd36571edd82e199fe3415a311655667b73bf8ea2ef3ccbaa726b1",
+    "elapsed_seconds": 0.412,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 19
+        }
+      ]
+    },
+    "response_sha256": "e1358443b9f8bd9881ecab1097d0d7bda594ffe5fb079403109ddeef07d47a54"
+  },
+  {
+    "id": "suwon-age-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:32.424466+00:00",
+    "request_sha256": "0a1609588bbb6fc24de4431e6f4d26372f0f027edb648198d0d00363ad27157a",
+    "input_sha256": "a34dc9d4a7e3ab73bdf90c8e4a1a85311710e73065ceaefd3b4737ebcec0ec94",
+    "elapsed_seconds": 0.388,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "5a443e3497ee292e355268f91a43ea1d0aefee4a7d2dc7d45db0951efff4ad2a"
+  },
+  {
+    "id": "suwon-age-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:32.830052+00:00",
+    "request_sha256": "999d8cbd98712d4275c6cf62043dcac989e5f71eaa6449fb2e5cddeb3e64d9f6",
+    "input_sha256": "c5bc9b3c44872d3683996042b5dd00e68be18a11c07ef2e2910def06f226a53d",
+    "elapsed_seconds": 0.405,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "response_sha256": "078b9caaa49e25d0ec866eee63ec753a97dab4c829892525458bc300bd9d72ed"
+  },
+  {
+    "id": "suwon-age-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:33.213962+00:00",
+    "request_sha256": "135022edb4b0cb9956b839f2c7e1e2db4f092b9fdbe4fc5eab94906aee671146",
+    "input_sha256": "590249a03602d7a81a782eb643dfb169d09806ec61452244526b46d646c35b6e",
+    "elapsed_seconds": 0.383,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "23d5e2cda706c6d6d7bf8329b409cc65eeb6d056c2c50cc1a27f7b13d639643f"
+  },
+  {
+    "id": "suwon-age-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:33.623712+00:00",
+    "request_sha256": "78989ce7eaf7d45dadfc90218aa98774d6097bfec4201688f0285544130a3d3b",
+    "input_sha256": "ecfcc883206bfc458551e2d237d806b13514c14f3bed68291331a5f5ed78dd9f",
+    "elapsed_seconds": 0.409,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "response_sha256": "88f0ceb09a0ab9ffd57f10c09559e8663b6548d94264b669d6c69c8669542c6b"
+  },
+  {
+    "id": "suwon-age-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:34.026651+00:00",
+    "request_sha256": "e18aebb281de596e9ba23209359998d98d568eda834788e1ba1589c2a3cb75f6",
+    "input_sha256": "997116c75cc1625571a8fb7d0b0fe17c76c12cf3d2921dbbd65fca717254729e",
+    "elapsed_seconds": 0.402,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "5c854d12148636d96821dafa0dc544b0ba39c125078506c12a57a855b016d078"
+  },
+  {
+    "id": "suwon-age-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:34.336730+00:00",
+    "request_sha256": "5dee1d687d986f41a41649517cf30e98d78913d37c26f926fbe85d4a8b7624c6",
+    "input_sha256": "a359cbc0ae80efec0c4386c99cc90ffd465fa9c179f2ccf80c55b61c18c3b133",
+    "elapsed_seconds": 0.31,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "3063ad5eaef80bf7ba0effda28471016f48ce608bd3ca11ad992a3177ad0ddec"
+  },
+  {
+    "id": "suwon-age-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:34.741304+00:00",
+    "request_sha256": "a1f4ff4f36b4cce9cd3d913dfb6b849c51d6b730489e9f99516501e99d297c8a",
+    "input_sha256": "2202da378e243cd9452bdd10a09c053d50fe98910afb7140ba2a5f18e9a67fca",
+    "elapsed_seconds": 0.404,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "9d2498defdc3656ee6960e82967cf65fcb795d846c12042abc41a4dfc7c8bbd4"
+  },
+  {
+    "id": "suwon-income-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:35.417268+00:00",
+    "request_sha256": "45f2246a0b0b34cece533f706de45e58b8ef04e326afec5a8fafb93346b917bf",
+    "input_sha256": "893ddaec35baa1a88dac5ac33469e1c13436bb623d624d088a52081b0198fe1b",
+    "elapsed_seconds": 0.675,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 119
+        }
+      ]
+    },
+    "response_sha256": "444081d5a5185da11fe80c3e3da1b57105f0229797000ee8bfb8e2520966cb5a"
+  },
+  {
+    "id": "suwon-income-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:35.814940+00:00",
+    "request_sha256": "d5ac15fb35095613bc67ae9ace4543d26150907297c23e38754eb586a8630aa0",
+    "input_sha256": "c014f27abe2a6b70fd6ae07dae551f53af10de0d0d51892c31b612dc6f0d5e10",
+    "elapsed_seconds": 0.397,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6fbf94f4bca0a573e83ddf3f8f5e3e4b8522bf8e2fc9fd12c810c7678bf771f3"
+  },
+  {
+    "id": "suwon-income-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:36.223353+00:00",
+    "request_sha256": "67436563b1f1561b3a65763e1849f2b93d905eee0f8a59af434580a13efdae2b",
+    "input_sha256": "780bf6585771deba9d41a79bd80520f2916198bee8992ef58769e7793937f108",
+    "elapsed_seconds": 0.407,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "49ac33e1f9f4dc6304f5913791c12d4bf27dcee86f94ea7164f3d306d479b12a"
+  },
+  {
+    "id": "suwon-income-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:36.605250+00:00",
+    "request_sha256": "8930c04a6b8399a33b2e1dc9e7ab0fec8191cbacc079333d3080f43c47829b23",
+    "input_sha256": "95d123c966b1d191a6b78006fdb5768fdadba98df4a00ed57665cac229d1ee1a",
+    "elapsed_seconds": 0.381,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "f6dec4322c762262351c1cb8ef350a2519f29062c5c7323427730f3e47f7f3da"
+  },
+  {
+    "id": "suwon-income-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:37.017851+00:00",
+    "request_sha256": "3928879272614fdadb79239faaf7ffe0677f2e67d4e7299c3d9ddc9fa5e475b3",
+    "input_sha256": "a7df8e9ccbf9342850a96d2020026b3f88b0f63fe89f2ee30681f10ec467bb2a",
+    "elapsed_seconds": 0.412,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "response_sha256": "611083d55b0dcb78c98b00160e9d5a5cb6153803ec5a251346a0df0bb9deac05"
+  },
+  {
+    "id": "suwon-income-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:37.441488+00:00",
+    "request_sha256": "cd0c6133ee5a90a212218fe556f0c9466f4bfebc96d7783744cf60b78f419570",
+    "input_sha256": "4528c406dd4f8701c0188f7f16b90e0523aa105b2550b0af949c35d1e939832a",
+    "elapsed_seconds": 0.423,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "a1c18663481dff272781eaefe52d9cece84a81d591a62616640f51726c0ca181"
+  },
+  {
+    "id": "suwon-income-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:37.766160+00:00",
+    "request_sha256": "48eb1424c0ac803c26eedf2a9735ac94313d33de60ede7daebb18fbd70e66950",
+    "input_sha256": "0ce4a39435266ffd0039bbb0ec33c63eaaad18b3a5daae8a853ba5a8734c5b5f",
+    "elapsed_seconds": 0.324,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "814ccbb1329fd5307b25fa6d005e60588a87b3378d29cd791eed737679d9abff"
+  },
+  {
+    "id": "suwon-income-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:38.195495+00:00",
+    "request_sha256": "09e5c75a4dc49f8dd71e7c480571935d044b487e0a85c72950cc88cd78053e3e",
+    "input_sha256": "58fcd4b311f8850ffcd09c1a453969b550af983fbf48a1f5fc1e5788f4cd4440",
+    "elapsed_seconds": 0.429,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "8d81ed7bf537b6960df79e6802b16363a9499c316eae0d772bf5f10d050179e0"
+  },
+  {
+    "id": "suwon-income-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:38.624912+00:00",
+    "request_sha256": "01ac37f0b9ac4460ac1f51fd385231d6bc0f7f5c7b3faf233a51e6c63bde7edb",
+    "input_sha256": "b26567d56fd9be9740db804d48c70f7ebc11bd2f706bcb4b7aef52b4b9716030",
+    "elapsed_seconds": 0.429,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120.5
+        }
+      ]
+    },
+    "response_sha256": "b510d8fba36f71c72e9060b621628609fd0cd99b86d9d08d20ef1dd8016e712d"
+  },
+  {
+    "id": "suwon-income-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:33:39.052923+00:00",
+    "request_sha256": "a856a7d883edf42bf9fae555ecb8776a690acfe4379f17ebd93f3ed10088e421",
+    "input_sha256": "25cbbc7ad0e67748c4783740585bbc9753b85a26e52541c9210c5ea9fc1e763f",
+    "elapsed_seconds": 0.428,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "3c15c4d7d71c8c4af487c9525ec480549d947ec9b898d2d8b4b113ac15b1de1f"
+  },
+  {
+    "id": "changwon-housing",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:37.513466+00:00",
+    "request_sha256": "079f0864d2295f5fab7f4b9dbce3ca8f4f50949a5893b3104affe26483afcfd9",
+    "input_sha256": "f8aec09457be59533de2b61afb3989110e130f481fd02d2f20493dc2750a8bd9",
+    "elapsed_seconds": 6.838,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "2ab2b803406f7e6b21affd515df0ecc48f832fd4a3955ff28b5fe79474e05d0f"
+  },
+  {
+    "id": "changwon-age",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:39.179288+00:00",
+    "request_sha256": "7a3f18f60587926f1f9b8166ceaf4d7474952b05c7cf4c1f980dd6e7e1abd45d",
+    "input_sha256": "1b047c58e7169371bbbeb74a86bcf487d106665214a51905eaa5ccdb8e454759",
+    "elapsed_seconds": 1.665,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "1a1760f6aae56686ba3da2e897987525bcf7eec21953c00e56cbf208981197f7"
+  },
+  {
+    "id": "suwon-age",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:40.258028+00:00",
+    "request_sha256": "bade5360126aaa185f7d16a6942cf23381799eef480dd48d202f43aedbd3169d",
+    "input_sha256": "c9a4fe86afe6112c025aa950b0c2ad880ae4f10011ad541adc57ca8520e4eaff",
+    "elapsed_seconds": 1.078,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "3ff3d22775de6257c2aae4e202cb2ff98643b7bbc564b95ef4df35429f1f6124"
+  },
+  {
+    "id": "suwon-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:41.678852+00:00",
+    "request_sha256": "d0d7512dc51ae0fa053e67221350420e3686059360c9a51694bd6de96d7387da",
+    "input_sha256": "31730673096d9556e54b655e74bbd4538d451a7c0b94dec2ecaf6621ba24b7ac",
+    "elapsed_seconds": 1.42,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "0146c67a9fbf5f9ca20888cd87edb961c15f93763d5adb6284f4f9a43e6e12c6"
+  },
+  {
+    "id": "changwon-housing",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:47.373578+00:00",
+    "request_sha256": "14ff0fd9995cc7f9a072f78beb6d380f45028e14bd5c1c486d1fd90c84fb5d2a",
+    "input_sha256": "f8aec09457be59533de2b61afb3989110e130f481fd02d2f20493dc2750a8bd9",
+    "elapsed_seconds": 5.692,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 10000000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "7ee1f276ec6a8335dfd9febe7351ec28e44debd6cebdd40995db74e053340b50"
+  },
+  {
+    "id": "changwon-age",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:49.168120+00:00",
+    "request_sha256": "d3c6a3119a4414c32c6a41d80617739591e7325f34a4521e0430d524104af3a8",
+    "input_sha256": "1b047c58e7169371bbbeb74a86bcf487d106665214a51905eaa5ccdb8e454759",
+    "elapsed_seconds": 1.794,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "age_years",
+            "op": "ge",
+            "value": 19
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "age_years",
+            "op": "le",
+            "value": 39
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "a2843f9a6d7428ac4f8a3d3ad635e64208152d5fb6dd32b3a676f7a8cc0819a0"
+  },
+  {
+    "id": "suwon-age",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:50.495857+00:00",
+    "request_sha256": "76a75ea09ebf55cbeec2c5b1d9496564aa1971809e4614d119a01a62490596fc",
+    "input_sha256": "c9a4fe86afe6112c025aa950b0c2ad880ae4f10011ad541adc57ca8520e4eaff",
+    "elapsed_seconds": 1.327,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "age_years",
+            "op": "ge",
+            "value": 19
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "age_years",
+            "op": "le",
+            "value": 39
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "08a48c84e7db019127aff2696322562598d29fd5d51462ec6f96d06a07651f12"
+  },
+  {
+    "id": "suwon-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:51.808075+00:00",
+    "request_sha256": "f879950d1415366ba2549821aa37429f31ff63fc5b020d08e1a040a28df80387",
+    "input_sha256": "31730673096d9556e54b655e74bbd4538d451a7c0b94dec2ecaf6621ba24b7ac",
+    "elapsed_seconds": 1.311,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "income_pct",
+            "op": "le",
+            "value": 120
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "89baba3f16509d9b82ee1733e8f939e2db324a82ba17a52a735ae320960c0427"
+  }
+]

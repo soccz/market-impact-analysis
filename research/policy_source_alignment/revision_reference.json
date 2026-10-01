@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "id": "boundary-1",
+      "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 20만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 200000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-2",
+      "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "supported",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-3",
+      "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-4",
+      "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 20만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-31",
+        "asserted_cap": 200000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-5",
+      "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 30만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-31",
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-6",
+      "claim": "내 보증 가입일은 2025년 3월 31일이다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-31",
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "supported",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-7",
+      "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-04-01",
+        "asserted_cap": 200000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-8",
+      "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 30만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-04-01",
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-9",
+      "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-04-01",
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "supported",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-10",
+      "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 20만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": null,
+        "asserted_cap": 200000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-11",
+      "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 30만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": null,
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "not_established",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "boundary-12",
+      "claim": "내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": null,
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "not_established",
+      "kind": "authored natural-language rendering of old boundary grid"
+    },
+    {
+      "id": "application-distractor",
+      "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored distractor or notation control"
+    },
+    {
+      "id": "parent-distractor",
+      "claim": "부모의 보증 가입일은 2025년 4월 1일이다. 내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 30만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "supported",
+      "kind": "authored distractor or notation control"
+    },
+    {
+      "id": "unknown-with-application",
+      "claim": "내 신청일은 2025년 4월 1일이다. 내 보증 가입일은 밝히지 않았다. 이 보증료 지원 상한은 40만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": null,
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "not_established",
+      "kind": "authored distractor or notation control"
+    },
+    {
+      "id": "iso-date",
+      "claim": "내 보증 가입일은 2025-03-31이다. 이 보증료 지원 상한은 400,000원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-31",
+        "asserted_cap": 400000
+      },
+      "before": "contradicted",
+      "after": "supported",
+      "kind": "authored distractor or notation control"
+    },
+    {
+      "id": "stable-false",
+      "claim": "내 보증 가입일은 2025년 4월 1일이다. 이 보증료 지원 상한은 20만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-04-01",
+        "asserted_cap": 200000
+      },
+      "before": "contradicted",
+      "after": "contradicted",
+      "kind": "authored distractor or notation control"
+    },
+    {
+      "id": "money-notation",
+      "claim": "내 보증 가입일은 2025년 3월 30일이다. 이 보증료 지원 상한은 3십만원이다.",
+      "reference_slots": {
+        "status": "ready",
+        "joined_on": "2025-03-30",
+        "asserted_cap": 300000
+      },
+      "before": "supported",
+      "after": "supported",
+      "kind": "authored distractor or notation control"
+    }
+  ],
+  "source_reuse": "policy_selective_update Seoul2024-3494/2025-1082",
+  "stored_answer_conditions": [
+    "actual saved direct-before answer",
+    "deterministic corruption: rotate decision on case indices divisible by 3; labels never used to choose corruption"
+  ]
+}

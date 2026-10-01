@@ -1,0 +1,142 @@
+{
+  "metamorphic": {
+    "qwen": {
+      "direct": {
+        "n": 32,
+        "correct": 25,
+        "joint": 25,
+        "abstain": 0,
+        "fixes": 4,
+        "harms": 7
+      },
+      "previous": {
+        "n": 32,
+        "correct": 28,
+        "joint": 28,
+        "abstain": 0,
+        "fixes": 0,
+        "harms": 0
+      },
+      "candidate_rules": {
+        "n": 32,
+        "correct": 32,
+        "joint": 32,
+        "abstain": 0,
+        "fixes": 4,
+        "harms": 0
+      },
+      "candidate_model": {
+        "n": 32,
+        "correct": 32,
+        "joint": 32,
+        "abstain": 0,
+        "fixes": 4,
+        "harms": 0
+      }
+    },
+    "kanana-public": {
+      "direct": {
+        "n": 32,
+        "correct": 13,
+        "joint": 13,
+        "abstain": 0,
+        "fixes": 0,
+        "harms": 15
+      },
+      "previous": {
+        "n": 32,
+        "correct": 28,
+        "joint": 25,
+        "abstain": 0,
+        "fixes": 0,
+        "harms": 0
+      },
+      "candidate_rules": {
+        "n": 32,
+        "correct": 32,
+        "joint": 29,
+        "abstain": 0,
+        "fixes": 4,
+        "harms": 0
+      },
+      "candidate_model": {
+        "n": 32,
+        "correct": 32,
+        "joint": 29,
+        "abstain": 0,
+        "fixes": 4,
+        "harms": 0
+      }
+    }
+  },
+  "official": {
+    "qwen": {
+      "direct": {
+        "n": 16,
+        "correct": 12,
+        "joint": 11,
+        "abstain": 0,
+        "fixes": 9,
+        "harms": 2
+      },
+      "previous": {
+        "n": 16,
+        "correct": 5,
+        "joint": 4,
+        "abstain": 0,
+        "fixes": 0,
+        "harms": 0
+      },
+      "candidate_rules": {
+        "n": 16,
+        "correct": 15,
+        "joint": 15,
+        "abstain": 0,
+        "fixes": 11,
+        "harms": 1
+      },
+      "candidate_model": {
+        "n": 16,
+        "correct": 15,
+        "joint": 15,
+        "abstain": 0,
+        "fixes": 11,
+        "harms": 1
+      }
+    },
+    "kanana-public": {
+      "direct": {
+        "n": 16,
+        "correct": 7,
+        "joint": 6,
+        "abstain": 0,
+        "fixes": 3,
+        "harms": 0
+      },
+      "previous": {
+        "n": 16,
+        "correct": 4,
+        "joint": 3,
+        "abstain": 4,
+        "fixes": 0,
+        "harms": 0
+      },
+      "candidate_rules": {
+        "n": 16,
+        "correct": 13,
+        "joint": 11,
+        "abstain": 0,
+        "fixes": 10,
+        "harms": 1
+      },
+      "candidate_model": {
+        "n": 16,
+        "correct": 13,
+        "joint": 11,
+        "abstain": 0,
+        "fixes": 10,
+        "harms": 1
+      }
+    }
+  }
+}

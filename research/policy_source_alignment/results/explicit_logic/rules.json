@@ -1,0 +1,2316 @@
+[
+  {
+    "model": "qwen",
+    "bundle": "mixed-money",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 9,
+          "end": 23,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "2afa893ee110503b9f55796e291f48f1e901b09d8ecce06e4d098d65ba7c2597"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "decimal-money",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 19,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "5d86ad7963c2e136875dece254ee57ea6668dd4f409e861af399a0c72732d13a"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "money-polarity",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 9,
+          "end": 23,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d332b32af8173f98b44f6564ddc3719380e46bc9b3f5f9336400681617216fa6"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 30,
+          "end": 41,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "b74f6c8d7dc3e24fe5b317e7e3ea9d3f9261e8e99729411ee981488d22b263cd"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "subject",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 15,
+          "end": 22,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "age-boundary",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "0ecf0c69a59c38ce45df9c187e9080d4bb5338373ebb6fd0b429d5b2a300fd15"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "and-both",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 25,
+          "end": 32,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "or-either",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 27,
+          "end": 34,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "age-strict",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "68222b1261478f674e62b210cd74eb916f88ae277d3ca232f9f5f832638ac52d"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "yangsan-housing",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 11,
+          "end": 17,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "f4be3138e73a9ba2a6516c692cb707843c4e5463f6b5eef42ee17ba7824f2371"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 26,
+          "end": 33,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "2a5f78c522c0adcbec208e4c8ec89bc0a3773bba10451d3337415cd44791b8ab"
+        },
+        {
+          "id": "a2",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 68,
+          "end": 86,
+          "kind": "absence_exclusion",
+          "origin": "source",
+          "text_sha256": "d811024a936aada4ddb5197d157e527692d2b2b25757aa230aa669fb60361f6c"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "yangsan-income",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          "source": "yangsan-yangsan-income",
+          "start": 18,
+          "end": 24,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "7942046de9edc805346cdc7bcfc44076f6e4aceab6d71747aa24ab4a4385cfc8"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          "source": "yangsan-yangsan-income",
+          "start": 25,
+          "end": 32,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "768e39302d74271a0f555593967ba95157d5b0eb094417442548b6dc5a823615"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "qwen",
+    "bundle": "yongin-conversion",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 12,
+          "end": 18,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "a1b0a156f5b109c609144def814afbf2e8e767d5489c7d5500254c371ad2a92d"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 115,
+          "end": 140,
+          "kind": "converted_bound",
+          "origin": "source",
+          "text_sha256": "be5f79d39d2a0c1d368c42346cd5529e8ced0bcb553c516c9c343a9570e24595"
+        }
+      ],
+      "derived": [
+        {
+          "definition": {
+            "field": "derived_0",
+            "constant": 0,
+            "terms": [
+              {
+                "field": "deposit_krw",
+                "numerator": 1,
+                "denominator": 1
+              },
+              {
+                "field": "monthly_rent_krw",
+                "numerator": 375,
+                "denominator": 2
+              }
+            ],
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 115,
+          "end": 140,
+          "text_sha256": "be5f79d39d2a0c1d368c42346cd5529e8ced0bcb553c516c9c343a9570e24595"
+        }
+      ],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      ],
+      "derived": [
+        {
+          "field": "derived_0",
+          "constant": 0,
+          "terms": [
+            {
+              "field": "deposit_krw",
+              "numerator": 1,
+              "denominator": 1
+            },
+            {
+              "field": "monthly_rent_krw",
+              "numerator": 375,
+              "denominator": 2
+            }
+          ],
+          "evidence": [
+            "yongin-yongin-conversion"
+          ]
+        }
+      ]
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      ],
+      "derived": [
+        {
+          "field": "derived_0",
+          "constant": 0,
+          "terms": [
+            {
+              "field": "deposit_krw",
+              "numerator": 1,
+              "denominator": 1
+            },
+            {
+              "field": "monthly_rent_krw",
+              "numerator": 375,
+              "denominator": 2
+            }
+          ],
+          "evidence": [
+            "yongin-yongin-conversion"
+          ]
+        }
+      ]
+    },
+    "rule_equivalent": true,
+    "model_equivalent": false
+  },
+  {
+    "model": "qwen",
+    "bundle": "yongin-income-benefits",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 48,
+          "end": 54,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "5df77673712de72d9d280a5cbbd3b2638780daf232b477f861e3f8f5b233918a"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 11,
+          "end": 13,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "985d69ab21d6d9204f4a78144e29703eab15ac1372dbeac3f3c0eb007d84bc3a"
+        },
+        {
+          "id": "a2",
+          "atom": {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 14,
+          "end": 16,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "182d2f97e9825c56578b696076a91458dbf3e10594d509ed75a4963630a3c598"
+        },
+        {
+          "id": "a3",
+          "atom": {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 17,
+          "end": 19,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "b0723ccbc5559e9a5bbc99e671ed251e93b1646abb0894f5863495c887c23648"
+        },
+        {
+          "id": "a4",
+          "atom": {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 20,
+          "end": 22,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "4da9a75910ede3adef017b5a3671a27b542d676580cf883764e747972eb50072"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "mixed-money",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 9,
+          "end": 23,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "2afa893ee110503b9f55796e291f48f1e901b09d8ecce06e4d098d65ba7c2597"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 24000000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "decimal-money",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 19,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "5d86ad7963c2e136875dece254ee57ea6668dd4f409e861af399a0c72732d13a"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 750000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "money-polarity",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 9,
+          "end": 23,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d332b32af8173f98b44f6564ddc3719380e46bc9b3f5f9336400681617216fa6"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 30,
+          "end": 41,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "b74f6c8d7dc3e24fe5b317e7e3ea9d3f9261e8e99729411ee981488d22b263cd"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 90000000,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 700000,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "subject",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 15,
+          "end": 22,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "age-boundary",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "0ecf0c69a59c38ce45df9c187e9080d4bb5338373ebb6fd0b429d5b2a300fd15"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "and-both",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 25,
+          "end": 32,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "or-either",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 8,
+          "end": 15,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "d92d6689f28f894aaf284b14606cfbb9fe6d038bedfa0c7a661260430f149c41"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 27,
+          "end": 34,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "e9b29fa557cc242d8fbd84dbe202c45d2e88f1b0caf40429d690baa99d8ee552"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24,
+            "evidence": [
+              "E"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 120,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "age-strict",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "68222b1261478f674e62b210cd74eb916f88ae277d3ca232f9f5f832638ac52d"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 39,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yangsan-housing",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 11,
+          "end": 17,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "f4be3138e73a9ba2a6516c692cb707843c4e5463f6b5eef42ee17ba7824f2371"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 26,
+          "end": 33,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "2a5f78c522c0adcbec208e4c8ec89bc0a3773bba10451d3337415cd44791b8ab"
+        },
+        {
+          "id": "a2",
+          "atom": {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          "source": "yangsan-yangsan-housing",
+          "start": 68,
+          "end": 86,
+          "kind": "absence_exclusion",
+          "origin": "source",
+          "text_sha256": "d811024a936aada4ddb5197d157e527692d2b2b25757aa230aa669fb60361f6c"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yangsan-income",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          "source": "yangsan-yangsan-income",
+          "start": 18,
+          "end": 24,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "7942046de9edc805346cdc7bcfc44076f6e4aceab6d71747aa24ab4a4385cfc8"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          "source": "yangsan-yangsan-income",
+          "start": 25,
+          "end": 32,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "768e39302d74271a0f555593967ba95157d5b0eb094417442548b6dc5a823615"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yongin-conversion",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 12,
+          "end": 18,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "a1b0a156f5b109c609144def814afbf2e8e767d5489c7d5500254c371ad2a92d"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 115,
+          "end": 140,
+          "kind": "converted_bound",
+          "origin": "source",
+          "text_sha256": "be5f79d39d2a0c1d368c42346cd5529e8ced0bcb553c516c9c343a9570e24595"
+        }
+      ],
+      "derived": [
+        {
+          "definition": {
+            "field": "derived_0",
+            "constant": 0,
+            "terms": [
+              {
+                "field": "deposit_krw",
+                "numerator": 1,
+                "denominator": 1
+              },
+              {
+                "field": "monthly_rent_krw",
+                "numerator": 375,
+                "denominator": 2
+              }
+            ],
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          "source": "yongin-yongin-conversion",
+          "start": 115,
+          "end": 140,
+          "text_sha256": "be5f79d39d2a0c1d368c42346cd5529e8ced0bcb553c516c9c343a9570e24595"
+        }
+      ],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      ],
+      "derived": [
+        {
+          "field": "derived_0",
+          "constant": 0,
+          "terms": [
+            {
+              "field": "deposit_krw",
+              "numerator": 1,
+              "denominator": 1
+            },
+            {
+              "field": "monthly_rent_krw",
+              "numerator": 375,
+              "denominator": 2
+            }
+          ],
+          "evidence": [
+            "yongin-yongin-conversion"
+          ]
+        }
+      ]
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      ],
+      "derived": [
+        {
+          "field": "derived_0",
+          "constant": 0,
+          "terms": [
+            {
+              "field": "deposit_krw",
+              "numerator": 1,
+              "denominator": 1
+            },
+            {
+              "field": "monthly_rent_krw",
+              "numerator": 375,
+              "denominator": 2
+            }
+          ],
+          "evidence": [
+            "yongin-yongin-conversion"
+          ]
+        }
+      ]
+    },
+    "rule_equivalent": true,
+    "model_equivalent": false
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yongin-income-benefits",
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 48,
+          "end": 54,
+          "kind": "bound",
+          "origin": "source",
+          "text_sha256": "5df77673712de72d9d280a5cbbd3b2638780daf232b477f861e3f8f5b233918a"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 11,
+          "end": 13,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "985d69ab21d6d9204f4a78144e29703eab15ac1372dbeac3f3c0eb007d84bc3a"
+        },
+        {
+          "id": "a2",
+          "atom": {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 14,
+          "end": 16,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "182d2f97e9825c56578b696076a91458dbf3e10594d509ed75a4963630a3c598"
+        },
+        {
+          "id": "a3",
+          "atom": {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 17,
+          "end": 19,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "b0723ccbc5559e9a5bbc99e671ed251e93b1646abb0894f5863495c887c23648"
+        },
+        {
+          "id": "a4",
+          "atom": {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          "source": "yongin-yongin-income-benefits",
+          "start": 20,
+          "end": 22,
+          "kind": "benefit_exclusion",
+          "origin": "scope",
+          "text_sha256": "4da9a75910ede3adef017b5a3671a27b542d676580cf883764e747972eb50072"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  }
+]

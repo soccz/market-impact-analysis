@@ -1,0 +1,24 @@
+{
+  "selection": "explicit ALL/ANY + source coverage gate + claim-only limited grammar",
+  "development_claims_observed": 48,
+  "prior_sources_observed": [
+    "Yangsan2025-42",
+    "Yongin2025-458",
+    "prior policy_compositional_reasoning/selective_update"
+  ],
+  "new_source_search_started": false,
+  "transfer_target": {
+    "unread_institutions": 2,
+    "scopes": 4,
+    "claims": 16
+  },
+  "limits": [
+    "Manually chosen scope and evidence; not end-to-end retrieval",
+    "No learned parameters",
+    "No independent human annotation",
+    "Rule-only comparator required",
+    "48/48 development is fitted diagnostic, not generalization",
+    "No claim that candidate span support proves logical fidelity"
+  ],
+  "stopping_condition": "Execute frozen-source transfer, diagnose and safely repair observed errors, exercise revision-to-answer chain, verify/replay and publish both repos; independent human review cannot be fabricated"
+}

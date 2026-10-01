@@ -1,0 +1,535 @@
+[
+  {
+    "model": "qwen",
+    "bundle": "mixed-money",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "fdce64bb260ecf6a0b17e5ced5399cafe6a0eae5dfc22ccb606c001df23c851b",
+    "prior_response_sha256": "b52b9839f495f26cf026255f7fda2714de5f0c4873bd27f10e1230603ea47ca0"
+  },
+  {
+    "model": "qwen",
+    "bundle": "decimal-money",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "2fc28281f3cc5af27644e270843b447927d054b1217b139b3cfa2633d014b865",
+    "prior_response_sha256": "968ef764f42fdc9b120d449b245485fcbaab48da124f2d951b374d5434a5f41e"
+  },
+  {
+    "model": "qwen",
+    "bundle": "money-polarity",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "ca9cf8748c983f2020d0a6e3714a117d623e57bdefac303b87a25a8f52448212",
+    "prior_response_sha256": "e455b3bd056416de7cb1068000ba304bcdaa8ad7eadb1caaddce1a373d9ad308"
+  },
+  {
+    "model": "qwen",
+    "bundle": "subject",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "2ddc69b82843879d4df9106d8982f94cf76a0bb98905fbcec1be4a2cb8579f36",
+    "prior_response_sha256": "adc6fec6ca79b776177a544bf416420803918d18c43c8ef37c33ab4b37dc5399"
+  },
+  {
+    "model": "qwen",
+    "bundle": "age-boundary",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "5947dc858065ddd35b12af18fd2fcd8659fadb71a95038a7bcd44bc79f4f73c5",
+    "prior_response_sha256": "3461bd8d19939349ce11dc07ad6a562f57b06c151e84ae4b69a3dd18dc1edb91"
+  },
+  {
+    "model": "qwen",
+    "bundle": "and-both",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "6055a6ffce2769a36749fd05db61288f4d09506d3a24c08761ec7df78b188cd1",
+    "prior_response_sha256": "8aab3f377bddb6275c89480002b6d508a3e48925b1194e6dc49d56029ea5415b"
+  },
+  {
+    "model": "qwen",
+    "bundle": "or-either",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "6e95e4d3996c0a68d0ba2f66ad0730fe5abfd35ca366a635ec7da9fa45aec9ed",
+    "prior_response_sha256": "e2a2c5093705acbfcc1d60d68b11a1f96ab09c68f3a1e341b7f92faa6ffc813e"
+  },
+  {
+    "model": "qwen",
+    "bundle": "age-strict",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "e21519af319775f32752e2bca76ca8cf0b6cf1f9378e28843d7ffb54b381f64d",
+    "prior_response_sha256": "b62e264c89bfc927376f7d22b847347e7151a60d747ba5570f16439e4f33e0e9"
+  },
+  {
+    "model": "qwen",
+    "bundle": "yangsan-housing",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "status": "ready",
+        "clauses": [
+          [
+            "a0",
+            "a1"
+          ],
+          [
+            "a2"
+          ]
+        ]
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 0
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600001
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "deposit_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        },
+        "monthly_rent_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        }
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "3b8c62b7c4dfcf8169f0c285645de1166b41ce317c24c3c726325a314cdf8dd6",
+    "prior_response_sha256": "05aed6edb2b52584574ca07050589f35873a9d6e1f50164ad393b85e29ff1305"
+  },
+  {
+    "model": "qwen",
+    "bundle": "yangsan-income",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "378a0350ad40ff82f97bfc348cc2dc3716abfa9206dd8607bf2cf653dbf39fd3",
+    "prior_response_sha256": "5bc0ce83d2e6d7fd25864d3bd98f4c350c0814eb261118bf989cd46cbd6a6e20"
+  },
+  {
+    "model": "qwen",
+    "bundle": "yongin-conversion",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "6557fe837f50018dbb79e5ffc1ba9dfe263a5be7a7e088008c4d18fc482616ff",
+    "prior_response_sha256": "0ec90ab200b8561650f2f7c4ef0fb5c61577bb7a90e07ac1cfcf2aafabbf9205"
+  },
+  {
+    "model": "qwen",
+    "bundle": "yongin-income-benefits",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "status": "ready",
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1",
+            "a2",
+            "a3",
+            "a4"
+          ]
+        ]
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_benefit",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          },
+          {
+            "field": "income_pct",
+            "value": 181
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          },
+          {
+            "field": "medical_benefit",
+            "value": false
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "education_benefit": [
+          false,
+          true
+        ],
+        "housing_benefit": [
+          false,
+          true
+        ],
+        "income_pct": {
+          "min": 0,
+          "max": 1000,
+          "integer": true
+        },
+        "livelihood_benefit": [
+          false,
+          true
+        ],
+        "medical_benefit": [
+          false,
+          true
+        ]
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "f1f498445b6c5684bb2c2834c53a4513c9052bc77068eecfbfe36aa74857b164",
+    "prior_response_sha256": "8c6a169fff6bb23ee01a9d2d9c5f8a865923f432d675173a5ae3b8a407bb3b48"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "mixed-money",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "669ce317feecd6c05a02cf7e19e69d7ff927967be181f1122116088a22a786f4",
+    "prior_response_sha256": "34ef74dece9ee5ac7d8be2fe72a82c36770acd9ae7a78aa7492daf44881aec58"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "decimal-money",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "52ffd0922f0f6945d76fe8f777a9218e672206dcb879fc634e5b01a954582a46",
+    "prior_response_sha256": "96915d7669f076ac42be6c5f863ab9758f3582b7db19565a2dab5ba23585b861"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "money-polarity",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1"
+          ]
+        ],
+        "status": "ready"
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 0
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700001
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "deposit_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        },
+        "monthly_rent_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        }
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "e2808ba2577323d0ccf0b983e0f28dbc33862da2ed5504f7407343b3cfca6d0e",
+    "prior_response_sha256": "6bc2e1691d5db69c7187f32efebdd857c8bd2995ef9a4e56a6dabb47df834608"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "subject",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "069d230ddbf272f7163161d94e217396ee9ac5a81cb1920a85dd6d9aadc03d0f",
+    "prior_response_sha256": "009231b12ef79c3235e7ef33a25dac140017c5892b620c525ed937e3112e58e9"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "age-boundary",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "7c1a5ed64bacb0010a459dcfa7205f8eb0d4485aec438921c28485ad9f5424ba",
+    "prior_response_sha256": "633b4ebb9f7cbd28dff407f5ec9caf11ea62fda30ce050587382121b8b2cd2e5"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "and-both",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "765ce8cf1e7ae08d262922e00067fb4539a7614efab4f777fdec1a74b5c482e7",
+    "prior_response_sha256": "68ccebe77b8cf06c46998e6235324d713e21449e57e7221f382e1815562e2807"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "or-either",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "5a642d95e5fc71357331c7e88842ac53623d0b9eaac05fb1c987b34b213f8ea1",
+    "prior_response_sha256": "2f0b5e15b5ed8957851b10b3bf8e95e544ea515c6da6890bc021f4f3ad8a75d2"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "age-strict",
+    "selected": false,
+    "feedback": null,
+    "prior_request_sha256": "79399701c5e37f0e51d6146ebc1d7f0257ae0e661815d86b1501a309c563d731",
+    "prior_response_sha256": "dd688194d78aee53f06f5faf3bd2b38811a9eec9a4318d8bec8feb018d296bdb"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yangsan-housing",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1"
+          ],
+          [
+            "a2"
+          ]
+        ],
+        "status": "ready"
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 0
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600001
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "deposit_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        },
+        "monthly_rent_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        }
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "bb2e071b10803431a84f474ae0694a951308b5885bc1e4ea19f6a99009477898",
+    "prior_response_sha256": "ae018b92cdb92b89372ca5fb026bfc8c7b8f2e0c149539ee50415685290002f0"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yangsan-income",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1"
+          ]
+        ],
+        "status": "ready"
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 151
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "income_pct": {
+          "min": 0,
+          "max": 1000,
+          "integer": true
+        }
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "e3aad066f47b45c7a0f82e8332aa8c3d51c94323ece5c4f7eeb88472de889202",
+    "prior_response_sha256": "7aa0d5dc6627cb04cde9336fdc891b0c63ec9fc4c0273001355bec78ae15b70e"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yongin-conversion",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1"
+          ]
+        ],
+        "status": "ready"
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 300000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 1
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "deposit_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        },
+        "monthly_rent_krw": {
+          "min": 0,
+          "max": 1000000000000,
+          "integer": true
+        }
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "59f665fccc6ee4c1fc47f272ee6aee20ac8f12f6c4614a96f698a8c9b48ba565",
+    "prior_response_sha256": "ee5d99fd13947aa9b3cb26dfed31d6af7f6bacb3e50847754ddf3e797ee7a021"
+  },
+  {
+    "model": "kanana-public",
+    "bundle": "yongin-income-benefits",
+    "selected": true,
+    "feedback": {
+      "reason": "source_parser_disagreement",
+      "previous_selection": {
+        "clauses": [
+          [
+            "a0"
+          ],
+          [
+            "a1",
+            "a2",
+            "a3",
+            "a4"
+          ]
+        ],
+        "status": "ready"
+      },
+      "hypothetical_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_benefit",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          },
+          {
+            "field": "income_pct",
+            "value": 181
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          },
+          {
+            "field": "medical_benefit",
+            "value": false
+          }
+        ]
+      },
+      "model_program_decision": "supported",
+      "restricted_parser_decision": "contradicted",
+      "domain": {
+        "education_benefit": [
+          false,
+          true
+        ],
+        "housing_benefit": [
+          false,
+          true
+        ],
+        "income_pct": {
+          "min": 0,
+          "max": 1000,
+          "integer": true
+        },
+        "livelihood_benefit": [
+          false,
+          true
+        ],
+        "medical_benefit": [
+          false,
+          true
+        ]
+      },
+      "message": "이 가상 조건에서 두 프로그램의 결론이 다르다. 제한 문법 해석기는 정답표가 아니므로 원문과 scope로 검토하라. 안쪽 배열은 모두 충족 AND이고 바깥 배열은 대안 OR이다. 월세 없는 계약 제외·소득 상하한·급여 제외·환산액 조건이 다른 경로 때문에 무시되지 않는지 확인하라. 원문이 명시한 대안만 OR로 둔다."
+    },
+    "prior_request_sha256": "0cc7c5aeb518acba2de840587bdff4fd51166d57800e6eb6d0ede1f4df3f6e72",
+    "prior_response_sha256": "0bd1e35b23dbe7b358b16762e26935be08a22864768db8fc3a3aaae3875c3533"
+  }
+]

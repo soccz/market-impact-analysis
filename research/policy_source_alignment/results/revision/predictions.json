@@ -1,0 +1,2018 @@
+[
+  {
+    "id": "boundary-1",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:57.335022+00:00",
+    "request_sha256": "1a98fdc235d6660fcc5215324b30071f250202132d95a34a3429c65a9573c311",
+    "input_sha256": "7d1e7eefa1ca72a8a1bf6335f46149b476cb533a9ac674da0925f8868812220f",
+    "elapsed_seconds": 5.52,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 200000
+    },
+    "response_sha256": "97fde83ad0d2c656d00a16d5a2e7952a6defb7bef37bccaac0101981952ffa51"
+  },
+  {
+    "id": "boundary-1",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:57.725406+00:00",
+    "request_sha256": "a31cfbee6c8f967f33bad953dd08f4f305b6e076c375b8cd8d4d5beca4404f07",
+    "input_sha256": "4de21ab8289bfa454af7cde98cac6cf46cf68b28fd42076b9c44081a5af991f8",
+    "elapsed_seconds": 0.39,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "58baeea1930e20ab7f11f865461ecf20d90ce991e776a9f6dea3bcbdc4e67a73"
+  },
+  {
+    "id": "boundary-1",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:58.083034+00:00",
+    "request_sha256": "41b4a623e5be596f1448069f6b6aae6a83d95a22441a7e74af8781d9539ef498",
+    "input_sha256": "78d82ec8d6b7d6aede19a72c2e0bf4f3135a8e658ad5b1f6f7e62f8cf5c32ff5",
+    "elapsed_seconds": 0.357,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "67ef46b7c470fef916acc9e8001b72e5f07ea61f6b65f496d17f623638380a41"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:58.779971+00:00",
+    "request_sha256": "0932dfc88cc428a65890dfc5682b67a6ab8c2be027c83e3aa976d5b3e19f4293",
+    "input_sha256": "ca412e1e23a87cdf0248f944d02543ba5b84696be915db30819d46337a429fde",
+    "elapsed_seconds": 0.697,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "response_sha256": "844723739fa8a58954c4fb050fd434db8535a027f1e1b9fe3ea2b2d7e9fb40fd"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:59.132032+00:00",
+    "request_sha256": "c674ae8c72338316e4d57ac21c9e6fca69df1aecb33024795865e1b06041a480",
+    "input_sha256": "0d2458737a26c20688d46e8b047c1ec539f55d2591b68bc467ec522c3cf4a277",
+    "elapsed_seconds": 0.352,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "44be93d49c209bfbc9a8d7124b5e75e06d1088c06d238e69c4d3c366fc0b729f"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:35:59.522477+00:00",
+    "request_sha256": "8bd0f65237eeeebd579af91042ca6220a83d6e0737e5566679d03a739c578a2d",
+    "input_sha256": "41ccd0ad9fde06e8ed2ddebe38b946446315d78a57bf8835e0e9cba59c692a7d",
+    "elapsed_seconds": 0.39,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "a20f446590c36c5f3bd50f06dc2b08d8e65fa9c8029174e3fb2a4bfc43cfe4b9"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:00.216470+00:00",
+    "request_sha256": "5d9b96695cd7929f28d3370109c5cebe66336d9b874f1e15f0f5610b92bedcb5",
+    "input_sha256": "3a4ca6cf3768af066d7e9b071e530c61524db1c4d3948087c651eef52b3ad327",
+    "elapsed_seconds": 0.694,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "response_sha256": "24bd3a7ced390f3ba455c4668efb10e1a6e88b81c784867fca0e94916eb16e57"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:00.595087+00:00",
+    "request_sha256": "218551f8e2d75f94a9106067d81366795ae1301ff76ac6451f47cf68bef119de",
+    "input_sha256": "48f00b5ceba990e3ec46110f07214fd4ef03c5ffc7e127b6191d2165251ffbab",
+    "elapsed_seconds": 0.378,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "005f3fed88e10b42cbad5138d7591c0c4f07d9847f4ae485c5c9c8abfed2ee79"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:00.961026+00:00",
+    "request_sha256": "3e2431b5a692d7c52d9807f8bc227677fd7e7f4d1844f948c076b85ff076d3ed",
+    "input_sha256": "e540de8f61784b355da8d815a41981f1702cde5f6f9903502ce6c8c70245004e",
+    "elapsed_seconds": 0.366,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "526292b6a088910290c4615de75fc948381f851fa935a3f4e18ab73dd0e48a72"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:01.651777+00:00",
+    "request_sha256": "00ce6fc647606e5a2c79148e08f4c5086988ffe526c07e067d82f1b24189bd5e",
+    "input_sha256": "6958fe32fd9897655114669ae3e119e4bfbd234988b7b2bfb04a1f19727f9eb9",
+    "elapsed_seconds": 0.691,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 200000
+    },
+    "response_sha256": "f19727daf15c00878df75f400e61b9c0a20d7ad392f90941252395f8c0abfa88"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:02.049554+00:00",
+    "request_sha256": "33026799cb7b4fc3b7faafe4ae3a80fcfdabf53c9bf5b3eedcba2973b28e4296",
+    "input_sha256": "01b64321acad76270a1f7693b50ca8dd571ab91ae05351bbaa25878fc156f511",
+    "elapsed_seconds": 0.397,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "4a1b3e93cf55d8e64bdb61275b4dcf446f114c4a2a4fb0f680d39e04d09f534d"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:02.439182+00:00",
+    "request_sha256": "cd32be3d0517e20b63c43f5f8d35513751d6168d70211aa255f9f2bffd531818",
+    "input_sha256": "475613db55b111b043f79fe0beb8bf6c99ec29a0d010a3e3849bf84d5dc32258",
+    "elapsed_seconds": 0.389,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "9d14b23a4fe4e3e70d6be9bd43c123e4c1fc70f34005a8c0fd267ef6fe18a5ab"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:03.129764+00:00",
+    "request_sha256": "1c2926d37469d39638c92af816634d0e78d02f46ea75f47daa6f0d265ce9a3f4",
+    "input_sha256": "ee5b3af717df35859abcfd69005a1bcaed4dccc96402af0b0411cbcafcb50212",
+    "elapsed_seconds": 0.69,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 300000
+    },
+    "response_sha256": "328f80750accd1c6ce181fde72f9dfd2a4ec9ae3499776c8f86566e5a701e18b"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:03.508563+00:00",
+    "request_sha256": "4c2c9d306a2889291e21e429d1acd68c60f4e85b61d5d0041e69e407f3df8970",
+    "input_sha256": "95e88add2bf195a5a1694b75a02d71b1f51b7a3cb482ff106921a6869156bf7a",
+    "elapsed_seconds": 0.378,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "b7db34412a73391f3fe91794fdf70784535345618037998892c02357a809fc63"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:03.898210+00:00",
+    "request_sha256": "d9c69e2a141a3a6e8b1c992403e4b6883a2526d79f8eb91ee763808fc0bc16f2",
+    "input_sha256": "9aa6bb1a4b8a5ee3b779c5beae109be16e59bf2d12aecf7729c5b4763a45889a",
+    "elapsed_seconds": 0.389,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "d58ab82f6e43b3a033d33eb0b091e3d3f240d7cccddc85f76e649581285a7c9f"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:04.598957+00:00",
+    "request_sha256": "4fc330b00ee9129af69558dd327b6a4856d1b7b3b004a7ef66b1b71d93a5c693",
+    "input_sha256": "be05cf8b9202309470141a8a30715b0c9a781212db8c9d2aeade7b16f0ab5c02",
+    "elapsed_seconds": 0.7,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "response_sha256": "2188b4157fcb5b50069389c754a9301f2043456640c91cfd244c1e3282de7c77"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:04.991721+00:00",
+    "request_sha256": "7bbe70641be3585478d65ece6fe483f69b6c5dd46d5471364d170806ec4733e5",
+    "input_sha256": "f00ec7b9b590b7c5c280d075061808c9c1fb78c2721770f9bdb1b7bd6a9b65e6",
+    "elapsed_seconds": 0.393,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "fef79c159647fa9b3d50c06cc4a104dca1a95bf2b3725e138c2c59e701e50419"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:05.364347+00:00",
+    "request_sha256": "e478baec1052873acbfcb4fcda53611a7c43b50ab73bbacbb87b37c0a780fd03",
+    "input_sha256": "7557bddab8e800c2c27d276bdd2bf25ab2cbc58c279dc5f674ed011bb90007e2",
+    "elapsed_seconds": 0.372,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "c5fb94e3ad99755a987d63786232e1333f4a1c56a593256d84a32491fbfcee14"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:06.061167+00:00",
+    "request_sha256": "67ab7ed0dfeafbbbbc60e58b9c8effdfa905b92e81e299b5af263a72e93da163",
+    "input_sha256": "6e7025b1da275cc5298a25b611a6a6f3621cda42f4b14010b3309d40a1cdc7c1",
+    "elapsed_seconds": 0.697,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "response_sha256": "01624061de62daf60698ffe8da6712d448696d813d3bcebb33deb1a83eef3714"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:06.456463+00:00",
+    "request_sha256": "864eb417fdf330fae4076def7e93849473b734d91a52fdfd38c0a7fcf9ea73cf",
+    "input_sha256": "565c7e302b17583eae24477478b699b9a47ba6961d1aade87e282d7af690a1b1",
+    "elapsed_seconds": 0.395,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "4741d69d77fdf95af61adbc47a00a14105e84975a3f0e7a3d61132328e775ceb"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:06.818712+00:00",
+    "request_sha256": "0b649393163eb921defe9a6dccba783d0b5b447e97786d718a8d0bcfb10387ed",
+    "input_sha256": "9e50315914f74eb853e505e2bbc31fb9020a653f7d10d2ea282fd21a493905c1",
+    "elapsed_seconds": 0.362,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "40e2725b882d4afbb71ecd6cd56b23a027c4b005071e1e490124cc32608bfd1c"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:07.512228+00:00",
+    "request_sha256": "56be0a3b2ca7e2b3e66ba0f35ac33886b4af290c6627142e378cadb67a1f1eb2",
+    "input_sha256": "f22d1d4da80225723a6390f75b886e6c39d9510fc8eb67500ad940e212caab3d",
+    "elapsed_seconds": 0.693,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 300000
+    },
+    "response_sha256": "5d5dffb654ea47dff366d5914f37d5a5f89c8ebdb0f2fe95dd2c8d59eb0b9b97"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:07.866859+00:00",
+    "request_sha256": "c75272ae884540d6d80e9e139a570f8fdd8f0353d4c00f5c3e27d69c6ac54a25",
+    "input_sha256": "abf3a4e2e0387c8c981fc691b8f7d37ba0d90bb168e6852000add36c300d41e6",
+    "elapsed_seconds": 0.354,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "7e77b10ffeba966168c7ad18987d4f76dfd657e534b38a94c8bf280e562e4db8"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:08.260153+00:00",
+    "request_sha256": "58c5ecb50877633a90a82c143931fef5265ab339e87b5cd720585c2308c7960e",
+    "input_sha256": "254b85d86faf4533beb89f9497de7c6a074ee447e566b5698cc0468fe9670ce7",
+    "elapsed_seconds": 0.393,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "bc8a43676726aeebbdc7f20778ea124c16e2e8d8cc3c8c9fc4f4a3e5f6436543"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:08.951542+00:00",
+    "request_sha256": "80c3f03eac70e8651ebc597e37b92e90869b68b43dc01470bad3f3ffad833ffa",
+    "input_sha256": "f7498f045bcac4516828f61c9f19e16375976f53c7edf16692f96a8565893fd6",
+    "elapsed_seconds": 0.691,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 400000
+    },
+    "response_sha256": "a2324cd7c028f42ecad1ebf38d18ad60bd1de4216fd42bf7a02eb751831c227b"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:09.331608+00:00",
+    "request_sha256": "bbef17e263cf35dd734f406e65e6c2337d487acb9478b7dffcb06c04361b2912",
+    "input_sha256": "7fc9d83c71748014efe4f930c5f0d53e8091eef4bd2ac4d67226bba33b450da3",
+    "elapsed_seconds": 0.38,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "a06b71ed24e3f9e7851b7a571a7dfcef83b9742f187cebd88b73c38525287722"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:09.692726+00:00",
+    "request_sha256": "f43bf587d83f49ab57f9f620e9454aac00a09f970874f03c33c2c0356144240c",
+    "input_sha256": "5fe4cda91561df761a75987fa8dbf090784d7c0704734f13a2cc0dba6da294dd",
+    "elapsed_seconds": 0.361,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "6a3842beee8da6ee9c8cfa8986d763d340e447162aca4343ab943d55809cb113"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:10.218749+00:00",
+    "request_sha256": "edb0856b1639cbbcd00eb8d7032429dbf5fc4a2c2c1ee20dd76b74fe9dd656f9",
+    "input_sha256": "d246c7dae5d84ce53b2dd7268bed38dcaddbfdcd848de07cb2c68b20e296a2df",
+    "elapsed_seconds": 0.526,
+    "parsed": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 200000
+    },
+    "response_sha256": "88f00b95470796691925f4646f3efa6e083def0f4284471ca0fda0fdd7fc2b3d"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:10.602364+00:00",
+    "request_sha256": "c15d04c98676deb16ddfcc9e25e56b8252ef0bd0f75f795aa30b16fbb50fe8f9",
+    "input_sha256": "8c8ee384737a0b5cf3bea20d9cc7d3bd81b5d28119872111a2bf63b0d3726b07",
+    "elapsed_seconds": 0.383,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "51db893c9c5bf4a22df60e280e3a6c64b93d8fa495d11ee012845cc200352ee3"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:11.005641+00:00",
+    "request_sha256": "d968295f094228ab4ca369e34c1852cc38e1b459bc6ae60a95e6e726499f5c79",
+    "input_sha256": "0bbf9e548c04d46d31708f945f000f80751f08e9f45cec1daf65a1910b45970c",
+    "elapsed_seconds": 0.403,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "10e59b416df67da32b63e332d7a0c37123f8450d72afff7ee53e7bff2f3f2c96"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:11.528389+00:00",
+    "request_sha256": "20e2d04891ee0c179f03cd5781841d19051c8792a0edf7772386042c208cba3b",
+    "input_sha256": "d2167d9f98f20d88814de8c52018283330311d812c47454570715c081e9027fb",
+    "elapsed_seconds": 0.523,
+    "parsed": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 300000
+    },
+    "response_sha256": "3c64ae806a4d811132847014067d95953ca75fcffe2a8839be309aca19728854"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:11.878314+00:00",
+    "request_sha256": "06c6b8405a558bb6e91e9a40cb9af533b79516ec917167c75e4f694af48a6650",
+    "input_sha256": "8f0905bbe74e8f5c2ae6cb3752a087b98f327d9a92d031036063a8df54546a41",
+    "elapsed_seconds": 0.35,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "39609870a9c2d30e48862ef7d25d82d4d9aa65996f767eeaf5d8bfcfcd189c0e"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:12.280830+00:00",
+    "request_sha256": "8e7aefdd41eba86786c70ce65e75401c63356e711637a69b33d9634bcd9aa47c",
+    "input_sha256": "56dd09d50674254331e6d205cc575440b3273b4ebc1c13e0557c15e1b9dcdebd",
+    "elapsed_seconds": 0.402,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "4f9b34be62936450e4128759f0b7a7de5fb5f59aa87c8ba18ab695c507e70c3d"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:12.801428+00:00",
+    "request_sha256": "f6203777bd8b51b0a950cac60c37ac6b30f5cccbbdf8244a9994cb000ee97839",
+    "input_sha256": "614fd9921f32d4003b3b94c02cd99af124a0e05630ceef46cc090e7ca8e28346",
+    "elapsed_seconds": 0.52,
+    "parsed": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "response_sha256": "bda770794a58c5f40fc121215b6257a00da2896603a68030ac4eee1e0409d3de"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:13.181766+00:00",
+    "request_sha256": "bbb1008e7ac398576f26206837fcd753020a7ff7025cd1ea7c2d4d04496e1633",
+    "input_sha256": "a08079252fb4ccdac57f0d7654dad300bed8eddd68dd95d6144553ef94964e70",
+    "elapsed_seconds": 0.38,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "8776b8660525f3535cd5635fb384b6346237fc64b4070c31c1a0b99378342170"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:13.585633+00:00",
+    "request_sha256": "866cca135836ddc091eb3a247424dde71ce3131b0ab59b325d1c5fb176b11436",
+    "input_sha256": "19356b52d4a6ef52d9670907a6d8c9f9e51e93422bca87be866462832f25740c",
+    "elapsed_seconds": 0.404,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "8b71b2f9e0dd88be26313903b739604d1218f91596eecb619e5884f1f1887e38"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:14.263759+00:00",
+    "request_sha256": "3d94b98940e2cf5167612a07d040a5776249314cb38496670c07f7c9da487fdd",
+    "input_sha256": "aa45d761341a00764197ff46d28d072a1defb726778a9002e55125e6ca3af2be",
+    "elapsed_seconds": 0.678,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 400000
+    },
+    "response_sha256": "2e63762ff43317e8b7d1c77c00b17b383ebabba5e070436d5b6643079b2d19b3"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:14.656714+00:00",
+    "request_sha256": "65932f0dd4327a201e5fcc56e0437ca69de4004aff3736bf322ae83b94f5064a",
+    "input_sha256": "3a18a653d7c376530e37282044a80f203da2c7a1c69f320712fcc0533d9f5cf8",
+    "elapsed_seconds": 0.393,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "1ead22974eeb2f2cf0aba8a908a959e7798604121c0c24d72c4647dfa4ed31ae"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:15.030758+00:00",
+    "request_sha256": "e648def395b4f4e4893fa6d83eed7024626015ea0945c37fd0194aac1e404a27",
+    "input_sha256": "9297b734dfcd25418a8dc0f1ee938a126bf641a84135104f1ee3e9c22a3929ea",
+    "elapsed_seconds": 0.374,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "1fe5128c947ba026500a70eb390c599b55fde2e887cbd2ba4f2e23beb2d4164c"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:15.705103+00:00",
+    "request_sha256": "db02b799d690aac7113d7e88af878ef039f53e650be614f48999beeaa7c1992a",
+    "input_sha256": "f436c7112ef01ed7832370f130fdbb8e0dcef8f52a75474b55ac760b1bdcfbcd",
+    "elapsed_seconds": 0.674,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "response_sha256": "71b8808b7a6e4339afc45cd5abad56a44c47b9d20244853bc87724563b7d9b2c"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:16.067402+00:00",
+    "request_sha256": "6b0cdc8f9ca92008dc738c375d974ef33b210332668cda13f1deb502ad82f376",
+    "input_sha256": "164832567becdf6972f981fd0cff29004e013a46fb05590952c5923145db6c78",
+    "elapsed_seconds": 0.362,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "93c50ca493b3c7bea943e12a12ba534cf4e8c219e929feb5ccb3c254ec8e1d70"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:16.472513+00:00",
+    "request_sha256": "610213be9e25728c4478ce1536fc3dc11cce4ba4e0dd036443f6556d109e0f13",
+    "input_sha256": "8a82ba331037473e804079da3db6f0aee650441b6668a127a0c55f6407a3df79",
+    "elapsed_seconds": 0.405,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "8aba127579b17f58617970eb8b9a84484fb7e862472c981fb8432aa97d40f49b"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:16.997627+00:00",
+    "request_sha256": "8618d4f3cde6f0df15c0a90851de2fb2090b8038b94147bb456a7332d9d2f63a",
+    "input_sha256": "b05b4d28afff381baa293f012cc8a61b6332cbd0e10b1d4e4f0f654b142c7314",
+    "elapsed_seconds": 0.525,
+    "parsed": {
+      "status": "ready",
+      "joined_on": null,
+      "asserted_cap": 400000
+    },
+    "response_sha256": "3e7ab53523a584e8b7881a1ad684df1d21b6726b5ea35b817614c675530129d9"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:17.384835+00:00",
+    "request_sha256": "502d5d48099144c9870467c9af2b11369be122e5f27a811bec2fcbf898f3cd17",
+    "input_sha256": "ccd5a98a11a87a0a59107b292b81a43107268e6d32293b6b89c408c58c9ec478",
+    "elapsed_seconds": 0.387,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "68464102ce4eacdf6bb0ac0a9fe86514b6b634bb264099c96a1521ef125ddb8d"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:17.802097+00:00",
+    "request_sha256": "f6525f2b8567b68302d40a1bddb4efd6aac421618bec904bd7ad1b162e675b4e",
+    "input_sha256": "0813be6f88a37f31b6a09b570052f7179cdf13171cd6017f7eddd10f66be3f0e",
+    "elapsed_seconds": 0.417,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "503108bfcf76190996a29d2a1e511437a86e54248ab76121e0503b2905056052"
+  },
+  {
+    "id": "iso-date",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:18.466645+00:00",
+    "request_sha256": "815c91ad89b9acb3e9b71b3c58db17e63d8b34342a00d88c2e71af1727b25f18",
+    "input_sha256": "493aa943c861d588b930da45cb1291d363a7520bad1556f0f93025470d97b593",
+    "elapsed_seconds": 0.664,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-31",
+      "asserted_cap": 400000
+    },
+    "response_sha256": "43009ebe2fb840e04b01c4185f34d97271fb706e1fe6195690df90c6fa07fae2"
+  },
+  {
+    "id": "iso-date",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:18.848160+00:00",
+    "request_sha256": "06de390b395de864c139aac32e2241b9a07e2d690d15d4efd2450f573cd16e83",
+    "input_sha256": "837066fe939a95423da0fc69d659eae435d7319d2fca860001d73422693d28f1",
+    "elapsed_seconds": 0.381,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "4413d3d522ae291126d6b9c50a876ff92c3e38ff316d132f8830a1c6e36b7eed"
+  },
+  {
+    "id": "iso-date",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:19.215352+00:00",
+    "request_sha256": "33a425f02d8bd8a76d2475126b557672ed0d46c43d9d5171e1c75166ca876564",
+    "input_sha256": "b3515fb5fa533e7a8dd519954bcefec47f37d052d32a8d7191ed381fe3ab355b",
+    "elapsed_seconds": 0.367,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "ffc3a39f2b44dd6173f8625f51d3f78d00e288fbafd7ccadc6b8b1e8ebfd95b1"
+  },
+  {
+    "id": "stable-false",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:19.906990+00:00",
+    "request_sha256": "67ab7ed0dfeafbbbbc60e58b9c8effdfa905b92e81e299b5af263a72e93da163",
+    "input_sha256": "6e7025b1da275cc5298a25b611a6a6f3621cda42f4b14010b3309d40a1cdc7c1",
+    "elapsed_seconds": 0.691,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-04-01",
+      "asserted_cap": 200000
+    },
+    "response_sha256": "0f41982c8eb171907e7067a80c582805298c16e6903ba58aa45569e7e95c6b03"
+  },
+  {
+    "id": "stable-false",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:20.301062+00:00",
+    "request_sha256": "864eb417fdf330fae4076def7e93849473b734d91a52fdfd38c0a7fcf9ea73cf",
+    "input_sha256": "565c7e302b17583eae24477478b699b9a47ba6961d1aade87e282d7af690a1b1",
+    "elapsed_seconds": 0.394,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "6c4b9502682d73b54676a11f9c61a1eaa27bb335f986a6697dbc89fc4d54ec56"
+  },
+  {
+    "id": "stable-false",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:20.667316+00:00",
+    "request_sha256": "0b649393163eb921defe9a6dccba783d0b5b447e97786d718a8d0bcfb10387ed",
+    "input_sha256": "9e50315914f74eb853e505e2bbc31fb9020a653f7d10d2ea282fd21a493905c1",
+    "elapsed_seconds": 0.366,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "cc4795f12aacfd2e8ae75c714c10ae93e2ae49e1ae3ef611045808163abe445d"
+  },
+  {
+    "id": "money-notation",
+    "stage": "slots",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:21.358463+00:00",
+    "request_sha256": "f5165f28ad26117fed828ec4ac40de970c6001aba84285505b5a3efafd8abf38",
+    "input_sha256": "ecebe2c1769be60992102e140619e60c53891d52187db0890b41c57cb0b1c243",
+    "elapsed_seconds": 0.691,
+    "parsed": {
+      "status": "ready",
+      "joined_on": "2025-03-30",
+      "asserted_cap": 300000
+    },
+    "response_sha256": "4c50a6ab647997dc9d119f1ca22ddb8f64be4346fbee76711f9eedc16e3a7564"
+  },
+  {
+    "id": "money-notation",
+    "stage": "before",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:21.716441+00:00",
+    "request_sha256": "17e420ce355917a945bdd21baf52160f4e34fd4e6d61badf063e05a687cfef8c",
+    "input_sha256": "95ae932693dbd02e5b7530266f3e64d36e5dd5ceb3253a9621b3e27e5e1b4476",
+    "elapsed_seconds": 0.358,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "8ac2227699e900bc94ca112f02b435d00884dac14edf778e50c61ca3bf35daf3"
+  },
+  {
+    "id": "money-notation",
+    "stage": "after",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:22.111475+00:00",
+    "request_sha256": "bc0d4a450dadb91748df438e3fc4449b89ade76f686d33f0dbeeb48f23067052",
+    "input_sha256": "5af4ecab872147eab84a7ddf32d2c82b076e37afe1899fc54e590a0ded4f5f15",
+    "elapsed_seconds": 0.395,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "0262305c3523ce63cdf3025364a777030a8a703aa475bdfe20912863f9ad10b7"
+  },
+  {
+    "id": "boundary-1",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:26.442524+00:00",
+    "request_sha256": "201494a3007754372d3fcdd3ea9b07b4ae2965548d30320e225617264a4a7afd",
+    "input_sha256": "7d1e7eefa1ca72a8a1bf6335f46149b476cb533a9ac674da0925f8868812220f",
+    "elapsed_seconds": 4.331,
+    "parsed": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "response_sha256": "5fe1349a67cc118ea1a9cd859e5c5cb59664a9419b55ad4695bb50a0b96fe6be"
+  },
+  {
+    "id": "boundary-1",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:26.664982+00:00",
+    "request_sha256": "0f1d8e7ab20b8205d7c530685a1dff312f8365e6a76beafc84eb5b2c9dc09d92",
+    "input_sha256": "4de21ab8289bfa454af7cde98cac6cf46cf68b28fd42076b9c44081a5af991f8",
+    "elapsed_seconds": 0.222,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "7d4846431c2376c3647b4eab1330d9e33a098deadfe5b97a199c6683312ef419"
+  },
+  {
+    "id": "boundary-1",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:26.860578+00:00",
+    "request_sha256": "5bbc85c36a70afc6ea532b9084fe5deaff06543430a662747f312fb43f1a7b58",
+    "input_sha256": "78d82ec8d6b7d6aede19a72c2e0bf4f3135a8e658ad5b1f6f7e62f8cf5c32ff5",
+    "elapsed_seconds": 0.195,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "04629a9ecadaf2b8a1500bed02006a9753498e0c64c4fa26431ae1fa27ce16a1"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:27.412967+00:00",
+    "request_sha256": "40d0acbbcdd4a4725b98b6edef6d94c75d5286e039d9fc5caacc0688a70d860b",
+    "input_sha256": "ca412e1e23a87cdf0248f944d02543ba5b84696be915db30819d46337a429fde",
+    "elapsed_seconds": 0.552,
+    "parsed": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "response_sha256": "ebc5dd37ee96e1821ccd1400a78d942a247099d4808829685c2f87e08a0d591b"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:27.572714+00:00",
+    "request_sha256": "124824c303fa99558b7b22f1a8e3e6bfcee30e00c441ae3765a972c52e44f31e",
+    "input_sha256": "0d2458737a26c20688d46e8b047c1ec539f55d2591b68bc467ec522c3cf4a277",
+    "elapsed_seconds": 0.159,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "5f750bae99f8aa4bc0b1041c9791d5e59e7ae3d0822f5475fbc91cf530d7125f"
+  },
+  {
+    "id": "boundary-2",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:27.732592+00:00",
+    "request_sha256": "24a8166609b9dff38ac90ae51410d337c1446ff01e0b158368953d54730aef52",
+    "input_sha256": "41ccd0ad9fde06e8ed2ddebe38b946446315d78a57bf8835e0e9cba59c692a7d",
+    "elapsed_seconds": 0.16,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "e241dff81abb70047a677c1729a90058a4a6ae4e9ccd6d51c573a7857e5fd644"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:28.275411+00:00",
+    "request_sha256": "b0cb225f0963fce4306caa7e6faa45ca715f1230a2ae04fef0f0aae6490315f7",
+    "input_sha256": "3a4ca6cf3768af066d7e9b071e530c61524db1c4d3948087c651eef52b3ad327",
+    "elapsed_seconds": 0.542,
+    "parsed": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "response_sha256": "81efccba2091ca15eb42ac1eb585fd17751cabf19e33d34c7c850198c5c62687"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:28.470519+00:00",
+    "request_sha256": "79e1d9102cf52bbbf8318186329a8adbd15b7bdf4ece4309b685500df0e0af16",
+    "input_sha256": "48f00b5ceba990e3ec46110f07214fd4ef03c5ffc7e127b6191d2165251ffbab",
+    "elapsed_seconds": 0.195,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "70242eaa93b1f4e72c0af9e38ea6369b18d283dab855fde32fcc3f09ba7c8dc1"
+  },
+  {
+    "id": "boundary-3",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:28.626237+00:00",
+    "request_sha256": "cf1736abe6c8013f3931063c0d9ec0329dfa40c79f67453a2ae5f16519236c76",
+    "input_sha256": "e540de8f61784b355da8d815a41981f1702cde5f6f9903502ce6c8c70245004e",
+    "elapsed_seconds": 0.155,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "aad6f13d5c77f042302979a6c775c253cb2ce3f876ee89722472d6e00c8f814c"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:29.173501+00:00",
+    "request_sha256": "b5e82a297cb3954cf87018a0ac128116008b58e6eb46ab5c772bea723d30405e",
+    "input_sha256": "6958fe32fd9897655114669ae3e119e4bfbd234988b7b2bfb04a1f19727f9eb9",
+    "elapsed_seconds": 0.547,
+    "parsed": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-03-31",
+      "status": "unsupported"
+    },
+    "response_sha256": "c05d43f9642038bd13ef514537271ed49ec197a653934f13380de53e0a688e0d"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:29.385043+00:00",
+    "request_sha256": "8882678d852c9358dd9f50c0af67e7fc3d636b7e569c3e3ad46ac25d6eef2a7c",
+    "input_sha256": "01b64321acad76270a1f7693b50ca8dd571ab91ae05351bbaa25878fc156f511",
+    "elapsed_seconds": 0.211,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "f8f0580fa71aa40675db804d3e77c6283278e1f534e62dc1de6f71bf495d45f5"
+  },
+  {
+    "id": "boundary-4",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:29.586634+00:00",
+    "request_sha256": "33a53e40aa683d68c42a8cb8a77f8444eece1606f6d0fa91e3417ab5cb7002cb",
+    "input_sha256": "475613db55b111b043f79fe0beb8bf6c99ec29a0d010a3e3849bf84d5dc32258",
+    "elapsed_seconds": 0.201,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "3b05f61224c935446197e360c48bd6f175cc6a5ab168fa08d9dce28c19f77ac8"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:30.164281+00:00",
+    "request_sha256": "12f1208c254c98c538a1230c146ff149c94c77064bacdec7e8eaa3d20807eb74",
+    "input_sha256": "ee5b3af717df35859abcfd69005a1bcaed4dccc96402af0b0411cbcafcb50212",
+    "elapsed_seconds": 0.577,
+    "parsed": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "response_sha256": "9a32680ecaca0c41af3abefb85acedcaf04c9cb8a12980d621a1dc1c1370d6a1"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:30.340742+00:00",
+    "request_sha256": "77f0f3346c05c5b190c383ca36b870692326bdda837a4024c4fc6f481aaaa219",
+    "input_sha256": "95e88add2bf195a5a1694b75a02d71b1f51b7a3cb482ff106921a6869156bf7a",
+    "elapsed_seconds": 0.176,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "b84026f0b6f82c608eccaed32237c372bbca6503fc0e27cb254a0117a88f34e2"
+  },
+  {
+    "id": "boundary-5",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:30.497871+00:00",
+    "request_sha256": "7b3ef9610e3b85a48eecd9254790f8034fede3c2a11347ca83863f56105c934c",
+    "input_sha256": "9aa6bb1a4b8a5ee3b779c5beae109be16e59bf2d12aecf7729c5b4763a45889a",
+    "elapsed_seconds": 0.157,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "12c52915f27693e5ffebc80d4a2548793da8eca404d8740ac8f34a37105cf706"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:31.050159+00:00",
+    "request_sha256": "f6a12ce33281c9896f28be149331f93c43407979f56a4a68b9d341d642c50376",
+    "input_sha256": "be05cf8b9202309470141a8a30715b0c9a781212db8c9d2aeade7b16f0ab5c02",
+    "elapsed_seconds": 0.552,
+    "parsed": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "response_sha256": "5582131f1cfd5e4821d2f9607692e4dcd47f7261970a9e2f73181df37c017ee4"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:31.252028+00:00",
+    "request_sha256": "990d0bab95b3e05d4a9cdbb007e993f8d8b62f7c582c4faadbb2ddbc7e2aeaf8",
+    "input_sha256": "f00ec7b9b590b7c5c280d075061808c9c1fb78c2721770f9bdb1b7bd6a9b65e6",
+    "elapsed_seconds": 0.201,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "178adcf47d9e4d430d7fdcc4a9f69a7673e75b586e653fa098645ee080a1c19f"
+  },
+  {
+    "id": "boundary-6",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:31.415213+00:00",
+    "request_sha256": "8a5b01a4df75629b27e7984d8fa50bc2c1186a5f7ee9c9416e51645038a34203",
+    "input_sha256": "7557bddab8e800c2c27d276bdd2bf25ab2cbc58c279dc5f674ed011bb90007e2",
+    "elapsed_seconds": 0.163,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "58065024e2b7079e66a8f66f9e2c4da800face70ba8c2208cf464f2c571dbd6a"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:31.966533+00:00",
+    "request_sha256": "db9426733dc177de1d4635e2a738c5ea75fd1d8a22c261f12952121d27be2916",
+    "input_sha256": "6e7025b1da275cc5298a25b611a6a6f3621cda42f4b14010b3309d40a1cdc7c1",
+    "elapsed_seconds": 0.551,
+    "parsed": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "response_sha256": "42b123825b285f25a174f8da5ecf218494d1d1956f093d9a71b1a4c307261106"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:32.162132+00:00",
+    "request_sha256": "a6822484bbb56ee26d869223d0a015019bf9bfb30674f4451c15e59d97167b75",
+    "input_sha256": "565c7e302b17583eae24477478b699b9a47ba6961d1aade87e282d7af690a1b1",
+    "elapsed_seconds": 0.195,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "6b29a345c6048fcf33d54ec0f9e7113d1974f8ac3a397a235a297006813f0dab"
+  },
+  {
+    "id": "boundary-7",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:32.356367+00:00",
+    "request_sha256": "f4fa74bffde506c2ef76573bb851ceb48f4b2c18d8e97edf27af8ff1950a0cac",
+    "input_sha256": "9e50315914f74eb853e505e2bbc31fb9020a653f7d10d2ea282fd21a493905c1",
+    "elapsed_seconds": 0.194,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "942a48dfa08e77abeda3cbf099114d24373a24725fd5980753f82b4a9d367cf1"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:32.916419+00:00",
+    "request_sha256": "b1af43af37748a45d6bd3c4fa2ebf43e8a6e00b58226bee20b43331faa813e66",
+    "input_sha256": "f22d1d4da80225723a6390f75b886e6c39d9510fc8eb67500ad940e212caab3d",
+    "elapsed_seconds": 0.56,
+    "parsed": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "response_sha256": "f176d1dbb650f4b86427e6d6ad952cc3d29f4b8fbb37cf979fe162e45c3a602b"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:33.090046+00:00",
+    "request_sha256": "661f3c6d591ce42d09dc9ffd5fa639adedf5c0786db6169d562c5587cd336fd0",
+    "input_sha256": "abf3a4e2e0387c8c981fc691b8f7d37ba0d90bb168e6852000add36c300d41e6",
+    "elapsed_seconds": 0.173,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "bd10e28d04a7f9f94a4ef4ca35423040be92efd7700b31b688220a49ef36e6e9"
+  },
+  {
+    "id": "boundary-8",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:33.259458+00:00",
+    "request_sha256": "1a47967fdef0cfb9777f3500d6b90b63480287026058ab9369c81bfcf0ff7591",
+    "input_sha256": "254b85d86faf4533beb89f9497de7c6a074ee447e566b5698cc0468fe9670ce7",
+    "elapsed_seconds": 0.168,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "9a29dfc36329f35a586f1928f8d6911074d0c52550fe4f3c268b5fc305e217f4"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:33.802640+00:00",
+    "request_sha256": "3d5ce9a596a348229f787c719b866884e2aa3bcbfe7aedd202ec3197bdfaca99",
+    "input_sha256": "f7498f045bcac4516828f61c9f19e16375976f53c7edf16692f96a8565893fd6",
+    "elapsed_seconds": 0.543,
+    "parsed": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "response_sha256": "95bf3202679cd7541eae8f44f8a7851c0f98da688e770cf284394cc1c8f70d69"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:34.000418+00:00",
+    "request_sha256": "53d2bde2ca617463368129f18c8d33cb4877fa8b0d4a3c0a610e7f44b4be5755",
+    "input_sha256": "7fc9d83c71748014efe4f930c5f0d53e8091eef4bd2ac4d67226bba33b450da3",
+    "elapsed_seconds": 0.197,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "2411afd020ad03da4c0b8b59e07db8040b1aabbd070142f868caa5841c9f8714"
+  },
+  {
+    "id": "boundary-9",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:34.163889+00:00",
+    "request_sha256": "c3528b1d68afea003952b756bd8ca31a5eb9e7ba118d198df6869a66504cabda",
+    "input_sha256": "5fe4cda91561df761a75987fa8dbf090784d7c0704734f13a2cc0dba6da294dd",
+    "elapsed_seconds": 0.163,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "3dc891af01d055e65bee883e85d9745fed4475d16035a8289843e860296278a9"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:34.639086+00:00",
+    "request_sha256": "b48c0c40c45c68d00471f431c69933f7adb5ef02c9a8ba6203a4c71472c114f1",
+    "input_sha256": "d246c7dae5d84ce53b2dd7268bed38dcaddbfdcd848de07cb2c68b20e296a2df",
+    "elapsed_seconds": 0.475,
+    "parsed": {
+      "asserted_cap": 2000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "response_sha256": "352b3e63d82821cfb9a97ae379bbce95f4a64a465f9987e96d183c0f1a6fdd6c"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:34.844588+00:00",
+    "request_sha256": "8656593be61dd343fbb6449219737e1788ea214640825e2642c1dd956d65aff1",
+    "input_sha256": "8c8ee384737a0b5cf3bea20d9cc7d3bd81b5d28119872111a2bf63b0d3726b07",
+    "elapsed_seconds": 0.205,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "43855ad8e0906b33a76d8185cc6654c6583932aa67b26fbcaf68ca7ab00fda74"
+  },
+  {
+    "id": "boundary-10",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:35.041808+00:00",
+    "request_sha256": "4ff63285828846816de9cce2add4ba2a086408ee48bc6ef5e10710f1c38cee99",
+    "input_sha256": "0bbf9e548c04d46d31708f945f000f80751f08e9f45cec1daf65a1910b45970c",
+    "elapsed_seconds": 0.197,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "f260ecb9ce1b16329b0607ed62b05267601d7c9f15ac90a861c28924e1050583"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:35.502816+00:00",
+    "request_sha256": "fe3da1380955fd55620b3c543fb17d9208b59d526067679803befd0b9ccb451b",
+    "input_sha256": "d2167d9f98f20d88814de8c52018283330311d812c47454570715c081e9027fb",
+    "elapsed_seconds": 0.461,
+    "parsed": {
+      "asserted_cap": 300000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "response_sha256": "30d7dd805a47b3843988f59ddd223e2c3e0a035099fd79a239d269ac92284fa1"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:35.659945+00:00",
+    "request_sha256": "361113726d0e3410c1f8ecdb7356abbe25bf67d7e8f7f25fa1ac0513f2324444",
+    "input_sha256": "8f0905bbe74e8f5c2ae6cb3752a087b98f327d9a92d031036063a8df54546a41",
+    "elapsed_seconds": 0.157,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "2e17f6a8f6296d81a4e98c675dad72ff9e61d41b0b67e4f459e8d9aad1818c19"
+  },
+  {
+    "id": "boundary-11",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:35.827073+00:00",
+    "request_sha256": "5c2b092ec7cd43abd04318a3d57834291fbca95561f4210558480892cc81d3cd",
+    "input_sha256": "56dd09d50674254331e6d205cc575440b3273b4ebc1c13e0557c15e1b9dcdebd",
+    "elapsed_seconds": 0.167,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "8f93394906e9cf10973a2d7eafd0b70ec3fa7b17d0b5165f484ddfdf49d5a994"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:36.292970+00:00",
+    "request_sha256": "2ee33b8ba3ad41342e361f97f4be92853acce39f4eea97e77d4cc470e2761619",
+    "input_sha256": "614fd9921f32d4003b3b94c02cd99af124a0e05630ceef46cc090e7ca8e28346",
+    "elapsed_seconds": 0.466,
+    "parsed": {
+      "asserted_cap": 400000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "response_sha256": "7ce860b2663a4498459f1b57e61bcdac257ead2a870ae3c9f3889199a8cba7be"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:36.487935+00:00",
+    "request_sha256": "956ad481cf35d27247ae2807419f35bf3c04d159313ad03e2cb719ad8aa43e79",
+    "input_sha256": "a08079252fb4ccdac57f0d7654dad300bed8eddd68dd95d6144553ef94964e70",
+    "elapsed_seconds": 0.195,
+    "parsed": {
+      "decision": "contradicted"
+    },
+    "response_sha256": "d78203ac1b111ff1a25d974edf3e864472b51809ffa5769746aa072c6b403795"
+  },
+  {
+    "id": "boundary-12",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:36.645871+00:00",
+    "request_sha256": "db4d54e699b3c4f82d428b01669fb7771acd8d8769ffd745dd55757e321eb12c",
+    "input_sha256": "19356b52d4a6ef52d9670907a6d8c9f9e51e93422bca87be866462832f25740c",
+    "elapsed_seconds": 0.158,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "0fdf22f323e96b5133cd69e807190d3ac08f81672c9cbcd43b7c7b15850b22d7"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:37.208368+00:00",
+    "request_sha256": "16c3eee8a5bbe0bada06722072f78da98c62b537ad8ec6fd5ed3ebc4096c4d45",
+    "input_sha256": "aa45d761341a00764197ff46d28d072a1defb726778a9002e55125e6ca3af2be",
+    "elapsed_seconds": 0.562,
+    "parsed": {
+      "asserted_cap": 4000000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "response_sha256": "1993c4fde73658552881997040fafcde0995cabf4c5d547e79d8207103681e9f"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:37.418711+00:00",
+    "request_sha256": "30edcd45f4295e07fe2c7ab1de05ad7684a9a1f8ed78a5a4b2c34edf1c692712",
+    "input_sha256": "3a18a653d7c376530e37282044a80f203da2c7a1c69f320712fcc0533d9f5cf8",
+    "elapsed_seconds": 0.21,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "e68817354209090669d586f59374ebdcf5cbcd695f8af2c81a0b1617fd019a04"
+  },
+  {
+    "id": "application-distractor",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:37.590304+00:00",
+    "request_sha256": "cc5efb15a1b2d3262fc2cf1d2f6c6ff4dd23d090f14897a2521bb6ff85017e5c",
+    "input_sha256": "9297b734dfcd25418a8dc0f1ee938a126bf641a84135104f1ee3e9c22a3929ea",
+    "elapsed_seconds": 0.171,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "840240b311ed4ed6565049bfd6be3836a8f0c38bfd49d079bf336a818c781034"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:38.149748+00:00",
+    "request_sha256": "3111c650e7e21f382160542d536c256329198ff70215a09c77dacc3e60e9c637",
+    "input_sha256": "f436c7112ef01ed7832370f130fdbb8e0dcef8f52a75474b55ac760b1bdcfbcd",
+    "elapsed_seconds": 0.559,
+    "parsed": {
+      "asserted_cap": 3000000,
+      "joined_on": "2025-03-30",
+      "status": "ready"
+    },
+    "response_sha256": "e40265b367f420b082da305dcc640d225083289de599a82faab684cba201f517"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:38.313117+00:00",
+    "request_sha256": "21255794b56b7f261b870ec51b0afaa4e364d491b5a1085af3be1c0bd5d4131b",
+    "input_sha256": "164832567becdf6972f981fd0cff29004e013a46fb05590952c5923145db6c78",
+    "elapsed_seconds": 0.163,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "9848501cbf605f97b55d2139f2e0905677dd7d652317081870414970244e08ca"
+  },
+  {
+    "id": "parent-distractor",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:38.490199+00:00",
+    "request_sha256": "ab342a53bf43a520e6384d0473a18b65dc2e90eb772d19f08914a090c43cb398",
+    "input_sha256": "8a82ba331037473e804079da3db6f0aee650441b6668a127a0c55f6407a3df79",
+    "elapsed_seconds": 0.177,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "51297fa4e0577f98caee25d9aa1f6f20d4bb10a94736d04bab361bfcb2331ea7"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:38.950410+00:00",
+    "request_sha256": "a06f1e259c7fb435f45adf6936ceea5953db25586f91c984710c7d435ffaf7c6",
+    "input_sha256": "b05b4d28afff381baa293f012cc8a61b6332cbd0e10b1d4e4f0f654b142c7314",
+    "elapsed_seconds": 0.46,
+    "parsed": {
+      "asserted_cap": 4000000,
+      "joined_on": null,
+      "status": "unsupported"
+    },
+    "response_sha256": "a85405d71436fdeab1cc58860b80cf6a1aa464ffa9bc38b1d9c2ba32fdf3939e"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:39.138228+00:00",
+    "request_sha256": "547e59986f43c116c623c62d03cab064229ca55d4728710df7202d1b5ceb983b",
+    "input_sha256": "ccd5a98a11a87a0a59107b292b81a43107268e6d32293b6b89c408c58c9ec478",
+    "elapsed_seconds": 0.188,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "a7139fa2ad4c7dce9bb3a2fb944ff611d3923e841fcbb7cb063e6e74052deaea"
+  },
+  {
+    "id": "unknown-with-application",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:39.298254+00:00",
+    "request_sha256": "d1c92b2ef7d14ccf54fbba8a80f106a4d8d7ad32f2fae80a366831b56fa36199",
+    "input_sha256": "0813be6f88a37f31b6a09b570052f7179cdf13171cd6017f7eddd10f66be3f0e",
+    "elapsed_seconds": 0.16,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "1e62bc503429dfd46e16774d34eae74e88e1a3e8be458f0e41b4dc4b6509d110"
+  },
+  {
+    "id": "iso-date",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:39.832453+00:00",
+    "request_sha256": "fed950a424a84cf3fa4f1b6ea6afd03a25d1c8443306aa8ea8877e6701344083",
+    "input_sha256": "493aa943c861d588b930da45cb1291d363a7520bad1556f0f93025470d97b593",
+    "elapsed_seconds": 0.534,
+    "parsed": {
+      "asserted_cap": 400000,
+      "joined_on": "2025-03-31",
+      "status": "ready"
+    },
+    "response_sha256": "6e231a963a0c5da8f959a015ac283f0f01601f52cfe0a540575edf263fe670bc"
+  },
+  {
+    "id": "iso-date",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:40.030431+00:00",
+    "request_sha256": "535e146f06b72362b66996bcded7d296778af6443c7885a753a1ce1e97ad872f",
+    "input_sha256": "837066fe939a95423da0fc69d659eae435d7319d2fca860001d73422693d28f1",
+    "elapsed_seconds": 0.198,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "8ce2ccf9a98f0791487d6d520cb2dc341e1a5e37ed2fbedd27086f5b743a896a"
+  },
+  {
+    "id": "iso-date",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:40.203628+00:00",
+    "request_sha256": "d62ea81d0f984e108127f5a263a04be312b0159fcef70cbc45f0fadd58dd7429",
+    "input_sha256": "b3515fb5fa533e7a8dd519954bcefec47f37d052d32a8d7191ed381fe3ab355b",
+    "elapsed_seconds": 0.173,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "5756987658c6089d78877cc2dfe86fd3920afd4e0fa97513d8f51bc274f649fc"
+  },
+  {
+    "id": "stable-false",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:40.751532+00:00",
+    "request_sha256": "db9426733dc177de1d4635e2a738c5ea75fd1d8a22c261f12952121d27be2916",
+    "input_sha256": "6e7025b1da275cc5298a25b611a6a6f3621cda42f4b14010b3309d40a1cdc7c1",
+    "elapsed_seconds": 0.548,
+    "parsed": {
+      "asserted_cap": 2000000,
+      "joined_on": "2025-04-01",
+      "status": "unsupported"
+    },
+    "response_sha256": "aa6cb7d85106f652480496022a3d63f8cfad7cc252fbfec9ea5dd3fc7812901d"
+  },
+  {
+    "id": "stable-false",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:40.953579+00:00",
+    "request_sha256": "a6822484bbb56ee26d869223d0a015019bf9bfb30674f4451c15e59d97167b75",
+    "input_sha256": "565c7e302b17583eae24477478b699b9a47ba6961d1aade87e282d7af690a1b1",
+    "elapsed_seconds": 0.202,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "8d354ae44e7770cdde03d17100e2dff5dd528628df32691114ab29f233532419"
+  },
+  {
+    "id": "stable-false",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:41.154299+00:00",
+    "request_sha256": "f4fa74bffde506c2ef76573bb851ceb48f4b2c18d8e97edf27af8ff1950a0cac",
+    "input_sha256": "9e50315914f74eb853e505e2bbc31fb9020a653f7d10d2ea282fd21a493905c1",
+    "elapsed_seconds": 0.2,
+    "parsed": {
+      "decision": "not_established"
+    },
+    "response_sha256": "07467e48e63d951fba7622f5ea6c4fa597be8ce5eeadb2233c134ac2de07f177"
+  },
+  {
+    "id": "money-notation",
+    "stage": "slots",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:41.700895+00:00",
+    "request_sha256": "93aaaf761e5196dac7267c73a2c3689a2cc946b7ed677e752bd5afe2f073173e",
+    "input_sha256": "ecebe2c1769be60992102e140619e60c53891d52187db0890b41c57cb0b1c243",
+    "elapsed_seconds": 0.546,
+    "parsed": {
+      "asserted_cap": 300000,
+      "joined_on": "2025-03-30",
+      "status": "unsupported"
+    },
+    "response_sha256": "2c6eb89e94c0b268f4639dbd0f2ab9437bc923d59df7a4b4fcfcb59a2e902181"
+  },
+  {
+    "id": "money-notation",
+    "stage": "before",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:41.867956+00:00",
+    "request_sha256": "46d30e2351d1f3638035247d9c29c1a6d0b6cb98dce4057703823a15a6a45c75",
+    "input_sha256": "95ae932693dbd02e5b7530266f3e64d36e5dd5ceb3253a9621b3e27e5e1b4476",
+    "elapsed_seconds": 0.167,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "cad6269f4e9d1778dee1c9d51c76ccb6a5b010ca0581cb220841de3698a51a64"
+  },
+  {
+    "id": "money-notation",
+    "stage": "after",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T14:36:42.028462+00:00",
+    "request_sha256": "f5f75e1c04372104d594abcaf450290be72978352d6a0f4fd29e49a6af90256e",
+    "input_sha256": "5af4ecab872147eab84a7ddf32d2c82b076e37afe1899fc54e590a0ded4f5f15",
+    "elapsed_seconds": 0.16,
+    "parsed": {
+      "decision": "supported"
+    },
+    "response_sha256": "4911fff2fa4366188f2aa0e703dc2bc14c235d426bc8cda64fe14b9c0d853369"
+  }
+]

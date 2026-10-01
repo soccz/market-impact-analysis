@@ -1,0 +1,86 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0
+    },
+    "rules_raw_facts": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "rules": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "model_raw_facts": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "model": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "freeform": {
+      "n": 20,
+      "correct": 17,
+      "abstain": 0,
+      "joint": 17
+    },
+    "facts": {
+      "raw": 20,
+      "aligned": 20,
+      "n": 20
+    }
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 20,
+      "correct": 8,
+      "abstain": 0
+    },
+    "rules_raw_facts": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "rules": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "model_raw_facts": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "model": {
+      "n": 20,
+      "correct": 20,
+      "abstain": 0,
+      "joint": 20
+    },
+    "freeform": {
+      "n": 20,
+      "correct": 18,
+      "abstain": 0,
+      "joint": 18
+    },
+    "facts": {
+      "raw": 20,
+      "aligned": 20,
+      "n": 20
+    }
+  }
+}

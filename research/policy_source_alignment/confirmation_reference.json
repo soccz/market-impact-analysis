@@ -1,0 +1,231 @@
+{
+  "bundles": [
+    {
+      "id": "nps-basic",
+      "source": "nps-basic",
+      "scope": "명시한 신청자 연령 범위만 판단한다. 국적·소득·재산·연금·직업 등 다른 요건은 이 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 4670,
+          "end": 4676,
+          "sha256": "b5904d6d1b563216ba15145645e6aa5b6f7cb06ce4d6c254eb9b67a670cdf44f"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 65,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    },
+    {
+      "id": "nps-members",
+      "source": "nps-members",
+      "scope": "명시한 신청자 연령 범위만 판단한다. 국적·소득·재산·연금·직업 등 다른 요건은 이 평가 범위 밖이다.",
+      "source_spans": {
+        "E": {
+          "start": 4473,
+          "end": 4486,
+          "sha256": "a85cd8d99f1ade2b399c1e32f164bbe8ea53d4fe5a4c927b8119b47f085295ac"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 18,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "age_years",
+              "op": "lt",
+              "value": 60,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "nps-basic-1",
+      "bundle": "nps-basic",
+      "claim": "내 만 나이는 64세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 64
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-basic-2",
+      "bundle": "nps-basic",
+      "claim": "내 만 나이는 65세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 65
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-basic-3",
+      "bundle": "nps-basic",
+      "claim": "내 만 나이는 66세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 66
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-basic-4",
+      "bundle": "nps-basic",
+      "claim": "내 만 나이는 100세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 100
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-basic-5",
+      "bundle": "nps-basic",
+      "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-members-1",
+      "bundle": "nps-members",
+      "claim": "내 만 나이는 17세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 17
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-members-2",
+      "bundle": "nps-members",
+      "claim": "내 만 나이는 18세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 18
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-members-3",
+      "bundle": "nps-members",
+      "claim": "내 만 나이는 59세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 59
+          }
+        ]
+      },
+      "label": "supported",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-members-4",
+      "bundle": "nps-members",
+      "claim": "내 만 나이는 60세다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 60
+          }
+        ]
+      },
+      "label": "contradicted",
+      "dataset": "confirmation"
+    },
+    {
+      "id": "nps-members-5",
+      "bundle": "nps-members",
+      "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established",
+      "dataset": "confirmation"
+    }
+  ],
+  "annotation": "New institution after age extension freeze. Two manually selected age clauses only; benefit/insurance eligibility is not assessed. AI provisional references, humans zero."
+}

@@ -1,0 +1,34 @@
+{
+  "metamorphic": {
+    "qwen": {
+      "n": 32,
+      "correct": 32,
+      "profile_exact": 32,
+      "joint": 32,
+      "abstain": 0
+    },
+    "kanana-public": {
+      "n": 32,
+      "correct": 32,
+      "profile_exact": 32,
+      "joint": 32,
+      "abstain": 0
+    }
+  },
+  "official": {
+    "qwen": {
+      "n": 16,
+      "correct": 16,
+      "profile_exact": 16,
+      "joint": 16,
+      "abstain": 0
+    },
+    "kanana-public": {
+      "n": 16,
+      "correct": 16,
+      "profile_exact": 16,
+      "joint": 16,
+      "abstain": 0
+    }
+  }
+}

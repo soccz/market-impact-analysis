@@ -1,0 +1,882 @@
+[
+  {
+    "model_id": "qwen",
+    "id": "nps-basic-1",
+    "bundle": "nps-basic",
+    "label": "contradicted",
+    "claim": "내 만 나이는 64세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 64
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 64
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-basic-2",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 65세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 65
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 65
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-basic-3",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 66세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 66
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 66
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-basic-4",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 100세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 100
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 100
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-basic-5",
+    "bundle": "nps-basic",
+    "label": "not_established",
+    "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-members-1",
+    "bundle": "nps-members",
+    "label": "contradicted",
+    "claim": "내 만 나이는 17세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 17
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 17
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-members-2",
+    "bundle": "nps-members",
+    "label": "supported",
+    "claim": "내 만 나이는 18세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-members-3",
+    "bundle": "nps-members",
+    "label": "supported",
+    "claim": "내 만 나이는 59세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 59
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 59
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-members-4",
+    "bundle": "nps-members",
+    "label": "contradicted",
+    "claim": "내 만 나이는 60세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 60
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 60
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "contradicted",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "qwen",
+    "id": "nps-members-5",
+    "bundle": "nps-members",
+    "label": "not_established",
+    "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-basic-1",
+    "bundle": "nps-basic",
+    "label": "contradicted",
+    "claim": "내 만 나이는 64세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 64
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 64
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-basic-2",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 65세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 65
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 65
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-basic-3",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 66세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 66
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 66
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-basic-4",
+    "bundle": "nps-basic",
+    "label": "supported",
+    "claim": "내 만 나이는 100세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 100
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 100
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-basic-5",
+    "bundle": "nps-basic",
+    "label": "not_established",
+    "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-members-1",
+    "bundle": "nps-members",
+    "label": "contradicted",
+    "claim": "내 만 나이는 17세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 17
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 17
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-members-2",
+    "bundle": "nps-members",
+    "label": "supported",
+    "claim": "내 만 나이는 18세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 18
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-members-3",
+    "bundle": "nps-members",
+    "label": "supported",
+    "claim": "내 만 나이는 59세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 59
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 59
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "supported",
+    "rules": "supported",
+    "model_raw_facts": "supported",
+    "model": "supported"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-members-4",
+    "bundle": "nps-members",
+    "label": "contradicted",
+    "claim": "내 만 나이는 60세다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 60
+        }
+      ]
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 60
+        }
+      ]
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "supported",
+    "rules_raw_facts": "contradicted",
+    "rules": "contradicted",
+    "model_raw_facts": "contradicted",
+    "model": "contradicted"
+  },
+  {
+    "model_id": "kanana-public",
+    "id": "nps-members-5",
+    "bundle": "nps-members",
+    "label": "not_established",
+    "claim": "내 만 나이는 밝히지 않았다. 이 연령 요건을 충족한다.",
+    "raw_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "alignment": {
+      "money": {
+        "evidence": [],
+        "issues": [],
+        "patches": {},
+        "checked": [],
+        "status": "not_covered"
+      },
+      "patches": [],
+      "removals": []
+    },
+    "raw_profile_exact": true,
+    "profile_exact": true,
+    "direct": "not_established",
+    "rules_raw_facts": "not_established",
+    "rules": "not_established",
+    "model_raw_facts": "not_established",
+    "model": "not_established"
+  }
+]

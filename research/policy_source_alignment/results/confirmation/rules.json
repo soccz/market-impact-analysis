@@ -1,0 +1,420 @@
+[
+  {
+    "model_id": "qwen",
+    "bundle": "nps-basic",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "b5904d6d1b563216ba15145645e6aa5b6f7cb06ce4d6c254eb9b67a670cdf44f"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "qwen",
+    "bundle": "nps-members",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "6d4c41d768c225d67c4d039122dfab6d6d45a9dd5e11312c1de1fb3e6f1747c3"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "131dfa481968aed7602c266ac39597f5c67e7f4c3f4a52f8e0ea814ffbbf2822"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "nps-basic",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "b5904d6d1b563216ba15145645e6aa5b6f7cb06ce4d6c254eb9b67a670cdf44f"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 65,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  },
+  {
+    "model_id": "kanana-public",
+    "bundle": "nps-members",
+    "allowed": [
+      "E"
+    ],
+    "catalog": {
+      "atoms": [
+        {
+          "id": "a0",
+          "atom": {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 0,
+          "end": 6,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "6d4c41d768c225d67c4d039122dfab6d6d45a9dd5e11312c1de1fb3e6f1747c3"
+        },
+        {
+          "id": "a1",
+          "atom": {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          },
+          "source": "E",
+          "start": 7,
+          "end": 13,
+          "kind": "age_bound",
+          "origin": "source",
+          "text_sha256": "131dfa481968aed7602c266ac39597f5c67e7f4c3f4a52f8e0ea814ffbbf2822"
+        }
+      ],
+      "derived": [],
+      "warnings": []
+    },
+    "coverage": {
+      "covered": true,
+      "reasons": []
+    },
+    "rule_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "model_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "reference_policy": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 18,
+            "evidence": [
+              "E"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "lt",
+            "value": 60,
+            "evidence": [
+              "E"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "rule_equivalent": true,
+    "model_equivalent": true
+  }
+]

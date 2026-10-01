@@ -1,0 +1,20 @@
+{
+  "unique_saved_responses": 335,
+  "exported_records": 432,
+  "records_by_export": {
+    "repair": 24,
+    "confirmation": 44,
+    "transfer": 88,
+    "clarification": 24,
+    "transfer_repair": 96,
+    "explicit_logic": 24,
+    "development": 24,
+    "revision": 108
+  },
+  "models": {
+    "qwen": 166,
+    "kanana-public": 169
+  },
+  "note": "Copy/reuse across result exports is deduplicated by model, request, response and creation time; 17 development repair records are reused. No training.",
+  "unique_requests": 313
+}
