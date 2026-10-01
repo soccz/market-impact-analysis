@@ -1,0 +1,4023 @@
+[
+  {
+    "id": "auth-exception-all-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:28.353268+00:00",
+    "request_sha256": "2f077e1205ad60dd05b3d5acb1ae708ced8d9e27c3a2d3547416c812ca2c2b6b",
+    "input_sha256": "ab9f511ae4a6460be035cc6d714c76d0c14bb2e0abcef92953b74a21484cd0e9",
+    "response_sha256": "5d6a075810202ce9c4721394e24ad6f6405ea08d05549193a6c5e91bc7d00df9",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.916,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:29.152795+00:00",
+    "request_sha256": "bea02c83226df344277df3b8593c7c0589f5d5468d411007f4fa6919d9c85899",
+    "input_sha256": "f89e1fd8a3e169d32429ebdf66515ea5fd2c171d4f8d504e62e9c0714384a48f",
+    "response_sha256": "1bd7c5c976af17723f9a3f3d79848ee095b9a11fe31e6d4667b3e834d55c7879",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.799,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:29.987359+00:00",
+    "request_sha256": "b5bc8150a40187307029bb600a66bd5ebba6175409764c15e30c0348ce4ef68c",
+    "input_sha256": "837c4a3cd2abbd50ed0ff6e9bab710e3051aae008595dc9fafb9af3504dea912",
+    "response_sha256": "bea422df7c6ded65304befdf651d2109a6044c8074c1b72e900952aeae6b8369",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.834,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:30.642067+00:00",
+    "request_sha256": "05998ae1e7937c464085390b31b6908058eeb65a7024d583cfa6d97766aa88ef",
+    "input_sha256": "8c475e79a4dad1d1b18fb75d7c8ad065f04f56d60ff79a63f1b2ddf27134104b",
+    "response_sha256": "a168f9fcd78fece0587538757cebc8e405c67b6c4e9493826531e08092da25ae",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.654,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:31.443563+00:00",
+    "request_sha256": "baac4b659006e056b6b328397181da2af7571bad293311d5eb9116917e7ec6fe",
+    "input_sha256": "8ddefac35fa5a4b65e41182d46358821c07db7a24c1b0546b64d1ffe8294c17a",
+    "response_sha256": "203cd7966577a4ed4724af06068041f266b9358d8deea55cb6af043f28a35208",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.801,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:32.087795+00:00",
+    "request_sha256": "865586cd99545a49442e833a9b902fdbeeaf95ed0b596583217c931e8507772c",
+    "input_sha256": "9c9cd4f72d9d5cd44015c146e0e4e22a12cf7afee1026aa2f07f4153b77ad667",
+    "response_sha256": "5f3856203df8bf6db26d962c4f02859685c848707a587b4d8c80c8e833129d4c",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.644,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:32.880918+00:00",
+    "request_sha256": "16977f6b2b41255a9d9b68d06120bd094c1a7421f024e7d1480a1e3f0e0db75b",
+    "input_sha256": "50d28ab8747394987a04f6a82895ed6ba65b029bc1cf666da0a64f5a38a2d0a6",
+    "response_sha256": "897f579dbc0218399e17d4c4ced4c4196c60b4c111b90b2e032d3a4e2ca61bb9",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.793,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:33.553932+00:00",
+    "request_sha256": "9b13ea9f4923a75239be9391f1a8dec8ea2aabf24d61203edb4bce85730d91b4",
+    "input_sha256": "a6048a26f6ae790c35a6850802f6e4dae67570c6f4331fbf3fa9613b343fe8d1",
+    "response_sha256": "a98cb64ab93292b8324198452597cdf87ccfd15a5f22124239afea52e8021a75",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.673,
+    "done_reason": "stop",
+    "prompt_tokens": 794,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:21.953900+00:00",
+    "request_sha256": "67fa0a44e23b2f2473313d43d98eeaab99e7622e7df1160620c581f01a2aa7ee",
+    "input_sha256": "3fe01c21b0c59620413fbc77f508e01f88a115bcb2c27ab068a9b9914b216dd3",
+    "response_sha256": "60f6223512864b07e80b056fdd026a078cd528c353dba93c976d2176ec10eaa7",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 1.185,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:22.777967+00:00",
+    "request_sha256": "691e2949f7e35ad530574733cf57bc50a435227ff07ba6a4df3cfdf1f362b0c8",
+    "input_sha256": "f172db0b7691e66c3a0e1e4840d2a2ec7b6fc6c267773a38a176e8fe1ee34120",
+    "response_sha256": "0269e154731df592b9a5c0a2b961b93014b65cfde125f37fa86883fb0830ba21",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.824,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:23.576081+00:00",
+    "request_sha256": "cd7287ff22eb8681831651438532e0897ca612bdc549f50940d5b73b83d7ccf1",
+    "input_sha256": "dabade6e397b63992225cf8f9807879da9f016c6f1d1c64fb8d3968b2e802463",
+    "response_sha256": "c4db32d880a2bc586eff6255fbf557bf5f23eb27c843182c77218837bb39a2e5",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.798,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:24.242799+00:00",
+    "request_sha256": "e203497bdc7fb877287911cd7e88aa0c0c8774d37525b639be32c97df39567bf",
+    "input_sha256": "e41c591e310cc8b93bdbbe5fd88de1034920618ab8e9c74de764e14d7a9340f3",
+    "response_sha256": "b95e44b6a158149784f840c1f05932344149577ef053340346cf3c643f35f860",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.666,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:25.072860+00:00",
+    "request_sha256": "d53b7efff4fa6bd35d435d7e87c0302db3d244b260ccebbf392753f4166c6de8",
+    "input_sha256": "5e976efc314a24fc01a6692aa32d7ada0e9653d815ada2a1c593f56b61d130db",
+    "response_sha256": "7c2a62c3664b3748eaab8f714f8393ab55ecc863af4219af557d39ea3c2468af",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.83,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:25.762702+00:00",
+    "request_sha256": "c5d19d3d692b0af8e48763a32ac74d2ae95db165d59a382deeb9c27690dfd388",
+    "input_sha256": "629ed9ee33535fa5c1993c1bb36654196ac70863c10191d708733083b2d9d0e0",
+    "response_sha256": "ea0c9360467b0af8197f6c6789a21bbbbd4dba708bec30e942d71a22717512f5",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.69,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:26.590321+00:00",
+    "request_sha256": "5290852e72f0d81ff89a4695528d066ac2cb1f41dae2f97fe8adfa324c373527",
+    "input_sha256": "3acbf24773831dd8640883e920a2181cd58971c54a8db68d135d6179ecf41f1c",
+    "response_sha256": "94176fcaf49981951fea934fb38697eb3f038e557a51433aaa5d784157f1a251",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.827,
+    "done_reason": "stop",
+    "prompt_tokens": 798,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:27.436715+00:00",
+    "request_sha256": "da19b70f1dc75ab0a77cdcdfbb28a02622c35cbaacb24302fc68fb4ccf9da556",
+    "input_sha256": "7b1f1fda74bca68f8c2b401b19d8ac6087d75ba0866eca43f21b6d3c51f2ed7b",
+    "response_sha256": "b9f02198e2d86c83f514e8a415ef1de5613e86e1ea1ad6ef54e8991762992adf",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.846,
+    "done_reason": "stop",
+    "prompt_tokens": 796,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:34.551102+00:00",
+    "request_sha256": "1ffe5faf62041646a1588e14c7ad79a095628bffc7f8ec770e4a6a6e27384fbd",
+    "input_sha256": "2efcfe7ffe1fd891a58aa28c0c4a145176dafe0f5fc91a6158f410c1f55a811a",
+    "response_sha256": "d664878219972b68d161600c14958901f28ea0ccbb2dc63975395d7426c42623",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.997,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:35.709482+00:00",
+    "request_sha256": "e46dadec1164041af955e7788b2e95c44f2b4d9b0380538f40a1bbb3663e70fa",
+    "input_sha256": "f7da785cc2545180ba3c372845ebb6a1ef79e353c309cbeebc3d7da5c2fba216",
+    "response_sha256": "6233d3f73d193e56c5e4176e4f24f8420297a32affa74227e72e45ad5d6e2cc8",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.158,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 58,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:36.742914+00:00",
+    "request_sha256": "d1cb085720ac80e55cd602a148b03b31a9b032478225567d4ff7fe307abf1a9b",
+    "input_sha256": "823101e6262901c3830e7335e5dbb57ee0d2d851c835b65e081700356e101d30",
+    "response_sha256": "66063a2fa4eac70083fa9119997eeaa0faf23f5157834c93f5b14d039be497d0",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.033,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 48,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:37.773063+00:00",
+    "request_sha256": "9fd77a1e59cbd764fc563a5624fbcc77651ffa86691cb79f46a48ef16e5f13fa",
+    "input_sha256": "e4354fd6b0daff7da1fdf808380d8de65fe4264efde786649a815bd241c5dd98",
+    "response_sha256": "9f6c83666cfa2aff1cc0a5e36c59ae89294cc6d218efd8c697904826e25f7778",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.03,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 48,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:38.439623+00:00",
+    "request_sha256": "5a8dbf36d3153268e34073660e468750d7f28e690b77efe45bc3640f12fc7d57",
+    "input_sha256": "ee03b6b4213343d93d3461773068a919a5933d705708b1c63ea53defbe964bc9",
+    "response_sha256": "27d743c2f2ec36c63748168f0982a55b1232e74456c095d3c1520ee4cd8adc4e",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01"
+      ]
+    },
+    "elapsed_seconds": 0.666,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:39.198612+00:00",
+    "request_sha256": "bba6a05579963ff267f49778efc5a535122f261c236ee646dfaa951556b7b3f0",
+    "input_sha256": "ec68a5c803decc3638040455425b6b6318a4e3195e293044c0097f63967dbd2f",
+    "response_sha256": "f47455ae700b0adfbfca28de0697b58e5347d5836a5cd68b0f6e5664be256cc2",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.759,
+    "done_reason": "stop",
+    "prompt_tokens": 819,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:40.375352+00:00",
+    "request_sha256": "2a55dc335679c2087ef27f138ee7abb2355b5681b980e7463b12e49a5a87139d",
+    "input_sha256": "1fe956b532bc55e8104e2de2d3cb3e1b6c54fcbf65c36294bb7f9a9269abb486",
+    "response_sha256": "d4a628240396d3cd7d6bdc2de1bd0de77a306f73b362fc2fe6f65feaa95a102b",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.176,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 58,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:41.016314+00:00",
+    "request_sha256": "405db66b710fea363210f7145efd9b2ae0af280fd37568a5737700dc75326dde",
+    "input_sha256": "357e7a4f5c912cf9722865e1ed7f9e4c35d86b0b4c5b617781bf2c70b1129311",
+    "response_sha256": "dc84975836b44a6512a2e916d8016eabee529bdcadc74e64a6910b1f9e7da5a9",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p01",
+        "p02"
+      ]
+    },
+    "elapsed_seconds": 0.641,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 30,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:41.795830+00:00",
+    "request_sha256": "a7f82d0f221e3d3097a6cb08f9e82480f8149f46926b5627375644365f514154",
+    "input_sha256": "15da219bfff87a9a788cab81cae13dce8b42bff71fc532945d73dc7c391eb832",
+    "response_sha256": "119a8d08a578fec8e27ba3f3e2dd2a8ab9b4b5919ef0414be8e819c0094934db",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.779,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 32,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:42.964564+00:00",
+    "request_sha256": "d6cbdc923c1fdf91c4cd81c31701105607f329b1ed811d76918e2c1e39e61660",
+    "input_sha256": "ddc219f66c6df6b9263bf47d7c5333bc30d18b415c33915876dae0d3a03e19b5",
+    "response_sha256": "84a1469e3e14004bd5d0a2371f87d3e7f155620ecb422e82633e1241ac7777e7",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.168,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 58,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:43.636388+00:00",
+    "request_sha256": "576eb97defe5e665c58998b8bfd56c396500cc2e52f86ef3db1304354e474924",
+    "input_sha256": "5fdf0230552015f0716ce6d89c009475aa8410d6f72689dee6f7284296b84f7f",
+    "response_sha256": "6d40a6f3992a75f41def86572e645e27dda17ec5680227b1bbd301f1ab6dfde1",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.672,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 32,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:44.623136+00:00",
+    "request_sha256": "06256746ab9ffbc4aa81a322f68724d712124b377a624ae319649ca3bf16abde",
+    "input_sha256": "1924d0ab1e4a63744f5360cd6d9a66686460288f03fd48dca924c3ef53056555",
+    "response_sha256": "661e859c208e47e9309232483f8a9f0a6ff6334ae1f322d96e7502f4b3826a9b",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.986,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 48,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:45.401653+00:00",
+    "request_sha256": "7149feafc7d3a07ba3258b46de01697d55ce5d29617ecc904ca3bbfb28f5e8e3",
+    "input_sha256": "7c23ba5b5cb3e16249991a896a47b39ee96483d85edfd406e358e93b5b686e10",
+    "response_sha256": "5b41aea3a4a5c7514797a53c6f9274f4e6fa2a1891ae9670c7d347a73bc1ec43",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p01",
+        "p05"
+      ]
+    },
+    "elapsed_seconds": 0.778,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 35,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:46.111803+00:00",
+    "request_sha256": "bd0e26e67fcecbb5c5677654d81df41d722e1f48cdced5e32959bae4c376c7ea",
+    "input_sha256": "44e8d5c3f8a0ba5f9db3402525e07755ba3f04019aac680d186f5df7ce6c09a9",
+    "response_sha256": "bd1739db3ec07ffceb2619f60e2c5d12214a48e1ee5ddf479a59cd13a2df261f",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p03",
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 0.71,
+    "done_reason": "stop",
+    "prompt_tokens": 819,
+    "output_tokens": 32,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:47.289768+00:00",
+    "request_sha256": "c953132ca757bc4283badef00f9f90a43a4035b10279eb5ad70607432ad13893",
+    "input_sha256": "41534c3f5af892a20f527dea75aff56c2fd66516ee9a7b6ad4d72dfd68a762b2",
+    "response_sha256": "3912df43e44e3e3529dc4037ec2d7680a9633fd1efe1e6b62c5f7a15d2d54276",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p07",
+        "p08"
+      ]
+    },
+    "elapsed_seconds": 1.178,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 58,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:48.050673+00:00",
+    "request_sha256": "47409f2a40afeb77b576a15b511113380dc390a65e3ae7e06a3ff7f548ac6342",
+    "input_sha256": "72f23154db0e710ad5c57e3b3420ebe832a586834bf717e6c3c6098b7e53eb25",
+    "response_sha256": "1c5d05079e28d647fdfac53e6df6a6b673960f72c4b31742f891ee23010a7701",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 0.761,
+    "done_reason": "stop",
+    "prompt_tokens": 821,
+    "output_tokens": 35,
+    "usable": true
+  },
+  {
+    "id": "nts-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:57.891017+00:00",
+    "request_sha256": "1111f77ac55304fef44def03470ba8fd841a093d8054e93e14b5ceeeb05afdbe",
+    "input_sha256": "72da43ed46247066d6048606be794799752cea3fe0b2824988b121db3d5a9272",
+    "response_sha256": "c5bad9310b4eeb408d25e6a6518104a1a6abe99b826dc59485657299d54f2b5f",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06"
+      ]
+    },
+    "elapsed_seconds": 2.366,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 59,
+    "usable": true
+  },
+  {
+    "id": "nts-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:58.366609+00:00",
+    "request_sha256": "85b111fc246dd24511eb99c3cc3478dee03d9023ac65224938b8d6e7b3f10f16",
+    "input_sha256": "95b634f8461170f55f4914d0c200391585214a623a366735ec17e8073cf72174",
+    "response_sha256": "c346d4ac10b6a98947b73d00b5cb443a3cc0fdc87ad7b8445acddc7062722877",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.475,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:58.852639+00:00",
+    "request_sha256": "6a38519208ce0a90a6dea4bcbbffabe3b1336ad556fc5b7ee8e56d2a113719a1",
+    "input_sha256": "2edb1823bdc2077e27f44efa6bfa130ed0186cf366b9ce5e676556b27b903d7b",
+    "response_sha256": "b1cde14d54202a71197696d3b1c21a3ca851514904ec795738d62ebd85dc988c",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.486,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:59.380772+00:00",
+    "request_sha256": "8a26514c21675fe34f929c60471ca4597497f59965a71bbcc11ae98c7576bd6f",
+    "input_sha256": "9451b8166573ff071947359c95982e706bc223230fbe5505484724e57b6dd2e1",
+    "response_sha256": "6786dbbcd2b6eb7ff2599b919524ae2cd1015aec2983697a3ba2dde868471e6b",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.528,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:59.866578+00:00",
+    "request_sha256": "df0fec499ecadaa803ddefaac68cd6399a1340d5bb15927769915bd9ea22c74f",
+    "input_sha256": "48215789133bcf88c021b6c9263eec0244d9024cee90b608047cbfdd98f44b0e",
+    "response_sha256": "ec70990373c184e5b0171905863124e93db0fbfc2a644a5ef52ce8a352fd6d4b",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.485,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:50:00.359873+00:00",
+    "request_sha256": "0497d35cad4a31b3ce8fec832d339e621759a653f02a7cf05c213fc6ddcccab1",
+    "input_sha256": "e75bddc496e675bf4c80a11c138a14da04c70131949750e54a61a3814023a1b6",
+    "response_sha256": "a174684ad1d7e3d41c4e90714ae5260889302df771a2b4960d8f53bc4402a40e",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.493,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:50:00.842495+00:00",
+    "request_sha256": "5bc797f3e8b46ceac9eda7977b9958870f4eccefe072c77bb639e311feaf7aee",
+    "input_sha256": "1ef2c416ab7f7ec7fb4854663571db46e93099ed31752cd427669ab26bd2890f",
+    "response_sha256": "58265e01e158b8b6e3e0a950dd651d1fdfe06021e0dff9f1d06a61de697d75a7",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 0.482,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 18,
+    "usable": true
+  },
+  {
+    "id": "nts-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:50:02.189937+00:00",
+    "request_sha256": "e0dffcc41124c580b96a137d3bbef63073f04b2f43f003b0f6144ec153aa12f5",
+    "input_sha256": "ca9ddf404df59e696155ec0b759ea055b011072c2b83c223fce86aafeadb1858",
+    "response_sha256": "09111a143771f034702035bcac8b213a8002b3ac5b0433b95294187003c9b608",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06",
+        "p01",
+        "p02",
+        "p03",
+        "p04",
+        "p05",
+        "p06"
+      ]
+    },
+    "elapsed_seconds": 1.347,
+    "done_reason": "stop",
+    "prompt_tokens": 2239,
+    "output_tokens": 59,
+    "usable": true
+  },
+  {
+    "id": "work24-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:50.326621+00:00",
+    "request_sha256": "ce005faf3970fd8b58f8a1276152fd1b83a07a89b28208129bdad54a62b816e6",
+    "input_sha256": "9eddee781ff67232e24518930cb216f9584ca98dc2a7fe4de3391bd07a8bf580",
+    "response_sha256": "5b1bd1ddafd52c9810af5d25f85ef54d7cd6f806072c521a4075aea2427d5a09",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 2.276,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 20,
+    "usable": true
+  },
+  {
+    "id": "work24-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:51.091666+00:00",
+    "request_sha256": "4182f775c1c27a6ecbd9eba498f319f67d9395ac10abdfa18227477f6b871bc0",
+    "input_sha256": "38eb522ac8ef6af8e76311e737ea71c1c5fb6f18fd7a35a7e917f01825d22ed4",
+    "response_sha256": "94d15eaf0131962cc3aa863b015e686f5b73a31ebb7c9c16e4a04595769d847e",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.765,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 20,
+    "usable": true
+  },
+  {
+    "id": "work24-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:51.878769+00:00",
+    "request_sha256": "4746d8663848e548864ae8fd1a212c154b169bab9432fe069e278f81a6a0c537",
+    "input_sha256": "30b48caab820d1e81b297391ff162fe7dac37ded3868a7f12754c7dec00e665a",
+    "response_sha256": "df5bd1a5aeb2fe60804a51bce2c0f86f115b933c02d682f3598f54f2bf05db95",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.787,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 20,
+    "usable": true
+  },
+  {
+    "id": "work24-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:52.521129+00:00",
+    "request_sha256": "014d6a730f66346ad2606936754f31b2621ddb3efb42dc9542943b65b7a712c7",
+    "input_sha256": "19834be1b5959cc543f19aad8f77d2d575e8bc97702a55056c63f9508bb60a95",
+    "response_sha256": "60f259299c44d23039c7e0718d0de45bd9831aef10fce4464c5c9fe675cfdcd0",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.642,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 20,
+    "usable": true
+  },
+  {
+    "id": "work24-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:53.279973+00:00",
+    "request_sha256": "4c4104ec3444582fc5edd14555c66e1dc6ea8d85d783a4aa73ff019e064b813e",
+    "input_sha256": "9f00eac1b9906359b53b684f35a4bf2aac13c60be1fb95e0a57b51b12a16879c",
+    "response_sha256": "2374684b52d3b085b456ff73b5d916bab88a66e6c2910b274da7eb88c4ddb882",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.758,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 22,
+    "usable": true
+  },
+  {
+    "id": "work24-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:54.037502+00:00",
+    "request_sha256": "996fdf403ff3740bdb47de94e4dd18a37007e67cf0d02030a371b84a6a396594",
+    "input_sha256": "123a7e9ed916254d305a0990da5a388b25c1d8c65db204a3d043800667d9da99",
+    "response_sha256": "bfb314deaf7b6bf3e8a8f40b4a6d6b816a4e3405f6200907883fcf60a4d4a2b1",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.757,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 22,
+    "usable": true
+  },
+  {
+    "id": "work24-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:54.825014+00:00",
+    "request_sha256": "c18b82d66d6a0da83bf957555dec83c3f86b6f9d551dbd368a57354f564b177a",
+    "input_sha256": "d6427d15ce984bdf739a6e271e2bb1946c80ec29286ea1db62dd9c09aa4373df",
+    "response_sha256": "fdb8eba7fd754241eaf0c8753e7faa7e03a570b0475590575de0def4bd762ec8",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.787,
+    "done_reason": "stop",
+    "prompt_tokens": 4790,
+    "output_tokens": 22,
+    "usable": true
+  },
+  {
+    "id": "work24-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:55.525059+00:00",
+    "request_sha256": "26c778d9afe159a9fbe790ddb973f9c9ca64f07c85a5a3322c32590329095aa1",
+    "input_sha256": "f7728765522ed1eb620a56bfb8b341e927bf06a1c444b133536ae02c54ac737e",
+    "response_sha256": "8ca3ce365f7b382fb02fae9661eed5cf7ae097a8e56774775c688b8c3fd67123",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p06",
+        "p17"
+      ]
+    },
+    "elapsed_seconds": 0.7,
+    "done_reason": "stop",
+    "prompt_tokens": 4789,
+    "output_tokens": 22,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:44:49.928668+00:00",
+    "request_sha256": "83c953d24ca98efe39d321a5fccf60efefcf836cdb124a350803c4f909fb4162",
+    "input_sha256": "3ad6a3ecc3f5aa3bcf904a213df236204a36ab23461d7c987ce6fd166e672203",
+    "response_sha256": "2179693758564923607fac3083040d0a5f8d7c6f6c54dd7e8feaf39613fd4453",
+    "parsed": null,
+    "elapsed_seconds": 85.351,
+    "done_reason": "length",
+    "prompt_tokens": 889,
+    "output_tokens": 4096,
+    "usable": false
+  },
+  {
+    "id": "auth-exception-any",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:42:00.050680+00:00",
+    "request_sha256": "965e39942693bb6e9807b0df233940cd8dbd3e6cda0e185071928e93cba760c8",
+    "input_sha256": "67f6a11c00648f07cf9ac95a14753cf8af1b8cd8c1998da56182997d96870f6c",
+    "response_sha256": "fa513752aa90ec20b461473fb7b293ce6482fdeb4d1535d5fe13f1cca9caf576",
+    "parsed": null,
+    "elapsed_seconds": 85.809,
+    "done_reason": "length",
+    "prompt_tokens": 891,
+    "output_tokens": 4096,
+    "usable": false
+  },
+  {
+    "id": "auth-subject-self",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:46:29.391136+00:00",
+    "request_sha256": "eab4e2cf70d26d6d29537c3e7c9dd6339c3c2152958265a381e6856b23186c1c",
+    "input_sha256": "210d5375767e1d08cb7db22b47985d8319a6a2515f71203d4609f991f54ccf2a",
+    "response_sha256": "4556e7fc9a4bd166d56972cd293055de52558713bbe9e6c8feb13b6cf407f43f",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "age",
+          "id": "n1",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "student",
+          "id": "n2",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "worker",
+          "id": "n3",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "own_income",
+          "id": "n4",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "spouse_income",
+          "id": "n5",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "disabled",
+          "id": "n6",
+          "op": "any",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "sanction",
+          "id": "n7",
+          "op": "not",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p05"
+          ],
+          "field": "own_income",
+          "id": "n8",
+          "op": "all",
+          "value": 1000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "",
+          "id": "n9",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "age",
+          "id": "n10",
+          "op": "all",
+          "value": 70
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "worker",
+          "id": "n11",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "spouse_income",
+          "id": "n12",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "",
+          "id": "n13",
+          "op": "all",
+          "value": 0
+        }
+      ],
+      "root": "n14",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 14.426,
+    "done_reason": "stop",
+    "prompt_tokens": 906,
+    "output_tokens": 729,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:47:14.156969+00:00",
+    "request_sha256": "67b44264ccf12a3b141025991027ec8dc3a8e0d440645ceadcd1b7f13ec30fb5",
+    "input_sha256": "245fc13b554869a4b7d84fc7b1d8ed4451367d1910594e8a7130445722001090",
+    "response_sha256": "3e82b2b7237d3258ffcca680cd8e96dd1adb32bbbce8eb8218b1696b244e6db6",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "age",
+          "id": "n1",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "age",
+          "id": "n2",
+          "op": "all",
+          "value": 70
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "student",
+          "id": "n3",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "worker",
+          "id": "n4",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "own_income",
+          "id": "n5",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "spouse_income",
+          "id": "n6",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "disabled",
+          "id": "n7",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "sanction",
+          "id": "n8",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "age",
+          "id": "n9",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "student",
+          "id": "n10",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "worker",
+          "id": "n11",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "spouse_income",
+          "id": "n12",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p03"
+          ],
+          "field": "age",
+          "id": "n13",
+          "op": "all",
+          "value": 70
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p03"
+          ],
+          "field": "age",
+          "id": "n14",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "disabled",
+          "id": "n15",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "sanction",
+          "id": "n16",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p05"
+          ],
+          "field": "own_income",
+          "id": "n17",
+          "op": "all",
+          "value": 1000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "age",
+          "id": "n18",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "student",
+          "id": "n19",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "worker",
+          "id": "n20",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "spouse_income",
+          "id": "n21",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p06"
+          ],
+          "field": "own_income",
+          "id": "n22",
+          "op": "all",
+          "value": 1000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "age",
+          "id": "n23",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "student",
+          "id": "n24",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "worker",
+          "id": "n25",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "spouse_income",
+          "id": "n26",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p07"
+          ],
+          "field": "own_income",
+          "id": "n27",
+          "op": "all",
+          "value": 1000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "age",
+          "id": "n28",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "student",
+          "id": "n29",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "worker",
+          "id": "n30",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "spouse_income",
+          "id": "n31",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p08"
+          ],
+          "field": "own_income",
+          "id": "n32",
+          "op": "all",
+          "value": 1000
+        }
+      ],
+      "root": "n1",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 34.046,
+    "done_reason": "stop",
+    "prompt_tokens": 906,
+    "output_tokens": 1746,
+    "usable": true
+  },
+  {
+    "id": "nts",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:13.943616+00:00",
+    "request_sha256": "5956b06a02bc53147d0716c1000d39adcb01bf1113a2c42e9b2c91fe161e633f",
+    "input_sha256": "337cd9241c6487ba8411db6508cb12e2a14e4f748545dc8b9e4681f1037d8694",
+    "response_sha256": "5b8c5c659fafbf6408296beebf3f65bfe8c849a6fc83478ae2fb53a2a1f3f5bd",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_self",
+          "id": "n0",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_spouse",
+          "id": "n1",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_child",
+          "id": "n2",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "dependent_other",
+          "id": "n3",
+          "op": "all",
+          "value": false
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "professional_self",
+          "id": "n4",
+          "op": "all",
+          "value": false
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "professional_spouse",
+          "id": "n5",
+          "op": "all",
+          "value": false
+        }
+      ],
+      "root": "n6",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 8.474,
+    "done_reason": "stop",
+    "prompt_tokens": 2327,
+    "output_tokens": 357,
+    "usable": true
+  },
+  {
+    "id": "work24",
+    "stage": "full",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:47:36.185020+00:00",
+    "request_sha256": "dba78e66528fc10dc2f795d5e2cd6befd732b39dc294ba8038f2f38a9cdf3336",
+    "input_sha256": "53476c4581f6561bf716e5d1b56e8698b1b45b5f2993063dced99772574fc074",
+    "response_sha256": "28522f5397fa8424bedc1cae3e1159acda3b7e7a8ea85557d690f98b28c0ef15",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "large",
+          "id": "n1",
+          "op": "not",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "wage",
+          "id": "n2",
+          "op": "not",
+          "value": 300
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "age",
+          "id": "n3",
+          "op": "not",
+          "value": 45
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "livelihood",
+          "id": "n4",
+          "op": "not",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "conditional",
+          "id": "n5",
+          "op": "not",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "deferred",
+          "id": "n6",
+          "op": "not",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "",
+          "id": "n7",
+          "op": "all",
+          "value": 0
+        }
+      ],
+      "root": "n7",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 11.429,
+    "done_reason": "stop",
+    "prompt_tokens": 4884,
+    "output_tokens": 383,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:46:14.965121+00:00",
+    "request_sha256": "abae65ca91378d53a0a30825efad7d72b0ebc57137e4593bf9da958ecf04a0c3",
+    "input_sha256": "8293045636a92c435565820a669a0045c054ec6c554bc2b4a46856b9aaddaa58",
+    "response_sha256": "f70b1577cbd38727b2186d148155210a759db39735a2bd6f6abf4b2bb01226bf",
+    "parsed": null,
+    "elapsed_seconds": 85.036,
+    "done_reason": "length",
+    "prompt_tokens": 768,
+    "output_tokens": 4096,
+    "usable": false
+  },
+  {
+    "id": "auth-exception-any",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:43:24.577685+00:00",
+    "request_sha256": "7e57e798c94101e9d8ef50d506c75eed34bb663f657ad3f6227d0cb4796a812a",
+    "input_sha256": "535bd84424a3736e249da0663fe2ae2068f9b3c2ec03fbb0c45293a93f2b4342",
+    "response_sha256": "dd2401b51eb79a653a275bafa9df1d576bb6a1e306499771186bd549df6b897d",
+    "parsed": null,
+    "elapsed_seconds": 84.526,
+    "done_reason": "length",
+    "prompt_tokens": 770,
+    "output_tokens": 4096,
+    "usable": false
+  },
+  {
+    "id": "auth-subject-self",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:46:40.110517+00:00",
+    "request_sha256": "3229e807f149685a7431cf9bc28c5d791973e2e8c0642b74d187e0859983e51c",
+    "input_sha256": "b98499b48a98538e4e416c03c77c42e3a1c57b8d5c560cb5fc1bacfcc7763b51",
+    "response_sha256": "34940376448e9eeadf329e9b3965dc1bf7f01f5dad54c4d34730a6cc0f68038c",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "age",
+          "id": "n1",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "student",
+          "id": "n2",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "worker",
+          "id": "n3",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "ge",
+          "evidence": [],
+          "field": "own_income",
+          "id": "n4",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "disabled",
+          "id": "n5",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "sanction",
+          "id": "n6",
+          "op": "all",
+          "value": false
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p01"
+          ],
+          "field": "",
+          "id": "n7",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "",
+          "id": "n8",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "",
+          "id": "n9",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p05"
+          ],
+          "field": "",
+          "id": "n10",
+          "op": "all",
+          "value": 0
+        }
+      ],
+      "root": "n7",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 10.719,
+    "done_reason": "stop",
+    "prompt_tokens": 745,
+    "output_tokens": 551,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:47:24.755277+00:00",
+    "request_sha256": "5a77aec4895fc689e014e3f72fc75fb5e1305af92a6249049fd088aafab1458c",
+    "input_sha256": "c2a10b2feb68f9802b005d4066a34f84ef79fe58ae830e21cbd966b8ed2fa134",
+    "response_sha256": "306b85b610217550291ba96b6cef6cb03b899fc843e774d6b2f7c51ac9b4f652",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "age",
+          "id": "n1",
+          "op": "all",
+          "value": 19
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "student",
+          "id": "n2",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "worker",
+          "id": "n3",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "ge",
+          "evidence": [],
+          "field": "spouse_income",
+          "id": "n4",
+          "op": "all",
+          "value": 3000
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "disabled",
+          "id": "n5",
+          "op": "all",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "sanction",
+          "id": "n6",
+          "op": "all",
+          "value": false
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p02"
+          ],
+          "field": "spouse_income",
+          "id": "n7",
+          "op": "any",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "disabled",
+          "id": "n8",
+          "op": "any",
+          "value": true
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p04"
+          ],
+          "field": "sanction",
+          "id": "n9",
+          "op": "any",
+          "value": false
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [
+            "p05"
+          ],
+          "field": "student",
+          "id": "n10",
+          "op": "all",
+          "value": false
+        }
+      ],
+      "root": "root",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 10.597,
+    "done_reason": "stop",
+    "prompt_tokens": 745,
+    "output_tokens": 556,
+    "usable": true
+  },
+  {
+    "id": "nts",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:20.768530+00:00",
+    "request_sha256": "ba87af98cadc46613c1334c06a2150f98807e7953cac87472e74be493d7c5e49",
+    "input_sha256": "b739ff57a5db776ee004358592c97118f1ebaae9b7f69388b3935647e92e7be0",
+    "response_sha256": "3f8a47d3eded6d247ac08989bf54da1493a4c52a702a9b42948300ff5932dc0e",
+    "parsed": {
+      "nodes": [
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_self",
+          "id": "n0",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_spouse",
+          "id": "n1",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "korean_child",
+          "id": "n2",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "dependent_other",
+          "id": "n3",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "professional_self",
+          "id": "n4",
+          "op": "all",
+          "value": 0
+        },
+        {
+          "children": [],
+          "cmp": "eq",
+          "evidence": [],
+          "field": "professional_spouse",
+          "id": "n5",
+          "op": "all",
+          "value": 0
+        }
+      ],
+      "root": "n6",
+      "status": "insufficient"
+    },
+    "elapsed_seconds": 6.823,
+    "done_reason": "stop",
+    "prompt_tokens": 1736,
+    "output_tokens": 343,
+    "usable": true
+  },
+  {
+    "id": "work24",
+    "stage": "retrieved",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:49:05.468875+00:00",
+    "request_sha256": "09149b46d2155252ea69c54c328fa3acbe972355f5211cfeb683ebf8f372231f",
+    "input_sha256": "57c550c55916424b7c59198521801195685072d02f3472650d4c8a7abe31d5e6",
+    "response_sha256": "aea40aa0a7841e22028af7a52fb7b3da645bef6324e5dc5de197082ee40a224f",
+    "parsed": null,
+    "elapsed_seconds": 89.28,
+    "done_reason": "length",
+    "prompt_tokens": 1408,
+    "output_tokens": 4096,
+    "usable": false
+  },
+  {
+    "id": "auth-exception-all-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:21:11.066430+00:00",
+    "request_sha256": "bb4b15d5756183be4579ef3201bd08afea3633868c9ce940f44e7b01893248da",
+    "input_sha256": "ab9f511ae4a6460be035cc6d714c76d0c14bb2e0abcef92953b74a21484cd0e9",
+    "response_sha256": "754120535ab401d69e0d093b073a329543522008b425871c7fee7979f2eed3d2",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.773,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:21:25.502686+00:00",
+    "request_sha256": "2d59b153758af536c873dc66c5d1180c04a30f5edc3e2ed492703f1683b7fb4e",
+    "input_sha256": "f89e1fd8a3e169d32429ebdf66515ea5fd2c171d4f8d504e62e9c0714384a48f",
+    "response_sha256": "80d45ee81350220c0baf05dc488ce2aeb62d16d2e0e070ffee451282229241ad",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.436,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:21:38.210207+00:00",
+    "request_sha256": "481d0390e290c78879ff7b7bd86b311c7a91fca80080d0f0d60b2a53ffc093f7",
+    "input_sha256": "837c4a3cd2abbd50ed0ff6e9bab710e3051aae008595dc9fafb9af3504dea912",
+    "response_sha256": "180faa8b7d0c1ba46898c77b609a0b393c550276a8e969050a67ba2c87a44e95",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.707,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:21:51.201397+00:00",
+    "request_sha256": "e79949e376f682cfd17b50440e2c04cc2096c5c76a7711ff8e3cf48640fe78b8",
+    "input_sha256": "8c475e79a4dad1d1b18fb75d7c8ad065f04f56d60ff79a63f1b2ddf27134104b",
+    "response_sha256": "f2ea11a92ecf256ef59b285ca223300cc418f8a545ce9f245a76eb983eb2505d",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.991,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:22:04.122433+00:00",
+    "request_sha256": "e2e3fcbd95215a34c08f7b6b953cc38d784e10560534575014e06e34d2240c3a",
+    "input_sha256": "8ddefac35fa5a4b65e41182d46358821c07db7a24c1b0546b64d1ffe8294c17a",
+    "response_sha256": "7908880b36049c8d2fe3e05cb9fbf46cc9d99235668d0d901bd0619caec3a0a3",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.921,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:22:13.975510+00:00",
+    "request_sha256": "abcade190e1c44f6545f8643ac5bf9901579d6b7e845f14265513da3d400114e",
+    "input_sha256": "9c9cd4f72d9d5cd44015c146e0e4e22a12cf7afee1026aa2f07f4153b77ad667",
+    "response_sha256": "bb7a575a6e1f8882c9caea1e8201478787fa3324a99e7a1ace3a927b445d3f0b",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 9.853,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:22:28.529037+00:00",
+    "request_sha256": "8fb6509f023b7a0fa5d51d30fe171355b229e8050a9c1bd14fa12b05133d9e4b",
+    "input_sha256": "50d28ab8747394987a04f6a82895ed6ba65b029bc1cf666da0a64f5a38a2d0a6",
+    "response_sha256": "69b945019a1fca672d0f61d9319a5b89069d2d83e49f9d2f95cdf81bd8ce8437",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.553,
+    "done_reason": "stop",
+    "prompt_tokens": 708,
+    "output_tokens": 44,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:22:41.046732+00:00",
+    "request_sha256": "374731c45784dc1a42c506302d28e013c0e542734a8d814aee3b9a8743b10666",
+    "input_sha256": "a6048a26f6ae790c35a6850802f6e4dae67570c6f4331fbf3fa9613b343fe8d1",
+    "response_sha256": "77265b9324b9047a9295ecdd8174161afb98ddf920304bef1e7a2fe61d0355d9",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p01",
+        "p02"
+      ]
+    },
+    "elapsed_seconds": 12.517,
+    "done_reason": "stop",
+    "prompt_tokens": 704,
+    "output_tokens": 37,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:19:17.083138+00:00",
+    "request_sha256": "6d7087d0b31c37e1194ff5bd2c56558c28095d1f6b1dee6b2b14fa453a404034",
+    "input_sha256": "3fe01c21b0c59620413fbc77f508e01f88a115bcb2c27ab068a9b9914b216dd3",
+    "response_sha256": "f77e8ab1d92c21be0a557d210f464742bdd2b74a0ad2f029bfd83b43b14d4d31",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 16.269,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:19:32.404251+00:00",
+    "request_sha256": "4186699345c70946ed85d9e115134fa6c936060ed7a917606e1492a236e8244d",
+    "input_sha256": "f172db0b7691e66c3a0e1e4840d2a2ec7b6fc6c267773a38a176e8fe1ee34120",
+    "response_sha256": "186e507af66b3a34bddafb1a9dba0b964a6392c6ac8bd8fddbba55136bb9c7e5",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 15.321,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:19:47.659383+00:00",
+    "request_sha256": "25a2226c68082bd5a647545b84f38aab929cd73e2c63eeed2624ce2664c380cd",
+    "input_sha256": "dabade6e397b63992225cf8f9807879da9f016c6f1d1c64fb8d3968b2e802463",
+    "response_sha256": "8be89c206041b9b491f02d781e25ff44c4cb65b059b3fd1bc48fcf6cd3783979",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 15.255,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:20:02.569837+00:00",
+    "request_sha256": "6f1eb5c48f32baaeb7a9ac42b3e833b1e15772fdbe314615aef9b1d9324d5d53",
+    "input_sha256": "e41c591e310cc8b93bdbbe5fd88de1034920618ab8e9c74de764e14d7a9340f3",
+    "response_sha256": "c33f7e650dd8801a5eed60bf4207f1837dc7238e8232cf78f1160b1cc98615af",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.91,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:20:16.059574+00:00",
+    "request_sha256": "f0c72a1eee137b1d80235e10e1ca7df1b22ab30951ab1e3b9714123a564dbd7f",
+    "input_sha256": "5e976efc314a24fc01a6692aa32d7ada0e9653d815ada2a1c593f56b61d130db",
+    "response_sha256": "4076a035e9f65a837da2796a3d6fe03b361366935cc70ae45d04f5a0980c58f2",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 13.489,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:20:26.482679+00:00",
+    "request_sha256": "0b957f5c15c11f86481405669309f7a001849293d09b58000a72d952a51ce03a",
+    "input_sha256": "629ed9ee33535fa5c1993c1bb36654196ac70863c10191d708733083b2d9d0e0",
+    "response_sha256": "d83ec8973a1fbad5fa5c201c8750b977fdb3586a1505989e94701ac007d8c734",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 10.423,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:20:40.982655+00:00",
+    "request_sha256": "8d634a005ec703ea1ab64f768cef94b0541beb4b98f1d5ad20d5887473db3127",
+    "input_sha256": "3acbf24773831dd8640883e920a2181cd58971c54a8db68d135d6179ecf41f1c",
+    "response_sha256": "39471c16635df34105e1e8bea2f3deaaf000376028a2062ffadb024d64034f1e",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.5,
+    "done_reason": "stop",
+    "prompt_tokens": 709,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:20:56.293324+00:00",
+    "request_sha256": "4501f23f9c73b23c711095750c81086b7ad8b31ee899187387b2a832f20e5ae3",
+    "input_sha256": "7b1f1fda74bca68f8c2b401b19d8ac6087d75ba0866eca43f21b6d3c51f2ed7b",
+    "response_sha256": "82d3d87d64c74abb1bc1b2f17a071a293d5ef89bfd7a10bb2e965bf53e2fd067",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 15.31,
+    "done_reason": "stop",
+    "prompt_tokens": 705,
+    "output_tokens": 44,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:22:56.340472+00:00",
+    "request_sha256": "d0923cbe68c45c29278412e3570b0a29e7c94c11d36256549c83c2877f97e565",
+    "input_sha256": "2efcfe7ffe1fd891a58aa28c0c4a145176dafe0f5fc91a6158f410c1f55a811a",
+    "response_sha256": "323dcbe9b0c3bf03c4c855ef8e6d800c116be042b5d7c6c54170f52bbe00dc43",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 15.293,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:23:10.891151+00:00",
+    "request_sha256": "68dd67c742ee7ece3a8c9f0e7b88fa01eedee3bdcbf8b9ac65657539cec74336",
+    "input_sha256": "f7da785cc2545180ba3c372845ebb6a1ef79e353c309cbeebc3d7da5c2fba216",
+    "response_sha256": "1f5cb30d81ba26a6f472cac6de069a5cf5ccd62b48a903db19a541be6047b6a2",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.55,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:23:24.970072+00:00",
+    "request_sha256": "294cb8e5ba7f7e34199e19895b78c8c3a320d69a73250992fc0e5a358946239e",
+    "input_sha256": "823101e6262901c3830e7335e5dbb57ee0d2d851c835b65e081700356e101d30",
+    "response_sha256": "554300991b8935e7da6130f658c676e3359a10b03f527f2505348edae6c09219",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.079,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:23:39.332081+00:00",
+    "request_sha256": "70aedc170da206ab4a990451ccc4cf0647fc96495c20ab0962f5339828cdaad1",
+    "input_sha256": "e4354fd6b0daff7da1fdf808380d8de65fe4264efde786649a815bd241c5dd98",
+    "response_sha256": "e227135c3054f13a344c77c809c7b1b5246448ce356b04ec67d35df93e60660c",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.362,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:23:56.014597+00:00",
+    "request_sha256": "3a70df956192097206961103944970e25b09ac9ebcb83bf56e4989272056d20a",
+    "input_sha256": "ee03b6b4213343d93d3461773068a919a5933d705708b1c63ea53defbe964bc9",
+    "response_sha256": "25e8f3bbaab2db4b85fd3ca88707f695d451b62ca970d00a4b61a5081de05b35",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 16.682,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 52,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:24:08.750522+00:00",
+    "request_sha256": "bad133d6b269ef49cd31e3c1d4a3078175183f524463ee319a7200bf59d4fe8b",
+    "input_sha256": "ec68a5c803decc3638040455425b6b6318a4e3195e293044c0097f63967dbd2f",
+    "response_sha256": "86e3b64c948f95357e0bfda3bd072afcfc567246765b0c9372fcd308071bf509",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.736,
+    "done_reason": "stop",
+    "prompt_tokens": 716,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:24:21.159162+00:00",
+    "request_sha256": "4bdba4ad54cc6970bbe4d9a26f153f3dd1128454f17b52801a94b3cfd3947734",
+    "input_sha256": "1fe956b532bc55e8104e2de2d3cb3e1b6c54fcbf65c36294bb7f9a9269abb486",
+    "response_sha256": "811ba2e1eeeeac1b3018dad7fe476f95d5fdad61843486a679ca9a61864e3252",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.408,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 44,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:24:33.196012+00:00",
+    "request_sha256": "997c4f9cb1c91acfc5567f8f9173b94e3aaf3dee5649e61823f639858bb913e9",
+    "input_sha256": "357e7a4f5c912cf9722865e1ed7f9e4c35d86b0b4c5b617781bf2c70b1129311",
+    "response_sha256": "2d68d11c3b8c56a42bc9b2bbb9a3d1add887cddb26c60c4b9ccc798ef8928078",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.037,
+    "done_reason": "stop",
+    "prompt_tokens": 720,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:24:47.517762+00:00",
+    "request_sha256": "69e6db5d043adc5d676398817c201b44b7f38a2245b05b03dc8993febaa14d90",
+    "input_sha256": "15da219bfff87a9a788cab81cae13dce8b42bff71fc532945d73dc7c391eb832",
+    "response_sha256": "30ae2afbe039a16f32699d6b37f88ee44e41889c6d8888b83febb1a640212d2a",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.321,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:25:01.678396+00:00",
+    "request_sha256": "9f9117dfaf92ca4c775578901d546ca053efd359572e4cd45b55dc05365e009e",
+    "input_sha256": "ddc219f66c6df6b9263bf47d7c5333bc30d18b415c33915876dae0d3a03e19b5",
+    "response_sha256": "026ec532f9e053b21566a801afae4543280836b7bcc44f75fd92cbe9ac8462e9",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.16,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:25:15.944672+00:00",
+    "request_sha256": "96030c0f9465fd91e78fda9f13becbb5831de87ef2ed1ac2fcc542e6ab6b28a9",
+    "input_sha256": "5fdf0230552015f0716ce6d89c009475aa8410d6f72689dee6f7284296b84f7f",
+    "response_sha256": "01ca861cb00ed936a9f6211dd655e5f0410eb250718f924663f387858be303e6",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.266,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:25:28.374373+00:00",
+    "request_sha256": "da0b723b6dd50c774faae0a89983fabc8905da60b3efefa57e6f51f2b8e84993",
+    "input_sha256": "1924d0ab1e4a63744f5360cd6d9a66686460288f03fd48dca924c3ef53056555",
+    "response_sha256": "9ae4cb417021be7bcf2ffc63d7b60caded214e61bd9d94543f86430f2e482e97",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.429,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:25:44.715859+00:00",
+    "request_sha256": "c3bb0cc8fcb8a4f64bba89367e3a0b50fa0972e51caa0eb9177dadca4f054197",
+    "input_sha256": "7c23ba5b5cb3e16249991a896a47b39ee96483d85edfd406e358e93b5b686e10",
+    "response_sha256": "85de72a8c40db5032a1a8a8546a77121c0c53f827756fbadf099b30a8cd295a3",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 16.341,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 51,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:25:56.855528+00:00",
+    "request_sha256": "db3172744e1776e4a2506f84191451f00dd0105511f54ec264ee6a2159f814c5",
+    "input_sha256": "44e8d5c3f8a0ba5f9db3402525e07755ba3f04019aac680d186f5df7ce6c09a9",
+    "response_sha256": "70879b1706f6abcec0cd14da6259c45599f6727232fe653ec36e479c8c06e6c4",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.139,
+    "done_reason": "stop",
+    "prompt_tokens": 717,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:26:11.203057+00:00",
+    "request_sha256": "490390107f075fc01a9aac5b6a67d5183efe89c6305df4f68fbd5166af0da02c",
+    "input_sha256": "41534c3f5af892a20f527dea75aff56c2fd66516ee9a7b6ad4d72dfd68a762b2",
+    "response_sha256": "3f88a75817c30eecc6c096801d65f8507de43f3542425369ff5ea4a2a79e1b94",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 14.347,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 43,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:26:21.176270+00:00",
+    "request_sha256": "84399ef3de9903163199fd20a907f73fd09582ae9427e4c73e3346bea10e20d1",
+    "input_sha256": "72f23154db0e710ad5c57e3b3420ebe832a586834bf717e6c3c6098b7e53eb25",
+    "response_sha256": "c5f71ae0973cb4d5fef423601ba2c835d416dbd0a004786a5d131b01f636a8f5",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p01",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 9.973,
+    "done_reason": "stop",
+    "prompt_tokens": 721,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:28:23.334678+00:00",
+    "request_sha256": "d21eb15efc8968a7d7043503f5a120c002961bedd0bbd4452e536acdb46cbc03",
+    "input_sha256": "72da43ed46247066d6048606be794799752cea3fe0b2824988b121db3d5a9272",
+    "response_sha256": "973369074c38dd1edf7e32de9012091564197af56368aeedd5487210a207cdc9",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 14.812,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:28:33.181821+00:00",
+    "request_sha256": "c8c7755cb32d27a3f898bce3d37b51d956c98258db0475568dcf7d010c238b5b",
+    "input_sha256": "95b634f8461170f55f4914d0c200391585214a623a366735ec17e8073cf72174",
+    "response_sha256": "742df454f803312583cb76187adc01cc8544c53944d37791622f73ffe71ab4b0",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 9.847,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:28:45.602770+00:00",
+    "request_sha256": "4f1d1c3e2f52fa33f2b7d51ad9036aaf4841562940ff1f5d1baf78da7f9dc9dc",
+    "input_sha256": "2edb1823bdc2077e27f44efa6bfa130ed0186cf366b9ce5e676556b27b903d7b",
+    "response_sha256": "816cd6ae0f7ad6b4bba06999d30fbbc786bd14ec075fb56e8094aff92cb32f3a",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 12.421,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:28:57.880962+00:00",
+    "request_sha256": "1fdbd668ce531f96565f343ac6d669a4c475371033b50e1676dc91fb545f58ab",
+    "input_sha256": "9451b8166573ff071947359c95982e706bc223230fbe5505484724e57b6dd2e1",
+    "response_sha256": "da879e5541ef278596bf9f8df811b92301d941791e26bbbc58a8e04496829025",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 12.278,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:29:10.386240+00:00",
+    "request_sha256": "59c98fcf6515b1493a51f6c5e37b4ef6ee6dec93333b2a9550f7cd096ce8add4",
+    "input_sha256": "48215789133bcf88c021b6c9263eec0244d9024cee90b608047cbfdd98f44b0e",
+    "response_sha256": "6d5d8a54bbb47c89f1a18fb8b11f3201c33002ad77d683fb2858d7eb843882f2",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p03",
+        "p04"
+      ]
+    },
+    "elapsed_seconds": 12.505,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 37,
+    "usable": true
+  },
+  {
+    "id": "nts-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:29:23.424267+00:00",
+    "request_sha256": "04f5133b627035c3376c1e30e90e2a1ed1148ea75362002c12b2af4cfc763ccd",
+    "input_sha256": "e75bddc496e675bf4c80a11c138a14da04c70131949750e54a61a3814023a1b6",
+    "response_sha256": "6b2f3cd73fba4a4bd8aa8243ff5b496a6a6fae463a24ce122b18dc5553036dc8",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 13.038,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "nts-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:29:36.223640+00:00",
+    "request_sha256": "85347ef30cd6f3d8a79050fb2e60f4d6d1559b96c9ffbf0ceb3531375f6d203e",
+    "input_sha256": "1ef2c416ab7f7ec7fb4854663571db46e93099ed31752cd427669ab26bd2890f",
+    "response_sha256": "92961c6b4d7334dd608817b1270c89461f2c58e38d2377673b51b7b0a1a4f24f",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 12.799,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "nts-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:29:48.563456+00:00",
+    "request_sha256": "3e4605844b5beca5d0055821cefd72e2a4d38775801e5bd5a05b2c9f91afb2a7",
+    "input_sha256": "ca9ddf404df59e696155ec0b759ea055b011072c2b83c223fce86aafeadb1858",
+    "response_sha256": "b10b4a02ed31f56a48c8f6023c8e27c9171e47b20bd82f3e8c4ab5c69c5c15b1",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p03",
+        "p03"
+      ]
+    },
+    "elapsed_seconds": 12.339,
+    "done_reason": "stop",
+    "prompt_tokens": 2020,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:26:39.926130+00:00",
+    "request_sha256": "684a6b60ff28bc593c984320bf1070558325a590807cf06570b5e95820a9fcef",
+    "input_sha256": "9eddee781ff67232e24518930cb216f9584ca98dc2a7fe4de3391bd07a8bf580",
+    "response_sha256": "b5e4cbb0c1af76aba187d4b99fee67f62d00e65805a03993ae25109d4c1792ad",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 18.75,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:26:53.268887+00:00",
+    "request_sha256": "0c6ead6776649f39b9b95a14314331a428ffa16c5b5261d001019d02535d9f34",
+    "input_sha256": "38eb522ac8ef6af8e76311e737ea71c1c5fb6f18fd7a35a7e917f01825d22ed4",
+    "response_sha256": "d149bde430003085a87adb1473ae9d3b5c455aebfe693bd87870f46388eabbb4",
+    "parsed": {
+      "decision": "ineligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 13.342,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 38,
+    "usable": true
+  },
+  {
+    "id": "work24-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:27:05.573398+00:00",
+    "request_sha256": "4a420b22cab7260c10cf00dcc4d59289e071e997846988b01e1e5520868b9a6e",
+    "input_sha256": "30b48caab820d1e81b297391ff162fe7dac37ded3868a7f12754c7dec00e665a",
+    "response_sha256": "a547a847d74c890cfe137b144bf06b2bc6b96e3aa3199429cc150fa9f0126a6d",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.304,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:27:18.210450+00:00",
+    "request_sha256": "d062e173566d017feb4a32a8e3ad0727d30eef2d23df6f8b8184be51df09d72d",
+    "input_sha256": "19834be1b5959cc543f19aad8f77d2d575e8bc97702a55056c63f9508bb60a95",
+    "response_sha256": "d54bed67e59893ba052ed49974e6eea7447c6b779994f9d1f7e209662d60c862",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.637,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:27:30.821407+00:00",
+    "request_sha256": "93a576c10f7deb06581dd731a42976c16cc13eb2ce707b0c7ccd5f1f14d2f0a7",
+    "input_sha256": "9f00eac1b9906359b53b684f35a4bf2aac13c60be1fb95e0a57b51b12a16879c",
+    "response_sha256": "1b86bb46a2645185c4073e588c30473836a7945881517b0690d8e223584d6d7f",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.61,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:27:43.346826+00:00",
+    "request_sha256": "c046685e1d8f7be7d745248f3bb76de746e9dac5e5bc8b26238366b7e06d4aa5",
+    "input_sha256": "123a7e9ed916254d305a0990da5a388b25c1d8c65db204a3d043800667d9da99",
+    "response_sha256": "b6aab9290346dde67adba353beb5e1a013528dad80e361a792953e8c2290a54c",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.525,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:27:55.575389+00:00",
+    "request_sha256": "016eef6fee2691f1aa5eeb538b004d228756e4ea3b158a6f9216235c28fa7490",
+    "input_sha256": "d6427d15ce984bdf739a6e271e2bb1946c80ec29286ea1db62dd9c09aa4373df",
+    "response_sha256": "3d31022f7301f39fdb4ab9dd0ad510cb02a844ee45b9510be82e20f5ed5e5f41",
+    "parsed": {
+      "decision": "eligible",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.228,
+    "done_reason": "stop",
+    "prompt_tokens": 4028,
+    "output_tokens": 36,
+    "usable": true
+  },
+  {
+    "id": "work24-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:28:08.521863+00:00",
+    "request_sha256": "2f2b415c6c1299057a17de278e5ba7c1c8e4afdfb18ce973fa64f77506e5c4f0",
+    "input_sha256": "f7728765522ed1eb620a56bfb8b341e927bf06a1c444b133536ae02c54ac737e",
+    "response_sha256": "35a3d0a160f9c2a6c6201985317a75799d03a270197a8aade4d9bb2ebe689e0d",
+    "parsed": {
+      "decision": "undetermined",
+      "evidence": [
+        "p06",
+        "p07"
+      ]
+    },
+    "elapsed_seconds": 12.946,
+    "done_reason": "stop",
+    "prompt_tokens": 4026,
+    "output_tokens": 37,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:17.388600+00:00",
+    "request_sha256": "da1dfb09987668233c92270ce19930bc4ab3dfbeb667922663d3fd1da56f107c",
+    "input_sha256": "3ad6a3ecc3f5aa3bcf904a213df236204a36ab23461d7c987ce6fd166e672203",
+    "response_sha256": "ecfdd3bf67bd9502abb4ece0122273c94073ba58ca1743899b73b101f9f815c4",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 9.071,
+    "done_reason": "stop",
+    "prompt_tokens": 777,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:16:59.326458+00:00",
+    "request_sha256": "f6540ca2a775e4a0e3211f972839390df0e1ce6039b50435a816f795ddf2e5d8",
+    "input_sha256": "67f6a11c00648f07cf9ac95a14753cf8af1b8cd8c1998da56182997d96870f6c",
+    "response_sha256": "f05661f63245f7716916059a3c3a4829263d23369aa6e1670880623edb00277c",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 49.002,
+    "done_reason": "stop",
+    "prompt_tokens": 778,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:38.012062+00:00",
+    "request_sha256": "6458b7d4bcdc3c2c3d95490ae58524e309446151e4b2177e87a903e150045135",
+    "input_sha256": "210d5375767e1d08cb7db22b47985d8319a6a2515f71203d4609f991f54ccf2a",
+    "response_sha256": "42e2f914428c1ecbb3b47f6c1d7351cf29fa82b681b6836a214921ac8b973e47",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 10.491,
+    "done_reason": "stop",
+    "prompt_tokens": 779,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:56.675407+00:00",
+    "request_sha256": "706c478216e97771a23c886cd0c59c00537e6b9e7ccc0b67f11a82e2f3ec2f07",
+    "input_sha256": "245fc13b554869a4b7d84fc7b1d8ed4451367d1910594e8a7130445722001090",
+    "response_sha256": "8a093c2addee271c986b9cc169b27590dfe3d334a4b13fc7bc22a85d2acd3f87",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 9.63,
+    "done_reason": "stop",
+    "prompt_tokens": 780,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "nts",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:18:46.809072+00:00",
+    "request_sha256": "d9add2fdcff05794be2a57ce239c0335382476c32b41018d5a940de674221df5",
+    "input_sha256": "337cd9241c6487ba8411db6508cb12e2a14e4f748545dc8b9e4681f1037d8694",
+    "response_sha256": "cb73df85ee6f8091f6fa9563fe50109a89a009084898a2ccae06c8d4f73633d5",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 14.96,
+    "done_reason": "stop",
+    "prompt_tokens": 2087,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "work24",
+    "stage": "full",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:18:19.378213+00:00",
+    "request_sha256": "af20d92e71e64e87d4164bf2a7ee53873aa4beea104882c4f82a31f10f33d6f8",
+    "input_sha256": "53476c4581f6561bf716e5d1b56e8698b1b45b5f2993063dced99772574fc074",
+    "response_sha256": "8a415fb87deee4b1c180f96e6fd8bb3c9a1a7e229d5cd07da9123e9fcf2e4d47",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 16.05,
+    "done_reason": "stop",
+    "prompt_tokens": 4098,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-all",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:27.520766+00:00",
+    "request_sha256": "11b52ce26b65b38726a5ae0e6562415df96897f167d9d07fe20c69c413cb2cae",
+    "input_sha256": "8293045636a92c435565820a669a0045c054ec6c554bc2b4a46856b9aaddaa58",
+    "response_sha256": "b0df3b8691d886e5219bd9f40c88aeb7bdb253fe6bbcbea0789a2a9a0be96938",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 10.131,
+    "done_reason": "stop",
+    "prompt_tokens": 668,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-exception-any",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:08.317715+00:00",
+    "request_sha256": "f982222de7c26462f30eb3231a85c6fea7fda39c00105e73f2cb485618344a13",
+    "input_sha256": "535bd84424a3736e249da0663fe2ae2068f9b3c2ec03fbb0c45293a93f2b4342",
+    "response_sha256": "3de361e48d720b6da9b2fdb5e12179a6fd1a41e1a94aff11413b7f879c035479",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 8.99,
+    "done_reason": "stop",
+    "prompt_tokens": 669,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-self",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:17:47.044788+00:00",
+    "request_sha256": "795d35293cf3a2a879000bc262541846519b885ced3257af8df596f0ec11a2b9",
+    "input_sha256": "b98499b48a98538e4e416c03c77c42e3a1c57b8d5c560cb5fc1bacfcc7763b51",
+    "response_sha256": "52c08ade8ddd7733c568fba4363f67ac98c5d8955d795bad3aeeb9942fb530cd",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 9.032,
+    "done_reason": "stop",
+    "prompt_tokens": 644,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "auth-subject-spouse",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:18:03.328211+00:00",
+    "request_sha256": "6c525ae332ba52f5fea9651564fbf3916c49146f6eb9185b53572c016bdfd62d",
+    "input_sha256": "c2a10b2feb68f9802b005d4066a34f84ef79fe58ae830e21cbd966b8ed2fa134",
+    "response_sha256": "44e6107003e869c2b17192a499c7fcd4c1d43305bf7dfbacdc81e8f0582bbad4",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 6.652,
+    "done_reason": "stop",
+    "prompt_tokens": 645,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "nts",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:19:00.813456+00:00",
+    "request_sha256": "a102429c762ff8056a659dd38c35ca0feb8ad1ed641f07eb398379757c5f2962",
+    "input_sha256": "b739ff57a5db776ee004358592c97118f1ebaae9b7f69388b3935647e92e7be0",
+    "response_sha256": "bcf88fe6265ffa007b781e18ea28e18ba390dfb7bbbafd227e08e0345ddffae4",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 14.003,
+    "done_reason": "stop",
+    "prompt_tokens": 1567,
+    "output_tokens": 25,
+    "usable": true
+  },
+  {
+    "id": "work24",
+    "stage": "retrieved",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T15:18:31.849201+00:00",
+    "request_sha256": "30f085744ef7cbaa9169fb6e29263ed15d3b83ec093764ec0728e228239220aa",
+    "input_sha256": "57c550c55916424b7c59198521801195685072d02f3472650d4c8a7abe31d5e6",
+    "response_sha256": "082c884de81bfef49083a450410bfd52b186b73a17a2606531f2dd14c834de22",
+    "parsed": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "elapsed_seconds": 12.467,
+    "done_reason": "stop",
+    "prompt_tokens": 1202,
+    "output_tokens": 25,
+    "usable": true
+  }
+]

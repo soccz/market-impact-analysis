@@ -1,0 +1,267 @@
+{
+  "auth-exception-any": {
+    "program": {
+      "status": "ready",
+      "root": "root",
+      "nodes": [
+        {
+          "id": "n0",
+          "op": "atom",
+          "field": "age",
+          "cmp": "ge",
+          "value": 18.0,
+          "children": [],
+          "evidence": [
+            "p07"
+          ]
+        },
+        {
+          "id": "n1",
+          "op": "atom",
+          "field": "income",
+          "cmp": "le",
+          "value": 3000.0,
+          "children": [],
+          "evidence": [
+            "p07"
+          ]
+        },
+        {
+          "id": "root",
+          "op": "all",
+          "field": "",
+          "cmp": "eq",
+          "value": 0,
+          "children": [
+            "n0",
+            "n1"
+          ],
+          "evidence": [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08"
+          ]
+        }
+      ]
+    },
+    "guarded": true
+  },
+  "auth-exception-all": {
+    "program": {
+      "status": "ready",
+      "root": "root",
+      "nodes": [
+        {
+          "id": "n0",
+          "op": "atom",
+          "field": "age",
+          "cmp": "ge",
+          "value": 18.0,
+          "children": [],
+          "evidence": [
+            "p07"
+          ]
+        },
+        {
+          "id": "n1",
+          "op": "atom",
+          "field": "income",
+          "cmp": "le",
+          "value": 3000.0,
+          "children": [],
+          "evidence": [
+            "p07"
+          ]
+        },
+        {
+          "id": "root",
+          "op": "all",
+          "field": "",
+          "cmp": "eq",
+          "value": 0,
+          "children": [
+            "n0",
+            "n1"
+          ],
+          "evidence": [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08"
+          ]
+        }
+      ]
+    },
+    "guarded": true
+  },
+  "auth-subject-self": {
+    "program": {
+      "status": "ready",
+      "root": "root",
+      "nodes": [
+        {
+          "id": "n0",
+          "op": "atom",
+          "field": "age",
+          "cmp": "ge",
+          "value": 70.0,
+          "children": [],
+          "evidence": [
+            "p03"
+          ]
+        },
+        {
+          "id": "n1",
+          "op": "atom",
+          "field": "own_income",
+          "cmp": "le",
+          "value": 1000.0,
+          "children": [],
+          "evidence": [
+            "p05"
+          ]
+        },
+        {
+          "id": "root",
+          "op": "all",
+          "field": "",
+          "cmp": "eq",
+          "value": 0,
+          "children": [
+            "n0",
+            "n1"
+          ],
+          "evidence": [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08"
+          ]
+        }
+      ]
+    },
+    "guarded": true
+  },
+  "auth-subject-spouse": {
+    "program": {
+      "status": "ready",
+      "root": "root",
+      "nodes": [
+        {
+          "id": "n0",
+          "op": "atom",
+          "field": "age",
+          "cmp": "ge",
+          "value": 70.0,
+          "children": [],
+          "evidence": [
+            "p03"
+          ]
+        },
+        {
+          "id": "n1",
+          "op": "atom",
+          "field": "own_income",
+          "cmp": "le",
+          "value": 1000.0,
+          "children": [],
+          "evidence": [
+            "p05"
+          ]
+        },
+        {
+          "id": "root",
+          "op": "all",
+          "field": "",
+          "cmp": "eq",
+          "value": 0,
+          "children": [
+            "n0",
+            "n1"
+          ],
+          "evidence": [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08"
+          ]
+        }
+      ]
+    },
+    "guarded": true
+  },
+  "work24": {
+    "program": {
+      "status": "ready",
+      "root": "root",
+      "nodes": [
+        {
+          "id": "n0",
+          "op": "atom",
+          "field": "wage",
+          "cmp": "ge",
+          "value": 300.0,
+          "children": [],
+          "evidence": [
+            "p06"
+          ]
+        },
+        {
+          "id": "root",
+          "op": "all",
+          "field": "",
+          "cmp": "eq",
+          "value": 0,
+          "children": [
+            "n0"
+          ],
+          "evidence": [
+            "p01",
+            "p02",
+            "p03",
+            "p04",
+            "p05",
+            "p06",
+            "p07",
+            "p08",
+            "p09",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17"
+          ]
+        }
+      ]
+    },
+    "guarded": true
+  },
+  "nts": {
+    "program": {
+      "status": "insufficient",
+      "root": "",
+      "nodes": []
+    },
+    "guarded": true
+  }
+}

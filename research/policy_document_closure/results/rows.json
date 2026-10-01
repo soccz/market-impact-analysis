@@ -1,0 +1,2434 @@
+[
+  {
+    "id": "auth-exception-any-1",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "하한 당일·기본 충족",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-2",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 18,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "예외도 나이 하한을 면제하지 않음",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-3",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "장애만 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-4",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "돌봄만 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-5",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "두 예외 모두 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-6",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "예외 없는 초과 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-7",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": null,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "모르는 장애 여부가 OR/AND에서 다른 영향",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-8",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": null,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "undetermined",
+    "note": "소득 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "undetermined",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-1",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "하한 당일·기본 충족",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-2",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 18,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "예외도 나이 하한을 면제하지 않음",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-3",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "장애만 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-4",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "돌봄만 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-5",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "두 예외 모두 해당",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-6",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "예외 없는 초과 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-7",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": null,
+      "carer": true
+    },
+    "label": "undetermined",
+    "note": "모르는 장애 여부가 OR/AND에서 다른 영향",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-8",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": null,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "undetermined",
+    "note": "소득 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "undetermined",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-1",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "기본 충족",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-2",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "본인만 기준 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-3",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "배우자만 기준 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-4",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "고소득이지만 장애 예외",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-5",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": true
+    },
+    "label": "ineligible",
+    "note": "지원제한으로 예외 취소",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-6",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": null,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "배우자 소득 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-7",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": null,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "장애 여부 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-8",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 18,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "예외도 기본 나이를 면제하지 않음",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-1",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "기본 충족",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-2",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "본인만 기준 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-3",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "배우자만 기준 소득",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-4",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "고소득이지만 장애 예외",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-5",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": true
+    },
+    "label": "ineligible",
+    "note": "지원제한으로 예외 취소",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-6",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": null,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "배우자 소득 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-7",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": null,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "장애 여부 미확인",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-8",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 18,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "예외도 기본 나이를 면제하지 않음",
+    "model": "qwen",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-1",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": 44,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "ineligible",
+    "note": "세 조건 동시 충족으로 제외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-2",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": 45,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "나이 45세 경계",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-3",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 299,
+      "age": 44,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "월 임금 하한 직전",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-4",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "ineligible",
+    "note": "일반 생계급여 수급 제외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-5",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": true,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "조건부 수급 예외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-6",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": false,
+      "deferred": true
+    },
+    "label": "eligible",
+    "note": "조건부과 유예 예외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-7",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": null,
+      "deferred": false
+    },
+    "label": "undetermined",
+    "note": "예외 여부 미확인",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-8",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": null,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "undetermined",
+    "note": "나이 미확인",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-1",
+    "document": "nts",
+    "facts": {
+      "korean_self": true,
+      "korean_spouse": false,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "본인 국적 충족",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-2",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": true,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "배우자 국적 예외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-3",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": true,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "부양자녀 국적 예외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-4",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "ineligible",
+    "note": "국적 예외 모두 없음",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-5",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": null,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "undetermined",
+    "note": "배우자 국적 미확인",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "undetermined",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-6",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": true,
+      "dependent_other": true,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "ineligible",
+    "note": "국적 예외가 다른 부양자녀 제외를 면제하지 않음",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-7",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": true,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": true
+    },
+    "label": "ineligible",
+    "note": "배우자 전문직도 제외",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-8",
+    "document": "nts",
+    "facts": {
+      "korean_self": true,
+      "korean_spouse": false,
+      "korean_child": null,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "본인 국적 확인 시 자녀 국적 미확인 무관",
+    "model": "qwen",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-1",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "하한 당일·기본 충족",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-2",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 18,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "예외도 나이 하한을 면제하지 않음",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-3",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "장애만 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-4",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "돌봄만 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-5",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "두 예외 모두 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-6",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "예외 없는 초과 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-7",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": null,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "모르는 장애 여부가 OR/AND에서 다른 영향",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-any-8",
+    "document": "auth-exception-any",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": null,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "undetermined",
+    "note": "소득 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "undetermined",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-1",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "eligible",
+    "note": "하한 당일·기본 충족",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-2",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 18,
+      "residence": 6,
+      "income": 1000,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "예외도 나이 하한을 면제하지 않음",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-3",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "장애만 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-4",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": true
+    },
+    "label": "ineligible",
+    "note": "돌봄만 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-5",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": true,
+      "carer": true
+    },
+    "label": "eligible",
+    "note": "두 예외 모두 해당",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-6",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "ineligible",
+    "note": "예외 없는 초과 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-7",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": 2001,
+      "student": false,
+      "disabled": null,
+      "carer": true
+    },
+    "label": "undetermined",
+    "note": "모르는 장애 여부가 OR/AND에서 다른 영향",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-exception-all-8",
+    "document": "auth-exception-all",
+    "facts": {
+      "age": 19,
+      "residence": 6,
+      "income": null,
+      "student": false,
+      "disabled": false,
+      "carer": false
+    },
+    "label": "undetermined",
+    "note": "소득 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "undetermined",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-1",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "기본 충족",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-2",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "본인만 기준 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-3",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "배우자만 기준 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-4",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "고소득이지만 장애 예외",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-5",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": true
+    },
+    "label": "ineligible",
+    "note": "지원제한으로 예외 취소",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-6",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": null,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "배우자 소득 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-7",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": null,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "장애 여부 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-self-8",
+    "document": "auth-subject-self",
+    "facts": {
+      "age": 18,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "예외도 기본 나이를 면제하지 않음",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-1",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "기본 충족",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-2",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "본인만 기준 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-3",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "배우자만 기준 소득",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-4",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "eligible",
+    "note": "고소득이지만 장애 예외",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-5",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": true
+    },
+    "label": "ineligible",
+    "note": "지원제한으로 예외 취소",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-6",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 1000,
+      "spouse_income": null,
+      "student": true,
+      "worker": false,
+      "disabled": false,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "배우자 소득 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-7",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 19,
+      "own_income": 3000,
+      "spouse_income": 3000,
+      "student": true,
+      "worker": false,
+      "disabled": null,
+      "sanction": false
+    },
+    "label": "undetermined",
+    "note": "장애 여부 미확인",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "auth-subject-spouse-8",
+    "document": "auth-subject-spouse",
+    "facts": {
+      "age": 18,
+      "own_income": 1000,
+      "spouse_income": 1000,
+      "student": true,
+      "worker": false,
+      "disabled": true,
+      "sanction": false
+    },
+    "label": "ineligible",
+    "note": "예외도 기본 나이를 면제하지 않음",
+    "model": "kanana-public",
+    "group": "authored",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-1",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": 44,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "ineligible",
+    "note": "세 조건 동시 충족으로 제외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-2",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": 45,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "나이 45세 경계",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-3",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 299,
+      "age": 44,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "월 임금 하한 직전",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "ineligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-4",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "ineligible",
+    "note": "일반 생계급여 수급 제외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-5",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": true,
+      "deferred": false
+    },
+    "label": "eligible",
+    "note": "조건부 수급 예외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-6",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": false,
+      "deferred": true
+    },
+    "label": "eligible",
+    "note": "조건부과 유예 예외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-7",
+    "document": "work24",
+    "facts": {
+      "large": false,
+      "wage": 300,
+      "age": 44,
+      "livelihood": true,
+      "conditional": null,
+      "deferred": false
+    },
+    "label": "undetermined",
+    "note": "예외 여부 미확인",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "work24-8",
+    "document": "work24",
+    "facts": {
+      "large": true,
+      "wage": 300,
+      "age": null,
+      "livelihood": false,
+      "conditional": false,
+      "deferred": false
+    },
+    "label": "undetermined",
+    "note": "나이 미확인",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "eligible",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-1",
+    "document": "nts",
+    "facts": {
+      "korean_self": true,
+      "korean_spouse": false,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "본인 국적 충족",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-2",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": true,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "배우자 국적 예외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-3",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": true,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "부양자녀 국적 예외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-4",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "ineligible",
+    "note": "국적 예외 모두 없음",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-5",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": null,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "undetermined",
+    "note": "배우자 국적 미확인",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-6",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": false,
+      "korean_child": true,
+      "dependent_other": true,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "ineligible",
+    "note": "국적 예외가 다른 부양자녀 제외를 면제하지 않음",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-7",
+    "document": "nts",
+    "facts": {
+      "korean_self": false,
+      "korean_spouse": true,
+      "korean_child": false,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": true
+    },
+    "label": "ineligible",
+    "note": "배우자 전문직도 제외",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "ineligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  },
+  {
+    "id": "nts-8",
+    "document": "nts",
+    "facts": {
+      "korean_self": true,
+      "korean_spouse": false,
+      "korean_child": null,
+      "dependent_other": false,
+      "professional_self": false,
+      "professional_spouse": false
+    },
+    "label": "eligible",
+    "note": "본인 국적 확인 시 자녀 국적 미확인 무관",
+    "model": "kanana-public",
+    "group": "official",
+    "literal_rules": "abstain",
+    "guarded_rules": "abstain",
+    "direct": "eligible",
+    "reasons": {
+      "full": "insufficient_program",
+      "retrieved": "insufficient_program"
+    },
+    "full": "abstain",
+    "retrieved": "abstain"
+  }
+]

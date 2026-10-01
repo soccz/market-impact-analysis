@@ -1,0 +1,860 @@
+{
+  "authored": {
+    "qwen": {
+      "literal_rules": {
+        "n": 32,
+        "correct": 15,
+        "abstain": 0,
+        "undetermined": 2,
+        "fixes_vs_direct": 5,
+        "harms_vs_direct": 13,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.46875,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 23,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 32,
+        "correct": 23,
+        "abstain": 0,
+        "undetermined": 5,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 7,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 7,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.71875,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 23,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 23,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    },
+    "kanana-public": {
+      "literal_rules": {
+        "n": 32,
+        "correct": 15,
+        "abstain": 0,
+        "undetermined": 2,
+        "fixes_vs_direct": 5,
+        "harms_vs_direct": 10,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.46875,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 20,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 32,
+        "correct": 20,
+        "abstain": 0,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 4,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 5,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 5,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.625,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 20,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 32,
+        "correct": 0,
+        "abstain": 32,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 20,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    }
+  },
+  "official": {
+    "qwen": {
+      "literal_rules": {
+        "n": 16,
+        "correct": 3,
+        "abstain": 8,
+        "undetermined": 0,
+        "fixes_vs_direct": 1,
+        "harms_vs_direct": 8,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.1875,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 10,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 16,
+        "correct": 10,
+        "abstain": 0,
+        "undetermined": 2,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "nts": {
+            "correct": 6,
+            "n": 8
+          },
+          "work24": {
+            "correct": 4,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.625,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 10,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 10,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    },
+    "kanana-public": {
+      "literal_rules": {
+        "n": 16,
+        "correct": 3,
+        "abstain": 8,
+        "undetermined": 0,
+        "fixes_vs_direct": 2,
+        "harms_vs_direct": 6,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.1875,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 7,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 16,
+        "correct": 7,
+        "abstain": 0,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "nts": {
+            "correct": 5,
+            "n": 8
+          },
+          "work24": {
+            "correct": 2,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.4375,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 7,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 16,
+        "correct": 0,
+        "abstain": 16,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 7,
+        "documents": {
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    }
+  },
+  "all": {
+    "qwen": {
+      "literal_rules": {
+        "n": 48,
+        "correct": 18,
+        "abstain": 8,
+        "undetermined": 2,
+        "fixes_vs_direct": 6,
+        "harms_vs_direct": 21,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.375,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 33,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 48,
+        "correct": 33,
+        "abstain": 0,
+        "undetermined": 7,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 7,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 7,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          },
+          "nts": {
+            "correct": 6,
+            "n": 8
+          },
+          "work24": {
+            "correct": 4,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.6875,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 33,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 33,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    },
+    "kanana-public": {
+      "literal_rules": {
+        "n": 48,
+        "correct": 18,
+        "abstain": 8,
+        "undetermined": 2,
+        "fixes_vs_direct": 7,
+        "harms_vs_direct": 16,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 3,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 3,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 3,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.375,
+        "complete_documents": 0
+      },
+      "guarded_rules": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 27,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "direct": {
+        "n": 48,
+        "correct": 27,
+        "abstain": 0,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 0,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 4,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 5,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 6,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 5,
+            "n": 8
+          },
+          "nts": {
+            "correct": 5,
+            "n": 8
+          },
+          "work24": {
+            "correct": 2,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.5625,
+        "complete_documents": 0
+      },
+      "full": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 27,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      },
+      "retrieved": {
+        "n": 48,
+        "correct": 0,
+        "abstain": 48,
+        "undetermined": 0,
+        "fixes_vs_direct": 0,
+        "harms_vs_direct": 27,
+        "documents": {
+          "auth-exception-all": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-exception-any": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-self": {
+            "correct": 0,
+            "n": 8
+          },
+          "auth-subject-spouse": {
+            "correct": 0,
+            "n": 8
+          },
+          "nts": {
+            "correct": 0,
+            "n": 8
+          },
+          "work24": {
+            "correct": 0,
+            "n": 8
+          }
+        },
+        "document_macro_accuracy": 0.0,
+        "complete_documents": 0
+      }
+    }
+  }
+}

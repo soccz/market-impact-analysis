@@ -1,0 +1,48 @@
+{
+  "qwen": {
+    "direct": {
+      "requests": 48,
+      "prompt_tokens": 71230,
+      "output_tokens": 1924,
+      "elapsed_seconds": 647.732,
+      "unusable": 0
+    },
+    "full": {
+      "requests": 6,
+      "prompt_tokens": 9299,
+      "output_tokens": 150,
+      "elapsed_seconds": 109.204,
+      "unusable": 0
+    },
+    "retrieved": {
+      "requests": 6,
+      "prompt_tokens": 5395,
+      "output_tokens": 150,
+      "elapsed_seconds": 61.275,
+      "unusable": 0
+    }
+  },
+  "kanana-public": {
+    "direct": {
+      "requests": 48,
+      "prompt_tokens": 82111,
+      "output_tokens": 1636,
+      "elapsed_seconds": 41.406,
+      "unusable": 0
+    },
+    "full": {
+      "requests": 6,
+      "prompt_tokens": 10803,
+      "output_tokens": 11407,
+      "elapsed_seconds": 239.535,
+      "unusable": 2
+    },
+    "retrieved": {
+      "requests": 6,
+      "prompt_tokens": 6172,
+      "output_tokens": 13738,
+      "elapsed_seconds": 286.981,
+      "unusable": 3
+    }
+  }
+}

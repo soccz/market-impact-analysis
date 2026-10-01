@@ -1,0 +1,2183 @@
+{
+  "documents": [
+    {
+      "id": "auth-exception-any",
+      "group": "authored",
+      "pair": "exception",
+      "title": "새길 교육비 · 보호 대상 또는",
+      "scope": "새길 교육비 지원의 기본 조건과 소득 제외 및 보호 대상 예외를 함께 판정한다. 다른 사업의 교통비·부모 상담·지급 일정은 범위 밖이다.",
+      "fields": {
+        "age": {
+          "type": "number",
+          "label": "나이",
+          "unit": "세"
+        },
+        "residence": {
+          "type": "number",
+          "label": "거주기간",
+          "unit": "개월"
+        },
+        "income": {
+          "type": "number",
+          "label": "연소득",
+          "unit": "만원"
+        },
+        "student": {
+          "type": "boolean",
+          "label": "신청자 재학생"
+        },
+        "disabled": {
+          "type": "boolean",
+          "label": "신청자 장애인"
+        },
+        "carer": {
+          "type": "boolean",
+          "label": "신청자 돌봄 담당자"
+        }
+      },
+      "evidence": {
+        "p01": "제1조 새길 교육비 지원은 신청자의 나이가 19세 이상이고, 거주기간이 6개월 이상이거나 신청자가 재학생이면 기본 조건을 충족한다. 나이 조건은 두 경로 모두에 적용한다.",
+        "p02": "제2조 새길 교육비는 신청자의 연소득이 2000만원을 초과하면 지원에서 제외한다. 다만 별표 1의 보호 대상자에게는 이 소득 제외를 적용하지 않는다. 제1조의 기본 조건은 보호 대상자에게도 적용한다.",
+        "p03": "제3조 지급은 2회로 나누어 진행한다. 매회 30만원이며 실제 신청 기간과는 관계없이 독해 검증에 쓰는 가상 안내다.",
+        "p04": "별표 1 보호 대상자는 장애인이거나 돌봄 담당자인 신청자다. 둘 중 하나만 해당해도 된다.",
+        "p05": "별표 2 부모 상담 프로그램의 권장 연령은 65세 이상이다. 이 프로그램은 교육비 자격과 관련이 없다.",
+        "p06": "제4조 제출 서류는 재학 증명과 거주 확인 자료다. 온라인으로 제출할 수 있으며 접수 시각은 자격 조건이 아니다.",
+        "p07": "제5조 다른 사업인 새길 교통비는 나이 18세 이상, 연소득 3000만원 이하를 기준으로 한다. 교통비 조건을 교육비에 적용하지 않는다.",
+        "p08": "제6조 문의는 가상의 운영 창구로 한다. 실제 정책·기관·신청자를 표현한 문서가 아니다."
+      },
+      "required_evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "a",
+            "op": "atom",
+            "field": "age",
+            "value": 19,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "r",
+            "op": "atom",
+            "field": "residence",
+            "value": 6,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "s",
+            "op": "atom",
+            "field": "student",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "path",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "r",
+              "s"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "base",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "a",
+              "path"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "i",
+            "op": "atom",
+            "field": "income",
+            "value": 2000,
+            "cmp": "gt",
+            "children": [],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "disabled",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "c",
+            "op": "atom",
+            "field": "carer",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "protected",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "d",
+              "c"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "annex",
+            "op": "ref",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "protected"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "unprotected",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "annex"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "excluded",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "i",
+              "unprotected"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "allowed",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "excluded"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "base",
+              "allowed"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "auth-exception-all",
+      "group": "authored",
+      "pair": "exception",
+      "title": "새길 교육비 · 보호 대상 그리고",
+      "scope": "새길 교육비 지원의 기본 조건과 소득 제외 및 보호 대상 예외를 함께 판정한다. 다른 사업의 교통비·부모 상담·지급 일정은 범위 밖이다.",
+      "fields": {
+        "age": {
+          "type": "number",
+          "label": "나이",
+          "unit": "세"
+        },
+        "residence": {
+          "type": "number",
+          "label": "거주기간",
+          "unit": "개월"
+        },
+        "income": {
+          "type": "number",
+          "label": "연소득",
+          "unit": "만원"
+        },
+        "student": {
+          "type": "boolean",
+          "label": "신청자 재학생"
+        },
+        "disabled": {
+          "type": "boolean",
+          "label": "신청자 장애인"
+        },
+        "carer": {
+          "type": "boolean",
+          "label": "신청자 돌봄 담당자"
+        }
+      },
+      "evidence": {
+        "p01": "제1조 새길 교육비 지원은 신청자의 나이가 19세 이상이고, 거주기간이 6개월 이상이거나 신청자가 재학생이면 기본 조건을 충족한다. 나이 조건은 두 경로 모두에 적용한다.",
+        "p02": "제2조 새길 교육비는 신청자의 연소득이 2000만원을 초과하면 지원에서 제외한다. 다만 별표 1의 보호 대상자에게는 이 소득 제외를 적용하지 않는다. 제1조의 기본 조건은 보호 대상자에게도 적용한다.",
+        "p03": "제3조 지급은 2회로 나누어 진행한다. 매회 30만원이며 실제 신청 기간과는 관계없이 독해 검증에 쓰는 가상 안내다.",
+        "p04": "별표 1 보호 대상자는 장애인이면서 돌봄 담당자인 신청자다. 두 가지 모두 해당해야 한다.",
+        "p05": "별표 2 부모 상담 프로그램의 권장 연령은 65세 이상이다. 이 프로그램은 교육비 자격과 관련이 없다.",
+        "p06": "제4조 제출 서류는 재학 증명과 거주 확인 자료다. 온라인으로 제출할 수 있으며 접수 시각은 자격 조건이 아니다.",
+        "p07": "제5조 다른 사업인 새길 교통비는 나이 18세 이상, 연소득 3000만원 이하를 기준으로 한다. 교통비 조건을 교육비에 적용하지 않는다.",
+        "p08": "제6조 문의는 가상의 운영 창구로 한다. 실제 정책·기관·신청자를 표현한 문서가 아니다."
+      },
+      "required_evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "a",
+            "op": "atom",
+            "field": "age",
+            "value": 19,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "r",
+            "op": "atom",
+            "field": "residence",
+            "value": 6,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "s",
+            "op": "atom",
+            "field": "student",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "path",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "r",
+              "s"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "base",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "a",
+              "path"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "i",
+            "op": "atom",
+            "field": "income",
+            "value": 2000,
+            "cmp": "gt",
+            "children": [],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "disabled",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "c",
+            "op": "atom",
+            "field": "carer",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "protected",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "d",
+              "c"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "annex",
+            "op": "ref",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "protected"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "unprotected",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "annex"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "excluded",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "i",
+              "unprotected"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "allowed",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "excluded"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "base",
+              "allowed"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "auth-subject-self",
+      "group": "authored",
+      "pair": "subject",
+      "title": "잇다 학습비 · 본인 소득",
+      "scope": "잇다 학습비 지원의 기본 조건, 지정된 주체의 소득 제외, 장애 예외와 지원제한에 따른 예외 취소를 함께 판정한다. 다른 교재비·부모 상담·접수 시간은 범위 밖이다.",
+      "fields": {
+        "age": {
+          "type": "number",
+          "label": "나이",
+          "unit": "세"
+        },
+        "own_income": {
+          "type": "number",
+          "label": "본인 연소득",
+          "unit": "만원"
+        },
+        "spouse_income": {
+          "type": "number",
+          "label": "배우자 연소득",
+          "unit": "만원"
+        },
+        "student": {
+          "type": "boolean",
+          "label": "신청자 재학생"
+        },
+        "worker": {
+          "type": "boolean",
+          "label": "신청자 근로자"
+        },
+        "disabled": {
+          "type": "boolean",
+          "label": "신청자 장애인"
+        },
+        "sanction": {
+          "type": "boolean",
+          "label": "신청자 지원제한 중"
+        }
+      },
+      "evidence": {
+        "p01": "제1조 잇다 학습비 지원은 신청자의 나이가 19세 이상이고 재학생 또는 근로자일 때 기본 조건을 충족한다.",
+        "p02": "제2조 신청자 본인의 연소득이 3000만원 이상이면 지원에서 제외한다. 소득 주체를 다른 가족으로 바꾸지 않는다. 다만 별표 1의 예외를 적용한다.",
+        "p03": "제3조 지급액은 소득과 관계없이 20만원이다. 나이 70세 이상 부모에게는 별도의 상담 안내가 제공되며 학습비 조건은 아니다.",
+        "p04": "별표 1 신청자가 장애인이면 제2조 소득 제외의 예외에 해당한다. 그러나 신청자가 지원제한 중이면 이 예외를 적용하지 않는다.",
+        "p05": "별표 2 다른 사업인 잇다 교재비는 본인 연소득 1000만원 이하를 기준으로 한다. 교재비 조건은 학습비 조건이 아니다.",
+        "p06": "제4조 신청 순서와 제출 파일명은 자격 조건이 아니다. 가상 문서이며 실제 제도를 설명하지 않는다.",
+        "p07": "제5조 가족의 고용 여부와 부모의 연령은 이 학습비의 조건으로 사용하지 않는다.",
+        "p08": "제6조 접수 시간은 오전 9시부터 오후 6시까지다. 현재 독해 실험에서는 접수 시각을 평가하지 않는다."
+      },
+      "required_evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "a",
+            "op": "atom",
+            "field": "age",
+            "value": 19,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "s",
+            "op": "atom",
+            "field": "student",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "w",
+            "op": "atom",
+            "field": "worker",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "path",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "s",
+              "w"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "base",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "a",
+              "path"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "i",
+            "op": "atom",
+            "field": "own_income",
+            "value": 3000,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "disabled",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "sanc",
+            "op": "atom",
+            "field": "sanction",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "ns",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "sanc"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "exception",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "d",
+              "ns"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "ref",
+            "op": "ref",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "exception"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "ne",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "ref"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "exclude",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "i",
+              "ne"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "allowed",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "exclude"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "base",
+              "allowed"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "auth-subject-spouse",
+      "group": "authored",
+      "pair": "subject",
+      "title": "잇다 학습비 · 배우자 소득",
+      "scope": "잇다 학습비 지원의 기본 조건, 지정된 주체의 소득 제외, 장애 예외와 지원제한에 따른 예외 취소를 함께 판정한다. 다른 교재비·부모 상담·접수 시간은 범위 밖이다.",
+      "fields": {
+        "age": {
+          "type": "number",
+          "label": "나이",
+          "unit": "세"
+        },
+        "own_income": {
+          "type": "number",
+          "label": "본인 연소득",
+          "unit": "만원"
+        },
+        "spouse_income": {
+          "type": "number",
+          "label": "배우자 연소득",
+          "unit": "만원"
+        },
+        "student": {
+          "type": "boolean",
+          "label": "신청자 재학생"
+        },
+        "worker": {
+          "type": "boolean",
+          "label": "신청자 근로자"
+        },
+        "disabled": {
+          "type": "boolean",
+          "label": "신청자 장애인"
+        },
+        "sanction": {
+          "type": "boolean",
+          "label": "신청자 지원제한 중"
+        }
+      },
+      "evidence": {
+        "p01": "제1조 잇다 학습비 지원은 신청자의 나이가 19세 이상이고 재학생 또는 근로자일 때 기본 조건을 충족한다.",
+        "p02": "제2조 신청자의 배우자의 연소득이 3000만원 이상이면 지원에서 제외한다. 소득 주체를 다른 가족으로 바꾸지 않는다. 다만 별표 1의 예외를 적용한다.",
+        "p03": "제3조 지급액은 소득과 관계없이 20만원이다. 나이 70세 이상 부모에게는 별도의 상담 안내가 제공되며 학습비 조건은 아니다.",
+        "p04": "별표 1 신청자가 장애인이면 제2조 소득 제외의 예외에 해당한다. 그러나 신청자가 지원제한 중이면 이 예외를 적용하지 않는다.",
+        "p05": "별표 2 다른 사업인 잇다 교재비는 본인 연소득 1000만원 이하를 기준으로 한다. 교재비 조건은 학습비 조건이 아니다.",
+        "p06": "제4조 신청 순서와 제출 파일명은 자격 조건이 아니다. 가상 문서이며 실제 제도를 설명하지 않는다.",
+        "p07": "제5조 가족의 고용 여부와 부모의 연령은 이 학습비의 조건으로 사용하지 않는다.",
+        "p08": "제6조 접수 시간은 오전 9시부터 오후 6시까지다. 현재 독해 실험에서는 접수 시각을 평가하지 않는다."
+      },
+      "required_evidence": [
+        "p01",
+        "p02",
+        "p04"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "a",
+            "op": "atom",
+            "field": "age",
+            "value": 19,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "s",
+            "op": "atom",
+            "field": "student",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "w",
+            "op": "atom",
+            "field": "worker",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "path",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "s",
+              "w"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "base",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "a",
+              "path"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          },
+          {
+            "id": "i",
+            "op": "atom",
+            "field": "spouse_income",
+            "value": 3000,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "disabled",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "sanc",
+            "op": "atom",
+            "field": "sanction",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "ns",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "sanc"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "exception",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "d",
+              "ns"
+            ],
+            "evidence": [
+              "p04"
+            ]
+          },
+          {
+            "id": "ref",
+            "op": "ref",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "exception"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "ne",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "ref"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "exclude",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "i",
+              "ne"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "allowed",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "exclude"
+            ],
+            "evidence": [
+              "p02"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "base",
+              "allowed"
+            ],
+            "evidence": [
+              "p01"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "work24",
+      "group": "official",
+      "title": "고용24 · 기업근로자와 생계급여 제외",
+      "scope": "국민내일배움카드 지원 제외 대상 중 대규모 기업 근로자의 월 임금·나이 조건과 생계급여 수급자의 조건부 수급자·조건부과 유예자 예외를 함께 판정한다. 이 두 제외에 걸리지 않으면 이 범위에서는 eligible이다. 나머지 제외·발급 절차·훈련비·훈련장려금 조건은 평가하지 않는다.",
+      "fields": {
+        "large": {
+          "type": "boolean",
+          "label": "대규모 기업 근로자"
+        },
+        "wage": {
+          "type": "number",
+          "label": "월 임금",
+          "unit": "만원"
+        },
+        "age": {
+          "type": "number",
+          "label": "만 나이",
+          "unit": "세"
+        },
+        "livelihood": {
+          "type": "boolean",
+          "label": "생계급여 수급"
+        },
+        "conditional": {
+          "type": "boolean",
+          "label": "조건부 수급자"
+        },
+        "deferred": {
+          "type": "boolean",
+          "label": "조건부과 유예자"
+        }
+      },
+      "evidence": {
+        "p01": {
+          "sha256": "c9cebce70278e378954c4984d3856c97abdcc210582041729b30672db7c97bf7",
+          "characters": 416
+        },
+        "p02": {
+          "sha256": "7e8a0b17cdd35308e2a6ce834ba5b85c1acdf8427d8f7063f6b6d4849343c16b",
+          "characters": 398
+        },
+        "p03": {
+          "sha256": "6335405731441254557d4086125d6351cee05ae61963359a23365ac236453df6",
+          "characters": 410
+        },
+        "p04": {
+          "sha256": "4cc3981e478db9a043b8024a15ed1e35851e7ed15f87d615b4e91f0950856652",
+          "characters": 378
+        },
+        "p05": {
+          "sha256": "312495656912ba8ebd6e9df50cc0d5c1c00b6f43b6e729527bdf597a863d7d6e",
+          "characters": 412
+        },
+        "p06": {
+          "sha256": "2def81ec739f3f4cd58d19e45cb9e4341e05e63e746c215caae156e55ea92b7a",
+          "characters": 391
+        },
+        "p07": {
+          "sha256": "45894d95c2cc2863a1d7832abb1cbc766e785c6ccb569b3a5c94957d62a310cc",
+          "characters": 399
+        },
+        "p08": {
+          "sha256": "8e3bc9769fe13d488f5d859ab90a4cd1ee8db05f4c5b2da94ccde065703e7b11",
+          "characters": 409
+        },
+        "p09": {
+          "sha256": "f3e52dd6a44c5a7cd8b510d91cdcdb26bd08764fc9df7c4d8cdba1bd3bd71a95",
+          "characters": 373
+        },
+        "p10": {
+          "sha256": "855ca83e2bd9e0ae624c304588b24dda366ff5ee832dc2e37d4a04ecd4cdbd62",
+          "characters": 410
+        },
+        "p11": {
+          "sha256": "f0ffcde4bccc89e809ce6f5089579c623f9cb0b2abd2a07f3eb0dd3bde17892d",
+          "characters": 416
+        },
+        "p12": {
+          "sha256": "0fc8af28b1c6e213188ba904f98c95e1248f207409e1b1f55b6c424b80c9ff37",
+          "characters": 373
+        },
+        "p13": {
+          "sha256": "d9db11aa857538f1ee06ce102b25b0ec9943845e0b6c74d23c7c9a33b4ca1a22",
+          "characters": 411
+        },
+        "p14": {
+          "sha256": "f02d11df6c900b3bf17a14aabf2332a8185b4aa46cd5350a1d7d7e865f306f58",
+          "characters": 381
+        },
+        "p15": {
+          "sha256": "d837195556bacbb298ece64ddb3ee7a2b39882573538e018fa94cc08cd8f69ed",
+          "characters": 369
+        },
+        "p16": {
+          "sha256": "f1adb3ede6a80f963dcfa2098ed72c20907d14eeb1c356ca87bc94690221f73e",
+          "characters": 399
+        },
+        "p17": {
+          "sha256": "15a5af82f209a13154e989d47c5b5e0112ccc3810b65f94f74aeecc9f4513260",
+          "characters": 81
+        }
+      },
+      "required_evidence": [
+        "p06",
+        "p07"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "l",
+            "op": "atom",
+            "field": "large",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p06"
+            ]
+          },
+          {
+            "id": "w",
+            "op": "atom",
+            "field": "wage",
+            "value": 300,
+            "cmp": "ge",
+            "children": [],
+            "evidence": [
+              "p06"
+            ]
+          },
+          {
+            "id": "a",
+            "op": "atom",
+            "field": "age",
+            "value": 45,
+            "cmp": "lt",
+            "children": [],
+            "evidence": [
+              "p06"
+            ]
+          },
+          {
+            "id": "large_ex",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "l",
+              "w",
+              "a"
+            ],
+            "evidence": [
+              "p06"
+            ]
+          },
+          {
+            "id": "b",
+            "op": "atom",
+            "field": "livelihood",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "c",
+            "op": "atom",
+            "field": "conditional",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "deferred",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "exception",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "c",
+              "d"
+            ],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "ne",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "exception"
+            ],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "benefit_ex",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "b",
+              "ne"
+            ],
+            "evidence": [
+              "p07"
+            ]
+          },
+          {
+            "id": "excluded",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "large_ex",
+              "benefit_ex"
+            ],
+            "evidence": [
+              "p06"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "excluded"
+            ],
+            "evidence": [
+              "p06"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "id": "work24",
+        "url": "https://www.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+        "final_url": "https://www.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+        "sha256": "7371e5e3c04f608bc045322d5749d7d79a27001785a124f6344d4f9cb94171e8",
+        "tls_verified": true,
+        "retrieved_utc": "2026-10-01T15:12:19.739437+00:00",
+        "content_selector": "#contents",
+        "removed_tags": [
+          "script",
+          "style"
+        ],
+        "paragraph_limit_chars": 420,
+        "text_sha256": "08a5c63d7e5ba2f920dd686e40b0c898ec0a090e71c29ffd3e0ba38c70c5f3fe",
+        "text_chars": 6442,
+        "paragraphs": {
+          "p01": "c9cebce70278e378954c4984d3856c97abdcc210582041729b30672db7c97bf7",
+          "p02": "7e8a0b17cdd35308e2a6ce834ba5b85c1acdf8427d8f7063f6b6d4849343c16b",
+          "p03": "6335405731441254557d4086125d6351cee05ae61963359a23365ac236453df6",
+          "p04": "4cc3981e478db9a043b8024a15ed1e35851e7ed15f87d615b4e91f0950856652",
+          "p05": "312495656912ba8ebd6e9df50cc0d5c1c00b6f43b6e729527bdf597a863d7d6e",
+          "p06": "2def81ec739f3f4cd58d19e45cb9e4341e05e63e746c215caae156e55ea92b7a",
+          "p07": "45894d95c2cc2863a1d7832abb1cbc766e785c6ccb569b3a5c94957d62a310cc",
+          "p08": "8e3bc9769fe13d488f5d859ab90a4cd1ee8db05f4c5b2da94ccde065703e7b11",
+          "p09": "f3e52dd6a44c5a7cd8b510d91cdcdb26bd08764fc9df7c4d8cdba1bd3bd71a95",
+          "p10": "855ca83e2bd9e0ae624c304588b24dda366ff5ee832dc2e37d4a04ecd4cdbd62",
+          "p11": "f0ffcde4bccc89e809ce6f5089579c623f9cb0b2abd2a07f3eb0dd3bde17892d",
+          "p12": "0fc8af28b1c6e213188ba904f98c95e1248f207409e1b1f55b6c424b80c9ff37",
+          "p13": "d9db11aa857538f1ee06ce102b25b0ec9943845e0b6c74d23c7c9a33b4ca1a22",
+          "p14": "f02d11df6c900b3bf17a14aabf2332a8185b4aa46cd5350a1d7d7e865f306f58",
+          "p15": "d837195556bacbb298ece64ddb3ee7a2b39882573538e018fa94cc08cd8f69ed",
+          "p16": "f1adb3ede6a80f963dcfa2098ed72c20907d14eeb1c356ca87bc94690221f73e",
+          "p17": "15a5af82f209a13154e989d47c5b5e0112ccc3810b65f94f74aeecc9f4513260"
+        },
+        "full_content_area": true
+      }
+    },
+    {
+      "id": "nts",
+      "group": "official",
+      "title": "국세청 · 국적 예외와 가족·전문직 제외",
+      "scope": "근로·자녀장려금 신청자격 안내에서 국적 미보유자 제외와 한국 국적 배우자·부양자녀 예외, 다른 거주자의 부양자녀 제외, 본인 또는 배우자의 전문직 사업 제외를 함께 판정한다. 이 세 제외에 걸리지 않으면 이 범위에서는 eligible이다. 소득·재산·상용근로소득·가구분류 요건은 평가하지 않는다.",
+      "fields": {
+        "korean_self": {
+          "type": "boolean",
+          "label": "신청자 대한민국 국적"
+        },
+        "korean_spouse": {
+          "type": "boolean",
+          "label": "대한민국 국적 보유 배우자 존재"
+        },
+        "korean_child": {
+          "type": "boolean",
+          "label": "대한민국 국적 부양자녀 존재"
+        },
+        "dependent_other": {
+          "type": "boolean",
+          "label": "다른 거주자의 부양자녀"
+        },
+        "professional_self": {
+          "type": "boolean",
+          "label": "본인의 전문직 사업 영위"
+        },
+        "professional_spouse": {
+          "type": "boolean",
+          "label": "배우자의 전문직 사업 영위"
+        }
+      },
+      "evidence": {
+        "p01": {
+          "sha256": "c3a72dfdf9350a617b72fc00488482f9dfea479b499d8e91f8765e7aa35b15f8",
+          "characters": 399
+        },
+        "p02": {
+          "sha256": "74fcc075e20b59ef59d2e16eb162612a38cbca36dedefd68d63390bafcd1fd01",
+          "characters": 371
+        },
+        "p03": {
+          "sha256": "098241bb7588b05a5b930b7dd636e5fda154cbf71762b65034baa305b2cb08ae",
+          "characters": 415
+        },
+        "p04": {
+          "sha256": "022f5cbc421fa04c14f38fa5c368f9806e8459924ec720e61907cf5c0a7532ca",
+          "characters": 419
+        },
+        "p05": {
+          "sha256": "867740c2215537f2435b4e3c007059c7a15720eb07391824386662d9da1850f3",
+          "characters": 400
+        },
+        "p06": {
+          "sha256": "368b9ea4f52d6a18e8a8be46877e9b5fbe2be3c5e07d6c5047c106fc9e4ab86b",
+          "characters": 399
+        }
+      },
+      "required_evidence": [
+        "p03"
+      ],
+      "reference_program": {
+        "status": "ready",
+        "root": "root",
+        "nodes": [
+          {
+            "id": "k",
+            "op": "atom",
+            "field": "korean_self",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "s",
+            "op": "atom",
+            "field": "korean_spouse",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "c",
+            "op": "atom",
+            "field": "korean_child",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "nationality",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "k",
+              "s",
+              "c"
+            ],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "d",
+            "op": "atom",
+            "field": "dependent_other",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "nd",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "d"
+            ],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "p",
+            "op": "atom",
+            "field": "professional_self",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "ps",
+            "op": "atom",
+            "field": "professional_spouse",
+            "value": true,
+            "cmp": "eq",
+            "children": [],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "pro",
+            "op": "any",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "p",
+              "ps"
+            ],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "np",
+            "op": "not",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "pro"
+            ],
+            "evidence": [
+              "p03"
+            ]
+          },
+          {
+            "id": "root",
+            "op": "all",
+            "field": "",
+            "value": 0,
+            "cmp": "eq",
+            "children": [
+              "nationality",
+              "nd",
+              "np"
+            ],
+            "evidence": [
+              "p03"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "id": "nts",
+        "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7783&mi=2452",
+        "final_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7783&mi=2452",
+        "sha256": "68195d9a5e0dea0e12760af7284f9f2441e0e23eea7f72df4bcf9b3ab5903ca3",
+        "tls_verified": true,
+        "retrieved_utc": "2026-10-01T15:12:20.549677+00:00",
+        "content_selector": "#contents",
+        "removed_tags": [
+          "script",
+          "style"
+        ],
+        "paragraph_limit_chars": 420,
+        "text_sha256": "52bf0f8e88918076a1895f7a68ae96f5623da89e4a96d479630b2389a624f948",
+        "text_chars": 2408,
+        "paragraphs": {
+          "p01": "c3a72dfdf9350a617b72fc00488482f9dfea479b499d8e91f8765e7aa35b15f8",
+          "p02": "74fcc075e20b59ef59d2e16eb162612a38cbca36dedefd68d63390bafcd1fd01",
+          "p03": "098241bb7588b05a5b930b7dd636e5fda154cbf71762b65034baa305b2cb08ae",
+          "p04": "022f5cbc421fa04c14f38fa5c368f9806e8459924ec720e61907cf5c0a7532ca",
+          "p05": "867740c2215537f2435b4e3c007059c7a15720eb07391824386662d9da1850f3",
+          "p06": "368b9ea4f52d6a18e8a8be46877e9b5fbe2be3c5e07d6c5047c106fc9e4ab86b"
+        },
+        "full_content_area": true
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "auth-exception-any-1",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 1000,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "eligible",
+      "note": "하한 당일·기본 충족"
+    },
+    {
+      "id": "auth-exception-any-2",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 18,
+        "residence": 6,
+        "income": 1000,
+        "student": false,
+        "disabled": true,
+        "carer": true
+      },
+      "label": "ineligible",
+      "note": "예외도 나이 하한을 면제하지 않음"
+    },
+    {
+      "id": "auth-exception-any-3",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": true,
+        "carer": false
+      },
+      "label": "eligible",
+      "note": "장애만 해당"
+    },
+    {
+      "id": "auth-exception-any-4",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": false,
+        "carer": true
+      },
+      "label": "eligible",
+      "note": "돌봄만 해당"
+    },
+    {
+      "id": "auth-exception-any-5",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": true,
+        "carer": true
+      },
+      "label": "eligible",
+      "note": "두 예외 모두 해당"
+    },
+    {
+      "id": "auth-exception-any-6",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "ineligible",
+      "note": "예외 없는 초과 소득"
+    },
+    {
+      "id": "auth-exception-any-7",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": null,
+        "carer": true
+      },
+      "label": "eligible",
+      "note": "모르는 장애 여부가 OR/AND에서 다른 영향"
+    },
+    {
+      "id": "auth-exception-any-8",
+      "document": "auth-exception-any",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": null,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "undetermined",
+      "note": "소득 미확인"
+    },
+    {
+      "id": "auth-exception-all-1",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 1000,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "eligible",
+      "note": "하한 당일·기본 충족"
+    },
+    {
+      "id": "auth-exception-all-2",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 18,
+        "residence": 6,
+        "income": 1000,
+        "student": false,
+        "disabled": true,
+        "carer": true
+      },
+      "label": "ineligible",
+      "note": "예외도 나이 하한을 면제하지 않음"
+    },
+    {
+      "id": "auth-exception-all-3",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": true,
+        "carer": false
+      },
+      "label": "ineligible",
+      "note": "장애만 해당"
+    },
+    {
+      "id": "auth-exception-all-4",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": false,
+        "carer": true
+      },
+      "label": "ineligible",
+      "note": "돌봄만 해당"
+    },
+    {
+      "id": "auth-exception-all-5",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": true,
+        "carer": true
+      },
+      "label": "eligible",
+      "note": "두 예외 모두 해당"
+    },
+    {
+      "id": "auth-exception-all-6",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "ineligible",
+      "note": "예외 없는 초과 소득"
+    },
+    {
+      "id": "auth-exception-all-7",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": 2001,
+        "student": false,
+        "disabled": null,
+        "carer": true
+      },
+      "label": "undetermined",
+      "note": "모르는 장애 여부가 OR/AND에서 다른 영향"
+    },
+    {
+      "id": "auth-exception-all-8",
+      "document": "auth-exception-all",
+      "facts": {
+        "age": 19,
+        "residence": 6,
+        "income": null,
+        "student": false,
+        "disabled": false,
+        "carer": false
+      },
+      "label": "undetermined",
+      "note": "소득 미확인"
+    },
+    {
+      "id": "auth-subject-self-1",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "기본 충족"
+    },
+    {
+      "id": "auth-subject-self-2",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "ineligible",
+      "note": "본인만 기준 소득"
+    },
+    {
+      "id": "auth-subject-self-3",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "배우자만 기준 소득"
+    },
+    {
+      "id": "auth-subject-self-4",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "고소득이지만 장애 예외"
+    },
+    {
+      "id": "auth-subject-self-5",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": true
+      },
+      "label": "ineligible",
+      "note": "지원제한으로 예외 취소"
+    },
+    {
+      "id": "auth-subject-self-6",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": null,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "배우자 소득 미확인"
+    },
+    {
+      "id": "auth-subject-self-7",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": null,
+        "sanction": false
+      },
+      "label": "undetermined",
+      "note": "장애 여부 미확인"
+    },
+    {
+      "id": "auth-subject-self-8",
+      "document": "auth-subject-self",
+      "facts": {
+        "age": 18,
+        "own_income": 1000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": false
+      },
+      "label": "ineligible",
+      "note": "예외도 기본 나이를 면제하지 않음"
+    },
+    {
+      "id": "auth-subject-spouse-1",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "기본 충족"
+    },
+    {
+      "id": "auth-subject-spouse-2",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "본인만 기준 소득"
+    },
+    {
+      "id": "auth-subject-spouse-3",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "ineligible",
+      "note": "배우자만 기준 소득"
+    },
+    {
+      "id": "auth-subject-spouse-4",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": false
+      },
+      "label": "eligible",
+      "note": "고소득이지만 장애 예외"
+    },
+    {
+      "id": "auth-subject-spouse-5",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": true
+      },
+      "label": "ineligible",
+      "note": "지원제한으로 예외 취소"
+    },
+    {
+      "id": "auth-subject-spouse-6",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 1000,
+        "spouse_income": null,
+        "student": true,
+        "worker": false,
+        "disabled": false,
+        "sanction": false
+      },
+      "label": "undetermined",
+      "note": "배우자 소득 미확인"
+    },
+    {
+      "id": "auth-subject-spouse-7",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 19,
+        "own_income": 3000,
+        "spouse_income": 3000,
+        "student": true,
+        "worker": false,
+        "disabled": null,
+        "sanction": false
+      },
+      "label": "undetermined",
+      "note": "장애 여부 미확인"
+    },
+    {
+      "id": "auth-subject-spouse-8",
+      "document": "auth-subject-spouse",
+      "facts": {
+        "age": 18,
+        "own_income": 1000,
+        "spouse_income": 1000,
+        "student": true,
+        "worker": false,
+        "disabled": true,
+        "sanction": false
+      },
+      "label": "ineligible",
+      "note": "예외도 기본 나이를 면제하지 않음"
+    },
+    {
+      "id": "work24-1",
+      "document": "work24",
+      "facts": {
+        "large": true,
+        "wage": 300,
+        "age": 44,
+        "livelihood": false,
+        "conditional": false,
+        "deferred": false
+      },
+      "label": "ineligible",
+      "note": "세 조건 동시 충족으로 제외"
+    },
+    {
+      "id": "work24-2",
+      "document": "work24",
+      "facts": {
+        "large": true,
+        "wage": 300,
+        "age": 45,
+        "livelihood": false,
+        "conditional": false,
+        "deferred": false
+      },
+      "label": "eligible",
+      "note": "나이 45세 경계"
+    },
+    {
+      "id": "work24-3",
+      "document": "work24",
+      "facts": {
+        "large": true,
+        "wage": 299,
+        "age": 44,
+        "livelihood": false,
+        "conditional": false,
+        "deferred": false
+      },
+      "label": "eligible",
+      "note": "월 임금 하한 직전"
+    },
+    {
+      "id": "work24-4",
+      "document": "work24",
+      "facts": {
+        "large": false,
+        "wage": 300,
+        "age": 44,
+        "livelihood": true,
+        "conditional": false,
+        "deferred": false
+      },
+      "label": "ineligible",
+      "note": "일반 생계급여 수급 제외"
+    },
+    {
+      "id": "work24-5",
+      "document": "work24",
+      "facts": {
+        "large": false,
+        "wage": 300,
+        "age": 44,
+        "livelihood": true,
+        "conditional": true,
+        "deferred": false
+      },
+      "label": "eligible",
+      "note": "조건부 수급 예외"
+    },
+    {
+      "id": "work24-6",
+      "document": "work24",
+      "facts": {
+        "large": false,
+        "wage": 300,
+        "age": 44,
+        "livelihood": true,
+        "conditional": false,
+        "deferred": true
+      },
+      "label": "eligible",
+      "note": "조건부과 유예 예외"
+    },
+    {
+      "id": "work24-7",
+      "document": "work24",
+      "facts": {
+        "large": false,
+        "wage": 300,
+        "age": 44,
+        "livelihood": true,
+        "conditional": null,
+        "deferred": false
+      },
+      "label": "undetermined",
+      "note": "예외 여부 미확인"
+    },
+    {
+      "id": "work24-8",
+      "document": "work24",
+      "facts": {
+        "large": true,
+        "wage": 300,
+        "age": null,
+        "livelihood": false,
+        "conditional": false,
+        "deferred": false
+      },
+      "label": "undetermined",
+      "note": "나이 미확인"
+    },
+    {
+      "id": "nts-1",
+      "document": "nts",
+      "facts": {
+        "korean_self": true,
+        "korean_spouse": false,
+        "korean_child": false,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "eligible",
+      "note": "본인 국적 충족"
+    },
+    {
+      "id": "nts-2",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": true,
+        "korean_child": false,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "eligible",
+      "note": "배우자 국적 예외"
+    },
+    {
+      "id": "nts-3",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": false,
+        "korean_child": true,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "eligible",
+      "note": "부양자녀 국적 예외"
+    },
+    {
+      "id": "nts-4",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": false,
+        "korean_child": false,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "ineligible",
+      "note": "국적 예외 모두 없음"
+    },
+    {
+      "id": "nts-5",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": null,
+        "korean_child": false,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "undetermined",
+      "note": "배우자 국적 미확인"
+    },
+    {
+      "id": "nts-6",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": false,
+        "korean_child": true,
+        "dependent_other": true,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "ineligible",
+      "note": "국적 예외가 다른 부양자녀 제외를 면제하지 않음"
+    },
+    {
+      "id": "nts-7",
+      "document": "nts",
+      "facts": {
+        "korean_self": false,
+        "korean_spouse": true,
+        "korean_child": false,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": true
+      },
+      "label": "ineligible",
+      "note": "배우자 전문직도 제외"
+    },
+    {
+      "id": "nts-8",
+      "document": "nts",
+      "facts": {
+        "korean_self": true,
+        "korean_spouse": false,
+        "korean_child": null,
+        "dependent_other": false,
+        "professional_self": false,
+        "professional_spouse": false
+      },
+      "label": "eligible",
+      "note": "본인 국적 확인 시 자녀 국적 미확인 무관"
+    }
+  ]
+}

@@ -11,6 +11,8 @@
 - [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
 - [한국어 정책 NLP: 관계·상태·근거, 금액 표기와 사건 범위 실험](docs/KOREAN_POLICY_NLP.md)
 
+- [개인 NLP 연구 결산: 질문의 전환·실행 성과·실패·마감 범위](docs/RESEARCH_CLOSURE.md)
+- [마지막 고정 실험: 전체 본문·중첩 예외·주체 변화와 모델/규칙 비교](research/policy_document_closure/)
 - [원문 조건 정합성: 반례 수정·새 기관 재검증·자연어 주장과 실제 판단 갱신](research/policy_source_alignment/)
 - [정답에 가려진 사실 오류: 금액 근거·의미 변화·자동 반례·새 공고 검증](research/policy_fact_grounding/)
 - [복합 정책 NLP: 사실 자동 추출·AND/OR·환산식·예외·검증 피드백](research/policy_compositional_reasoning/)

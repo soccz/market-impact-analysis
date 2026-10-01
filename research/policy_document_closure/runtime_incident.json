@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-01T15:40:35.126250+00:00",
+  "failed_request": {
+    "model": "kanana-public",
+    "stage": "full",
+    "id": "auth-exception-any",
+    "error": "requests.exceptions.ReadTimeout: read timeout=600",
+    "saved_response": false,
+    "request_sha256": "965e39942693bb6e9807b0df233940cd8dbd3e6cda0e185071928e93cba760c8"
+  },
+  "completed_before_interruption": 60,
+  "transport_resume": "dedicated local Ollama 0.33.2; LLAMA_ARG_N_GPU_LAYERS=32; same model files/digest, prompt, JSON schema, decoding parameters, seed, context, output budget and timeout",
+  "request_changes": false,
+  "reference_changes": false,
+  "score_feedback": false,
+  "load_only_requests": 1,
+  "scope": "One transport retry after CPU inference timed out. No unsaved response counted in the 120 saved experimental responses. Hardware placement differs and wall time is not a controlled latency comparison.",
+  "resumed_request_sha256": "965e39942693bb6e9807b0df233940cd8dbd3e6cda0e185071928e93cba760c8",
+  "identical_request_body_verified": true
+}

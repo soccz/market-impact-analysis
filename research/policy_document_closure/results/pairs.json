@@ -1,0 +1,182 @@
+[
+  {
+    "pair": "exception",
+    "model": "qwen",
+    "method": "literal_rules",
+    "n": 8,
+    "both_correct": 3,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "qwen",
+    "method": "guarded_rules",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "qwen",
+    "method": "direct",
+    "n": 8,
+    "both_correct": 7,
+    "changed_n": 3,
+    "changed_both_correct": 3
+  },
+  {
+    "pair": "exception",
+    "model": "qwen",
+    "method": "full",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "qwen",
+    "method": "retrieved",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "kanana-public",
+    "method": "literal_rules",
+    "n": 8,
+    "both_correct": 3,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "kanana-public",
+    "method": "guarded_rules",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "kanana-public",
+    "method": "direct",
+    "n": 8,
+    "both_correct": 3,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "kanana-public",
+    "method": "full",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "exception",
+    "model": "kanana-public",
+    "method": "retrieved",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "qwen",
+    "method": "literal_rules",
+    "n": 8,
+    "both_correct": 2,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "qwen",
+    "method": "guarded_rules",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "qwen",
+    "method": "direct",
+    "n": 8,
+    "both_correct": 2,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "qwen",
+    "method": "full",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "qwen",
+    "method": "retrieved",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "kanana-public",
+    "method": "literal_rules",
+    "n": 8,
+    "both_correct": 2,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "kanana-public",
+    "method": "guarded_rules",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "kanana-public",
+    "method": "direct",
+    "n": 8,
+    "both_correct": 4,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "kanana-public",
+    "method": "full",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  },
+  {
+    "pair": "subject",
+    "model": "kanana-public",
+    "method": "retrieved",
+    "n": 8,
+    "both_correct": 0,
+    "changed_n": 3,
+    "changed_both_correct": 0
+  }
+]

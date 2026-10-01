@@ -1,0 +1,12 @@
+{
+  "python": "3.12.9",
+  "packages": {
+    "requests": "2.32.5",
+    "beautifulsoup4": "4.14.3",
+    "matplotlib": "3.10.8",
+    "numpy": "1.26.4"
+  },
+  "ollama_version": "0.33.2",
+  "hardware": "NVIDIA GeForce RTX 3070 8 GiB; CPU Intel i7-8700K",
+  "inference": "Qwen original local endpoint. Kanana resumed on dedicated same-version endpoint with LLAMA_ARG_N_GPU_LAYERS=32 after one CPU request exceeded transport timeout; see runtime_incident.json."
+}

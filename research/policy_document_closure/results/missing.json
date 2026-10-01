@@ -1,0 +1,242 @@
+[
+  {
+    "model": "qwen",
+    "group": "all_known",
+    "method": "literal_rules",
+    "n": 36,
+    "correct": 15,
+    "abstain": 6
+  },
+  {
+    "model": "qwen",
+    "group": "all_known",
+    "method": "guarded_rules",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "qwen",
+    "group": "all_known",
+    "method": "direct",
+    "n": 36,
+    "correct": 24,
+    "abstain": 0
+  },
+  {
+    "model": "qwen",
+    "group": "all_known",
+    "method": "full",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "qwen",
+    "group": "all_known",
+    "method": "retrieved",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "qwen",
+    "group": "some_missing",
+    "method": "literal_rules",
+    "n": 12,
+    "correct": 3,
+    "abstain": 2
+  },
+  {
+    "model": "qwen",
+    "group": "some_missing",
+    "method": "guarded_rules",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "qwen",
+    "group": "some_missing",
+    "method": "direct",
+    "n": 12,
+    "correct": 9,
+    "abstain": 0
+  },
+  {
+    "model": "qwen",
+    "group": "some_missing",
+    "method": "full",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "qwen",
+    "group": "some_missing",
+    "method": "retrieved",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "qwen",
+    "group": "gold_undetermined",
+    "method": "literal_rules",
+    "n": 9,
+    "correct": 2,
+    "abstain": 1
+  },
+  {
+    "model": "qwen",
+    "group": "gold_undetermined",
+    "method": "guarded_rules",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  },
+  {
+    "model": "qwen",
+    "group": "gold_undetermined",
+    "method": "direct",
+    "n": 9,
+    "correct": 6,
+    "abstain": 0
+  },
+  {
+    "model": "qwen",
+    "group": "gold_undetermined",
+    "method": "full",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  },
+  {
+    "model": "qwen",
+    "group": "gold_undetermined",
+    "method": "retrieved",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  },
+  {
+    "model": "kanana-public",
+    "group": "all_known",
+    "method": "literal_rules",
+    "n": 36,
+    "correct": 15,
+    "abstain": 6
+  },
+  {
+    "model": "kanana-public",
+    "group": "all_known",
+    "method": "guarded_rules",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "kanana-public",
+    "group": "all_known",
+    "method": "direct",
+    "n": 36,
+    "correct": 24,
+    "abstain": 0
+  },
+  {
+    "model": "kanana-public",
+    "group": "all_known",
+    "method": "full",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "kanana-public",
+    "group": "all_known",
+    "method": "retrieved",
+    "n": 36,
+    "correct": 0,
+    "abstain": 36
+  },
+  {
+    "model": "kanana-public",
+    "group": "some_missing",
+    "method": "literal_rules",
+    "n": 12,
+    "correct": 3,
+    "abstain": 2
+  },
+  {
+    "model": "kanana-public",
+    "group": "some_missing",
+    "method": "guarded_rules",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "kanana-public",
+    "group": "some_missing",
+    "method": "direct",
+    "n": 12,
+    "correct": 3,
+    "abstain": 0
+  },
+  {
+    "model": "kanana-public",
+    "group": "some_missing",
+    "method": "full",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "kanana-public",
+    "group": "some_missing",
+    "method": "retrieved",
+    "n": 12,
+    "correct": 0,
+    "abstain": 12
+  },
+  {
+    "model": "kanana-public",
+    "group": "gold_undetermined",
+    "method": "literal_rules",
+    "n": 9,
+    "correct": 2,
+    "abstain": 1
+  },
+  {
+    "model": "kanana-public",
+    "group": "gold_undetermined",
+    "method": "guarded_rules",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  },
+  {
+    "model": "kanana-public",
+    "group": "gold_undetermined",
+    "method": "direct",
+    "n": 9,
+    "correct": 0,
+    "abstain": 0
+  },
+  {
+    "model": "kanana-public",
+    "group": "gold_undetermined",
+    "method": "full",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  },
+  {
+    "model": "kanana-public",
+    "group": "gold_undetermined",
+    "method": "retrieved",
+    "n": 9,
+    "correct": 0,
+    "abstain": 9
+  }
+]
