@@ -1,0 +1,30 @@
+{
+  "id": "incheon-parent-residence",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:33:18.951160+00:00",
+  "request_sha256": "c10e47b184294956d9eb69967ff84dc74dbad01ce7fcd9ce4633a0588e910667",
+  "input_sha256": "fb24b77b8741cd0cb8bd447acbf9d5581e3fab5e877569c1f2424643feb2a946",
+  "elapsed_seconds": 29.308,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 246,
+    "prompt_eval_duration": 128193999,
+    "eval_count": 2048,
+    "eval_duration": 29107259000,
+    "load_duration": 895242,
+    "total_duration": 29307009096
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "2dc700bbcd64a0e8d15cb254e32d2715f3c3bae2a9eb3904ec1b7f4fc19d5e11",
+  "thinking_trace_present": true,
+  "thinking_characters": 7467
+}

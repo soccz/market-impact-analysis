@@ -1,0 +1,30 @@
+{
+  "id": "incheon-actual-payment-removed",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:48:25.478306+00:00",
+  "request_sha256": "3c41ca9f6fe1ccf49ddc2f42f8793d08b39201ba28a769a25f411583a272db4d",
+  "input_sha256": "3659730e9534ba55dbc37a2effac018af5218392e9e8c3306ce758d6f2da6c7c",
+  "elapsed_seconds": 29.604,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 279,
+    "prompt_eval_duration": 148415000,
+    "eval_count": 2048,
+    "eval_duration": 29359515000,
+    "load_duration": 1289882,
+    "total_duration": 29602062901
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "96b03d44db1c63af4979ca691f376baa657ec238cbacabd7029734aba4cd1872",
+  "thinking_trace_present": true,
+  "thinking_characters": 7269
+}

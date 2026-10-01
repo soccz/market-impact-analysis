@@ -1,0 +1,39 @@
+{
+  "id": "compose-threshold_or-4",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:31.449856+00:00",
+  "request_sha256": "9ef704657ac42dcff1609e0a3419fa1f0d9f11b1dc435edd32022a5738cee9dc",
+  "input_sha256": "48b71e215f11ba4c0142574096c49a928d4dd53853e8391b9c894ef5f83e44eb",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:31.449257898Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"1300 > 1200, 110 < 100, 이상 조건 불충족, 또는 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1374161773,
+    "load_duration": 1139766,
+    "prompt_eval_count": 710,
+    "prompt_eval_duration": 20558000,
+    "eval_count": 102,
+    "eval_duration": 1325837000
+  },
+  "parsed": {
+    "binding": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+    "certainty": "possible",
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "1300 > 1200, 110 < 100, 이상 조건 불충족, 또는 조건 충족"
+  },
+  "elapsed_seconds": 1.376
+}

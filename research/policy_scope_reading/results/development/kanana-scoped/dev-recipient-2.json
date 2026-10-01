@@ -1,0 +1,40 @@
+{
+  "id": "dev-recipient-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:19.282244+00:00",
+  "request_sha256": "7c902b764f85e72faa379298ce0317aba6d3c00e0856c7f9cc57ada4fdea8ef7",
+  "input_sha256": "e1925caa48d28d211b0b8dbc95874855aa573aa4bf5eb11b63ebcb891da125a1",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:19.281616559Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"첫 신청자는 기준중위소득 150% 이하, 2024년 수혜자는 기준중위소득 120% 이하이어야 한다.\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"140 ≤ 120, 이하 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1193131606,
+    "load_duration": 943461,
+    "prompt_eval_count": 680,
+    "prompt_eval_duration": 23991000,
+    "eval_count": 90,
+    "eval_duration": 1141364000
+  },
+  "parsed": {
+    "binding": "첫 신청자는 기준중위소득 150% 이하, 2024년 수혜자는 기준중위소득 120% 이하이어야 한다.",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "140 ≤ 120, 이하 조건 충족"
+  },
+  "elapsed_seconds": 1.194
+}

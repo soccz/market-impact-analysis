@@ -1,0 +1,32 @@
+{
+  "id": "jeju-new-application-elapsed-removed",
+  "method": "baseline",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:33.794756+00:00",
+  "request_sha256": "a6ef30a6625a2e0a27db5245d4d0e3b2f56944b2f71e08d7045d59d3b9a2d99e",
+  "input_sha256": "bd0b2fbd9cfdbfafd1a538d4278a933ea9f8dcd4d2db2291a90c621b6b355b4a",
+  "elapsed_seconds": 0.292,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 298,
+    "prompt_eval_duration": 53228000,
+    "eval_count": 15,
+    "eval_duration": 176604000,
+    "load_duration": 774044,
+    "total_duration": 290699586
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

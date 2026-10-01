@@ -1,0 +1,30 @@
+{
+  "id": "followup-jeju-new-birth",
+  "method": "sampled-thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:00:03.451196+00:00",
+  "request_sha256": "ff3afe3e5931dcbbd06eb1be7bd084eca6bfe6f4d3e7b1e7559cc9f21834a4b8",
+  "input_sha256": "f2a5f4941894007451ed77e64988884060382ff9c8541e487bd8c070171f0ebd",
+  "elapsed_seconds": 67.854,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 279,
+    "prompt_eval_duration": 55486000,
+    "eval_count": 4096,
+    "eval_duration": 67622251999,
+    "load_duration": 840572,
+    "total_duration": 67852485178
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "c3b987c449c98f8cdf7ae69b7c3328c9e0bc9991c2f22bf7efc05bd5ada4f30c",
+  "thinking_trace_present": true,
+  "thinking_characters": 12619
+}

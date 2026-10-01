@@ -1,0 +1,34 @@
+{
+  "id": "jeju-possible-deadline",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:11.068934+00:00",
+  "request_sha256": "197d27b007a9c32381c7328386f35e62c3af6ab7c46f225013761a8fd54ea8c6",
+  "input_sha256": "3cdcc401361446dd3baf86f1c50fc6d43ac8902b4d9e3fc360ea7eedb029c771",
+  "elapsed_seconds": 0.937,
+  "private_response_sha256": "aca5602ed5f0297eef8569883a45e355e5727607dbb104f5105a54e464d65261",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 522,
+    "prompt_eval_duration": 233619000,
+    "eval_count": 50,
+    "eval_duration": 696697000,
+    "load_duration": 748781,
+    "total_duration": 934918931
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N010",
+      "N011"
+    ],
+    "coverage": "insufficient"
+  }
+}

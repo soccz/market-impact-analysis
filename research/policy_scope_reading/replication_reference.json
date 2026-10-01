@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "incheon-parent-residence",
+    "family": "recipient_or",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 신청일 현재 본인은 타 지역 거주지만 부모는 인천에 계속 2년 거주 중이다. 이 가상 신청자는 명시된 1년 거주 요건을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I05"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      }
+    },
+    "sentence_ids": [
+      "I05",
+      "I06"
+    ]
+  },
+  {
+    "id": "incheon-exception",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 본인과 부모 모두 인천 거주 1년을 채우지 못했다. 전입 및 2년 이상 거주 확약서를 제출해도 이 거주 요건 때문에 반드시 제외된다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I05",
+        "I06"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      }
+    },
+    "sentence_ids": [
+      "I05",
+      "I06"
+    ]
+  },
+  {
+    "id": "incheon-exception-not-selection",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 신청자 중 거주 기간 미충족자가 전입 및 2년 이상 거주 확약서를 냈다. 다른 조건과 심사 결과가 없는 상태에서 이 가상 신청자의 최종 선발은 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I06",
+        "I10"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      },
+      "I10": {
+        "page": 2,
+        "start": 366,
+        "end": 516,
+        "sha256": "e77fe5f3f433063f71a1b6fc63a19dfe55e0ddb22c3a1f95b203bc49c5bb791e"
+      }
+    },
+    "sentence_ids": [
+      "I05",
+      "I06",
+      "I10"
+    ]
+  },
+  {
+    "id": "incheon-grade-boundary",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 정확히 3.0인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I03"
+      ]
+    },
+    "source_locators": {
+      "I03": {
+        "page": 1,
+        "start": 574,
+        "end": 602,
+        "sha256": "1d09c47d92dd964d38dd7116f7712346dddd466e3f6f03cd4fb34ce9b7758f6d"
+      }
+    },
+    "sentence_ids": [
+      "I03"
+    ]
+  },
+  {
+    "id": "incheon-grade-low",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 2.9인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I03"
+      ]
+    },
+    "source_locators": {
+      "I03": {
+        "page": 1,
+        "start": 574,
+        "end": 602,
+        "sha256": "1d09c47d92dd964d38dd7116f7712346dddd466e3f6f03cd4fb34ce9b7758f6d"
+      }
+    },
+    "sentence_ids": [
+      "I03"
+    ]
+  },
+  {
+    "id": "incheon-application-notice",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 10일은 접수기간 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I02"
+      ]
+    },
+    "source_locators": {
+      "I01": {
+        "page": 1,
+        "start": 225,
+        "end": 276,
+        "sha256": "3c407910c8969874ae77339a76a8c80f4bd06c9618d3b9f92cae2e28a051906c"
+      },
+      "I02": {
+        "page": 1,
+        "start": 276,
+        "end": 331,
+        "sha256": "c36a468c5a46139aa061c01924dc1ff8af84e4518a48bc1804e1a3a4cf9a7c82"
+      }
+    },
+    "sentence_ids": [
+      "I01",
+      "I02"
+    ]
+  },
+  {
+    "id": "incheon-application-final",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 30일 오후 4시는 접수기간 안이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I02"
+      ]
+    },
+    "source_locators": {
+      "I01": {
+        "page": 1,
+        "start": 225,
+        "end": 276,
+        "sha256": "3c407910c8969874ae77339a76a8c80f4bd06c9618d3b9f92cae2e28a051906c"
+      },
+      "I02": {
+        "page": 1,
+        "start": 276,
+        "end": 331,
+        "sha256": "c36a468c5a46139aa061c01924dc1ff8af84e4518a48bc1804e1a3a4cf9a7c82"
+      }
+    },
+    "sentence_ids": [
+      "I01",
+      "I02"
+    ]
+  },
+  {
+    "id": "incheon-nationality-exception",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 국적·신분 조건만 묻는다. 대한민국 국적을 소지했지만 영주권자인 가상 신청자는 이 조건을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I04"
+      ]
+    },
+    "source_locators": {
+      "I04": {
+        "page": 1,
+        "start": 602,
+        "end": 645,
+        "sha256": "a9fdb1572888f2b19cb3b489b85df4f811b7fc2ad59faa2dc30fc0c013740a1e"
+      }
+    },
+    "sentence_ids": [
+      "I04"
+    ]
+  },
+  {
+    "id": "incheon-split-payment",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자의 명시된 지급 절차만 묻는다. 전입신고 조건을 확인하기 전에 처음 지급하는 금액은 700만원이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "sentence_ids": [
+      "I11",
+      "I12"
+    ]
+  },
+  {
+    "id": "incheon-unconditional-payment",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자는 전입신고 기한을 지키지 않아도 나머지 300만원을 조건 없이 지급받는다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "sentence_ids": [
+      "I11",
+      "I12"
+    ]
+  },
+  {
+    "id": "incheon-actual-payment",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 가상 신청자에 관해 선발·전입·지급 결정은 제시되지 않았다. 이 사람에게 실제 지급된 금액은 정확히 1000만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I11",
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "sentence_ids": [
+      "I11",
+      "I12"
+    ]
+  },
+  {
+    "id": "incheon-shortlist-final",
+    "family": "selection_stage",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 선발에서 서류 합격했다는 정보만 있다. 이 가상 신청자의 면접 결과와 최종 선발은 이미 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I09",
+        "I10"
+      ]
+    },
+    "source_locators": {
+      "I09": {
+        "page": 2,
+        "start": 338,
+        "end": 366,
+        "sha256": "cec9cc13ef02eef6f6eafcc4431bd8733928fc00ba342708db1f5f2b285548bc"
+      },
+      "I10": {
+        "page": 2,
+        "start": 366,
+        "end": 516,
+        "sha256": "e77fe5f3f433063f71a1b6fc63a19dfe55e0ddb22c3a1f95b203bc49c5bb791e"
+      }
+    },
+    "sentence_ids": [
+      "I09",
+      "I10"
+    ]
+  },
+  {
+    "id": "incheon-parent-residence-distractor",
+    "family": "recipient_or",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 신청일 현재 본인은 타 지역 거주지만 부모는 인천에 계속 2년 거주 중이다. 이 가상 신청자는 명시된 1년 거주 요건을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I05"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I05",
+      "I06",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-parent-residence-removed",
+    "family": "recipient_or",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 신청일 현재 본인은 타 지역 거주지만 부모는 인천에 계속 2년 거주 중이다. 이 가상 신청자는 명시된 1년 거주 요건을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-exception-distractor",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 본인과 부모 모두 인천 거주 1년을 채우지 못했다. 전입 및 2년 이상 거주 확약서를 제출해도 이 거주 요건 때문에 반드시 제외된다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I05",
+        "I06"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I05",
+      "I06",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-exception-removed",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 거주 요건만 묻는다. 본인과 부모 모두 인천 거주 1년을 채우지 못했다. 전입 및 2년 이상 거주 확약서를 제출해도 이 거주 요건 때문에 반드시 제외된다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-exception-not-selection-distractor",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 신청자 중 거주 기간 미충족자가 전입 및 2년 이상 거주 확약서를 냈다. 다른 조건과 심사 결과가 없는 상태에서 이 가상 신청자의 최종 선발은 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I06",
+        "I10"
+      ]
+    },
+    "source_locators": {
+      "I05": {
+        "page": 1,
+        "start": 645,
+        "end": 696,
+        "sha256": "26fe59e37debff2fcc6a4e7056722e08b232b117f094737b02b1f9c01bf6c651"
+      },
+      "I06": {
+        "page": 1,
+        "start": 696,
+        "end": 746,
+        "sha256": "4788ad180a18e195bb6b75ee2ad85538c9befde0d255c50cf2bcc65c5fc37761"
+      },
+      "I10": {
+        "page": 2,
+        "start": 366,
+        "end": 516,
+        "sha256": "e77fe5f3f433063f71a1b6fc63a19dfe55e0ddb22c3a1f95b203bc49c5bb791e"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I05",
+      "I06",
+      "I10",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-exception-not-selection-removed",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 신청자 중 거주 기간 미충족자가 전입 및 2년 이상 거주 확약서를 냈다. 다른 조건과 심사 결과가 없는 상태에서 이 가상 신청자의 최종 선발은 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-grade-boundary-distractor",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 정확히 3.0인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I03"
+      ]
+    },
+    "source_locators": {
+      "I03": {
+        "page": 1,
+        "start": 574,
+        "end": 602,
+        "sha256": "1d09c47d92dd964d38dd7116f7712346dddd466e3f6f03cd4fb34ce9b7758f6d"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I03",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-grade-boundary-removed",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 정확히 3.0인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-grade-low-distractor",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 2.9인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I03"
+      ]
+    },
+    "source_locators": {
+      "I03": {
+        "page": 1,
+        "start": 574,
+        "end": 602,
+        "sha256": "1d09c47d92dd964d38dd7116f7712346dddd466e3f6f03cd4fb34ce9b7758f6d"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I03",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-grade-low-removed",
+    "family": "inclusive_boundary",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 성적 요건만 묻는다. 전 학년 평점 평균이 2.9인 가상 신청자는 이 성적 요건을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-application-notice-distractor",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 10일은 접수기간 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I02"
+      ]
+    },
+    "source_locators": {
+      "I01": {
+        "page": 1,
+        "start": 225,
+        "end": 276,
+        "sha256": "3c407910c8969874ae77339a76a8c80f4bd06c9618d3b9f92cae2e28a051906c"
+      },
+      "I02": {
+        "page": 1,
+        "start": 276,
+        "end": 331,
+        "sha256": "c36a468c5a46139aa061c01924dc1ff8af84e4518a48bc1804e1a3a4cf9a7c82"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I01",
+      "I02",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-application-notice-removed",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 10일은 접수기간 안이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-application-final-distractor",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 30일 오후 4시는 접수기간 안이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I02"
+      ]
+    },
+    "source_locators": {
+      "I01": {
+        "page": 1,
+        "start": 225,
+        "end": 276,
+        "sha256": "3c407910c8969874ae77339a76a8c80f4bd06c9618d3b9f92cae2e28a051906c"
+      },
+      "I02": {
+        "page": 1,
+        "start": 276,
+        "end": 331,
+        "sha256": "c36a468c5a46139aa061c01924dc1ff8af84e4518a48bc1804e1a3a4cf9a7c82"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I01",
+      "I02",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-application-final-removed",
+    "family": "date_anchor",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 명시된 신청서 접수기간만 묻는다. 2025년 4월 30일 오후 4시는 접수기간 안이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-nationality-exception-distractor",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 국적·신분 조건만 묻는다. 대한민국 국적을 소지했지만 영주권자인 가상 신청자는 이 조건을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I04"
+      ]
+    },
+    "source_locators": {
+      "I04": {
+        "page": 1,
+        "start": 602,
+        "end": 645,
+        "sha256": "a9fdb1572888f2b19cb3b489b85df4f811b7fc2ad59faa2dc30fc0c013740a1e"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I04",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-nationality-exception-removed",
+    "family": "exception",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 국적·신분 조건만 묻는다. 대한민국 국적을 소지했지만 영주권자인 가상 신청자는 이 조건을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-split-payment-distractor",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자의 명시된 지급 절차만 묻는다. 전입신고 조건을 확인하기 전에 처음 지급하는 금액은 700만원이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I11",
+      "I12",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-split-payment-removed",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자의 명시된 지급 절차만 묻는다. 전입신고 조건을 확인하기 전에 처음 지급하는 금액은 700만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-unconditional-payment-distractor",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자는 전입신고 기한을 지키지 않아도 나머지 300만원을 조건 없이 지급받는다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I11",
+      "I12",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-unconditional-payment-removed",
+    "family": "payment_scope",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 중 선발된 거주지 미충족자는 전입신고 기한을 지키지 않아도 나머지 300만원을 조건 없이 지급받는다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-actual-payment-distractor",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 가상 신청자에 관해 선발·전입·지급 결정은 제시되지 않았다. 이 사람에게 실제 지급된 금액은 정확히 1000만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I11",
+        "I12"
+      ]
+    },
+    "source_locators": {
+      "I11": {
+        "page": 3,
+        "start": 13,
+        "end": 40,
+        "sha256": "b2cf1e0bf88865224d39f7eaf6b6be667f6b3e5539b74f7e1dbd14476d9b9785"
+      },
+      "I12": {
+        "page": 3,
+        "start": 40,
+        "end": 157,
+        "sha256": "0e3b0046701ab8c1880b6bf8c7ade32bb396a770605d2f2643ccb25917952363"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I11",
+      "I12",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-actual-payment-removed",
+    "family": "modality",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생의 가상 신청자에 관해 선발·전입·지급 결정은 제시되지 않았다. 이 사람에게 실제 지급된 금액은 정확히 1000만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-shortlist-final-distractor",
+    "family": "selection_stage",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 선발에서 서류 합격했다는 정보만 있다. 이 가상 신청자의 면접 결과와 최종 선발은 이미 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "I09",
+        "I10"
+      ]
+    },
+    "source_locators": {
+      "I09": {
+        "page": 2,
+        "start": 338,
+        "end": 366,
+        "sha256": "cec9cc13ef02eef6f6eafcc4431bd8733928fc00ba342708db1f5f2b285548bc"
+      },
+      "I10": {
+        "page": 2,
+        "start": 366,
+        "end": 516,
+        "sha256": "e77fe5f3f433063f71a1b6fc63a19dfe55e0ddb22c3a1f95b203bc49c5bb791e"
+      }
+    },
+    "variant": "distractor",
+    "sentence_ids": [
+      "Z1",
+      "I09",
+      "I10",
+      "Z2"
+    ]
+  },
+  {
+    "id": "incheon-shortlist-final-removed",
+    "family": "selection_stage",
+    "split": "replication",
+    "source_kind": "official_excerpt",
+    "claim": "인천 공공간호사 장학생 선발에서 서류 합격했다는 정보만 있다. 이 가상 신청자의 면접 결과와 최종 선발은 이미 확정되었다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "Z0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "sentence_ids": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ]
+  }
+]

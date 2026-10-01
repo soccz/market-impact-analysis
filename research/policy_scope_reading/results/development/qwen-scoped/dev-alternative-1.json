@@ -1,0 +1,39 @@
+{
+  "id": "dev-alternative-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:56.793538+00:00",
+  "request_sha256": "81708e2ce236609c7cd1e5461925ed8076b42508d7cfeeea5e6cbde134c0a8ee",
+  "input_sha256": "daaa89a31e3a240a57b75ad2146143ae58e631f58e902c837b8aba081b23d681",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:56.792926158Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"매출 요건은 전년도 매출 1,200만원 이상 또는 최근 3개월 평균 월 매출 100만원 이상이다.\",\n  \"rule\": \"전년도 900만원 < 1,200만원 (불충족) 이면서 최근 3개월 평균 110만원 >= 100만원 (충족), '또는' 조건 중 하나 충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2317347133,
+    "load_duration": 861341,
+    "prompt_eval_count": 604,
+    "prompt_eval_duration": 254393000,
+    "eval_count": 127,
+    "eval_duration": 2057016999
+  },
+  "parsed": {
+    "binding": "매출 요건은 전년도 매출 1,200만원 이상 또는 최근 3개월 평균 월 매출 100만원 이상이다.",
+    "rule": "전년도 900만원 < 1,200만원 (불충족) 이면서 최근 3개월 평균 110만원 >= 100만원 (충족), '또는' 조건 중 하나 충족",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 2.319
+}

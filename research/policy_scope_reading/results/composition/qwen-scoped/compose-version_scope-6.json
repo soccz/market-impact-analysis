@@ -1,0 +1,40 @@
+{
+  "id": "compose-version_scope-6",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:28.501570+00:00",
+  "request_sha256": "e559303b02f3e2415007a2288fdf9887c7b823663cd56ca6905d53e431e9db80",
+  "input_sha256": "81b8c11dab27bd13f64329ccaa936daa9e07476da260c7aad2a9b697f0b4c821",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:28.500877933Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 10월 1일 이후 접수 건\",\n  \"rule\": \"125% ≤ 110% (재신청자 기준) 또는 125% ≤ 140% (첫 신청자 기준)\",\n  \"certainty\": \"possible\",\n  \"evidence\": [\"S1\", \"S3\"],\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1605077337,
+    "load_duration": 941268,
+    "prompt_eval_count": 666,
+    "prompt_eval_duration": 212049000,
+    "eval_count": 98,
+    "eval_duration": 1386771000
+  },
+  "parsed": {
+    "binding": "가람사업 10월 1일 이후 접수 건",
+    "rule": "125% ≤ 110% (재신청자 기준) 또는 125% ≤ 140% (첫 신청자 기준)",
+    "certainty": "possible",
+    "evidence": [
+      "S1",
+      "S3"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 1.607
+}

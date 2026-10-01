@@ -1,0 +1,37 @@
+{
+  "id": "compose-version_scope-8",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:45.847472+00:00",
+  "request_sha256": "5c28187a9ad85195006c4dc746aca5361d5aab31e37f7fa064603eeebf373b2c",
+  "input_sha256": "82f3e25dd4e2b3d933867c720598173027585d77cc9c7330172d93c39baf5e3d",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:06:45.846935044Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"supported\",\"evidence\":[\"S1\",\"S3\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 352107118,
+    "load_duration": 951263,
+    "prompt_eval_count": 263,
+    "prompt_eval_duration": 143953000,
+    "eval_count": 15,
+    "eval_duration": 204066000
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S3"
+    ]
+  },
+  "elapsed_seconds": 0.353
+}

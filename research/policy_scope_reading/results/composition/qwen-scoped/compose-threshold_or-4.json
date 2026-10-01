@@ -1,0 +1,39 @@
+{
+  "id": "compose-threshold_or-4",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:52.938846+00:00",
+  "request_sha256": "ebe11e620bfaf8b9c5a36798a6289ceb4039c18416d985a60d8f8390a239c600",
+  "input_sha256": "48b71e215f11ba4c0142574096c49a928d4dd53853e8391b9c894ef5f83e44eb",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:52.938214582Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 신규 신청자\",\n  \"rule\": \"연 매출 1200 이상 또는 월 매출 100 이상\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1161828999,
+    "load_duration": 827491,
+    "prompt_eval_count": 633,
+    "prompt_eval_duration": 202015000,
+    "eval_count": 68,
+    "eval_duration": 952888000
+  },
+  "parsed": {
+    "binding": "가람사업 신규 신청자",
+    "rule": "연 매출 1200 이상 또는 월 매출 100 이상",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.164
+}

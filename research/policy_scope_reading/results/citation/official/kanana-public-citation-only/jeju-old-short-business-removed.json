@@ -1,0 +1,32 @@
+{
+  "id": "jeju-old-short-business-removed",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:14.953706+00:00",
+  "request_sha256": "47fd5595c81881e430a2d6ec982ad08a0d94094f6f02290dd52b2db750bae59e",
+  "input_sha256": "e5d98a0df48c18699a0000ac2917a1abfe8fc9f6391095e1f5082f65b67560f1",
+  "elapsed_seconds": 0.329,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 303,
+    "prompt_eval_duration": 67827000,
+    "eval_count": 15,
+    "eval_duration": 181337000,
+    "load_duration": 971969,
+    "total_duration": 326965168
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

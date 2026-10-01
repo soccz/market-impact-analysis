@@ -1,0 +1,41 @@
+{
+  "id": "compose-only_exception-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:34.608487+00:00",
+  "request_sha256": "72f46dfc1a4857d8393a2f6be321b0c560be5039faaf831e2105f131119df234",
+  "input_sha256": "4b9c3cf81b23e589212ba3ef5c2736948fd1a4a9f49c8b5c85c1218ddd8c657a",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:34.607807349Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 푸른사업의 급여 제외 대상 (교육급여만 받는 사람) 에 대한 조건\",\n  \"rule\": \"교육급여만 받는 사람이고 이수학점이 8학점 이상이면 급여 제외 대상이 아님 (조건 충족)\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1589839570,
+    "load_duration": 726408,
+    "prompt_eval_count": 647,
+    "prompt_eval_duration": 209986000,
+    "eval_count": 97,
+    "eval_duration": 1373823000
+  },
+  "parsed": {
+    "binding": "가상 푸른사업의 급여 제외 대상 (교육급여만 받는 사람) 에 대한 조건",
+    "rule": "교육급여만 받는 사람이고 이수학점이 8학점 이상이면 급여 제외 대상이 아님 (조건 충족)",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.591
+}

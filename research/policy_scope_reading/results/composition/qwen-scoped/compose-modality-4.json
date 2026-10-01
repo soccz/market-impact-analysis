@@ -1,0 +1,40 @@
+{
+  "id": "compose-modality-4",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:09:05.171485+00:00",
+  "request_sha256": "8139ddd26138f0b4df0150c6b82e53c65cc60ba1ff1f5e18adc39fe65c66d564",
+  "input_sha256": "e382538931df6553b09dd369492d38aa87d7615e539f46413658c7f4eea99a8c",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:09:05.170936839Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 확정된 1인당 정액 지원금\",\n  \"rule\": \"확정 금액은 아직 발표되지 않았으며, 70만원은 별빛사업의 지원금임\",\n  \"certainty\": \"possible\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1471247670,
+    "load_duration": 1028812,
+    "prompt_eval_count": 614,
+    "prompt_eval_duration": 195690000,
+    "eval_count": 90,
+    "eval_duration": 1269804000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 확정된 1인당 정액 지원금",
+    "rule": "확정 금액은 아직 발표되지 않았으며, 70만원은 별빛사업의 지원금임",
+    "certainty": "possible",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 1.473
+}

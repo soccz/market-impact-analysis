@@ -1,0 +1,39 @@
+{
+  "id": "dev-conjunction-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:00.427303+00:00",
+  "request_sha256": "9d8ec7b889d0a32d0edd62c38101c3dc6f2341338c994454873c5a4f29c6d49b",
+  "input_sha256": "7783d63a7b076ccaff5386e443486e8779811252e33de8320e200a38e8efd2c2",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:55:00.426764721Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"거주 기간 6 개월 이상이고 만 19 세 이상인 사람\",\n  \"rule\": \"거주 8 개월 (≥6) 이지만 나이 18 세 (<19) 로 조건 불충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1538077272,
+    "load_duration": 1032196,
+    "prompt_eval_count": 582,
+    "prompt_eval_duration": 248978000,
+    "eval_count": 91,
+    "eval_duration": 1282424000
+  },
+  "parsed": {
+    "binding": "거주 기간 6 개월 이상이고 만 19 세 이상인 사람",
+    "rule": "거주 8 개월 (≥6) 이지만 나이 18 세 (<19) 로 조건 불충족",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.54
+}

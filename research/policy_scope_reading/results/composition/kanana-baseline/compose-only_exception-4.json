@@ -1,0 +1,37 @@
+{
+  "id": "compose-only_exception-4",
+  "method": "baseline",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:39.959669+00:00",
+  "request_sha256": "f45bdc2adbb27b2d39ddb46b5ce3d91064b90a4a627088bf637aca9adb44a3f6",
+  "input_sha256": "b89e799caa73be86f620307b8af79a8fc4ef4609cb877089d712e1086825855d",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:03:39.958920654Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"supported\",\"evidence\":[\"S1\", \"S2\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 265330260,
+    "load_duration": 736172,
+    "prompt_eval_count": 283,
+    "prompt_eval_duration": 49906000,
+    "eval_count": 16,
+    "eval_duration": 188859000
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ]
+  },
+  "elapsed_seconds": 0.267
+}

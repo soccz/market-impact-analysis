@@ -1,0 +1,40 @@
+{
+  "id": "dev-missing-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:38.105552+00:00",
+  "request_sha256": "47cefe4c91051a203ced7f6259b19e15dd8e0ee403e537ae99888e282c5e8bff",
+  "input_sha256": "e2df6d1e8534053b0f5ee84207727d6d1765c60c608a8418cca5ef50697fa501",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:38.104848084Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"소득 상한은 별표 2에 따라 결정된다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"별표 2 미제공, 상한 미확정\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 993743293,
+    "load_duration": 1170918,
+    "prompt_eval_count": 657,
+    "prompt_eval_duration": 20523000,
+    "eval_count": 72,
+    "eval_duration": 946111000
+  },
+  "parsed": {
+    "binding": "소득 상한은 별표 2에 따라 결정된다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "별표 2 미제공, 상한 미확정"
+  },
+  "elapsed_seconds": 0.996
+}

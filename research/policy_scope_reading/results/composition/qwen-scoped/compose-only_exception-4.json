@@ -1,0 +1,41 @@
+{
+  "id": "compose-only_exception-4",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:38.428321+00:00",
+  "request_sha256": "7c1b624e3af1bfd77eeffce1d8c975fa7356ff6552418f7a2d5d15dac3357ca0",
+  "input_sha256": "b89e799caa73be86f620307b8af79a8fc4ef4609cb877089d712e1086825855d",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:38.427669935Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 푸른사업의 생계·의료·주거급여 수급자 제외 원칙과 교육급여만 받는 사람의 8학점 이상 이수 예외, 그리고 6개월 이상 거주 조건\",\n  \"rule\": \"교육급여만 받는 경우 8학점 이상이면 제외 대상이 아니며, 거주 기간 8개월은 6개월 이상 조건을 충족함\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1995153085,
+    "load_duration": 984437,
+    "prompt_eval_count": 648,
+    "prompt_eval_duration": 210389000,
+    "eval_count": 125,
+    "eval_duration": 1778536000
+  },
+  "parsed": {
+    "binding": "가상 푸른사업의 생계·의료·주거급여 수급자 제외 원칙과 교육급여만 받는 사람의 8학점 이상 이수 예외, 그리고 6개월 이상 거주 조건",
+    "rule": "교육급여만 받는 경우 8학점 이상이면 제외 대상이 아니며, 거주 기간 8개월은 6개월 이상 조건을 충족함",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.997
+}

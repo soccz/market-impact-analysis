@@ -1,0 +1,32 @@
+{
+  "id": "incheon-grade-boundary-removed",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:39.514973+00:00",
+  "request_sha256": "d77c241cb278a1f77cbf2f95d092bfe26c10fcac0ae58ab42c251f02c4e72065",
+  "input_sha256": "a67a80db65b8e4bc2ea9af53f018204c3347024fc33bf3eeb5b374be51a25448",
+  "elapsed_seconds": 0.418,
+  "private_response_sha256": "55fce57118a086a007e67fda3e16d9e1ea075f11563d08cd39cff9cd5638f8c4",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 277,
+    "prompt_eval_duration": 144556000,
+    "eval_count": 15,
+    "eval_duration": 201844000,
+    "load_duration": 750237,
+    "total_duration": 416870245
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "jeju-local-cap-removed",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:18.422366+00:00",
+  "request_sha256": "82a8f09ddc6eef088c1604085cdac17b8898ecfc18546ec7691c04c1a8e291aa",
+  "input_sha256": "cddb6c11af70e2ab82292b888cf86dc61c967af9b4b91792068bbf94e2191c0b",
+  "elapsed_seconds": 0.496,
+  "private_response_sha256": "14e55aae3e1a2a0cc7fe2bcb3991dafc28bba4f864b817fd4170763f6bf2c9ca",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 580,
+    "prompt_eval_duration": 56104000,
+    "eval_count": 30,
+    "eval_duration": 401763000,
+    "load_duration": 891038,
+    "total_duration": 494316481
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ],
+    "coverage": "insufficient"
+  }
+}

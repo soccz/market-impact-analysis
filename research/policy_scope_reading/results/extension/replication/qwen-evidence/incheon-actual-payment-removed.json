@@ -1,0 +1,33 @@
+{
+  "id": "incheon-actual-payment-removed",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:27:31.572401+00:00",
+  "request_sha256": "14a550bb16ca49b29233f0f4391b44b67c02a0d828efad9b7d107adc996ffe1d",
+  "input_sha256": "3659730e9534ba55dbc37a2effac018af5218392e9e8c3306ce758d6f2da6c7c",
+  "elapsed_seconds": 0.692,
+  "private_response_sha256": "3b204c045a758bca34711213a650bc69475f166dcdcc4733f773347eb3307f50",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 551,
+    "prompt_eval_duration": 213082000,
+    "eval_count": 34,
+    "eval_duration": 471381000,
+    "load_duration": 914563,
+    "total_duration": 690152892
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0"
+    ],
+    "coverage": "insufficient"
+  }
+}

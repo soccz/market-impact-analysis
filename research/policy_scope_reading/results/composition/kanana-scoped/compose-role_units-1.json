@@ -1,0 +1,41 @@
+{
+  "id": "compose-role_units-1",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:57.794790+00:00",
+  "request_sha256": "de9a4f5d3ba373238415891a87725bdf3dbf66f10a8695912061a91d9c5a256e",
+  "input_sha256": "e4faa6f8f4a6c95a03ebb2d9cdbe3c81c75b69050c8eefcd78fc1aa2b66a7bdc",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:57.794078511Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 온기사업의 지자체 지원 상한은 60만원, 국비 지원 상한은 120만원.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"rule\": \"60 <= 600000, 120 <= 600000, but actual payment depends on target and recognition cost.\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1351539847,
+    "load_duration": 819262,
+    "prompt_eval_count": 714,
+    "prompt_eval_duration": 45974000,
+    "eval_count": 98,
+    "eval_duration": 1278193000
+  },
+  "parsed": {
+    "binding": "가상 온기사업의 지자체 지원 상한은 60만원, 국비 지원 상한은 120만원.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "rule": "60 <= 600000, 120 <= 600000, but actual payment depends on target and recognition cost."
+  },
+  "elapsed_seconds": 1.353
+}

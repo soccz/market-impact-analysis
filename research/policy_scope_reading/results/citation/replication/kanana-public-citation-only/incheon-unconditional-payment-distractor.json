@@ -1,0 +1,35 @@
+{
+  "id": "incheon-unconditional-payment-distractor",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:25.376462+00:00",
+  "request_sha256": "51f28eb83f388f2a02c4e7496a2f2b8a6b81f0f5d07b0bc25c803dcf63b74fb9",
+  "input_sha256": "c707f0d36404553cb998b5144c5c1a3a308f93e5035243682827f4348dc060e1",
+  "elapsed_seconds": 0.415,
+  "private_response_sha256": "5a8c02573ca18668ca245426c6c26d2565c0867a05884b6a885dc40ede60abf9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 386,
+    "prompt_eval_duration": 48176000,
+    "eval_count": 24,
+    "eval_duration": 293204000,
+    "load_duration": 935878,
+    "total_duration": 412950858
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z1",
+      "I11",
+      "I12",
+      "Z2"
+    ]
+  }
+}

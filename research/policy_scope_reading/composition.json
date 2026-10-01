@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "compose-version_scope-1",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "9월 20일에 접수한 첫 신청자의 소득이 90%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": true,
+      "first": true,
+      "income": 90
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-2",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "9월 20일에 접수한 첫 신청자의 소득이 125%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": true,
+      "first": true,
+      "income": 125
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-3",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "9월 20일에 접수한 재신청자의 소득이 90%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": true,
+      "first": false,
+      "income": 90
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-4",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "9월 20일에 접수한 재신청자의 소득이 125%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": true,
+      "first": false,
+      "income": 125
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-5",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "10월 2일에 접수한 첫 신청자의 소득이 90%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": false,
+      "first": true,
+      "income": 90
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-6",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "10월 2일에 접수한 첫 신청자의 소득이 125%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": false,
+      "first": true,
+      "income": 125
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-7",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "10월 2일에 접수한 재신청자의 소득이 90%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": false,
+      "first": false,
+      "income": 90
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-version_scope-8",
+    "split": "composition",
+    "family": "version_scope",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 해솔사업의 10월 1일 전 접수 건은 종전 기준을, 10월 1일 이후 접수 건은 새 기준을 따른다.",
+      "S2": "종전 소득 상한은 수혜 이력과 관계없이 100%이다.",
+      "S3": "새 기준은 첫 신청자에게 140%, 재신청자에게 110%의 소득 상한을 적용한다."
+    },
+    "claim": "10월 2일에 접수한 재신청자의 소득이 125%이다. 이 사람은 적용되는 소득 상한을 충족한다.",
+    "oracle_facts": {
+      "old": false,
+      "first": false,
+      "income": 125
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-1",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "교육급여만 받고 6학점을 이수했으며 4개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": true,
+      "credits": 6,
+      "residence": 4
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ],
+        [
+          "S3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-2",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "교육급여만 받고 6학점을 이수했으며 8개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": true,
+      "credits": 6,
+      "residence": 8
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-3",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "교육급여만 받고 10학점을 이수했으며 4개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": true,
+      "credits": 10,
+      "residence": 4
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-4",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "교육급여만 받고 10학점을 이수했으며 8개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": true,
+      "credits": 10,
+      "residence": 8
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-5",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "생계급여와 교육급여를 함께 받고 6학점을 이수했으며 4개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": false,
+      "credits": 6,
+      "residence": 4
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ],
+        [
+          "S1",
+          "S2"
+        ],
+        [
+          "S3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-6",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "생계급여와 교육급여를 함께 받고 6학점을 이수했으며 8개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": false,
+      "credits": 6,
+      "residence": 8
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ],
+        [
+          "S1",
+          "S2"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-7",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "생계급여와 교육급여를 함께 받고 10학점을 이수했으며 4개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": false,
+      "credits": 10,
+      "residence": 4
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ],
+        [
+          "S3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-only_exception-8",
+    "split": "composition",
+    "family": "only_exception",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 푸른사업은 생계·의료·주거·교육급여 수급자를 원칙적으로 제외한다.",
+      "S2": "예외로 교육급여만 받는 사람은 이수학점이 8학점 이상이면 이 급여 제외에 해당하지 않는다.",
+      "S3": "모든 신청자는 지역 거주 기간이 6개월 이상이어야 한다."
+    },
+    "claim": "생계급여와 교육급여를 함께 받고 10학점을 이수했으며 8개월 거주한 가상 신청자는 제시된 급여·학점·거주 조건을 모두 충족한다.",
+    "oracle_facts": {
+      "education_only": false,
+      "credits": 10,
+      "residence": 8
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "support_sets": [
+        [
+          "S1",
+          "S2"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-1",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "신규 신청자의 연 매출은 900만원, 최근 월평균 매출은 90만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": true,
+      "annual": 900,
+      "monthly": 90
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-2",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "신규 신청자의 연 매출은 900만원, 최근 월평균 매출은 110만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": true,
+      "annual": 900,
+      "monthly": 110
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-3",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "신규 신청자의 연 매출은 1300만원, 최근 월평균 매출은 90만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": true,
+      "annual": 1300,
+      "monthly": 90
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-4",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "신규 신청자의 연 매출은 1300만원, 최근 월평균 매출은 110만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": true,
+      "annual": 1300,
+      "monthly": 110
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-5",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "기존 수혜 재신청자의 연 매출은 900만원, 최근 월평균 매출은 90만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": false,
+      "annual": 900,
+      "monthly": 90
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-6",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "기존 수혜 재신청자의 연 매출은 900만원, 최근 월평균 매출은 110만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": false,
+      "annual": 900,
+      "monthly": 110
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-7",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "기존 수혜 재신청자의 연 매출은 1300만원, 최근 월평균 매출은 90만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": false,
+      "annual": 1300,
+      "monthly": 90
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-threshold_or-8",
+    "split": "composition",
+    "family": "threshold_or",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 마루사업의 신규 신청자는 연 매출 1200만원 이상 또는 최근 월평균 매출 100만원 이상이면 매출 요건을 충족한다.",
+      "S2": "기존 수혜자가 다시 신청할 때에는 두 매출 기준을 모두 충족해야 한다."
+    },
+    "claim": "기존 수혜 재신청자의 연 매출은 1300만원, 최근 월평균 매출은 110만원이다. 제시된 매출 요건을 충족한다.",
+    "oracle_facts": {
+      "first": false,
+      "annual": 1300,
+      "monthly": 110
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-1",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+    "oracle_facts": {
+      "state": "confirmed",
+      "amount": 50
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-2",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 70만원이다.",
+    "oracle_facts": {
+      "state": "confirmed",
+      "amount": 70
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-3",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 정액 지원금을 50만원으로 정하는 방안을 검토 중이며 확정 금액은 아직 발표하지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+    "oracle_facts": {
+      "state": "proposed",
+      "amount": 50
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-4",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 정액 지원금을 50만원으로 정하는 방안을 검토 중이며 확정 금액은 아직 발표하지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 70만원이다.",
+    "oracle_facts": {
+      "state": "proposed",
+      "amount": 70
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-5",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 확정 정액 지원금이 50만원이라는 발표는 사실이 아니라고 기관이 밝혔다. 다른 금액은 밝히지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+    "oracle_facts": {
+      "state": "denied",
+      "amount": 50
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-6",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 확정 정액 지원금이 50만원이라는 발표는 사실이 아니라고 기관이 밝혔다. 다른 금액은 밝히지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 70만원이다.",
+    "oracle_facts": {
+      "state": "denied",
+      "amount": 70
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-7",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 정액 지원금은 별표에 정한다. 이 입력에는 별표가 제공되지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 50만원이다.",
+    "oracle_facts": {
+      "state": "missing",
+      "amount": 50
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-modality-8",
+    "split": "composition",
+    "family": "modality",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 새봄사업의 정액 지원금은 별표에 정한다. 이 입력에는 별표가 제공되지 않았다.",
+      "S2": "별개의 가상 별빛사업은 정액으로 70만원을 지원한다."
+    },
+    "claim": "가상 새봄사업의 확정된 1인당 정액 지원금은 70만원이다.",
+    "oracle_facts": {
+      "state": "missing",
+      "amount": 70
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-1",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 4개월 운영했고, 지급일에는 출산 후 2개월이 지났다. 이 사람은 출산일 기준 사업 운영 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "business",
+      "business_months": 4,
+      "elapsed_months": 2
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-2",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 4개월 운영했고, 지급일에는 출산 후 4개월이 지났다. 이 사람은 출산일 기준 사업 운영 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "business",
+      "business_months": 4,
+      "elapsed_months": 4
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-3",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 8개월 운영했고, 지급일에는 출산 후 2개월이 지났다. 이 사람은 출산일 기준 사업 운영 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "business",
+      "business_months": 8,
+      "elapsed_months": 2
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-4",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 8개월 운영했고, 지급일에는 출산 후 4개월이 지났다. 이 사람은 출산일 기준 사업 운영 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "business",
+      "business_months": 8,
+      "elapsed_months": 4
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-5",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 4개월 운영했고, 지급일에는 출산 후 2개월이 지났다. 이 사람은 지급일 기준 일괄 지급의 경과 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "payment",
+      "business_months": 4,
+      "elapsed_months": 2
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-6",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 4개월 운영했고, 지급일에는 출산 후 4개월이 지났다. 이 사람은 지급일 기준 일괄 지급의 경과 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "payment",
+      "business_months": 4,
+      "elapsed_months": 4
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-7",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 8개월 운영했고, 지급일에는 출산 후 2개월이 지났다. 이 사람은 지급일 기준 일괄 지급의 경과 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "payment",
+      "business_months": 8,
+      "elapsed_months": 2
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-anchor_dates-8",
+    "split": "composition",
+    "family": "anchor_dates",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 돌봄사업에서 출산일 기준 사업 운영 기간은 6개월 이상이어야 한다.",
+      "S2": "지급일 기준 출산 후 3개월을 초과하면 일괄 지급의 경과 기간 조건을 충족한다."
+    },
+    "claim": "가상 신청자는 출산일까지 사업을 8개월 운영했고, 지급일에는 출산 후 4개월이 지났다. 이 사람은 지급일 기준 일괄 지급의 경과 기간 조건을 충족한다.",
+    "oracle_facts": {
+      "target": "payment",
+      "business_months": 8,
+      "elapsed_months": 4
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S2"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-1",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 이 신청자의 실제 지자체 지급액은 600000원이다.",
+    "oracle_facts": {
+      "actual": true,
+      "amount_won": 600000,
+      "wording": 0
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-2",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 이 신청자의 실제 지자체 지급액은 60만원이다.",
+    "oracle_facts": {
+      "actual": true,
+      "amount_won": 600000,
+      "wording": 1
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-3",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 이 신청자의 실제 지자체 지급액은 1800000원이다.",
+    "oracle_facts": {
+      "actual": true,
+      "amount_won": 1800000,
+      "wording": 0
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-4",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 이 신청자의 실제 지자체 지급액은 180만원이다.",
+    "oracle_facts": {
+      "actual": true,
+      "amount_won": 1800000,
+      "wording": 1
+    },
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-5",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 지자체 지원 총 상한은 600000원이다.",
+    "oracle_facts": {
+      "actual": false,
+      "amount_won": 600000,
+      "wording": 0
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-6",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 지자체 지원 총 상한은 60만원이다.",
+    "oracle_facts": {
+      "actual": false,
+      "amount_won": 600000,
+      "wording": 1
+    },
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-7",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 지자체 지원 총 상한은 1800000원이다.",
+    "oracle_facts": {
+      "actual": false,
+      "amount_won": 1800000,
+      "wording": 0
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  },
+  {
+    "id": "compose-role_units-8",
+    "split": "composition",
+    "family": "role_units",
+    "source_kind": "authored_composition",
+    "sentences": {
+      "S1": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며, 총 상한은 60만원이다.",
+      "S2": "별도 국비 지원의 총 상한은 120만원이다.",
+      "S3": "실제 지급은 대상자 확정과 인정 비용에 따른다. 이 가상 신청자의 지급 결정은 제공되지 않았다."
+    },
+    "claim": "가상 온기사업에서 지자체 지원 총 상한은 180만원이다.",
+    "oracle_facts": {
+      "actual": false,
+      "amount_won": 1800000,
+      "wording": 1
+    },
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "S1"
+      ]
+    }
+  }
+]

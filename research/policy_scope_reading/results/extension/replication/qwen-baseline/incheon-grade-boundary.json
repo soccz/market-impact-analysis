@@ -1,0 +1,32 @@
+{
+  "id": "incheon-grade-boundary",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:49.496768+00:00",
+  "request_sha256": "6bb488f906352d0a6f798daddcc3dd4d842df9b0b580424da83843051f8f048b",
+  "input_sha256": "0cc4a2a6e8c8efeff4dcdc912437ae56a6271624193d302247b7227b49f95a14",
+  "elapsed_seconds": 0.417,
+  "private_response_sha256": "2a27514e55c66fb8a1c3662b642992eb347271752e8a9f7d753d7a7e34f114f8",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 198,
+    "prompt_eval_duration": 122932000,
+    "eval_count": 13,
+    "eval_duration": 196415000,
+    "load_duration": 1024584,
+    "total_duration": 415195779
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I03"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "incheon-split-payment",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:27:11.214131+00:00",
+  "request_sha256": "d0179e096a445641c8c1778423663fdd2299654fab7914b3f176fd37ae3eef3e",
+  "input_sha256": "8416a663fe079953e9103c0efb01a2a7a79e62d966c75576a5bbb56584161f40",
+  "elapsed_seconds": 0.662,
+  "private_response_sha256": "dbf13a410a33dac8d07d984faf4000e782ac64e9a196c612e4980f2bf6ad43bf",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 551,
+    "prompt_eval_duration": 212013000,
+    "eval_count": 32,
+    "eval_duration": 443216000,
+    "load_duration": 889567,
+    "total_duration": 660382552
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I12"
+    ],
+    "coverage": "sufficient"
+  }
+}

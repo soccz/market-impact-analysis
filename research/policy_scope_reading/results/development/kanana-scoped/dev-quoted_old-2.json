@@ -1,0 +1,40 @@
+{
+  "id": "dev-quoted_old-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:42.510115+00:00",
+  "request_sha256": "01321f94a0e8a2fd308d68c6e151b44d744a27ee9e065f1fdf274000a11e82ab",
+  "input_sha256": "e8d35ba6001829c528dd272a3e0ba39ae3b5e5bed079ce484138c4328d7bcb90",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:42.509483649Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"이번 모집의 연령 상한은 만 39세이다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"S2: 만 39세 이상 지원 불가, S1: 과거 만 34세 이하\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1135904893,
+    "load_duration": 997684,
+    "prompt_eval_count": 658,
+    "prompt_eval_duration": 19754000,
+    "eval_count": 83,
+    "eval_duration": 1085198000
+  },
+  "parsed": {
+    "binding": "이번 모집의 연령 상한은 만 39세이다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "S2: 만 39세 이상 지원 불가, S1: 과거 만 34세 이하"
+  },
+  "elapsed_seconds": 1.137
+}

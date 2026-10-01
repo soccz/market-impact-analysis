@@ -1,0 +1,33 @@
+{
+  "id": "incheon-parent-residence-removed",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:43.661487+00:00",
+  "request_sha256": "e8ba0d280a3c41608c0f5f34ba6ba22bf19c27d1524b453de4e7917aa0f25017",
+  "input_sha256": "44d5445762884f6021cc3d40a86341fc144039471e98455178aeab4645207843",
+  "elapsed_seconds": 0.491,
+  "private_response_sha256": "b3181fb437955bc5949e627b8b0349864ef8f5790d421d1f687a28f540e055c3",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 632,
+    "prompt_eval_duration": 65524000,
+    "eval_count": 30,
+    "eval_duration": 396483000,
+    "load_duration": 734855,
+    "total_duration": 489346879
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0"
+    ],
+    "coverage": "insufficient"
+  }
+}

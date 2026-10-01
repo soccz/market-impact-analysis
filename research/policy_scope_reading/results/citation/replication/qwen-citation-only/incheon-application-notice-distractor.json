@@ -1,0 +1,35 @@
+{
+  "id": "incheon-application-notice-distractor",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:41.040179+00:00",
+  "request_sha256": "a695e813fef4411da3840d1cfbaff3a76cf9c315119f135d5af2d8916f1ac70c",
+  "input_sha256": "abfde73d78013fc07bea1dbf4ff585246bcda9bffbfc913fa7d44143e6429117",
+  "elapsed_seconds": 0.591,
+  "private_response_sha256": "a55630e905aa94cc95effce365e656679f70e800bfc7bdbd197294c8b9632e1d",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 339,
+    "prompt_eval_duration": 161474000,
+    "eval_count": 26,
+    "eval_duration": 357261000,
+    "load_duration": 737493,
+    "total_duration": 589072612
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z1",
+      "I01",
+      "I02",
+      "Z2"
+    ]
+  }
+}

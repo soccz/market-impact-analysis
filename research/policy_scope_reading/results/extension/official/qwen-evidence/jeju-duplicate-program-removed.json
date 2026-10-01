@@ -1,0 +1,33 @@
+{
+  "id": "jeju-duplicate-program-removed",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:47.706302+00:00",
+  "request_sha256": "a37d36b8c13dca9ad57f7a9a03c8b28db43ba3f7ad0a584eb13c3b8becd79551",
+  "input_sha256": "532fceabf87c44a0679a48200e98ffbc63ca567573f37e807802dedcd0c4f3af",
+  "elapsed_seconds": 0.83,
+  "private_response_sha256": "cb427ebb73e2f2111ffd033419d5872c5858f5b7b6670d54a488978e81dbcbd1",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 540,
+    "prompt_eval_duration": 214775000,
+    "eval_count": 40,
+    "eval_duration": 608098000,
+    "load_duration": 731022,
+    "total_duration": 828903575
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ],
+    "coverage": "insufficient"
+  }
+}

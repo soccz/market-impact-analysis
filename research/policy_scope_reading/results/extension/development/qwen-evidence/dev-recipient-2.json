@@ -1,0 +1,38 @@
+{
+  "id": "dev-recipient-2",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:25:45.774443+00:00",
+  "request_sha256": "672bb2c0890634f088757afa89c2b60074ba2f046544ea07d21fbbe3f1a2b22d",
+  "input_sha256": "e1925caa48d28d211b0b8dbc95874855aa573aa4bf5eb11b63ebcb891da125a1",
+  "parsed": {
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "coverage": "insufficient",
+    "decision": "not_established"
+  },
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:25:45.773643785Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"evidence\": [\"S1\", \"S2\"],\n  \"coverage\": \"insufficient\",\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 768060731,
+    "load_duration": 864073,
+    "prompt_eval_count": 480,
+    "prompt_eval_duration": 212203000,
+    "eval_count": 38,
+    "eval_duration": 529525000
+  },
+  "elapsed_seconds": 0.77
+}

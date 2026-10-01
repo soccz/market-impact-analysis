@@ -1,0 +1,40 @@
+{
+  "id": "compose-anchor_dates-4",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:49.705245+00:00",
+  "request_sha256": "d7fcc29d43c4e66690e1645bd6fda694c257c30471f139c1ba79fd040e39c10a",
+  "input_sha256": "546ed6a0165d7c9fcace09795f2184ede958ee1b75cfbe4a20186c1ee5997118",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:49.704632795Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 돌봄사업의 출산일 기준 운영 기간은 6개월 이상이어야 한다.\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"8 > 6, 4 > 3, 모두 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1087714719,
+    "load_duration": 1053374,
+    "prompt_eval_count": 712,
+    "prompt_eval_duration": 21680000,
+    "eval_count": 81,
+    "eval_duration": 1034560000
+  },
+  "parsed": {
+    "binding": "가상 돌봄사업의 출산일 기준 운영 기간은 6개월 이상이어야 한다.",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "8 > 6, 4 > 3, 모두 조건 충족"
+  },
+  "elapsed_seconds": 1.089
+}

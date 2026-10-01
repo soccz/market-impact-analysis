@@ -1,0 +1,54 @@
+{
+  "official": {
+    "kanana-public-baseline": {
+      "both_base_and_distractor_correct": 5,
+      "coverage_decision_conflicts": 0,
+      "pairs": 18,
+      "removed_semantic_unknown": 18
+    },
+    "kanana-public-evidence": {
+      "both_base_and_distractor_correct": 2,
+      "coverage_decision_conflicts": 0,
+      "pairs": 18,
+      "removed_semantic_unknown": 18
+    },
+    "qwen-baseline": {
+      "both_base_and_distractor_correct": 3,
+      "coverage_decision_conflicts": 0,
+      "pairs": 18,
+      "removed_semantic_unknown": 17
+    },
+    "qwen-evidence": {
+      "both_base_and_distractor_correct": 7,
+      "coverage_decision_conflicts": 0,
+      "pairs": 18,
+      "removed_semantic_unknown": 16
+    }
+  },
+  "replication": {
+    "kanana-public-baseline": {
+      "both_base_and_distractor_correct": 7,
+      "coverage_decision_conflicts": 0,
+      "pairs": 12,
+      "removed_semantic_unknown": 11
+    },
+    "kanana-public-evidence": {
+      "both_base_and_distractor_correct": 5,
+      "coverage_decision_conflicts": 0,
+      "pairs": 12,
+      "removed_semantic_unknown": 11
+    },
+    "qwen-baseline": {
+      "both_base_and_distractor_correct": 5,
+      "coverage_decision_conflicts": 0,
+      "pairs": 12,
+      "removed_semantic_unknown": 12
+    },
+    "qwen-evidence": {
+      "both_base_and_distractor_correct": 5,
+      "coverage_decision_conflicts": 0,
+      "pairs": 12,
+      "removed_semantic_unknown": 12
+    }
+  }
+}

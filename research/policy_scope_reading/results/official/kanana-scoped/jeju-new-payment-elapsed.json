@@ -1,0 +1,37 @@
+{
+  "id": "jeju-new-payment-elapsed",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:04:10.127631+00:00",
+  "request_sha256": "d16231a05cd5487feef48e5675e0de4909e088364731e4b723c3ce27b33378a8",
+  "input_sha256": "0e99151d13e0af3658410b8df70d0ca1687fc9e6471e72fae53c28e98f422455",
+  "elapsed_seconds": 1.221,
+  "private_response_sha256": "45dff9439deaeaccdf08077b14faf24acc19015475c40654f6ca325ab265b0cf",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 705,
+    "prompt_eval_duration": 41992000,
+    "eval_count": 88,
+    "eval_duration": 1144829000,
+    "load_duration": 814136,
+    "total_duration": 1219248643
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "N028",
+      "N046"
+    ],
+    "certainty": "possible",
+    "rule": "3.5 > 3; 3.5 > 2"
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "ad5bdd73bb7684cc47b7a7b4c21b5f37849bedfba3516dc7261f168faed48058"
+}

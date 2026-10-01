@@ -1,0 +1,34 @@
+{
+  "id": "jeju-payment-anchor-removed",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:26.820881+00:00",
+  "request_sha256": "7a9036640088b3e8d005791756e79dea20e94d0dc76079304ca08fb4d2893dcd",
+  "input_sha256": "429e3be890e1fd98f319368829b16ac13be5b80b5f6dc0f279319783bf39b75a",
+  "elapsed_seconds": 0.495,
+  "private_response_sha256": "56926f18c9e529b744067142bed049c13dcedd028d2c9ff76a0455fd0fffbe30",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 251,
+    "prompt_eval_duration": 129955999,
+    "eval_count": 21,
+    "eval_duration": 290845000,
+    "load_duration": 767478,
+    "total_duration": 492795268
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0",
+      "X1",
+      "X2"
+    ]
+  }
+}

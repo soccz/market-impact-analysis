@@ -1,0 +1,33 @@
+{
+  "id": "jeju-local-cap",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:21.812414+00:00",
+  "request_sha256": "419b20acc67bf8f4bfec2063cc9dd2db794074fb40fba8dd9282fc00d103aefe",
+  "input_sha256": "ec52aed81b4c73dd2dfa191cef02bee81019f89ce4c6b6fd8f064ee504e50656",
+  "elapsed_seconds": 0.479,
+  "private_response_sha256": "0500a022c6558a209f2199ed77b8bc701256070ab3f71dc70be33ef174491af3",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 221,
+    "prompt_eval_duration": 119174000,
+    "eval_count": 22,
+    "eval_duration": 301524000,
+    "load_duration": 802325,
+    "total_duration": 477489549
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N015",
+      "N016"
+    ]
+  }
+}

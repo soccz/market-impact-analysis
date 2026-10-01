@@ -1,0 +1,33 @@
+{
+  "id": "jeju-old-short-business",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:06.595833+00:00",
+  "request_sha256": "838f92ea5f1b65ad2fd2ed6f0073ca2871c8b1984e88f11d6c401ce15a8b3bc0",
+  "input_sha256": "ad9c3bf43a739e3f6d2f1a195191da2b5b2180ca7baf9d0454e572330643f58b",
+  "elapsed_seconds": 0.451,
+  "private_response_sha256": "24309d4243f63fb357849fa28e20fe421431ea4e293e58b9e69ce4f6177ca6f2",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 561,
+    "prompt_eval_duration": 46015000,
+    "eval_count": 27,
+    "eval_duration": 372436000,
+    "load_duration": 1102932,
+    "total_duration": 449557732
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O021"
+    ],
+    "coverage": "sufficient"
+  }
+}

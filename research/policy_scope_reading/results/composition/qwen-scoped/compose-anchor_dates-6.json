@@ -1,0 +1,39 @@
+{
+  "id": "compose-anchor_dates-6",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:09:18.160494+00:00",
+  "request_sha256": "f2560d66f053bafdc40042aa9fa6c2573f1de9bb82ae57d654344564924dca2d",
+  "input_sha256": "2bc50485926434a70e6b8fedd6bf4ba545c2daa1eca51aa74555710839c31b36",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:09:18.159963919Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 돌봄사업의 지급일 기준 출산 후 3 개월 초과 조건\",\n  \"rule\": \"4 개월 > 3 개월, 조건 충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S2\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1264037583,
+    "load_duration": 759434,
+    "prompt_eval_count": 634,
+    "prompt_eval_duration": 202894000,
+    "eval_count": 75,
+    "eval_duration": 1054461000
+  },
+  "parsed": {
+    "binding": "가상 돌봄사업의 지급일 기준 출산 후 3 개월 초과 조건",
+    "rule": "4 개월 > 3 개월, 조건 충족",
+    "certainty": "definite",
+    "evidence": [
+      "S2"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.266
+}

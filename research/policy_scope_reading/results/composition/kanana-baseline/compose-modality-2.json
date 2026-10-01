@@ -1,0 +1,36 @@
+{
+  "id": "compose-modality-2",
+  "method": "baseline",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:43.730989+00:00",
+  "request_sha256": "99ce21405eed308f15b7608274655782e064922ec62af680d49b8280a8ca4598",
+  "input_sha256": "5ee06a8ae528a1fbd04a39b53cdb0672b3468d27dbe05d799c7065e6f229cb36",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:03:43.730461953Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"contradicted\",\"evidence\":[\"S1\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 236818062,
+    "load_duration": 604048,
+    "prompt_eval_count": 225,
+    "prompt_eval_duration": 42774000,
+    "eval_count": 14,
+    "eval_duration": 162623000
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "S1"
+    ]
+  },
+  "elapsed_seconds": 0.238
+}

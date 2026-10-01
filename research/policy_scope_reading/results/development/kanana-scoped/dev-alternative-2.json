@@ -1,0 +1,39 @@
+{
+  "id": "dev-alternative-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:33.596248+00:00",
+  "request_sha256": "21f1349768bdb654ad8c1ab61c95d4906fd96e11f6ada2a40efe2385afcb609a",
+  "input_sha256": "5f4bdc7d1a3077af661082d1bbff049da0e0761bb8477c53ab39fe0fb384a4b7",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:33.595666415Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"전년도 매출 1,200만원 이상 또는 최근 3개월 평균 월 매출 100만원 이상 요건\",\n  \"certainty\": \"possible\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"900 < 1,200, 90 < 100, 이상 조건 불충족, 또는 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1201058753,
+    "load_duration": 829528,
+    "prompt_eval_count": 670,
+    "prompt_eval_duration": 20018000,
+    "eval_count": 89,
+    "eval_duration": 1151510000
+  },
+  "parsed": {
+    "binding": "전년도 매출 1,200만원 이상 또는 최근 3개월 평균 월 매출 100만원 이상 요건",
+    "certainty": "possible",
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "900 < 1,200, 90 < 100, 이상 조건 불충족, 또는 조건 충족"
+  },
+  "elapsed_seconds": 1.202
+}

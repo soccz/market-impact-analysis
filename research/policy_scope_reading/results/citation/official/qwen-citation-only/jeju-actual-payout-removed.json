@@ -1,0 +1,32 @@
+{
+  "id": "jeju-actual-payout-removed",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:25.776203+00:00",
+  "request_sha256": "82be6f53e9a04550614210fb9f3dd803611f92f38c16eeb334e8b0f749786251",
+  "input_sha256": "f543d7632cf9acb71ae2d5637284d2b4c3acc411188063d8cfbc2ecd87df0bc0",
+  "elapsed_seconds": 0.419,
+  "private_response_sha256": "7d8c1b5d1b607016f8cfbbfa50f57367249bd1e2dbfebe17982488d6a7183a64",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 262,
+    "prompt_eval_duration": 143050000,
+    "eval_count": 15,
+    "eval_duration": 202079000,
+    "load_duration": 756619,
+    "total_duration": 416818847
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X1"
+    ]
+  }
+}

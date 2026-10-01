@@ -1,0 +1,33 @@
+{
+  "id": "jeju-new-application-elapsed-distractor",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:20.916176+00:00",
+  "request_sha256": "fe4d660958b6d05060b6867c2a1ce28a937c9cc8e1ab6eb5e2010036c65f673e",
+  "input_sha256": "223ba3767cb1ed9363671774eee82eb31439575000b1b06a8a27db5e609e41ed",
+  "elapsed_seconds": 0.493,
+  "private_response_sha256": "6b50f1b48f4e25953ce751403f01ae974371818324882ef62eff026677025c47",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 624,
+    "prompt_eval_duration": 65697999,
+    "eval_count": 30,
+    "eval_duration": 396381000,
+    "load_duration": 808556,
+    "total_duration": 491752691
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N046"
+    ],
+    "coverage": "insufficient"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "kanana-public-baseline": [
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "supported",
+        "evidence": [
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-split-payment",
+      "repeat": {
+        "decision": "supported",
+        "evidence": [
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "supported",
+        "evidence": [
+          "I02"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-application-final",
+      "repeat": {
+        "decision": "supported",
+        "evidence": [
+          "I02"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "supported",
+        "evidence": [
+          "I04"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-nationality-exception",
+      "repeat": {
+        "decision": "supported",
+        "evidence": [
+          "I04"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "not_established",
+        "evidence": [
+          "I03"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-grade-low",
+      "repeat": {
+        "decision": "not_established",
+        "evidence": [
+          "I03"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "not_established",
+        "evidence": [
+          "I11",
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-actual-payment",
+      "repeat": {
+        "decision": "not_established",
+        "evidence": [
+          "I11",
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "not_established",
+        "evidence": [
+          "I05",
+          "I06",
+          "I10"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-exception-not-selection",
+      "repeat": {
+        "decision": "not_established",
+        "evidence": [
+          "I05",
+          "I06",
+          "I10"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    }
+  ],
+  "qwen-thinking": [
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "supported",
+        "evidence": [
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-split-payment",
+      "repeat": {
+        "decision": "supported",
+        "evidence": [
+          "I12"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": true,
+      "first": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "first_valid": false,
+      "id": "incheon-application-final",
+      "repeat": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "repeat_valid": false,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "contradicted",
+        "evidence": [
+          "I04"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-nationality-exception",
+      "repeat": {
+        "decision": "contradicted",
+        "evidence": [
+          "I04"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": false,
+      "first": {
+        "decision": "contradicted",
+        "evidence": [
+          "I03"
+        ],
+        "reason": "model_output"
+      },
+      "first_valid": true,
+      "id": "incheon-grade-low",
+      "repeat": {
+        "decision": "contradicted",
+        "evidence": [
+          "I03"
+        ],
+        "reason": "model_output"
+      },
+      "repeat_valid": true,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": true,
+      "first": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "first_valid": false,
+      "id": "incheon-actual-payment",
+      "repeat": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "repeat_valid": false,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    },
+    {
+      "both_abstain": true,
+      "first": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "first_valid": false,
+      "id": "incheon-exception-not-selection",
+      "repeat": {
+        "decision": "abstain",
+        "evidence": [],
+        "reason": "invalid_schema"
+      },
+      "repeat_valid": false,
+      "same_decision": true,
+      "same_decision_and_evidence": true,
+      "same_final_text": true
+    }
+  ]
+}

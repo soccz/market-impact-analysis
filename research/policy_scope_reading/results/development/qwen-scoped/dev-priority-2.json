@@ -1,0 +1,40 @@
+{
+  "id": "dev-priority-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:44.586616+00:00",
+  "request_sha256": "7cf88703da1eed695cbebee63cc6c21829acee05e410570993f8f19956d23b2e",
+  "input_sha256": "ddcd41b8e1a11c822b5e403a2fc38c622a92399e1b786e662efc69a49da42de9",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:44.586060081Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"우선 선발 대상\",\n  \"rule\": \"신청자가 많을 때만 85% 이하 적용, 일반 조건과 다름\",\n  \"certainty\": \"possible\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1298293736,
+    "load_duration": 940056,
+    "prompt_eval_count": 601,
+    "prompt_eval_duration": 251213000,
+    "eval_count": 74,
+    "eval_duration": 1041214000
+  },
+  "parsed": {
+    "binding": "우선 선발 대상",
+    "rule": "신청자가 많을 때만 85% 이하 적용, 일반 조건과 다름",
+    "certainty": "possible",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 1.3
+}

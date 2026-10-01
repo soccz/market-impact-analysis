@@ -1,0 +1,33 @@
+{
+  "id": "incheon-nationality-exception-distractor",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:50.395729+00:00",
+  "request_sha256": "f2f9d1ef48bb92ac2c6d8028674446b4c42ec25966528945bf6be987139a7c15",
+  "input_sha256": "ac984f58de87bb87d36c94114de2c80a6479d5b4134db2872b24c858d1104d28",
+  "elapsed_seconds": 0.489,
+  "private_response_sha256": "c06c9bbca561230d4f7f38bda7524c689393a3ccdd6c8d8ea479bff863ce7843",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 610,
+    "prompt_eval_duration": 63778000,
+    "eval_count": 30,
+    "eval_duration": 396098000,
+    "load_duration": 789207,
+    "total_duration": 487236530
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "I04"
+    ],
+    "coverage": "insufficient"
+  }
+}

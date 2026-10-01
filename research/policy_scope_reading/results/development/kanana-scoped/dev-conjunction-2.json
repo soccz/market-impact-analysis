@@ -1,0 +1,39 @@
+{
+  "id": "dev-conjunction-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:35.854717+00:00",
+  "request_sha256": "8a139d65d2b00d82f54154732eedb955e42851083a29aa7a0e5e98d559d277fd",
+  "input_sha256": "cab7bbf600556ba7e46d265018c7e5f2c2ef8074c58eb284c66caf64c7b88e9a",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:35.85418595Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"대상은 거주 기간 6개월 이상이면서 만 19세 이상인 사람이다.\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"8개월 ≥ 6개월, 만 20세 ≥ 만 19세, 모두 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1095678205,
+    "load_duration": 825147,
+    "prompt_eval_count": 653,
+    "prompt_eval_duration": 20360000,
+    "eval_count": 80,
+    "eval_duration": 1045555000
+  },
+  "parsed": {
+    "binding": "대상은 거주 기간 6개월 이상이면서 만 19세 이상인 사람이다.",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "8개월 ≥ 6개월, 만 20세 ≥ 만 19세, 모두 충족"
+  },
+  "elapsed_seconds": 1.097
+}

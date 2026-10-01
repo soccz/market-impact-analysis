@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-01T08:32:06.835796+00:00",
+  "selection_rule": "First two SHA-256(case-ID) values in each reference class among the 12 unperturbed Incheon claims. Uses reference strata but no predictions.",
+  "case_ids": [
+    "incheon-split-payment",
+    "incheon-application-final",
+    "incheon-nationality-exception",
+    "incheon-grade-low",
+    "incheon-actual-payment",
+    "incheon-exception-not-selection"
+  ],
+  "methods": [
+    "kanana-public-baseline",
+    "qwen-thinking"
+  ],
+  "repetitions": 1,
+  "meaning": "A six-item reproducibility spot-check, not a stability guarantee."
+}

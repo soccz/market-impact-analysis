@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-10-01T07:54:40.373971+00:00",
+  "stage": "freeze after baseline development errors; structured development outputs not yet inspected; new-source full texts not yet read",
+  "models": [
+    "kanana",
+    "qwen"
+  ],
+  "decoding": {
+    "temperature": 0,
+    "seed": 20261001,
+    "num_ctx": 8192,
+    "num_predict": 256,
+    "top_k": 1,
+    "top_p": 1,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "qwen_think": false
+  },
+  "files": {
+    "infer.py": "47e0a9c7a70540c6fd03278b6893a12c7ce7c31c7bd8ddd889ea71b10480def6",
+    "scoped_infer.py": "8c9f83420beccbd661144acbb04f928476d2eb9beccbe1a9e2b7403157f535f1",
+    "prompts.json": "a04f54ef10fabd6208bf2f5cda66f3833a4b4373705bf96c3a4416ae98175943",
+    "scoped_prompt.txt": "3b782e829585d5eb04a9d3d1735017a2db651c2075a4d12ebe004c4bbe631e10",
+    "evaluate.py": "7bcc8dce3607daa13e3cc3d8c728e253368cc2aaa255d005a2969f3628e5d126"
+  }
+}

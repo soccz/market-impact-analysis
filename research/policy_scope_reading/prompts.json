@@ -1,0 +1,3 @@
+{
+  "baseline": "주어진 한국어 정책 근거만 읽고 주장 하나를 판독하세요. 외부 지식은 쓰지 마세요. 주장이 근거로 뒷받침되면 supported, 근거와 모순되면 contradicted, 어느 쪽도 확정할 수 없으면 not_established입니다. 실제 전체 자격이 아니라 질문에서 지정한 조건만 판단합니다. evidence에는 판독에 필요한 문장의 ID를 적으세요. JSON {\"decision\":\"supported|contradicted|not_established\",\"evidence\":[\"S1\"]}만 출력하세요."
+}

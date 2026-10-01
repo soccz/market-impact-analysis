@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-01T08:35:52.600501+00:00",
+  "files": {
+    "sampling_infer.py": "fbd57fdcbff009c16f4e5718326591d11febc830190d0c891dd39d7cedcd85b4",
+    "followup_reference.json": "b5c83377d755d23ed4ca008497c92cb3d45b42ec04f0b33c5d9a845acfb283bb",
+    "extension_infer.py": "addebb22d50437f5e31bf077876b263f8f2aac4e721b93573cfa09e6565f21ef",
+    "prompts.json": "a04f54ef10fabd6208bf2f5cda66f3833a4b4373705bf96c3a4416ae98175943"
+  },
+  "selection": "All twelve follow-up claims, no cherry-picking after outcomes. Existing 2048-token greedy run completes unchanged.",
+  "observed": "First five 2048-token thinking responses: four exhausted budget. Follow-up no-thinking responses exist; follow-up thinking responses not yet generated. Adaptive comparison, not a fresh held-out set.",
+  "comparison": "4096-token output cap, temperature1, top_p.95, top_k20, min_p0, presence_penalty1.5 shared between thinking and no-thinking; seed20261001. One sample per input, no best-of-N.",
+  "source": "https://huggingface.co/Qwen/Qwen3.5-9B#using-qwen35-via-the-chat-completions-api",
+  "limit": "Uses the model-card shared sampling recommendation; output cap is still below card recommendations. Does not estimate optimal model performance or isolate budget from sampling when comparing with earlier stage."
+}

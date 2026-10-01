@@ -1,0 +1,36 @@
+{
+  "id": "followup-incheon-actual-payment",
+  "method": "sampled-control",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:55:32.010271+00:00",
+  "request_sha256": "a0d69eea313d362de419e22e19d8e45018c93fc8450ac79562ed6a8db29de1f8",
+  "input_sha256": "4008a35d7190dd1c6c9f6372e4d64f846ba79991961433f6c1ae17bb22694f20",
+  "elapsed_seconds": 0.548,
+  "private_response_sha256": "4cca1efea6a2eb6d487ff7829ad38677a324cdab594e4c80230f364c51892204",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 275,
+    "prompt_eval_duration": 147567000,
+    "eval_count": 20,
+    "eval_duration": 318402000,
+    "load_duration": 782732,
+    "total_duration": 546451710
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "I11",
+      "I12"
+    ]
+  },
+  "thinking_trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "thinking_trace_present": false,
+  "thinking_characters": 0
+}

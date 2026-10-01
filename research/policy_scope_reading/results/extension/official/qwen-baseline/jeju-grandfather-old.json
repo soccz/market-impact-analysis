@@ -1,0 +1,35 @@
+{
+  "id": "jeju-grandfather-old",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:19.237413+00:00",
+  "request_sha256": "b5eb6354d038eb6a5064a21168a7f038750b885b36ca3c15172a430f2ca78615",
+  "input_sha256": "d6b446b93672ddceac8cdd9d2d96e0fe6df547911888c2f6f81658a70ff2c681",
+  "elapsed_seconds": 0.672,
+  "private_response_sha256": "f49b14bcfcf7d01c4ed228ad3ae9fef379f1a425b3113cfcef597ab310039c9c",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 338,
+    "prompt_eval_duration": 163025000,
+    "eval_count": 32,
+    "eval_duration": 444720000,
+    "load_duration": 981745,
+    "total_duration": 670950282
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N004",
+      "O020",
+      "O021",
+      "N025"
+    ]
+  }
+}

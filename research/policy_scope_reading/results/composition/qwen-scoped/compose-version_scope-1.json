@@ -1,0 +1,40 @@
+{
+  "id": "compose-version_scope-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:21.393459+00:00",
+  "request_sha256": "567f0387e2921345a150f1e54a024d01af4a2e576109664060a93515f5b863ef",
+  "input_sha256": "d0a614d1fe387105b56bf021287df4e9d448db7f2421e9aef24b065396873728",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:21.392953014Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 10 월 1 일 전 접수 건\",\n  \"rule\": \"9 월 20 일 접수는 종전 기준 (100% 이하) 적용, 90% ≤ 100%\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1532917237,
+    "load_duration": 712635,
+    "prompt_eval_count": 665,
+    "prompt_eval_duration": 211252000,
+    "eval_count": 93,
+    "eval_duration": 1314643000
+  },
+  "parsed": {
+    "binding": "가람사업 10 월 1 일 전 접수 건",
+    "rule": "9 월 20 일 접수는 종전 기준 (100% 이하) 적용, 90% ≤ 100%",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.534
+}

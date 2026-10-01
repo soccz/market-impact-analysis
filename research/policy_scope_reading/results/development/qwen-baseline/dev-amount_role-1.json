@@ -1,0 +1,36 @@
+{
+  "id": "dev-amount_role-1",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:51:56.470374+00:00",
+  "request_sha256": "a237158dc2d13096d4a43d6016215d6a7785d75a4da5cc86a9179eeff687dadb",
+  "input_sha256": "daf0cd89730ef679a392a1c3b2e42de96d59552cbcff8b86fe10f107a53b3999",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:51:56.469708177Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"contradicted\",\"evidence\":[\"S2\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 298894315,
+    "load_duration": 665768,
+    "prompt_eval_count": 191,
+    "prompt_eval_duration": 108705000,
+    "eval_count": 14,
+    "eval_duration": 187212000
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "S2"
+    ]
+  },
+  "elapsed_seconds": 0.301
+}

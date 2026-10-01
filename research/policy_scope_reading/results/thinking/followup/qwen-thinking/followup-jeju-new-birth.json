@@ -1,0 +1,30 @@
+{
+  "id": "followup-jeju-new-birth",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:51:22.837713+00:00",
+  "request_sha256": "88b78659e8c592994f7033275bd89dc199aff8e8808386b97535eb4ce1cd5cbe",
+  "input_sha256": "f2a5f4941894007451ed77e64988884060382ff9c8541e487bd8c070171f0ebd",
+  "elapsed_seconds": 29.54,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 279,
+    "prompt_eval_duration": 53688000,
+    "eval_count": 2048,
+    "eval_duration": 29346510000,
+    "load_duration": 817284,
+    "total_duration": 29537898315
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "e1b39d786beb6eac2cb59eab9597167ae800c930443151ecba6592e11a8dc2c0",
+  "thinking_trace_present": true,
+  "thinking_characters": 6313
+}

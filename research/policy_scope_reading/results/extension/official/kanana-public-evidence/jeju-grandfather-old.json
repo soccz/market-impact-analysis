@@ -1,0 +1,34 @@
+{
+  "id": "jeju-grandfather-old",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:00.560967+00:00",
+  "request_sha256": "629fdfc29c4c7196fa28a33453c40ec4822db1346816db3f83589f90ebdece75",
+  "input_sha256": "d6b446b93672ddceac8cdd9d2d96e0fe6df547911888c2f6f81658a70ff2c681",
+  "elapsed_seconds": 0.602,
+  "private_response_sha256": "6763874c4363e051c93ffb8d78ce426cf7de9295adf216f4505c006eaa0a6d71",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 647,
+    "prompt_eval_duration": 72560000,
+    "eval_count": 39,
+    "eval_duration": 495852000,
+    "load_duration": 853836,
+    "total_duration": 600374137
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N006",
+      "N025"
+    ],
+    "coverage": "insufficient"
+  }
+}

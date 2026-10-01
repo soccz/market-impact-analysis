@@ -1,0 +1,39 @@
+{
+  "id": "compose-threshold_or-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:49.363589+00:00",
+  "request_sha256": "8e245cca7746c8783ca02904eebc50eb59b909e11fbc40269db69803a696ac4d",
+  "input_sha256": "5d1bb94f13a990812aa19a83fd3d29f47e46668e4fd42c2e07ad4ea72c50ce91",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:49.362901608Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 신규 신청자\",\n  \"rule\": \"연 매출 1200 이상 또는 월 매출 100 이상 필요, 900 < 1200 이고 90 < 100 이므로 조건 불충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1592989358,
+    "load_duration": 1046204,
+    "prompt_eval_count": 631,
+    "prompt_eval_duration": 200025000,
+    "eval_count": 98,
+    "eval_duration": 1384916000
+  },
+  "parsed": {
+    "binding": "가람사업 신규 신청자",
+    "rule": "연 매출 1200 이상 또는 월 매출 100 이상 필요, 900 < 1200 이고 90 < 100 이므로 조건 불충족",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.594
+}

@@ -1,0 +1,30 @@
+{
+  "id": "followup-jeju-grandfather-old",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:50:23.771241+00:00",
+  "request_sha256": "11475c8b5264b8e080c19083aaf624403c2bd5b10327b2ab901e999c9a837f13",
+  "input_sha256": "e45515f702274cde36a32aee458628f4b6ff0b127c4b3ef46659ab226c8c1ffe",
+  "elapsed_seconds": 29.614,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 336,
+    "prompt_eval_duration": 54382000,
+    "eval_count": 2048,
+    "eval_duration": 29419760000,
+    "load_duration": 924988,
+    "total_duration": 29612508827
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "32c75ac380f8a6093d1de9b96200295ac4500d624f7b2d63cdc1cb10366891b3",
+  "thinking_trace_present": true,
+  "thinking_characters": 6693
+}

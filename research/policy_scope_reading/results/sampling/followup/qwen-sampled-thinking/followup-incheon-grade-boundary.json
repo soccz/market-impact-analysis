@@ -1,0 +1,35 @@
+{
+  "id": "followup-incheon-grade-boundary",
+  "method": "sampled-thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:04:18.515994+00:00",
+  "request_sha256": "606012cc7a6ce499e761f04ddf1175b3e0512b8f855ad08b218698f33a9c247b",
+  "input_sha256": "5f8aa3b476325cce2cf7044e561d46f9220d40ff892ceaf8d6fa4d46e845ffdf",
+  "elapsed_seconds": 50.394,
+  "private_response_sha256": "2a27514e55c66fb8a1c3662b642992eb347271752e8a9f7d753d7a7e34f114f8",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 3148,
+    "prompt_eval_duration": 1183797000,
+    "eval_count": 13,
+    "eval_duration": 200469000,
+    "load_duration": 737679,
+    "total_duration": 50392408257
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I03"
+    ]
+  },
+  "thinking_trace_sha256": "a1c5b910f149541cb79e8aef851eecc2aaa60a9ac88413d24942f7e45b9726ac",
+  "thinking_trace_present": true,
+  "thinking_characters": 11226
+}

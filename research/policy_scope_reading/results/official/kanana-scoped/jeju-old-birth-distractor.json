@@ -1,0 +1,37 @@
+{
+  "id": "jeju-old-birth-distractor",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:04:31.087626+00:00",
+  "request_sha256": "2623d3cb13a9ad1c318024e14c9973630d5e4527303935ed99229f66c3274dd4",
+  "input_sha256": "f6779e309e7d706f8d9e09894689de304472b83c577d4ef613d18a8d12a3cd70",
+  "elapsed_seconds": 1.705,
+  "private_response_sha256": "422e16fce21b8a2762cf15e6d846984c09fd13dd12e046a8d865c010a21cb1b6",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 804,
+    "prompt_eval_duration": 73672000,
+    "eval_count": 124,
+    "eval_duration": 1600052000,
+    "load_duration": 990966,
+    "total_duration": 1703229940
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O015",
+      "O041"
+    ],
+    "certainty": "definite",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "58f46102b02874fde3cc01d981e040124bbf635e00244164af1d703ff6584d00"
+}

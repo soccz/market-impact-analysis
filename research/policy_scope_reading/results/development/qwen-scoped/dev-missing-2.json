@@ -1,0 +1,40 @@
+{
+  "id": "dev-missing-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:04.470456+00:00",
+  "request_sha256": "4a48e5493a208cdc5884abe68586b081df831952594e3a4d16778823f2d05f0a",
+  "input_sha256": "e2df6d1e8534053b0f5ee84207727d6d1765c60c608a8418cca5ef50697fa501",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:55:04.469935395Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"별표 2에 따른 소득 세부 기준\",\n  \"rule\": \"별표 2 부재로 소득 상한 확인 불가\",\n  \"certainty\": \"missing\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1263215993,
+    "load_duration": 907138,
+    "prompt_eval_count": 585,
+    "prompt_eval_duration": 249200000,
+    "eval_count": 72,
+    "eval_duration": 1008926000
+  },
+  "parsed": {
+    "binding": "별표 2에 따른 소득 세부 기준",
+    "rule": "별표 2 부재로 소득 상한 확인 불가",
+    "certainty": "missing",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.264
+}

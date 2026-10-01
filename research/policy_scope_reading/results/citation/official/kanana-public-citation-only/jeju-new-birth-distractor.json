@@ -1,0 +1,32 @@
+{
+  "id": "jeju-new-birth-distractor",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:08.933764+00:00",
+  "request_sha256": "10342081d773d57da904cbbf3b18db8cf78de25d6da8e3be240e472b63e96f36",
+  "input_sha256": "74cc56358c853f40e78bf216056735f3b26d7d00bd5c7f8767cabbdcb3f743e7",
+  "elapsed_seconds": 0.321,
+  "private_response_sha256": "d03621538351fb5332cf17aa48163a1d736abed69223f560a3db22d1e74594f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 347,
+    "prompt_eval_duration": 79592000,
+    "eval_count": 15,
+    "eval_duration": 176738000,
+    "load_duration": 776666,
+    "total_duration": 319502313
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N023"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "compose-threshold_or-6",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:08:56.540552+00:00",
+  "request_sha256": "210875b766eaf8ce65a9ed42f42d26ac750fb8dd9bdafadc16a8d83e71d4537a",
+  "input_sha256": "6538ff0ec8e819d24fb5aa1766d778cbf7f6bf6dc388c19e5bbbf940c80d2cd2",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:08:56.539864787Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 신규 신청자 또는 기존 수혜자 재신청자\",\n  \"rule\": \"기존 수혜자 재신청 시 연 매출 1200 이상 AND 월평균 매출 100 이상 필요, 제시: 연 900 (불충족), 월 110 (충족)\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1798598739,
+    "load_duration": 800008,
+    "prompt_eval_count": 635,
+    "prompt_eval_duration": 198448000,
+    "eval_count": 113,
+    "eval_duration": 1592318000
+  },
+  "parsed": {
+    "binding": "가람사업 신규 신청자 또는 기존 수혜자 재신청자",
+    "rule": "기존 수혜자 재신청 시 연 매출 1200 이상 AND 월평균 매출 100 이상 필요, 제시: 연 900 (불충족), 월 110 (충족)",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.8
+}

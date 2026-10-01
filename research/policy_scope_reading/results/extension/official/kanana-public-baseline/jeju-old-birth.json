@@ -1,0 +1,32 @@
+{
+  "id": "jeju-old-birth",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:30:31.814474+00:00",
+  "request_sha256": "0397a28add30be93af9a558f41ab533d04bde2cff5103893553b0e111b75bf54",
+  "input_sha256": "e0ce60441113ae910a157bf9db4202170b697c019fffb0155c37b111c0708302",
+  "elapsed_seconds": 0.273,
+  "private_response_sha256": "15eb4f68852d300ec32fe9b39459c0a7d3965b923fbf633e5831943aaed499ca",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 284,
+    "prompt_eval_duration": 77914000,
+    "eval_count": 12,
+    "eval_duration": 138908000,
+    "load_duration": 785387,
+    "total_duration": 271627798
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O015"
+    ]
+  }
+}

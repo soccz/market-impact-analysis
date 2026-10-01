@@ -1,0 +1,37 @@
+{
+  "id": "compose-role_units-8",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:59.570992+00:00",
+  "request_sha256": "d0640bafcbbaf478ef224815d7a86d90e0fb8c8f847d151f130af46aca3df27a",
+  "input_sha256": "b13a835395a0b60fce99301682e2d9a35086abd5ef1b2491749371ed322d0d78",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:06:59.570479898Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"contradicted\",\"evidence\":[\"S1\",\"S2\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 365355507,
+    "load_duration": 825141,
+    "prompt_eval_count": 237,
+    "prompt_eval_duration": 129088000,
+    "eval_count": 17,
+    "eval_duration": 231823000
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "S1",
+      "S2"
+    ]
+  },
+  "elapsed_seconds": 0.367
+}

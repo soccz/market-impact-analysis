@@ -1,0 +1,34 @@
+{
+  "id": "jeju-old-short-business",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:17.415091+00:00",
+  "request_sha256": "c7bfa989fda9fecc5bb64829a78b10281b5ff0cac51d6ac6486f22be463705e2",
+  "input_sha256": "ad9c3bf43a739e3f6d2f1a195191da2b5b2180ca7baf9d0454e572330643f58b",
+  "elapsed_seconds": 0.894,
+  "private_response_sha256": "71548e2adea5fa0a029269c1952ab60c57a6df48519e4a7bf05fbcd99b1eaf22",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 510,
+    "prompt_eval_duration": 230297000,
+    "eval_count": 47,
+    "eval_duration": 657237000,
+    "load_duration": 777561,
+    "total_duration": 892469685
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O020",
+      "O021"
+    ],
+    "coverage": "sufficient"
+  }
+}

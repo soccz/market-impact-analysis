@@ -1,0 +1,32 @@
+{
+  "id": "incheon-exception-removed",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:20.453219+00:00",
+  "request_sha256": "c3a324da0462e99fd7bab3115abee0e53a44f17205e8bac9a1d92c61ef2db2e9",
+  "input_sha256": "658682d94926a2dde56eb6952441325944b0d9f4a22947433994024d1382001d",
+  "elapsed_seconds": 0.319,
+  "private_response_sha256": "747746be21dd85f13f90c592fb164e171bab6fc15288aa707e15ce563afd5aec",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 332,
+    "prompt_eval_duration": 63141000,
+    "eval_count": 14,
+    "eval_duration": 166822000,
+    "load_duration": 920903,
+    "total_duration": 317451476
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "Z0"
+    ]
+  }
+}

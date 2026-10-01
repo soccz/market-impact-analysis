@@ -1,0 +1,33 @@
+{
+  "id": "jeju-new-sales-distractor",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:15.591010+00:00",
+  "request_sha256": "4bca4bc77c43f04cb01d77517124f6b42f7f004ae1829954d72618b6dce6a76c",
+  "input_sha256": "5eaf42168cd8a5c5ee7726cf5b1f9031c6b40f4b088d1ea2e6f598b9b4da8c41",
+  "elapsed_seconds": 0.517,
+  "private_response_sha256": "cf6ae5e8dd9e1a40bf79f717b1c47a32f8006fb21dbeedc1b16f27ecf36e5c9c",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 314,
+    "prompt_eval_duration": 157814000,
+    "eval_count": 19,
+    "eval_duration": 286828000,
+    "load_duration": 890341,
+    "total_duration": 515554163
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "N025",
+      "N026"
+    ]
+  }
+}

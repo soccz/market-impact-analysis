@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-01T09:10:42.756618+00:00",
+  "files": {
+    "citation_infer.py": "946faf776c2551512833df2f2e16c39277a9d175d1caf16034cd73a5845285f9",
+    "prompts.json": "a04f54ef10fabd6208bf2f5cda66f3833a4b4373705bf96c3a4416ae98175943",
+    "infer.py": "47e0a9c7a70540c6fd03278b6893a12c7ce7c31c7bd8ddd889ea71b10480def6",
+    "evaluate.py": "7bcc8dce3607daa13e3cc3d8c728e253368cc2aaa255d005a2969f3628e5d126"
+  },
+  "status": "Post-hoc ablation after observing all earlier experiments. No fresh institution or held-out set.",
+  "comparison": "Only restrict citation IDs to the input and require one item; same baseline prompt, output fields, model, 256-token cap and deterministic decoder. Compare with existing baseline and evidence-first combined intervention.",
+  "selection": "All 54 Jeju inputs and all 36 Incheon inputs, two model artifacts (public Kanana and Qwen), no subsampling."
+}

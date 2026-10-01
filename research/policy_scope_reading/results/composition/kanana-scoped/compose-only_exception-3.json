@@ -1,0 +1,41 @@
+{
+  "id": "compose-only_exception-3",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:16.311981+00:00",
+  "request_sha256": "7f01733617dd53b83c70839bb08c9f6bc306a3f200a64e09125750aadc73f1af",
+  "input_sha256": "08d469bd1db29346ffbfe4867697115e8b8a1909b7b8c78fb42bd48731b6d82c",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:16.311264702Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 푸른사업은 교육급여 수급자 제외 원칙, 교육급여만 받고 8학점 이상 이수 시 예외, 모든 신청자는 6개월 이상 지역 거주 필요.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"rule\": \"교육급여만, 8학점 이상이면 제외 예외, 6개월 이상 거주 필요.\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1570468165,
+    "load_duration": 844631,
+    "prompt_eval_count": 737,
+    "prompt_eval_duration": 25099000,
+    "eval_count": 119,
+    "eval_duration": 1513885000
+  },
+  "parsed": {
+    "binding": "가상 푸른사업은 교육급여 수급자 제외 원칙, 교육급여만 받고 8학점 이상 이수 시 예외, 모든 신청자는 6개월 이상 지역 거주 필요.",
+    "certainty": "possible",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "rule": "교육급여만, 8학점 이상이면 제외 예외, 6개월 이상 거주 필요."
+  },
+  "elapsed_seconds": 1.572
+}

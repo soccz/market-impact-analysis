@@ -1,0 +1,32 @@
+{
+  "id": "incheon-application-final",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:50.477654+00:00",
+  "request_sha256": "138f6286d29fed14b9a217772b52160cb94027da85afd74d4fd613cf1b363513",
+  "input_sha256": "e1e5b6d891b8d47b626c8e98338a3a29da9c8131366f9b5dc78ed84bbd1703ee",
+  "elapsed_seconds": 0.339,
+  "private_response_sha256": "e8392738cb5996c71a95c8ff0ca0b59cc29c4b5681fb5ae15694ab07d88df020",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 276,
+    "prompt_eval_duration": 144040000,
+    "eval_count": 13,
+    "eval_duration": 189719000,
+    "load_duration": 712915,
+    "total_duration": 337236605
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I02"
+    ]
+  }
+}

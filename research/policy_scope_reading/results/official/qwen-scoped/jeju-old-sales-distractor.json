@@ -1,0 +1,36 @@
+{
+  "id": "jeju-old-sales-distractor",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:07:30.334747+00:00",
+  "request_sha256": "ce5fdb188f0a43711802dd8f5713e83d02c5d25f7d17de5928dea5fb1a2a6153",
+  "input_sha256": "9ac12638c408257aa850a81a4c2f2dd045710c3d1af37b95d50293eeed9c82c6",
+  "elapsed_seconds": 1.18,
+  "private_response_sha256": "1b523044ba9c98eb2392b3fc12691ebb80be551de855c42339af5e9d0f62acf7",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 710,
+    "prompt_eval_duration": 252500000,
+    "eval_count": 65,
+    "eval_duration": 920123000,
+    "load_duration": 770144,
+    "total_duration": 1178782912
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "X1"
+    ],
+    "certainty": "definite",
+    "rule": "900 <= 1500; 불충족"
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "6c6abac610aa49431250fafe439385b642392d9133226ebe7e4039be0746ed96"
+}

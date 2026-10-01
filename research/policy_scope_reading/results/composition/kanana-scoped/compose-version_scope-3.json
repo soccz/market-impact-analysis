@@ -1,0 +1,41 @@
+{
+  "id": "compose-version_scope-3",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:06.338427+00:00",
+  "request_sha256": "9e5a6d45cba41c2e1d3c18d20c89ca5e846f91fd108510d7f1c94422b0bd0dff",
+  "input_sha256": "5de61533f3ef9c58d5e4699bae0aa7f42bdd5c0f0f7660bfba316658efdb7d6b",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:06.33774417Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 해솔사업 9월 20일 접수, 재신청자, 종전 기준 적용\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"rule\": \"90 <= 100, 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1097716626,
+    "load_duration": 739937,
+    "prompt_eval_count": 732,
+    "prompt_eval_duration": 22355000,
+    "eval_count": 79,
+    "eval_duration": 1045590999
+  },
+  "parsed": {
+    "binding": "가상 해솔사업 9월 20일 접수, 재신청자, 종전 기준 적용",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "rule": "90 <= 100, 조건 충족"
+  },
+  "elapsed_seconds": 1.1
+}

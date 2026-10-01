@@ -1,0 +1,35 @@
+{
+  "id": "incheon-actual-payment-distractor",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:45.924320+00:00",
+  "request_sha256": "faa9625733f22d1481cc76b9aa5ded5762f8a581cba3ce8b2dc4da2ec467989b",
+  "input_sha256": "2dc6c76e2808c91d2549f21ade5c4fd61559f5170833a8ac4e128d6a9716cd2f",
+  "elapsed_seconds": 0.6,
+  "private_response_sha256": "5a8c02573ca18668ca245426c6c26d2565c0867a05884b6a885dc40ede60abf9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 349,
+    "prompt_eval_duration": 171092000,
+    "eval_count": 26,
+    "eval_duration": 357460000,
+    "load_duration": 724088,
+    "total_duration": 598989159
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z1",
+      "I11",
+      "I12",
+      "Z2"
+    ]
+  }
+}

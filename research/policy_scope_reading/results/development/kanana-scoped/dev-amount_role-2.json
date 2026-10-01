@@ -1,0 +1,40 @@
+{
+  "id": "dev-amount_role-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:40.200069+00:00",
+  "request_sha256": "91daaea5bc612d3d9b7c1e42a3baad01ebc174768591f69ae724440187c9c1c3",
+  "input_sha256": "5ecf2566a57ef92af33a65456fe1169c81940b48b6dffb220816dd72180beb2d",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:40.199510236Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"사업 전체 예산은 5억원이다. 지원액은 신청자 1인당 최대 30만원이다.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"30 <= 최대 30만원, 실제 지급액은 비용에 따라 다름\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1175452234,
+    "load_duration": 945488,
+    "prompt_eval_count": 665,
+    "prompt_eval_duration": 19886000,
+    "eval_count": 89,
+    "eval_duration": 1123133000
+  },
+  "parsed": {
+    "binding": "사업 전체 예산은 5억원이다. 지원액은 신청자 1인당 최대 30만원이다.",
+    "certainty": "possible",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "30 <= 최대 30만원, 실제 지급액은 비용에 따라 다름"
+  },
+  "elapsed_seconds": 1.177
+}

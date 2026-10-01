@@ -1,0 +1,40 @@
+{
+  "id": "compose-modality-5",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:41.992451+00:00",
+  "request_sha256": "35631e06ec7c5b0ea349fb1483a976804daba16c8fbeaffb55d08d0dfa18fc73",
+  "input_sha256": "ddf1013cefc3516268df910967174a109e16dae2be1c2cbb807c69c05cbdb75c",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:41.991925146Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 정액 지원금은 50만원이라고 발표되었으나, 기관은 이를 부정했다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"기관 발표 부정, 다른 금액 미공개\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1192382406,
+    "load_duration": 813999,
+    "prompt_eval_count": 694,
+    "prompt_eval_duration": 37116000,
+    "eval_count": 83,
+    "eval_duration": 1123365000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 정액 지원금은 50만원이라고 발표되었으나, 기관은 이를 부정했다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "기관 발표 부정, 다른 금액 미공개"
+  },
+  "elapsed_seconds": 1.194
+}

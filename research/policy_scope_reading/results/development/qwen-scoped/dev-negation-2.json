@@ -1,0 +1,40 @@
+{
+  "id": "dev-negation-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:49.262735+00:00",
+  "request_sha256": "4e2f0825f259b551c4b1e67714fe15a100125f0c0e78956139b9f448ea2e153e",
+  "input_sha256": "1a6946dc27664616c99f0e368047454852587f7a47e60e26b48913240d0a8108",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:49.262023037Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"지원금 액수 변경 여부\",\n  \"rule\": \"30 만원 감소 주장이 사실 아님, 현행 50 만원\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1328811498,
+    "load_duration": 2443498,
+    "prompt_eval_count": 582,
+    "prompt_eval_duration": 250434000,
+    "eval_count": 76,
+    "eval_duration": 1068871000
+  },
+  "parsed": {
+    "binding": "지원금 액수 변경 여부",
+    "rule": "30 만원 감소 주장이 사실 아님, 현행 50 만원",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.331
+}

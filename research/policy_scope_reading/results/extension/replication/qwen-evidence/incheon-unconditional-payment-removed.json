@@ -1,0 +1,35 @@
+{
+  "id": "incheon-unconditional-payment-removed",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:27:29.927463+00:00",
+  "request_sha256": "e3e4e760759c117b8010ba15741ff1a63faab9f3e78912a04bcc100a0134d036",
+  "input_sha256": "53847e2922804d3116fe721bffde3d5d2c6a107b4c1b671ac7cb8c939d4f340b",
+  "elapsed_seconds": 0.805,
+  "private_response_sha256": "1138246994a85e627fa78fbfcdc3845f1dcbf13f41995248b6a288f77117af28",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 545,
+    "prompt_eval_duration": 214314000,
+    "eval_count": 42,
+    "eval_duration": 584281000,
+    "load_duration": 862872,
+    "total_duration": 803898267
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0",
+      "Z1",
+      "Z2"
+    ],
+    "coverage": "insufficient"
+  }
+}

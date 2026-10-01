@@ -1,0 +1,32 @@
+{
+  "id": "incheon-grade-low",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:49.815809+00:00",
+  "request_sha256": "c20d6304006ddf6767f4e03e5305b9530bbbb0f59a389be879388a446ace0cd4",
+  "input_sha256": "be4c13cab19843d99aaccec174a92a5589d5ecbbcdd54e074cd3ac41d5046b0a",
+  "elapsed_seconds": 0.319,
+  "private_response_sha256": "6159904b232af7ac6b6692b000f50208f497814351ffe51c5d1aeba628555713",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 196,
+    "prompt_eval_duration": 109327000,
+    "eval_count": 15,
+    "eval_duration": 201409000,
+    "load_duration": 3029568,
+    "total_duration": 316696925
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "I03"
+    ]
+  }
+}

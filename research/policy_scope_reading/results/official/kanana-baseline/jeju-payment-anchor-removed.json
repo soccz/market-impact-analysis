@@ -1,0 +1,32 @@
+{
+  "id": "jeju-payment-anchor-removed",
+  "method": "baseline",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:33.209680+00:00",
+  "request_sha256": "e0e15b6102ff86d29d7a011e64b9d6b999b2e8941e16712dc8b85d2f0038d50c",
+  "input_sha256": "429e3be890e1fd98f319368829b16ac13be5b80b5f6dc0f279319783bf39b75a",
+  "elapsed_seconds": 0.291,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 275,
+    "prompt_eval_duration": 54505000,
+    "eval_count": 15,
+    "eval_duration": 177729000,
+    "load_duration": 708414,
+    "total_duration": 289213245
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dev-recipient-2",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:30:23.991018+00:00",
+  "request_sha256": "ccf8a636694ed03bfeced53ba197f03e22e063c9616e57401578c7367b6e563d",
+  "input_sha256": "e1925caa48d28d211b0b8dbc95874855aa573aa4bf5eb11b63ebcb891da125a1",
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ]
+  },
+  "response": {
+    "model": "policy-kanana15-public:q4km-f7ae0cc1",
+    "created_at": "2026-10-01T08:30:23.990446557Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"supported\",\"evidence\":[\"S1\",\"S2\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 247997077,
+    "load_duration": 940646,
+    "prompt_eval_count": 226,
+    "prompt_eval_duration": 47757000,
+    "eval_count": 15,
+    "eval_duration": 174838000
+  },
+  "elapsed_seconds": 0.249
+}

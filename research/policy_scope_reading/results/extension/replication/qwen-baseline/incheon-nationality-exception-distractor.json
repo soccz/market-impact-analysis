@@ -1,0 +1,33 @@
+{
+  "id": "incheon-nationality-exception-distractor",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:59.869728+00:00",
+  "request_sha256": "4100c3cb75bdf877c4f301ef1f9124075817f4dbcbf1c87771cb11711331d415",
+  "input_sha256": "ac984f58de87bb87d36c94114de2c80a6479d5b4134db2872b24c858d1104d28",
+  "elapsed_seconds": 0.46,
+  "private_response_sha256": "9be716fc172b503b81ebc267f6f81e656af21843b86ece819e15c03dc9c03104",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 271,
+    "prompt_eval_duration": 142679000,
+    "eval_count": 18,
+    "eval_duration": 243778000,
+    "load_duration": 1291032,
+    "total_duration": 458810949
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "Z1",
+      "I04"
+    ]
+  }
+}

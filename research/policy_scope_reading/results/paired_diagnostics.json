@@ -1,0 +1,65 @@
+{
+  "consensus-baseline": {
+    "base_and_distractor_correct": 2,
+    "distractor_decision_stable": 8,
+    "pairs": 18,
+    "removed_abstains": 1,
+    "removed_returns_semantic_unknown": 17
+  },
+  "consensus-scoped": {
+    "base_and_distractor_correct": 3,
+    "distractor_decision_stable": 8,
+    "pairs": 18,
+    "removed_abstains": 8,
+    "removed_returns_semantic_unknown": 10
+  },
+  "consensus-scoped-guard": {
+    "base_and_distractor_correct": 3,
+    "distractor_decision_stable": 10,
+    "pairs": 18,
+    "removed_abstains": 9,
+    "removed_returns_semantic_unknown": 9
+  },
+  "kanana-baseline": {
+    "base_and_distractor_correct": 5,
+    "distractor_decision_stable": 9,
+    "pairs": 18,
+    "removed_abstains": 0,
+    "removed_returns_semantic_unknown": 18
+  },
+  "kanana-scoped": {
+    "base_and_distractor_correct": 7,
+    "distractor_decision_stable": 12,
+    "pairs": 18,
+    "removed_abstains": 0,
+    "removed_returns_semantic_unknown": 18
+  },
+  "kanana-scoped-guard": {
+    "base_and_distractor_correct": 4,
+    "distractor_decision_stable": 10,
+    "pairs": 18,
+    "removed_abstains": 3,
+    "removed_returns_semantic_unknown": 15
+  },
+  "qwen-baseline": {
+    "base_and_distractor_correct": 3,
+    "distractor_decision_stable": 5,
+    "pairs": 18,
+    "removed_abstains": 0,
+    "removed_returns_semantic_unknown": 17
+  },
+  "qwen-scoped": {
+    "base_and_distractor_correct": 9,
+    "distractor_decision_stable": 10,
+    "pairs": 18,
+    "removed_abstains": 0,
+    "removed_returns_semantic_unknown": 10
+  },
+  "qwen-scoped-guard": {
+    "base_and_distractor_correct": 6,
+    "distractor_decision_stable": 8,
+    "pairs": 18,
+    "removed_abstains": 0,
+    "removed_returns_semantic_unknown": 10
+  }
+}

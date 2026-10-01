@@ -1,0 +1,39 @@
+{
+  "id": "dev-amount_role-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:05.754209+00:00",
+  "request_sha256": "08d8e10786d5c50ea4943ef7aea7831aa42c3ef6248064ca2a90e6dd9a223f33",
+  "input_sha256": "daf0cd89730ef679a392a1c3b2e42de96d59552cbcff8b86fe10f107a53b3999",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:55:05.753655787Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"신청자 1인당 최대 30만원\",\n  \"rule\": \"30만원 < 5억원, 상한 조건 불일치\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1282232655,
+    "load_duration": 895009,
+    "prompt_eval_count": 594,
+    "prompt_eval_duration": 249902000,
+    "eval_count": 73,
+    "eval_duration": 1026768000
+  },
+  "parsed": {
+    "binding": "신청자 1인당 최대 30만원",
+    "rule": "30만원 < 5억원, 상한 조건 불일치",
+    "certainty": "definite",
+    "evidence": [
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.283
+}

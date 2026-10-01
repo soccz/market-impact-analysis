@@ -1,0 +1,34 @@
+{
+  "id": "jeju-duplicate-program",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:07.150760+00:00",
+  "request_sha256": "5d9e206ba7bfe3263a55c35ed156fe074c515ac02019253b7f3fc1c8dc92e10a",
+  "input_sha256": "b2983a3199d27215bfe8f57f89fcbd5d14cf1aa21c33041a60d8491cf3f8840e",
+  "elapsed_seconds": 0.555,
+  "private_response_sha256": "dbc9240ae5d727baff83a0e0a48aab329dc6fa78b474aba62c44e251e34601cb",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 604,
+    "prompt_eval_duration": 57261000,
+    "eval_count": 34,
+    "eval_duration": 450437000,
+    "load_duration": 879332,
+    "total_duration": 553024822
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "O044",
+      "O045"
+    ],
+    "coverage": "insufficient"
+  }
+}

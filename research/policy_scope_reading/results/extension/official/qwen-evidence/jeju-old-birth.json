@@ -1,0 +1,34 @@
+{
+  "id": "jeju-old-birth",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:08.372022+00:00",
+  "request_sha256": "025e100f008fcb412ecce7ecc531868659eea2a26bf76f2b207e6ccdd151b780",
+  "input_sha256": "e0ce60441113ae910a157bf9db4202170b697c019fffb0155c37b111c0708302",
+  "elapsed_seconds": 0.907,
+  "private_response_sha256": "5ba380b6928273136b2d3f83af5569eeb2f67638f973c82f09a9294dfe9fb2bd",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 549,
+    "prompt_eval_duration": 245928000,
+    "eval_count": 47,
+    "eval_duration": 653839000,
+    "load_duration": 1283615,
+    "total_duration": 905998845
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O015",
+      "O041"
+    ],
+    "coverage": "sufficient"
+  }
+}

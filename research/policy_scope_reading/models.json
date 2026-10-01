@@ -1,0 +1,110 @@
+{
+  "created_utc": "2026-10-01T08:26:18.189416+00:00",
+  "server_version": "0.33.2",
+  "models": {
+    "kanana": {
+      "name": "ra-kanana15-8b:q4_k_m-20260927",
+      "manifest_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+      "weight_sha256": "c751381b2c9142b264e5ef421615255df25464c7cb9b6351a7bd54a4eb59b602",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "embedded_system_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "template_sha256": "42745fb34df3e367eb6ba9e11e18475bef40f4f51270484a5cab7a42db6e6ebc",
+      "inherited_parameters": "stop                           \"<|eot_id|>\"\nstop                           \"<|end_of_text|>\"\nstop                           \"<|eom_id|>\"\ntemperature                    0.6\nnum_ctx                        8192\nrepeat_penalty                 1",
+      "capabilities": [
+        "tools",
+        "completion"
+      ],
+      "provenance": "Local artifact. Tensor bytes differ from the public distribution below; no claim of unchanged upstream weights or of training history."
+    },
+    "kanana-public": {
+      "name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "manifest_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "weight_sha256": "f7ae0cc1de2396647dce4a82fb4943136bcc785339ee8944c6818184c983d287",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "embedded_system_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "template_sha256": "42745fb34df3e367eb6ba9e11e18475bef40f4f51270484a5cab7a42db6e6ebc",
+      "inherited_parameters": "stop                           \"<|eot_id|>\"\nstop                           \"<|end_of_text|>\"\nstop                           \"<|eom_id|>\"",
+      "capabilities": [
+        "tools",
+        "completion"
+      ],
+      "provenance": "Previously cached third-party Q4_K_M GGUF; complete file SHA-256 matches the Hugging Face LFS object. Not the original full-precision release.",
+      "distribution_url": "https://huggingface.co/DevQuasar/kakaocorp.kanana-1.5-8b-instruct-2505-GGUF/blob/5db65fec2ae541132103e1734daee0a7ad34a799/kakaocorp.kanana-1.5-8b-instruct-2505.Q4_K_M.gguf",
+      "base_model_url": "https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505",
+      "runtime_setup_note": "First inference failed native-output parsing; add same stop tokens as installed artifact before any scored canonical response.",
+      "initial_unscored_manifest_digest": "9edef4770853c25a1ce32c6f7c9c6674c050ae2d980b2ca871c657395e59963f"
+    },
+    "qwen": {
+      "name": "qwen3.5:9b",
+      "manifest_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "weight_sha256": "dec52a44569a2a25341c4e4d3fee25846eed4f6f0b936278e3a3c900bb99d37c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.7B",
+        "quantization_level": "Q4_K_M"
+      },
+      "embedded_system_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "template_sha256": "b507b9c2f6ca642bffcd06665ea7c91f235fd32daeefdf875a0f938db05fb315",
+      "inherited_parameters": "presence_penalty               1.5\ntemperature                    1\ntop_k                          20\ntop_p                          0.95",
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "provenance": "Installed Ollama model layer digest matches the official registry qwen3.5:9b manifest retrieved on 2026-10-01; text-only; initial-stage thinking disabled, later mode requests recorded separately.",
+      "distribution_url": "https://registry.ollama.ai/v2/library/qwen3.5/manifests/9b",
+      "base_model_url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "full_file_verification": {
+        "verified_utc": "2026-10-01T09:01:05.405609+00:00",
+        "sha256": "dec52a44569a2a25341c4e4d3fee25846eed4f6f0b936278e3a3c900bb99d37c",
+        "bytes": 6594462816,
+        "full_file_matches_registry_layer": true
+      }
+    }
+  },
+  "kanana_tensor_payloads_equal": false,
+  "kanana_tensor_catalogs_equal": true,
+  "kanana_native_templates_equal": true,
+  "comparison_scope": "Model artifact comparisons, not a causal isolation of only weights: embedded defaults differ and quantizer lineage is not full training provenance.",
+  "new_training_runs": 0,
+  "kanana_tensor_prefix_audit": {
+    "checked_tensor_prefixes": 291,
+    "bytes_per_tensor": 512,
+    "changed_prefixes": 1,
+    "first_difference": {
+      "tensor": "blk.19.ffn_up.weight",
+      "type": 12,
+      "shape": [
+        4096,
+        14336
+      ],
+      "local_prefix_sha256": "0bc2822926e8cb6629b5c8bb9231309e88af462acf32095df6ef9e0912ebd14b",
+      "public_prefix_sha256": "eab37679b3d973fc902e396c229c173b1664054d1064b8aa0b434a15f20d8cdf"
+    },
+    "note": "Packed tensor prefixes only, excluding metadata and inter-tensor padding. Confirms byte difference, not its training cause or numerical effect."
+  }
+}

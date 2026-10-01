@@ -1,0 +1,32 @@
+{
+  "id": "jeju-old-application-elapsed-removed",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:28.675160+00:00",
+  "request_sha256": "0d58b40790a21e2d323a821bcd2f34a916fc44cef538cfc1398165a36ab6d43f",
+  "input_sha256": "02b77259998456156312133559f37cfb1cb1e00d84b05c7fe5a6529ce1803c00",
+  "elapsed_seconds": 0.429,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 273,
+    "prompt_eval_duration": 145538000,
+    "eval_count": 15,
+    "eval_duration": 203580000,
+    "load_duration": 739389,
+    "total_duration": 427393793
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

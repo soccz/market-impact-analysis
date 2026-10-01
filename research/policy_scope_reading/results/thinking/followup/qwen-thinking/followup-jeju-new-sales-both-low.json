@@ -1,0 +1,30 @@
+{
+  "id": "followup-jeju-new-sales-both-low",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:50:53.297622+00:00",
+  "request_sha256": "c4d071c14ef5e959acd8fb81b47e09fcd4bb874cde9cb0c1a0d3b5e8bf65dc59",
+  "input_sha256": "558286eac7305b5da0b5511e8d05c8714855fb30ac4c0d553f49ad6f401fa90e",
+  "elapsed_seconds": 29.526,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 245,
+    "prompt_eval_duration": 53401000,
+    "eval_count": 2048,
+    "eval_duration": 29337563000,
+    "load_duration": 956588,
+    "total_duration": 29523932580
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "d6f76e07e8eab7a68dd5cf063bfc2e2ea028153f40c0c8254be49ac028dae5c8",
+  "thinking_trace_present": true,
+  "thinking_characters": 6810
+}

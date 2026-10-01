@@ -1,0 +1,39 @@
+{
+  "id": "dev-alternative-1",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:32.393518+00:00",
+  "request_sha256": "06ac375ad7df7817cb2bfc5912ef51d68100872fbae26feb0395185ae48a0dba",
+  "input_sha256": "daaa89a31e3a240a57b75ad2146143ae58e631f58e902c837b8aba081b23d681",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:32.392975095Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"전년도 매출 900만원, 최근 3개월 평균 월 110만원 기준\",\n  \"certainty\": \"possible\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"900 < 1,200 및 110 < 100, '또는' 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1079198538,
+    "load_duration": 801432,
+    "prompt_eval_count": 670,
+    "prompt_eval_duration": 33000999,
+    "eval_count": 78,
+    "eval_duration": 1014336000
+  },
+  "parsed": {
+    "binding": "전년도 매출 900만원, 최근 3개월 평균 월 110만원 기준",
+    "certainty": "possible",
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "900 < 1,200 및 110 < 100, '또는' 조건 충족"
+  },
+  "elapsed_seconds": 1.081
+}

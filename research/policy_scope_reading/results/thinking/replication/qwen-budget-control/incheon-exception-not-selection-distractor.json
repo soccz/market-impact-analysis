@@ -1,0 +1,35 @@
+{
+  "id": "incheon-exception-not-selection-distractor",
+  "method": "budget-control",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:32:34.949835+00:00",
+  "request_sha256": "50dfaef74e1beef33a341205316c3a009f47adf692cde0885ff7d03ce17fdc2f",
+  "input_sha256": "5af23f9b3855566fc895e6dd09ddb0b125be0fdbfa3fb0a16b44edfcfb9384b8",
+  "elapsed_seconds": 0.466,
+  "private_response_sha256": "df7b96c916d5a30cb07d609f9d43412e5d408764c2e091524fa9b29a07783da0",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 395,
+    "prompt_eval_duration": 191963000,
+    "eval_count": 15,
+    "eval_duration": 201390000,
+    "load_duration": 766308,
+    "total_duration": 464483488
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "[I06]"
+    ]
+  },
+  "thinking_trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "thinking_trace_present": false,
+  "thinking_characters": 0
+}

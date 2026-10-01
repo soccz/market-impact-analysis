@@ -1,0 +1,34 @@
+{
+  "followup/qwen-budget-control": {
+    "median_elapsed_seconds": 0.46399999999999997,
+    "median_reported_eval_count": 18.0,
+    "n": 12,
+    "sum_reported_eval_count": 221,
+    "truncated": 0,
+    "with_thinking_field": 0
+  },
+  "followup/qwen-thinking": {
+    "median_elapsed_seconds": 29.598,
+    "median_reported_eval_count": 2048.0,
+    "n": 12,
+    "sum_reported_eval_count": 22541,
+    "truncated": 11,
+    "with_thinking_field": 12
+  },
+  "replication/qwen-budget-control": {
+    "median_elapsed_seconds": 0.4195,
+    "median_reported_eval_count": 15.0,
+    "n": 36,
+    "sum_reported_eval_count": 628,
+    "truncated": 0,
+    "with_thinking_field": 0
+  },
+  "replication/qwen-thinking": {
+    "median_elapsed_seconds": 29.5475,
+    "median_reported_eval_count": 2048.0,
+    "n": 36,
+    "sum_reported_eval_count": 63561,
+    "truncated": 31,
+    "with_thinking_field": 36
+  }
+}

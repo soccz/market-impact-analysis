@@ -1,0 +1,34 @@
+{
+  "id": "incheon-shortlist-final",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:42.630279+00:00",
+  "request_sha256": "a21cca3999b6a858edc588b2a42aef9dbcc9a1a0e8d369e2562d8892f1c238a9",
+  "input_sha256": "d335887d477f602944d3aef9770cfdbc6278e193b7e4e35d1b603735f9ec7f5e",
+  "elapsed_seconds": 0.54,
+  "private_response_sha256": "4d366b501b331a135c71b0bad3207f38423e0898361b01ea9595803d6a8df8c6",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 620,
+    "prompt_eval_duration": 63830000,
+    "eval_count": 34,
+    "eval_duration": 446642000,
+    "load_duration": 765909,
+    "total_duration": 538087888
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "I09",
+      "I10"
+    ],
+    "coverage": "insufficient"
+  }
+}

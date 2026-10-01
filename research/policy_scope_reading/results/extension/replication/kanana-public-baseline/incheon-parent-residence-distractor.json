@@ -1,0 +1,32 @@
+{
+  "id": "incheon-parent-residence-distractor",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:29.014458+00:00",
+  "request_sha256": "38b1dcaf9346521efd069e462a888fcc7298b7778f49aba30734370e2e8fc895",
+  "input_sha256": "ac3c73d227c57ecd81784d578df963336c08979d8d0d89221ca4797363440d04",
+  "elapsed_seconds": 0.294,
+  "private_response_sha256": "8d793b18232520f46b3aaaa3b2e9390efd6e4cbcc27d714b1204803edf75f275",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 360,
+    "prompt_eval_duration": 100724000,
+    "eval_count": 12,
+    "eval_duration": 139228000,
+    "load_duration": 997073,
+    "total_duration": 292609500
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I05"
+    ]
+  }
+}

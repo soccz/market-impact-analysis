@@ -1,0 +1,39 @@
+{
+  "id": "dev-quoted_old-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:09.680878+00:00",
+  "request_sha256": "d1725e089eb5629ee3015f5f2bd3748dfa6c8863f6a49cdaca592adfb320d7b1",
+  "input_sha256": "e8d35ba6001829c528dd272a3e0ba39ae3b5e5bed079ce484138c4328d7bcb90",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:55:09.680252528Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"이번 모집의 연령 상한은 만 39세이다.\",\n  \"rule\": \"39 세 ≤ 34 세 조건 불충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1279260614,
+    "load_duration": 1028532,
+    "prompt_eval_count": 589,
+    "prompt_eval_duration": 249933000,
+    "eval_count": 73,
+    "eval_duration": 1023963000
+  },
+  "parsed": {
+    "binding": "이번 모집의 연령 상한은 만 39세이다.",
+    "rule": "39 세 ≤ 34 세 조건 불충족",
+    "certainty": "definite",
+    "evidence": [
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.281
+}

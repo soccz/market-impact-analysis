@@ -1,0 +1,35 @@
+{
+  "id": "jeju-old-sales-distractor",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:30:35.345810+00:00",
+  "request_sha256": "d6d8f0a22d66ca9ceaa79ff540bbf4c42bd9f3aca06d190f9b30b61c352f16ad",
+  "input_sha256": "9ac12638c408257aa850a81a4c2f2dd045710c3d1af37b95d50293eeed9c82c6",
+  "elapsed_seconds": 0.424,
+  "private_response_sha256": "b0c1f315c5f4fb1928efbf8ace474d34c5efd2666b5ff9d85b1e405f7f66d5e7",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 322,
+    "prompt_eval_duration": 86986000,
+    "eval_count": 24,
+    "eval_duration": 287985000,
+    "load_duration": 934124,
+    "total_duration": 422359007
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X1",
+      "X2",
+      "O020",
+      "O021"
+    ]
+  }
+}

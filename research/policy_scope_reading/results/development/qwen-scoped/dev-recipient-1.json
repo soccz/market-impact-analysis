@@ -1,0 +1,39 @@
+{
+  "id": "dev-recipient-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:40.722215+00:00",
+  "request_sha256": "69a0c23d8fbddebe1a5eedfbed94faf6c9220c6ee0191588b807dbc604d77d2a",
+  "input_sha256": "be00611ee9e0c70d718625a9641e13b77df7b93b50c8d9f5dda93abc30ac7380",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:40.721706395Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"2024 년 수혜자\",\n  \"rule\": \"140 > 120, 이하 조건 불충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S2\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1403431735,
+    "load_duration": 734442,
+    "prompt_eval_count": 613,
+    "prompt_eval_duration": 295484000,
+    "eval_count": 70,
+    "eval_duration": 1034806000
+  },
+  "parsed": {
+    "binding": "2024 년 수혜자",
+    "rule": "140 > 120, 이하 조건 불충족",
+    "certainty": "definite",
+    "evidence": [
+      "S2"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.405
+}

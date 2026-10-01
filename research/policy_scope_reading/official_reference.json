@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "jeju-old-sales",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt",
+    "claim": "최초 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O020"
+      ]
+    },
+    "source_locators": {
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      }
+    },
+    "input_sha256": "9325cc220e2a182864e1c5989d01152cc380c22b115fbe98ea27cc32370f5f48",
+    "sentence_ids": [
+      "O020",
+      "O021"
+    ],
+    "sentence_hashes": {
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+    }
+  },
+  {
+    "id": "jeju-new-sales",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "input_sha256": "6ac12730cae60be58527ef8c9344fc5e5940afda86bcc57006676ff3941a440c",
+    "sentence_ids": [
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-new-sales-both-low",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 90만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "input_sha256": "d1536c475d765b2109944f5ec2c7fba69dcf2bb870ad4e789ef9b5c08f55a165",
+    "sentence_ids": [
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-new-sales-annual",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 1300만원, 최근 3개월 평균 월 매출 80만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "input_sha256": "ac55d5a0b714b12e746956b7ef8a336a08a87d0883c7fe3c3e737694c3505ce9",
+    "sentence_ids": [
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-grandfather-old",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "official_excerpt",
+    "claim": "9월 10일에 최초 공고에 따라 이미 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N004",
+        "N006",
+        "O020"
+      ]
+    },
+    "source_locators": {
+      "N004": {
+        "document": "jeju_after",
+        "paragraph": "P004",
+        "sha256": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f"
+      },
+      "N006": {
+        "document": "jeju_after",
+        "paragraph": "P006",
+        "sha256": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c"
+      },
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      },
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      }
+    },
+    "input_sha256": "d6b446b93672ddceac8cdd9d2d96e0fe6df547911888c2f6f81658a70ff2c681",
+    "sentence_ids": [
+      "N004",
+      "N006",
+      "O020",
+      "O021",
+      "N025"
+    ],
+    "sentence_hashes": {
+      "N004": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f",
+      "N006": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+    }
+  },
+  {
+    "id": "jeju-grandfather-new",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "official_excerpt",
+    "claim": "9월 20일에 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N004",
+        "N006",
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N004": {
+        "document": "jeju_after",
+        "paragraph": "P004",
+        "sha256": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f"
+      },
+      "N006": {
+        "document": "jeju_after",
+        "paragraph": "P006",
+        "sha256": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c"
+      },
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      },
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      }
+    },
+    "input_sha256": "4a4aaab9841e5882e0a758a818c2721d5ad456043dbbcf5db04eea040ed59e4d",
+    "sentence_ids": [
+      "N004",
+      "N006",
+      "O020",
+      "O021",
+      "N025"
+    ],
+    "sentence_hashes": {
+      "N004": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f",
+      "N006": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+    }
+  },
+  {
+    "id": "jeju-old-birth",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "실제 접수 가능 여부가 아니라 최초 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O015"
+      ]
+    },
+    "source_locators": {
+      "O015": {
+        "document": "jeju_before",
+        "paragraph": "P015",
+        "sha256": "f4aa9a9c3e07f793ed019ee9298e11d76ac01f43b43804b6d77e5f486769e709"
+      },
+      "O041": {
+        "document": "jeju_before",
+        "paragraph": "P041",
+        "sha256": "8b558d924ac4c79d3b2b1ca2e19d1eaf3c0d346b16b05b68710b7e733b169844"
+      }
+    },
+    "input_sha256": "e0ce60441113ae910a157bf9db4202170b697c019fffb0155c37b111c0708302",
+    "sentence_ids": [
+      "O015",
+      "O041"
+    ],
+    "sentence_hashes": {
+      "O015": "f4aa9a9c3e07f793ed019ee9298e11d76ac01f43b43804b6d77e5f486769e709",
+      "O041": "8b558d924ac4c79d3b2b1ca2e19d1eaf3c0d346b16b05b68710b7e733b169844"
+    }
+  },
+  {
+    "id": "jeju-new-birth",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "실제 접수 가능 여부가 아니라 수정 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N023"
+      ]
+    },
+    "source_locators": {
+      "N023": {
+        "document": "jeju_after",
+        "paragraph": "P023",
+        "sha256": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7"
+      },
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      }
+    },
+    "input_sha256": "75c29ee116f23c9f9ed4ff57a9df7dce65f4df07111c38952c4f588d0c16b424",
+    "sentence_ids": [
+      "N023",
+      "N010"
+    ],
+    "sentence_hashes": {
+      "N023": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7",
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+    }
+  },
+  {
+    "id": "jeju-new-application",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "출산일 범위가 아니라 수정 공고에 인쇄된 접수기간만 묻는다. 2025년 11월 29일은 그 명시 접수기간 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N010"
+      ]
+    },
+    "source_locators": {
+      "N023": {
+        "document": "jeju_after",
+        "paragraph": "P023",
+        "sha256": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7"
+      },
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      }
+    },
+    "input_sha256": "74315be401bd09bc2f64ea40a2df486f440e075ac20a85038837f1f42ba4e8d0",
+    "sentence_ids": [
+      "N023",
+      "N010"
+    ],
+    "sentence_hashes": {
+      "N023": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7",
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+    }
+  },
+  {
+    "id": "jeju-possible-deadline",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "official_excerpt",
+    "claim": "예산 소진에 따른 변경 가능성까지 고려하더라도 접수 종료일은 반드시 11월 28일로 유지된다고 확정할 수 있다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "N011"
+      ]
+    },
+    "source_locators": {
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      },
+      "N011": {
+        "document": "jeju_after",
+        "paragraph": "P011",
+        "sha256": "a2716a3db2e1ac4b632a5b29da56cb098ec2e4496ff3a1f507485b62a111944b"
+      }
+    },
+    "input_sha256": "3cdcc401361446dd3baf86f1c50fc6d43ac8902b4d9e3fc360ea7eedb029c771",
+    "sentence_ids": [
+      "N010",
+      "N011"
+    ],
+    "sentence_hashes": {
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38",
+      "N011": "a2716a3db2e1ac4b632a5b29da56cb098ec2e4496ff3a1f507485b62a111944b"
+    }
+  },
+  {
+    "id": "jeju-local-cap",
+    "split": "official",
+    "family": "amount_role",
+    "source_kind": "official_excerpt",
+    "claim": "국비 출산급여와 구분한 이 제주 추가지원의 총 상한은 240만원이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N015",
+        "N016"
+      ]
+    },
+    "source_locators": {
+      "N015": {
+        "document": "jeju_after",
+        "paragraph": "P015",
+        "sha256": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f"
+      },
+      "N016": {
+        "document": "jeju_after",
+        "paragraph": "P016",
+        "sha256": "cb6ad891ed53e4e775b2c7077f371d32182d5cbb1838716aa1753a6e28eb0aeb"
+      }
+    },
+    "input_sha256": "ec52aed81b4c73dd2dfa191cef02bee81019f89ce4c6b6fd8f064ee504e50656",
+    "sentence_ids": [
+      "N015",
+      "N016"
+    ],
+    "sentence_hashes": {
+      "N015": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f",
+      "N016": "cb6ad891ed53e4e775b2c7077f371d32182d5cbb1838716aa1753a6e28eb0aeb"
+    }
+  },
+  {
+    "id": "jeju-actual-payout",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "official_excerpt",
+    "claim": "가상 신청자의 지원대상 확정·지급 결정 정보는 제시되지 않았다. 이 사람의 실제 지급액은 정확히 90만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "N015",
+        "N031",
+        "N032"
+      ]
+    },
+    "source_locators": {
+      "N015": {
+        "document": "jeju_after",
+        "paragraph": "P015",
+        "sha256": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f"
+      },
+      "N031": {
+        "document": "jeju_after",
+        "paragraph": "P031",
+        "sha256": "2811da6b4963d9c97074570e77fc7dbcebacedf53e2e8b6b8e74f784e005811c"
+      },
+      "N032": {
+        "document": "jeju_after",
+        "paragraph": "P032",
+        "sha256": "7638c1c083f0eacc4265b248b76df8582ca0c9658330130541d49f156292fa2a"
+      }
+    },
+    "input_sha256": "d019fb6a958d58307df5b657813ba57b1bb557ddd0cd8ee6124ba049f754d58e",
+    "sentence_ids": [
+      "N015",
+      "N031",
+      "N032"
+    ],
+    "sentence_hashes": {
+      "N015": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f",
+      "N031": "2811da6b4963d9c97074570e77fc7dbcebacedf53e2e8b6b8e74f784e005811c",
+      "N032": "7638c1c083f0eacc4265b248b76df8582ca0c9658330130541d49f156292fa2a"
+    }
+  },
+  {
+    "id": "jeju-payment-anchor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "이 두 지급 문구는 모두 신청일을 기준으로 출산 후 경과 기간을 계산한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N028",
+        "N046"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "input_sha256": "dccbb3ec80c133f4c642206f33a279d2d50199ac5d1448c8aa54d6b8a628f459",
+    "sentence_ids": [
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-new-application-elapsed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "유의사항에 적힌 신청 시점의 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N046"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "input_sha256": "1b5d08049027df088b2d94b0dde991aaa6ce23057d3f7e900754047a93af99db",
+    "sentence_ids": [
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-old-application-elapsed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "최초 공고 유의사항의 신청 시점 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O040"
+      ]
+    },
+    "source_locators": {
+      "O040": {
+        "document": "jeju_before",
+        "paragraph": "P040",
+        "sha256": "58be61ea7ac23cda2044ee00596b5c4a368ad8dd8ef41039a88243e0c0cfdba7"
+      }
+    },
+    "input_sha256": "41b9c333c06aa2f2d06dc8f1e23d93cb1189f63b382bf32650960591c73f297f",
+    "sentence_ids": [
+      "O040"
+    ],
+    "sentence_hashes": {
+      "O040": "58be61ea7ac23cda2044ee00596b5c4a368ad8dd8ef41039a88243e0c0cfdba7"
+    }
+  },
+  {
+    "id": "jeju-new-payment-elapsed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt",
+    "claim": "지급방식에 적힌 지급일 기준만 묻는다. 지급일에 출산 후 3.5개월이 지난 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N028"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "input_sha256": "0e99151d13e0af3658410b8df70d0ca1687fc9e6471e72fae53c28e98f422455",
+    "sentence_ids": [
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-old-short-business",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt",
+    "claim": "최초 공고의 매출 기준만 묻는다. 사업 운영 기간이 8개월이고 월 매출 110만원을 증빙한 가상 신청자는 6~11개월 사업자의 명시 월 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "O021"
+      ]
+    },
+    "source_locators": {
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      }
+    },
+    "input_sha256": "ad9c3bf43a739e3f6d2f1a195191da2b5b2180ca7baf9d0454e572330643f58b",
+    "sentence_ids": [
+      "O020",
+      "O021"
+    ],
+    "sentence_hashes": {
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+    }
+  },
+  {
+    "id": "jeju-duplicate-program",
+    "split": "official",
+    "family": "other_program",
+    "source_kind": "official_excerpt",
+    "claim": "국비 고용보험 미적용자 출산급여 수급자는 제주 1인 소상공인 출산급여 지원 사업과 중복신청할 수 없다고 이 근거는 명시한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O044",
+        "O045"
+      ]
+    },
+    "source_locators": {
+      "O044": {
+        "document": "jeju_before",
+        "paragraph": "P044",
+        "sha256": "5780eff17085af190ce6bf1ef0500a01e4c8963ab23bb6039fc6a566a958b31a"
+      },
+      "O045": {
+        "document": "jeju_before",
+        "paragraph": "P045",
+        "sha256": "55d94ff3c0da3727cf068c0e9cf71479e3bf5bed10da0b56c2527f5e6b00a6fc"
+      }
+    },
+    "input_sha256": "b2983a3199d27215bfe8f57f89fcbd5d14cf1aa21c33041a60d8491cf3f8840e",
+    "sentence_ids": [
+      "O044",
+      "O045"
+    ],
+    "sentence_hashes": {
+      "O044": "5780eff17085af190ce6bf1ef0500a01e4c8963ab23bb6039fc6a566a958b31a",
+      "O045": "55d94ff3c0da3727cf068c0e9cf71479e3bf5bed10da0b56c2527f5e6b00a6fc"
+    }
+  },
+  {
+    "id": "jeju-old-sales-distractor",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "최초 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O020"
+      ]
+    },
+    "source_locators": {
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-old-sales",
+    "input_sha256": "9ac12638c408257aa850a81a4c2f2dd045710c3d1af37b95d50293eeed9c82c6",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "O020",
+      "O021"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+    }
+  },
+  {
+    "id": "jeju-old-sales-removed",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "source_withheld_control",
+    "claim": "최초 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-old-sales",
+    "input_sha256": "42f9eb6ee3f3088ae66ff62bcad18569ec7bd1714afe1a3f121e1ce52f8f8da0",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-sales-distractor",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-sales",
+    "input_sha256": "5eaf42168cd8a5c5ee7726cf5b1f9031c6b40f4b088d1ea2e6f598b9b4da8c41",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-new-sales-removed",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "source_withheld_control",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 110만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-sales",
+    "input_sha256": "7d6e13b7afbc7b41be2d466ddc6029de8f1cffbbd6a4ea45ae291bc4e7c07892",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-sales-both-low-distractor",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 90만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-sales-both-low",
+    "input_sha256": "638e576772f6427cbf394d8b9171643d220f72d1ef90382aa94b7731ba664b41",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-new-sales-both-low-removed",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "source_withheld_control",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 900만원, 최근 3개월 평균 월 매출 90만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-sales-both-low",
+    "input_sha256": "f46bc94616b13008fcbb9baaa87277abaaa52be313e8dbe5816a55821ac1c7d0",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-sales-annual-distractor",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 1300만원, 최근 3개월 평균 월 매출 80만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      },
+      "N026": {
+        "document": "jeju_after",
+        "paragraph": "P026",
+        "sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-sales-annual",
+    "input_sha256": "5a5df660c77b25ac67e42ef3e0a801eb5fa91f5423dcb7b343e8aa4cceb9e0ad",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N025",
+      "N026"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb",
+      "N026": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+    }
+  },
+  {
+    "id": "jeju-new-sales-annual-removed",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "source_withheld_control",
+    "claim": "수정 공고의 매출 기준만 묻는다. 2년간 운영했고 전년도 매출 1300만원, 최근 3개월 평균 월 매출 80만원인 가상 신청자는 그 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-sales-annual",
+    "input_sha256": "1a0643816aed3aaacef4cff8d1354c412651a5710710e5231b777025d44487ac",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-grandfather-old-distractor",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "9월 10일에 최초 공고에 따라 이미 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N004",
+        "N006",
+        "O020"
+      ]
+    },
+    "source_locators": {
+      "N004": {
+        "document": "jeju_after",
+        "paragraph": "P004",
+        "sha256": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f"
+      },
+      "N006": {
+        "document": "jeju_after",
+        "paragraph": "P006",
+        "sha256": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c"
+      },
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      },
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-grandfather-old",
+    "input_sha256": "6ae4f1d850fd5795741d8cff0329b4fd9afee6c55ad7d11041c0db77c7fb1b2a",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N004",
+      "N006",
+      "O020",
+      "O021",
+      "N025"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N004": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f",
+      "N006": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+    }
+  },
+  {
+    "id": "jeju-grandfather-old-removed",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "source_withheld_control",
+    "claim": "9월 10일에 최초 공고에 따라 이미 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-grandfather-old",
+    "input_sha256": "988db1e221cd371e41fc889fe6815bdc4ed289b2d3e5a52f66cad0421833e01c",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-grandfather-new-distractor",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "9월 20일에 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N004",
+        "N006",
+        "N025"
+      ]
+    },
+    "source_locators": {
+      "N004": {
+        "document": "jeju_after",
+        "paragraph": "P004",
+        "sha256": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f"
+      },
+      "N006": {
+        "document": "jeju_after",
+        "paragraph": "P006",
+        "sha256": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c"
+      },
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      },
+      "N025": {
+        "document": "jeju_after",
+        "paragraph": "P025",
+        "sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-grandfather-new",
+    "input_sha256": "39149ffed7aebf333590037733c28014baf5dff4353e39887c01f0950bae5082",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N004",
+      "N006",
+      "O020",
+      "O021",
+      "N025"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N004": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f",
+      "N006": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95",
+      "N025": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+    }
+  },
+  {
+    "id": "jeju-grandfather-new-removed",
+    "split": "official",
+    "family": "version_applicability",
+    "source_kind": "source_withheld_control",
+    "claim": "9월 20일에 신청했다. 사업 운영 2년, 전년도 매출 900만원, 최근 3개월 평균 월 110만원인 가상 신청자는 적용되는 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-grandfather-new",
+    "input_sha256": "a3083fe7f9c03624c0b513778bd596e404e1624d248aa6c4ea80045be7b6a839",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-old-birth-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "실제 접수 가능 여부가 아니라 최초 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O015"
+      ]
+    },
+    "source_locators": {
+      "O015": {
+        "document": "jeju_before",
+        "paragraph": "P015",
+        "sha256": "f4aa9a9c3e07f793ed019ee9298e11d76ac01f43b43804b6d77e5f486769e709"
+      },
+      "O041": {
+        "document": "jeju_before",
+        "paragraph": "P041",
+        "sha256": "8b558d924ac4c79d3b2b1ca2e19d1eaf3c0d346b16b05b68710b7e733b169844"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-old-birth",
+    "input_sha256": "f6779e309e7d706f8d9e09894689de304472b83c577d4ef613d18a8d12a3cd70",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "O015",
+      "O041"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "O015": "f4aa9a9c3e07f793ed019ee9298e11d76ac01f43b43804b6d77e5f486769e709",
+      "O041": "8b558d924ac4c79d3b2b1ca2e19d1eaf3c0d346b16b05b68710b7e733b169844"
+    }
+  },
+  {
+    "id": "jeju-old-birth-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "실제 접수 가능 여부가 아니라 최초 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-old-birth",
+    "input_sha256": "4d636d8235105539d009afd6fb2c993fcfcd98930fffe03d512ef100ba4d2eaa",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-birth-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "실제 접수 가능 여부가 아니라 수정 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N023"
+      ]
+    },
+    "source_locators": {
+      "N023": {
+        "document": "jeju_after",
+        "paragraph": "P023",
+        "sha256": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7"
+      },
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-birth",
+    "input_sha256": "74cc56358c853f40e78bf216056735f3b26d7d00bd5c7f8767cabbdcb3f743e7",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N023",
+      "N010"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N023": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7",
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+    }
+  },
+  {
+    "id": "jeju-new-birth-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "실제 접수 가능 여부가 아니라 수정 공고에 인쇄된 2025년 출산일 범위만 묻는다. 11월 29일은 그 명시 범위 안이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-birth",
+    "input_sha256": "625fc74887760facbd6c6c400f2405a80ffeaa943f9b8d9dc50a44d8f635df2e",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-application-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "출산일 범위가 아니라 수정 공고에 인쇄된 접수기간만 묻는다. 2025년 11월 29일은 그 명시 접수기간 안이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N010"
+      ]
+    },
+    "source_locators": {
+      "N023": {
+        "document": "jeju_after",
+        "paragraph": "P023",
+        "sha256": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7"
+      },
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-application",
+    "input_sha256": "6af1f65b04095734143e4650158994bc82eadeda219ffabb01584aae3d15e6e3",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N023",
+      "N010"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N023": "3fdd681dc2fc5bc8f120202222806ed8ab8402c759282563adc958b4f66f41b7",
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+    }
+  },
+  {
+    "id": "jeju-new-application-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "출산일 범위가 아니라 수정 공고에 인쇄된 접수기간만 묻는다. 2025년 11월 29일은 그 명시 접수기간 안이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-application",
+    "input_sha256": "8d743f6db3576ca9cee468127a84be64e0e1671a8f0abb6826f3cafe3d859d61",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-possible-deadline-distractor",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "예산 소진에 따른 변경 가능성까지 고려하더라도 접수 종료일은 반드시 11월 28일로 유지된다고 확정할 수 있다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "N011"
+      ]
+    },
+    "source_locators": {
+      "N010": {
+        "document": "jeju_after",
+        "paragraph": "P010",
+        "sha256": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38"
+      },
+      "N011": {
+        "document": "jeju_after",
+        "paragraph": "P011",
+        "sha256": "a2716a3db2e1ac4b632a5b29da56cb098ec2e4496ff3a1f507485b62a111944b"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-possible-deadline",
+    "input_sha256": "b0081d955c0dbeab8f0cb9b538555f821782128ce3a8ed1460b1b8ca13895752",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N010",
+      "N011"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N010": "d95ab93f4a8900c9fded9e88757b671209c4bd2f6c0673e1db730f338245dd38",
+      "N011": "a2716a3db2e1ac4b632a5b29da56cb098ec2e4496ff3a1f507485b62a111944b"
+    }
+  },
+  {
+    "id": "jeju-possible-deadline-removed",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "source_withheld_control",
+    "claim": "예산 소진에 따른 변경 가능성까지 고려하더라도 접수 종료일은 반드시 11월 28일로 유지된다고 확정할 수 있다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-possible-deadline",
+    "input_sha256": "f610cf6682802dd8e009156dfb5b17cbd77910671031313abd25791eb2d4a5d2",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-local-cap-distractor",
+    "split": "official",
+    "family": "amount_role",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "국비 출산급여와 구분한 이 제주 추가지원의 총 상한은 240만원이다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N015",
+        "N016"
+      ]
+    },
+    "source_locators": {
+      "N015": {
+        "document": "jeju_after",
+        "paragraph": "P015",
+        "sha256": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f"
+      },
+      "N016": {
+        "document": "jeju_after",
+        "paragraph": "P016",
+        "sha256": "cb6ad891ed53e4e775b2c7077f371d32182d5cbb1838716aa1753a6e28eb0aeb"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-local-cap",
+    "input_sha256": "d9ccc8efc3b1a7e09e475d518884fc3fb80a7980077105ae9f01ab87b17ebb03",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N015",
+      "N016"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N015": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f",
+      "N016": "cb6ad891ed53e4e775b2c7077f371d32182d5cbb1838716aa1753a6e28eb0aeb"
+    }
+  },
+  {
+    "id": "jeju-local-cap-removed",
+    "split": "official",
+    "family": "amount_role",
+    "source_kind": "source_withheld_control",
+    "claim": "국비 출산급여와 구분한 이 제주 추가지원의 총 상한은 240만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-local-cap",
+    "input_sha256": "cddb6c11af70e2ab82292b888cf86dc61c967af9b4b91792068bbf94e2191c0b",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-actual-payout-distractor",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "가상 신청자의 지원대상 확정·지급 결정 정보는 제시되지 않았다. 이 사람의 실제 지급액은 정확히 90만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "N015",
+        "N031",
+        "N032"
+      ]
+    },
+    "source_locators": {
+      "N015": {
+        "document": "jeju_after",
+        "paragraph": "P015",
+        "sha256": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f"
+      },
+      "N031": {
+        "document": "jeju_after",
+        "paragraph": "P031",
+        "sha256": "2811da6b4963d9c97074570e77fc7dbcebacedf53e2e8b6b8e74f784e005811c"
+      },
+      "N032": {
+        "document": "jeju_after",
+        "paragraph": "P032",
+        "sha256": "7638c1c083f0eacc4265b248b76df8582ca0c9658330130541d49f156292fa2a"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-actual-payout",
+    "input_sha256": "0b88864da494d2e3691cb45547bf0ccbfae46af395f4169ce325e19776e48876",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N015",
+      "N031",
+      "N032"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N015": "50842e5638735aea630dc1edd76e047270207233b8e294d0600a3e2959a7f50f",
+      "N031": "2811da6b4963d9c97074570e77fc7dbcebacedf53e2e8b6b8e74f784e005811c",
+      "N032": "7638c1c083f0eacc4265b248b76df8582ca0c9658330130541d49f156292fa2a"
+    }
+  },
+  {
+    "id": "jeju-actual-payout-removed",
+    "split": "official",
+    "family": "modality",
+    "source_kind": "source_withheld_control",
+    "claim": "가상 신청자의 지원대상 확정·지급 결정 정보는 제시되지 않았다. 이 사람의 실제 지급액은 정확히 90만원이다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-actual-payout",
+    "input_sha256": "f543d7632cf9acb71ae2d5637284d2b4c3acc411188063d8cfbc2ecd87df0bc0",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-payment-anchor-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "이 두 지급 문구는 모두 신청일을 기준으로 출산 후 경과 기간을 계산한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "N028",
+        "N046"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-payment-anchor",
+    "input_sha256": "a4f44e62df13b78b34c6abb277d427af19b8ed9b0dd922b0f501a175f547b422",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-payment-anchor-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "이 두 지급 문구는 모두 신청일을 기준으로 출산 후 경과 기간을 계산한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-payment-anchor",
+    "input_sha256": "429e3be890e1fd98f319368829b16ac13be5b80b5f6dc0f279319783bf39b75a",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-application-elapsed-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "유의사항에 적힌 신청 시점의 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N046"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-application-elapsed",
+    "input_sha256": "223ba3767cb1ed9363671774eee82eb31439575000b1b06a8a27db5e609e41ed",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-new-application-elapsed-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "유의사항에 적힌 신청 시점의 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-application-elapsed",
+    "input_sha256": "bd0b2fbd9cfdbfafd1a538d4278a933ea9f8dcd4d2db2291a90c621b6b355b4a",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-old-application-elapsed-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "최초 공고 유의사항의 신청 시점 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O040"
+      ]
+    },
+    "source_locators": {
+      "O040": {
+        "document": "jeju_before",
+        "paragraph": "P040",
+        "sha256": "58be61ea7ac23cda2044ee00596b5c4a368ad8dd8ef41039a88243e0c0cfdba7"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-old-application-elapsed",
+    "input_sha256": "8541241be2a4a07eaccd02bb46363f02fae94eb0434b6a2f946620b72b0b9778",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "O040"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "O040": "58be61ea7ac23cda2044ee00596b5c4a368ad8dd8ef41039a88243e0c0cfdba7"
+    }
+  },
+  {
+    "id": "jeju-old-application-elapsed-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "최초 공고 유의사항의 신청 시점 일괄지급 기준만 묻는다. 출산 후 2.5개월에 신청한 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-old-application-elapsed",
+    "input_sha256": "02b77259998456156312133559f37cfb1cb1e00d84b05c7fe5a6529ce1803c00",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-new-payment-elapsed-distractor",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "지급방식에 적힌 지급일 기준만 묻는다. 지급일에 출산 후 3.5개월이 지난 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "N028"
+      ]
+    },
+    "source_locators": {
+      "N028": {
+        "document": "jeju_after",
+        "paragraph": "P028",
+        "sha256": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22"
+      },
+      "N046": {
+        "document": "jeju_after",
+        "paragraph": "P046",
+        "sha256": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-new-payment-elapsed",
+    "input_sha256": "e11dd78aed69976799ec217ca5a399afecbf64ed2ee6192582f1a79519a5deb5",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "N028",
+      "N046"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "N028": "5e4bac064730473e749279b2e46fef459ee8c6f3f2408c31d58b5e68df02fc22",
+      "N046": "319b45531f30599e0ab36df5981cbe9e79905802f3527115c8426ccb19d5a60c"
+    }
+  },
+  {
+    "id": "jeju-new-payment-elapsed-removed",
+    "split": "official",
+    "family": "separate_date_anchors",
+    "source_kind": "source_withheld_control",
+    "claim": "지급방식에 적힌 지급일 기준만 묻는다. 지급일에 출산 후 3.5개월이 지난 가상 신청자는 그 경과 기간 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-new-payment-elapsed",
+    "input_sha256": "7e1bf8d6c6cb276862a42dbe5c40610f572b358b440c376916a9a8e942603e2f",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-old-short-business-distractor",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "최초 공고의 매출 기준만 묻는다. 사업 운영 기간이 8개월이고 월 매출 110만원을 증빙한 가상 신청자는 6~11개월 사업자의 명시 월 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "supported",
+      "evidence": [
+        "O021"
+      ]
+    },
+    "source_locators": {
+      "O020": {
+        "document": "jeju_before",
+        "paragraph": "P020",
+        "sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+      },
+      "O021": {
+        "document": "jeju_before",
+        "paragraph": "P021",
+        "sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-old-short-business",
+    "input_sha256": "f9616a83077081c0af6913819bc1bb3db5f3f390436c73c8714346d6cbb047c8",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "O020",
+      "O021"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "O020": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061",
+      "O021": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+    }
+  },
+  {
+    "id": "jeju-old-short-business-removed",
+    "split": "official",
+    "family": "recipient_and_alternative",
+    "source_kind": "source_withheld_control",
+    "claim": "최초 공고의 매출 기준만 묻는다. 사업 운영 기간이 8개월이고 월 매출 110만원을 증빙한 가상 신청자는 6~11개월 사업자의 명시 월 매출 기준을 충족한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-old-short-business",
+    "input_sha256": "e5d98a0df48c18699a0000ac2917a1abfe8fc9f6391095e1f5082f65b67560f1",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  },
+  {
+    "id": "jeju-duplicate-program-distractor",
+    "split": "official",
+    "family": "other_program",
+    "source_kind": "official_excerpt_with_authored_distractors",
+    "claim": "국비 고용보험 미적용자 출산급여 수급자는 제주 1인 소상공인 출산급여 지원 사업과 중복신청할 수 없다고 이 근거는 명시한다.",
+    "reference": {
+      "decision": "contradicted",
+      "evidence": [
+        "O044",
+        "O045"
+      ]
+    },
+    "source_locators": {
+      "O044": {
+        "document": "jeju_before",
+        "paragraph": "P044",
+        "sha256": "5780eff17085af190ce6bf1ef0500a01e4c8963ab23bb6039fc6a566a958b31a"
+      },
+      "O045": {
+        "document": "jeju_before",
+        "paragraph": "P045",
+        "sha256": "55d94ff3c0da3727cf068c0e9cf71479e3bf5bed10da0b56c2527f5e6b00a6fc"
+      }
+    },
+    "variant": "distractor",
+    "base_id": "jeju-duplicate-program",
+    "input_sha256": "bd710797e61f603b82bfac3e608e624a3c7e5a37fb15fac2548d75fc7ef55baa",
+    "sentence_ids": [
+      "X1",
+      "X2",
+      "O044",
+      "O045"
+    ],
+    "sentence_hashes": {
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756",
+      "O044": "5780eff17085af190ce6bf1ef0500a01e4c8963ab23bb6039fc6a566a958b31a",
+      "O045": "55d94ff3c0da3727cf068c0e9cf71479e3bf5bed10da0b56c2527f5e6b00a6fc"
+    }
+  },
+  {
+    "id": "jeju-duplicate-program-removed",
+    "split": "official",
+    "family": "other_program",
+    "source_kind": "source_withheld_control",
+    "claim": "국비 고용보험 미적용자 출산급여 수급자는 제주 1인 소상공인 출산급여 지원 사업과 중복신청할 수 없다고 이 근거는 명시한다.",
+    "reference": {
+      "decision": "not_established",
+      "evidence": [
+        "X0"
+      ]
+    },
+    "source_locators": {},
+    "variant": "removed",
+    "base_id": "jeju-duplicate-program",
+    "input_sha256": "532fceabf87c44a0679a48200e98ffbc63ca567573f37e807802dedcd0c4f3af",
+    "sentence_ids": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "sentence_hashes": {
+      "X0": "c9164a56d43cbf447df6ecb610808aee601a0aec6f69e0dfe8be1c0550089d9e",
+      "X1": "89f918f6b67162c6180aae9ca52043b064c3ea70257c2b98392aa444f4aca75e",
+      "X2": "56638d439b8cd33ddbf29807df4e0f7523b7870391ae8ea245e193c7717d8756"
+    }
+  }
+]

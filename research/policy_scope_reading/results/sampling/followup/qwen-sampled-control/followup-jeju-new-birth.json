@@ -1,0 +1,35 @@
+{
+  "id": "followup-jeju-new-birth",
+  "method": "sampled-control",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:55:28.211117+00:00",
+  "request_sha256": "567bb184f40393d918df3be955012b9ce6f5ded2265762f38094003277aa3f91",
+  "input_sha256": "f2a5f4941894007451ed77e64988884060382ff9c8541e487bd8c070171f0ebd",
+  "elapsed_seconds": 0.434,
+  "private_response_sha256": "acad923fb1e1af0a62c2ab91738fbce9e84d58dfe39d6fe63703a936a8a01c14",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 281,
+    "prompt_eval_duration": 149193000,
+    "eval_count": 14,
+    "eval_duration": 216887000,
+    "load_duration": 1307634,
+    "total_duration": 432574143
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "N023"
+    ]
+  },
+  "thinking_trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "thinking_trace_present": false,
+  "thinking_characters": 0
+}

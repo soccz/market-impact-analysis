@@ -1,0 +1,39 @@
+{
+  "id": "dev-possibility-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:45.531416+00:00",
+  "request_sha256": "cd85fe9bd5848d284d2d270dae8d8082b8c5a5bab66fdd2ae220d19adcc634e9",
+  "input_sha256": "3c06fbc32086cb75a3cd5a6bc805593f4a3a4942e9e9c1657a2d9931d13cd52d",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:45.530759686Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"binding\": \"다른 기관 장학금 신청 예정자\", \"rule\": \"제외 대상이 될 수 있으므로\", \"certainty\": \"possible\", \"evidence\": [\"S1\"], \"decision\": \"not_established\"}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 943186659,
+    "load_duration": 1020056,
+    "prompt_eval_count": 600,
+    "prompt_eval_duration": 251929000,
+    "eval_count": 49,
+    "eval_duration": 684908000
+  },
+  "parsed": {
+    "binding": "다른 기관 장학금 신청 예정자",
+    "rule": "제외 대상이 될 수 있으므로",
+    "certainty": "possible",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 0.945
+}

@@ -1,0 +1,32 @@
+{
+  "id": "incheon-parent-residence-distractor",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:36.371776+00:00",
+  "request_sha256": "ee3e8433e9eccf1df46f8982409b8aae0338aa56eb26cb42cb487a2ba2cd1ff9",
+  "input_sha256": "ac3c73d227c57ecd81784d578df963336c08979d8d0d89221ca4797363440d04",
+  "elapsed_seconds": 0.391,
+  "private_response_sha256": "8d793b18232520f46b3aaaa3b2e9390efd6e4cbcc27d714b1204803edf75f275",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 317,
+    "prompt_eval_duration": 159300000,
+    "eval_count": 13,
+    "eval_duration": 173881000,
+    "load_duration": 972075,
+    "total_duration": 389398098
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I05"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "followup": {
+    "qwen-sampled-control": {
+      "abstain": 1,
+      "answered": 11,
+      "citations": 15,
+      "correct": 6,
+      "extra_citations": 2,
+      "joint": 4,
+      "reference_unknown": 4,
+      "semantic_unknown": 5,
+      "total": 12,
+      "unsupported_definitive": 0,
+      "wrong_answer": 5,
+      "wrong_definitive": 4
+    },
+    "qwen-sampled-thinking": {
+      "abstain": 10,
+      "answered": 2,
+      "citations": 2,
+      "correct": 2,
+      "extra_citations": 0,
+      "joint": 1,
+      "reference_unknown": 4,
+      "semantic_unknown": 1,
+      "total": 12,
+      "unsupported_definitive": 0,
+      "wrong_answer": 0,
+      "wrong_definitive": 0
+    }
+  }
+}

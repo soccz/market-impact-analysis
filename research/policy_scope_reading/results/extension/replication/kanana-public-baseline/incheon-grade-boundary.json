@@ -1,0 +1,32 @@
+{
+  "id": "incheon-grade-boundary",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:26.526888+00:00",
+  "request_sha256": "a60bff12893b8670047bc37435cbb0d11afc4d4a17fbabaa4aa25b3e45089fd0",
+  "input_sha256": "0cc4a2a6e8c8efeff4dcdc912437ae56a6271624193d302247b7227b49f95a14",
+  "elapsed_seconds": 0.271,
+  "private_response_sha256": "2a27514e55c66fb8a1c3662b642992eb347271752e8a9f7d753d7a7e34f114f8",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 222,
+    "prompt_eval_duration": 66194000,
+    "eval_count": 12,
+    "eval_duration": 140471000,
+    "load_duration": 891520,
+    "total_duration": 269362483
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I03"
+    ]
+  }
+}

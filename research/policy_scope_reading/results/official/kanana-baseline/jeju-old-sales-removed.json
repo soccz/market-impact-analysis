@@ -1,0 +1,32 @@
+{
+  "id": "jeju-old-sales-removed",
+  "method": "baseline",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:25.669949+00:00",
+  "request_sha256": "5b48927aefe9d1132d90efa4c79521068f6431ada410a24da08c481e0a8ae3c4",
+  "input_sha256": "42f9eb6ee3f3088ae66ff62bcad18569ec7bd1714afe1a3f121e1ce52f8f8da0",
+  "elapsed_seconds": 0.313,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 302,
+    "prompt_eval_duration": 79732000,
+    "eval_count": 15,
+    "eval_duration": 176734000,
+    "load_duration": 842662,
+    "total_duration": 312106277
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

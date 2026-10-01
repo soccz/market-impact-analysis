@@ -1,0 +1,40 @@
+{
+  "id": "dev-negation-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:26.280923+00:00",
+  "request_sha256": "ed1981babf9a9ece09de2ec11998baff64a3905e2edca9c9113ebf28bcbb4b09",
+  "input_sha256": "1a6946dc27664616c99f0e368047454852587f7a47e60e26b48913240d0a8108",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:26.280386127Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"지원금은 50만원 이상이다.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"50만원 이상 지원금, 30만원 이하 아님\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 930492013,
+    "load_duration": 1081347,
+    "prompt_eval_count": 652,
+    "prompt_eval_duration": 19490000,
+    "eval_count": 67,
+    "eval_duration": 880693000
+  },
+  "parsed": {
+    "binding": "지원금은 50만원 이상이다.",
+    "certainty": "possible",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "50만원 이상 지원금, 30만원 이하 아님"
+  },
+  "elapsed_seconds": 0.932
+}

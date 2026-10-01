@@ -1,0 +1,34 @@
+{
+  "id": "incheon-shortlist-final",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:27:13.679398+00:00",
+  "request_sha256": "050dd23a617d500f358a3d1485085bf496c0a40c39430fc11598ef04b9a2579b",
+  "input_sha256": "d335887d477f602944d3aef9770cfdbc6278e193b7e4e35d1b603735f9ec7f5e",
+  "elapsed_seconds": 0.887,
+  "private_response_sha256": "cdc4596c3d93922929db950cfc2b0922c490da309bfc53d3966c6f19107c4a57",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 538,
+    "prompt_eval_duration": 210856000,
+    "eval_count": 48,
+    "eval_duration": 669422000,
+    "load_duration": 881715,
+    "total_duration": 885425039
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "I09",
+      "I10"
+    ],
+    "coverage": "insufficient"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "compose-anchor_dates-8",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:56.441407+00:00",
+  "request_sha256": "794f3c5f323dd0c570a61c0327c40f530c9abce9fae4d69e54dd736b58a6c88b",
+  "input_sha256": "4257e1ae0fb6ddf6022934e3c77aa59af95f6e7b671d925ca2131218172ffe31",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:56.440859034Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 돌봄사업의 운영 기간은 6개월 이상이어야 하며, 지급일 기준 출산 후 3개월을 초과하면 일괄 지급 조건을 충족한다.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"출산 후 4개월 ≥ 3개월, 일괄 지급 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1431045081,
+    "load_duration": 848084,
+    "prompt_eval_count": 718,
+    "prompt_eval_duration": 23757000,
+    "eval_count": 107,
+    "eval_duration": 1366197000
+  },
+  "parsed": {
+    "binding": "가상 돌봄사업의 운영 기간은 6개월 이상이어야 하며, 지급일 기준 출산 후 3개월을 초과하면 일괄 지급 조건을 충족한다.",
+    "certainty": "possible",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "출산 후 4개월 ≥ 3개월, 일괄 지급 조건 충족"
+  },
+  "elapsed_seconds": 1.433
+}

@@ -1,0 +1,38 @@
+{
+  "id": "jeju-actual-payout",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:04:05.626727+00:00",
+  "request_sha256": "3707cf5830ae08a4442d11a2890d6d94f4a0e8fc96fd5ae10ad84d773d888888",
+  "input_sha256": "d019fb6a958d58307df5b657813ba57b1bb557ddd0cd8ee6124ba049f754d58e",
+  "elapsed_seconds": 1.17,
+  "private_response_sha256": "918f0b5ec416304278951e11ad2e7da849c9fe5c5e52c008eb1374dea3bcbf41",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 727,
+    "prompt_eval_duration": 41475000,
+    "eval_count": 84,
+    "eval_duration": 1097450000,
+    "load_duration": 1071551,
+    "total_duration": 1167698487
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N015",
+      "N031",
+      "N032"
+    ],
+    "certainty": "missing",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "560ae450f85013ea18ed9dee84eff0bd16f41bca3fe0ed397f056dc95e231e65"
+}

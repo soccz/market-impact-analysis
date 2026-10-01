@@ -1,0 +1,36 @@
+{
+  "id": "jeju-local-cap-distractor",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:07:59.501767+00:00",
+  "request_sha256": "ba3bb3e4ef13126e260934e99ba602dff95f43df0549f13b633d514b8fed795f",
+  "input_sha256": "d9ccc8efc3b1a7e09e475d518884fc3fb80a7980077105ae9f01ab87b17ebb03",
+  "elapsed_seconds": 1.089,
+  "private_response_sha256": "025e18853d6879fc2f042d8d314a2baf6addecde6fea4f685628bfc56ae1fbdc",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 691,
+    "prompt_eval_duration": 233753000,
+    "eval_count": 60,
+    "eval_duration": 846303000,
+    "load_duration": 971301,
+    "total_duration": 1087869140
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "X1"
+    ],
+    "certainty": "definite",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "b3cfb47a54a4402507bce83ff7e6c66d0446ee70044ddfa566b03a5a4d2fa5b3"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "compose-modality-1",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:37.763393+00:00",
+  "request_sha256": "d25844841e03707fa7546b6092d14f7f88ce5bb5c2cf6a2acfe9aff358347dec",
+  "input_sha256": "0a9379e6f0143bf832fa960a60865de35dd0d6b15467a154f2bfc4ea9504db2b",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:37.762792Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 정액 지원금은 50만원으로 확정.\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"50만원 = 50만원, 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 971268945,
+    "load_duration": 770848,
+    "prompt_eval_count": 679,
+    "prompt_eval_duration": 33524000,
+    "eval_count": 69,
+    "eval_duration": 905492000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 정액 지원금은 50만원으로 확정.",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "50만원 = 50만원, 조건 충족"
+  },
+  "elapsed_seconds": 0.973
+}

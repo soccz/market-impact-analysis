@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-01T08:20:44.203033+00:00",
+  "stage": "second-stage method freeze",
+  "observed": "All stage-one development, official and composition outputs. Jeju test reused only for post-hoc diagnosis. New replication inputs not yet authored; Incheon search snippet already seen.",
+  "methods": [
+    "kanana-public-baseline",
+    "kanana-public-evidence",
+    "qwen-baseline",
+    "qwen-evidence"
+  ],
+  "intervention": "Evidence availability prompt plus per-input citation ID enum; combined intervention, not an isolated prompt effect; 256 output-token budget and think=false unchanged.",
+  "files": {
+    "extension_infer.py": "addebb22d50437f5e31bf077876b263f8f2aac4e721b93573cfa09e6565f21ef",
+    "evidence_prompt.txt": "e3d9e8458314409759683d7c6e09b44636a6f0b50a0d1e8e150a57fa9d6d9c83",
+    "infer.py": "47e0a9c7a70540c6fd03278b6893a12c7ce7c31c7bd8ddd889ea71b10480def6",
+    "prompts.json": "a04f54ef10fabd6208bf2f5cda66f3833a4b4373705bf96c3a4416ae98175943",
+    "evaluate.py": "7bcc8dce3607daa13e3cc3d8c728e253368cc2aaa255d005a2969f3628e5d126"
+  }
+}

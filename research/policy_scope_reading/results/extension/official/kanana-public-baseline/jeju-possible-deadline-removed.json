@@ -1,0 +1,32 @@
+{
+  "id": "jeju-possible-deadline-removed",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:30:41.201732+00:00",
+  "request_sha256": "cdfa3c0f16f409613339ec7cf099c8aa7076bc9c7bf152f51c0f0ed16f92019a",
+  "input_sha256": "f610cf6682802dd8e009156dfb5b17cbd77910671031313abd25791eb2d4a5d2",
+  "elapsed_seconds": 0.289,
+  "private_response_sha256": "e876b7f5801f6b040ce5a38a62bc116838c5150be704496221fbba6b8d6672f9",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 290,
+    "prompt_eval_duration": 47647000,
+    "eval_count": 15,
+    "eval_duration": 176170000,
+    "load_duration": 754695,
+    "total_duration": 287327664
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X0"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "incheon-grade-boundary-distractor",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:41:01.844722+00:00",
+  "request_sha256": "f8e1808435a63ce74774efdb1eb57039ac2cfb174f3368187a3dddafa175bc22",
+  "input_sha256": "8be7355bf3b02176a02eb4d99d2a6ab93f0fd72cbbc93b9d8eb66cb39194cadf",
+  "elapsed_seconds": 29.367,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 265,
+    "prompt_eval_duration": 144135000,
+    "eval_count": 2048,
+    "eval_duration": 29132127000,
+    "load_duration": 757391,
+    "total_duration": 29365480294
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "6797548439cacc58fb09a83a8c890027e4a86c56436fa750ace204b49ed47ace",
+  "thinking_trace_present": true,
+  "thinking_characters": 7613
+}

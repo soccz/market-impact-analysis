@@ -1,0 +1,1765 @@
+{
+  "kanana-baseline": {
+    "metrics": {
+      "total": 24,
+      "correct": 12,
+      "joint": 12,
+      "answered": 24,
+      "wrong_answer": 12,
+      "abstain": 0,
+      "reference_unknown": 3,
+      "semantic_unknown": 13,
+      "unsupported_definitive": 0,
+      "extra_citations": 8,
+      "citations": 39
+    },
+    "families": {
+      "recipient": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 1,
+        "citations": 3
+      },
+      "priority": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 3
+      },
+      "possibility": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 3
+      },
+      "negation": {
+        "total": 2,
+        "correct": 0,
+        "joint": 0,
+        "answered": 2,
+        "wrong_answer": 2,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 4
+      },
+      "exception": {
+        "total": 2,
+        "correct": 0,
+        "joint": 0,
+        "answered": 2,
+        "wrong_answer": 2,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 1,
+        "citations": 4
+      },
+      "version": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 6
+      },
+      "alternative": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "conjunction": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "missing": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 4
+      },
+      "amount_role": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "quoted_old": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 4
+      },
+      "other_program": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      }
+    },
+    "cases": [
+      {
+        "id": "dev-recipient-1",
+        "family": "recipient",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-recipient-2",
+        "family": "recipient",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-1",
+        "family": "priority",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-2",
+        "family": "priority",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-1",
+        "family": "possibility",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-2",
+        "family": "possibility",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-1",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-2",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-1",
+        "family": "exception",
+        "reference": "supported",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-2",
+        "family": "exception",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-1",
+        "family": "version",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-2",
+        "family": "version",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-1",
+        "family": "alternative",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-2",
+        "family": "alternative",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-1",
+        "family": "conjunction",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-2",
+        "family": "conjunction",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-1",
+        "family": "missing",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-2",
+        "family": "missing",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-1",
+        "family": "amount_role",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-2",
+        "family": "amount_role",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-1",
+        "family": "quoted_old",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-2",
+        "family": "quoted_old",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-1",
+        "family": "other_program",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-2",
+        "family": "other_program",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      }
+    ]
+  },
+  "qwen-baseline": {
+    "metrics": {
+      "total": 24,
+      "correct": 19,
+      "joint": 19,
+      "answered": 24,
+      "wrong_answer": 5,
+      "abstain": 0,
+      "reference_unknown": 3,
+      "semantic_unknown": 6,
+      "unsupported_definitive": 0,
+      "extra_citations": 4,
+      "citations": 35
+    },
+    "families": {
+      "recipient": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 1,
+        "citations": 3
+      },
+      "priority": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 3
+      },
+      "possibility": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 3
+      },
+      "negation": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "exception": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 1,
+        "citations": 4
+      },
+      "version": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 6
+      },
+      "alternative": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "conjunction": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "missing": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 4
+      },
+      "amount_role": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "quoted_old": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "other_program": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      }
+    },
+    "cases": [
+      {
+        "id": "dev-recipient-1",
+        "family": "recipient",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-recipient-2",
+        "family": "recipient",
+        "reference": "supported",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-1",
+        "family": "priority",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-2",
+        "family": "priority",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-1",
+        "family": "possibility",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-2",
+        "family": "possibility",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-1",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-2",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-1",
+        "family": "exception",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-2",
+        "family": "exception",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-1",
+        "family": "version",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-2",
+        "family": "version",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-1",
+        "family": "alternative",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-2",
+        "family": "alternative",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-1",
+        "family": "conjunction",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-2",
+        "family": "conjunction",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-1",
+        "family": "missing",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-2",
+        "family": "missing",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-1",
+        "family": "amount_role",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-2",
+        "family": "amount_role",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-1",
+        "family": "quoted_old",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-2",
+        "family": "quoted_old",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-1",
+        "family": "other_program",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "model_output"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-2",
+        "family": "other_program",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "model_output"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      }
+    ]
+  },
+  "consensus-baseline": {
+    "metrics": {
+      "total": 24,
+      "correct": 11,
+      "joint": 11,
+      "answered": 14,
+      "wrong_answer": 3,
+      "abstain": 10,
+      "reference_unknown": 3,
+      "semantic_unknown": 5,
+      "unsupported_definitive": 0,
+      "extra_citations": 4,
+      "citations": 22
+    },
+    "families": {
+      "recipient": {
+        "total": 2,
+        "correct": 0,
+        "joint": 0,
+        "answered": 0,
+        "wrong_answer": 0,
+        "abstain": 2,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 0
+      },
+      "priority": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 1,
+        "wrong_answer": 0,
+        "abstain": 1,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 1
+      },
+      "possibility": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 1,
+        "wrong_answer": 0,
+        "abstain": 1,
+        "reference_unknown": 1,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 1
+      },
+      "negation": {
+        "total": 2,
+        "correct": 0,
+        "joint": 0,
+        "answered": 0,
+        "wrong_answer": 0,
+        "abstain": 2,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 0
+      },
+      "exception": {
+        "total": 2,
+        "correct": 0,
+        "joint": 0,
+        "answered": 0,
+        "wrong_answer": 0,
+        "abstain": 2,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 0
+      },
+      "version": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 6
+      },
+      "alternative": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 1,
+        "wrong_answer": 0,
+        "abstain": 1,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 1
+      },
+      "conjunction": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 1,
+        "wrong_answer": 0,
+        "abstain": 1,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 1
+      },
+      "missing": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 2,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 4
+      },
+      "amount_role": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 1,
+        "semantic_unknown": 1,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      },
+      "quoted_old": {
+        "total": 2,
+        "correct": 2,
+        "joint": 2,
+        "answered": 2,
+        "wrong_answer": 0,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 2,
+        "citations": 4
+      },
+      "other_program": {
+        "total": 2,
+        "correct": 1,
+        "joint": 1,
+        "answered": 2,
+        "wrong_answer": 1,
+        "abstain": 0,
+        "reference_unknown": 0,
+        "semantic_unknown": 0,
+        "unsupported_definitive": 0,
+        "extra_citations": 0,
+        "citations": 2
+      }
+    },
+    "cases": [
+      {
+        "id": "dev-recipient-1",
+        "family": "recipient",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-recipient-2",
+        "family": "recipient",
+        "reference": "supported",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-1",
+        "family": "priority",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-priority-2",
+        "family": "priority",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-1",
+        "family": "possibility",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-possibility-2",
+        "family": "possibility",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-1",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-negation-2",
+        "family": "negation",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-1",
+        "family": "exception",
+        "reference": "supported",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-exception-2",
+        "family": "exception",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-1",
+        "family": "version",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-version-2",
+        "family": "version",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-1",
+        "family": "alternative",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-alternative-2",
+        "family": "alternative",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-1",
+        "family": "conjunction",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "abstain",
+          "evidence": [],
+          "reason": "model_disagreement_or_invalid"
+        },
+        "correct": false,
+        "reference_evidence_covered": false,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-conjunction-2",
+        "family": "conjunction",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-1",
+        "family": "missing",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-missing-2",
+        "family": "missing",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-1",
+        "family": "amount_role",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-amount_role-2",
+        "family": "amount_role",
+        "reference": "not_established",
+        "prediction": {
+          "decision": "not_established",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-1",
+        "family": "quoted_old",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-quoted_old-2",
+        "family": "quoted_old",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "contradicted",
+          "evidence": [
+            "S1",
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 1,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-1",
+        "family": "other_program",
+        "reference": "contradicted",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S1"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": false,
+        "reference_evidence_covered": true,
+        "joint": false,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      },
+      {
+        "id": "dev-other_program-2",
+        "family": "other_program",
+        "reference": "supported",
+        "prediction": {
+          "decision": "supported",
+          "evidence": [
+            "S2"
+          ],
+          "reason": "two_model_agreement"
+        },
+        "correct": true,
+        "reference_evidence_covered": true,
+        "joint": true,
+        "extra_citations_over_minimum": 0,
+        "unsupported_definitive": false
+      }
+    ]
+  }
+}

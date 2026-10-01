@@ -1,0 +1,40 @@
+{
+  "id": "dev-other_program-2",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:44.402832+00:00",
+  "request_sha256": "74c063149896db528e183270e920fa51399e25e3f0d63fc668f8d560507372bb",
+  "input_sha256": "759196690811e01120e87fc6aa60f9321583dd80269be55c7089ef5bfcb2eaff",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:44.402326767Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"누리사업의 신청 자격은 소득 150% 이하이다.\",\n  \"certainty\": \"possible\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"140 <= 150, 이하 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 960582713,
+    "load_duration": 802582,
+    "prompt_eval_count": 676,
+    "prompt_eval_duration": 21921000,
+    "eval_count": 70,
+    "eval_duration": 911819000
+  },
+  "parsed": {
+    "binding": "누리사업의 신청 자격은 소득 150% 이하이다.",
+    "certainty": "possible",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "140 <= 150, 이하 조건 충족"
+  },
+  "elapsed_seconds": 0.962
+}

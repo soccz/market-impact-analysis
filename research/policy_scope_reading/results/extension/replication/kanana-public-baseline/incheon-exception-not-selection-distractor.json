@@ -1,0 +1,35 @@
+{
+  "id": "incheon-exception-not-selection-distractor",
+  "method": "baseline",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:30.401993+00:00",
+  "request_sha256": "40af00856981088b96676c209e855a5c16f699445a42c46ccdf02f9cfbd1a9e8",
+  "input_sha256": "5af23f9b3855566fc895e6dd09ddb0b125be0fdbfa3fb0a16b44edfcfb9384b8",
+  "elapsed_seconds": 0.462,
+  "private_response_sha256": "edf47f2ecfd9130c938cfa663aa916962d21709e633452aea19fab6fdb74455f",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 454,
+    "prompt_eval_duration": 94946000,
+    "eval_count": 24,
+    "eval_duration": 288856000,
+    "load_duration": 965669,
+    "total_duration": 460411222
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "I05",
+      "I06",
+      "Z1",
+      "Z2"
+    ]
+  }
+}

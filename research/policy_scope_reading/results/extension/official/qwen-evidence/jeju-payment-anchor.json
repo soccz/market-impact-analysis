@@ -1,0 +1,34 @@
+{
+  "id": "jeju-payment-anchor",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:13.933825+00:00",
+  "request_sha256": "8fc1d145eb991666db053645d16865d419a6adecd8e53a7c78a13de939cbd1bf",
+  "input_sha256": "dccbb3ec80c133f4c642206f33a279d2d50199ac5d1448c8aa54d6b8a628f459",
+  "elapsed_seconds": 0.92,
+  "private_response_sha256": "aea335729212759347f23836cb7bc410d49577e1d82965334d1e32cb91ee74ac",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 477,
+    "prompt_eval_duration": 209590000,
+    "eval_count": 50,
+    "eval_duration": 704640000,
+    "load_duration": 680102,
+    "total_duration": 918585575
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N028",
+      "N046"
+    ],
+    "coverage": "insufficient"
+  }
+}

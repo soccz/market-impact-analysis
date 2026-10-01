@@ -1,0 +1,37 @@
+{
+  "id": "compose-only_exception-7",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:48.619368+00:00",
+  "request_sha256": "2b65cd6b36b4e77ce52572cc928ab7e0782b4da61be3cd87e955bd47b5dc03ff",
+  "input_sha256": "f2cca10771e8efd6ba09b1e86158760fb5ab1bd3a46475a3f6ca847b1bf87480",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:06:48.618674657Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"contradicted\",\"evidence\":[\"S1\",\"S3\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 369716249,
+    "load_duration": 833219,
+    "prompt_eval_count": 250,
+    "prompt_eval_duration": 129074999,
+    "eval_count": 17,
+    "eval_duration": 235720000
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "S1",
+      "S3"
+    ]
+  },
+  "elapsed_seconds": 0.371
+}

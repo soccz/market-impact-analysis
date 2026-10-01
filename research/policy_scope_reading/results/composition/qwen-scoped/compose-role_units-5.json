@@ -1,0 +1,39 @@
+{
+  "id": "compose-role_units-5",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:09:28.192830+00:00",
+  "request_sha256": "31305bfa2f906e0fed1b524c242c3f9e2f2f29621c3c6484a39f3a8482bd8597",
+  "input_sha256": "b5e59f1918b52a08dbbc6ec6b62f41c5fe328fa8241cfe6d684482472a0cd763",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:09:28.192283822Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 온기사업의 지자체 지원 총 상한\",\n  \"rule\": \"600000원 == 60만원\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1192146028,
+    "load_duration": 774583,
+    "prompt_eval_count": 643,
+    "prompt_eval_duration": 213676000,
+    "eval_count": 69,
+    "eval_duration": 973237000
+  },
+  "parsed": {
+    "binding": "가상 온기사업의 지자체 지원 총 상한",
+    "rule": "600000원 == 60만원",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.194
+}

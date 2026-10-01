@@ -1,0 +1,100 @@
+{
+  "development": {
+    "kanana-public": {
+      "both_correct": 8,
+      "gained": 0,
+      "lost": 4,
+      "n": 24
+    },
+    "qwen": {
+      "both_correct": 15,
+      "gained": 1,
+      "lost": 4,
+      "n": 24
+    }
+  },
+  "official_base": {
+    "kanana-public": {
+      "both_correct": 6,
+      "gained": 0,
+      "lost": 4,
+      "n": 18
+    },
+    "qwen": {
+      "both_correct": 5,
+      "gained": 2,
+      "lost": 6,
+      "n": 18
+    }
+  },
+  "official_distractor": {
+    "kanana-public": {
+      "both_correct": 2,
+      "gained": 0,
+      "lost": 3,
+      "n": 18
+    },
+    "qwen": {
+      "both_correct": 3,
+      "gained": 7,
+      "lost": 0,
+      "n": 18
+    }
+  },
+  "official_removed": {
+    "kanana-public": {
+      "both_correct": 18,
+      "gained": 0,
+      "lost": 0,
+      "n": 18
+    },
+    "qwen": {
+      "both_correct": 16,
+      "gained": 0,
+      "lost": 1,
+      "n": 18
+    }
+  },
+  "replication_base": {
+    "kanana-public": {
+      "both_correct": 7,
+      "gained": 0,
+      "lost": 2,
+      "n": 12
+    },
+    "qwen": {
+      "both_correct": 6,
+      "gained": 1,
+      "lost": 3,
+      "n": 12
+    }
+  },
+  "replication_distractor": {
+    "kanana-public": {
+      "both_correct": 5,
+      "gained": 0,
+      "lost": 2,
+      "n": 12
+    },
+    "qwen": {
+      "both_correct": 3,
+      "gained": 2,
+      "lost": 3,
+      "n": 12
+    }
+  },
+  "replication_removed": {
+    "kanana-public": {
+      "both_correct": 10,
+      "gained": 1,
+      "lost": 1,
+      "n": 12
+    },
+    "qwen": {
+      "both_correct": 12,
+      "gained": 0,
+      "lost": 0,
+      "n": 12
+    }
+  }
+}

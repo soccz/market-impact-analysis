@@ -1,0 +1,36 @@
+{
+  "id": "jeju-local-cap-distractor",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:04:41.524435+00:00",
+  "request_sha256": "ce01b5f8d1cdefb3f76a6ac38a0f5861d0ee071009d139b2058f67966ea90a12",
+  "input_sha256": "d9ccc8efc3b1a7e09e475d518884fc3fb80a7980077105ae9f01ab87b17ebb03",
+  "elapsed_seconds": 1.077,
+  "private_response_sha256": "586c8a899303fb1c03b8aa7627ef01a1e8829348625add00de504ac4d0ea6758",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 755,
+    "prompt_eval_duration": 57265000,
+    "eval_count": 75,
+    "eval_duration": 982869000,
+    "load_duration": 1339825,
+    "total_duration": 1075686568
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "X1"
+    ],
+    "certainty": "possible",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "47a143f8645e01280a758f6e920c5a21152ef6e6ffc7218e7be202007682d2b1"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "jeju-new-sales-both-low",
+  "method": "citation-only",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:12:07.459107+00:00",
+  "request_sha256": "23f2a22df224b223f7411d03f918c2a4cce7f7b98f532b4a39e2c70db4f74eaa",
+  "input_sha256": "d1536c475d765b2109944f5ec2c7fba69dcf2bb870ad4e789ef9b5c08f55a165",
+  "elapsed_seconds": 0.424,
+  "private_response_sha256": "7fb21207085944a8c6a602d2573a5edd3858067ac49e56c4dc663814f7d2564e",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 246,
+    "prompt_eval_duration": 129282999,
+    "eval_count": 21,
+    "eval_duration": 290333000,
+    "load_duration": 835831,
+    "total_duration": 423037937
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "N025",
+      "N026"
+    ]
+  }
+}

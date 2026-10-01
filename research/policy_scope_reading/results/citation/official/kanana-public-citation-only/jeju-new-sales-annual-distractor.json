@@ -1,0 +1,33 @@
+{
+  "id": "jeju-new-sales-annual-distractor",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:06.440377+00:00",
+  "request_sha256": "8f26e8b4ff63b41252dc933376b8a80b3654cf79aff30b90ad5cbf299a8cc622",
+  "input_sha256": "5a5df660c77b25ac67e42ef3e0a801eb5fa91f5423dcb7b343e8aa4cceb9e0ad",
+  "elapsed_seconds": 0.325,
+  "private_response_sha256": "56fe003e5439f13fa16cbfc0dfa3e763352138572deed2d548b31b2dd8ac208e",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 333,
+    "prompt_eval_duration": 46991000,
+    "eval_count": 18,
+    "eval_duration": 213915000,
+    "load_duration": 788281,
+    "total_duration": 324036484
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "X1",
+      "X2"
+    ]
+  }
+}

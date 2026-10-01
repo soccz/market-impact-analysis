@@ -1,0 +1,32 @@
+{
+  "id": "incheon-split-payment-distractor",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:24.656499+00:00",
+  "request_sha256": "510946b9732e1e44db2dc934e4a4399c16c728823e60dca5b62648dc1b332454",
+  "input_sha256": "56f2e4ed8b2ce0fb58745d77aff37fbcf4d67c97ff097ee05e7e763f3cf30d39",
+  "elapsed_seconds": 0.314,
+  "private_response_sha256": "f468f0478df37f3643f33700926abf7355c117d8bf19ea3f4d3ea155493b44d2",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 391,
+    "prompt_eval_duration": 104379000,
+    "eval_count": 12,
+    "eval_duration": 140976000,
+    "load_duration": 921053,
+    "total_duration": 312760958
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I12"
+    ]
+  }
+}

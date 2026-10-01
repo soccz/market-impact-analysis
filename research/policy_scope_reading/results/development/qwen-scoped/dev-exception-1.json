@@ -1,0 +1,40 @@
+{
+  "id": "dev-exception-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:50.399602+00:00",
+  "request_sha256": "65d0d4cc29b0f43a5cf7214fa8f2b6ac613e2412718562619dbcc2fbd60db648",
+  "input_sha256": "d6772211955ca8f39fd443d11ff55c5f39a89e178b32d7f61b0d845cd5202355",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:50.399095721Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"교육급여만 받는 경우\",\n  \"rule\": \"교육급여만 받는 경우 신청 가능\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1135150366,
+    "load_duration": 1140521,
+    "prompt_eval_count": 585,
+    "prompt_eval_duration": 251819000,
+    "eval_count": 62,
+    "eval_duration": 873093000
+  },
+  "parsed": {
+    "binding": "교육급여만 받는 경우",
+    "rule": "교육급여만 받는 경우 신청 가능",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.136
+}

@@ -1,0 +1,36 @@
+{
+  "id": "compose-role_units-5",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:58.584499+00:00",
+  "request_sha256": "5d3112b726f02eda3112cf5e204013779794603be5bcd933272eae71bc146f31",
+  "input_sha256": "b5e59f1918b52a08dbbc6ec6b62f41c5fe328fa8241cfe6d684482472a0cd763",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:06:58.583832123Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"supported\",\"evidence\":[\"S1\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 294694816,
+    "load_duration": 754281,
+    "prompt_eval_count": 240,
+    "prompt_eval_duration": 130463000,
+    "eval_count": 12,
+    "eval_duration": 160479000
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "S1"
+    ]
+  },
+  "elapsed_seconds": 0.296
+}

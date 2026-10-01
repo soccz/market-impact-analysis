@@ -1,0 +1,40 @@
+{
+  "id": "dev-missing-1",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:03.205736+00:00",
+  "request_sha256": "6195de3b74a1a1812d3692254f3bbac9527af72b72bf2c79fc000e464b4e9c0d",
+  "input_sha256": "2b2bd59487decce1bfea46ad915aec5783ab92fbe1f4fe19dbb3d4c557d1861e",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:55:03.205201453Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가람사업 소득 세부 기준은 별표 2에 따름\",\n  \"rule\": \"별표 2 미제공으로 소득 상한 150% 여부 판단 불가\",\n  \"certainty\": \"missing\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1437640337,
+    "load_duration": 1483260,
+    "prompt_eval_count": 588,
+    "prompt_eval_duration": 247901000,
+    "eval_count": 84,
+    "eval_duration": 1181512000
+  },
+  "parsed": {
+    "binding": "가람사업 소득 세부 기준은 별표 2에 따름",
+    "rule": "별표 2 미제공으로 소득 상한 150% 여부 판단 불가",
+    "certainty": "missing",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 1.439
+}

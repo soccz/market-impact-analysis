@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-01T08:30:24.442963+00:00",
+  "observed": "Stage-one all results and second-stage Qwen outputs on Jeju/Incheon observed. Canonical Kanana inference not yet inspected.",
+  "comparison": "Same baseline prompt and 2048 output-token budget; Qwen think=false versus true. Incheon reused post-hoc; followup claims not yet authored, but source documents and related claims already observed. Not a new institution or new independent corpus.",
+  "files": {
+    "thinking_infer.py": "33c16ff8d5df333a5fff204a3defb9c81dc7f500d50360025902d1eafed80efb",
+    "extension_infer.py": "addebb22d50437f5e31bf077876b263f8f2aac4e721b93573cfa09e6565f21ef",
+    "infer.py": "47e0a9c7a70540c6fd03278b6893a12c7ce7c31c7bd8ddd889ea71b10480def6",
+    "prompts.json": "a04f54ef10fabd6208bf2f5cda66f3833a4b4373705bf96c3a4416ae98175943",
+    "evaluate.py": "7bcc8dce3607daa13e3cc3d8c728e253368cc2aaa255d005a2969f3628e5d126"
+  }
+}

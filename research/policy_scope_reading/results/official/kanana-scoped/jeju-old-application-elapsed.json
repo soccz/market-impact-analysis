@@ -1,0 +1,36 @@
+{
+  "id": "jeju-old-application-elapsed",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:04:08.906212+00:00",
+  "request_sha256": "e1ec3a86e5f22330998cd7923d8055f26c946a727fa24dec6241e4226cbb04d4",
+  "input_sha256": "41b9c333c06aa2f2d06dc8f1e23d93cb1189f63b382bf32650960591c73f297f",
+  "elapsed_seconds": 1.057,
+  "private_response_sha256": "cb550b0c037787212b35055c0f597c60bb7b062354a140f0c1e6c89eba474897",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 680,
+    "prompt_eval_duration": 36611000,
+    "eval_count": 78,
+    "eval_duration": 986129000,
+    "load_duration": 877291,
+    "total_duration": 1055136683
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O040"
+    ],
+    "certainty": "possible",
+    "rule": "2.5 > 3; 불충족; 미충족"
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "a03cf77d13b2e8e231b72bd74ae8e1e78b32bc4936fb70bf8f206dc9e0870a4f"
+}

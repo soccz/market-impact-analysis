@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "question": "Can instruction models preserve recipient scope, exception, modality and version applicability when checking a Korean policy claim against supplied evidence?",
+  "scope": "A specified claim and selected condition only, not whole eligibility or legal advice. Supported / contradicted / not established are semantic labels; system abstention is measured separately.",
+  "stages": [
+    "Build and freeze authored development probes; run two local instruction models with the same baseline prompt.",
+    "Inspect development failures, implement a scope/evidence refinement and freeze all methods before scoring new inputs.",
+    "Collect complete new official revision documents and author claim/evidence annotations without inspecting test predictions. Record pre-existing search-snippet exposure.",
+    "Run frozen methods on new source-backed and separately authored composition probes. Preserve every first output, no silent correction or model-dependent sample selection.",
+    "Audit evidence removal, irrelevant-clause perturbation and source-version selection. Verify saved outputs and publish honest results."
+  ],
+  "models": ["ra-kanana15-8b:q4_k_m-20260927", "qwen3.5:9b"],
+  "runtime": "Existing local Ollama service, model digests recorded, Q4_K_M weights, explicit prompts and decoding options. No cloud API or new model training.",
+  "limits": "AI-authored probes and AI-assisted official references, no independent human gold standard. New prompts are tuned on development only. Synthetic split shares an author and conceptual categories; it does not establish population generalization. Public-source contamination of model pretraining cannot be excluded.",
+  "metrics": ["semantic decision accuracy", "decision plus necessary evidence", "unsupported definitive answers", "semantic unknown versus system abstention", "paired consistency under evidence removal and distractors", "per-source/per-phenomenon errors"],
+  "source_selection": "Prefer complete original and revised official documents. Jeju 2025 maternity-benefit revision is a fixed target found before implementation; its search excerpts were seen. Other sources must be selected before their predictions. Do not label revised notices as explicit typo corrections without evidence.",
+  "independent_human_reviews": 0,
+  "new_model_fits": 0,
+  "publication": "Public code, generated examples, claim annotations, short source metadata/locators and outputs. Full official documents and full extracted source inputs remain outside Git. Do not publish local model filesystem paths or third-party operational settings."
+}

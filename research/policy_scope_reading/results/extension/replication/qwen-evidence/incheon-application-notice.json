@@ -1,0 +1,33 @@
+{
+  "id": "incheon-application-notice",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:27:09.116133+00:00",
+  "request_sha256": "7ced796e72b2539c169e3a5ef6b2d34d38d8a5257a8c82d9c175d790253f6846",
+  "input_sha256": "3cbd1d4708a2ed7398cef5b51abc05dcfb38ebd88963b9b264d70d867b56b2b2",
+  "elapsed_seconds": 0.661,
+  "private_response_sha256": "b82f1b5f5f6869b951dfdfb583a7070d7adba8f70fb42f1e93342704991add09",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 540,
+    "prompt_eval_duration": 210899000,
+    "eval_count": 32,
+    "eval_duration": 443096000,
+    "load_duration": 779873,
+    "total_duration": 659558015
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "I02"
+    ],
+    "coverage": "sufficient"
+  }
+}

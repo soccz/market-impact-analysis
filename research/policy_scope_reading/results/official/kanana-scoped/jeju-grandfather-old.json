@@ -1,0 +1,37 @@
+{
+  "id": "jeju-grandfather-old",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:03:56.511526+00:00",
+  "request_sha256": "c2ec6aa0dfe20af942aa874796cd5ae0580495544b9ba1136fbd225ad5a3d665",
+  "input_sha256": "d6b446b93672ddceac8cdd9d2d96e0fe6df547911888c2f6f81658a70ff2c681",
+  "elapsed_seconds": 1.405,
+  "private_response_sha256": "717e8d8ba54177669501ed135a6b3c5cee36d8203e460ddd068992848bc009a4",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 797,
+    "prompt_eval_duration": 73004000,
+    "eval_count": 102,
+    "eval_duration": 1292861000,
+    "load_duration": 967921,
+    "total_duration": 1403341912
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "N006",
+      "N025"
+    ],
+    "certainty": "possible",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "d4b28ae9e9b6227eaa40795a127baf88dd41ab8b54f48c958f62cfd6c59931b5"
+}

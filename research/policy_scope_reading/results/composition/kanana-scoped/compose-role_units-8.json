@@ -1,0 +1,41 @@
+{
+  "id": "compose-role_units-8",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:06.015858+00:00",
+  "request_sha256": "995cabc50d0bfb18f67968fdee8d01dd02299d02cc9c0539928a4df220f81673",
+  "input_sha256": "b13a835395a0b60fce99301682e2d9a35086abd5ef1b2491749371ed322d0d78",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:06:06.015245602Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 온기사업의 지자체 지원 총 상한은 60만원이다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\", \"S3\"],\n  \"rule\": \"60 <= 180, 총 상한 조건 불충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1184087928,
+    "load_duration": 1371769,
+    "prompt_eval_count": 710,
+    "prompt_eval_duration": 27541000,
+    "eval_count": 81,
+    "eval_duration": 1124659000
+  },
+  "parsed": {
+    "binding": "가상 온기사업의 지자체 지원 총 상한은 60만원이다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "rule": "60 <= 180, 총 상한 조건 불충족"
+  },
+  "elapsed_seconds": 1.185
+}

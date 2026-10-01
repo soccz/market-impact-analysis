@@ -1,0 +1,40 @@
+{
+  "id": "compose-modality-8",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:45.418159+00:00",
+  "request_sha256": "e86e32b04cb85fcd66193c2b854424ce7538a2da7f5d3079ee4bae0baaf2429f",
+  "input_sha256": "30ead47508327244b966b8eed1f096825c404f496a65a583ddd6a37c6dad842e",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:45.417613471Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 정액 지원금은 별표에 정한다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"별표 미제공, 별도 근거 없음\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1037876578,
+    "load_duration": 782321,
+    "prompt_eval_count": 683,
+    "prompt_eval_duration": 19250000,
+    "eval_count": 74,
+    "eval_duration": 973351000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 정액 지원금은 별표에 정한다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "별표 미제공, 별도 근거 없음"
+  },
+  "elapsed_seconds": 1.039
+}

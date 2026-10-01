@@ -1,0 +1,39 @@
+{
+  "id": "compose-role_units-3",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:09:25.712600+00:00",
+  "request_sha256": "41899fe58e3e7c4dc535eaf528782dc649f5c1f2f478b45417f82460c2630dee",
+  "input_sha256": "471580b228a13addb5574a5dca867023d2be7dba2b504ae156afa57bdacdba32",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:09:25.712076175Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며 총 상한은 60만원이다.\",\n  \"rule\": \"1800000 > 600000, 총 상한 초과\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"contradicted\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1626312136,
+    "load_duration": 1218093,
+    "prompt_eval_count": 645,
+    "prompt_eval_duration": 221146000,
+    "eval_count": 97,
+    "eval_duration": 1383804000
+  },
+  "parsed": {
+    "binding": "가상 온기사업의 지자체 지원은 월 최대 20만원씩 3개월이며 총 상한은 60만원이다.",
+    "rule": "1800000 > 600000, 총 상한 초과",
+    "certainty": "definite",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "contradicted"
+  },
+  "elapsed_seconds": 1.628
+}

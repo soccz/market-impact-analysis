@@ -1,0 +1,40 @@
+{
+  "id": "dev-version-2",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:54:54.474219+00:00",
+  "request_sha256": "3dbd4f9876fe8051e02aca3508833f510d0c91c52c34fdd9d3ea24f713e7d16b",
+  "input_sha256": "2c3b7ab0d6156b31f3ad6b3402c364cdac026b69a216bee51c10712ee8194d2e",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:54:54.473571957Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"9월 16일 이후 접수된 신청\",\n  \"rule\": \"140 <= 150, 조건 충족\",\n  \"certainty\": \"definite\",\n  \"evidence\": [\"S1\", \"S3\"],\n  \"decision\": \"supported\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1304997961,
+    "load_duration": 755104,
+    "prompt_eval_count": 631,
+    "prompt_eval_duration": 258613999,
+    "eval_count": 71,
+    "eval_duration": 1038731000
+  },
+  "parsed": {
+    "binding": "9월 16일 이후 접수된 신청",
+    "rule": "140 <= 150, 조건 충족",
+    "certainty": "definite",
+    "evidence": [
+      "S1",
+      "S3"
+    ],
+    "decision": "supported"
+  },
+  "elapsed_seconds": 1.307
+}

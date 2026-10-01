@@ -1,0 +1,30 @@
+{
+  "id": "followup-jeju-possible-deadline",
+  "method": "thinking",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:51:52.459692+00:00",
+  "request_sha256": "42f39e923323712e79d0778973b1f8248eaa727bf8d1489e741ca287fdca5d3f",
+  "input_sha256": "689168bae0003bff028034248ebedbf646d2c779b8aa4e7ace58295d35d6bfa0",
+  "elapsed_seconds": 29.622,
+  "private_response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "length",
+    "prompt_eval_count": 259,
+    "prompt_eval_duration": 55973000,
+    "eval_count": 2048,
+    "eval_duration": 29421209000,
+    "load_duration": 899955,
+    "total_duration": 29619946875
+  },
+  "parsed": null,
+  "thinking_trace_sha256": "40c59e324fce359ffd913e57d6e5ab412c854332c0d3e9519afa5cef56618d98",
+  "thinking_trace_present": true,
+  "thinking_characters": 8167
+}

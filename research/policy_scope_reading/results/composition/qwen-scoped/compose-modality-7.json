@@ -1,0 +1,39 @@
+{
+  "id": "compose-modality-7",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:09:08.970685+00:00",
+  "request_sha256": "1ba377311ef9c4bf9f6b2853578c7439aa04ecf1ce2d7ee0652b1f4e5f5602e2",
+  "input_sha256": "692ed6896a77b54bd6b43c6c7cfce313e296b9191dcd81d849bb33144842a18d",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:09:08.969970908Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 1인당 정액 지원금\",\n  \"rule\": \"별표에 정해짐 (별표 정보 없음)\",\n  \"certainty\": \"missing\",\n  \"evidence\": [\"S1\"],\n  \"decision\": \"not_established\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1230884724,
+    "load_duration": 862483,
+    "prompt_eval_count": 611,
+    "prompt_eval_duration": 198236000,
+    "eval_count": 73,
+    "eval_duration": 1026832000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 1인당 정액 지원금",
+    "rule": "별표에 정해짐 (별표 정보 없음)",
+    "certainty": "missing",
+    "evidence": [
+      "S1"
+    ],
+    "decision": "not_established"
+  },
+  "elapsed_seconds": 1.232
+}

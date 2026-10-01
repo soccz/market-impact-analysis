@@ -1,0 +1,32 @@
+{
+  "id": "incheon-grade-low-removed",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:22.421730+00:00",
+  "request_sha256": "3a1086d39301fb950f1e9b1d0f98b0af3a27e5626ca06bffa6e54548cb7f804a",
+  "input_sha256": "ef0e6f0bea53d8aa3b0fa10660cd558f2b57286aabcd9e358a7e9d4ef51e81ac",
+  "elapsed_seconds": 0.296,
+  "private_response_sha256": "55fce57118a086a007e67fda3e16d9e1ea075f11563d08cd39cff9cd5638f8c4",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 310,
+    "prompt_eval_duration": 51423000,
+    "eval_count": 15,
+    "eval_duration": 178969000,
+    "load_duration": 859981,
+    "total_duration": 294516801
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0"
+    ]
+  }
+}

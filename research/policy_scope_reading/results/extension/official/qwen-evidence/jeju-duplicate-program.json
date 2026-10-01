@@ -1,0 +1,34 @@
+{
+  "id": "jeju-duplicate-program",
+  "method": "evidence",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:26:18.341866+00:00",
+  "request_sha256": "e274f0fddd72139932d4a61eeb196038274a1ce1484f1d30fcfaa48cf13e94bf",
+  "input_sha256": "b2983a3199d27215bfe8f57f89fcbd5d14cf1aa21c33041a60d8491cf3f8840e",
+  "elapsed_seconds": 0.926,
+  "private_response_sha256": "649a86ccef44621af45c695d49f20b8dfde58235ae450be0b6810e6bccf6269b",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 530,
+    "prompt_eval_duration": 234789000,
+    "eval_count": 49,
+    "eval_duration": 683730000,
+    "load_duration": 1025054,
+    "total_duration": 924875074
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "O044",
+      "O045"
+    ],
+    "coverage": "sufficient"
+  }
+}

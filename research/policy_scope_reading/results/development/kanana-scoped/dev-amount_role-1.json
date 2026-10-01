@@ -1,0 +1,39 @@
+{
+  "id": "dev-amount_role-1",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:55:39.022919+00:00",
+  "request_sha256": "d3416dc4511702ae0d7e848d6f15d6b33e6bcc1810fc065273b6c2e52123fb49",
+  "input_sha256": "daf0cd89730ef679a392a1c3b2e42de96d59552cbcff8b86fe10f107a53b3999",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T07:55:39.022310193Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"사업 전체 예산은 5억원이다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\"],\n  \"rule\": \"5억원 = 최대 지원 상한, 실제 지급과 무관\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 915260656,
+    "load_duration": 1023043,
+    "prompt_eval_count": 665,
+    "prompt_eval_duration": 32526000,
+    "eval_count": 67,
+    "eval_duration": 854310000
+  },
+  "parsed": {
+    "binding": "사업 전체 예산은 5억원이다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1"
+    ],
+    "rule": "5억원 = 최대 지원 상한, 실제 지급과 무관"
+  },
+  "elapsed_seconds": 0.917
+}

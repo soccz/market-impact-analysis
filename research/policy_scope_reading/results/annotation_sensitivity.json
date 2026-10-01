@@ -1,0 +1,335 @@
+{
+  "alternative_decision": "contradicted",
+  "groups": {
+    "extension": {
+      "development": {
+        "kanana-public-baseline": {
+          "alternative_correct": 11,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 12,
+          "total": 24
+        },
+        "kanana-public-evidence": {
+          "alternative_correct": 7,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 8,
+          "total": 24
+        },
+        "qwen-baseline": {
+          "alternative_correct": 18,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 19,
+          "total": 24
+        },
+        "qwen-evidence": {
+          "alternative_correct": 15,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 16,
+          "total": 24
+        }
+      },
+      "official_base": {
+        "kanana-public-baseline": {
+          "alternative_correct": 9,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 10,
+          "total": 18
+        },
+        "kanana-public-evidence": {
+          "alternative_correct": 5,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 6,
+          "total": 18
+        },
+        "qwen-baseline": {
+          "alternative_correct": 12,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 11,
+          "total": 18
+        },
+        "qwen-evidence": {
+          "alternative_correct": 6,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 7,
+          "total": 18
+        }
+      },
+      "official_distractor": {
+        "kanana-public-baseline": {
+          "alternative_correct": 4,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 5,
+          "total": 18
+        },
+        "kanana-public-evidence": {
+          "alternative_correct": 1,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 2,
+          "total": 18
+        },
+        "qwen-baseline": {
+          "alternative_correct": 4,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 3,
+          "total": 18
+        },
+        "qwen-evidence": {
+          "alternative_correct": 9,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 10,
+          "total": 18
+        }
+      }
+    },
+    "first": {
+      "development": {
+        "consensus-baseline": {
+          "alternative_correct": 10,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 11,
+          "total": 24
+        },
+        "consensus-scoped": {
+          "alternative_correct": 9,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 10,
+          "total": 24
+        },
+        "consensus-scoped-guard": {
+          "alternative_correct": 8,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 9,
+          "total": 24
+        },
+        "kanana-baseline": {
+          "alternative_correct": 11,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 12,
+          "total": 24
+        },
+        "kanana-scoped": {
+          "alternative_correct": 10,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 11,
+          "total": 24
+        },
+        "kanana-scoped-guard": {
+          "alternative_correct": 8,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 9,
+          "total": 24
+        },
+        "qwen-baseline": {
+          "alternative_correct": 18,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 19,
+          "total": 24
+        },
+        "qwen-scoped": {
+          "alternative_correct": 19,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 20,
+          "total": 24
+        },
+        "qwen-scoped-guard": {
+          "alternative_correct": 18,
+          "changed_label_ids": [
+            "dev-possibility-1"
+          ],
+          "original_correct": 19,
+          "total": 24
+        }
+      },
+      "official_base": {
+        "consensus-baseline": {
+          "alternative_correct": 8,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 8,
+          "total": 18
+        },
+        "consensus-scoped": {
+          "alternative_correct": 7,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 8,
+          "total": 18
+        },
+        "consensus-scoped-guard": {
+          "alternative_correct": 5,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 6,
+          "total": 18
+        },
+        "kanana-baseline": {
+          "alternative_correct": 9,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 10,
+          "total": 18
+        },
+        "kanana-scoped": {
+          "alternative_correct": 7,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 8,
+          "total": 18
+        },
+        "kanana-scoped-guard": {
+          "alternative_correct": 5,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 6,
+          "total": 18
+        },
+        "qwen-baseline": {
+          "alternative_correct": 12,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 11,
+          "total": 18
+        },
+        "qwen-scoped": {
+          "alternative_correct": 15,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 16,
+          "total": 18
+        },
+        "qwen-scoped-guard": {
+          "alternative_correct": 11,
+          "changed_label_ids": [
+            "jeju-possible-deadline"
+          ],
+          "original_correct": 12,
+          "total": 18
+        }
+      },
+      "official_distractor": {
+        "consensus-baseline": {
+          "alternative_correct": 2,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 2,
+          "total": 18
+        },
+        "consensus-scoped": {
+          "alternative_correct": 3,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 3,
+          "total": 18
+        },
+        "consensus-scoped-guard": {
+          "alternative_correct": 3,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 3,
+          "total": 18
+        },
+        "kanana-baseline": {
+          "alternative_correct": 4,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 5,
+          "total": 18
+        },
+        "kanana-scoped": {
+          "alternative_correct": 6,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 7,
+          "total": 18
+        },
+        "kanana-scoped-guard": {
+          "alternative_correct": 3,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 4,
+          "total": 18
+        },
+        "qwen-baseline": {
+          "alternative_correct": 4,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 3,
+          "total": 18
+        },
+        "qwen-scoped": {
+          "alternative_correct": 10,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 9,
+          "total": 18
+        },
+        "qwen-scoped-guard": {
+          "alternative_correct": 9,
+          "changed_label_ids": [
+            "jeju-possible-deadline-distractor"
+          ],
+          "original_correct": 8,
+          "total": 18
+        }
+      }
+    }
+  },
+  "question": "The primary convention labels an uncertain policy outcome not_established. A meta-claim that the available evidence permits certainty can instead be read as contradicted by an explicit possibility clause. Only the two named wording families are varied; all original labels and outputs remain unchanged.",
+  "status": "Post-hoc annotation-convention sensitivity; not corrected gold and not independent human adjudication."
+}

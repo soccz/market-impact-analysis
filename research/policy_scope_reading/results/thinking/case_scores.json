@@ -1,0 +1,2503 @@
+{
+  "followup": {
+    "qwen-budget-control": {
+      "cases": [
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_and_alternative",
+          "id": "followup-jeju-old-sales",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "O020"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 1,
+          "family": "version_applicability",
+          "id": "followup-jeju-grandfather-old",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "N004",
+              "N025",
+              "O020"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 1,
+          "family": "recipient_and_alternative",
+          "id": "followup-jeju-new-sales-both-low",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "N025",
+              "N026"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "separate_date_anchors",
+          "id": "followup-jeju-new-birth",
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "N023"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-jeju-possible-deadline",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "N010",
+              "N011"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-jeju-actual-payout",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "N015",
+              "N031",
+              "N032"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 1,
+          "family": "recipient_or",
+          "id": "followup-incheon-parent-residence",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I05",
+              "I06"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "followup-incheon-grade-boundary",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I03"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "followup-incheon-split-payment",
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "followup-incheon-application-final",
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I02"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-incheon-exception-not-selection",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I06"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-incheon-actual-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I11",
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "inclusive_boundary": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 0,
+          "answered": 4,
+          "citations": 8,
+          "correct": 4,
+          "extra_citations": 0,
+          "joint": 3,
+          "reference_unknown": 4,
+          "semantic_unknown": 4,
+          "total": 4,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "recipient_and_alternative": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 3,
+          "correct": 1,
+          "extra_citations": 1,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 1,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "recipient_or": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 2,
+          "correct": 0,
+          "extra_citations": 1,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "separate_date_anchors": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "version_applicability": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 3,
+          "correct": 0,
+          "extra_citations": 1,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        }
+      },
+      "metrics": {
+        "abstain": 0,
+        "answered": 12,
+        "citations": 20,
+        "correct": 6,
+        "extra_citations": 3,
+        "joint": 5,
+        "reference_unknown": 4,
+        "semantic_unknown": 7,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 6,
+        "wrong_definitive": 3
+      }
+    },
+    "qwen-thinking": {
+      "cases": [
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_and_alternative",
+          "id": "followup-jeju-old-sales",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "version_applicability",
+          "id": "followup-jeju-grandfather-old",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_and_alternative",
+          "id": "followup-jeju-new-sales-both-low",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "separate_date_anchors",
+          "id": "followup-jeju-new-birth",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-jeju-possible-deadline",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-jeju-actual-payout",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "followup-incheon-parent-residence",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "followup-incheon-grade-boundary",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I03"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "followup-incheon-split-payment",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "followup-incheon-application-final",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-incheon-exception-not-selection",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "followup-incheon-actual-payment",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 4,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 4,
+          "semantic_unknown": 0,
+          "total": 4,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_and_alternative": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "separate_date_anchors": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "version_applicability": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 11,
+        "answered": 1,
+        "citations": 1,
+        "correct": 1,
+        "extra_citations": 0,
+        "joint": 1,
+        "reference_unknown": 4,
+        "semantic_unknown": 0,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 0,
+        "wrong_definitive": 0
+      }
+    }
+  },
+  "replication_base": {
+    "qwen-budget-control": {
+      "cases": [
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 1,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I05",
+              "I06"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception",
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I06"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-exception-not-selection",
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I06"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": true
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I03"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I03"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-notice",
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I02"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-final",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I02"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-nationality-exception",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I04"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-split-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-actual-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I11",
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I09",
+              "I10"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "exception": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 3,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 2,
+          "semantic_unknown": 1,
+          "total": 2,
+          "unsupported_definitive": 1,
+          "wrong_answer": 1
+        },
+        "payment_scope": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 2,
+          "correct": 0,
+          "extra_citations": 1,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 1
+        },
+        "selection_stage": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 2,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 1,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 0,
+        "answered": 12,
+        "citations": 15,
+        "correct": 9,
+        "extra_citations": 1,
+        "joint": 8,
+        "reference_unknown": 3,
+        "semantic_unknown": 3,
+        "total": 12,
+        "unsupported_definitive": 1,
+        "wrong_answer": 3,
+        "wrong_definitive": 2
+      }
+    },
+    "qwen-thinking": {
+      "cases": [
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-exception-not-selection",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I03"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-notice",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I02"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-final",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-nationality-exception",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I04"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-split-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-actual-payment",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 1,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "exception": {
+          "abstain": 1,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 1,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "selection_stage": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 1,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 7,
+        "answered": 5,
+        "citations": 5,
+        "correct": 5,
+        "extra_citations": 0,
+        "joint": 5,
+        "reference_unknown": 3,
+        "semantic_unknown": 0,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 0,
+        "wrong_definitive": 0
+      }
+    }
+  },
+  "replication_distractor": {
+    "qwen-budget-control": {
+      "cases": [
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I05"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_citation"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-exception-not-selection-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_citation"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 2,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 2,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I03",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 3,
+          "family": "date_anchor",
+          "id": "incheon-application-notice-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I01",
+              "I02",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 3,
+          "family": "date_anchor",
+          "id": "incheon-application-final-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I01",
+              "I02",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 1,
+          "family": "exception",
+          "id": "incheon-nationality-exception-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I04",
+              "Z1"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-split-payment-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "I12"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "modality",
+          "id": "incheon-actual-payment-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I11",
+              "I12",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final-distractor",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "I09",
+              "I10",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 8,
+          "correct": 0,
+          "extra_citations": 6,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 2
+        },
+        "exception": {
+          "abstain": 1,
+          "answered": 1,
+          "citations": 2,
+          "correct": 1,
+          "extra_citations": 1,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 5,
+          "correct": 0,
+          "extra_citations": 4,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 2
+        },
+        "modality": {
+          "abstain": 1,
+          "answered": 1,
+          "citations": 4,
+          "correct": 1,
+          "extra_citations": 2,
+          "joint": 1,
+          "reference_unknown": 2,
+          "semantic_unknown": 1,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "selection_stage": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 4,
+          "correct": 1,
+          "extra_citations": 2,
+          "joint": 1,
+          "reference_unknown": 1,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 2,
+        "answered": 10,
+        "citations": 26,
+        "correct": 6,
+        "extra_citations": 15,
+        "joint": 6,
+        "reference_unknown": 3,
+        "semantic_unknown": 6,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 4,
+        "wrong_definitive": 0
+      }
+    },
+    "qwen-thinking": {
+      "cases": [
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-exception-not-selection-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-notice-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-final-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-nationality-exception-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-split-payment-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "supported",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "contradicted",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-actual-payment-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final-distractor",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "exception": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 0,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "selection_stage": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 1,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 12,
+        "answered": 0,
+        "citations": 0,
+        "correct": 0,
+        "extra_citations": 0,
+        "joint": 0,
+        "reference_unknown": 3,
+        "semantic_unknown": 0,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 0,
+        "wrong_definitive": 0
+      }
+    }
+  },
+  "replication_removed": {
+    "qwen-budget-control": {
+      "cases": [
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "modality",
+          "id": "incheon-exception-not-selection-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-notice-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "date_anchor",
+          "id": "incheon-application-final-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-nationality-exception-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "payment_scope",
+          "id": "incheon-split-payment-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 2,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0",
+              "Z1",
+              "Z2"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-actual-payment-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": true,
+          "extra_citations_over_minimum": 0,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final-removed",
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "Z0"
+            ],
+            "reason": "model_output"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": true,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 4,
+          "correct": 2,
+          "extra_citations": 2,
+          "joint": 2,
+          "reference_unknown": 2,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "exception": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 2,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 2,
+          "correct": 2,
+          "extra_citations": 0,
+          "joint": 2,
+          "reference_unknown": 2,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 4,
+          "correct": 2,
+          "extra_citations": 2,
+          "joint": 2,
+          "reference_unknown": 2,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 0,
+          "answered": 2,
+          "citations": 6,
+          "correct": 2,
+          "extra_citations": 4,
+          "joint": 2,
+          "reference_unknown": 2,
+          "semantic_unknown": 2,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 1,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "selection_stage": {
+          "abstain": 0,
+          "answered": 1,
+          "citations": 1,
+          "correct": 1,
+          "extra_citations": 0,
+          "joint": 1,
+          "reference_unknown": 1,
+          "semantic_unknown": 1,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 0,
+        "answered": 12,
+        "citations": 20,
+        "correct": 12,
+        "extra_citations": 8,
+        "joint": 12,
+        "reference_unknown": 12,
+        "semantic_unknown": 12,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 0,
+        "wrong_definitive": 0
+      }
+    },
+    "qwen-thinking": {
+      "cases": [
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "recipient_or",
+          "id": "incheon-parent-residence-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-exception-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-exception-not-selection-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-boundary-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "inclusive_boundary",
+          "id": "incheon-grade-low-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-notice-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "date_anchor",
+          "id": "incheon-application-final-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "exception",
+          "id": "incheon-nationality-exception-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-split-payment-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "payment_scope",
+          "id": "incheon-unconditional-payment-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "modality",
+          "id": "incheon-actual-payment-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        },
+        {
+          "correct": false,
+          "extra_citations_over_minimum": 0,
+          "family": "selection_stage",
+          "id": "incheon-shortlist-final-removed",
+          "joint": false,
+          "prediction": {
+            "decision": "abstain",
+            "evidence": [],
+            "reason": "invalid_schema"
+          },
+          "reference": "not_established",
+          "reference_evidence_covered": false,
+          "unsupported_definitive": false
+        }
+      ],
+      "families": {
+        "date_anchor": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "exception": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "inclusive_boundary": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "modality": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "payment_scope": {
+          "abstain": 2,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 2,
+          "semantic_unknown": 0,
+          "total": 2,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "recipient_or": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 1,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        },
+        "selection_stage": {
+          "abstain": 1,
+          "answered": 0,
+          "citations": 0,
+          "correct": 0,
+          "extra_citations": 0,
+          "joint": 0,
+          "reference_unknown": 1,
+          "semantic_unknown": 0,
+          "total": 1,
+          "unsupported_definitive": 0,
+          "wrong_answer": 0
+        }
+      },
+      "metrics": {
+        "abstain": 12,
+        "answered": 0,
+        "citations": 0,
+        "correct": 0,
+        "extra_citations": 0,
+        "joint": 0,
+        "reference_unknown": 12,
+        "semantic_unknown": 0,
+        "total": 12,
+        "unsupported_definitive": 0,
+        "wrong_answer": 0,
+        "wrong_definitive": 0
+      }
+    }
+  }
+}

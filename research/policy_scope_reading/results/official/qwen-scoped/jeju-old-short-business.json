@@ -1,0 +1,37 @@
+{
+  "id": "jeju-old-short-business",
+  "method": "scoped",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:07:27.807737+00:00",
+  "request_sha256": "7c0c7dc21f0849f3fdba7733ab20fc80626132e2c671e5f7d0032c27201e9f81",
+  "input_sha256": "ad9c3bf43a739e3f6d2f1a195191da2b5b2180ca7baf9d0454e572330643f58b",
+  "elapsed_seconds": 1.897,
+  "private_response_sha256": "0333df9a19daf6a60abf357d494350e8d64c616f73785c83b41e85b68d4d6f02",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 643,
+    "prompt_eval_duration": 235000000,
+    "eval_count": 117,
+    "eval_duration": 1653117000,
+    "load_duration": 781430,
+    "total_duration": 1895383139
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "O020",
+      "O021"
+    ],
+    "certainty": "definite",
+    "rule": ""
+  },
+  "trace_notice": "Numeric/failed-condition witness only; this is not the full generated trace.",
+  "full_trace_sha256": "0081aa60224a070d9f1beb0ceb0114bbedfb4893865cd081ee3ddd4cc47d6629"
+}

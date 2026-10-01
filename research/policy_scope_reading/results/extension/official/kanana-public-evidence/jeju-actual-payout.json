@@ -1,0 +1,35 @@
+{
+  "id": "jeju-actual-payout",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:04.056023+00:00",
+  "request_sha256": "7c18f3f1d3302a4bade66de3618f6e756e8c448875f73a544bee1275e39a3050",
+  "input_sha256": "d019fb6a958d58307df5b657813ba57b1bb557ddd0cd8ee6124ba049f754d58e",
+  "elapsed_seconds": 0.558,
+  "private_response_sha256": "eb03b688963bc07d7ceea736ecf7cee5bddd5c57b030fa270d4ac270684ac566",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 577,
+    "prompt_eval_duration": 41216000,
+    "eval_count": 38,
+    "eval_duration": 484476000,
+    "load_duration": 881986,
+    "total_duration": 556608540
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "N015",
+      "N031",
+      "N032"
+    ],
+    "coverage": "insufficient"
+  }
+}

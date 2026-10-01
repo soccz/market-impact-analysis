@@ -1,0 +1,40 @@
+{
+  "id": "compose-version_scope-6",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:09.705698+00:00",
+  "request_sha256": "b44f851df4dbf15998b27193bf625fa23678287952d2706e3279d244c7165858",
+  "input_sha256": "81b8c11dab27bd13f64329ccaa936daa9e07476da260c7aad2a9b697f0b4c821",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:09.705047702Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"10월 1일 이후 접수 건은 새 기준을 적용한다. 10월 2일 접수는 새 기준, 첫 신청자는 140% 상한.\",\n  \"certainty\": \"definite\",\n  \"decision\": \"supported\",\n  \"evidence\": [\"S1\", \"S3\"],\n  \"rule\": \"125 ≤ 140, 조건 충족\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1212050690,
+    "load_duration": 771770,
+    "prompt_eval_count": 732,
+    "prompt_eval_duration": 20094000,
+    "eval_count": 89,
+    "eval_duration": 1162703000
+  },
+  "parsed": {
+    "binding": "10월 1일 이후 접수 건은 새 기준을 적용한다. 10월 2일 접수는 새 기준, 첫 신청자는 140% 상한.",
+    "certainty": "definite",
+    "decision": "supported",
+    "evidence": [
+      "S1",
+      "S3"
+    ],
+    "rule": "125 ≤ 140, 조건 충족"
+  },
+  "elapsed_seconds": 1.214
+}

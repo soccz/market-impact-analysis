@@ -1,0 +1,38 @@
+{
+  "id": "dev-version-1",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T07:51:53.917824+00:00",
+  "request_sha256": "9bd6645a213e3c391a19f8905539aac27a60cc921626518441156bf18230298a",
+  "input_sha256": "ac412af23faf1d61b617b6634ca8865d3e62ac3c3d63a21d7c77cab1acb86a8e",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T07:51:53.917192431Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"not_established\",\"evidence\":[\"S1\",\"S2\",\"S3\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 413724765,
+    "load_duration": 731776,
+    "prompt_eval_count": 228,
+    "prompt_eval_duration": 119948000,
+    "eval_count": 21,
+    "eval_duration": 288450000
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "elapsed_seconds": 0.415
+}

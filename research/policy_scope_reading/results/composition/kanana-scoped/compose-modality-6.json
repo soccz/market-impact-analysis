@@ -1,0 +1,40 @@
+{
+  "id": "compose-modality-6",
+  "method": "scoped",
+  "model": "kanana",
+  "model_name": "ra-kanana15-8b:q4_k_m-20260927",
+  "model_digest": "d1fa824bac0c6022528f86d776968325dbe1faacaa7862d86888eb1158a00e33",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:05:43.286256+00:00",
+  "request_sha256": "4c32c93176e7e1934b5cb860bbb5af54eb00900baa7132f44a9e358c13ae0de6",
+  "input_sha256": "3478d66c2d77f5a00e699d9f748b5190a48eee46b158b32f2842549ddb7dcd39",
+  "response": {
+    "model": "ra-kanana15-8b:q4_k_m-20260927",
+    "created_at": "2026-10-01T08:05:43.285427356Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"binding\": \"가상 새봄사업의 정액 지원금은 50만원이 아니라고 밝혔다. 다른 금액에 대한 명시적 발표는 없었다.\",\n  \"certainty\": \"missing\",\n  \"decision\": \"not_established\",\n  \"evidence\": [\"S1\", \"S2\"],\n  \"rule\": \"50만원이 아니라는 점만 명시, 70만원 근거 부재\"\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1291883484,
+    "load_duration": 699213,
+    "prompt_eval_count": 694,
+    "prompt_eval_duration": 19387000,
+    "eval_count": 95,
+    "eval_duration": 1244318000
+  },
+  "parsed": {
+    "binding": "가상 새봄사업의 정액 지원금은 50만원이 아니라고 밝혔다. 다른 금액에 대한 명시적 발표는 없었다.",
+    "certainty": "missing",
+    "decision": "not_established",
+    "evidence": [
+      "S1",
+      "S2"
+    ],
+    "rule": "50만원이 아니라는 점만 명시, 70만원 근거 부재"
+  },
+  "elapsed_seconds": 1.294
+}

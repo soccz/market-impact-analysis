@@ -1,0 +1,36 @@
+{
+  "id": "compose-threshold_or-6",
+  "method": "baseline",
+  "model": "qwen",
+  "model_name": "qwen3.5:9b",
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:06:50.900770+00:00",
+  "request_sha256": "55b5a64fdf8cf3cfb459ce97e8393007747eca926468794e880088a41f6aeb3d",
+  "input_sha256": "6538ff0ec8e819d24fb5aa1766d778cbf7f6bf6dc388c19e5bbbf940c80d2cd2",
+  "response": {
+    "model": "qwen3.5:9b",
+    "created_at": "2026-10-01T08:06:50.900058144Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"decision\":\"contradicted\",\"evidence\":[\"S2\"]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 320490162,
+    "load_duration": 706519,
+    "prompt_eval_count": 232,
+    "prompt_eval_duration": 127452000,
+    "eval_count": 14,
+    "eval_duration": 189453000
+  },
+  "parsed": {
+    "decision": "contradicted",
+    "evidence": [
+      "S2"
+    ]
+  },
+  "elapsed_seconds": 0.322
+}

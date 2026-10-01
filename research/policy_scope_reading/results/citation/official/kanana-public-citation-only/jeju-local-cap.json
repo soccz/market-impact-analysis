@@ -1,0 +1,32 @@
+{
+  "id": "jeju-local-cap",
+  "method": "citation-only",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T09:11:02.127979+00:00",
+  "request_sha256": "673b3fca7725ceaabf24afe1f15d6a4968a2666a5543347f0076e7a3effaa269",
+  "input_sha256": "ec52aed81b4c73dd2dfa191cef02bee81019f89ce4c6b6fd8f064ee504e50656",
+  "elapsed_seconds": 0.245,
+  "private_response_sha256": "59f9be6962e6d5f2dd3d1df585ba06d79d7ed3aba91970ef6ad8e813e1ea9ffe",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 235,
+    "prompt_eval_duration": 60480000,
+    "eval_count": 12,
+    "eval_duration": 138403000,
+    "load_duration": 801230,
+    "total_duration": 243743626
+  },
+  "parsed": {
+    "decision": "supported",
+    "evidence": [
+      "N016"
+    ]
+  }
+}

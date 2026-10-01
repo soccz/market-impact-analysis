@@ -1,0 +1,33 @@
+{
+  "id": "incheon-unconditional-payment-removed",
+  "method": "evidence",
+  "model": "kanana-public",
+  "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+  "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+  "server": {
+    "version": "0.33.2"
+  },
+  "created_utc": "2026-10-01T08:31:52.888819+00:00",
+  "request_sha256": "7cd6d1bfa3dac2955f491e82b757013829723568559d06f3ab9ee10f307ba8b5",
+  "input_sha256": "53847e2922804d3116fe721bffde3d5d2c6a107b4c1b671ac7cb8c939d4f340b",
+  "elapsed_seconds": 0.492,
+  "private_response_sha256": "b3181fb437955bc5949e627b8b0349864ef8f5790d421d1f687a28f540e055c3",
+  "response_redacted": true,
+  "runtime": {
+    "done": true,
+    "done_reason": "stop",
+    "prompt_eval_count": 617,
+    "prompt_eval_duration": 63750000,
+    "eval_count": 30,
+    "eval_duration": 398724000,
+    "load_duration": 974937,
+    "total_duration": 490979874
+  },
+  "parsed": {
+    "decision": "not_established",
+    "evidence": [
+      "Z0"
+    ],
+    "coverage": "insufficient"
+  }
+}
