@@ -1,0 +1,2504 @@
+[
+  {
+    "after_thousand_won": 700,
+    "before_thousand_won": 500,
+    "competition": "전국대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "0604cd3138feed202ef293e062da2f4720f77a05d25ee036a7a01c9cfcdd1f0a",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          700,
+          700
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1000,
+    "before_thousand_won": 1000,
+    "competition": "전국대회",
+    "difference_thousand_won": 0,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1000,
+          1000
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1000,
+          1000
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "unchanged"
+  },
+  {
+    "after_thousand_won": 1500,
+    "before_thousand_won": 1500,
+    "competition": "전국대회",
+    "difference_thousand_won": 0,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1500,
+          1500
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1500,
+          1500
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "unchanged"
+  },
+  {
+    "after_thousand_won": 1200,
+    "before_thousand_won": 1000,
+    "competition": "국제대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "03743f03b96b5b1123c3b77862ec59a31fbd1271e1ca294a535587673d3e12f4",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1200,
+          1200
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          1000,
+          1200
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1500,
+    "before_thousand_won": 1500,
+    "competition": "국제대회",
+    "difference_thousand_won": 0,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1500,
+          1500
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          1500,
+          1500
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "unchanged"
+  },
+  {
+    "after_thousand_won": 2000,
+    "before_thousand_won": 2000,
+    "competition": "국제대회",
+    "difference_thousand_won": 0,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "eaba2fc8b501189b8e9abfa2e0feab57e75819331a3bb7886e11a41ca0f9ec19",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "f29b23331ae5d19e2fd17b5759d13dde2bf82331590fe36ca42134a87f9916d4",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 3,
+          "rowspan": 1,
+          "sha256": "eaba2fc8b501189b8e9abfa2e0feab57e75819331a3bb7886e11a41ca0f9ec19",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          2000,
+          2000
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "unchanged",
+        "values": [
+          2000,
+          2000
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      }
+    },
+    "rank": 1,
+    "reference_relation": "unchanged"
+  },
+  {
+    "after_thousand_won": 500,
+    "before_thousand_won": 300,
+    "competition": "전국대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "0604cd3138feed202ef293e062da2f4720f77a05d25ee036a7a01c9cfcdd1f0a",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "983bd614bb5afece5ab3b6023f71147cd7b6bc2314f9d27af7422541c6558389",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          500,
+          500
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 700,
+    "before_thousand_won": 600,
+    "competition": "전국대회",
+    "difference_thousand_won": 100,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "284b7e6d788f363f910f7beb1910473e23ce9d6c871f1ce0f31f22a982d48ad4",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          700,
+          700
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          600,
+          700
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1200,
+    "before_thousand_won": 1000,
+    "competition": "전국대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "03743f03b96b5b1123c3b77862ec59a31fbd1271e1ca294a535587673d3e12f4",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1200,
+          1200
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          1000,
+          1200
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1000,
+    "before_thousand_won": 700,
+    "competition": "국제대회",
+    "difference_thousand_won": 300,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1000,
+          1000
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          700,
+          1000
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1200,
+    "before_thousand_won": 1000,
+    "competition": "국제대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "03743f03b96b5b1123c3b77862ec59a31fbd1271e1ca294a535587673d3e12f4",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1200,
+          1200
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          1000,
+          1200
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1700,
+    "before_thousand_won": 1500,
+    "competition": "국제대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "bbb9dc0f5e72b3479a8e944ed9eca5332d752da3e623f62d2594afc2ad3e7c50",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "ad9aa126548dc3c7f88256e5fa2b64e9e838766d78bffffe2b1eae11de46d9e0",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 4,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1700,
+          1700
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          1500,
+          1700
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          300,
+          500
+        ]
+      }
+    },
+    "rank": 2,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 300,
+    "before_thousand_won": 200,
+    "competition": "전국대회",
+    "difference_thousand_won": 100,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "983bd614bb5afece5ab3b6023f71147cd7b6bc2314f9d27af7422541c6558389",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 1,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          300,
+          300
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 500,
+    "before_thousand_won": 400,
+    "competition": "전국대회",
+    "difference_thousand_won": 100,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "0604cd3138feed202ef293e062da2f4720f77a05d25ee036a7a01c9cfcdd1f0a",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "26d228663f13a88592a12d16cf9587caab0388b262d6d9f126ed62f9333aca94",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          500,
+          500
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          400,
+          500
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1000,
+    "before_thousand_won": 700,
+    "competition": "전국대회",
+    "difference_thousand_won": 300,
+    "evidence": {
+      "after": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 1,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "d915ead00e0d9ec6551d017dd201899995d7a3a997570e03fd73a38850b88046",
+          "table": 22
+        },
+        {
+          "col": 2,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 3,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1000,
+          1000
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          700,
+          1000
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 700,
+    "before_thousand_won": 500,
+    "competition": "국제대회",
+    "difference_thousand_won": 200,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 2,
+          "sha256": "9b679df05d68aaba608e3c266d1f710cf940df6f714a0700bdaf1bc5f6d3536a",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 4,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "0604cd3138feed202ef293e062da2f4720f77a05d25ee036a7a01c9cfcdd1f0a",
+          "table": 22
+        }
+      ]
+    },
+    "group": "개인",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          700,
+          700
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1000,
+    "before_thousand_won": 700,
+    "competition": "국제대회",
+    "difference_thousand_won": 300,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "15e540e0a12223771b9e5c5af8c09ba09cf5cf193d2a7c6cb975ad8aebeb8166",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "99ee50221221864d50c60baea6f14d8ac2e235cc6e78be6088cd40cc97fca394",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체2~4명",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1000,
+          1000
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          700,
+          1000
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  },
+  {
+    "after_thousand_won": 1500,
+    "before_thousand_won": 1000,
+    "competition": "국제대회",
+    "difference_thousand_won": 500,
+    "evidence": {
+      "after": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_after",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_after",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_after",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "e0810be6a8e1006d387e0acfa70270d6ba59434dc7dae8ef292764cbc0f4f34f",
+          "table": 22
+        }
+      ],
+      "before": [
+        {
+          "col": 4,
+          "colspan": 3,
+          "document": "okcheon_2024_cpu",
+          "row": 0,
+          "rowspan": 1,
+          "sha256": "edd3a1a354030564e7f893c86ab1e46d7f1aa1e80c7bbbfce804994b0ab912b1",
+          "table": 22
+        },
+        {
+          "col": 5,
+          "colspan": 2,
+          "document": "okcheon_2024_cpu",
+          "row": 1,
+          "rowspan": 1,
+          "sha256": "e1d6f0acf31a08bd63d7c7fef0a9068c183406d7ccf9a4b4fc49f17e630a9b6e",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 2,
+          "rowspan": 1,
+          "sha256": "76d03606cb720f94ebbc1a5b26680ddd67b7cf07f62bf1db410ea476b5a65de7",
+          "table": 22
+        },
+        {
+          "col": 0,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "bff76d2b9a877e7be6a77bd11f4dea8aa36d4c303e5aa03d5bff5d13d5111a95",
+          "table": 22
+        },
+        {
+          "col": 6,
+          "colspan": 1,
+          "document": "okcheon_2024_cpu",
+          "row": 5,
+          "rowspan": 1,
+          "sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+          "table": 22
+        }
+      ]
+    },
+    "group": "단체5명이상",
+    "methods": {
+      "current_attachments_as_history": {
+        "pair_exact": false,
+        "relation": "unchanged",
+        "values": [
+          1500,
+          1500
+        ]
+      },
+      "first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          500,
+          700
+        ]
+      },
+      "merged_header_table_reader": {
+        "pair_exact": true,
+        "relation": "changed",
+        "values": [
+          1000,
+          1500
+        ]
+      },
+      "rank_only_first_numeric_cell": {
+        "pair_exact": false,
+        "relation": "changed",
+        "values": [
+          200,
+          300
+        ]
+      }
+    },
+    "rank": 3,
+    "reference_relation": "changed"
+  }
+]

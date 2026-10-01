@@ -1,0 +1,91 @@
+{
+  "changed": 14,
+  "explicit_erratum_pairs": 1,
+  "families": 2,
+  "family_modality": {
+    "after": {
+      "definite_exclusion": false,
+      "may_exclude": true,
+      "named_example_added": true,
+      "reason": "possibility_and_confirmation",
+      "state": "needs_confirmation"
+    },
+    "applicable_eligibility_change": "not_established",
+    "before": {
+      "definite_exclusion": false,
+      "may_exclude": true,
+      "named_example_added": false,
+      "reason": "possibility_and_confirmation",
+      "state": "needs_confirmation"
+    },
+    "evidence": [
+      {
+        "document": "okcheon_2025_before",
+        "end": 518,
+        "sha256": "dcf76e071149629ffa94c4c5a3670c443217d197c51d42bd377e88433816ec74",
+        "start": 475
+      },
+      {
+        "document": "okcheon_2025_after",
+        "end": 655,
+        "sha256": "a6970ecd313342ed052c3392ae645089bad6ebe422b636f1e6aa77f2f0ee5248",
+        "start": 599
+      }
+    ],
+    "issuer_action": "revision_notice",
+    "named_example_added": true,
+    "reason": "Both clauses retain possibility and require confirmation. Adding an example does not by itself prove a new definite exclusion.",
+    "reference_match": true,
+    "text_changed": true
+  },
+  "independent_human_reviews": 0,
+  "institutions": 1,
+  "interpretation": "Exploratory source/table reconstruction after observing two notices, not 18 independent policy events or held-out NLP accuracy.",
+  "issuer_label_all_changed": {
+    "false_changes": 4,
+    "relation_exact": 14
+  },
+  "methods": {
+    "current_attachments_as_history": {
+      "false_changes": 0,
+      "missed_changes": 14,
+      "paired_values_exact": 4,
+      "relation_exact": 4
+    },
+    "first_numeric_cell": {
+      "false_changes": 4,
+      "missed_changes": 0,
+      "paired_values_exact": 2,
+      "relation_exact": 14
+    },
+    "merged_header_table_reader": {
+      "false_changes": 0,
+      "missed_changes": 0,
+      "paired_values_exact": 18,
+      "relation_exact": 18
+    },
+    "rank_only_first_numeric_cell": {
+      "false_changes": 4,
+      "missed_changes": 0,
+      "paired_values_exact": 3,
+      "relation_exact": 14
+    }
+  },
+  "new_model_fits": 0,
+  "provenance": {
+    "cross_checks": {
+      "after_cells": 18,
+      "before_cells": 18,
+      "declared_html_unit": null,
+      "unit_source": "Full HWP notice near the matching table states thousand won."
+    },
+    "current_attachments_distinct_historical_pair": false,
+    "current_prior_and_correction_hwp_identical": true,
+    "issuer_current_matches_declared_new": true,
+    "note": "Current byte equality does not establish when or whether a server-side replacement happened. Original posting date is not a file-version timestamp.",
+    "university_old_matches_declared_old": true
+  },
+  "revision_notice_pairs": 1,
+  "table_queries": 18,
+  "unchanged": 4
+}

@@ -1,0 +1,18 @@
+{
+  "initial_extractor_failure": "hwp5txt replaces tables with placeholders; its output is not used as complete input. Use hwp5proc XML with merged cell coordinates.",
+  "not_selected": [
+    "LH housing snippets: issuer originals not established in this collection; not counted.",
+    "Recipient-result lists and personal application data are outside scope."
+  ],
+  "source_findings": [
+    "Prior-post and correction-post 2024 HWP attachments are byte-identical at collection time.",
+    "The prior-post PDF already has the corrected values.",
+    "A university copy retains the before values, agreeing with the issuer explicit old table in every cell. No historical file replacement date is inferred."
+  ],
+  "unavailable_candidates": [
+    {
+      "result": "Official search result identifies an erratum, but direct page and index returned HTTP400 and both full versions were not obtained. Excluded from evaluated pairs.",
+      "url": "https://www.wando.go.kr/wando/sub.cs?m=1031&nttId=31172"
+    }
+  ]
+}

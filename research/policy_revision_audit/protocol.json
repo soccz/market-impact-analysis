@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "families": [
+    {
+      "after": "okcheon_2024_after",
+      "before": "okcheon_2024_cpu",
+      "confirmation": "okcheon_2024_correction_notice",
+      "id": "talent2024",
+      "issuer_action": "explicit error correction"
+    },
+    {
+      "after": "okcheon_2025_after",
+      "before": "okcheon_2025_before",
+      "id": "family2025",
+      "issuer_action": "revision notice"
+    }
+  ],
+  "independent_human_reviews": 0,
+  "legal_effect": "Do not label an erratum as a new benefit increase or infer retrospective payment rights.",
+  "methods": [
+    "first_numeric_cell",
+    "rank_only_first_numeric_cell",
+    "merged_header_table_reader",
+    "may_exclude_modality_reader"
+  ],
+  "new_model_fits": 0,
+  "outputs": "Source hashes, table-cell/header locators, automatic changes, frozen provisional references, 18 table queries, uncertainty probes, replay tests and public visual report. Full sources remain private.",
+  "question": "Can an issuer-labelled correction be separated from a subject-specific value change and from a change that leaves eligibility undecidable?",
+  "reference": "AI-assisted provisional transcription checked against issuer tables and separate full notices; no independent humans.",
+  "scope": "One institution, two scholarship notices; one explicit erratum and one revision. Extract table amounts by competition, recipient grouping and rank; these are printed table amounts, not actual awards or whole eligibility. Preserve may-exclude modality. Do not assume added text necessarily changes eligibility.",
+  "selection": "Targeted discovery, not a random or complete population survey. Original attachments and issuer before/after declarations are required. Unavailable candidates are recorded separately.",
+  "status": "Exploratory implementation after source inspection; not preregistered or a held-out benchmark."
+}
