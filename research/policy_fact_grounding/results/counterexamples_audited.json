@@ -1,0 +1,1133 @@
+[
+  {
+    "split": "official",
+    "bundle": "dj-city-income",
+    "model": "qwen",
+    "scope": "신청일의 주민등록 도시와 공고의 건강보험 기준으로 이미 산정된 가구 중위소득 비율 요건만. 주택·나이·증빙·선정순위는 범위 밖이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_city": [
+        "__other__",
+        "대전광역시"
+      ]
+    }
+  },
+  {
+    "split": "official",
+    "bundle": "dj-benefits",
+    "model": "qwen",
+    "scope": "공고의 기초생활 급여 수급에 따른 제외 요건만. 통과한다는 말은 이 제외 사유가 없다는 뜻이다.",
+    "status": "witness",
+    "domains": {
+      "education_benefit": [
+        false,
+        true
+      ],
+      "housing_benefit": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "medical_benefit": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "dj-city-benefits",
+    "model": "qwen",
+    "scope": "신청일 주민등록 도시 요건과 기초생활 급여 수급 제외 요건의 동시 충족만. 나머지 요건은 범위 밖이다.",
+    "status": "witness",
+    "domains": {
+      "education_benefit": [
+        false,
+        true
+      ],
+      "housing_benefit": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "medical_benefit": [
+        false,
+        true
+      ],
+      "residence_city": [
+        "__other__",
+        "대전광역시"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "dj-foreign",
+    "model": "qwen",
+    "scope": "외국 국적자 제외 여부만. 재외국민 여부와 다른 요건은 평가 범위 밖이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "foreign_national": [
+        false,
+        true
+      ]
+    }
+  },
+  {
+    "split": "official",
+    "bundle": "gj-city-age-income",
+    "model": "qwen",
+    "scope": "공고일인 2025-02-05의 주민등록 도시·만 나이·공고가 지정한 2024년 건강보험 기준으로 이미 산정한 가구 중위소득 비율만. 학력·근로·다른 요건은 범위 밖이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_city": [
+        "__other__",
+        "광주광역시"
+      ]
+    }
+  },
+  {
+    "split": "official",
+    "bundle": "gj-benefits",
+    "model": "qwen",
+    "scope": "공고의 생계급여·조건부 생계급여 제외 및 의료·교육·주거급여 예외만. livelihood_benefit은 생계 또는 조건부 생계급여 수급을 포함한다.",
+    "status": "unavailable",
+    "predicted_status": "policy_insufficient",
+    "reference_status": "valid"
+  },
+  {
+    "split": "official",
+    "bundle": "gj-work",
+    "model": "qwen",
+    "scope": "미취업 또는 단기 상용근로의 주당 시간 요건만. 사업자등록·휴폐업·공무원 합격·증빙은 범위 밖이다. unemployed는 명시된 미취업/고용보험 미가입, employed는 명시된 고용보험 가입 상용근로 상태에 대응한다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "employment_status": [
+        "__other__",
+        "employed",
+        "unemployed"
+      ],
+      "weekly_work_hours": {
+        "min": 0,
+        "max": 168,
+        "integer": true
+      }
+    }
+  },
+  {
+    "split": "official",
+    "bundle": "gj-education-work",
+    "model": "qwen",
+    "scope": "일반 국내 학교의 학력 요건과 미취업 또는 단기 상용근로의 주당 시간 요건만. 사업자등록·휴폐업·공무원 합격·증빙은 범위 밖이다. unemployed는 명시된 미취업/고용보험 미가입, employed는 명시된 고용보험 가입 상용근로 상태에 대응한다. 원격대학·학점은행제 재학 및 졸업예정자 예외는 이 범위에서 제외한다. enrolled/leave는 예외에 해당하지 않는 일반 학교의 재학/휴학이며 제적 여부는 이번 주장에 없다.",
+    "status": "witness",
+    "domains": {
+      "education_status": [
+        "__other__",
+        "completed",
+        "dropout",
+        "enrolled",
+        "graduated",
+        "leave"
+      ],
+      "employment_status": [
+        "__other__",
+        "employed",
+        "unemployed"
+      ],
+      "weekly_work_hours": {
+        "min": 0,
+        "max": 168,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "__other__"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 0
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "dj-city-income",
+    "model": "kanana-public",
+    "scope": "신청일의 주민등록 도시와 공고의 건강보험 기준으로 이미 산정된 가구 중위소득 비율 요건만. 주택·나이·증빙·선정순위는 범위 밖이다.",
+    "status": "witness",
+    "domains": {
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_city": [
+        "__other__",
+        "대전광역시"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 151
+        },
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "dj-benefits",
+    "model": "kanana-public",
+    "scope": "공고의 기초생활 급여 수급에 따른 제외 요건만. 통과한다는 말은 이 제외 사유가 없다는 뜻이다.",
+    "status": "unavailable",
+    "predicted_status": "policy_insufficient",
+    "reference_status": "valid"
+  },
+  {
+    "split": "official",
+    "bundle": "dj-city-benefits",
+    "model": "kanana-public",
+    "scope": "신청일 주민등록 도시 요건과 기초생활 급여 수급 제외 요건의 동시 충족만. 나머지 요건은 범위 밖이다.",
+    "status": "witness",
+    "domains": {
+      "housing_benefit": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "medical_benefit": [
+        false,
+        true
+      ],
+      "residence_city": [
+        "__other__",
+        "대전광역시"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "medical_benefit",
+          "value": true
+        },
+        {
+          "field": "residence_city",
+          "value": "__other__"
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "dj-foreign",
+    "model": "kanana-public",
+    "scope": "외국 국적자 제외 여부만. 재외국민 여부와 다른 요건은 평가 범위 밖이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "foreign_national": [
+        false,
+        true
+      ]
+    }
+  },
+  {
+    "split": "official",
+    "bundle": "gj-city-age-income",
+    "model": "kanana-public",
+    "scope": "공고일인 2025-02-05의 주민등록 도시·만 나이·공고가 지정한 2024년 건강보험 기준으로 이미 산정한 가구 중위소득 비율만. 학력·근로·다른 요건은 범위 밖이다.",
+    "status": "witness",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_city": [
+        "__other__",
+        "광주광역시"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 0
+        },
+        {
+          "field": "income_pct",
+          "value": 0
+        },
+        {
+          "field": "residence_city",
+          "value": "__other__"
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "gj-benefits",
+    "model": "kanana-public",
+    "scope": "공고의 생계급여·조건부 생계급여 제외 및 의료·교육·주거급여 예외만. livelihood_benefit은 생계 또는 조건부 생계급여 수급을 포함한다.",
+    "status": "witness",
+    "domains": {
+      "education_benefit": [
+        false,
+        true
+      ],
+      "housing_benefit": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "medical_benefit": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "gj-work",
+    "model": "kanana-public",
+    "scope": "미취업 또는 단기 상용근로의 주당 시간 요건만. 사업자등록·휴폐업·공무원 합격·증빙은 범위 밖이다. unemployed는 명시된 미취업/고용보험 미가입, employed는 명시된 고용보험 가입 상용근로 상태에 대응한다.",
+    "status": "witness",
+    "domains": {
+      "employment_status": [
+        "__other__",
+        "employed",
+        "unemployed"
+      ],
+      "weekly_work_hours": {
+        "min": 0,
+        "max": 168,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "__other__"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 0
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "official",
+    "bundle": "gj-education-work",
+    "model": "kanana-public",
+    "scope": "일반 국내 학교의 학력 요건과 미취업 또는 단기 상용근로의 주당 시간 요건만. 사업자등록·휴폐업·공무원 합격·증빙은 범위 밖이다. unemployed는 명시된 미취업/고용보험 미가입, employed는 명시된 고용보험 가입 상용근로 상태에 대응한다. 원격대학·학점은행제 재학 및 졸업예정자 예외는 이 범위에서 제외한다. enrolled/leave는 예외에 해당하지 않는 일반 학교의 재학/휴학이며 제적 여부는 이번 주장에 없다.",
+    "status": "unavailable",
+    "predicted_status": "invalid_policy_schema",
+    "reference_status": "valid"
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-age-or-income",
+    "model": "qwen",
+    "scope": "아래 가상 사업의 나이·소득·거주기간 요건만",
+    "status": "witness",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_months": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 23
+        },
+        {
+          "field": "income_pct",
+          "value": 0
+        },
+        {
+          "field": "residence_months",
+          "value": 0
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-exception-benefit",
+    "model": "qwen",
+    "scope": "국적 예외와 생계급여 제외의 동시 충족만",
+    "status": "witness",
+    "domains": {
+      "foreign_national": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "permanent_resident": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-date-money",
+    "model": "qwen",
+    "scope": "가입일에 따라 달라지는 임대보증금 상한만",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "deposit_krw": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "joined_on": [
+        "2000-01-01",
+        "2100-12-31"
+      ]
+    }
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-parent-or-pledge",
+    "model": "qwen",
+    "scope": "가상 거주·확약·주택 요건만",
+    "status": "witness",
+    "domains": {
+      "homeowner": [
+        false,
+        true
+      ],
+      "parent_residence_months": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "pledge": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "homeowner",
+          "value": false
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 30
+        },
+        {
+          "field": "pledge",
+          "value": false
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-age-partition",
+    "model": "qwen",
+    "scope": "가상 문안의 나이 분기와 소득 조건만. 논리 진단용으로 의도적으로 겹치는 결론을 썼다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      }
+    }
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-impossible",
+    "model": "qwen",
+    "scope": "가상 문안에 명시된 소득 조건만. 모순된 초안에 대한 논리 진단이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "household_income_krw": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      }
+    }
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-education-or",
+    "model": "qwen",
+    "scope": "가상 학력·근로 두 경로만",
+    "status": "witness",
+    "domains": {
+      "education_status": [
+        "__other__",
+        "completed",
+        "graduated",
+        "leave"
+      ],
+      "employment_status": [
+        "__other__",
+        "employed",
+        "unemployed"
+      ],
+      "weekly_work_hours": {
+        "min": 0,
+        "max": 168,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 0
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-unavailable",
+    "model": "qwen",
+    "scope": "가상 임대보증금 상한 요건만",
+    "status": "unavailable",
+    "predicted_status": "policy_insufficient",
+    "reference_status": "policy_insufficient"
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-age-or-income",
+    "model": "kanana-public",
+    "scope": "아래 가상 사업의 나이·소득·거주기간 요건만",
+    "status": "witness",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      },
+      "residence_months": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 0
+        },
+        {
+          "field": "income_pct",
+          "value": 0
+        },
+        {
+          "field": "residence_months",
+          "value": 0
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-exception-benefit",
+    "model": "kanana-public",
+    "scope": "국적 예외와 생계급여 제외의 동시 충족만",
+    "status": "witness",
+    "domains": {
+      "foreign_national": [
+        false,
+        true
+      ],
+      "livelihood_benefit": [
+        false,
+        true
+      ],
+      "permanent_resident": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-date-money",
+    "model": "kanana-public",
+    "scope": "가입일에 따라 달라지는 임대보증금 상한만",
+    "status": "witness",
+    "domains": {
+      "deposit_krw": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "joined_on": [
+        "2000-01-01",
+        "2100-12-31"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000001
+        },
+        {
+          "field": "joined_on",
+          "value": "2000-01-01"
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-parent-or-pledge",
+    "model": "kanana-public",
+    "scope": "가상 거주·확약·주택 요건만",
+    "status": "witness",
+    "domains": {
+      "homeowner": [
+        false,
+        true
+      ],
+      "parent_residence_months": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "pledge": [
+        false,
+        true
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "homeowner",
+          "value": true
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 0
+        },
+        {
+          "field": "pledge",
+          "value": true
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-age-partition",
+    "model": "kanana-public",
+    "scope": "가상 문안의 나이 분기와 소득 조건만. 논리 진단용으로 의도적으로 겹치는 결론을 썼다.",
+    "status": "witness",
+    "domains": {
+      "age_years": {
+        "min": 0,
+        "max": 120,
+        "integer": true
+      },
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 0
+        },
+        {
+          "field": "income_pct",
+          "value": 126
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-impossible",
+    "model": "kanana-public",
+    "scope": "가상 문안에 명시된 소득 조건만. 모순된 초안에 대한 논리 진단이다.",
+    "status": "witness",
+    "domains": {
+      "income_pct": {
+        "min": 0,
+        "max": 1000,
+        "integer": true
+      }
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-education-or",
+    "model": "kanana-public",
+    "scope": "가상 학력·근로 두 경로만",
+    "status": "unavailable",
+    "predicted_status": "invalid_value",
+    "reference_status": "valid"
+  },
+  {
+    "split": "composition",
+    "bundle": "mix-unavailable",
+    "model": "kanana-public",
+    "scope": "가상 임대보증금 상한 요건만",
+    "status": "unavailable",
+    "predicted_status": "invalid_value",
+    "reference_status": "policy_insufficient"
+  },
+  {
+    "split": "capability_extended",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "scope": "공고 거주요건의 보증금·월세 상한 및 월세 초과 시 환산액 예외만. 다른 자격·증빙·건물유형·공동임차 분담은 범위 밖이며 질문 금액은 이미 본인 부담액이다.",
+    "status": "no_witness_in_domain",
+    "domains": {
+      "deposit_krw": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      },
+      "monthly_rent_krw": {
+        "min": 0,
+        "max": 1000000000000,
+        "integer": true
+      }
+    }
+  },
+  {
+    "split": "capability_extended",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "scope": "국내 학교의 학력 요건과 원격대학·학점은행제 재학 및 2025년 2월 졸업예정자 예외만. 이전 학교 졸업과 현재 과정 학적을 구분한다. 해외 번역·다른 자격은 범위 밖이며 필요한 졸업증명서 제출 여부는 별도 요건으로 평가하지 않는다.",
+    "status": "witness",
+    "domains": {
+      "completion_certificate": [
+        false,
+        true
+      ],
+      "education_status": [
+        "__other__",
+        "completed",
+        "dropout",
+        "enrolled",
+        "expelled",
+        "graduated",
+        "graduation_expected",
+        "leave"
+      ],
+      "expected_graduation_month": [
+        "2025-02",
+        "__other__"
+      ],
+      "prior_graduation": [
+        false,
+        true
+      ],
+      "school_kind": [
+        "__other__",
+        "credit_bank",
+        "general",
+        "remote"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "completion_certificate",
+          "value": false
+        },
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "expected_graduation_month",
+          "value": "2025-02"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        },
+        {
+          "field": "school_kind",
+          "value": "remote"
+        }
+      ]
+    },
+    "predicted": "contradicted",
+    "reference": "supported",
+    "independent_fraction_replay": true
+  },
+  {
+    "split": "capability_extended",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "scope": "공고 거주요건의 보증금·월세 상한 및 월세 초과 시 환산액 예외만. 다른 자격·증빙·건물유형·공동임차 분담은 범위 밖이며 질문 금액은 이미 본인 부담액이다.",
+    "status": "unavailable",
+    "predicted_status": "undefined_derived",
+    "reference_status": "valid"
+  },
+  {
+    "split": "capability_extended",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "scope": "국내 학교의 학력 요건과 원격대학·학점은행제 재학 및 2025년 2월 졸업예정자 예외만. 이전 학교 졸업과 현재 과정 학적을 구분한다. 해외 번역·다른 자격은 범위 밖이며 필요한 졸업증명서 제출 여부는 별도 요건으로 평가하지 않는다.",
+    "status": "witness",
+    "domains": {
+      "completion_certificate": [
+        false,
+        true
+      ],
+      "education_status": [
+        "__other__",
+        "completed",
+        "dropout",
+        "enrolled",
+        "expelled",
+        "graduated",
+        "graduation_expected",
+        "leave"
+      ],
+      "expected_graduation_month": [
+        "2025-02",
+        "__other__"
+      ],
+      "prior_graduation": [
+        false,
+        true
+      ],
+      "school_kind": [
+        "__other__",
+        "credit_bank",
+        "general",
+        "remote"
+      ]
+    },
+    "profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "completion_certificate",
+          "value": true
+        },
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "expected_graduation_month",
+          "value": "2025-02"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        },
+        {
+          "field": "school_kind",
+          "value": "general"
+        }
+      ]
+    },
+    "predicted": "supported",
+    "reference": "contradicted",
+    "independent_fraction_replay": true
+  }
+]

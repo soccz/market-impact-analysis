@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "yangsan-housing-1",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000000,
+          "start": 7,
+          "end": 10,
+          "text": "1억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 12,
+          "cue_end": 14,
+          "status": "amount",
+          "value": 600000,
+          "start": 16,
+          "end": 20,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000001,
+          "start": 7,
+          "end": 12,
+          "text": "1억 1원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 600000,
+          "start": 18,
+          "end": 22,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 11000000,
+          "grounded": 100000001,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000001,
+            "start": 7,
+            "end": 12,
+            "text": "1억 1원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 100000001
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 0,
+          "start": 7,
+          "end": 9,
+          "text": "0원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 11,
+          "cue_end": 13,
+          "status": "amount",
+          "value": 0,
+          "start": 15,
+          "end": 17,
+          "text": "0원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "bundle": "yangsan-housing",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 100000000,
+          "start": 9,
+          "end": 12,
+          "text": "1억원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 18,
+          "cue_end": 21,
+          "status": "explicit_unknown",
+          "start": 21,
+          "end": 26,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 34,
+          "cue_end": 36,
+          "status": "amount",
+          "value": 600000,
+          "start": 38,
+          "end": 42,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 100000000,
+          "grounded": null,
+          "reason": "invented_missing_amount",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 18,
+            "cue_end": 21,
+            "status": "explicit_unknown",
+            "start": 21,
+            "end": 26,
+            "text": "은 밝히지"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": null
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yangsan-income-1",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-income-2",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-income-3",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-income-4",
+    "bundle": "yangsan-income",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500000,
+          "start": 7,
+          "end": 14,
+          "text": "1.125억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 1000000,
+          "start": 20,
+          "end": 25,
+          "text": "100만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500001,
+          "start": 7,
+          "end": 18,
+          "text": "1억 1250만 1원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 20,
+          "cue_end": 22,
+          "status": "amount",
+          "value": 1000000,
+          "start": 24,
+          "end": 29,
+          "text": "100만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 112500000,
+          "grounded": 112500001,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 112500001,
+            "start": 7,
+            "end": 18,
+            "text": "1억 1250만 1원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 112500001
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500000,
+          "start": 7,
+          "end": 14,
+          "text": "11250만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 1000000,
+          "start": 20,
+          "end": 30,
+          "text": "1,000,000원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "bundle": "yongin-conversion",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 112500000,
+          "start": 9,
+          "end": 16,
+          "text": "11250만원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 22,
+          "cue_end": 25,
+          "status": "explicit_unknown",
+          "start": 25,
+          "end": 30,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 38,
+          "cue_end": 40,
+          "status": "amount",
+          "value": 1000000,
+          "start": 42,
+          "end": 47,
+          "text": "100만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 112500000,
+          "grounded": null,
+          "reason": "invented_missing_amount",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 22,
+            "cue_end": 25,
+            "status": "explicit_unknown",
+            "start": 25,
+            "end": 30,
+            "text": "은 밝히지"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": null
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 181
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "bundle": "yongin-income-benefits",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000000,
+          "start": 7,
+          "end": 10,
+          "text": "1억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 12,
+          "cue_end": 14,
+          "status": "amount",
+          "value": 600000,
+          "start": 16,
+          "end": 20,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "abstain",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000001,
+          "start": 7,
+          "end": 12,
+          "text": "1억 1원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 600000,
+          "start": 18,
+          "end": 22,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 11000000,
+          "grounded": 100000001,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 100000001,
+            "start": 7,
+            "end": 12,
+            "text": "1억 1원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 100000001
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 0,
+          "start": 7,
+          "end": 9,
+          "text": "0원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 11,
+          "cue_end": 13,
+          "status": "amount",
+          "value": 0,
+          "start": 15,
+          "end": 17,
+          "text": "0원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "bundle": "yangsan-housing",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "abstain",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 100000000,
+          "start": 9,
+          "end": 12,
+          "text": "1억원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 18,
+          "cue_end": 21,
+          "status": "explicit_unknown",
+          "start": 21,
+          "end": 26,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 34,
+          "cue_end": 36,
+          "status": "amount",
+          "value": 600000,
+          "start": 38,
+          "end": 42,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 100000000,
+          "grounded": null,
+          "reason": "invented_missing_amount",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 18,
+            "cue_end": 21,
+            "status": "explicit_unknown",
+            "start": 21,
+            "end": 26,
+            "text": "은 밝히지"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": null
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yangsan-income-1",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yangsan-income-2",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-income-3",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yangsan-income-4",
+    "bundle": "yangsan-income",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500000,
+          "start": 7,
+          "end": 14,
+          "text": "1.125억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 1000000,
+          "start": 20,
+          "end": 25,
+          "text": "100만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500001,
+          "start": 7,
+          "end": 18,
+          "text": "1억 1250만 1원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 20,
+          "cue_end": 22,
+          "status": "amount",
+          "value": 1000000,
+          "start": 24,
+          "end": 29,
+          "text": "100만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 112501000,
+          "grounded": 112500001,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 112500001,
+            "start": 7,
+            "end": 18,
+            "text": "1억 1250만 1원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 112500001
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500001
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 112500000,
+          "start": 7,
+          "end": 14,
+          "text": "11250만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 1000000,
+          "start": 20,
+          "end": 30,
+          "text": "1,000,000원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "bundle": "yongin-conversion",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 112500000,
+          "start": 9,
+          "end": 16,
+          "text": "11250만원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 22,
+          "cue_end": 25,
+          "status": "explicit_unknown",
+          "start": 25,
+          "end": 30,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 38,
+          "cue_end": 40,
+          "status": "amount",
+          "value": 1000000,
+          "start": 42,
+          "end": 47,
+          "text": "100만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 11250
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "bundle": "yongin-income-benefits",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  }
+]

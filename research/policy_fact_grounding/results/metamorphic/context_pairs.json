@@ -1,0 +1,98 @@
+[
+  {
+    "model": "qwen",
+    "left": "and-both-base",
+    "right": "or-either-base",
+    "change": "모두/하나라도",
+    "methods": {
+      "direct": {
+        "changed": true,
+        "both_correct": true
+      },
+      "raw": {
+        "changed": false,
+        "both_correct": false
+      },
+      "reject": {
+        "changed": false,
+        "both_correct": false
+      },
+      "corrected": {
+        "changed": false,
+        "both_correct": false
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "left": "age-boundary-base",
+    "right": "age-strict-base",
+    "change": "이하/미만",
+    "methods": {
+      "direct": {
+        "changed": true,
+        "both_correct": false
+      },
+      "raw": {
+        "changed": true,
+        "both_correct": true
+      },
+      "reject": {
+        "changed": true,
+        "both_correct": true
+      },
+      "corrected": {
+        "changed": true,
+        "both_correct": true
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "left": "and-both-base",
+    "right": "or-either-base",
+    "change": "모두/하나라도",
+    "methods": {
+      "direct": {
+        "changed": true,
+        "both_correct": false
+      },
+      "raw": {
+        "changed": false,
+        "both_correct": false
+      },
+      "reject": {
+        "changed": false,
+        "both_correct": false
+      },
+      "corrected": {
+        "changed": false,
+        "both_correct": false
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "left": "age-boundary-base",
+    "right": "age-strict-base",
+    "change": "이하/미만",
+    "methods": {
+      "direct": {
+        "changed": false,
+        "both_correct": false
+      },
+      "raw": {
+        "changed": true,
+        "both_correct": true
+      },
+      "reject": {
+        "changed": true,
+        "both_correct": true
+      },
+      "corrected": {
+        "changed": true,
+        "both_correct": true
+      }
+    }
+  }
+]

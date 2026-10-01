@@ -1,0 +1,505 @@
+{
+  "bundles": [
+    {
+      "id": "yangsan-housing",
+      "scope": "신청자격 ③의 임차보증금·월임차료 조건과 월세 없는 전세 제외만. 다른 자격·제외 항목은 범위 밖. 제외대상 ⑤와 표현이 달라 이 범위를 전체 자격으로 일반화하지 않는다.",
+      "evidence": {
+        "yangsan-yangsan-housing": {
+          "source_span": "yangsan-yangsan-housing"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 100000000,
+              "evidence": [
+                "yangsan-yangsan-housing"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "le",
+              "value": 600000,
+              "evidence": [
+                "yangsan-yangsan-housing"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "gt",
+              "value": 0,
+              "evidence": [
+                "yangsan-yangsan-housing"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "official_scoped"
+    },
+    {
+      "id": "yangsan-income",
+      "scope": "공고 방식으로 이미 산정된 가구 기준중위소득 비율의 하한·상한만. 건강보험료 환산 및 다른 자격은 범위 밖.",
+      "evidence": {
+        "yangsan-yangsan-income": {
+          "source_span": "yangsan-yangsan-income"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "income_pct",
+              "op": "gt",
+              "value": 60,
+              "evidence": [
+                "yangsan-yangsan-income"
+              ]
+            },
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 150,
+              "evidence": [
+                "yangsan-yangsan-income"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "official_scoped"
+    },
+    {
+      "id": "yongin-conversion",
+      "scope": "월세·반전세의 환산보증금 3억원 상한만. 전용면적과 다른 자격은 범위 밖. 신청자 사실의 보증금과 월세를 공고의 환산식에 대입한다.",
+      "evidence": {
+        "yongin-yongin-conversion": {
+          "source_span": "yongin-yongin-conversion"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "derived_0",
+              "op": "le",
+              "value": 300000000,
+              "evidence": [
+                "yongin-yongin-conversion"
+              ]
+            }
+          ]
+        ],
+        "derived": [
+          {
+            "field": "derived_0",
+            "constant": 0,
+            "terms": [
+              {
+                "field": "deposit_krw",
+                "numerator": 1,
+                "denominator": 1
+              },
+              {
+                "field": "monthly_rent_krw",
+                "numerator": 12000,
+                "denominator": 64
+              }
+            ],
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      },
+      "origin": "official_scoped"
+    },
+    {
+      "id": "yongin-income-benefits",
+      "scope": "가구 기준중위소득 180% 이하와 생계·의료·주거·교육급여 수급자 제외의 결합만. 다른 지원대상 및 제외사항은 범위 밖.",
+      "evidence": {
+        "yongin-yongin-income-benefits": {
+          "source_span": "yongin-yongin-income-benefits"
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 180,
+              "evidence": [
+                "yongin-yongin-income-benefits"
+              ]
+            },
+            {
+              "field": "livelihood_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "yongin-yongin-income-benefits"
+              ]
+            },
+            {
+              "field": "medical_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "yongin-yongin-income-benefits"
+              ]
+            },
+            {
+              "field": "housing_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "yongin-yongin-income-benefits"
+              ]
+            },
+            {
+              "field": "education_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "yongin-yongin-income-benefits"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "official_scoped"
+    }
+  ],
+  "cases": [
+    {
+      "id": "yangsan-housing-1",
+      "bundle": "yangsan-housing",
+      "claim": "내 보증금은 1억원, 월세는 60만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yangsan-housing-2",
+      "bundle": "yangsan-housing",
+      "claim": "내 보증금은 1억 1원, 월세는 60만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000001
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yangsan-housing-3",
+      "bundle": "yangsan-housing",
+      "claim": "내 보증금은 0원, 월세는 0원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 0
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 0
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yangsan-housing-4",
+      "bundle": "yangsan-housing",
+      "claim": "부모의 보증금은 1억원이다. 내 보증금은 밝히지 않았다. 내 월세는 60만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "yangsan-income-1",
+      "bundle": "yangsan-income",
+      "claim": "공고 방식으로 산정한 내 가구 기준중위소득 비율은 60%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 60
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yangsan-income-2",
+      "bundle": "yangsan-income",
+      "claim": "공고 방식으로 산정한 내 가구 기준중위소득 비율은 60.01%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 60.01
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yangsan-income-3",
+      "bundle": "yangsan-income",
+      "claim": "공고 방식으로 산정한 내 가구 기준중위소득 비율은 150%이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 150
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yangsan-income-4",
+      "bundle": "yangsan-income",
+      "claim": "내 가구 기준중위소득 비율은 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "yongin-conversion-1",
+      "bundle": "yongin-conversion",
+      "claim": "내 보증금은 1.125억원, 월세는 100만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 112500000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 1000000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yongin-conversion-2",
+      "bundle": "yongin-conversion",
+      "claim": "내 보증금은 1억 1250만 1원, 월세는 100만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 112500001
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 1000000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yongin-conversion-3",
+      "bundle": "yongin-conversion",
+      "claim": "내 보증금은 11250만원, 월세는 1,000,000원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 112500000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 1000000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yongin-conversion-4",
+      "bundle": "yongin-conversion",
+      "claim": "부모의 보증금은 11250만원이다. 내 보증금은 밝히지 않았다. 내 월세는 100만원이다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 1000000
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "yongin-income-benefits-1",
+      "bundle": "yongin-income-benefits",
+      "claim": "내 가구 기준중위소득 비율은 180%이며, 나는 생계·의료·주거·교육급여를 모두 받지 않는다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 180
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          },
+          {
+            "field": "medical_benefit",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          },
+          {
+            "field": "education_benefit",
+            "value": false
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "yongin-income-benefits-2",
+      "bundle": "yongin-income-benefits",
+      "claim": "내 가구 기준중위소득 비율은 180%이며, 나는 교육급여만 받고 생계·의료·주거급여는 받지 않는다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 180
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          },
+          {
+            "field": "medical_benefit",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          },
+          {
+            "field": "education_benefit",
+            "value": true
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yongin-income-benefits-3",
+      "bundle": "yongin-income-benefits",
+      "claim": "내 가구 기준중위소득 비율은 181%이다. 내 급여 수급 여부는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 181
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "yongin-income-benefits-4",
+      "bundle": "yongin-income-benefits",
+      "claim": "내 가구 기준중위소득 비율은 180%이며, 나는 생계·의료·주거급여를 받지 않는다. 교육급여 수급 여부는 밝히지 않았다. 이 범위의 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 180
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          },
+          {
+            "field": "medical_benefit",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          }
+        ]
+      },
+      "label": "not_established"
+    }
+  ]
+}

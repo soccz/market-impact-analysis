@@ -1,0 +1,2460 @@
+[
+  {
+    "id": "dj-city-income-1",
+    "bundle": "dj-city-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-city-income-2",
+    "bundle": "dj-city-income",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "세종특별자치시"
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-city-income-3",
+    "bundle": "dj-city-income",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": 140
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-income-4",
+    "bundle": "dj-city-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 151
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-benefits-1",
+    "bundle": "dj-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-benefits-2",
+    "bundle": "dj-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-benefits-3",
+    "bundle": "dj-benefits",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-benefits-4",
+    "bundle": "dj-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "profile_unavailable"
+    },
+    "corrected_profile": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "bundle": "dj-city-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "bundle": "dj-city-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "profile_unavailable"
+    },
+    "corrected_profile": null,
+    "reference_rule": "abstain"
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "bundle": "dj-city-benefits",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "bundle": "dj-city-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "부산광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-foreign-1",
+    "bundle": "dj-foreign",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-foreign-2",
+    "bundle": "dj-foreign",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-foreign-3",
+    "bundle": "dj-foreign",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "permanent_resident",
+          "value": false
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-foreign-4",
+    "bundle": "dj-foreign",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "bundle": "gj-city-age-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "bundle": "gj-city-age-income",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 18
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "bundle": "gj-city-age-income",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 25
+        },
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "bundle": "gj-city-age-income",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 30
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-benefits-1",
+    "bundle": "gj-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-benefits-2",
+    "bundle": "gj-benefits",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "profile_unavailable"
+    },
+    "corrected_profile": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-benefits-3",
+    "bundle": "gj-benefits",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-benefits-4",
+    "bundle": "gj-benefits",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-work-1",
+    "bundle": "gj-work",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-work-2",
+    "bundle": "gj-work",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-work-3",
+    "bundle": "gj-work",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-work-4",
+    "bundle": "gj-work",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-education-work-1",
+    "bundle": "gj-education-work",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "dropout"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-education-work-2",
+    "bundle": "gj-education-work",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "leave"
+        },
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-education-work-3",
+    "bundle": "gj-education-work",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "completed"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-education-work-4",
+    "bundle": "gj-education-work",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-city-income-1",
+    "bundle": "dj-city-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-city-income-2",
+    "bundle": "dj-city-income",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "세종특별자치시"
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-city-income-3",
+    "bundle": "dj-city-income",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": 140
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-income-4",
+    "bundle": "dj-city-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 151
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-benefits-1",
+    "bundle": "dj-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-benefits-2",
+    "bundle": "dj-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-benefits-3",
+    "bundle": "dj-benefits",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-benefits-4",
+    "bundle": "dj-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "bundle": "dj-city-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "bundle": "dj-city-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "bundle": "dj-city-benefits",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "bundle": "dj-city-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "부산광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-foreign-1",
+    "bundle": "dj-foreign",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "dj-foreign-2",
+    "bundle": "dj-foreign",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "dj-foreign-3",
+    "bundle": "dj-foreign",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "permanent_resident",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "dj-foreign-4",
+    "bundle": "dj-foreign",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "profile_unavailable"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "bundle": "gj-city-age-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "bundle": "gj-city-age-income",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 18
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "bundle": "gj-city-age-income",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 25
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "bundle": "gj-city-age-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "경기도 광주시"
+        },
+        {
+          "field": "age_years",
+          "value": 30
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-benefits-1",
+    "bundle": "gj-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-benefits-2",
+    "bundle": "gj-benefits",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-benefits-3",
+    "bundle": "gj-benefits",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-benefits-4",
+    "bundle": "gj-benefits",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "profile_unavailable"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-work-1",
+    "bundle": "gj-work",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-work-2",
+    "bundle": "gj-work",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-work-3",
+    "bundle": "gj-work",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-work-4",
+    "bundle": "gj-work",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-education-work-1",
+    "bundle": "gj-education-work",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "dropout"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "gj-education-work-2",
+    "bundle": "gj-education-work",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "leave"
+        },
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "gj-education-work-3",
+    "bundle": "gj-education-work",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "gj-education-work-4",
+    "bundle": "gj-education-work",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  }
+]

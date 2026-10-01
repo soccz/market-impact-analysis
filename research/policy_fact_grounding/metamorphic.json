@@ -1,0 +1,828 @@
+{
+  "bundles": [
+    {
+      "id": "mixed-money",
+      "scope": "신청자 본인의 현재 임대차보증금 상한만.",
+      "evidence": {
+        "E": "신청자 보증금이 24,000,000원 이하이면 이 조건을 충족한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 24000000,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "decimal-money",
+      "scope": "신청자 월세 상한만. 보증금·관리비는 범위 밖.",
+      "evidence": {
+        "E": "신청자 월세가 750,000원 미만이면 이 조건을 충족한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "monthly_rent_krw",
+              "op": "lt",
+              "value": 750000,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "money-polarity",
+      "scope": "신청자 본인 보증금·월세의 두 상한만.",
+      "evidence": {
+        "E": "신청자 보증금은 90,000,000원 이하이고 월세는 700,000원 이하여야 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 90000000,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "le",
+              "value": 700000,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "subject",
+      "scope": "신청자 본인의 연속 거주기간만.",
+      "evidence": {
+        "E": "신청자 본인이 해당 지역에 24개월 이상 연속 거주해야 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "residence_months",
+              "op": "ge",
+              "value": 24,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "age-boundary",
+      "scope": "본인의 만 나이 상한만.",
+      "evidence": {
+        "E": "신청자는 만 39세 이하여야 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "le",
+              "value": 39,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "and-both",
+      "scope": "본인 거주기간과 가구 중위소득 비율의 연결만.",
+      "evidence": {
+        "E": "본인 거주기간 24개월 이상과 가구 중위소득 120% 이하를 모두 충족해야 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "residence_months",
+              "op": "ge",
+              "value": 24,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 120,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "or-either",
+      "scope": "본인 거주기간과 가구 중위소득 비율의 연결만.",
+      "evidence": {
+        "E": "본인 거주기간 24개월 이상 또는 가구 중위소득 120% 이하 중 하나라도 충족하면 된다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "residence_months",
+              "op": "ge",
+              "value": 24,
+              "evidence": [
+                "E"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 120,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "age-strict",
+      "scope": "본인의 만 나이 상한만.",
+      "evidence": {
+        "E": "신청자는 만 39세 미만이어야 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "lt",
+              "value": 39,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ],
+        "derived": []
+      },
+      "origin": "authored"
+    }
+  ],
+  "cases": [
+    {
+      "id": "mixed-money-base",
+      "bundle": "mixed-money",
+      "group": "mixed-money",
+      "variant": "base",
+      "claim": "내 보증금은 2400만 240원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 24000240
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "mixed-money-preserve",
+      "bundle": "mixed-money",
+      "group": "mixed-money",
+      "variant": "preserve",
+      "claim": "내 보증금은 24,000,240원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 24000240
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "mixed-money-change",
+      "bundle": "mixed-money",
+      "group": "mixed-money",
+      "variant": "change",
+      "claim": "내 보증금은 2400만원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 24000000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "mixed-money-unknown",
+      "bundle": "mixed-money",
+      "group": "mixed-money",
+      "variant": "unknown",
+      "claim": "부모의 보증금은 2400만 240원이고 내 보증금은 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "decimal-money-base",
+      "bundle": "decimal-money",
+      "group": "decimal-money",
+      "variant": "base",
+      "claim": "내 월세는 75만원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 750000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "decimal-money-preserve",
+      "bundle": "decimal-money",
+      "group": "decimal-money",
+      "variant": "preserve",
+      "claim": "내 월세는 0.0075억원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 750000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "decimal-money-change",
+      "bundle": "decimal-money",
+      "group": "decimal-money",
+      "variant": "change",
+      "claim": "내 월세는 74만 9999원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 749999
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "decimal-money-unknown",
+      "bundle": "decimal-money",
+      "group": "decimal-money",
+      "variant": "unknown",
+      "claim": "내 월세는 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "money-polarity-base",
+      "bundle": "money-polarity",
+      "group": "money-polarity",
+      "variant": "base",
+      "claim": "내 보증금은 0.9억원, 월세는 70만원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 90000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "money-polarity-preserve",
+      "bundle": "money-polarity",
+      "group": "money-polarity",
+      "variant": "preserve",
+      "claim": "내 보증금은 9천만원, 월세는 700,000원이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 90000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "money-polarity-change",
+      "bundle": "money-polarity",
+      "group": "money-polarity",
+      "variant": "change",
+      "claim": "내 보증금은 0.9억원, 월세는 70만원이다. 이 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 90000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "money-polarity-unknown",
+      "bundle": "money-polarity",
+      "group": "money-polarity",
+      "variant": "unknown",
+      "claim": "내 보증금은 0.9억원, 월세는 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 90000000
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "subject-base",
+      "bundle": "subject",
+      "group": "subject",
+      "variant": "base",
+      "claim": "나는 24개월 연속 거주했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "subject-preserve",
+      "bundle": "subject",
+      "group": "subject",
+      "variant": "preserve",
+      "claim": "나는 2년간 연속 거주했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "subject-change",
+      "bundle": "subject",
+      "group": "subject",
+      "variant": "change",
+      "claim": "나는 23개월 연속 거주했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 23
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "subject-unknown",
+      "bundle": "subject",
+      "group": "subject",
+      "variant": "unknown",
+      "claim": "부모는 24개월 연속 거주했고 내 거주기간은 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "parent_residence_months",
+            "value": 24
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "age-boundary-base",
+      "bundle": "age-boundary",
+      "group": "age-boundary",
+      "variant": "base",
+      "claim": "나는 만 39세이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "age-boundary-preserve",
+      "bundle": "age-boundary",
+      "group": "age-boundary",
+      "variant": "preserve",
+      "claim": "내 만 나이는 39년이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "age-boundary-change",
+      "bundle": "age-boundary",
+      "group": "age-boundary",
+      "variant": "change",
+      "claim": "나는 만 40세이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 40
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "age-boundary-unknown",
+      "bundle": "age-boundary",
+      "group": "age-boundary",
+      "variant": "unknown",
+      "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "and-both-base",
+      "bundle": "and-both",
+      "group": "and-both",
+      "variant": "base",
+      "claim": "나는 24개월 거주했고 가구 중위소득 비율은 121%이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "and-both-preserve",
+      "bundle": "and-both",
+      "group": "and-both",
+      "variant": "preserve",
+      "claim": "가구 중위소득 비율은 121%이며 나는 2년 거주했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "and-both-change",
+      "bundle": "and-both",
+      "group": "and-both",
+      "variant": "change",
+      "claim": "나는 24개월 거주했고 가구 중위소득 비율은 120%이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "income_pct",
+            "value": 120
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "and-both-unknown",
+      "bundle": "and-both",
+      "group": "and-both",
+      "variant": "unknown",
+      "claim": "나는 24개월 거주했고 가구 중위소득 비율은 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "or-either-base",
+      "bundle": "or-either",
+      "group": "or-either",
+      "variant": "base",
+      "claim": "나는 24개월 거주했고 가구 중위소득 비율은 121%이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "or-either-preserve",
+      "bundle": "or-either",
+      "group": "or-either",
+      "variant": "preserve",
+      "claim": "가구 중위소득 비율은 121%이며 나는 2년 거주했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "or-either-change",
+      "bundle": "or-either",
+      "group": "or-either",
+      "variant": "change",
+      "claim": "나는 23개월 거주했고 가구 중위소득 비율은 121%이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 23
+          },
+          {
+            "field": "income_pct",
+            "value": 121
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "or-either-unknown",
+      "bundle": "or-either",
+      "group": "or-either",
+      "variant": "unknown",
+      "claim": "나는 23개월 거주했고 가구 중위소득 비율은 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 23
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "age-strict-base",
+      "bundle": "age-strict",
+      "group": "age-strict",
+      "variant": "base",
+      "claim": "나는 만 39세이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "age-strict-preserve",
+      "bundle": "age-strict",
+      "group": "age-strict",
+      "variant": "preserve",
+      "claim": "내 만 나이는 39년이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "age-strict-change",
+      "bundle": "age-strict",
+      "group": "age-strict",
+      "variant": "change",
+      "claim": "나는 만 38세이다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 38
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "age-strict-unknown",
+      "bundle": "age-strict",
+      "group": "age-strict",
+      "variant": "unknown",
+      "claim": "부모는 만 39세이고 내 만 나이는 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": []
+      },
+      "label": "not_established"
+    }
+  ],
+  "context_pairs": [
+    {
+      "left": "and-both-base",
+      "right": "or-either-base",
+      "change": "모두/하나라도"
+    },
+    {
+      "left": "age-boundary-base",
+      "right": "age-strict-base",
+      "change": "이하/미만"
+    }
+  ]
+}

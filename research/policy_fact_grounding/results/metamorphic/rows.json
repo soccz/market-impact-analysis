@@ -1,0 +1,2716 @@
+[
+  {
+    "id": "mixed-money-base",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "mixed-money",
+    "variant": "base",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 17,
+          "text": "2400만 240원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 24002400,
+          "grounded": 24000240,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 24000240,
+            "start": 7,
+            "end": 17,
+            "text": "2400만 240원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 24000240
+      },
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "mixed-money-preserve",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "mixed-money",
+    "variant": "preserve",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 18,
+          "text": "24,000,240원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "mixed-money-change",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "label": "supported",
+    "group": "mixed-money",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000000,
+          "start": 7,
+          "end": 13,
+          "text": "2400만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "mixed-money-unknown",
+    "bundle": "mixed-money",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "mixed-money",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 24000240,
+          "start": 9,
+          "end": 19,
+          "text": "2400만 240원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 24,
+          "cue_end": 27,
+          "status": "explicit_unknown",
+          "start": 27,
+          "end": 32,
+          "text": "은 밝히지"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 24002400,
+          "grounded": null,
+          "reason": "invented_missing_amount",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 24,
+            "cue_end": 27,
+            "status": "explicit_unknown",
+            "start": 27,
+            "end": 32,
+            "text": "은 밝히지"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": null
+      },
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "decimal-money-base",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "decimal-money",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 750000,
+          "start": 6,
+          "end": 10,
+          "text": "75만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "decimal-money-preserve",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "decimal-money",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 750000,
+          "start": 6,
+          "end": 14,
+          "text": "0.0075억원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "decimal-money-change",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "label": "supported",
+    "group": "decimal-money",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 749999,
+          "start": 6,
+          "end": 15,
+          "text": "74만 9999원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 749999
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "decimal-money-unknown",
+    "bundle": "decimal-money",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "decimal-money",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "explicit_unknown",
+          "start": 4,
+          "end": 9,
+          "text": "는 밝히지"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "money-polarity-base",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "label": "supported",
+    "group": "money-polarity",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 700000,
+          "start": 18,
+          "end": 22,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "money-polarity-preserve",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "label": "supported",
+    "group": "money-polarity",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "abstain",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 11,
+          "text": "9천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 700000,
+          "start": 17,
+          "end": 25,
+          "text": "700,000원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 9000000,
+          "grounded": 90000000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 90000000,
+            "start": 7,
+            "end": 11,
+            "text": "9천만원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 90000000
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "money-polarity-change",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "money-polarity",
+    "variant": "change",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 700000,
+          "start": 18,
+          "end": 22,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "money-polarity-unknown",
+    "bundle": "money-polarity",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "money-polarity",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "explicit_unknown",
+          "start": 16,
+          "end": 21,
+          "text": "는 밝히지"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "subject-base",
+    "bundle": "subject",
+    "model": "qwen",
+    "label": "supported",
+    "group": "subject",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "subject-preserve",
+    "bundle": "subject",
+    "model": "qwen",
+    "label": "supported",
+    "group": "subject",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "subject-change",
+    "bundle": "subject",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "subject",
+    "variant": "change",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "subject-unknown",
+    "bundle": "subject",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "subject",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "age-boundary-base",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "label": "supported",
+    "group": "age-boundary",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-boundary-preserve",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "label": "supported",
+    "group": "age-boundary",
+    "variant": "preserve",
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-boundary-change",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "age-boundary",
+    "variant": "change",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-boundary-unknown",
+    "bundle": "age-boundary",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "age-boundary",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "and-both-base",
+    "bundle": "and-both",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "and-both",
+    "variant": "base",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "and-both-preserve",
+    "bundle": "and-both",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "and-both",
+    "variant": "preserve",
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "and-both-change",
+    "bundle": "and-both",
+    "model": "qwen",
+    "label": "supported",
+    "group": "and-both",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "and-both-unknown",
+    "bundle": "and-both",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "and-both",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "or-either-base",
+    "bundle": "or-either",
+    "model": "qwen",
+    "label": "supported",
+    "group": "or-either",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "or-either-preserve",
+    "bundle": "or-either",
+    "model": "qwen",
+    "label": "supported",
+    "group": "or-either",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "or-either-change",
+    "bundle": "or-either",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "or-either",
+    "variant": "change",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "or-either-unknown",
+    "bundle": "or-either",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "or-either",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "age-strict-base",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "age-strict",
+    "variant": "base",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-strict-preserve",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": "age-strict",
+    "variant": "preserve",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-strict-change",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "label": "supported",
+    "group": "age-strict",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 38
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-strict-unknown",
+    "bundle": "age-strict",
+    "model": "qwen",
+    "label": "not_established",
+    "group": "age-strict",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "mixed-money-base",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "mixed-money",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 17,
+          "text": "2400만 240원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 2400240,
+          "grounded": 24000240,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 24000240,
+            "start": 7,
+            "end": 17,
+            "text": "2400만 240원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 24000240
+      },
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "mixed-money-preserve",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "mixed-money",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 18,
+          "text": "24,000,240원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 24002400,
+          "grounded": 24000240,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 24000240,
+            "start": 7,
+            "end": 18,
+            "text": "24,000,240원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 24000240
+      },
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "mixed-money-change",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "mixed-money",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000000,
+          "start": 7,
+          "end": 13,
+          "text": "2400만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "mixed-money-unknown",
+    "bundle": "mixed-money",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "mixed-money",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "external",
+          "cue_start": 4,
+          "cue_end": 7,
+          "status": "amount",
+          "value": 24000240,
+          "start": 9,
+          "end": 19,
+          "text": "2400만 240원"
+        },
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 24,
+          "cue_end": 27,
+          "status": "explicit_unknown",
+          "start": 27,
+          "end": 32,
+          "text": "은 밝히지"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 2400.24
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "decimal-money-base",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "decimal-money",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 750000,
+          "start": 6,
+          "end": 10,
+          "text": "75만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "decimal-money-preserve",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "decimal-money",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 750000,
+          "start": 6,
+          "end": 14,
+          "text": "0.0075억원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "monthly_rent_krw",
+          "predicted": 7500000,
+          "grounded": 750000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 4,
+            "status": "amount",
+            "value": 750000,
+            "start": 6,
+            "end": 14,
+            "text": "0.0075억원"
+          }
+        }
+      ],
+      "patches": {
+        "monthly_rent_krw": 750000
+      },
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "decimal-money-change",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "decimal-money",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "abstain",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "amount",
+          "value": 749999,
+          "start": 6,
+          "end": 15,
+          "text": "74만 9999원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "monthly_rent_krw",
+          "predicted": 74999,
+          "grounded": 749999,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 4,
+            "status": "amount",
+            "value": 749999,
+            "start": 6,
+            "end": 15,
+            "text": "74만 9999원"
+          }
+        }
+      ],
+      "patches": {
+        "monthly_rent_krw": 749999
+      },
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 749999
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "decimal-money-unknown",
+    "bundle": "decimal-money",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "decimal-money",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 4,
+          "status": "explicit_unknown",
+          "start": 4,
+          "end": 9,
+          "text": "는 밝히지"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "money-polarity-base",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "money-polarity",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 700000,
+          "start": 18,
+          "end": 22,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "money-polarity-preserve",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "money-polarity",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 11,
+          "text": "9천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 700000,
+          "start": 17,
+          "end": 25,
+          "text": "700,000원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "money-polarity-change",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "money-polarity",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 700000,
+          "start": 18,
+          "end": 22,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "money-polarity-unknown",
+    "bundle": "money-polarity",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "money-polarity",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 90000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.9억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "explicit_unknown",
+          "start": 16,
+          "end": 21,
+          "text": "는 밝히지"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 90000000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "subject-base",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "subject",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "subject-preserve",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "subject",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "subject-change",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "subject",
+    "variant": "change",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "subject-unknown",
+    "bundle": "subject",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "subject",
+    "variant": "unknown",
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "age-boundary-base",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "age-boundary",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-boundary-preserve",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "age-boundary",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-boundary-change",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "age-boundary",
+    "variant": "change",
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-boundary-unknown",
+    "bundle": "age-boundary",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "age-boundary",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "and-both-base",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "and-both",
+    "variant": "base",
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "and-both-preserve",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "and-both",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "and-both-change",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "and-both",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "and-both-unknown",
+    "bundle": "and-both",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "and-both",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "or-either-base",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "or-either",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "or-either-preserve",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "or-either",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 121
+        },
+        {
+          "field": "residence_months",
+          "value": 24
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "or-either-change",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "or-either",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        },
+        {
+          "field": "income_pct",
+          "value": 121
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "or-either-unknown",
+    "bundle": "or-either",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "or-either",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 23
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "age-strict-base",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "age-strict",
+    "variant": "base",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-strict-preserve",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": "age-strict",
+    "variant": "preserve",
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "age-strict-change",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": "age-strict",
+    "variant": "change",
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 38
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "age-strict-unknown",
+    "bundle": "age-strict",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": "age-strict",
+    "variant": "unknown",
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 39
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  }
+]

@@ -1,0 +1,1538 @@
+[
+  {
+    "model": "qwen",
+    "group": "age-boundary",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "age-boundary",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "age-boundary",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "age-strict",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "age-strict",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "age-strict",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "and-both",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "and-both",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "and-both",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "decimal-money",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "decimal-money",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "decimal-money",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "mixed-money",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "mixed-money",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "mixed-money",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "abstain"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "money-polarity",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "abstain"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "money-polarity",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "money-polarity",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "or-either",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "or-either",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "or-either",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "subject",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "subject",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "qwen",
+    "group": "subject",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-boundary",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-boundary",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-boundary",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-strict",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-strict",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "age-strict",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "and-both",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "and-both",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "and-both",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "not_established",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "decimal-money",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "abstain"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "decimal-money",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "contradicted",
+        "variant": "abstain"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "decimal-money",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "mixed-money",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "abstain"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "mixed-money",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "mixed-money",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "abstain",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "contradicted",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "money-polarity",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "money-polarity",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "money-polarity",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "or-either",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "or-either",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "or-either",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": false,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "subject",
+    "variant": "preserve",
+    "expected_same": true,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "supported"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "subject",
+    "variant": "change",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": false,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "contradicted"
+      }
+    }
+  },
+  {
+    "model": "kanana-public",
+    "group": "subject",
+    "variant": "unknown",
+    "expected_same": false,
+    "methods": {
+      "direct": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "raw": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "reject": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      },
+      "corrected": {
+        "relation_correct": true,
+        "both_correct": true,
+        "base": "supported",
+        "variant": "not_established"
+      }
+    }
+  }
+]

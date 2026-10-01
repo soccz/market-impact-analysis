@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "cap-rent-1",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000000,
+          "start": 7,
+          "end": 10,
+          "text": "1억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 12,
+          "cue_end": 14,
+          "status": "amount",
+          "value": 600000,
+          "start": 16,
+          "end": 20,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-2",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 20000000,
+          "start": 7,
+          "end": 11,
+          "text": "2천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 700000,
+          "start": 17,
+          "end": 21,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-3",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000000,
+          "start": 7,
+          "end": 13,
+          "text": "2400만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 15,
+          "cue_end": 17,
+          "status": "amount",
+          "value": 700000,
+          "start": 19,
+          "end": 23,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-4",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "abstain",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 17,
+          "text": "2400만 240원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 19,
+          "cue_end": 21,
+          "status": "amount",
+          "value": 700000,
+          "start": 23,
+          "end": 27,
+          "text": "70만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 24002400,
+          "grounded": 24000240,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 24000240,
+            "start": 7,
+            "end": 17,
+            "text": "2400만 240원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 24000240
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-rent-5",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 20000000,
+          "start": 7,
+          "end": 11,
+          "text": "2천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 750000,
+          "start": 17,
+          "end": 21,
+          "text": "75만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-6",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "explicit_unknown",
+          "start": 5,
+          "end": 10,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 15,
+          "cue_end": 17,
+          "status": "amount",
+          "value": 700000,
+          "start": 19,
+          "end": 23,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-rent-7",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 80000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.8억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 600000,
+          "start": 18,
+          "end": 22,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-rent-8",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 110000000,
+          "start": 7,
+          "end": 14,
+          "text": "1억 1천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 600000,
+          "start": 20,
+          "end": 24,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 110000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-1",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "school_kind",
+          "value": "remote"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-education-2",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "school_kind",
+          "value": "general"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-3",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "completed"
+        },
+        {
+          "field": "school_kind",
+          "value": "credit_bank"
+        },
+        {
+          "field": "prior_graduation",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-education-4",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "school_kind",
+          "value": "general"
+        },
+        {
+          "field": "expected_graduation_month",
+          "value": "2025-02"
+        },
+        {
+          "field": "completion_certificate",
+          "value": true
+        },
+        {
+          "field": "prior_graduation",
+          "value": null
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-education-5",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "contradicted",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "school_kind",
+          "value": "general"
+        },
+        {
+          "field": "expected_graduation_month",
+          "value": "2025-02"
+        },
+        {
+          "field": "completion_certificate",
+          "value": false
+        },
+        {
+          "field": "prior_graduation",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-education-6",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "school_kind",
+          "value": "remote"
+        },
+        {
+          "field": "prior_graduation",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-7",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "school_kind",
+          "value": "general"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-education-8",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "school_kind",
+          "value": "remote"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-rent-1",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 100000000,
+          "start": 7,
+          "end": 10,
+          "text": "1억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 12,
+          "cue_end": 14,
+          "status": "amount",
+          "value": 600000,
+          "start": 16,
+          "end": 20,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "monthly_rent_krw",
+          "predicted": 6000000,
+          "grounded": 600000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 12,
+            "cue_end": 14,
+            "status": "amount",
+            "value": 600000,
+            "start": 16,
+            "end": 20,
+            "text": "60만원"
+          }
+        }
+      ],
+      "patches": {
+        "monthly_rent_krw": 600000
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-2",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 20000000,
+          "start": 7,
+          "end": 11,
+          "text": "2천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 700000,
+          "start": 17,
+          "end": 21,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-3",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000000,
+          "start": 7,
+          "end": 13,
+          "text": "2400만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 15,
+          "cue_end": 17,
+          "status": "amount",
+          "value": 700000,
+          "start": 19,
+          "end": 23,
+          "text": "70만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-4",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 24000240,
+          "start": 7,
+          "end": 17,
+          "text": "2400만 240원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 19,
+          "cue_end": 21,
+          "status": "amount",
+          "value": 700000,
+          "start": 23,
+          "end": 27,
+          "text": "70만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 2400240,
+          "grounded": 24000240,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 24000240,
+            "start": 7,
+            "end": 17,
+            "text": "2400만 240원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 24000240
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000240
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-rent-5",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 20000000,
+          "start": 7,
+          "end": 11,
+          "text": "2천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 13,
+          "cue_end": 15,
+          "status": "amount",
+          "value": 750000,
+          "start": 17,
+          "end": 21,
+          "text": "75만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "monthly_rent_krw",
+          "predicted": 7500000,
+          "grounded": 750000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 13,
+            "cue_end": 15,
+            "status": "amount",
+            "value": 750000,
+            "start": 17,
+            "end": 21,
+            "text": "75만원"
+          }
+        }
+      ],
+      "patches": {
+        "monthly_rent_krw": 750000
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-rent-6",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "explicit_unknown",
+          "start": 5,
+          "end": 10,
+          "text": "은 밝히지"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 15,
+          "cue_end": 17,
+          "status": "amount",
+          "value": 700000,
+          "start": 19,
+          "end": 23,
+          "text": "70만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "monthly_rent_krw",
+          "predicted": 70000,
+          "grounded": 700000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "monthly_rent_krw",
+            "owner": "applicant",
+            "cue_start": 15,
+            "cue_end": 17,
+            "status": "amount",
+            "value": 700000,
+            "start": 19,
+            "end": 23,
+            "text": "70만원"
+          }
+        }
+      ],
+      "patches": {
+        "monthly_rent_krw": 700000
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-rent-7",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 80000000,
+          "start": 7,
+          "end": 12,
+          "text": "0.8억원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 14,
+          "cue_end": 16,
+          "status": "amount",
+          "value": 600000,
+          "start": 18,
+          "end": 22,
+          "text": "60만원"
+        }
+      ],
+      "issues": [],
+      "patches": {},
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-rent-8",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "abstain",
+    "reject": "abstain",
+    "corrected": "abstain",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [
+        {
+          "field": "deposit_krw",
+          "owner": "applicant",
+          "cue_start": 2,
+          "cue_end": 5,
+          "status": "amount",
+          "value": 110000000,
+          "start": 7,
+          "end": 14,
+          "text": "1억 1천만원"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "owner": "applicant",
+          "cue_start": 16,
+          "cue_end": 18,
+          "status": "amount",
+          "value": 600000,
+          "start": 20,
+          "end": 24,
+          "text": "60만원"
+        }
+      ],
+      "issues": [
+        {
+          "field": "deposit_krw",
+          "predicted": 1100000000,
+          "grounded": 110000000,
+          "reason": "amount_mismatch",
+          "span": {
+            "field": "deposit_krw",
+            "owner": "applicant",
+            "cue_start": 2,
+            "cue_end": 5,
+            "status": "amount",
+            "value": 110000000,
+            "start": 7,
+            "end": 14,
+            "text": "1억 1천만원"
+          }
+        }
+      ],
+      "patches": {
+        "deposit_krw": 110000000
+      },
+      "checked": [
+        "deposit_krw",
+        "monthly_rent_krw"
+      ],
+      "status": "checked"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 110000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-1",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-education-2",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-education-3",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "not_established",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "school_kind",
+          "value": "credit_bank"
+        },
+        {
+          "field": "prior_graduation",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-4",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduation_expected"
+        },
+        {
+          "field": "completion_certificate",
+          "value": true
+        },
+        {
+          "field": "school_kind",
+          "value": "general"
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  },
+  {
+    "id": "cap-education-5",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduation_expected"
+        },
+        {
+          "field": "completion_certificate",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-6",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "supported",
+    "reject": "supported",
+    "corrected": "supported",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "prior_graduation",
+          "value": false
+        }
+      ]
+    },
+    "reference_rule": "contradicted"
+  },
+  {
+    "id": "cap-education-7",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "group": null,
+    "variant": null,
+    "direct": "supported",
+    "raw": "not_established",
+    "reject": "not_established",
+    "corrected": "not_established",
+    "raw_profile_exact": true,
+    "corrected_profile_exact": true,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "school_kind",
+          "value": "general"
+        }
+      ]
+    },
+    "reference_rule": "supported"
+  },
+  {
+    "id": "cap-education-8",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "group": null,
+    "variant": null,
+    "direct": "not_established",
+    "raw": "contradicted",
+    "reject": "contradicted",
+    "corrected": "contradicted",
+    "raw_profile_exact": false,
+    "corrected_profile_exact": false,
+    "audit": {
+      "evidence": [],
+      "issues": [],
+      "patches": {},
+      "checked": [],
+      "status": "not_covered"
+    },
+    "corrected_profile": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "prior_graduation",
+          "value": true
+        }
+      ]
+    },
+    "reference_rule": "not_established"
+  }
+]

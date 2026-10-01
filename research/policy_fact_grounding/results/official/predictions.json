@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "yangsan-housing",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:43:12.567357+00:00",
+    "request_sha256": "280d0c0c38c41b07b232650f2e3bd7e22c654e8d021b45f403c9cf480c1661b3",
+    "input_sha256": "e53f6b2cbbb7af3f7e72ae316b40a2873de2368ebe1db65b9279d561a508db01",
+    "elapsed_seconds": 79.325,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          },
+          {
+            "field": "deposit_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "49f64b883928c043405b5b38db289fe6911d969040609adebb7be5c9ed28c0f0",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:43:46.379703+00:00",
+    "request_sha256": "9c8a5f084e5d454bab5e36941fb00d9452b8eb229af1cbbb448c3db1d1820873",
+    "input_sha256": "f24e090637d5030085f6f65e90fe52bf4473e2f02cce18b83644b72d11b2e2a4",
+    "elapsed_seconds": 33.812,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "gt",
+            "value": 60,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed",
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "employed",
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          },
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "self_employed",
+            "evidence": [
+              "yangsan-yangsan-income"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "ef59f6be8f0f1f01804871294f2ed79b1e060d2d7e2f1ec62888e9926a59d155",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:44:44.358811+00:00",
+    "request_sha256": "21e68a97632f999f58f5b1758442b0fabc5bd044824a1f5e9cb90f97bb8682a6",
+    "input_sha256": "e7cab3ee322e23cad53c80a1387ccb4018b27b0d6138d45e807b41df83b9c6e7",
+    "elapsed_seconds": 57.978,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "deposit_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "deposit_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "eq",
+            "value": 0,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          },
+          {
+            "field": "derived_0",
+            "op": "le",
+            "value": 300000000,
+            "evidence": [
+              "yongin-yongin-conversion"
+            ]
+          }
+        ]
+      ],
+      "derived": [
+        {
+          "field": "derived_0",
+          "constant": 0,
+          "terms": [
+            {
+              "field": "deposit_krw",
+              "numerator": 1,
+              "denominator": 1
+            },
+            {
+              "field": "monthly_rent_krw",
+              "numerator": 12,
+              "denominator": 6.4
+            }
+          ],
+          "evidence": [
+            "yongin-yongin-conversion"
+          ]
+        }
+      ]
+    },
+    "response_sha256": "b814a1aea23bf070c2b60c02915a44663637e326cb21372fc561b0bdb24e191c",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:44:56.611587+00:00",
+    "request_sha256": "5876a50e671d62193c167b4e71979aa4329a4ff50be6c9a212e08e05a7cbbce3",
+    "input_sha256": "89d0269c598aa02c60eb1668350c1612ac3d00fb7beeaee9b81e02af3310f70a",
+    "elapsed_seconds": 12.252,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 180,
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ]
+          }
+        ]
+      ],
+      "derived": []
+    },
+    "response_sha256": "af35ed04c95cc5bcde16d9d5bb3a8839961f06967d7574cc8c035979627232f7",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:45:17.357117+00:00",
+    "request_sha256": "ccbd0e978ad99e5b8e9808c7c42b528a35c5e9b8af698d51d1c11550731decbc",
+    "input_sha256": "5864426d5c9d9dc872d54c441ad5c51a9dc5f04ecdea7f8b73413a85b5d424aa",
+    "elapsed_seconds": 20.745,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "bcf2879983e829b77c893b912dcee21a95fe83a2ebf8dcd0bdccd21276d44257",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:45:25.261080+00:00",
+    "request_sha256": "ae21e42a161279dd74d0419a14ecd2bf5db6088deb729db3d5a2fbf894d93607",
+    "input_sha256": "d0bd53c197627df8811b43a4690cb6f9928132c4cc2b24ccbf9567867fe800c6",
+    "elapsed_seconds": 7.903,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "eb01b3b25134572377a97a9bdda0a74a78d3325c1dd1fdbc63153fb4283da024",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:45:45.200393+00:00",
+    "request_sha256": "eaaedaa41be62bef99dc6ab24c8aa02720d49a47954ab1b63d4e2038a1aa890b",
+    "input_sha256": "1fc44ee00fff2beb48b06dcaded0066248a245beffdc7abe7dc8be5cfcc19eec",
+    "elapsed_seconds": 19.939,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 11000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "f7b1dd8ed3a5a13c39e84f77442a867823761dd52580fa73eea3ae6b753dc3fc",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:45:53.432535+00:00",
+    "request_sha256": "9693b264fb98263a42a5819b3ee4272473881af278acef1e5467ab0f8e57bf7c",
+    "input_sha256": "043ff88dfe2cb02555338fcfac713a75de1bd2381457cb79ee9cb29833125529",
+    "elapsed_seconds": 8.232,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "04724743e224900ccf0fed74c6116c866ade1d9c38796d694f4d8a290c86190b",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:46:10.236941+00:00",
+    "request_sha256": "7d0b920cba13c715a62148801cb1d9b7b89d47bf9b685b78cef637b930db23db",
+    "input_sha256": "d13cbd10c0b7ed91bd83f1857f90d282d32f4ecce12253ea299eba53c037d9e0",
+    "elapsed_seconds": 16.804,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "response_sha256": "588f41cf713b94a7d03ca8236396d1332086ec080dc6ada280af686ba0273507",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:46:18.128171+00:00",
+    "request_sha256": "a0b7c89daf2415f8a61262dc82868cd522e8d307c0c68d95ff664df810aeb695",
+    "input_sha256": "057de778ba076ec9396dca16dd24ffb4024790d90d1c739c39b001dbc5171055",
+    "elapsed_seconds": 7.891,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "4533b1982b500bfac5d5ef72d1f213d7c5dab15fe039417066e80c9c996a243a",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:46:43.268633+00:00",
+    "request_sha256": "4d08f67744b8f18c7a0218be86b8a99e9a24e428fa8021634409c38231b7a72e",
+    "input_sha256": "b6d474b3d92841536b89fe2ee663c34e300c3e10da001cf95733f394ce57b223",
+    "elapsed_seconds": 25.14,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "78ce98a9716a2b97a11f1a3dd7fca9a91d2e7e76ea7b38126c06cf0df2298021",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:46:51.431139+00:00",
+    "request_sha256": "717ca1be02327d4885a3860930cdee31edb4cc561b89c89cfb0331eb4ed83096",
+    "input_sha256": "cf77aef4b3f3c6273542cd52f71a8a49f29ed0c5abc41dc79a0716067fe9f33d",
+    "elapsed_seconds": 8.162,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "384c0db06eb132f5c2c13493bc72fd068ec152ea69ff19b0ae2893c53e8b77e3",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:04.329930+00:00",
+    "request_sha256": "7af78d4faef01a9b05700a60d4b755c11afd10a5078f0da94ef735ba6969f08f",
+    "input_sha256": "0d00a76c72be72f5d65d2f86b62d148c61001788f58664253af955ec4b85cc9b",
+    "elapsed_seconds": 12.898,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "response_sha256": "137606226522d9328306fca8a88881e06f2cc6b5f90d6b72d0afb8d856826d33",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:12.177672+00:00",
+    "request_sha256": "1f612d14be3ffad577b22da6695c3abea0b9817534da33468285ca48866c6b7a",
+    "input_sha256": "2f83f913fed3ecf984ebfefd21a2d0ed6e6b4fad1c58ce2a70e0b5401728bfcf",
+    "elapsed_seconds": 7.847,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "f2077f276ac4cb5e242cba63981fa6259facff9aea3930163cfaa7ce349bfd34",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:18.795543+00:00",
+    "request_sha256": "5e63e11a42700529b4c578d4e6ec5b19798da025b286af61759c8d22f2371336",
+    "input_sha256": "c5fb87c605d2e0407f7a0904be5e0c5a51e5bbe21cc5c5ce88cd76a4014c3881",
+    "elapsed_seconds": 6.617,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "response_sha256": "9b4db2c8f54b48dcc3605bbe9ba6b3374e7e245deba90f53ad6f6c6a21968778",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:26.701454+00:00",
+    "request_sha256": "ab4f59a6090e29ddaca6e3ca9e0f9e688d26f10898b58c1e82eead2c1eb69ad5",
+    "input_sha256": "5d170435e0b71273cd706c7c511456fe2fc3d63c9e87223b85b1de7b509c130d",
+    "elapsed_seconds": 7.906,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "948ee7d5d08b2fa5cfb7e0971cf5b41e18a90a64519ca118fa70aafc7c93fcda",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:32.615414+00:00",
+    "request_sha256": "c49724595982956678b93080ff92e4e546b23f393fd7b1469e475f98aa2ebd2a",
+    "input_sha256": "b06e17a311474322a4f1c32242bcc78efa7e7503ee4ae48c0bf4912c1d4fb49f",
+    "elapsed_seconds": 5.913,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "5ee441e544729a1ac34d17aa37a6223eed6f9c6ecedadb6f0568f9f1e4d50e46",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:39.709307+00:00",
+    "request_sha256": "b2f42c5fe708054364111436ec6d0ccc1cf7ba1c13bc0bf0b01baa63e56fc411",
+    "input_sha256": "bf21c88b38351c6c5a68e52f9ca6b5af7c80c2d42f7b9158e889630e4ad604f7",
+    "elapsed_seconds": 7.093,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "e38ff2aba61f4ae1430774875ed00d2edb54c7bbeb662aa8ad779aadb288aedc",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:45.154425+00:00",
+    "request_sha256": "a5400f16f030c20dcbf6a26697cfc16bf018d105d928360c75fdcc3117ec4b2b",
+    "input_sha256": "e2ab452c0f1390961ea48a6aeed9be9037d82680b30e932075c737a1751ff0fa",
+    "elapsed_seconds": 5.445,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "74c1c647efd5be19665ae633078af139c49f5db1b70db698ccb7e7c4dd182786",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:47:52.709897+00:00",
+    "request_sha256": "417103c7d0c155407a41947aa5cf57796637110c71078376ecf8b581af243d8f",
+    "input_sha256": "43f4e07b2cc084d7552001236ab81fd47c891843629e29743acf8e33bcf50d1f",
+    "elapsed_seconds": 7.555,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "1328091b5210198f861c9465cc8a34029b1574db9c2dc4e1ef14549100481adb",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:48:12.728319+00:00",
+    "request_sha256": "8ea845e6afa75093d11eda9b9867d64260947617a26dab792235568d59340799",
+    "input_sha256": "3a560b090bb01f3f499575030ed85286f5e26af820f5ad55a90a9c13da6ba6bd",
+    "elapsed_seconds": 20.018,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "95e0ea20a48b156505e6bf002860268ed887d08991a6dfcaea264a8eda9f1ec4",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:48:20.582785+00:00",
+    "request_sha256": "32dcd827ba0376cfb026f29c63de14049baed64f6d0be12a2116de6147219df9",
+    "input_sha256": "0f1a7efcd0b52b900781c8f35105dbdcccd912b7fcc798b943fc09d5cd3f1584",
+    "elapsed_seconds": 7.854,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "0e743d3f8bd23ff59d925d359125d7c64a9d5b748d12bb1bc2c19b2c98e7cac8",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:48:40.155469+00:00",
+    "request_sha256": "54a2b385f96b4116bb5b6227f9ef162c133638016c354665fe8a9478a736c5ec",
+    "input_sha256": "85b60156f9b854f42060dfe8e91a290213f93709f1c44a4411220836cceabfdf",
+    "elapsed_seconds": 19.572,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "f1bba99c366e2aaeb62d9b2285b9af4a1765bd9e880332ca3206752c7614bf6a",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:48:47.959245+00:00",
+    "request_sha256": "93f03543ff1d733f76e8ed6732f53b403e512993c94ee94e5aedf161c8d7c417",
+    "input_sha256": "a9189a7f0ef761c56e7abe45179af3475f3d9599c16c5a23f4b8e2241e54f5ff",
+    "elapsed_seconds": 7.803,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "6102a453db9a1c3d15e9e218ff1fdd68315626efef9656e59f8068b253c83101",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:49:07.074884+00:00",
+    "request_sha256": "d9ccb3cd87b4bf6621f4eb6272120a196bf7331bfb69e3991062d2e70de7ad0b",
+    "input_sha256": "ba0ae0872f046003cf968e701e44aed9ead09ae37124e855d0e3991900bf028f",
+    "elapsed_seconds": 19.115,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "298846b97e74bad4295be446b2ba246a8311040fefd4cd32fdc6fa0b5622547c",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:49:15.239841+00:00",
+    "request_sha256": "f7b8b2896c61d73988248e82b634597bcc8947186e83fb0751101eeb1edb62af",
+    "input_sha256": "98c1934dd1febeabda95f1caf08f4144e0b38537b771241c97deae974b8db75b",
+    "elapsed_seconds": 8.164,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "07a086162522db27c8aa759b9fee89c70ea1119daa6b62eb6b10a1096362d92a",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:49:39.450289+00:00",
+    "request_sha256": "8539eb2bc91be9212af55423f73e3e371a8a77f3b1e4b12c491587abfbdb239a",
+    "input_sha256": "1d38811d9d3e051ff11eb426ec9f705fde72bcde36581e6ada39ffebbcf68bb3",
+    "elapsed_seconds": 24.21,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "3c7221c41a86350ca6f28774a03ffaf7f5c54a2c69dea2b146b5aed1bc8ed142",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:49:47.898129+00:00",
+    "request_sha256": "1feb2e12d350b4653618cf2e04e81af411289978f1c9f3c401c6947ba54f7385",
+    "input_sha256": "897638972d1fbfda5cbe0d6338d03ce3d75c78ed572dc2645718d657a4e1dfe5",
+    "elapsed_seconds": 8.447,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "c95c196a9342dd7ea5494ecb51f5a8a96dbb57dde8568a2fe45474155dbbc25d",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:49:55.373788+00:00",
+    "request_sha256": "ee7b001a5b4677443064e7f1b6818e89dec8659e867b56eda9263a3671db081f",
+    "input_sha256": "d0eea4e0813e743e1d1cc9f90fbdb7a0e33c385f45227eb3a8fd530468d19254",
+    "elapsed_seconds": 7.475,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "response_sha256": "9df6a3e32d95c2a9ed405af377b2c7d8740e2522e7859f67fbfdb4b5423ed86a",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:50:04.046550+00:00",
+    "request_sha256": "480d90daaf097ea75ce116ff8d9cd3431abd84b3a396a37e9720c02c83a56447",
+    "input_sha256": "6d4e7e0861b7061914fa3475dcb8f887f8902d124b3481f33aa7483fce704849",
+    "elapsed_seconds": 8.672,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "4b3ecb7e2b9309d66367e73c73d62d117e6ee650811d25fab39e451475094128",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:50:34.612852+00:00",
+    "request_sha256": "a7d3c0a6726eb5849e663f1867585b05f0223d5d8a484273c5f5388837158d74",
+    "input_sha256": "579df559d58f3b6b22cf6a58d3d337242f455f08cf210a9ec27b862433a35b44",
+    "elapsed_seconds": 30.566,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "02cc9db3bd0665a944171e761689777ff9a5c17b8cbce5c01ef336508fa2f64c",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:50:42.914413+00:00",
+    "request_sha256": "c89928b81fbda6bab899edf0b4a0550a78f012efa4062913437f3267d86ed1b1",
+    "input_sha256": "37fccd46ee1e3f624a41b5ecdc552a40c2ebc6aad43a5decdf3821998d6d4130",
+    "elapsed_seconds": 8.301,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "9361a1777354637f7f9911de5006ba646316b86fad1c8cbd1380a70aa0732642",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:50:54.552308+00:00",
+    "request_sha256": "084efcc007624312ebd753fc287bce2f94e2a93b4c819c5ab81a6ca50e6b1c5b",
+    "input_sha256": "310a1938bc71291f18299e04ec5409a855a0d131c509590dcb22c9511e538fd6",
+    "elapsed_seconds": 11.637,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 181
+        }
+      ]
+    },
+    "response_sha256": "780bee7fb12429a1b5a009dd8dcd45db04c84ae26925333dbe44cf6b2dd3ac23",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:51:02.932734+00:00",
+    "request_sha256": "c0100a9ced25fd036e4b1c60d2c27a1539f85b4050cbe0c474e378429e01d1cf",
+    "input_sha256": "a35664a809adddfc34525ea1151465504b5a2bd8dd0d889938c591a50e1df642",
+    "elapsed_seconds": 8.38,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "2e05f45b18cd92e630a0d66713cff0b2ec06059f69e889ae2af5c4ca95108cf7",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:51:33.728051+00:00",
+    "request_sha256": "995d54bb7eed2b965ac75d49b356547517c3d36dd20bf79c5e83360165c24062",
+    "input_sha256": "6a4d5ae7d684534fd5daf01702ff8669a14e5f7f5a82cc9aa6df817efebe71e9",
+    "elapsed_seconds": 30.795,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "438f2eb35cb05f182b202d6e4d3aaa29b2e7ac476164142ab67c1a413b0d6685",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:51:42.593981+00:00",
+    "request_sha256": "5793bdbbfa7f2328c8469cf5cf64e8dfb8f174f3ae5bbf6d8be5f6d7cecd509f",
+    "input_sha256": "0e63fe5f2b5f69ad3f0b182ede86ae135ad342dacbff06e8f22dbbc5ac23fabf",
+    "elapsed_seconds": 8.865,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "46d0e406db8de9a977b63c436c2e14b8b036319430487290e329f2d3b65e2636",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:51:57.483932+00:00",
+    "request_sha256": "7b3c15f80d51ed43f17e75bca5a6bd9f32076ca1a0333bfa399c4df80ca3c7be",
+    "input_sha256": "e53f6b2cbbb7af3f7e72ae316b40a2873de2368ebe1db65b9279d561a508db01",
+    "elapsed_seconds": 14.877,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ],
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 10000000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "yangsan-yangsan-housing"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "a6b7ef56f46867dadea17ddc4acd1478e883fd869656d070d30f950d9ed35986",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:51:59.478281+00:00",
+    "request_sha256": "0d2022f1916fbd033502ea0b83a6ef905a460ddbdcfe6a1c43f01a315cd76029",
+    "input_sha256": "f24e090637d5030085f6f65e90fe52bf4473e2f02cce18b83644b72d11b2e2a4",
+    "elapsed_seconds": 1.994,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "yangsan-yangsan-income"
+            ],
+            "field": "income_pct",
+            "op": "ge",
+            "value": 60
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "yangsan-yangsan-income"
+            ],
+            "field": "income_pct",
+            "op": "le",
+            "value": 150
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "49764617257b46743d7a2faec75e9b6349fb1c7f3aed9477a549b68560089270",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:02.242425+00:00",
+    "request_sha256": "e236389d436e3a470b6973119e951918c82fad65ce6a963e3b69e18c93ddf3cd",
+    "input_sha256": "e7cab3ee322e23cad53c80a1387ccb4018b27b0d6138d45e807b41df83b9c6e7",
+    "elapsed_seconds": 2.763,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "yongin-yongin-conversion"
+            ],
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 300000000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "yongin-yongin-conversion"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 300000000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "yongin-yongin-conversion"
+            ],
+            "field": "derived_0",
+            "op": "eq",
+            "value": 0
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "a7f627b6c7965ed384a694e7676c4e60ac4926ad8421d99b94699885efc144a3",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:06.048793+00:00",
+    "request_sha256": "70095b5c4d6d81255651a1a2cc6f79a47393d51f0b1596f0a822275aaacd170a",
+    "input_sha256": "89d0269c598aa02c60eb1668350c1612ac3d00fb7beeaee9b81e02af3310f70a",
+    "elapsed_seconds": 3.806,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ],
+            "field": "income_pct",
+            "op": "le",
+            "value": 180
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ],
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ],
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ],
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "yongin-yongin-income-benefits"
+            ],
+            "field": "education_benefit",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      ],
+      "derived": [],
+      "status": "ready"
+    },
+    "response_sha256": "1aade6576f3967faed4847a4520b02c99974c79f60ea1f39d1850215682bbeda",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:07.196193+00:00",
+    "request_sha256": "49fc3e54c92fd9c9f34c7ec16c323e4e68c842d4150f329b3e7131f668614bab",
+    "input_sha256": "5864426d5c9d9dc872d54c441ad5c51a9dc5f04ecdea7f8b73413a85b5d424aa",
+    "elapsed_seconds": 1.146,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "99b71dfa768e46c34057063358c7507aa4360256e071f3f4d7b1cf4cc89bfda7",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:07.805277+00:00",
+    "request_sha256": "513e9d6e9b15f0332ed2b8ee5e26e49014d0adeedab82402db9bd62beef396a3",
+    "input_sha256": "d0bd53c197627df8811b43a4690cb6f9928132c4cc2b24ccbf9567867fe800c6",
+    "elapsed_seconds": 0.609,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "d11ad29abaf521da6161072e1bea0a823849a7ee9bfd4baa50cfa3b74634481d",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:08.583526+00:00",
+    "request_sha256": "11ee34a33bcf043625064b290145a54b25192e7cf46ea3b2b3dd5e85ecbd541d",
+    "input_sha256": "1fc44ee00fff2beb48b06dcaded0066248a245beffdc7abe7dc8be5cfcc19eec",
+    "elapsed_seconds": 0.778,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 11000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "636a645c5c3a2c1a76e5e30a8c789282c8626f3aa2696a1024e7a5800585a8bb",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:09.102448+00:00",
+    "request_sha256": "c0ecb5fcfe75088a9063ead644c3098596e9a39b6a7f9f99490ed826c9c6d155",
+    "input_sha256": "043ff88dfe2cb02555338fcfac713a75de1bd2381457cb79ee9cb29833125529",
+    "elapsed_seconds": 0.518,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "9d6d53b4b34bb37f8de09fb1703baf6dc75a9e03039c9d7327480319bca2ee4b",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:09.838516+00:00",
+    "request_sha256": "80e0a5179d509db0455df3462a3f2e7357fcc49ab1e2a7ecfd045874aae6b19a",
+    "input_sha256": "d13cbd10c0b7ed91bd83f1857f90d282d32f4ecce12253ea299eba53c037d9e0",
+    "elapsed_seconds": 0.736,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 0
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 0
+        }
+      ]
+    },
+    "response_sha256": "f14366508ed6d9518ff43f32249dbe7295130a4fd550aa11e040b5b04b7063a7",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:10.347958+00:00",
+    "request_sha256": "eff31a68486eaab4fa874b040708f29b06ecd709de7f4d52f0f58446e88b55de",
+    "input_sha256": "057de778ba076ec9396dca16dd24ffb4024790d90d1c739c39b001dbc5171055",
+    "elapsed_seconds": 0.509,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "6641d5ec846c83747d82878697b2feb8e65949851bb4ff8e3a8f5cf5da3315ef",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:10.970369+00:00",
+    "request_sha256": "9b1d13e9890332d8386f76e688a3d68e0328c8327c738a9075ce44c9b0d2ab3a",
+    "input_sha256": "b6d474b3d92841536b89fe2ee663c34e300c3e10da001cf95733f394ce57b223",
+    "elapsed_seconds": 0.622,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "9e8aefd621d17e326c13c0b828ac227c9e82ab9821349d0063441157b1182d11",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-housing-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:11.490080+00:00",
+    "request_sha256": "6e23e9c2e5c58f5bb4d77e3846643504a7abf752ec7e4d590176167b24de6773",
+    "input_sha256": "cf77aef4b3f3c6273542cd52f71a8a49f29ed0c5abc41dc79a0716067fe9f33d",
+    "elapsed_seconds": 0.519,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-housing"
+      ]
+    },
+    "response_sha256": "91bddc082afb21fab3f232a759d0b75e76632ba654dddb4af780b27868e33b2f",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:12.286668+00:00",
+    "request_sha256": "ef3aef1796f363f5c22fe64322473369bc4910696caa1814e2c6002becc42c2b",
+    "input_sha256": "0d00a76c72be72f5d65d2f86b62d148c61001788f58664253af955ec4b85cc9b",
+    "elapsed_seconds": 0.796,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60
+        }
+      ]
+    },
+    "response_sha256": "92058c33f50bdd9b1ead7ee3e0b77348798208f8d090106fffc2f3f2e9da3006",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:12.840221+00:00",
+    "request_sha256": "7174c79e3daa4c2dbef6c40c358cc8e0ec5512bd2ee73ead0328b9c1bed33bf6",
+    "input_sha256": "2f83f913fed3ecf984ebfefd21a2d0ed6e6b4fad1c58ce2a70e0b5401728bfcf",
+    "elapsed_seconds": 0.553,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "3509ec1a016250e059a463b1079f6fcd8a7c1f3916c2833fc3eba669110678d5",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:13.380456+00:00",
+    "request_sha256": "a54881e7cd2a2898f9ae62225b92f484aa2280b6ef550ef035e34e6eb652b2e0",
+    "input_sha256": "c5fb87c605d2e0407f7a0904be5e0c5a51e5bbe21cc5c5ce88cd76a4014c3881",
+    "elapsed_seconds": 0.54,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 60.01
+        }
+      ]
+    },
+    "response_sha256": "1c49608be75bb9a25a139b91fd75bf958bcaa6d9244aea5ef0e3b64a311482f8",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:13.886048+00:00",
+    "request_sha256": "9312a85afe3f968fcead69e68d038fc586bae2ce68f2bd1caf414a73d2f9dced",
+    "input_sha256": "5d170435e0b71273cd706c7c511456fe2fc3d63c9e87223b85b1de7b509c130d",
+    "elapsed_seconds": 0.505,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "7dff618a0e6a5223573bf08f5e1d364505dd07692dc686c06f97a930926ebe38",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:14.413523+00:00",
+    "request_sha256": "a2b72e2bc1a00b267d1033669bea59b4a1a7cf10cdf37493bc65e30ab8627d0f",
+    "input_sha256": "b06e17a311474322a4f1c32242bcc78efa7e7503ee4ae48c0bf4912c1d4fb49f",
+    "elapsed_seconds": 0.527,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "5a418baa55fe5c5b2c4b5f0bf80f252c6c350b26ba25b9ae5412079f522f87fb",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:14.928557+00:00",
+    "request_sha256": "ca1993670e15bc6cab95632b2e4f4351ea2fc92347830e288c08f5ab1b024169",
+    "input_sha256": "bf21c88b38351c6c5a68e52f9ca6b5af7c80c2d42f7b9158e889630e4ad604f7",
+    "elapsed_seconds": 0.515,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "6534d26dd8b1483d509657d201f42a75cf7158a73a73fb014320be1de3f6c6a3",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:15.356811+00:00",
+    "request_sha256": "9caa0400d15b9791724b6c89ba947912b158457722da7843b9170ffeb317a09c",
+    "input_sha256": "e2ab452c0f1390961ea48a6aeed9be9037d82680b30e932075c737a1751ff0fa",
+    "elapsed_seconds": 0.428,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "d8990a0ed5c4b1215229415c2bfc8cecaaa3971bbab3db96906ae605c7946e81",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yangsan-income-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:15.912075+00:00",
+    "request_sha256": "e34d8188e95ae2f3ca10a19c9670fdd3c7bafb226f55a31764c77da44eb50ffc",
+    "input_sha256": "43f4e07b2cc084d7552001236ab81fd47c891843629e29743acf8e33bcf50d1f",
+    "elapsed_seconds": 0.555,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "yangsan-yangsan-income"
+      ]
+    },
+    "response_sha256": "c70ee3be0c9d6c2fe33392b675eded0a09ea6a6e4a9558fb208fb518fda6a2d9",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:16.951344+00:00",
+    "request_sha256": "bb8cf9ae26e8f121e8dae17bd6b22f04c0d4ce478cd839022a541f996d02fb62",
+    "input_sha256": "3a560b090bb01f3f499575030ed85286f5e26af820f5ad55a90a9c13da6ba6bd",
+    "elapsed_seconds": 1.039,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "9b4fb19143d3fe4c4d9dfb706f3a3606b4c6f44892654b4b28a065fde3036900",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:17.529553+00:00",
+    "request_sha256": "9acc0d844e04c2873812c1e33da22cf1cad276555f2ce5e28fc0904e8fe2457c",
+    "input_sha256": "0f1a7efcd0b52b900781c8f35105dbdcccd912b7fcc798b943fc09d5cd3f1584",
+    "elapsed_seconds": 0.578,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "315b876a92135f2807bbc7b83f542c846ac29852605cd81a3237de4d33b4e647",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:18.317652+00:00",
+    "request_sha256": "d51da21a0bbdd6e2176f5ac5a3c7c64b13e68d15fcb29667d723e72d8888df3b",
+    "input_sha256": "85b60156f9b854f42060dfe8e91a290213f93709f1c44a4411220836cceabfdf",
+    "elapsed_seconds": 0.788,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112501000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "ebd066ab959b277c685471df8f71a2bcf89d6dee72ed899211c5fa66a7414426",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:18.844391+00:00",
+    "request_sha256": "2ce83a8d2b84131156582f36ec3ec68466695914af384098420654943432e7b2",
+    "input_sha256": "a9189a7f0ef761c56e7abe45179af3475f3d9599c16c5a23f4b8e2241e54f5ff",
+    "elapsed_seconds": 0.526,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "400c94707ab79ee4bde58a9825644b31deb5af4715b642906e98f854f2dae543",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:19.636354+00:00",
+    "request_sha256": "07597932c52dc83cd89f6e9f2737037efdf3e24a82cdc14a2150c97f9eb25232",
+    "input_sha256": "ba0ae0872f046003cf968e701e44aed9ead09ae37124e855d0e3991900bf028f",
+    "elapsed_seconds": 0.792,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 112500000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        }
+      ]
+    },
+    "response_sha256": "8a4b91096508515148970dbb2b1cbb5b0fa41e16761b8507a5d03f754c3137ce",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:20.151672+00:00",
+    "request_sha256": "77c38d8746d1f9b3e0cd0433a5ab97f606aeb881d5b76c740bc0b805fbef37b4",
+    "input_sha256": "98c1934dd1febeabda95f1caf08f4144e0b38537b771241c97deae974b8db75b",
+    "elapsed_seconds": 0.515,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "cadecb4ad7436a415e692b6a03d70ad5498b313c659a87f2e7e6f02288ca1068",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:21.433137+00:00",
+    "request_sha256": "42cf2e049aae4005b68603881177d49d3bd00307bbcfd97732f7b06048165021",
+    "input_sha256": "1d38811d9d3e051ff11eb426ec9f705fde72bcde36581e6ada39ffebbcf68bb3",
+    "elapsed_seconds": 1.281,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 1000000
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 11250
+        }
+      ]
+    },
+    "response_sha256": "487a2a4db4e7bca7c207c555df4e25f8e605e485daefd8589fb2a8963af5ddd0",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-conversion-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:21.952883+00:00",
+    "request_sha256": "2ef2834559be0a961295b48c6f787444228881111821717398a3422d48c879cd",
+    "input_sha256": "897638972d1fbfda5cbe0d6338d03ce3d75c78ed572dc2645718d657a4e1dfe5",
+    "elapsed_seconds": 0.519,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-conversion"
+      ]
+    },
+    "response_sha256": "93edde7dc188ce4953c77943a637f92107bf9407cb66e2e69264c669717d4288",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:22.754236+00:00",
+    "request_sha256": "653d2105d9cdbf847f0bef508dac42f2dcc678c21ecbee0e032c9509a0cff5c5",
+    "input_sha256": "d0eea4e0813e743e1d1cc9f90fbdb7a0e33c385f45227eb3a8fd530468d19254",
+    "elapsed_seconds": 0.801,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "response_sha256": "d82f23cfc8b1b2a87d5e0fb2faa034a62ff1388023d5643ee6b5b015be0df9a2",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:23.349706+00:00",
+    "request_sha256": "679f09b6aeee02e8de4520c7f9a8047d649c66e1b8c5070b0e8181f0eafcf2cd",
+    "input_sha256": "6d4e7e0861b7061914fa3475dcb8f887f8902d124b3481f33aa7483fce704849",
+    "elapsed_seconds": 0.595,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "96b6bb6c8ff6d7ee04de0a27b83987914bda9365cff096d808d2cec1c4ec9a13",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:23.869426+00:00",
+    "request_sha256": "69add7a1875c41d9fabbba8dbc29aad9d226127ccc05dda8fb86d58f2bff923f",
+    "input_sha256": "579df559d58f3b6b22cf6a58d3d337242f455f08cf210a9ec27b862433a35b44",
+    "elapsed_seconds": 0.519,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "response_sha256": "05656a813329ef990519873a52a27c5c9d70d24ad79ec67f94e2c5e0599411e2",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:24.418748+00:00",
+    "request_sha256": "6801976fe6d86ac3d10ab7d5ae59bf92d65ad9f8b62e15c2bbab22803b6a228d",
+    "input_sha256": "37fccd46ee1e3f624a41b5ecdc552a40c2ebc6aad43a5decdf3821998d6d4130",
+    "elapsed_seconds": 0.549,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "b87717195e7113d3c71c3c144823cccdd14dffb363d97262e2a2664042fb4a13",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:24.781222+00:00",
+    "request_sha256": "2c35a4318cdadb9557d5290db8133b950b2d74b8016cae5417b02ba73b433824",
+    "input_sha256": "310a1938bc71291f18299e04ec5409a855a0d131c509590dcb22c9511e538fd6",
+    "elapsed_seconds": 0.362,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "07da44750de8b5993e7575f4e5b0c0fb52fa643050f2d2b15d6896b5d06f05d0",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:25.348875+00:00",
+    "request_sha256": "c7b648757540d56459faf3efb9e0a036413fc681d8a093b9c58bf4515caeb384",
+    "input_sha256": "a35664a809adddfc34525ea1151465504b5a2bd8dd0d889938c591a50e1df642",
+    "elapsed_seconds": 0.567,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "3a7cdb80f1fb5276b73f8a3f8e74d8f2b8063fee28e0645a767f3bc276c11edc",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:25.880888+00:00",
+    "request_sha256": "4cc6d51693d9144de778f980c290338a3a6ddce383e632945a00f015dc2cee63",
+    "input_sha256": "6a4d5ae7d684534fd5daf01702ff8669a14e5f7f5a82cc9aa6df817efebe71e9",
+    "elapsed_seconds": 0.531,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "response_sha256": "77f9cb1e407d81804908dfaeabb879f5b6eb1ae3de8b5e71bd2b5f18aec663b4",
+    "done_reason": "stop"
+  },
+  {
+    "id": "yongin-income-benefits-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T13:52:26.443933+00:00",
+    "request_sha256": "a7b28c58df02d7235512a9763a2e51c17d9aa1af65099e985edd788d51072b7b",
+    "input_sha256": "0e63fe5f2b5f69ad3f0b182ede86ae135ad342dacbff06e8f22dbbc5ac23fabf",
+    "elapsed_seconds": 0.562,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "yongin-yongin-income-benefits"
+      ]
+    },
+    "response_sha256": "846be345b47e8b69efe163281ff2e54bb709289c77206e29cd6b93e54415abe5",
+    "done_reason": "stop"
+  }
+]

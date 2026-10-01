@@ -1,0 +1,161 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 32,
+      "correct": 25,
+      "abstain": 0,
+      "unknown": 13,
+      "confusion": {
+        "contradicted/contradicted": 6,
+        "contradicted/not_established": 4,
+        "contradicted/supported": 2,
+        "not_established/not_established": 8,
+        "supported/not_established": 1,
+        "supported/supported": 11
+      }
+    },
+    "raw": {
+      "n": 32,
+      "correct": 27,
+      "abstain": 0,
+      "unknown": 5,
+      "confusion": {
+        "contradicted/contradicted": 12,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/contradicted": 2,
+        "supported/supported": 10
+      }
+    },
+    "reject": {
+      "n": 32,
+      "correct": 25,
+      "abstain": 3,
+      "unknown": 5,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/contradicted": 11,
+        "not_established/abstain": 1,
+        "not_established/contradicted": 1,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/abstain": 1,
+        "supported/contradicted": 2,
+        "supported/supported": 9
+      }
+    },
+    "corrected": {
+      "n": 32,
+      "correct": 28,
+      "abstain": 0,
+      "unknown": 6,
+      "confusion": {
+        "contradicted/contradicted": 12,
+        "not_established/contradicted": 1,
+        "not_established/not_established": 6,
+        "not_established/supported": 1,
+        "supported/contradicted": 2,
+        "supported/supported": 10
+      }
+    },
+    "reference_rule": {
+      "n": 32,
+      "correct": 32,
+      "abstain": 0,
+      "unknown": 8,
+      "confusion": {
+        "contradicted/contradicted": 12,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "raw_profile_exact": 29,
+    "corrected_profile_exact": 32,
+    "grounding_covered": 12,
+    "flagged": 3,
+    "joint_raw": 25,
+    "joint_corrected": 28,
+    "answer_fixes": 1,
+    "answer_harms": 0,
+    "profile_fixes": 3,
+    "profile_harms": 0
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 32,
+      "correct": 13,
+      "abstain": 0,
+      "unknown": 4,
+      "confusion": {
+        "contradicted/not_established": 3,
+        "contradicted/supported": 9,
+        "not_established/not_established": 1,
+        "not_established/supported": 7,
+        "supported/supported": 12
+      }
+    },
+    "raw": {
+      "n": 32,
+      "correct": 27,
+      "abstain": 0,
+      "unknown": 6,
+      "confusion": {
+        "contradicted/contradicted": 9,
+        "contradicted/supported": 3,
+        "not_established/not_established": 6,
+        "not_established/supported": 2,
+        "supported/supported": 12
+      }
+    },
+    "reject": {
+      "n": 32,
+      "correct": 24,
+      "abstain": 4,
+      "unknown": 6,
+      "confusion": {
+        "contradicted/abstain": 3,
+        "contradicted/contradicted": 7,
+        "contradicted/supported": 2,
+        "not_established/not_established": 6,
+        "not_established/supported": 2,
+        "supported/abstain": 1,
+        "supported/supported": 11
+      }
+    },
+    "corrected": {
+      "n": 32,
+      "correct": 28,
+      "abstain": 0,
+      "unknown": 6,
+      "confusion": {
+        "contradicted/contradicted": 10,
+        "contradicted/supported": 2,
+        "not_established/not_established": 6,
+        "not_established/supported": 2,
+        "supported/supported": 12
+      }
+    },
+    "reference_rule": {
+      "n": 32,
+      "correct": 32,
+      "abstain": 0,
+      "unknown": 8,
+      "confusion": {
+        "contradicted/contradicted": 12,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "raw_profile_exact": 25,
+    "corrected_profile_exact": 29,
+    "grounding_covered": 12,
+    "flagged": 4,
+    "joint_raw": 21,
+    "joint_corrected": 25,
+    "answer_fixes": 1,
+    "answer_harms": 0,
+    "profile_fixes": 4,
+    "profile_harms": 0
+  }
+}
