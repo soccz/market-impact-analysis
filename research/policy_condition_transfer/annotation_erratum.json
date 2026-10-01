@@ -1,0 +1,10 @@
+{
+  "saved_at_utc": "2026-10-01T06:48:24.896893+00:00",
+  "after_prediction_inspection": true,
+  "reason": "Initial reference listed only the first 150% statement in the rent income paragraph. The same paragraph explicitly repeats the same target threshold. Add that second location as an alternative; no value, prediction, method, source, required branch or reader is changed.",
+  "affected_field": "seoul_rent2025/income",
+  "initial_reference": "audit/initial_annotation/reference.json",
+  "initial_scores_preserved": "audit/initial_annotation/",
+  "protocol_deviation": "Scoring repeated after an evidence-location annotation correction. This is disclosed, not claimed to be a one-pass or fully blinded benchmark.",
+  "reference_sha256": "76514535d90ee70dc47bafd0c2f48974a8ba4edfe38061df7acc91a16272ac6e"
+}

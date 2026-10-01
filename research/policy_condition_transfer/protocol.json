@@ -1,0 +1,27 @@
+{
+  "version": "first-application-1",
+  "date": "2026-10-01",
+  "question": "Do the unchanged condition readers transfer from the eight observed Seoul notices to later notices and different programmes or jurisdictions?",
+  "selection_buckets": [
+    {"id": "seoul_rent2025", "jurisdiction": "서울특별시", "target": "2025년 서울시 청년월세지원 최초 모집 공고"},
+    {"id": "seoul_culture2025", "jurisdiction": "서울특별시", "target": "2025년 서울청년문화패스 최초 모집 공고"},
+    {"id": "gyeonggi_interview2025", "jurisdiction": "경기도", "target": "2025년 경기도 청년 면접수당 1차 모집 공고"},
+    {"id": "busan_didimdol2025", "jurisdiction": "부산광역시", "target": "2025년 청년 사회진입 활동비 지원 디딤돌카드 최초 모집 공고"}
+  ],
+  "selection_rule": "Find the complete official notice for each fixed bucket, not a news summary. Record unavailable candidates and format failures. Do not replace a document based on predictions or scores. If several official mirrors contain the same notice, verify notice number/date and use a downloadable original. Select the first verified initial notice, not an easier revised notice.",
+  "reader_source": "../policy_condition_reading",
+  "reader_commit": "6fc78702e6344fe09feefc0c45fb06054bd0bb58",
+  "methods": ["document_first", "tfidf_top1", "klue_top1", "tfidf_consensus3", "refined_frozen"],
+  "fields": ["age", "birth", "income", "welfare"],
+  "field_scope": {
+    "age": "Literal age interval, including a single age represented as [x,x].",
+    "birth": "Explicit birth-date interval for the selected recruitment; do not calculate one from age alone.",
+    "income": "Explicit median-income upper bound and any recipient scopes; not actual salary/insurance conversion. Explicit no income restriction is a distinct unrestricted state, not unmentioned.",
+    "welfare": "Exclusions among livelihood, medical, housing and education benefits. An explicitly permitted basic-benefit group may establish an empty exclusion set; silence does not. Other benefits and eligibility rules are out of this field's scope."
+  },
+  "order": "Freeze old reader files and this protocol before source search. Collect sources. Run all frozen readers before constructing the new provisional reference annotations or inspecting predictions. Save prediction hashes. Then independently of prediction values read the sources to author provisional labels. Score once; do not modify the readers in this package.",
+  "annotation": "AI-assisted provisional reference with source locations; not an independent human gold standard. Search snippets and document validation may reveal content, so this is an unchanged-reader first application, not a blinded human evaluation.",
+  "metrics": "Exact value and strict complete-reference-span support on answerable fields; wrong value and abstention separately. Not-established fields separately; explicit unrestricted is answerable and an abstention is not correct. Report every document and field, plus extraction/schema limitations. No bootstrap confidence claim from four documents.",
+  "constraints": "No new fits, no paid API, no code or prompt tuning after source observation, no raw official attachments or full extracted texts in public Git. No true erratum/whole-eligibility/population-effect claim.",
+  "independent_human_reviews": 0
+}

@@ -1,0 +1,23 @@
+{
+  "prediction_based_replacements": 0,
+  "excluded": [
+    "Mutable 2026 Busan overview; not the locked 2025 notice.",
+    "Seoul culture second-round overview; not the locked initial notice."
+  ],
+  "failures": [
+    {
+      "url": "https://busanjob.net/07_comm/comm01_view.asp?idx=547&mbs=C",
+      "result": "HTTP 404 after site migration; search cache retained title and date."
+    },
+    {
+      "url": "https://www.bepa.kr/kor/view.do?idx=15890&no=1508&view=view",
+      "result": "TLS issuer-chain verification failure in requests; verification was not disabled."
+    },
+    {
+      "url": "https://busanjob.net/file_down.asp?file=1741078088.pdf&menu_type=board",
+      "result": "Web attachment fetch failed; university mirror used for the same dated notice."
+    }
+  ],
+  "selected_documents": 4,
+  "raw_attachments_public": false
+}

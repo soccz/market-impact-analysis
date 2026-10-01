@@ -1,0 +1,364 @@
+[
+  {
+    "document": "seoul_rent2025",
+    "field": "age",
+    "note": "",
+    "support_groups": [
+      [
+        {
+          "end": 185,
+          "page": 1,
+          "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+          "start": 178
+        },
+        {
+          "end": 12,
+          "page": 3,
+          "sha256": "d7776daaa7f68532d77fdde8982e713ce072f1d92bb15ebd7debf20a876f8ff5",
+          "start": 5
+        }
+      ]
+    ],
+    "value": [
+      19,
+      39
+    ]
+  },
+  {
+    "document": "seoul_rent2025",
+    "field": "birth",
+    "note": "",
+    "support_groups": [
+      [
+        {
+          "end": 43,
+          "page": 3,
+          "sha256": "bd7a48083a745eb477d78690856444c1b6ec5497bb00c7fcd80af5161f5ba4a8",
+          "start": 22
+        }
+      ]
+    ],
+    "value": [
+      "1985-01-01",
+      "2006-12-31"
+    ]
+  },
+  {
+    "document": "seoul_rent2025",
+    "field": "income",
+    "note": "A median-income upper threshold only; family and insurance conversion are outside this field.",
+    "support_groups": [
+      [
+        {
+          "end": 618,
+          "page": 3,
+          "sha256": "7f1eb4f61c5376fdd541907309ece184fb1134604041e404c79e8d4e74331bbf",
+          "start": 608
+        }
+      ]
+    ],
+    "value": {
+      "all": 150.0
+    }
+  },
+  {
+    "document": "seoul_rent2025",
+    "field": "welfare",
+    "note": "Canonical PDF ordering moves parentheses; visual page 5 checked. Four benefit types only.",
+    "support_groups": [
+      [
+        {
+          "end": 288,
+          "page": 5,
+          "sha256": "0fdc1e0e9e16a8de43166bd5701134b54a5f000f015bd8944889e45211fabfb7",
+          "start": 257
+        }
+      ]
+    ],
+    "value": [
+      "housing",
+      "livelihood",
+      "medical"
+    ]
+  },
+  {
+    "document": "seoul_culture2025",
+    "field": "age",
+    "literal_value_scope": "ordinary applicant; not a universal interval",
+    "note": "Literal base interval retained for comparability; complete evidence must include service definition and all three branches.",
+    "scope_note": "The notice states extended birth years, not full extended date intervals. No dates are inferred from age. Numeric base-value match alone cannot count as complete support.",
+    "scope_requirements": [
+      {
+        "earliest_birth_year": 2001,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "under 1 year",
+        "upper_age": 24
+      },
+      {
+        "earliest_birth_year": 2000,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "at least 1 and under 2 years",
+        "upper_age": 25
+      },
+      {
+        "earliest_birth_year": 1999,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "at least 2 and under 5 years",
+        "upper_age": 26
+      }
+    ],
+    "support_groups": [
+      [
+        {
+          "end": 217,
+          "page": 1,
+          "sha256": "965bc4d900f064cf78e23db5b15f2c4d935a3038b81d5a9e1b3a2f1ba98bc20e",
+          "start": 211
+        },
+        {
+          "end": 19,
+          "page": 2,
+          "sha256": "4b255491417c23ad13f2ee79609b6a19f88af32dc9e0b8b02689fedad3c99922",
+          "start": 12
+        }
+      ],
+      [
+        {
+          "end": 148,
+          "page": 2,
+          "sha256": "732c527fcb3c30d894d49c31aac5f0f4f1a40e0201ec801b5812496265f6763c",
+          "start": 76
+        }
+      ],
+      [
+        {
+          "end": 272,
+          "page": 2,
+          "sha256": "7b53c63d37f379a91baadd457ce96ebe9762bafae95cbf12ac88ac77130b6416",
+          "start": 194
+        }
+      ]
+    ],
+    "value": [
+      20,
+      23
+    ]
+  },
+  {
+    "document": "seoul_culture2025",
+    "field": "birth",
+    "literal_value_scope": "ordinary applicant; not a universal interval",
+    "note": "Explicit ordinary-applicant dates and separately stated extended birth years; no invented extended full dates.",
+    "scope_note": "The notice states extended birth years, not full extended date intervals. No dates are inferred from age. Numeric base-value match alone cannot count as complete support.",
+    "scope_requirements": [
+      {
+        "earliest_birth_year": 2001,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "under 1 year",
+        "upper_age": 24
+      },
+      {
+        "earliest_birth_year": 2000,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "at least 1 and under 2 years",
+        "upper_age": 25
+      },
+      {
+        "earliest_birth_year": 1999,
+        "group": "qualifying discharged mandatory-service applicants",
+        "service": "at least 2 and under 5 years",
+        "upper_age": 26
+      }
+    ],
+    "support_groups": [
+      [
+        {
+          "end": 41,
+          "page": 2,
+          "sha256": "788ebf59a41e4953bb589e892539b1c9830fd76e5cc39339be29fd2849058524",
+          "start": 20
+        }
+      ],
+      [
+        {
+          "end": 148,
+          "page": 2,
+          "sha256": "732c527fcb3c30d894d49c31aac5f0f4f1a40e0201ec801b5812496265f6763c",
+          "start": 76
+        }
+      ],
+      [
+        {
+          "end": 272,
+          "page": 2,
+          "sha256": "7b53c63d37f379a91baadd457ce96ebe9762bafae95cbf12ac88ac77130b6416",
+          "start": 194
+        }
+      ]
+    ],
+    "value": [
+      "2002-01-01",
+      "2005-12-31"
+    ]
+  },
+  {
+    "document": "seoul_culture2025",
+    "field": "income",
+    "note": "Returning covers either 2023 or 2024; nearest-year matching without the full scope does not establish complete evidence.",
+    "support_groups": [
+      [
+        {
+          "end": 349,
+          "page": 2,
+          "sha256": "4e9ad429d4a285a36038999f2987ef3ff9fced0c4b59ec6e858c38415e4a0ce8",
+          "start": 324
+        }
+      ],
+      [
+        {
+          "end": 382,
+          "page": 2,
+          "sha256": "8b5830b322308d7d7b530ad0bae71f1250b7db6c55fee5458028b9dc68d1c5af",
+          "start": 350
+        }
+      ]
+    ],
+    "value": {
+      "first": 150.0,
+      "returning": 120.0
+    }
+  },
+  {
+    "document": "seoul_culture2025",
+    "field": "welfare",
+    "note": "No explicit exclusion or permission of these four benefits established in the selected 5-page attachment. Not an empty exclusion set.",
+    "support_groups": [],
+    "value": null
+  },
+  {
+    "document": "gyeonggi_interview2025",
+    "field": "age",
+    "note": "As printed for the implementation year; do not compute age on the application date.",
+    "support_groups": [
+      [
+        {
+          "end": 236,
+          "page": 1,
+          "sha256": "b5fc57a8f0303af795560ea3a54e718fa983226764baf4c54d5937cad2a632a5",
+          "start": 226
+        }
+      ]
+    ],
+    "value": [
+      18,
+      39
+    ]
+  },
+  {
+    "document": "gyeonggi_interview2025",
+    "field": "birth",
+    "note": "",
+    "support_groups": [
+      [
+        {
+          "end": 397,
+          "page": 1,
+          "sha256": "e8ebc1205d9f84303dcfdd3feb26f01fba2c31b7aa38d724d9ca8923482162d9",
+          "start": 376
+        }
+      ]
+    ],
+    "value": [
+      "1985-01-01",
+      "2007-12-31"
+    ]
+  },
+  {
+    "document": "gyeonggi_interview2025",
+    "field": "income",
+    "note": "The selected 17-page notice does not explicitly state an income threshold or no-income-restriction statement. Search summaries are not evidence; its separately listed FAQ is outside the fixed input.",
+    "support_groups": [],
+    "value": null
+  },
+  {
+    "document": "gyeonggi_interview2025",
+    "field": "welfare",
+    "note": "Unemployment allowance is a different benefit. No explicit four-basic-benefit exclusion/permission established in this attachment.",
+    "support_groups": [],
+    "value": null
+  },
+  {
+    "document": "busan_didimdol2025",
+    "field": "age",
+    "note": "",
+    "support_groups": [
+      [
+        {
+          "end": 188,
+          "page": 2,
+          "sha256": "863711202a8e4a173638d55ac0e6ec5825b27ba7626fe9145ce0d0ad28cb82d2",
+          "start": 181
+        }
+      ]
+    ],
+    "value": [
+      18,
+      39
+    ]
+  },
+  {
+    "document": "busan_didimdol2025",
+    "field": "birth",
+    "note": "Explicit dates appear beside 나이; no need to derive dates from the age range.",
+    "support_groups": [
+      [
+        {
+          "end": 210,
+          "page": 2,
+          "sha256": "e8ebc1205d9f84303dcfdd3feb26f01fba2c31b7aa38d724d9ca8923482162d9",
+          "start": 189
+        }
+      ]
+    ],
+    "value": [
+      "1985-01-01",
+      "2007-12-31"
+    ]
+  },
+  {
+    "document": "busan_didimdol2025",
+    "field": "income",
+    "note": "Median-income cap only. The printed reference year is 2024; no household won/insurance conversion is performed.",
+    "support_groups": [
+      [
+        {
+          "end": 567,
+          "page": 2,
+          "sha256": "1ea8be26219f82008f016fd722f06b38b1230392b3c34b3cb8a7e0ec5a857039",
+          "start": 554
+        }
+      ]
+    ],
+    "value": {
+      "all": 150.0
+    }
+  },
+  {
+    "document": "busan_didimdol2025",
+    "field": "welfare",
+    "note": "Excludes livelihood within four named benefits; the other three alone are permitted. Separate Busan basic guarantee and other exclusions are outside this field.",
+    "support_groups": [
+      [
+        {
+          "end": 133,
+          "page": 4,
+          "sha256": "93f656abcb52886b30863ca210d81fbb53e699ae5e08a5d95857e0ea28dbe3f3",
+          "start": 103
+        }
+      ]
+    ],
+    "value": [
+      "livelihood"
+    ]
+  }
+]

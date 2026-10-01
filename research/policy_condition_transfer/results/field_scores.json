@@ -1,0 +1,1309 @@
+[
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "value_only",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "value_only",
+    "prediction": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "document_first",
+    "outcome": "correct_joint",
+    "prediction": [
+      18,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "document_first",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "document_first",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "document_first",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "livelihood"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "correct_joint",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct_joint",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "value_only",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "value_only",
+    "prediction": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "correct_joint",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "livelihood"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      19,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct_joint",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      20,
+      23
+    ],
+    "scope_branch_required": true,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "scope_branch_required": true,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "correct_joint",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "klue_top1",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "livelihood"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "correct_joint",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct_joint",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "value_only",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "value_only",
+    "prediction": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "correct_joint",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "tfidf_consensus3",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_parse",
+    "reference": [
+      "livelihood"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "age",
+    "method": "refined_frozen",
+    "outcome": "correct_joint",
+    "prediction": [
+      19,
+      39
+    ],
+    "reason": "parsed",
+    "reference": [
+      19,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "refined_frozen",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2006-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": true,
+    "field": "income",
+    "method": "refined_frozen",
+    "outcome": "correct_joint",
+    "prediction": {
+      "all": 150.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_rent2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": [
+      "housing",
+      "livelihood",
+      "medical"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "refined_frozen",
+    "outcome": "value_only",
+    "prediction": [
+      20,
+      23
+    ],
+    "reason": "parsed",
+    "reference": [
+      20,
+      23
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "refined_frozen",
+    "outcome": "value_only",
+    "prediction": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "2002-01-01",
+      "2005-12-31"
+    ],
+    "scope_branch_required": true,
+    "value_exact": true
+  },
+  {
+    "answerable": true,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "refined_frozen",
+    "outcome": "value_only",
+    "prediction": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "reason": "parsed",
+    "reference": {
+      "first": 150.0,
+      "returning": 120.0
+    },
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "seoul_culture2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "refined_frozen",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": true,
+    "field": "birth",
+    "method": "refined_frozen",
+    "outcome": "correct_joint",
+    "prediction": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "reason": "parsed",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": true
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "refined_frozen",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": false,
+    "document": "gyeonggi_interview2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "refined_frozen",
+    "outcome": "absence_abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": null,
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "age",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": [
+      18,
+      39
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "birth",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": [
+      "1985-01-01",
+      "2007-12-31"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "income",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": {
+      "all": 150.0
+    },
+    "scope_branch_required": false,
+    "value_exact": false
+  },
+  {
+    "answerable": true,
+    "document": "busan_didimdol2025",
+    "evidence_complete": false,
+    "field": "welfare",
+    "method": "refined_frozen",
+    "outcome": "abstain",
+    "prediction": null,
+    "reason": "no_supported_parse",
+    "reference": [
+      "livelihood"
+    ],
+    "scope_branch_required": false,
+    "value_exact": false
+  }
+]
