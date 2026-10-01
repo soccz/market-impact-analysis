@@ -1,0 +1,487 @@
+{
+  "bundles": [
+    {
+      "id": "threshold",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 가람지원의 소득 기준은 월 소득 100만원 이하이다."
+      },
+      "after": {
+        "N1": "가상 가람지원의 소득 기준은 월 소득 120만원 이하이다."
+      }
+    },
+    {
+      "id": "wording",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 나래지원은 월 소득이 100만원 이하이면 소득 조건을 충족한다."
+      },
+      "after": {
+        "N1": "가상 나래지원의 소득 조건은 월 소득이 100만원을 넘지 않는 것이다."
+      }
+    },
+    {
+      "id": "grandfather",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 다솜지원의 매출 요건은 연 매출 1200만원 이상이다."
+      },
+      "after": {
+        "N1": "가상 다솜지원의 새 매출 요건은 연 매출 1200만원 이상 또는 최근 3개월 월평균 매출 100만원 이상이다.",
+        "N2": "개정 전에 이미 접수한 신청에는 이전 매출 요건을 적용한다. 개정 후 신규 접수에는 새 매출 요건을 적용한다."
+      }
+    },
+    {
+      "id": "exception",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 라온지원의 거주 요건은 지역 내 12개월 연속 거주이다."
+      },
+      "after": {
+        "N1": "가상 라온지원의 거주 요건은 지역 내 12개월 연속 거주이다.",
+        "N2": "거주 12개월 미만인 경우에도 향후 2년 거주 확약서를 제출하면 거주 요건을 충족한 것으로 본다."
+      }
+    },
+    {
+      "id": "other_program",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 마루지원의 나이는 19세 이상 34세 이하이다.",
+        "O2": "별도 사업 바다지원의 나이는 19세 이상 40세 이하이다."
+      },
+      "after": {
+        "N1": "가상 마루지원의 나이는 19세 이상 34세 이하이다.",
+        "N2": "별도 사업 바다지원의 나이는 19세 이상 45세 이하이다."
+      }
+    },
+    {
+      "id": "partial_evidence",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 소담지원의 나이 조건은 19세 이상 34세 이하이다.",
+        "O2": "가상 소담지원의 소득 조건은 월 소득 100만원 이하이다."
+      },
+      "after": {
+        "N1": "가상 소담지원의 나이 조건은 19세 이상 34세 이하이다."
+      }
+    },
+    {
+      "id": "added_exception",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 아람지원의 나이 조건은 19세 이상 34세 이하이다."
+      },
+      "after": {
+        "N1": "가상 아람지원의 나이 조건은 19세 이상 34세 이하이다.",
+        "N2": "제대군인에게는 실제 군 복무 기간만큼 나이 상한을 연장하며 최대 연장 기간은 3년이다."
+      }
+    },
+    {
+      "id": "modality",
+      "kind": "authored_control",
+      "before": {
+        "O1": "가상 해솔지원은 다른 장학금 신청 예정자를 반드시 제외한다.",
+        "O2": "가상 해솔지원의 인쇄된 접수 종료일은 10월 31일이다."
+      },
+      "after": {
+        "N1": "가상 해솔지원은 다른 장학금 신청 예정자가 제외 대상이 될 수 있으므로 별도 확인이 필요하다.",
+        "N2": "가상 해솔지원의 인쇄된 접수 종료일은 10월 31일이다."
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "threshold-1",
+      "bundle": "threshold",
+      "claim": "가람지원의 소득 조건만 묻는다. 월 소득 90만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "threshold-2",
+      "bundle": "threshold",
+      "claim": "가람지원의 소득 조건만 묻는다. 월 소득 110만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "threshold-3",
+      "bundle": "threshold",
+      "claim": "가람지원의 소득 조건만 묻는다. 월 소득 130만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "wording-1",
+      "bundle": "wording",
+      "claim": "나래지원의 소득 조건만 묻는다. 월 소득 90만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "wording-2",
+      "bundle": "wording",
+      "claim": "나래지원의 소득 조건만 묻는다. 월 소득 100만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "wording-3",
+      "bundle": "wording",
+      "claim": "나래지원의 소득 조건만 묻는다. 월 소득 101만원인 신청자는 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "grandfather-1",
+      "bundle": "grandfather",
+      "claim": "다솜지원의 매출 요건만 묻는다. 개정 전에 이미 접수했고 연 매출 900만원, 최근 월평균 110만원인 사람은 적용 매출 요건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "O1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "grandfather-2",
+      "bundle": "grandfather",
+      "claim": "다솜지원의 매출 요건만 묻는다. 개정 후 신규 접수할 예정이고 연 매출 900만원, 최근 월평균 110만원인 사람은 적용 매출 요건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "grandfather-3",
+      "bundle": "grandfather",
+      "claim": "다솜지원의 매출 요건만 묻는다. 개정 후 신규 접수할 예정이고 연 매출 1300만원, 최근 월평균 80만원인 사람은 적용 매출 요건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "exception-1",
+      "bundle": "exception",
+      "claim": "라온지원 거주 요건만 묻는다. 6개월 거주했고 향후 2년 거주 확약서를 제출한 사람은 이 요건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "exception-2",
+      "bundle": "exception",
+      "claim": "라온지원 거주 요건만 묻는다. 6개월 거주했고 확약서를 제출하지 않은 사람은 이 요건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "exception-3",
+      "bundle": "exception",
+      "claim": "라온지원 거주 요건만 묻는다. 6개월 거주했고 확약서 제출 여부가 알려지지 않은 사람은 이 요건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "other_program-1",
+      "bundle": "other_program",
+      "claim": "마루지원의 나이 조건만 묻는다. 30세인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "other_program-2",
+      "bundle": "other_program",
+      "claim": "마루지원의 나이 조건만 묻는다. 35세인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "other_program-3",
+      "bundle": "other_program",
+      "claim": "바다지원의 나이 조건만 묻는다. 42세인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O2"
+        ],
+        "after_evidence": [
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "partial_evidence-1",
+      "bundle": "partial_evidence",
+      "claim": "소담지원의 소득 조건만 묻는다. 월 소득 90만원인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "O2"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "partial_evidence-2",
+      "bundle": "partial_evidence",
+      "claim": "소담지원의 나이 조건만 묻는다. 25세인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "partial_evidence-3",
+      "bundle": "partial_evidence",
+      "claim": "소담지원의 나이 조건만 묻는다. 40세인 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "added_exception-1",
+      "bundle": "added_exception",
+      "claim": "아람지원의 나이 조건만 묻는다. 36세이고 군 복무 3년을 마친 제대군인은 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "added_exception-2",
+      "bundle": "added_exception",
+      "claim": "아람지원의 나이 조건만 묻는다. 36세이고 군 복무 이력이 없는 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "added_exception-3",
+      "bundle": "added_exception",
+      "claim": "아람지원의 나이 조건만 묻는다. 30세이고 군 복무 이력이 없는 사람은 이 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1",
+          "N2"
+        ]
+      }
+    },
+    {
+      "id": "modality-1",
+      "bundle": "modality",
+      "claim": "해솔지원의 다른 장학금 관련 제외 규정만 묻는다. 다른 장학금 신청 예정자인 사람은 반드시 제외된다.",
+      "reference": {
+        "before": "supported",
+        "after": "not_established",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "modality-2",
+      "bundle": "modality",
+      "claim": "해솔지원의 다른 장학금 관련 제외 규정만 묻는다. 다른 장학금 신청 예정자인 사람은 반드시 제외 대상이 아니다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "not_established",
+        "route": "recheck",
+        "before_evidence": [
+          "O1"
+        ],
+        "after_evidence": [
+          "N1"
+        ]
+      }
+    },
+    {
+      "id": "modality-3",
+      "bundle": "modality",
+      "claim": "해솔지원에 인쇄된 접수 종료일은 10월 31일이다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O2"
+        ],
+        "after_evidence": [
+          "N2"
+        ]
+      }
+    }
+  ]
+}

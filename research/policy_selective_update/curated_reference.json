@@ -1,0 +1,706 @@
+{
+  "bundles": [
+    {
+      "id": "seoul",
+      "kind": "cross_year_revision",
+      "source_locators": {
+        "before": {
+          "OCAP": {
+            "document": "seoul-after",
+            "page": 2,
+            "start": 152,
+            "end": 189,
+            "text_sha256": "4ed6d82da70890904fa494d5b10997b924b8f91686b9b3e2f74233b2bb554b65"
+          },
+          "OHOME": {
+            "document": "seoul-after",
+            "page": 2,
+            "start": 330,
+            "end": 376,
+            "text_sha256": "631e3c5c236afb0e79e840db316b351390ea25fabe3a9dd12e9233162c68f7c1"
+          },
+          "OINCOME": {
+            "document": "seoul-after",
+            "page": 2,
+            "start": 425,
+            "end": 601,
+            "text_sha256": "c2f8ed1a03946f1a29731995e7dd70ce595967853ca9874b69bd0813693e1d25"
+          },
+          "OINSURANCE": {
+            "document": "seoul-after",
+            "page": 2,
+            "start": 602,
+            "end": 656,
+            "text_sha256": "666df468445d8b523e6ee46f6d6b674340554291eeff38b76ab20df189660c3f"
+          },
+          "OPROXY": {
+            "document": "seoul-after",
+            "page": 3,
+            "start": 392,
+            "end": 521,
+            "text_sha256": "59a6f3b187a2a6d7a903506aaa49a758cf2facc3e27f55622a053de586aa70b3"
+          },
+          "ODOCS": {
+            "document": "seoul-after",
+            "page": 3,
+            "start": 673,
+            "end": 701,
+            "text_sha256": "bb406e993c99e42977bc0d66ffbecf50907ef7ef3db82f8e63b8e4f53ca23311"
+          }
+        },
+        "after": {
+          "NCAP": {
+            "document": "seoul-2025",
+            "page": 2,
+            "start": 0,
+            "end": 86,
+            "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+          },
+          "NHOME": {
+            "document": "seoul-2025",
+            "page": 2,
+            "start": 275,
+            "end": 321,
+            "text_sha256": "631e3c5c236afb0e79e840db316b351390ea25fabe3a9dd12e9233162c68f7c1"
+          },
+          "NINCOME": {
+            "document": "seoul-2025",
+            "page": 2,
+            "start": 370,
+            "end": 548,
+            "text_sha256": "cccad256846913ae27924070fb73279dfcb8069ccddfce0549e742be6114af07"
+          },
+          "NINSURANCE": {
+            "document": "seoul-2025",
+            "page": 2,
+            "start": 549,
+            "end": 603,
+            "text_sha256": "666df468445d8b523e6ee46f6d6b674340554291eeff38b76ab20df189660c3f"
+          },
+          "NPROXY": {
+            "document": "seoul-2025",
+            "page": 3,
+            "start": 354,
+            "end": 483,
+            "text_sha256": "59a6f3b187a2a6d7a903506aaa49a758cf2facc3e27f55622a053de586aa70b3"
+          },
+          "NDOCS": {
+            "document": "seoul-2025",
+            "page": 3,
+            "start": 631,
+            "end": 659,
+            "text_sha256": "bb406e993c99e42977bc0d66ffbecf50907ef7ef3db82f8e63b8e4f53ca23311"
+          }
+        }
+      }
+    },
+    {
+      "id": "chungnam",
+      "kind": "within_year_revision",
+      "source_locators": {
+        "before": {
+          "OREGION": {
+            "document": "chungnam-before",
+            "page": 2,
+            "start": 0,
+            "end": 55,
+            "text_sha256": "6f60ba46fef362cf65902305e07972907dc569045af2f6bc1dd9b840a1d27c2b"
+          },
+          "OCAP": {
+            "document": "chungnam-before",
+            "page": 2,
+            "start": 56,
+            "end": 114,
+            "text_sha256": "f8abb3cc089590e97f7a55ab595bea859c822c4094051a0ffdd9f9ca5089a0b5"
+          },
+          "OTRAINING": {
+            "document": "chungnam-before",
+            "page": 2,
+            "start": 155,
+            "end": 272,
+            "text_sha256": "7d16441dfc18bafca96107d41024db0c5272ec1e3da024da6c0a6399e12e7546"
+          },
+          "OEXAM": {
+            "document": "chungnam-before",
+            "page": 2,
+            "start": 349,
+            "end": 396,
+            "text_sha256": "df3dc3c73093adeb3683bac78cb88d855578c91553d8f342a45ff43a46eb3f0a"
+          },
+          "ODEADLINE": {
+            "document": "chungnam-before",
+            "page": 1,
+            "start": 425,
+            "end": 468,
+            "text_sha256": "290a20cff2f6bbf4848d6ae0039677cbffa86c721a2ad8ebbb4e1fd43faa5801"
+          },
+          "OEXCLUSIONS": {
+            "document": "chungnam-before",
+            "page": 4,
+            "start": 232,
+            "end": 422,
+            "text_sha256": "696bbfdad82b9b51a62eab8922e757c09278278a8c77a50f52a2e457e000d4fb"
+          }
+        },
+        "after": {
+          "NREGION": {
+            "document": "chungnam-after",
+            "page": 2,
+            "start": 0,
+            "end": 57,
+            "text_sha256": "50da6f945cf362262494ff88c8c57d9f1ead4b886140c2c513cd0d793cd414f6"
+          },
+          "NCAP": {
+            "document": "chungnam-after",
+            "page": 2,
+            "start": 58,
+            "end": 116,
+            "text_sha256": "f8abb3cc089590e97f7a55ab595bea859c822c4094051a0ffdd9f9ca5089a0b5"
+          },
+          "NTRAINING": {
+            "document": "chungnam-after",
+            "page": 2,
+            "start": 157,
+            "end": 274,
+            "text_sha256": "7d16441dfc18bafca96107d41024db0c5272ec1e3da024da6c0a6399e12e7546"
+          },
+          "NEXAM": {
+            "document": "chungnam-after",
+            "page": 2,
+            "start": 351,
+            "end": 395,
+            "text_sha256": "2a0126caf33ffa20b13493e5e7ccb3ab0075f2cec75fa64a2e912c0e29e55a78"
+          },
+          "NDEADLINE": {
+            "document": "chungnam-after",
+            "page": 1,
+            "start": 433,
+            "end": 476,
+            "text_sha256": "88a1d8eb6419a618d69c0c86c28f48c2131acd290638030758f1014dd16d43a2"
+          },
+          "NEXCLUSIONS": {
+            "document": "chungnam-after",
+            "page": 4,
+            "start": 235,
+            "end": 479,
+            "text_sha256": "9b6e7cc76e9f163c6e406feba2eb742171c3fe4dd47af9a7bcd75f4bec5cecfb"
+          }
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "chungnam-dangjin",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 지출일부터 신청일까지 당진시 소재 석탄화력발전소에서 근무한 협력사 근로자는 근무지 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "OREGION"
+        ],
+        "after_evidence": [
+          "NREGION"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-boryeong",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 지출일부터 신청일까지 보령시 소재 석탄화력발전소에서 근무한 협력사 근로자는 근무지 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "OREGION"
+        ],
+        "after_evidence": [
+          "NREGION"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-taean",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 지출일부터 신청일까지 태안군 소재 석탄화력발전소에서 근무한 협력사 근로자는 근무지 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "OREGION"
+        ],
+        "after_evidence": [
+          "NREGION"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-seosan",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 지출일부터 신청일까지 서산시 소재 석탄화력발전소에서 근무한 협력사 근로자는 근무지 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "OREGION"
+        ],
+        "after_evidence": [
+          "NREGION"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-deadline-10",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 예산 조기소진과 접수 시작일은 제외하고, 문서에 인쇄된 접수 종료일 상한만 비교한다. 2025년 12월 10일은 이 상한을 넘지 않는다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "ODEADLINE"
+        ],
+        "after_evidence": [
+          "NDEADLINE"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-deadline-18",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 예산 조기소진과 접수 시작일은 제외하고, 문서에 인쇄된 접수 종료일 상한만 비교한다. 2025년 12월 18일은 이 상한을 넘지 않는다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "ODEADLINE"
+        ],
+        "after_evidence": [
+          "NDEADLINE"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-cap-30",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 교육훈련비와 건강복지비를 합한 개인별 지원 상한은 정확히 30만원이다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-cap-60",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 교육훈련비와 건강복지비를 합한 개인별 지원 상한은 정확히 60만원이다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-exam-failed",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 그 종목에 처음 응시했지만 자격증을 취득하지 못했다는 사유만으로 자격시험 응시료 지원에서 제외되지는 않는다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OEXAM"
+        ],
+        "after_evidence": [
+          "NEXAM"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-exam-third",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 한 자격종목의 응시료를 이미 두 번 지원받은 사람이 같은 종목의 세 번째 응시료도 횟수 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OEXAM"
+        ],
+        "after_evidence": [
+          "NEXAM"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-duplicate-same",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 사내 복지와 무관한 다른 지원사업에서 이미 전액 받은 동일 항목의 같은 지출액을 이 사업에서 다시 지원받는 것은 중복지원 조건상 허용된다.",
+      "reference": {
+        "before": "not_established",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "OEXCLUSIONS"
+        ],
+        "after_evidence": [
+          "NEXCLUSIONS"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-duplicate-separated",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 사내 복지와 무관한 다른 사업과 지원 항목 및 지원 금액을 명확히 나누었을 때, 다른 사업과의 연계 지원은 중복지원 조건상 허용된다.",
+      "reference": {
+        "before": "not_established",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "OEXCLUSIONS"
+        ],
+        "after_evidence": [
+          "NEXCLUSIONS"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-duplicate-unknown",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 다른 지원사업에서도 지원을 받지만, 지원 항목과 금액을 구분했는지는 알려지지 않았다. 이 사람의 연계 지원은 중복지원 조건상 허용된다.",
+      "reference": {
+        "before": "not_established",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "OEXCLUSIONS"
+        ],
+        "after_evidence": [
+          "NEXCLUSIONS"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-employer-full",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 사내 복지로 지출 전액을 받은 사람은 같은 지출액을 이 사업에서 다시 지원받는 것이 허용된다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OEXCLUSIONS"
+        ],
+        "after_evidence": [
+          "NEXCLUSIONS"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-employer-own",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 사내 복지의 일부 지원을 받고 남은 본인 부담 비용에 한해서는 사내 복지 중복지원 제한 때문에 배제되지는 않는다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OEXCLUSIONS"
+        ],
+        "after_evidence": [
+          "NEXCLUSIONS"
+        ]
+      }
+    },
+    {
+      "id": "chungnam-training-card",
+      "bundle": "chungnam",
+      "claim": "충남 석탄화력발전소 협력사 근로자 복리후생 공고의 해당 조건만 비교한다. 국민내일배움카드 훈련을 수료한 경우, 지급 상한을 별도로 두고 비교하면 자부담 비용의 지원 비율은 100%이다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OTRAINING"
+        ],
+        "after_evidence": [
+          "NTRAINING"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-new-40",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 2025년 4월 1일이다. 이 조건에 적용되는 최대 지원 한도는 정확히 40만원이다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-new-30",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 2025년 4월 1일이다. 이 조건에 적용되는 최대 지원 한도는 정확히 30만원이다.",
+      "reference": {
+        "before": "supported",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-old-40",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 2025년 3월 30일이다. 이 조건에 적용되는 최대 지원 한도는 정확히 40만원이다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-old-30",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 2025년 3월 30일이다. 이 조건에 적용되는 최대 지원 한도는 정확히 30만원이다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-unknown-40",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 알려지지 않았다. 이 조건에 적용되는 최대 지원 한도는 정확히 40만원이다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-cap-unknown-30",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 각 문서의 금액 규칙을 가상 조건에 대입하는 비교이며 해당 날짜의 실제 수급권을 묻지 않는다. 가상 조건의 보증 가입일은 알려지지 않았다. 이 조건에 적용되는 최대 지원 한도는 정확히 30만원이다.",
+      "reference": {
+        "before": "supported",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "OCAP"
+        ],
+        "after_evidence": [
+          "NCAP"
+        ]
+      }
+    },
+    {
+      "id": "seoul-docs-2",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 신청일로부터 2개월 전에 발급한 서류는 서류 발급 경과기간 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "ODOCS"
+        ],
+        "after_evidence": [
+          "NDOCS"
+        ]
+      }
+    },
+    {
+      "id": "seoul-docs-4",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 신청일로부터 4개월 전에 발급한 서류는 서류 발급 경과기간 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "ODOCS"
+        ],
+        "after_evidence": [
+          "NDOCS"
+        ]
+      }
+    },
+    {
+      "id": "seoul-proxy-cohabitant",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 불가피한 대리 신청에서, 다른 허용 관계가 없는 동일 세대 동거인은 동거인이라는 관계만으로 허용 대리인의 범위에 포함된다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OPROXY"
+        ],
+        "after_evidence": [
+          "NPROXY"
+        ]
+      }
+    },
+    {
+      "id": "seoul-proxy-parent",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 불가피한 대리 신청에서, 다른 세대인 신청인의 어머니는 직계존속이라는 관계로 허용 대리인의 범위에 포함된다. 필수 서류는 모두 제출한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OPROXY"
+        ],
+        "after_evidence": [
+          "NPROXY"
+        ]
+      }
+    },
+    {
+      "id": "seoul-young-income-5000",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 신혼부부가 아닌 만 39세 미혼 청년의 연소득이 5000만원이면 청년 소득 상한 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OINCOME"
+        ],
+        "after_evidence": [
+          "NINCOME"
+        ]
+      }
+    },
+    {
+      "id": "seoul-young-income-5001",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 신혼부부가 아닌 만 39세 미혼 청년의 연소득이 5001만원이면 청년 소득 상한 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OINCOME"
+        ],
+        "after_evidence": [
+          "NINCOME"
+        ]
+      }
+    },
+    {
+      "id": "seoul-deposit-edge",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 서울 소재 주거용 주택의 임차보증금이 3억원이면 주택 보증금 상한 조건을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "OHOME"
+        ],
+        "after_evidence": [
+          "NHOME"
+        ]
+      }
+    },
+    {
+      "id": "seoul-deposit-over",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 서울 소재 주거용 주택의 임차보증금이 3억 1천만원이면 주택 보증금 상한 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OHOME"
+        ],
+        "after_evidence": [
+          "NHOME"
+        ]
+      }
+    },
+    {
+      "id": "seoul-marriage-eight",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 신청일 기준 혼인신고 후 8년이 지났고 부부 합산 연소득이 7천만원인 사람은 신혼부부의 혼인기간 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OINCOME"
+        ],
+        "after_evidence": [
+          "NINCOME"
+        ]
+      }
+    },
+    {
+      "id": "seoul-insurance-expired",
+      "bundle": "seoul",
+      "claim": "서울 전세보증금 반환보증 보증료 공고의 해당 규칙만 비교하며 실제 수급 확정을 묻지 않는다. 보증료는 모두 냈지만 신청일 기준 보증 효력이 이미 끝난 사람은 보증 유효기간 조건을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "OINSURANCE"
+        ],
+        "after_evidence": [
+          "NINSURANCE"
+        ]
+      }
+    }
+  ]
+}

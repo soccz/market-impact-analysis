@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-01T10:08:26.665162+00:00",
+  "motivation": "After inspecting Qwen curated32: 24 correct, old-cohort and unknown-date cap errors. Fixed post-hoc diagnostic on this observed source.",
+  "scope": "Two models extract before/after cap branches from OCAP/NCAP only, without claims or gold slots. Six existing claim reads with the same cap-only evidence form a matched control. Twelve structured queries cross 4 date conditions x3 cap claims, including an exact boundary and an impossible amount.",
+  "limits": "Manual identification of the cap clause and supplied date/amount query slots. Does not solve general Korean claim parsing, document retrieval or all policy conditions. Boundary queries are combinations of one observed policy, not new events. Structural validity does not establish semantic truth.",
+  "abstention": "Reject invalid dates, non-integer amounts, missing IDs, overlapping or incomplete intervals. Missing query date: evaluate all possible branches; U only when answers differ.",
+  "artifacts": {
+    "temporal_contract.py": "2f359c899cb9eb6e3a7612aa00fc169e87527c2fc1d7c08233af1b673d4341fd",
+    "test_contract.py": "a935007788a31cb9fe906d9635ba0db0e54978fc123584e3c81f6e69027f8e2e",
+    "contract_infer.py": "d0ca4f546ce8d84337a29224ff0c11cd531db09acd05d5353796da86742fb094",
+    "contract_reference.json": "ea8b8ba8d0213d51508cb36b394aa43c6050d34ec06e8daa7d5016eaf796bfd0"
+  }
+}

@@ -1,0 +1,870 @@
+{
+  "kanana-public": {
+    "correct_cache_strata": {
+      "audited_change_map": {
+        "False": {
+          "correct": 7,
+          "n": 14,
+          "refreshed": 14
+        },
+        "True": {
+          "correct": 7,
+          "n": 10,
+          "refreshed": 10
+        }
+      },
+      "change_map_gate": {
+        "False": {
+          "correct": 7,
+          "n": 14,
+          "refreshed": 14
+        },
+        "True": {
+          "correct": 7,
+          "n": 10,
+          "refreshed": 10
+        }
+      },
+      "citation_text_gate": {
+        "False": {
+          "correct": 6,
+          "n": 14,
+          "refreshed": 8
+        },
+        "True": {
+          "correct": 8,
+          "n": 10,
+          "refreshed": 6
+        }
+      },
+      "direct_scope_gate": {
+        "False": {
+          "correct": 7,
+          "n": 14,
+          "refreshed": 11
+        },
+        "True": {
+          "correct": 8,
+          "n": 10,
+          "refreshed": 7
+        }
+      },
+      "hash_audit": {
+        "False": {
+          "correct": 4,
+          "n": 14,
+          "refreshed": 2
+        },
+        "True": {
+          "correct": 8,
+          "n": 10,
+          "refreshed": 2
+        }
+      },
+      "refresh_all": {
+        "False": {
+          "correct": 7,
+          "n": 14,
+          "refreshed": 14
+        },
+        "True": {
+          "correct": 7,
+          "n": 10,
+          "refreshed": 10
+        }
+      }
+    },
+    "corrupted_cache_diagnostic": {
+      "changed_ids": [
+        "added_exception-1",
+        "added_exception-2",
+        "added_exception-3",
+        "exception-1",
+        "exception-2",
+        "exception-3",
+        "grandfather-1",
+        "grandfather-2",
+        "grandfather-3",
+        "modality-1",
+        "modality-2",
+        "modality-3",
+        "other_program-1",
+        "other_program-2",
+        "other_program-3",
+        "partial_evidence-1",
+        "partial_evidence-2",
+        "partial_evidence-3",
+        "threshold-1",
+        "threshold-2",
+        "threshold-3",
+        "wording-1",
+        "wording-2",
+        "wording-3"
+      ],
+      "metrics": {
+        "audited_change_map": {
+          "abstain": 0,
+          "correct": 14,
+          "corrected_old_error": 13,
+          "false_flip": 14,
+          "fresh_joint": 10,
+          "harmful_refresh": 2,
+          "keep_eligible": 12,
+          "missed_flip": 5,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 1,
+          "predicted_flip": 18,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 24,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 12
+        },
+        "change_map_gate": {
+          "abstain": 0,
+          "correct": 14,
+          "corrected_old_error": 13,
+          "false_flip": 14,
+          "fresh_joint": 10,
+          "harmful_refresh": 2,
+          "keep_eligible": 12,
+          "missed_flip": 5,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 1,
+          "predicted_flip": 18,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 24,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 12
+        },
+        "citation_text_gate": {
+          "abstain": 0,
+          "correct": 11,
+          "corrected_old_error": 8,
+          "false_flip": 7,
+          "fresh_joint": 10,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 7,
+          "missed_recheck": 3,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 2,
+          "predicted_flip": 9,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 14,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.75,
+          "retained_old_error": 6,
+          "stale_error": 1,
+          "unnecessary_recheck": 5
+        },
+        "direct_scope_gate": {
+          "abstain": 0,
+          "correct": 13,
+          "corrected_old_error": 12,
+          "false_flip": 10,
+          "fresh_joint": 10,
+          "harmful_refresh": 1,
+          "keep_eligible": 12,
+          "missed_flip": 7,
+          "missed_recheck": 2,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 1,
+          "predicted_flip": 12,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 18,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.8333333333333334,
+          "retained_old_error": 4,
+          "stale_error": 1,
+          "unnecessary_recheck": 8
+        },
+        "hash_audit": {
+          "abstain": 0,
+          "correct": 6,
+          "corrected_old_error": 2,
+          "false_flip": 2,
+          "fresh_joint": 10,
+          "harmful_refresh": 1,
+          "keep_eligible": 12,
+          "missed_flip": 8,
+          "missed_recheck": 10,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 1,
+          "predicted_flip": 3,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 4,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.16666666666666666,
+          "retained_old_error": 15,
+          "stale_error": 1,
+          "unnecessary_recheck": 2
+        },
+        "refresh_all": {
+          "abstain": 0,
+          "correct": 14,
+          "corrected_old_error": 13,
+          "false_flip": 14,
+          "fresh_joint": 10,
+          "harmful_refresh": 2,
+          "keep_eligible": 12,
+          "missed_flip": 5,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 3,
+          "old_joint": 3,
+          "pair_correct": 1,
+          "predicted_flip": 18,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 24,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 12
+        }
+      },
+      "rule": "Rotate valid semantic labels S->C->U->S, preserve evidence IDs, reuse identical gate requests. Artificial stress, not naturally occurring errors."
+    },
+    "cost": {
+      "audited_change_map": {
+        "counterfactual_update_calls": 56,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 38.453
+      },
+      "change_map_gate": {
+        "counterfactual_update_calls": 56,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 38.453
+      },
+      "citation_text_gate": {
+        "counterfactual_update_calls": 14,
+        "fresh_reads_avoided": 10,
+        "sum_observed_stage_seconds": 6.803
+      },
+      "direct_scope_gate": {
+        "counterfactual_update_calls": 42,
+        "fresh_reads_avoided": 6,
+        "sum_observed_stage_seconds": 19.599
+      },
+      "hash_audit": {
+        "counterfactual_update_calls": 4,
+        "fresh_reads_avoided": 20,
+        "sum_observed_stage_seconds": 1.808
+      },
+      "refresh_all": {
+        "counterfactual_update_calls": 24,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 11.637
+      }
+    },
+    "oracle_route_diagnostic": {
+      "cases": [
+        {
+          "correct": true,
+          "id": "threshold-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "threshold-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "threshold-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "wording-1",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "wording-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "wording-3",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "grandfather-1",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "grandfather-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "grandfather-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "exception-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "exception-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "exception-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "other_program-1",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "other_program-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "other_program-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "partial_evidence-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "partial_evidence-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "partial_evidence-3",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "added_exception-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "added_exception-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "added_exception-3",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "modality-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "modality-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "modality-3",
+          "refreshed": false,
+          "retained_old_error": false
+        }
+      ],
+      "correct": 15,
+      "refreshed": 12,
+      "retained_old_error": 6
+    }
+  },
+  "qwen": {
+    "correct_cache_strata": {
+      "audited_change_map": {
+        "False": {
+          "correct": 2,
+          "n": 4,
+          "refreshed": 3
+        },
+        "True": {
+          "correct": 19,
+          "n": 20,
+          "refreshed": 17
+        }
+      },
+      "change_map_gate": {
+        "False": {
+          "correct": 1,
+          "n": 4,
+          "refreshed": 2
+        },
+        "True": {
+          "correct": 19,
+          "n": 20,
+          "refreshed": 16
+        }
+      },
+      "citation_text_gate": {
+        "False": {
+          "correct": 1,
+          "n": 4,
+          "refreshed": 3
+        },
+        "True": {
+          "correct": 16,
+          "n": 20,
+          "refreshed": 10
+        }
+      },
+      "direct_scope_gate": {
+        "False": {
+          "correct": 1,
+          "n": 4,
+          "refreshed": 2
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 14
+        }
+      },
+      "hash_audit": {
+        "False": {
+          "correct": 1,
+          "n": 4,
+          "refreshed": 0
+        },
+        "True": {
+          "correct": 14,
+          "n": 20,
+          "refreshed": 4
+        }
+      },
+      "refresh_all": {
+        "False": {
+          "correct": 2,
+          "n": 4,
+          "refreshed": 4
+        },
+        "True": {
+          "correct": 19,
+          "n": 20,
+          "refreshed": 20
+        }
+      }
+    },
+    "corrupted_cache_diagnostic": {
+      "changed_ids": [
+        "added_exception-1",
+        "added_exception-2",
+        "added_exception-3",
+        "exception-1",
+        "exception-2",
+        "exception-3",
+        "grandfather-1",
+        "grandfather-2",
+        "grandfather-3",
+        "modality-1",
+        "modality-2",
+        "modality-3",
+        "other_program-1",
+        "other_program-2",
+        "other_program-3",
+        "partial_evidence-1",
+        "partial_evidence-2",
+        "partial_evidence-3",
+        "threshold-1",
+        "threshold-2",
+        "threshold-3",
+        "wording-1",
+        "wording-2",
+        "wording-3"
+      ],
+      "metrics": {
+        "audited_change_map": {
+          "abstain": 0,
+          "correct": 20,
+          "corrected_old_error": 19,
+          "false_flip": 13,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 2,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 20,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 22,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 1,
+          "stale_error": 0,
+          "unnecessary_recheck": 10
+        },
+        "change_map_gate": {
+          "abstain": 0,
+          "correct": 17,
+          "corrected_old_error": 16,
+          "false_flip": 9,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 2,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 16,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 18,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 5,
+          "stale_error": 0,
+          "unnecessary_recheck": 6
+        },
+        "citation_text_gate": {
+          "abstain": 0,
+          "correct": 12,
+          "corrected_old_error": 10,
+          "false_flip": 7,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 4,
+          "missed_recheck": 3,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 12,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 13,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.75,
+          "retained_old_error": 9,
+          "stale_error": 0,
+          "unnecessary_recheck": 4
+        },
+        "direct_scope_gate": {
+          "abstain": 0,
+          "correct": 15,
+          "corrected_old_error": 14,
+          "false_flip": 8,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 3,
+          "missed_recheck": 1,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 14,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 16,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.9166666666666666,
+          "retained_old_error": 7,
+          "stale_error": 0,
+          "unnecessary_recheck": 5
+        },
+        "hash_audit": {
+          "abstain": 0,
+          "correct": 6,
+          "corrected_old_error": 4,
+          "false_flip": 2,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 7,
+          "missed_recheck": 10,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 4,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 4,
+          "required_recheck": 12,
+          "required_recheck_recall": 0.16666666666666666,
+          "retained_old_error": 18,
+          "stale_error": 0,
+          "unnecessary_recheck": 2
+        },
+        "refresh_all": {
+          "abstain": 0,
+          "correct": 21,
+          "corrected_old_error": 20,
+          "false_flip": 14,
+          "fresh_joint": 18,
+          "harmful_refresh": 0,
+          "keep_eligible": 12,
+          "missed_flip": 2,
+          "missed_recheck": 0,
+          "n": 24,
+          "old_correct": 1,
+          "old_joint": 1,
+          "pair_correct": 1,
+          "predicted_flip": 21,
+          "reference_changed": 9,
+          "reference_stable": 15,
+          "refreshed": 24,
+          "required_recheck": 12,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 12
+        }
+      },
+      "rule": "Rotate valid semantic labels S->C->U->S, preserve evidence IDs, reuse identical gate requests. Artificial stress, not naturally occurring errors."
+    },
+    "cost": {
+      "audited_change_map": {
+        "counterfactual_update_calls": 52,
+        "fresh_reads_avoided": 4,
+        "sum_observed_stage_seconds": 52.003
+      },
+      "change_map_gate": {
+        "counterfactual_update_calls": 50,
+        "fresh_reads_avoided": 6,
+        "sum_observed_stage_seconds": 50.626
+      },
+      "citation_text_gate": {
+        "counterfactual_update_calls": 13,
+        "fresh_reads_avoided": 11,
+        "sum_observed_stage_seconds": 9.025
+      },
+      "direct_scope_gate": {
+        "counterfactual_update_calls": 40,
+        "fresh_reads_avoided": 8,
+        "sum_observed_stage_seconds": 27.944
+      },
+      "hash_audit": {
+        "counterfactual_update_calls": 4,
+        "fresh_reads_avoided": 20,
+        "sum_observed_stage_seconds": 2.849
+      },
+      "refresh_all": {
+        "counterfactual_update_calls": 24,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 16.8
+      }
+    },
+    "oracle_route_diagnostic": {
+      "cases": [
+        {
+          "correct": true,
+          "id": "threshold-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "threshold-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "threshold-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "wording-1",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "wording-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "wording-3",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "grandfather-1",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "grandfather-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "grandfather-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "exception-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "exception-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "exception-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "other_program-1",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "other_program-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "other_program-3",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "partial_evidence-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "partial_evidence-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "partial_evidence-3",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "added_exception-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "added_exception-2",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "added_exception-3",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "modality-1",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "modality-2",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "modality-3",
+          "refreshed": false,
+          "retained_old_error": false
+        }
+      ],
+      "correct": 19,
+      "refreshed": 12,
+      "retained_old_error": 3
+    }
+  }
+}

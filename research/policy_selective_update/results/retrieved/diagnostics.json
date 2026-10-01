@@ -1,0 +1,982 @@
+{
+  "kanana-public": {
+    "correct_cache_strata": {
+      "audited_change_map": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 25
+        },
+        "True": {
+          "correct": 3,
+          "n": 7,
+          "refreshed": 7
+        }
+      },
+      "change_map_gate": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 25
+        },
+        "True": {
+          "correct": 3,
+          "n": 7,
+          "refreshed": 7
+        }
+      },
+      "citation_text_gate": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 25
+        },
+        "True": {
+          "correct": 3,
+          "n": 7,
+          "refreshed": 7
+        }
+      },
+      "direct_scope_gate": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 25
+        },
+        "True": {
+          "correct": 3,
+          "n": 7,
+          "refreshed": 7
+        }
+      },
+      "hash_audit": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 5
+        },
+        "True": {
+          "correct": 5,
+          "n": 7,
+          "refreshed": 0
+        }
+      },
+      "refresh_all": {
+        "False": {
+          "correct": 2,
+          "n": 25,
+          "refreshed": 25
+        },
+        "True": {
+          "correct": 3,
+          "n": 7,
+          "refreshed": 7
+        }
+      }
+    },
+    "corrupted_cache_diagnostic": {
+      "changed_ids": [
+        "chungnam-boryeong",
+        "chungnam-cap-30",
+        "chungnam-cap-60",
+        "chungnam-dangjin",
+        "chungnam-deadline-10",
+        "chungnam-deadline-18",
+        "chungnam-duplicate-same",
+        "chungnam-duplicate-separated",
+        "chungnam-duplicate-unknown",
+        "chungnam-employer-full",
+        "chungnam-employer-own",
+        "chungnam-exam-failed",
+        "chungnam-exam-third",
+        "chungnam-seosan",
+        "chungnam-taean",
+        "chungnam-training-card",
+        "seoul-cap-new-30",
+        "seoul-cap-new-40",
+        "seoul-cap-old-30",
+        "seoul-cap-old-40",
+        "seoul-cap-unknown-30",
+        "seoul-cap-unknown-40",
+        "seoul-deposit-edge",
+        "seoul-deposit-over",
+        "seoul-docs-2",
+        "seoul-docs-4",
+        "seoul-insurance-expired",
+        "seoul-marriage-eight",
+        "seoul-proxy-cohabitant",
+        "seoul-proxy-parent",
+        "seoul-young-income-5000",
+        "seoul-young-income-5001"
+      ],
+      "metrics": {
+        "audited_change_map": {
+          "abstain": 0,
+          "correct": 5,
+          "corrected_old_error": 4,
+          "false_flip": 22,
+          "fresh_joint": 0,
+          "harmful_refresh": 10,
+          "keep_eligible": 19,
+          "missed_flip": 1,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 1,
+          "predicted_flip": 30,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        },
+        "change_map_gate": {
+          "abstain": 0,
+          "correct": 5,
+          "corrected_old_error": 4,
+          "false_flip": 22,
+          "fresh_joint": 0,
+          "harmful_refresh": 10,
+          "keep_eligible": 19,
+          "missed_flip": 1,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 1,
+          "predicted_flip": 30,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        },
+        "citation_text_gate": {
+          "abstain": 0,
+          "correct": 5,
+          "corrected_old_error": 4,
+          "false_flip": 22,
+          "fresh_joint": 0,
+          "harmful_refresh": 10,
+          "keep_eligible": 19,
+          "missed_flip": 1,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 1,
+          "predicted_flip": 30,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        },
+        "direct_scope_gate": {
+          "abstain": 0,
+          "correct": 5,
+          "corrected_old_error": 4,
+          "false_flip": 22,
+          "fresh_joint": 0,
+          "harmful_refresh": 10,
+          "keep_eligible": 19,
+          "missed_flip": 1,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 1,
+          "predicted_flip": 30,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        },
+        "hash_audit": {
+          "abstain": 0,
+          "correct": 12,
+          "corrected_old_error": 0,
+          "false_flip": 4,
+          "fresh_joint": 0,
+          "harmful_refresh": 2,
+          "keep_eligible": 19,
+          "missed_flip": 8,
+          "missed_recheck": 11,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 8,
+          "predicted_flip": 5,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 5,
+          "required_recheck": 13,
+          "required_recheck_recall": 0.15384615384615385,
+          "retained_old_error": 13,
+          "stale_error": 2,
+          "unnecessary_recheck": 3
+        },
+        "refresh_all": {
+          "abstain": 0,
+          "correct": 5,
+          "corrected_old_error": 4,
+          "false_flip": 22,
+          "fresh_joint": 0,
+          "harmful_refresh": 10,
+          "keep_eligible": 19,
+          "missed_flip": 1,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 12,
+          "old_joint": 6,
+          "pair_correct": 1,
+          "predicted_flip": 30,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        }
+      },
+      "rule": "Rotate valid semantic labels S->C->U->S, preserve evidence IDs, reuse identical gate requests. Artificial stress, not naturally occurring errors."
+    },
+    "cost": {
+      "audited_change_map": {
+        "counterfactual_update_calls": 96,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 298.964
+      },
+      "change_map_gate": {
+        "counterfactual_update_calls": 96,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 298.964
+      },
+      "citation_text_gate": {
+        "counterfactual_update_calls": 32,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 35.486
+      },
+      "direct_scope_gate": {
+        "counterfactual_update_calls": 64,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 70.522
+      },
+      "hash_audit": {
+        "counterfactual_update_calls": 5,
+        "fresh_reads_avoided": 27,
+        "sum_observed_stage_seconds": 4.905
+      },
+      "refresh_all": {
+        "counterfactual_update_calls": 32,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 35.486
+      }
+    },
+    "oracle_route_diagnostic": {
+      "cases": [
+        {
+          "correct": false,
+          "id": "chungnam-dangjin",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-boryeong",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-taean",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-seosan",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-deadline-10",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-deadline-18",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-cap-30",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "chungnam-cap-60",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "chungnam-exam-failed",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-exam-third",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-duplicate-same",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-duplicate-separated",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-duplicate-unknown",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-employer-full",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "chungnam-employer-own",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "chungnam-training-card",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-new-40",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-new-30",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-old-40",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-old-30",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "seoul-cap-unknown-40",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-cap-unknown-30",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-docs-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-docs-4",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-proxy-cohabitant",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "seoul-proxy-parent",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-young-income-5000",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-young-income-5001",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-deposit-edge",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-deposit-over",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-marriage-eight",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-insurance-expired",
+          "refreshed": false,
+          "retained_old_error": true
+        }
+      ],
+      "correct": 7,
+      "refreshed": 13,
+      "retained_old_error": 15
+    }
+  },
+  "qwen": {
+    "correct_cache_strata": {
+      "audited_change_map": {
+        "False": {
+          "correct": 6,
+          "n": 12,
+          "refreshed": 12
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 7
+        }
+      },
+      "change_map_gate": {
+        "False": {
+          "correct": 5,
+          "n": 12,
+          "refreshed": 11
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 4
+        }
+      },
+      "citation_text_gate": {
+        "False": {
+          "correct": 6,
+          "n": 12,
+          "refreshed": 12
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 19
+        }
+      },
+      "direct_scope_gate": {
+        "False": {
+          "correct": 5,
+          "n": 12,
+          "refreshed": 8
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 9
+        }
+      },
+      "hash_audit": {
+        "False": {
+          "correct": 6,
+          "n": 12,
+          "refreshed": 3
+        },
+        "True": {
+          "correct": 17,
+          "n": 20,
+          "refreshed": 2
+        }
+      },
+      "refresh_all": {
+        "False": {
+          "correct": 6,
+          "n": 12,
+          "refreshed": 12
+        },
+        "True": {
+          "correct": 18,
+          "n": 20,
+          "refreshed": 20
+        }
+      }
+    },
+    "corrupted_cache_diagnostic": {
+      "changed_ids": [
+        "chungnam-boryeong",
+        "chungnam-cap-30",
+        "chungnam-cap-60",
+        "chungnam-dangjin",
+        "chungnam-deadline-10",
+        "chungnam-deadline-18",
+        "chungnam-duplicate-same",
+        "chungnam-duplicate-separated",
+        "chungnam-duplicate-unknown",
+        "chungnam-employer-full",
+        "chungnam-employer-own",
+        "chungnam-exam-failed",
+        "chungnam-exam-third",
+        "chungnam-seosan",
+        "chungnam-taean",
+        "chungnam-training-card",
+        "seoul-cap-new-30",
+        "seoul-cap-new-40",
+        "seoul-cap-old-30",
+        "seoul-cap-old-40",
+        "seoul-cap-unknown-30",
+        "seoul-cap-unknown-40",
+        "seoul-deposit-edge",
+        "seoul-deposit-over",
+        "seoul-docs-2",
+        "seoul-docs-4",
+        "seoul-insurance-expired",
+        "seoul-marriage-eight",
+        "seoul-proxy-cohabitant",
+        "seoul-proxy-parent",
+        "seoul-young-income-5000",
+        "seoul-young-income-5001"
+      ],
+      "metrics": {
+        "audited_change_map": {
+          "abstain": 0,
+          "correct": 17,
+          "corrected_old_error": 13,
+          "false_flip": 12,
+          "fresh_joint": 13,
+          "harmful_refresh": 2,
+          "keep_eligible": 19,
+          "missed_flip": 3,
+          "missed_recheck": 2,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 4,
+          "predicted_flip": 18,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 24,
+          "required_recheck": 13,
+          "required_recheck_recall": 0.8461538461538461,
+          "retained_old_error": 8,
+          "stale_error": 0,
+          "unnecessary_recheck": 13
+        },
+        "change_map_gate": {
+          "abstain": 0,
+          "correct": 9,
+          "corrected_old_error": 5,
+          "false_flip": 6,
+          "fresh_joint": 13,
+          "harmful_refresh": 2,
+          "keep_eligible": 19,
+          "missed_flip": 5,
+          "missed_recheck": 5,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 4,
+          "predicted_flip": 10,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 15,
+          "required_recheck": 13,
+          "required_recheck_recall": 0.6153846153846154,
+          "retained_old_error": 17,
+          "stale_error": 0,
+          "unnecessary_recheck": 7
+        },
+        "citation_text_gate": {
+          "abstain": 0,
+          "correct": 23,
+          "corrected_old_error": 19,
+          "false_flip": 18,
+          "fresh_joint": 13,
+          "harmful_refresh": 2,
+          "keep_eligible": 19,
+          "missed_flip": 3,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 4,
+          "predicted_flip": 24,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 31,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 1,
+          "stale_error": 0,
+          "unnecessary_recheck": 18
+        },
+        "direct_scope_gate": {
+          "abstain": 0,
+          "correct": 14,
+          "corrected_old_error": 10,
+          "false_flip": 9,
+          "fresh_joint": 13,
+          "harmful_refresh": 1,
+          "keep_eligible": 19,
+          "missed_flip": 5,
+          "missed_recheck": 4,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 4,
+          "predicted_flip": 13,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 17,
+          "required_recheck": 13,
+          "required_recheck_recall": 0.6923076923076923,
+          "retained_old_error": 12,
+          "stale_error": 1,
+          "unnecessary_recheck": 8
+        },
+        "hash_audit": {
+          "abstain": 0,
+          "correct": 6,
+          "corrected_old_error": 3,
+          "false_flip": 3,
+          "fresh_joint": 13,
+          "harmful_refresh": 1,
+          "keep_eligible": 19,
+          "missed_flip": 9,
+          "missed_recheck": 11,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 2,
+          "predicted_flip": 3,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 5,
+          "required_recheck": 13,
+          "required_recheck_recall": 0.15384615384615385,
+          "retained_old_error": 21,
+          "stale_error": 4,
+          "unnecessary_recheck": 3
+        },
+        "refresh_all": {
+          "abstain": 0,
+          "correct": 24,
+          "corrected_old_error": 20,
+          "false_flip": 19,
+          "fresh_joint": 13,
+          "harmful_refresh": 2,
+          "keep_eligible": 19,
+          "missed_flip": 3,
+          "missed_recheck": 0,
+          "n": 32,
+          "old_correct": 7,
+          "old_joint": 3,
+          "pair_correct": 4,
+          "predicted_flip": 25,
+          "reference_changed": 9,
+          "reference_stable": 23,
+          "refreshed": 32,
+          "required_recheck": 13,
+          "required_recheck_recall": 1.0,
+          "retained_old_error": 0,
+          "stale_error": 0,
+          "unnecessary_recheck": 19
+        }
+      },
+      "rule": "Rotate valid semantic labels S->C->U->S, preserve evidence IDs, reuse identical gate requests. Artificial stress, not naturally occurring errors."
+    },
+    "cost": {
+      "audited_change_map": {
+        "counterfactual_update_calls": 83,
+        "fresh_reads_avoided": 13,
+        "sum_observed_stage_seconds": 282.814
+      },
+      "change_map_gate": {
+        "counterfactual_update_calls": 79,
+        "fresh_reads_avoided": 17,
+        "sum_observed_stage_seconds": 276.521
+      },
+      "citation_text_gate": {
+        "counterfactual_update_calls": 31,
+        "fresh_reads_avoided": 1,
+        "sum_observed_stage_seconds": 40.471
+      },
+      "direct_scope_gate": {
+        "counterfactual_update_calls": 49,
+        "fresh_reads_avoided": 15,
+        "sum_observed_stage_seconds": 66.24
+      },
+      "hash_audit": {
+        "counterfactual_update_calls": 5,
+        "fresh_reads_avoided": 27,
+        "sum_observed_stage_seconds": 6.27
+      },
+      "refresh_all": {
+        "counterfactual_update_calls": 32,
+        "fresh_reads_avoided": 0,
+        "sum_observed_stage_seconds": 42.115
+      }
+    },
+    "oracle_route_diagnostic": {
+      "cases": [
+        {
+          "correct": true,
+          "id": "chungnam-dangjin",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-boryeong",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "chungnam-taean",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-seosan",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-deadline-10",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-deadline-18",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-cap-30",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-cap-60",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-exam-failed",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-exam-third",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-duplicate-same",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-duplicate-separated",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-duplicate-unknown",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-employer-full",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-employer-own",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "chungnam-training-card",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-cap-new-40",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-cap-new-30",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-old-40",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-old-30",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-unknown-40",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-cap-unknown-30",
+          "refreshed": true,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-docs-2",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": false,
+          "id": "seoul-docs-4",
+          "refreshed": false,
+          "retained_old_error": true
+        },
+        {
+          "correct": true,
+          "id": "seoul-proxy-cohabitant",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-proxy-parent",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-young-income-5000",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-young-income-5001",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-deposit-edge",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-deposit-over",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": true,
+          "id": "seoul-marriage-eight",
+          "refreshed": false,
+          "retained_old_error": false
+        },
+        {
+          "correct": false,
+          "id": "seoul-insurance-expired",
+          "refreshed": false,
+          "retained_old_error": true
+        }
+      ],
+      "correct": 24,
+      "refreshed": 13,
+      "retained_old_error": 5
+    }
+  }
+}

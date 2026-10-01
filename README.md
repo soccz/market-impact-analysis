@@ -11,6 +11,7 @@
 - [개인 후속 연구 질문·검증 계획과 시각 예제](docs/RESEARCH_AGENDA.md)
 - [한국어 정책 NLP: 관계·상태·근거, 금액 표기와 사건 범위 실험](docs/KOREAN_POLICY_NLP.md)
 
+- [정정 뒤 저장 판단 갱신: 실제 이전 오답·전체 PDF 검색·날짜 조건 실행](research/policy_selective_update/)
 - [한국어 조건을 읽는 모델: 근거 통제·새 기관 검증·추론 비용](research/policy_scope_reading/)
 - [실제 정정·수정 공고: 원본 버전·대상별 금액·가능성 표현](research/policy_revision_audit/)
 - [새 연도·지역의 4개 공고: 고정 판독기 첫 적용과 예외 누락](research/policy_condition_transfer/)

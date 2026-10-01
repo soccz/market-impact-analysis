@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-01T09:59:14.937107+00:00",
+  "stage": "Before all new-source model calls; after inspecting available full texts",
+  "original_candidate": "Seoul 2024 original -> December amendment; original PDF not recovered from housing board and March youth notices (only poster images).",
+  "used_pair": "Seoul 2024-3494 December amendment -> 2025-1082 March amendment. This is a cross-year comparison, NOT a recovered 2024 original/revised pair.",
+  "other_pair": "Chungnam 2025-158 -> 2025-185 original/revised notices",
+  "selection": "Purposive two-source-family sample. Not random, blind or externally preregistered. No replacement based on model predictions.",
+  "normalization": "PyMuPDF get_text(sort=True), one page at a time, Unicode whitespace collapsed via split/join; no OCR or manual text correction.",
+  "extraction_warnings": "Seoul PDFs emit MuPDF invalid-key warnings. Original bytes preserved; relevant body pages visually checked. No table-specific claims.",
+  "annotation": "AI provisional references, independent human review 0. Labels created before new predictions; same agent saw development outputs and the source texts.",
+  "scope": "32 fixed hypothetical claims (16 each), provided in curated and top3 retrieval contexts. 64 inputs are not 64 independent policy events. Versions are rule-comparison tasks, not historical benefit entitlement.",
+  "routing_convention": "Changed location-set criterion requires recheck even for still-inside/outside profiles; explicit pre-cutoff insurance cohort retains its cap and uses keep. New inter-program condition is not inferred from former silence.",
+  "evidence_scoring": "Frozen evaluator uses one deterministic sufficient ID set. Auxiliary provenance.py scores union of cited current-source intervals, admitting equivalent overlapping chunks. Absent support sentinel is never a model input. Not-established support is context coverage, not a proof of document-wide absence.",
+  "retrieval": "All 34 PDF pages including forms. Fixed method before full-source reading. Fit version-local TF-IDF; no reference use.",
+  "dependencies": {
+    "PyMuPDF": "1.27.2.3",
+    "scikit-learn": "1.7.2",
+    "requests": "2.32.5"
+  }
+}

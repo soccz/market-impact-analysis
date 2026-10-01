@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-01",
+  "question": "Can an explicit map of policy revisions and their applicability reduce unnecessary refreshes without retaining stale or already-wrong claim decisions?",
+  "hypothesis": "A model-produced change map plus claim-specific applicability routing can preserve unaffected decisions while identifying necessary updates more reliably than citation-text overlap or a gate without a change map.",
+  "unit": "A fixed hypothetical applicant claim at two evidence snapshots. Only the named condition is judged; no whole eligibility, final selection, actual payment or legal conclusion.",
+  "methods": ["refresh_all", "citation_text_gate", "direct_scope_gate", "change_map_gate"],
+  "design": "The old cache is each model's actual first prediction, never the reference label. All strategies share the same cached old and fresh new predictions. Gates choose between them; invalid/uncertain gates or invalid caches trigger refresh. A map is inferred once per evidence bundle without claims or reference labels.",
+  "gate_target": "Recheck when the revision changes, withdraws or leaves unresolved a rule relevant and applicable to the specified claim. A changed applicable threshold requires rechecking even when this profile's final truth value remains unchanged. Mere paraphrases and changes to other programs or conditions do not require rechecking.",
+  "metrics": ["old and updated decision accuracy", "correct before/after pairs", "false flips on reference-stable claims", "missed required decision flips", "required-recheck recall and unnecessary rechecks", "errors retained from wrong old caches", "decision plus sufficient evidence", "actual model calls and observed request times"],
+  "development": "Authored revision controls and previously observed Jeju revision. Development outputs may guide one explicitly recorded refinement before new-document evaluation.",
+  "new_document_candidates": ["Seoul 2024 guarantee-fee support revised notice 2024-3494 and its original", "Chungnam 2025 coal-power subcontractor welfare notice and December revision"],
+  "prior_exposure": "Search snippets of the candidate titles and Seoul change summary were seen before method design. Full new-source reading and annotations follow the method freeze. This is not external preregistration or blind human annotation.",
+  "robustness": "Include genuine version changes, stable conditions, authored paraphrase and unrelated changes, partial missing evidence and prior-cache errors. Label authored counterfactuals separately from actual policy revisions.",
+  "cost": "Fresh predictions are precomputed for evaluation and reused, so avoided refresh counts are counterfactual routing counts, not observed end-to-end latency savings. Gate and map overhead is included; API eval_count is not assumed to cover total generation.",
+  "publication": "Publish code, authored probes, provisional annotations, source locators/hashes, selected output fields and plots. Keep complete official documents, extracted source text and raw source-derived model generations outside Git.",
+  "independent_human_reviews": 0,
+  "new_training_runs": 0,
+  "stopping_condition": "Complete the frozen comparisons and declared follow-ups, recompute results, preserve all first outputs and earlier artifacts, then publish both repos and verify the live page. Failed hypotheses remain reportable outcomes."
+}

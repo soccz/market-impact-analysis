@@ -1,0 +1,9 @@
+{
+  "reason": "Qwen authored development showed correct change routing can still retain an already-wrong cached decision. Refinement chosen after those 24 outputs and before new-source full text or predictions.",
+  "audited_change_map": "Use the same map gate; additionally refresh a semantically not-established cache and a fixed SHA-256 modulo-4 partition of claim IDs. No reference labels enter routing. No audit rate sweep.",
+  "hash_audit": "A low-cost control refreshes only invalid caches and the same modulo-4 partition, with no model gate or change map.",
+  "retrieval": "Fixed 500-character chunks, stride 400, within each normalized PDF page; per-version character 2-to-4-gram TF-IDF cosine retrieval, top 3 chunks. Fit on that version's entire PDF only; claim is the only query. All pages including forms enter the pool. Reference annotations are not used.",
+  "retrieval_scoring": "Report end-to-end decisions against full-source provisional references and separately report supplied-reference coverage. Missing retrieved evidence can make a cautious not-established response appropriate to its input but incomplete for the full-document task. Do not call all such errors reasoning errors.",
+  "comparison_scope": "The curated condition controls reading and update routing. The full-document retrieval condition adds extraction/retrieval failures and creates one map per claim-specific retrieved bundle. Neither is independent human evaluation.",
+  "new_source_rule": "Do not replace selected new documents after viewing model predictions. Record inaccessible originals and distinguish original/revised source provenance from a current overwritten attachment."
+}

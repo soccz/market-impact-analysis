@@ -1,0 +1,149 @@
+{
+  "bundles": [
+    {
+      "id": "jeju-known",
+      "kind": "previously_observed_source",
+      "source_locators": {
+        "before": {
+          "O020": {
+            "document": "jeju_before",
+            "paragraph": "P020",
+            "text_sha256": "a152677212b8a4c6bbb79f9e4054182b934fb762beabec452e76bbdba2b5c061"
+          },
+          "O021": {
+            "document": "jeju_before",
+            "paragraph": "P021",
+            "text_sha256": "dff7722d286ae4efbef00942e59b6a6bb49577b78311d4172d258ab106ae5a95"
+          }
+        },
+        "after": {
+          "N004": {
+            "document": "jeju_after",
+            "paragraph": "P004",
+            "text_sha256": "c804b7567390eb43c06dd99cbbfb117a7deaa70b09952d8bcf3e5f9a6652788f"
+          },
+          "N006": {
+            "document": "jeju_after",
+            "paragraph": "P006",
+            "text_sha256": "12575c35b2d33b5242267f72550f3139685cef34899432d9947734e651b7ad4c"
+          },
+          "N025": {
+            "document": "jeju_after",
+            "paragraph": "P025",
+            "text_sha256": "6e541d15648a33e8977c7fd15d5aa0724afffeb69391714c4052b014b54526cb"
+          },
+          "N026": {
+            "document": "jeju_after",
+            "paragraph": "P026",
+            "text_sha256": "990429ee54c277479fa3298dd7ff349c932aa6f8b69ac7764a39125763d60968"
+          }
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "jeju-known-1",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 900만원, 최근 3개월 월평균 매출 110만원이다. 9월 10일 최초 공고에 따라 이미 신청했다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "keep",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "O020",
+          "N006"
+        ]
+      }
+    },
+    {
+      "id": "jeju-known-2",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 900만원, 최근 3개월 월평균 매출 110만원이다. 9월 20일 새로 신청할 예정이다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "N025",
+          "N006"
+        ]
+      }
+    },
+    {
+      "id": "jeju-known-3",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 1300만원, 최근 3개월 월평균 매출 80만원이다. 9월 20일 새로 신청할 예정이다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "recheck",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "N025",
+          "N006"
+        ]
+      }
+    },
+    {
+      "id": "jeju-known-4",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 900만원, 최근 3개월 월평균 매출 80만원이다. 9월 20일 새로 신청할 예정이다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "contradicted",
+        "route": "recheck",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "N025",
+          "N006"
+        ]
+      }
+    },
+    {
+      "id": "jeju-known-5",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 1300만원, 최근 3개월 월평균 매출 80만원이다. 9월 10일 최초 공고에 따라 이미 신청했다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "supported",
+        "after": "supported",
+        "route": "keep",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "O020",
+          "N006"
+        ]
+      }
+    },
+    {
+      "id": "jeju-known-6",
+      "bundle": "jeju-known",
+      "claim": "제주 소상공인 출산급여의 적용 매출 기준만 묻는다. 2년간 운영한 가상 신청자는 전년도 매출 900만원, 최근 3개월 월평균 매출 110만원이다. 최초 공고에 이미 접수했는지 수정 공고 이후 신규 접수할지 알려지지 않았다. 이 사람은 적용되는 매출 기준을 충족한다.",
+      "reference": {
+        "before": "contradicted",
+        "after": "not_established",
+        "route": "uncertain",
+        "before_evidence": [
+          "O020"
+        ],
+        "after_evidence": [
+          "O020",
+          "N025",
+          "N006"
+        ]
+      }
+    }
+  ]
+}

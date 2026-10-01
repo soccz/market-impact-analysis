@@ -1,0 +1,56 @@
+{
+  "kanana-public": {
+    "after": {
+      "calls": 32,
+      "sum_elapsed_seconds": 35.486,
+      "truncated": 0
+    },
+    "before": {
+      "calls": 32,
+      "sum_elapsed_seconds": 29.292,
+      "truncated": 0
+    },
+    "direct_gate": {
+      "calls": 32,
+      "sum_elapsed_seconds": 35.036,
+      "truncated": 0
+    },
+    "map": {
+      "calls": 32,
+      "sum_elapsed_seconds": 224.519,
+      "truncated": 8
+    },
+    "map_gate": {
+      "calls": 32,
+      "sum_elapsed_seconds": 38.959,
+      "truncated": 0
+    }
+  },
+  "qwen": {
+    "after": {
+      "calls": 32,
+      "sum_elapsed_seconds": 42.115,
+      "truncated": 0
+    },
+    "before": {
+      "calls": 32,
+      "sum_elapsed_seconds": 41.219,
+      "truncated": 0
+    },
+    "direct_gate": {
+      "calls": 32,
+      "sum_elapsed_seconds": 43.333,
+      "truncated": 0
+    },
+    "map": {
+      "calls": 32,
+      "sum_elapsed_seconds": 210.696,
+      "truncated": 0
+    },
+    "map_gate": {
+      "calls": 32,
+      "sum_elapsed_seconds": 46.164,
+      "truncated": 0
+    }
+  }
+}

@@ -1,0 +1,3544 @@
+{
+  "after": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:41:21.543400+00:00",
+      "elapsed_seconds": 0.732,
+      "full_parsed_sha256": "9b0c9b8a3a7d0c56b09a849936e197982033907ee0ccc9c5dbb48317e9fb35b8",
+      "id": "added_exception-1",
+      "input_sha256": "f5a1d3b7817bfa306d307eed240512b4a68623fca0fa120b05d9b131dcf123a0",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "bd6e3c0ba2554ec22da3a107ceec34758393aebb0270cb557a61caf1c9ec3d98",
+      "request_sha256": "e722d0066fdca6c76e28a0cd9496272c84d28346e420aa1e2a4469e65ae70383",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 27,
+        "eval_duration": 505625000,
+        "load_duration": 732915,
+        "prompt_eval_count": 303,
+        "prompt_eval_duration": 155409000,
+        "total_duration": 730441132
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:41:24.536967+00:00",
+      "elapsed_seconds": 0.732,
+      "full_parsed_sha256": "c76db3af4b0a247b5f48397bcb7626bb16de2da83934a87c2107398a67a3fac4",
+      "id": "added_exception-2",
+      "input_sha256": "4a709a488456ab82b314d80d7da230ed9baadf9fd22241aebe97fbd63f030aae",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "e0b0f453ac07e372b2e45ed397dccaf1a5e541f67e20bd40f0b53c8ccea2e906",
+      "request_sha256": "5db07539808ae1fb8f690c64c2b2c60ca560b3fd367948d6bc924dc5454713e0",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 28,
+        "eval_duration": 500388000,
+        "load_duration": 680259,
+        "prompt_eval_count": 298,
+        "prompt_eval_duration": 154102000,
+        "total_duration": 730632024
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:41:27.465184+00:00",
+      "elapsed_seconds": 0.688,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "added_exception-3",
+      "input_sha256": "b9a5bb543b3b16c6856c7c6d7b2a5beed0a321d8f0b318cfe3b831dbfbf42112",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "8f694bf3202f333035058d086e1792981f92648e19cbe16426f9d87cb0c68dff",
+      "request_sha256": "42ad39b609598d61bbefa431366bd8c44519f833df5d56a4d779e603763e696f",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 461396000,
+        "load_duration": 690584,
+        "prompt_eval_count": 298,
+        "prompt_eval_duration": 155501000,
+        "total_duration": 686955574
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:40:55.653510+00:00",
+      "elapsed_seconds": 0.714,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "exception-1",
+      "input_sha256": "aad1bf0e484a30abd23da54b3b4c0b850352866857eb017a749163d60f11f54a",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "89816a491a0a632f6f69d100733dd5576a7300795dcdc60a71639a76a7bc5ca7",
+      "request_sha256": "c6934ea9ec39233b2e91e9df791046928a59490fa937ffb04f604fd7b0cbbae9",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 481077000,
+        "load_duration": 735786,
+        "prompt_eval_count": 302,
+        "prompt_eval_duration": 155629000,
+        "total_duration": 712193282
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:40:58.690955+00:00",
+      "elapsed_seconds": 0.776,
+      "full_parsed_sha256": "c76db3af4b0a247b5f48397bcb7626bb16de2da83934a87c2107398a67a3fac4",
+      "id": "exception-2",
+      "input_sha256": "1c41f822c021d3175ec7e9e8930fd0f6ee7cfa678baee44a1fbc5898566ca303",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "2929ad7fd67749e0e85c8d3584687049739c3f4a7cf493a3cb4a6040dcb22128",
+      "request_sha256": "13cab025ebf2b33bb8464cfd3a89443ae93ba0981822c47f27ab23bf59ea1573",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 546140000,
+        "load_duration": 852860,
+        "prompt_eval_count": 298,
+        "prompt_eval_duration": 154850000,
+        "total_duration": 773931826
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:41:01.675192+00:00",
+      "elapsed_seconds": 0.777,
+      "full_parsed_sha256": "792efdc814dcd92e5354f38a397b4b64af47db9a3d12c6bf0b0b9d52a9ea833f",
+      "id": "exception-3",
+      "input_sha256": "3c93b5fc86fa62e2e44400e63e55acd90ef03cf388f48b69964e40f7b46edcb2",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "ffc2287af2acb928baf8ab2c2df9b62c398d4aed625a42c7583584a44c20f66c",
+      "request_sha256": "46bd1b92382c300f60a2ff5327d7db9b25b9ef772d6b669663ec478007fcbc5b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 550113000,
+        "load_duration": 749950,
+        "prompt_eval_count": 301,
+        "prompt_eval_duration": 154053000,
+        "total_duration": 775301584
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:40:46.308872+00:00",
+      "elapsed_seconds": 0.74,
+      "full_parsed_sha256": "c3ca81c71d5f1d7a0e24ef62f57e3abccc8e2ea2b73ba83c9a8f522a71182994",
+      "id": "grandfather-1",
+      "input_sha256": "ecc515dd029096d778ae8ea4d693a03e536945ea525c89cb27d930b55abcf70d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "cd353c1b8a2d403696d321d1862909da64e75b95621dcd40650d80a58fbbbf1c",
+      "request_sha256": "8ce83c21ce88a4bed67cf382875c820da2f2d6704c5376ae4b8c1516a4a776cb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 25,
+        "eval_duration": 487096000,
+        "load_duration": 1065641,
+        "prompt_eval_count": 329,
+        "prompt_eval_duration": 161811000,
+        "total_duration": 737538793
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:40:49.446428+00:00",
+      "elapsed_seconds": 0.762,
+      "full_parsed_sha256": "9b0c9b8a3a7d0c56b09a849936e197982033907ee0ccc9c5dbb48317e9fb35b8",
+      "id": "grandfather-2",
+      "input_sha256": "744ef84e77ba87bb9bc663feb73a07da8b70d9991970a297a4ce3a1bee821c88",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "07df8ca7a72442ca024f854c9645e29664749192f37a9ca62acda87f41f61c4c",
+      "request_sha256": "51d80fb966fdaa400cf28391b168d1ab7a0a9593e92e8a63742f08f096c4e719",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 27,
+        "eval_duration": 526546000,
+        "load_duration": 926455,
+        "prompt_eval_count": 331,
+        "prompt_eval_duration": 159426000,
+        "total_duration": 759815763
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:40:52.588144+00:00",
+      "elapsed_seconds": 0.755,
+      "full_parsed_sha256": "9b0c9b8a3a7d0c56b09a849936e197982033907ee0ccc9c5dbb48317e9fb35b8",
+      "id": "grandfather-3",
+      "input_sha256": "4edeb7d2b0e6dac021a324884a13cef487172fc1bb575ff0592cd5cc9a86db77",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "373426d1e72a8f1e20103e4a7733749df8e212b30f042acf6bcb353c3d6b7295",
+      "request_sha256": "0f2dae289ee392c888d42c75b358cb46e91ddab0b31ef242fa85dbd25d465c63",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 27,
+        "eval_duration": 520655000,
+        "load_duration": 878812,
+        "prompt_eval_count": 331,
+        "prompt_eval_duration": 159007000,
+        "total_duration": 753662947
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:41:30.113369+00:00",
+      "elapsed_seconds": 0.667,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "modality-1",
+      "input_sha256": "3ddc2ce81c368c1e97376a709d791d5c704eed48029cbb22fc54aac05f95b898",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "383892522bcbf0a887f5d62519413d687c3d0b680d932dfdcacbc71cd5e40dff",
+      "request_sha256": "165eace99bf1d3017cb6f4768fce2d865ce378605f619d42d83e53d034b18ab1",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 439875000,
+        "load_duration": 765322,
+        "prompt_eval_count": 313,
+        "prompt_eval_duration": 156097000,
+        "total_duration": 665479756
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:41:33.116206+00:00",
+      "elapsed_seconds": 0.671,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "modality-2",
+      "input_sha256": "e8c7373c8be430d9cd74bed5b13d6609c1a8e6444f10f5ab46d308d9532ba033",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "99fb5f2dfa1894661024942a4baf62ef4b1e594915eda05b3cc3ce14131216c3",
+      "request_sha256": "e8c2de6dba5a7807bb5238fd775bb48d2466039c0f66e874a23c3d5be5956fe2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 442396000,
+        "load_duration": 952667,
+        "prompt_eval_count": 315,
+        "prompt_eval_duration": 156566000,
+        "total_duration": 669687770
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:41:36.172307+00:00",
+      "elapsed_seconds": 0.649,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "modality-3",
+      "input_sha256": "cdb7d85c381135a58614344a9f7f6c308cd62d6ed100250af0e26913fe275f00",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "9ee04d723c8407c6bea0cb806427d548938b44faf4c5497a1224459b8be355e1",
+      "request_sha256": "8a58845e81dc8315771d669e987436578d86488c27be89e3ac9243e87252940a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 416890000,
+        "load_duration": 798544,
+        "prompt_eval_count": 307,
+        "prompt_eval_duration": 156665000,
+        "total_duration": 647174179
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:41:04.706387+00:00",
+      "elapsed_seconds": 0.697,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "other_program-1",
+      "input_sha256": "ab4e3dbb8004129dc8d80d2d37d0dd14ec980058896dc95704a7a67d104976cb",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "87fce858ae78b1a29a54b2709ba9cac7b877ac0ded1d287fdc8c2d34e7728e79",
+      "request_sha256": "a8709e01f4d9dbf51dfbac11e535567d4c08dc696de1264dc4899bc9af9d18ca",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 464670000,
+        "load_duration": 864489,
+        "prompt_eval_count": 309,
+        "prompt_eval_duration": 156472000,
+        "total_duration": 695069644
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:41:07.600251+00:00",
+      "elapsed_seconds": 0.678,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "other_program-2",
+      "input_sha256": "46885402beb1693910cf5cfa33930c866c6b749a7657411409e95d22c60833c6",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "103eb03ded1b43f5e69869742fbc2e8cd8265ba3ddad38295a80a8bb05942d4d",
+      "request_sha256": "cb59132e1ec8db632a57cef56a2ce3c2f2aced869755550869e7174715fe0a3c",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 442392000,
+        "load_duration": 906222,
+        "prompt_eval_count": 309,
+        "prompt_eval_duration": 156828000,
+        "total_duration": 676770032
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:41:10.538757+00:00",
+      "elapsed_seconds": 0.677,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "other_program-3",
+      "input_sha256": "819a0fa72ee3617cd1593c16ab2531327a8507fe403cef54ee39728c0dddc75f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "002fca61cc0b987968a6468020b699c20bc2a3b7a21a9712c81753c26a0fe096",
+      "request_sha256": "c36cd73e56a8d6a2ff9ac27fe33c1d89b404d9e4aef3a4742615a9e181d31522",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 447425000,
+        "load_duration": 875997,
+        "prompt_eval_count": 309,
+        "prompt_eval_duration": 155552000,
+        "total_duration": 675241743
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:41:13.412411+00:00",
+      "elapsed_seconds": 0.714,
+      "full_parsed_sha256": "dc319ee4d68f308a905beae89d8076d353fd4adc74a6c4dd75b8118794772449",
+      "id": "partial_evidence-1",
+      "input_sha256": "380aba33149c4cdbf60c94a5fa211b85a669271a6db59945034733994e8daec1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "2f3ebf24615b1e7e0e95b432fb0fd776fa3d3b332ad3fa8dfa550a740d2628cb",
+      "request_sha256": "fc977aea52b845006c88c489c2b45b3d74cfeee392261b29f828fc6d60aead25",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 492298000,
+        "load_duration": 746807,
+        "prompt_eval_count": 287,
+        "prompt_eval_duration": 144894000,
+        "total_duration": 713195174
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:41:16.093727+00:00",
+      "elapsed_seconds": 0.67,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "partial_evidence-2",
+      "input_sha256": "6ba038e0515dd980f2c18489812fcab0c45cbffe0bc75e439e5f6f1b486739aa",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "daae908b121dcd77db5f162bbd9fe73de0d7c45a842b54fd6b6cf3e729cf4bdb",
+      "request_sha256": "2cc6bc0aa954fed1d811a7acd72c8f673c7543c4a7c636acfa4eeefd2f68502e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 452252000,
+        "load_duration": 767045,
+        "prompt_eval_count": 285,
+        "prompt_eval_duration": 145005000,
+        "total_duration": 668843765
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:41:18.799156+00:00",
+      "elapsed_seconds": 0.662,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "partial_evidence-3",
+      "input_sha256": "291b101a518a442984704444bc0ec2a5123fda9f404f751d13b0b63ed6cb2584",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "91baed02d6c629659fb3b6028ece460c26ff0f10db25555d7b42554b13ca97c6",
+      "request_sha256": "9ed9111d13cb260303cbe799c7fd3313857555528fd1fa78f09e42932ec4e862",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 444609000,
+        "load_duration": 777835,
+        "prompt_eval_count": 285,
+        "prompt_eval_duration": 145428000,
+        "total_duration": 660274299
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:40:29.725232+00:00",
+      "elapsed_seconds": 0.651,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "threshold-1",
+      "input_sha256": "debfa3fc38b56a4c3e4cb4b8cd0c6d34f9545d1002cde0bd5761ec9b7a41ce3c",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "f4360e5a765d75ab3b7017793c0112e275409f3781c90cd9e893030cc47841be",
+      "request_sha256": "c618b21560af6456d4bd5818c134e0f17e1ba90eb1f1466efd22ffff90888cc9",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 458752000,
+        "load_duration": 816182,
+        "prompt_eval_count": 260,
+        "prompt_eval_duration": 133003999,
+        "total_duration": 649398676
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:40:32.472301+00:00",
+      "elapsed_seconds": 0.684,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "threshold-2",
+      "input_sha256": "5cdc12c8ab4837aa8ba5d1c5b51ba4e73ffd66924b11bde69198b08a93baeff1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "b41717b7654f0e63a188bf1a92b8dc639cf642dc7a49c3071a73c0098abbbbf7",
+      "request_sha256": "b0512e3dac01445e3f267c2f3a681666876de6067a1480169a4c0696fc582dcd",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 463685000,
+        "load_duration": 876572,
+        "prompt_eval_count": 261,
+        "prompt_eval_duration": 141272000,
+        "total_duration": 682138985
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:40:35.251650+00:00",
+      "elapsed_seconds": 0.679,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "threshold-3",
+      "input_sha256": "c5cdd00abf87e9cad56980bee76a703c446ce8bc6b38536b2e4cd7f4ad388816",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "21a833d83a2958af233398620dd329b42944aa5997c1602e9b6b01b268244665",
+      "request_sha256": "d58d7c209f69942fb2ba104af35f30051ac0705a2d3128cf4c82838f6782aedf",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 464941000,
+        "load_duration": 735555,
+        "prompt_eval_count": 261,
+        "prompt_eval_duration": 141868000,
+        "total_duration": 677148680
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:40:37.991386+00:00",
+      "elapsed_seconds": 0.689,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "wording-1",
+      "input_sha256": "7a8f4906ae2324158bfdb9d3bbb31aeec68379914106a2da26d0acafc5ab0ade",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "e4d31f12555abc89f105caf3d24eb0329f9b4cef0279a90150a2af651cc2c728",
+      "request_sha256": "6ea440a90b735fc5ceb4f5855e40c21c03b9fe5689262047dbb5f888cbcc7a09",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 474507000,
+        "load_duration": 985505,
+        "prompt_eval_count": 266,
+        "prompt_eval_duration": 142497000,
+        "total_duration": 687465511
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:40:40.714130+00:00",
+      "elapsed_seconds": 0.677,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "wording-2",
+      "input_sha256": "acde7ed4037a81d491c135adaa226baa61ac830c071e23fd110d88028f2cdd55",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "b83ca08ea02d835cdc806db82fae6055e5fa69a410a5a6efab838a3e5e3e76bd",
+      "request_sha256": "fbcfa9588b89d86be34e35edc15bb8137f729deb48c3e8f909ecc98d337632fb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 459755000,
+        "load_duration": 1000592,
+        "prompt_eval_count": 267,
+        "prompt_eval_duration": 142148000,
+        "total_duration": 675641955
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:40:43.453846+00:00",
+      "elapsed_seconds": 0.659,
+      "full_parsed_sha256": "6108f75a5735723153343de66d3dc8b7f28d2b6eed2484d40c9bd16e73d3a706",
+      "id": "wording-3",
+      "input_sha256": "8ff06cf30c67fbf8a6dd801940743048c30c4e114f3438deabe1a02b3281251f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "1e93dafb6d58bfb54fb0ac9b9ba7a40089b852edf18b2db0e843216e2ad99ca4",
+      "request_sha256": "2d31cef64045c19fbdeb37226849388c9d67f73866dcc299d599a9a51680d50f",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 445894000,
+        "load_duration": 770745,
+        "prompt_eval_count": 267,
+        "prompt_eval_duration": 142392000,
+        "total_duration": 658153165
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    }
+  },
+  "before": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:41:20.811220+00:00",
+      "elapsed_seconds": 0.756,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "added_exception-1",
+      "input_sha256": "dca37df30972516e89037dfe62683d3e7175ea9c153c7d107258770e80374744",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "8b5b3e40136a7e67e679ca48ef8cd3da7c39ca593f9525b4d6600ae3f69cc496",
+      "request_sha256": "a0566102e4eabe446ec02db3cd889369884a6f0f846b2f49e71fd61bc283747b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 574770000,
+        "load_duration": 816215,
+        "prompt_eval_count": 182,
+        "prompt_eval_duration": 106752000,
+        "total_duration": 754667546
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:41:23.804358+00:00",
+      "elapsed_seconds": 0.75,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "added_exception-2",
+      "input_sha256": "d62c19a14df2c6ed9c0e47590a2083f55eff161e711a2b11328a61df64cf1618",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "ba7cf3d4eea2237e9d0276485da0c8a58048e3225dcdf43959e2ec2983c93bc6",
+      "request_sha256": "779e1a0e1a4d3f84f80d4f64c3e6be67b86bd86774a6bb8e54b43e3d88816bbc",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 566366000,
+        "load_duration": 677807,
+        "prompt_eval_count": 177,
+        "prompt_eval_duration": 108229000,
+        "total_duration": 748376065
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:41:26.776402+00:00",
+      "elapsed_seconds": 0.806,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "added_exception-3",
+      "input_sha256": "8f35cb689091e9d75d96c305f66a4723500b3837c954075214ece8d714e0e76d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "92a9b5f2c516c99c82ce0fcc30b942b3edb760f2772d8eac191a23b7bbc8756e",
+      "request_sha256": "6131135878b6ab3b98b0286dcc83d5043a67c4932740c02e21b1c3bb4793a6d7",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 564485000,
+        "load_duration": 740438,
+        "prompt_eval_count": 177,
+        "prompt_eval_duration": 108005000,
+        "total_duration": 804754260
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:40:54.939185+00:00",
+      "elapsed_seconds": 0.794,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "exception-1",
+      "input_sha256": "1f2b2110bed9d9e110d8b78c604e821ff5c4a1a248b163d833bcb4c7cc60e437",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "1a85017ba44d2232ed10473c63d64f2259ed3b62227a923880ca38c5e5c72782",
+      "request_sha256": "9e7797f0fd700619989a6b3466173f2121bd70e413a936ab04dc6952698575f2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 557619000,
+        "load_duration": 1132335,
+        "prompt_eval_count": 180,
+        "prompt_eval_duration": 107345000,
+        "total_duration": 792393825
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:40:57.914880+00:00",
+      "elapsed_seconds": 0.717,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "exception-2",
+      "input_sha256": "a53e28c286cf0141910c2b980ddeed286cfff5ac5e6e11d1f005399240d36489",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "304ee1f1fd5708bd3901454f86deef4a597dd4d041588c40d5ab6a6a0f0820e3",
+      "request_sha256": "2cb94ff3458d3a6881179662adf9fa7172fac7ecc2c2ed91a75420fe06c90844",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 534090000,
+        "load_duration": 884400,
+        "prompt_eval_count": 176,
+        "prompt_eval_duration": 106078000,
+        "total_duration": 714760973
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:41:00.898288+00:00",
+      "elapsed_seconds": 0.735,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "exception-3",
+      "input_sha256": "8fedcbd2951bc360cf578a1341f89cb382ebe25cec2b2fecc1ae812bad5179d4",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "72bcf783d17e35ac42bcf1145e624b169d81d7f53bda756266e5920198eeee55",
+      "request_sha256": "61f4d3b25ef419deee0cdc13a67f69697bda16fda7b9c4a9028aee7822185674",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 548498000,
+        "load_duration": 900540,
+        "prompt_eval_count": 179,
+        "prompt_eval_duration": 107696000,
+        "total_duration": 733311319
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:40:45.568841+00:00",
+      "elapsed_seconds": 0.764,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "grandfather-1",
+      "input_sha256": "8916d67ffb77a0d116589e84effef8470248fd97b2fdaa1c70bb037f6e53d099",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "eed093236c13bd562dbe5a000568ea32b99184e3eeee471b1d104361e6fe284c",
+      "request_sha256": "b297fa2b9b9794c1cb7d7092f5c38b2b4454209180515c34e3de4875ed053f90",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 570249000,
+        "load_duration": 998148,
+        "prompt_eval_count": 192,
+        "prompt_eval_duration": 109443000,
+        "total_duration": 761946998
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:40:48.684295+00:00",
+      "elapsed_seconds": 0.807,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "grandfather-2",
+      "input_sha256": "56b8c956b9de53df39ae40c185ebdd5e9aea303c9a76accb8aef8002766f3553",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "f75d8d7aa4c3cd963d616c92d63f08489214d57b86f60f4bb9af52b9feb9883a",
+      "request_sha256": "1af58b3ff2f5ae2c9c2e5bba0070ae1910d87b955963d8837000ec3c6d6455bd",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 587690000,
+        "load_duration": 815088,
+        "prompt_eval_count": 194,
+        "prompt_eval_duration": 112051000,
+        "total_duration": 805174685
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:40:51.832195+00:00",
+      "elapsed_seconds": 0.792,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "grandfather-3",
+      "input_sha256": "f2ac4206b4ee7cff65a81c53606f80c94861d086e7f5a68db14adbc9f9476cb2",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "dcc1c552d0ba8f5754257f8847fc6f419fdb67a8e98fffcd0e134992be8c6d62",
+      "request_sha256": "3ab6b96e916bd8098422731a82a1cb69652c761429837ed12e06d805d1053289",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 553514000,
+        "load_duration": 967281,
+        "prompt_eval_count": 194,
+        "prompt_eval_duration": 109116000,
+        "total_duration": 790111792
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:41:29.446177+00:00",
+      "elapsed_seconds": 0.69,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "modality-1",
+      "input_sha256": "a4f912609534b18ecc3614597bf43a5ea8f798a263d3d942366a5748fdc162a3",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "3e2e859dad9f182bc6377109b389ea0a0333f40ccfcb8815959e40a4d169a200",
+      "request_sha256": "882e7f92c198c6a033d9505ddfc17b36fd1cfbd3fd8c6b5680cb622bf8696139",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 505999000,
+        "load_duration": 946017,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 108557000,
+        "total_duration": 688791467
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:41:32.444941+00:00",
+      "elapsed_seconds": 0.811,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "modality-2",
+      "input_sha256": "1484d348232920e5a4fcb3fae914421537e9a9c4490723fa7f6341f4556e8b27",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "3ae0d5aac3c0c96f92e6d312e6e1831af0f6d122ae6816fc338c42c8095c1ae7",
+      "request_sha256": "5abf9ad62f490ff02a95bbc196d1c797aa0fc016652fc9617c2fae8f172c0be7",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 563070000,
+        "load_duration": 747464,
+        "prompt_eval_count": 197,
+        "prompt_eval_duration": 115431000,
+        "total_duration": 809892191
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:41:35.523048+00:00",
+      "elapsed_seconds": 0.804,
+      "full_parsed_sha256": "a66d8c250bb989e782afc47234cd3dd7f98b23476606ca4f6456b920597fffb4",
+      "id": "modality-3",
+      "input_sha256": "424994edaab4c91f45e0aa0539f0bef4d08611de3a6a7d8ea77b3154bdb41f00",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O2"
+        ]
+      },
+      "private_response_sha256": "f50c2123b1a68593c87d8e3bfb55c0f036c22a94eda741e806d30de2c8faed21",
+      "request_sha256": "4b868b0fd6e9d8092dd5cc5ac78fde855561f6fbfa7d9c377ecdfc5466b68821",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 552452000,
+        "load_duration": 759685,
+        "prompt_eval_count": 189,
+        "prompt_eval_duration": 109070000,
+        "total_duration": 802388990
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:41:04.009176+00:00",
+      "elapsed_seconds": 0.738,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "other_program-1",
+      "input_sha256": "784c710a8204d6e0388cd1d61ae7092e0ec83fe524b4455746f0163b62e9a27a",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "b9a68b2e3e1dc83f956e5167dc83daa686796574e22fdf6d0d83cab4dc291a14",
+      "request_sha256": "f59db4c777cbf903ebfa337b2f860b881be16ddb989516665aa0bee303a6edc4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 546999000,
+        "load_duration": 864071,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 110036000,
+        "total_duration": 736703443
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:41:06.921694+00:00",
+      "elapsed_seconds": 0.762,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "other_program-2",
+      "input_sha256": "e46d798c32eec9ce9b6069f9de04a36d97235bbf8cdd4eaa4b1853e1bc2d0d53",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "58210fe77042dd34a1a77fd8ac6045c417f3a4682fccd808b06325341fdc2c6e",
+      "request_sha256": "1cc798acfb069a7975d070feec75d2ce3f918650bf1ba661573dbf8c86f76820",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 571074000,
+        "load_duration": 745190,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 109424000,
+        "total_duration": 760167018
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:41:09.861693+00:00",
+      "elapsed_seconds": 0.759,
+      "full_parsed_sha256": "dc7e303488f3d9d8f9df7e347b8d5f2162ebe3ac11b629836d86fe83de2aa739",
+      "id": "other_program-3",
+      "input_sha256": "c76d8ccb2572d604cbaf81e8de0b0d579d0f648d2028e7e96e9cc23a4d02b9fb",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O2"
+        ]
+      },
+      "private_response_sha256": "f72c8f1dbf8daa4505696bd64e9d5d1e5c78b32c43e40f9358c7340b1872c498",
+      "request_sha256": "f48e154a486acdc8c1712a085055f8f61df878d43f43cbff146aac4177b7fdc2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 565419000,
+        "load_duration": 837591,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 109190000,
+        "total_duration": 756450831
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:41:12.697543+00:00",
+      "elapsed_seconds": 0.705,
+      "full_parsed_sha256": "a66d8c250bb989e782afc47234cd3dd7f98b23476606ca4f6456b920597fffb4",
+      "id": "partial_evidence-1",
+      "input_sha256": "dd469ed7f3a35803da5b16397b8b99e99c77201208ee76b665ad4cfa4b0c0f3e",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O2"
+        ]
+      },
+      "private_response_sha256": "481ab5ccbca8c2f2bf32eba5b55ea947b6829018f5bea5cfd53e6c637092d895",
+      "request_sha256": "2d3214fd0108e5ffa91459a4f6e3fd57ae40ddc198c422f8f6bf037e6a999b2e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 508538000,
+        "load_duration": 905182,
+        "prompt_eval_count": 197,
+        "prompt_eval_duration": 115204000,
+        "total_duration": 703076332
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:41:15.423034+00:00",
+      "elapsed_seconds": 0.732,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "partial_evidence-2",
+      "input_sha256": "c0e5810949919c2273381c42c971368193d87fabe3bcaa9fb73ddd13f64adce5",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "b2969e54a7e8418fd4c7abef7914ccf5ff388b3e6583aa277635013ff7a48d73",
+      "request_sha256": "965be1e05e3afa3335882761e62754694f00259cc1fa7a1de9754c2fa798880e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 500865000,
+        "load_duration": 747848,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 108693000,
+        "total_duration": 730623306
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:41:18.136568+00:00",
+      "elapsed_seconds": 0.763,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "partial_evidence-3",
+      "input_sha256": "3278dd568c33955be356800b3d998a3eb04ff00a078a8a5d5088b191ba6ae681",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "70c00939956b4cda1736c45cb49b216de553b91ef6f9faeba401863bc82746a4",
+      "request_sha256": "c47712f7e075be8a3621dce86e31f60cf298271e7b2de5d366f3bc9399b47f04",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 576545000,
+        "load_duration": 784151,
+        "prompt_eval_count": 195,
+        "prompt_eval_duration": 110945000,
+        "total_duration": 761003838
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:40:29.073899+00:00",
+      "elapsed_seconds": 0.744,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "threshold-1",
+      "input_sha256": "253720a4831379441417b530e534eb5d81d2c25d10deaac6e5d6adcf10d13f5d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "7610ab70f14ab9427e5107e34a49eda6c306e3a79e8d7978d9e7248cc122abd4",
+      "request_sha256": "f813ef95729edcf2a619c517c8c7058455d1174c65f2a3058d26bda75297b06b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 571996000,
+        "load_duration": 785416,
+        "prompt_eval_count": 172,
+        "prompt_eval_duration": 108149000,
+        "total_duration": 742693917
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:40:31.788326+00:00",
+      "elapsed_seconds": 0.762,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "threshold-2",
+      "input_sha256": "a1f04427e7f65ff8311fdc251619ab0073cb66f3bb30144fb90cb7b5fc9f96a8",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "24906e1f05b3b1ae1aa2fa9bb063ddcdce01bd718ee465679bddb27eea74c6a5",
+      "request_sha256": "05149c486d20712e063df0b6026333157bc0fd6f1f18d29fc56bc7414710bf9b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 577569000,
+        "load_duration": 825599,
+        "prompt_eval_count": 173,
+        "prompt_eval_duration": 105547000,
+        "total_duration": 760525879
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:40:34.572646+00:00",
+      "elapsed_seconds": 0.778,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "threshold-3",
+      "input_sha256": "0d7cdfbe1c2d0f20d858f1fd1cafe3dafafcb2949f565d9f37b7e921d6f4b4fb",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "2bf01cadf1dba6212986357b6fe6b75e08a10965db2acaa7e8e02ee2898ba27d",
+      "request_sha256": "06db30b0ec700008cb718de79588dfcacf14866f67b144f719446b3205c763d4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 589237000,
+        "load_duration": 774534,
+        "prompt_eval_count": 173,
+        "prompt_eval_duration": 107497000,
+        "total_duration": 776732309
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:40:37.301821+00:00",
+      "elapsed_seconds": 0.738,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "wording-1",
+      "input_sha256": "311b7adeb9f1c50f3368ca61d85309055a2e248181ff2b023f1e155b0cccf676",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "90123add615a87c75b612912c6b6e097f05bfde3abd2c79e25ab8482494e0afb",
+      "request_sha256": "c61f374acff6b535bcd3c83d4336798c170fe281198138962c7ffdc8698f638b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 29,
+        "eval_duration": 557705000,
+        "load_duration": 829185,
+        "prompt_eval_count": 175,
+        "prompt_eval_duration": 106250000,
+        "total_duration": 735786396
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:40:40.036847+00:00",
+      "elapsed_seconds": 0.764,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "wording-2",
+      "input_sha256": "f42a0f4d13ed2079f707f0f89663a8629fe6ba08f4ec0fe600b9ae35850edf68",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "25da8dff9f1d3580cab798595e28c31790fe13e97335682fd06a6eb047e16e6b",
+      "request_sha256": "654d9fab7374012abdf53eae250a7594d4db654f9cb6167f387c93048266d7c6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 583252000,
+        "load_duration": 684282,
+        "prompt_eval_count": 176,
+        "prompt_eval_duration": 106515000,
+        "total_duration": 762059236
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:40:42.793996+00:00",
+      "elapsed_seconds": 0.753,
+      "full_parsed_sha256": "8b56b31776cfeae96511450287e1daca5b32062d9781c4dd394c5df677c0bfb8",
+      "id": "wording-3",
+      "input_sha256": "4ff653c61cf36b2dd5ce92648d85ddf428b01dfeee77db7364caaa6d57daa484",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "e92071a5a1208944cd44016707fadb925690735c57ca38a7b1be3a341d22b7bb",
+      "request_sha256": "073751598240f1bb9604cc1087cda7463d3cd093fff349ca98e3c73958fd3732",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 573563000,
+        "load_duration": 858106,
+        "prompt_eval_count": 176,
+        "prompt_eval_duration": 105990000,
+        "total_duration": 751434148
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    }
+  },
+  "direct_gate": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:41:22.212109+00:00",
+      "elapsed_seconds": 0.668,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-1",
+      "input_sha256": "5706bc2ca3859944e43e87a69fe9417b6969486ada2613d7456ef82ada99c12b",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "9d83c446b9e6ceac49851e8100f39cb46246666bc58a785fc4da379d20777e91",
+      "request_sha256": "c318f68804b66a7bcb1bfaa98dd76ca812576f640cd0c512623b4e5072711d78",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 426445000,
+        "load_duration": 715416,
+        "prompt_eval_count": 332,
+        "prompt_eval_duration": 166227000,
+        "total_duration": 666565385
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:41:25.228503+00:00",
+      "elapsed_seconds": 0.691,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-2",
+      "input_sha256": "5b4c958257f036284fdf85cd6c67658fc48d020b72c6b04889e8856f739591e5",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "8bd9094e543ca7fa5786d9577ad3d1c14857e834b8ac19947b625a28f758dbdd",
+      "request_sha256": "49ce014a994e3eb24a380d0f65e98efab6e492c19763aaabf49cbc90062e8954",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 442819000,
+        "load_duration": 773050,
+        "prompt_eval_count": 327,
+        "prompt_eval_duration": 167843000,
+        "total_duration": 689127914
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:41:28.115259+00:00",
+      "elapsed_seconds": 0.65,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "added_exception-3",
+      "input_sha256": "09b4d1cc9e8c329ff528bd06628047e05ee9f6a1fcb9c3dd5d253968a6153dd6",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "e19b040f3a7e659aa874c6d59cf71a4af5025fbafab586acef03183e2794e3dc",
+      "request_sha256": "3f8613e4b3357268e1b22e8c0531a70bdb860f449fb8d7130823641463d9f2a1",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 414156000,
+        "load_duration": 853006,
+        "prompt_eval_count": 327,
+        "prompt_eval_duration": 159154000,
+        "total_duration": 648194275
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:40:56.410302+00:00",
+      "elapsed_seconds": 0.756,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-1",
+      "input_sha256": "935484b753630501ba27ea61fca5fe8cac7ec54c45a2e0d922bdf819aecc50e8",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "6f3ea7b29276d30d2915bfb83fb3177b458c4e05f03601342d62103825cff3f6",
+      "request_sha256": "87f0ab386daba480f165a9d6b0143658c7dd8fc54d3545c1241cb4722f67356d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 515308000,
+        "load_duration": 1032530,
+        "prompt_eval_count": 331,
+        "prompt_eval_duration": 159999000,
+        "total_duration": 755050935
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:40:59.436238+00:00",
+      "elapsed_seconds": 0.745,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-2",
+      "input_sha256": "682e629aafb54c839c60a0c245a7e9b0ac90a8089fc65b275123cb03a497c2a5",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "274a2d9d08b89743c35e9f032bb8c3595082d7c028bf8737b86e8f1f02705fb9",
+      "request_sha256": "391d262115ad19412b2ed79bf79868da68cba018e818a508826f4e4c50c2a452",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 500148000,
+        "load_duration": 730939,
+        "prompt_eval_count": 327,
+        "prompt_eval_duration": 159419000,
+        "total_duration": 742951484
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:41:02.433684+00:00",
+      "elapsed_seconds": 0.758,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-3",
+      "input_sha256": "f1da9d47eedd5c14f9b2b6422be2727c9b2c3d17fce12112579419d73b770626",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "074f4677c1bac6b1a8a1c77a5a4fff16508b97404eeac16a59a57856839f7812",
+      "request_sha256": "158b1d6c3fc321a89f501af637a8d4fdb1045340d7cac101fa855b8a965ba4c2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 506385000,
+        "load_duration": 829501,
+        "prompt_eval_count": 330,
+        "prompt_eval_duration": 169570000,
+        "total_duration": 756509105
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:40:47.063783+00:00",
+      "elapsed_seconds": 0.754,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-1",
+      "input_sha256": "fb852b44911c3061ef1e76a680ab1c3a2d17d5c6f5239f10faf75735867b430d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "90fed00c2b7ff7d786530270ead4b9ce35f560d32002fd9d82bb7d81276d503d",
+      "request_sha256": "7001d4ea265e202ccd0cecde6bafb1bd136641109b0d3572ef54d7a60502d420",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 503900000,
+        "load_duration": 871920,
+        "prompt_eval_count": 358,
+        "prompt_eval_duration": 170545000,
+        "total_duration": 752822972
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:40:50.202596+00:00",
+      "elapsed_seconds": 0.756,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-2",
+      "input_sha256": "37c5848f05f9a3063189502d231d840011a5962bc37370b9b42017d7f2121db1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "20b9f20af95f2e9b68aff1f5d7e189d0f5522ffef632ce63cadd55ed109f0c46",
+      "request_sha256": "3ded625faafc7bc936d4b38ecb8724a95ea69a171359e5ddd7b066424e1e5b00",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 508966000,
+        "load_duration": 776048,
+        "prompt_eval_count": 360,
+        "prompt_eval_duration": 170471000,
+        "total_duration": 754506214
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:40:53.311602+00:00",
+      "elapsed_seconds": 0.723,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-3",
+      "input_sha256": "6ed9fce61d8c402da268460107584c5d6cbb6d704721fd43a103f7c3ddb9074a",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "c508a516fe642970abbcf1992a6c627cf74bad41d42ea45cd058f83444da38b3",
+      "request_sha256": "a093ee762f19c6e8e5e5952903417ee85f8bdfd0ba2c8549e73aa7d18a577521",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 475196000,
+        "load_duration": 1112269,
+        "prompt_eval_count": 360,
+        "prompt_eval_duration": 172248000,
+        "total_duration": 721813386
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:41:30.763436+00:00",
+      "elapsed_seconds": 0.65,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "modality-1",
+      "input_sha256": "5d5a36e3d3da76fdda1259514baa924d143d781221b13ebadabae3957853cb5c",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "b75206b4b907f974889fa1a3bf2c1ec221aea929ff5a08f19162cd883122a9e1",
+      "request_sha256": "fa1e9e953047b6b08cd5bc31aebae65b29b092c873d6d3434e0c11841232e097",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 401389000,
+        "load_duration": 772478,
+        "prompt_eval_count": 342,
+        "prompt_eval_duration": 169592000,
+        "total_duration": 648167159
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:41:33.820467+00:00",
+      "elapsed_seconds": 0.704,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "modality-2",
+      "input_sha256": "19e05200d98211bc23a5f35796b09bfa74aa1ad168690c3e475d712e6346f6a7",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "bec9029f53f7fd21711d6b621e773ca1acd536d72dd8a4e35d991818fe9b9855",
+      "request_sha256": "8f4c8c76161cac7a93a6623d9d6b0fef49ecbd47fe1007d6b5f9824ce3c348a4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 457036000,
+        "load_duration": 772520,
+        "prompt_eval_count": 344,
+        "prompt_eval_duration": 168613000,
+        "total_duration": 702622328
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:41:36.824214+00:00",
+      "elapsed_seconds": 0.651,
+      "full_parsed_sha256": "a740e046d1ebf2026b2a1a094c6b59c68a09cdd5ffd7a90b51af2e1ba360dfe2",
+      "id": "modality-3",
+      "input_sha256": "d1ee052860e4ce1ff571b3452d96e10b1ab661dbce49f4a925bf39f1844c9b3b",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N2"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "2ec2bac08d077a09460b4a7ecbdbf45a4e33e8bed55d573b5fef540bbfea0ea4",
+      "request_sha256": "b37b9111fe810a3a1daaf2fffece6f32d9cf3c6362c984b06d848a5b578cd37d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 414533000,
+        "load_duration": 836352,
+        "prompt_eval_count": 336,
+        "prompt_eval_duration": 159884000,
+        "total_duration": 649251777
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:41:05.395932+00:00",
+      "elapsed_seconds": 0.689,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "other_program-1",
+      "input_sha256": "d2a600b05b9313be0d481d7a74c51b11df9f25712813c6908106616ae0cdf0bc",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "2acf3addc43a5f33d7a2997e66324bec063e762ad7863fc80d381070ce3225f5",
+      "request_sha256": "2713ea25ff74dd59a59a3bc96736adf2d09e14ecde194f4350056cef07ab8360",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 425146000,
+        "load_duration": 834966,
+        "prompt_eval_count": 338,
+        "prompt_eval_duration": 183653000,
+        "total_duration": 687752722
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:41:08.341014+00:00",
+      "elapsed_seconds": 0.74,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "other_program-2",
+      "input_sha256": "5748e7859a48bed4461bb1ec1be92ba8f16f90ffb80ca1301cbbfe4f6d56cc23",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "5fa32e5e7cb616f539fe0fa244a9f6284341c1926a53709af0b9ae00e3b7ff01",
+      "request_sha256": "06011c834cfe48abf8ddbd604fe6753294acd3455c30e0c826a6198d0590dfe6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 487557000,
+        "load_duration": 816773,
+        "prompt_eval_count": 338,
+        "prompt_eval_duration": 178599000,
+        "total_duration": 739047062
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:41:11.223215+00:00",
+      "elapsed_seconds": 0.684,
+      "full_parsed_sha256": "0a3ad1b72a1f462822a125481d23e57b84d2c7ecacd9b115685af4d67062d98b",
+      "id": "other_program-3",
+      "input_sha256": "a0df481d19957cd2f0adb1f396aba79906eaf35e985c7f1efc280782c0ba29fb",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "6e989ffb91c12c90dce35fa4640ac732a0884f2d6d56355c7e0c7f006aa6ecce",
+      "request_sha256": "7fba038270d7f7b70a8ef11e4d7789c692646f10fc25ded5dec32c1333a56459",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 427216000,
+        "load_duration": 932183,
+        "prompt_eval_count": 338,
+        "prompt_eval_duration": 178799000,
+        "total_duration": 682413737
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:41:14.073607+00:00",
+      "elapsed_seconds": 0.661,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "partial_evidence-1",
+      "input_sha256": "8167ea5b32fb73310c6bdc1a2fba17fc3bbdb21aacfafefdb83242ed81ca58ac",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "79631aca048f5c8c48ed1d933d21ee3ca62bad86c62c8826e98510d8f777a431",
+      "request_sha256": "f125c47db466babc37601da1e2718220a57536110fef018cd893400c6da29e07",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 424692000,
+        "load_duration": 774902,
+        "prompt_eval_count": 316,
+        "prompt_eval_duration": 163888000,
+        "total_duration": 659547708
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:41:16.749554+00:00",
+      "elapsed_seconds": 0.656,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "partial_evidence-2",
+      "input_sha256": "f4a947f8291fdcaa46ab5db0f3e9798cfff462fa92af213a145e4a6125dd2c11",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "70da365807298be88eb77a634646bcc529f1ec5a9d905cbbb079dba461ed6fca",
+      "request_sha256": "d4ff39ceae143cfd9793c2a330362b8da9d349e3b5b3cd0259b0e49a27e36b2f",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 424372000,
+        "load_duration": 720494,
+        "prompt_eval_count": 314,
+        "prompt_eval_duration": 156508000,
+        "total_duration": 654186902
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:41:19.445669+00:00",
+      "elapsed_seconds": 0.646,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "partial_evidence-3",
+      "input_sha256": "4a821d9771932226429ebd919ef6b5fba9153ec9aeb0d23e74920d41b6683578",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "962758fd2a68515c42add7b0d7477659d477a2989324251514bcaace9c875306",
+      "request_sha256": "0569178c8d5953405f77d5fdc19feb3220085f76fda289c73afc7170e3936bd4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 412613000,
+        "load_duration": 753711,
+        "prompt_eval_count": 314,
+        "prompt_eval_duration": 156768000,
+        "total_duration": 644594292
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:40:30.365550+00:00",
+      "elapsed_seconds": 0.64,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-1",
+      "input_sha256": "261fb7e2e865f1f5efe04a997eff652f74b06628194c1cdc7d7396547e90f70f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "4294a9f9f686586328d328557806e9881c9ba05c5aba7738bd090787ffdae2c8",
+      "request_sha256": "85d681796059361b5203767aeddde9b9c720cf00070df6a275707db90367db60",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 434025000,
+        "load_duration": 797064,
+        "prompt_eval_count": 289,
+        "prompt_eval_duration": 144512000,
+        "total_duration": 638453588
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:40:33.138903+00:00",
+      "elapsed_seconds": 0.666,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-2",
+      "input_sha256": "4e9393c40fafd8f6812372fbefc47973f7c441b0a6e16a70622e09e8fc4a9b90",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "7ce3f96d7529d0a1df63fea51b88a5932c8a775938dc92aa8c75cbb2f688fa52",
+      "request_sha256": "a5d5104106df2bb6d7a066591f8b04a3ef53b77268e5d29d412cdf05d4d3bb45",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 438876000,
+        "load_duration": 798610,
+        "prompt_eval_count": 290,
+        "prompt_eval_duration": 145183000,
+        "total_duration": 664788822
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:40:35.910844+00:00",
+      "elapsed_seconds": 0.659,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-3",
+      "input_sha256": "05ef5880e84e45171776e7c06167a292991ee3b3a8209293f0f862301168e2b0",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "53b3ff8fa1209e5d41de83d0d77b05278c7f7c971487e3a03107913f71729734",
+      "request_sha256": "e120a2f029ee491f38c6bae7b164ec86d1ba73e6b94b1eb4d0c4f4fbf94cc2ea",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 442009000,
+        "load_duration": 894439,
+        "prompt_eval_count": 290,
+        "prompt_eval_duration": 145282000,
+        "total_duration": 657570925
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:40:38.644197+00:00",
+      "elapsed_seconds": 0.652,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "wording-1",
+      "input_sha256": "24fadfbf363f567d374fd6b1b96e00b7d4c832d5ae79bc18d4b5d3f129aaf26b",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "199b5dc2638cff598f5dabf0151bff57f4dbb283aa66f63cf288e85a7d11a3e1",
+      "request_sha256": "7652f333f997b0c21f95a59873088ab858f648dc96047bc8e806018c3eddad31",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 419948000,
+        "load_duration": 933479,
+        "prompt_eval_count": 295,
+        "prompt_eval_duration": 155554000,
+        "total_duration": 649980694
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:40:41.414491+00:00",
+      "elapsed_seconds": 0.7,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "wording-2",
+      "input_sha256": "f17ae6e1c2208ac2e0de5ac2a8da4a9ed77a92599a29753d454f1c92c6e62788",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "abd556ecdfa1504481273cee13df831d849b17a50b2a9693b121b98d549d6955",
+      "request_sha256": "221c7fc62cb5ce7f19169536ebcef145dfe97b40c407381f15b246f3f6b09434",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 466070000,
+        "load_duration": 866522,
+        "prompt_eval_count": 296,
+        "prompt_eval_duration": 154147000,
+        "total_duration": 698508014
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:40:44.144696+00:00",
+      "elapsed_seconds": 0.691,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "wording-3",
+      "input_sha256": "9beef5eb31378a6f2a4221907e075a297bc70647e5e1c18457d610597c29cd15",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "a9b439ed66bc311924ad1da102b80e292e7dc644201f6c04e104c1325d5435a7",
+      "request_sha256": "9f041dfe1d72aaf7ddf72a09f3c44280c4224217a2695d99f3add5cc86b9aac7",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 457491000,
+        "load_duration": 887901,
+        "prompt_eval_count": 296,
+        "prompt_eval_duration": 154585000,
+        "total_duration": 689215419
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    }
+  },
+  "map": {
+    "added_exception": {
+      "created_utc": "2026-10-01T09:40:26.165973+00:00",
+      "elapsed_seconds": 2.005,
+      "full_parsed_sha256": "0aa2af61d938e5e7f9e65a35cf1612f735c852e5a367e2ed4eb6fc0f4c17e5dc",
+      "id": "added_exception",
+      "input_sha256": "8ef03aa7d08089f651910e357892fb7bc557f745dc3f6b7173537ec18e559159",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1",
+              "N2"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "32c272a41f369c52b3ceb64a247546eb14b4856635d778155b74a7c8055399d5",
+      "request_sha256": "cda7ae62ba69fa55339e21504002c76584d81927e247cc9416690a2e0bf8d877",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 108,
+        "eval_duration": 1754504000,
+        "load_duration": 818042,
+        "prompt_eval_count": 277,
+        "prompt_eval_duration": 185443000,
+        "total_duration": 2002730998
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "exception": {
+      "created_utc": "2026-10-01T09:40:20.350958+00:00",
+      "elapsed_seconds": 1.903,
+      "full_parsed_sha256": "148dc215a7654458f83b95620f38d6c3a9b8dd77f25c78756e73b9787f2b465e",
+      "id": "exception",
+      "input_sha256": "d9651df54ca69723ab1189d870bb615b1b3a7b9e527f589a0a11f9f4835c6347",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1",
+              "N2"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "217cd3bcde5fdac80be225a8ad9dad2414cd04fc30f5d47b05f66bb99bd16462",
+      "request_sha256": "5d330ef080b4bf6df555b54b1a51192e87914b43a072884eee72a8e40ad69253",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 102,
+        "eval_duration": 1669511000,
+        "load_duration": 1030339,
+        "prompt_eval_count": 277,
+        "prompt_eval_duration": 169414000,
+        "total_duration": 1900964918
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "grandfather": {
+      "created_utc": "2026-10-01T09:40:18.447699+00:00",
+      "elapsed_seconds": 3.261,
+      "full_parsed_sha256": "7397592066da88c601125a759e89065bd6eb4a026f1d11e290f4a39c42da6914",
+      "id": "grandfather",
+      "input_sha256": "6ad956b397931132c59370e433765bcd981880d5b1bfda434c9e8fdbe2726575",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1",
+              "N2"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          },
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "639d22c9809a7a016096d32a387d718e30dd50815911e9e877fc67ec7cc0848c",
+      "request_sha256": "9631f4d048f0476f40e828e60ade48c5697627e7a150d15091274679e5d814e6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 199,
+        "eval_duration": 3076690000,
+        "load_duration": 752554,
+        "prompt_eval_count": 294,
+        "prompt_eval_duration": 178322000,
+        "total_duration": 3259360328
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "modality": {
+      "created_utc": "2026-10-01T09:40:28.329060+00:00",
+      "elapsed_seconds": 2.163,
+      "full_parsed_sha256": "908b2f71d776d1d116b5b234ffa3f5c361e53136ac2bb2a3bb1482f7452d1430",
+      "id": "modality",
+      "input_sha256": "d2a61766e67aceece5651d9b163949e5e3768069731757299c78dac828787f04",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "4c0649f56572ea9cb95f3c92855e9604f81858f74cbedbd235bf8513e859e7f0",
+      "request_sha256": "b857608a07d644b63e419f76d0d78c9a2599b594244faae6182e0f69f3cdd9f0",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 117,
+        "eval_duration": 1905703000,
+        "load_duration": 921509,
+        "prompt_eval_count": 295,
+        "prompt_eval_duration": 187676000,
+        "total_duration": 2160528892
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "other_program": {
+      "created_utc": "2026-10-01T09:40:22.131321+00:00",
+      "elapsed_seconds": 1.78,
+      "full_parsed_sha256": "8e491964620ee8d16707a5a993be15dbd7519f4c8a7c3c2621c92c3240076c87",
+      "id": "other_program",
+      "input_sha256": "ed124b739efa620402d5695d2659285a2c01305b44f54e3fc7a20afb58c7353c",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [
+              "O2"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "a2bab5dff2f3d5ca96f2235913388418fb6e3e432dd065d149def8663f554180",
+      "request_sha256": "8453ece92dfe34d938d977ec957219eae00ce37e744cefd219d4b0cdf808dce2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 92,
+        "eval_duration": 1529007000,
+        "load_duration": 1043513,
+        "prompt_eval_count": 294,
+        "prompt_eval_duration": 183802000,
+        "total_duration": 1778030870
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "partial_evidence": {
+      "created_utc": "2026-10-01T09:40:24.160784+00:00",
+      "elapsed_seconds": 2.029,
+      "full_parsed_sha256": "ce05f39a05d42fa5666b77a92179963c15c68d502e5a184e2a1815f4adfe1ed1",
+      "id": "partial_evidence",
+      "input_sha256": "91ba98c6d9895afae98b0b40710d0b83325c014fd12fa615cdf52234bce4164a",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1",
+              "O2"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "f9c7e20146c93a7480a4b279c18fb619d1382ba96a1ffade8c08ef73288316d2",
+      "request_sha256": "c529811624ba145feb343a7be5b737255ac118220bc16d2d771c6f1a28a482da",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 107,
+        "eval_duration": 1800893000,
+        "load_duration": 1110626,
+        "prompt_eval_count": 270,
+        "prompt_eval_duration": 168018000,
+        "total_duration": 2027284108
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "threshold": {
+      "created_utc": "2026-10-01T09:40:13.687622+00:00",
+      "elapsed_seconds": 5.712,
+      "full_parsed_sha256": "6a3c716215b36e14d5b6d54f304cec0123e07519647935511f3104e8601bb504",
+      "id": "threshold",
+      "input_sha256": "7626f0d00f9233ec5cec27c3a54e77432bb69c31f98344f01bc1c0bd59b10b02",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "1084f46f8bd443b556f56d26f24b441998a3b047707b67d7bcd228bd3250e9bc",
+      "request_sha256": "79123021280eee1dd8659a54d25c1db613338a0cc457705f01ecfa54bd23993d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 68,
+        "eval_duration": 1218423000,
+        "load_duration": 4332259691,
+        "prompt_eval_count": 242,
+        "prompt_eval_duration": 155642000,
+        "total_duration": 5710380846
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "wording": {
+      "created_utc": "2026-10-01T09:40:15.186049+00:00",
+      "elapsed_seconds": 1.498,
+      "full_parsed_sha256": "cc32197a827f7c1c74ebda72472ba10c840a3770c728addee1c52b7dbdc2761b",
+      "id": "wording",
+      "input_sha256": "57e2043b42c5797f480c7e79b9ac7e9b9fb07be47e8bf7eba6010bc0410a7462",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "wording"
+          }
+        ]
+      },
+      "private_response_sha256": "8c40560c5e12bf2da7357110b90d93881d15de2fd0d8387d7ca905bb9f56b3a3",
+      "request_sha256": "0eeee6d5e5ed4858cc9a96f055890beab2e60c5e43e1754901fe3d291e2614e2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 75,
+        "eval_duration": 1341147000,
+        "load_duration": 743869,
+        "prompt_eval_count": 248,
+        "prompt_eval_duration": 151177000,
+        "total_duration": 1496628407
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    }
+  },
+  "map_gate": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:41:23.054371+00:00",
+      "elapsed_seconds": 0.842,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-1",
+      "input_sha256": "d378dc38f0fb79ed7f6ee307b458c1abc6971b4e79874c5b8d6127545a29eba3",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "7a63accd001f1b2e3f4fc7f6b4229d9a88e8a0bd06bddeefb3fcf0ab46535c48",
+      "request_sha256": "172e8d17849bf05e05968388fdb66a94a314c32bd6d23d346cecdada5154e691",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 503696000,
+        "load_duration": 799668,
+        "prompt_eval_count": 482,
+        "prompt_eval_duration": 214044000,
+        "total_duration": 840441246
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:41:25.969784+00:00",
+      "elapsed_seconds": 0.741,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-2",
+      "input_sha256": "5d14fa7e8e135204dac63bf04f2f36568772da4e45a97a4325ff197786e85f0e",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "35b36b6659cb2fabd117532190d80b224c2672f094c2da59e39dad86475bf2c7",
+      "request_sha256": "e764bbe1eed2c668819d822fd0273577b71bbe6ae9ee3c358af201088207affe",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 503286000,
+        "load_duration": 744155,
+        "prompt_eval_count": 477,
+        "prompt_eval_duration": 231343000,
+        "total_duration": 739321096
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:41:28.755213+00:00",
+      "elapsed_seconds": 0.64,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "added_exception-3",
+      "input_sha256": "69377bcea47a99746163381ebc689911d0e5503e060d9b374df994b7d7e4273d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "40b748200c3a2a08df0cd08da6b1eb71ee2af3cfeef2bae0614b348557717d92",
+      "request_sha256": "cc388cfa82a810f2f5d062f1f7a105afaf8cb7525b3e2694d565a7bbd0aa986a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 418854000,
+        "load_duration": 1051138,
+        "prompt_eval_count": 477,
+        "prompt_eval_duration": 213392000,
+        "total_duration": 637523260
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:40:57.197876+00:00",
+      "elapsed_seconds": 0.787,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-1",
+      "input_sha256": "ce6b28ef5121fa6e6ae6c6b3d791224e9634f3a6f3ac8236f1b5af73d100f9a7",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "736b8beb69b6d60b733b22a1051ff42aa085d7bcdd856056eeefc7f4210dd931",
+      "request_sha256": "5f74a1eb4981b4eb0c593771bfd6b55261273188eb529593deb3fcbcc8df1c40",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 503392000,
+        "load_duration": 922443,
+        "prompt_eval_count": 475,
+        "prompt_eval_duration": 216465000,
+        "total_duration": 785521256
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:41:00.162729+00:00",
+      "elapsed_seconds": 0.726,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-2",
+      "input_sha256": "7a8882c4fd1221cc6b91169ba7754a3eb8a25a8f88c14008853216ed04ab85a1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "1aa337500e655af97b4ebf0fabc93798966cc8fb7b30955de2acb15874e6b380",
+      "request_sha256": "9d39f4384d08ac956eac646101265ad81ea71c7353572280c5bd7bbbd659bcf5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 506443000,
+        "load_duration": 793663,
+        "prompt_eval_count": 471,
+        "prompt_eval_duration": 212934000,
+        "total_duration": 724143254
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:41:03.270652+00:00",
+      "elapsed_seconds": 0.836,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-3",
+      "input_sha256": "be8789ce6e845409e6c46c476529e0b7110c2e6f53ca0612b593acd1854f1b1f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "a740ad2dbf79cb9fa72ee53d4fd0b41e9a45e62c9ca36e584a180cd14c462da2",
+      "request_sha256": "2b35a187bd304b2b8b46ddedfb2e72bf55d61b42488845b41264811682eddf6d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 497063000,
+        "load_duration": 758906,
+        "prompt_eval_count": 474,
+        "prompt_eval_duration": 213153000,
+        "total_duration": 834766017
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:40:47.877146+00:00",
+      "elapsed_seconds": 0.813,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-1",
+      "input_sha256": "7676037c9410ec290ffe32cbf6a209aa517f99ec629cad0eb817f46b54bcbbd3",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "df50146f093ea9f9fe567428115504a407bb8c99ad0ac9a989b403f8ef410421",
+      "request_sha256": "9fa1dbd50f417007818f42d2f0e54c09ac6cff6c9d714a097e8a1d61898e66de",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 479449000,
+        "load_duration": 804983,
+        "prompt_eval_count": 582,
+        "prompt_eval_duration": 265481000,
+        "total_duration": 811056027
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:40:51.040135+00:00",
+      "elapsed_seconds": 0.837,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-2",
+      "input_sha256": "e8714a659b4ba833878c1ca0d806b4df7647fbeabc6569faaa487215aae60fa7",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "d6b7c348b6681cfc9b0e84b4d46efd5c1ed581906af357a227ccbc4c9df85eef",
+      "request_sha256": "843515bcf97c635d5583d68c9cd75a268f1d93b0ba0ccc16523e0f6f633c5df5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 495201000,
+        "load_duration": 1091666,
+        "prompt_eval_count": 584,
+        "prompt_eval_duration": 262577000,
+        "total_duration": 835950031
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:40:54.144389+00:00",
+      "elapsed_seconds": 0.832,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-3",
+      "input_sha256": "818de779d4729b044ddc9cb08a72aba95263d1dcd65b68eb3e6bd3a50fc45956",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "320840f55df53595c75d77c2b5f3c5e81e8cf5144d362399b3a79f0c1f516233",
+      "request_sha256": "2005a33a92a53eb9f00ee062047833114ef0f4e443be1fc794c3ea819ac90c7a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 492208000,
+        "load_duration": 813728,
+        "prompt_eval_count": 584,
+        "prompt_eval_duration": 255842000,
+        "total_duration": 830743875
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:41:31.633276+00:00",
+      "elapsed_seconds": 0.87,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "modality-1",
+      "input_sha256": "9e8447f0636d5aae956beb047e451bf826f920d7ae5dca8ae7a4ac0173d0d44f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "129428518e3d9a7dd13d474d0b9493b2f61e9ef0bfa416938d02ce62789b8c2a",
+      "request_sha256": "c62138981fb6ed5771aa8e93fa00f85de5962a1e19918e0f68212dc2867135e5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 559169000,
+        "load_duration": 945212,
+        "prompt_eval_count": 501,
+        "prompt_eval_duration": 233715000,
+        "total_duration": 868111373
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:41:34.718867+00:00",
+      "elapsed_seconds": 0.898,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "modality-2",
+      "input_sha256": "c4494a813414d3e967afc53b0dcd47a348c2a6a1023097075a7c6e0f474fe885",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "bf07de03d8db34eaa800aa6b4acf3243f533bf50f4a8b631eca855b83ab13371",
+      "request_sha256": "d691a1fc8a331d60c67096dbbc9beaa78c0533d09f977b0d45f1e420449e5e6b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 582767000,
+        "load_duration": 1040965,
+        "prompt_eval_count": 503,
+        "prompt_eval_duration": 232237000,
+        "total_duration": 896748168
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:41:37.542712+00:00",
+      "elapsed_seconds": 0.718,
+      "full_parsed_sha256": "0a3ad1b72a1f462822a125481d23e57b84d2c7ecacd9b115685af4d67062d98b",
+      "id": "modality-3",
+      "input_sha256": "ac56340595186b441fcfdd51f9898cedb724a4db2dd855b0abf5af0166647d3a",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "08f8187809e9fbde800c5de74a8346468bfdce249da765e62aefc4133cb11a40",
+      "request_sha256": "bf218bf08211eefc072912d2dd64fcc658ce0ae44d83f563631e81082f7d8c7f",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 397907000,
+        "load_duration": 860035,
+        "prompt_eval_count": 495,
+        "prompt_eval_duration": 236646000,
+        "total_duration": 716147385
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:41:06.159765+00:00",
+      "elapsed_seconds": 0.763,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "other_program-1",
+      "input_sha256": "67a57cc622dc43cb0e467a73fb068c6bda631541671059874e970bc36ad740b1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "abffe975fb1ae6496107f79c3e1a6223d10cbfe1c38d666123f5735b4b58d908",
+      "request_sha256": "21cbd8ab815207fdcdbe3cec89b29ca5be5878366c6ea1069a41c3b64a81afb1",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 425224000,
+        "load_duration": 744449,
+        "prompt_eval_count": 472,
+        "prompt_eval_duration": 213285000,
+        "total_duration": 762092830
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:41:09.102630+00:00",
+      "elapsed_seconds": 0.761,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "other_program-2",
+      "input_sha256": "61eaa90781f9b64b75f3e25e9951926f20490147a3f04e1c453f2b1cdfefe5aa",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "b8189ba34f53ff675ee10b1eaa861bc256c9f465b37c313a39c8cb9e79a062f3",
+      "request_sha256": "823f3cdb6c7f57a91a1ff06896f415454404ae93bf70db41f518dee718cc8486",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 424143000,
+        "load_duration": 862544,
+        "prompt_eval_count": 472,
+        "prompt_eval_duration": 212516000,
+        "total_duration": 759691163
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:41:11.992141+00:00",
+      "elapsed_seconds": 0.769,
+      "full_parsed_sha256": "0a3ad1b72a1f462822a125481d23e57b84d2c7ecacd9b115685af4d67062d98b",
+      "id": "other_program-3",
+      "input_sha256": "5252edef1d9b9f3e46ce12e0f97dbfb8a9500893d5abef36eea827448e4b5d00",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "fb7bf42cf7e07ce1c718d5e16770c5841f8f410ae27d48c57e9f4fd80124bad1",
+      "request_sha256": "a4ecf002a43b2ebccaaec4ddf7589ce3d2ad872703d956ce8ba938c8aa1608b6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 433133000,
+        "load_duration": 1013169,
+        "prompt_eval_count": 472,
+        "prompt_eval_duration": 211622000,
+        "total_duration": 767128168
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:41:14.690213+00:00",
+      "elapsed_seconds": 0.616,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "partial_evidence-1",
+      "input_sha256": "36c00d028074dedb09e7b60fdb6bb2cbdc1cff635ca2f79c6e272a91ed1bc793",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "92cd0e492015c4ac70cac426cc773c740a910bfcc8aa6b4e3c99886f38b62de3",
+      "request_sha256": "2af8b1d8bdc530e113c09dd1d4276ecaeed249ed8c1b1f83ce930fb1c6f584a3",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 398367000,
+        "load_duration": 1070540,
+        "prompt_eval_count": 450,
+        "prompt_eval_duration": 210404000,
+        "total_duration": 614512225
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:41:17.373610+00:00",
+      "elapsed_seconds": 0.624,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "partial_evidence-2",
+      "input_sha256": "9d9b01b81536120d4f8618a27ec23fcd97e7d01e1cbdbfffc0855971e786386f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f261b50f3c8f919d42085101b4c7cd54f026f9dd74908de03016bd743fd14a21",
+      "request_sha256": "1a79e0da8a143c01d388203fa4e5da18a7dbe190cd04c30122278b5755f1697c",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 417186000,
+        "load_duration": 775832,
+        "prompt_eval_count": 448,
+        "prompt_eval_duration": 200724000,
+        "total_duration": 622344894
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:41:20.054899+00:00",
+      "elapsed_seconds": 0.609,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "partial_evidence-3",
+      "input_sha256": "c98540e709d5590a23dcaf758306888b6c91ee4473e475fec84a7dc3f908da13",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "845137d1278d34d0193692202b33d90754eae409f17b3b27dcd2ff0c5dd53bfa",
+      "request_sha256": "ca9008926de8267f401c09b5b2a69d38be935de213b272a04cdad792693de72c",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 402011000,
+        "load_duration": 1297242,
+        "prompt_eval_count": 448,
+        "prompt_eval_duration": 200036000,
+        "total_duration": 607614059
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:40:31.025656+00:00",
+      "elapsed_seconds": 0.66,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-1",
+      "input_sha256": "3b28d8e41b563f77df87cb23d1f35023e8fa5ac651f2348dc5dd8f4783701d84",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "14c6091cb189442c2a9072fa795e36154839d00209e4e13ae411622547f5e2ca",
+      "request_sha256": "539d46d5c6512c0441ba92358a8f4087658c2acb99bc912e150dcdfbbdd0a083",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 456072000,
+        "load_duration": 760583,
+        "prompt_eval_count": 422,
+        "prompt_eval_duration": 196607000,
+        "total_duration": 658403263
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:40:33.794147+00:00",
+      "elapsed_seconds": 0.655,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-2",
+      "input_sha256": "73b227cb0233e30fd231e29f20d91117f49328b8e33e4c36ba9402ba0f951e0f",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "d2dbf124eaca8c2caa8709344ae40302e6ab2ff8e292f67e5f68f7bef1da3518",
+      "request_sha256": "fc0016da77185d4347cd417e9718fdae782cd2f4de0b3d9881a0f31cafbaea05",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 451379000,
+        "load_duration": 977174,
+        "prompt_eval_count": 423,
+        "prompt_eval_duration": 196790000,
+        "total_duration": 653498729
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:40:36.563738+00:00",
+      "elapsed_seconds": 0.653,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-3",
+      "input_sha256": "b6327ee1fad41583be58f0119739ffa2d5aaa71bcc99bedd1a032f41027bcdd3",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "b461dcd58f2fd1d2118136880791b7d2059402f0604b5c28518381565f3df50e",
+      "request_sha256": "2da9e8786dbb66324465d547eb3a4641a018fdd41cd557dc914c6f111bb1aac5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 450242000,
+        "load_duration": 882792,
+        "prompt_eval_count": 423,
+        "prompt_eval_duration": 196282000,
+        "total_duration": 650992789
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:40:39.272549+00:00",
+      "elapsed_seconds": 0.628,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "wording-1",
+      "input_sha256": "31ee8107017572295252429366e15389b8bb8a833f11bccaa5abf31cfa04542c",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "d8fbb7791b0219da0b367d77bf84cbb81bba95dbbdabdb02d4c9cb6c32439d32",
+      "request_sha256": "02110df453fe3c064a6282ef4e67637a0226a0c4bd18fe1a06670736e3ff44e8",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 425006000,
+        "load_duration": 978295,
+        "prompt_eval_count": 434,
+        "prompt_eval_duration": 196324000,
+        "total_duration": 626597637
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:40:42.040754+00:00",
+      "elapsed_seconds": 0.626,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "wording-2",
+      "input_sha256": "c068b6347995b84adb7a15c07847fde2ab3a469779a33ea0dcd1da5db1d42ddf",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "8381fdfb5c6860e5c51b049c9f146bc66da1d06d6e28b9acb5ef1baf25be3141",
+      "request_sha256": "7d84597da59252166722806c55f7135d3109cb631231b9f910cf36029e460866",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 420823000,
+        "load_duration": 814735,
+        "prompt_eval_count": 435,
+        "prompt_eval_duration": 197916000,
+        "total_duration": 624214699
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:40:44.803773+00:00",
+      "elapsed_seconds": 0.659,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "wording-3",
+      "input_sha256": "0c2aa7c131190d4f6575d86cd4a7e2887ebe76b036c9683ab79a2782f6776dc0",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "4da2e1e377c0b8d58fd3b700bf2efacae13b1127f7e63bf3f5cdfd05d22a6018",
+      "request_sha256": "25d1109340037f7bcbee6c8299f111230eea658557fd1c17bf261a53331859ae",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 452679000,
+        "load_duration": 833162,
+        "prompt_eval_count": 435,
+        "prompt_eval_duration": 198962000,
+        "total_duration": 656924612
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    }
+  }
+}

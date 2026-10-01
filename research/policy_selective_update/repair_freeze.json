@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-01T10:02:17.247154+00:00",
+  "status": "Exploratory retrieval repair, proposed after observing source-span coverage on these 32 claims. No claim of independent new-source validation. Primary inference is ongoing; source-result content has not been inspected.",
+  "methods": {
+    "top5": "Same version-local character TF-IDF but five ranked chunks.",
+    "neighbor5": "Preserve top3; add preceding then following within-page chunks, by seed rank, until five unique chunks. No unrelated padding."
+  },
+  "budget": "At most 5 x 500 characters per version; same maximum for both methods, not guaranteed equal tokens. Actual selection can be shorter.",
+  "comparison": "Fresh after-stage predictions only, no recomputed old caches or routing. Compare to saved top3 fresh answers, not to an optimal-oracle cache.",
+  "interpretation": "Before/after support coverage for top5 =19/23, neighbor5=16/15, versus top3=16/15. Neighbor variant retained despite no measured coverage gain; no parameter tuning after this inspection.",
+  "artifacts": {
+    "expand_retrieval.py": "4a27a2b24a2d04e6f7fc0a057c33417d63c7de0053aa87ab2dd1f3ed113c60a5",
+    "repair_infer.py": "b057d5f3f20211724d44d2b4e85206655ee187fa3957b5e9d2d72410f399418d",
+    "test_expansion.py": "543880dee4b83861f53bb8bb40d0110bae197ca5c2ad0ee0f0ef2a404e995fe7",
+    "top5_reference.json": "b9a83c6f28118c4623be60f7659401686ad5a7d0842f793485d7a8c99d8bb2db",
+    "neighbor5_reference.json": "35d7ea4c2234577d29b94d3f67457b1ee5c3ce5a9af24e25c9699054d2d2e000"
+  },
+  "private_input_sha256": {
+    "top5": "d4d0ad1d39bf8dd4cd3dc04fceafdea42e95025d9056592e19aade5a17b7e205",
+    "neighbor5": "7dbf3835003e5b4524c3b4f86c18392e4146bf3014173965001df130bc94a466"
+  }
+}

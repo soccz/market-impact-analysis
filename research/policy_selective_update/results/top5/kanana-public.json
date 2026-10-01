@@ -1,0 +1,1185 @@
+{
+  "chungnam-boryeong": {
+    "created_utc": "2026-10-01T10:18:49.489122+00:00",
+    "elapsed_seconds": 0.887,
+    "full_parsed_sha256": "b088ee6d0e7257291343623501821747ddf995d5e4bd91eb67b9b0dd169e507c",
+    "id": "chungnam-boryeong",
+    "input_sha256": "2e8b84fbabbc2c33d471b426f94d5580e8789d631dfa4fe16f77d22ff19d07b2",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "4bb21cfc0e1bb1c07bfec33b316df35987b573c9846b0261828ab0eca5cdccc6",
+    "request_sha256": "d230ff3f1180f71c5169a4ac3a3f5e3ea0b420341ecd0349550f36a956b14e4b",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 53,
+      "eval_duration": 818642000,
+      "load_duration": 1178244,
+      "prompt_eval_count": 3871,
+      "prompt_eval_duration": 28358000,
+      "total_duration": 885685761
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-cap-30": {
+    "created_utc": "2026-10-01T10:18:56.790368+00:00",
+    "elapsed_seconds": 1.917,
+    "full_parsed_sha256": "f21a7853daf411bdeecf2ea4391f4ade4b8faa336645fa3d27f153e5e1e38515",
+    "id": "chungnam-cap-30",
+    "input_sha256": "84980f830e8a7d9d4b14c09a0d33d8e6593a7b5feaee440edb0a982ebfc9ac28",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP03C00400",
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "fb562376fc11c0402915a867c2bdc52d7b7bba82b8572e3a3274a8f66764dfad",
+    "request_sha256": "3cb27eebfe827843906f24a45a06f9d90931ba2e2f108f00a2406b6befdf0b1f",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 909882000,
+      "load_duration": 1052601,
+      "prompt_eval_count": 3350,
+      "prompt_eval_duration": 763396000,
+      "total_duration": 1915167880
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-cap-60": {
+    "created_utc": "2026-10-01T10:18:57.754520+00:00",
+    "elapsed_seconds": 0.964,
+    "full_parsed_sha256": "f21a7853daf411bdeecf2ea4391f4ade4b8faa336645fa3d27f153e5e1e38515",
+    "id": "chungnam-cap-60",
+    "input_sha256": "3dcb9151109b98b0ecf92356c4c0ab5f2598d308e9f12c540ca514829aec0b8a",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP03C00400",
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "89d6addd27d46daf16a551d7e77732b5aa2a821b2c3b484f75445c4f6da48ab3",
+    "request_sha256": "16b71ce1bb4b30cf01248bf88d6c8f5e526971555b7f7d1660f5de6780aabf98",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 893649000,
+      "load_duration": 1767483,
+      "prompt_eval_count": 3350,
+      "prompt_eval_duration": 22097000,
+      "total_duration": 962295217
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-dangjin": {
+    "created_utc": "2026-10-01T10:18:48.601576+00:00",
+    "elapsed_seconds": 10.01,
+    "full_parsed_sha256": "267b92550be0092774082dfa96577661447b8f71adaf1776688efa58caa7c2a2",
+    "id": "chungnam-dangjin",
+    "input_sha256": "3bb6b3bd1d742c5d8507ac9fe6e7dc08204e79c9dac715f3c7cc76e20d33eead",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP03C00400",
+        "NP04C00000",
+        "OP01C00000",
+        "OP02C00000",
+        "OP03C00000",
+        "OP03C00400",
+        "OP04C00000"
+      ]
+    },
+    "private_response_sha256": "a2478c241ae637d79c154b764a0ce8fd98c9ed1013b6619a0b0dcfe9c3e36732",
+    "request_sha256": "ae0803d2305773067c9c50e07ec890af7a6becb0d9d7f886a97203b9c7b3cfb6",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 101,
+      "eval_duration": 1497171000,
+      "load_duration": 7194644572,
+      "prompt_eval_count": 3871,
+      "prompt_eval_duration": 1273739000,
+      "total_duration": 10009043071
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-deadline-10": {
+    "created_utc": "2026-10-01T10:18:53.914995+00:00",
+    "elapsed_seconds": 2.018,
+    "full_parsed_sha256": "a71a55ebcbead232692ec5dfcbe9aaef2bb0af8ddf65a10716a1782794631a95",
+    "id": "chungnam-deadline-10",
+    "input_sha256": "f641c29f40137b745f9674ee373a7246072af1bf40c1d3b4faea8262e63993f3",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP03C00000",
+        "NP03C00400",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "f41da8a8355522b1f5132cfe486dc71e06889ac39d2664e1751cf7013c6242c0",
+    "request_sha256": "3e13818c2ed4c5e7d2782231fe2cb91a958107e66f7d69aaaa7d209bb1522b30",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 894827000,
+      "load_duration": 1164496,
+      "prompt_eval_count": 3147,
+      "prompt_eval_duration": 819169000,
+      "total_duration": 2015148882
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-deadline-18": {
+    "created_utc": "2026-10-01T10:18:54.872601+00:00",
+    "elapsed_seconds": 0.957,
+    "full_parsed_sha256": "a71a55ebcbead232692ec5dfcbe9aaef2bb0af8ddf65a10716a1782794631a95",
+    "id": "chungnam-deadline-18",
+    "input_sha256": "7e88b05d01446574c683379d86bed6d0c65954792e7e43300ba9cd6509fe6e4e",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP03C00000",
+        "NP03C00400",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "11d409b47b1a190bb0f7a200ae8b90ea8579c2ff466500c2b9a40b13d70cb0a0",
+    "request_sha256": "8b3a592b7b3c99ea45b8e84952c95147cdaeb67c8c105481ddc4f3b7899b0180",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 892615000,
+      "load_duration": 1682608,
+      "prompt_eval_count": 3147,
+      "prompt_eval_duration": 23059000,
+      "total_duration": 955183830
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-same": {
+    "created_utc": "2026-10-01T10:19:03.549701+00:00",
+    "elapsed_seconds": 2.027,
+    "full_parsed_sha256": "3f52703ecec12401c06a6e745f0b1af2b04291a5809ec67a6c83bd96d121d844",
+    "id": "chungnam-duplicate-same",
+    "input_sha256": "2451a2001589552377bbfbb52f80b1d7c1ca6865c0e16be26c8a0cda72521083",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP03C00000",
+        "NP04C00000",
+        "NP02C00000",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "f32cad4aabea082fce859679cf357286c7daeb42b02e1f44d9115c7d37633877",
+    "request_sha256": "c139ee23a2f246c6f9b66df089aadba0f8722005488f1605182cec21b8771d42",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 847793000,
+      "load_duration": 1449202,
+      "prompt_eval_count": 3633,
+      "prompt_eval_duration": 862667000,
+      "total_duration": 2025332213
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-separated": {
+    "created_utc": "2026-10-01T10:19:05.468803+00:00",
+    "elapsed_seconds": 1.919,
+    "full_parsed_sha256": "b96e2a6a928feaf4618d90d32efb29ac3e44ab7d91d67cab6279a72bf40d0b05",
+    "id": "chungnam-duplicate-separated",
+    "input_sha256": "e54dedf9459f02d62f516f61481a996a09fa0f0163f5153ef25472fc1137b6ce",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP04C00000",
+        "NP04C00400"
+      ]
+    },
+    "private_response_sha256": "8d076af0782e7237dfee6025621364d2a058ae34d178d419bd700ed3178728fa",
+    "request_sha256": "1cd77945a4ed1c2321dd6a1cde95f13c038a6540b4e82683dd8d6146a35ed163",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 929731000,
+      "load_duration": 1878787,
+      "prompt_eval_count": 3599,
+      "prompt_eval_duration": 636637000,
+      "total_duration": 1916967242
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-unknown": {
+    "created_utc": "2026-10-01T10:19:07.300531+00:00",
+    "elapsed_seconds": 1.831,
+    "full_parsed_sha256": "2825bcff9b0382348fb6f515b91478ba3b1c5915cf863c3da898378685b45a27",
+    "id": "chungnam-duplicate-unknown",
+    "input_sha256": "61aaee817e2c036c2786d211704fb5d36eeef10c0a2d879a806323faa6738818",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP04C00000",
+        "NP04C00400"
+      ]
+    },
+    "private_response_sha256": "72a1f89177711138d006d6fad4f66906f6521cdd5531fe80f7ecfab3cb312f94",
+    "request_sha256": "f8de5e9a27d157c1ec8117a6cc6f1c87687b96ece46a41169c72f6b0fe0b5330",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 845207000,
+      "load_duration": 1475125,
+      "prompt_eval_count": 3476,
+      "prompt_eval_duration": 707649000,
+      "total_duration": 1829756306
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-employer-full": {
+    "created_utc": "2026-10-01T10:19:08.503657+00:00",
+    "elapsed_seconds": 1.203,
+    "full_parsed_sha256": "3f52703ecec12401c06a6e745f0b1af2b04291a5809ec67a6c83bd96d121d844",
+    "id": "chungnam-employer-full",
+    "input_sha256": "88e0587a55d772a76f6b2ca546bb65c97e7643cfe7e6088e06d0e822cbc09c99",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP03C00000",
+        "NP04C00000",
+        "NP02C00000",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "35ffdb0af21dc2833f8993b22d9f50e33843737b2ab84aa73bc629b14282d947",
+    "request_sha256": "c04d89b07e1ad525ecd9b746f754f9054af0b3624c91fb159f409afc0cc9ce3f",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 848522000,
+      "load_duration": 1580831,
+      "prompt_eval_count": 3619,
+      "prompt_eval_duration": 24918000,
+      "total_duration": 1201120598
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-employer-own": {
+    "created_utc": "2026-10-01T10:19:10.440333+00:00",
+    "elapsed_seconds": 1.936,
+    "full_parsed_sha256": "509f360a71dd983f2a9bc463fcda61ad8f209facec84d5972929ff9d29d4490b",
+    "id": "chungnam-employer-own",
+    "input_sha256": "ba6ac64c030e3ab697e0671e899ef2508b52cba83d9ae420e429970ac6ee8615",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP03C00000",
+        "NP04C00000",
+        "NP02C00000",
+        "NP03C00400"
+      ]
+    },
+    "private_response_sha256": "0399b35c56c96ffded7832f5f4b52b5af600226c9780729b0d2a8317139223c3",
+    "request_sha256": "8fbcc0a242db0165415d9f8638eaf08f33f95b468a1f8ccb734f417bbe053d7f",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 915333000,
+      "load_duration": 1070747,
+      "prompt_eval_count": 3872,
+      "prompt_eval_duration": 737782000,
+      "total_duration": 1934703166
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-exam-failed": {
+    "created_utc": "2026-10-01T10:18:59.857244+00:00",
+    "elapsed_seconds": 2.102,
+    "full_parsed_sha256": "852433cad73b8650bf27150dba49e3546e915d031dd77ca63194ef9ed3c5d581",
+    "id": "chungnam-exam-failed",
+    "input_sha256": "5a11614f926374a366d0b29db26b70eab0dfd5f30554bb420ce1346ebaee481a",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP05C00000",
+        "NP03C00000",
+        "NP02C00000",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "fa128a8b12906f19f949e1b428448c62171e586e8a19a403b59d1f1e682a06f8",
+    "request_sha256": "021c796649c30ad2b018dd06fbe5873e9fd59c618dea0ab5334546d4862a9de4",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 853771000,
+      "load_duration": 1596042,
+      "prompt_eval_count": 3661,
+      "prompt_eval_duration": 988716000,
+      "total_duration": 2101037662
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-exam-third": {
+    "created_utc": "2026-10-01T10:19:01.522197+00:00",
+    "elapsed_seconds": 1.665,
+    "full_parsed_sha256": "b3a4d3207a2e607d3a1dbf7f9a9f3ab1da52fb83ae4a390bc1a6ed9e8ad0bc99",
+    "id": "chungnam-exam-third",
+    "input_sha256": "56685f7f22c525e5c13724b30654f5ca7d5e529ac08bc42889f1058b28ba118f",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP04C00000",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "4b874cd8e69bfcad9391058517e137cbbe460c61841181fe1da88233d958d94a",
+    "request_sha256": "229cd0cae7ede2a97d1a79e4258c11a438791d5e771a226f5226ae8a87ac82d8",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 36,
+      "eval_duration": 563073000,
+      "load_duration": 1060993,
+      "prompt_eval_count": 3626,
+      "prompt_eval_duration": 753689000,
+      "total_duration": 1663148230
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-seosan": {
+    "created_utc": "2026-10-01T10:18:51.896967+00:00",
+    "elapsed_seconds": 0.875,
+    "full_parsed_sha256": "b088ee6d0e7257291343623501821747ddf995d5e4bd91eb67b9b0dd169e507c",
+    "id": "chungnam-seosan",
+    "input_sha256": "918062e38eda4d9c1be9175a84e3897a31f179099211abf32604a3455f829181",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "4e862710011c1fe11822126afaae778c8c3b4e5b6dd725a27267024773859a71",
+    "request_sha256": "d2edbe2517b1133376c601d0692fcbfdca142fb330caa83753ab7db645fd432d",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 53,
+      "eval_duration": 796587000,
+      "load_duration": 2001907,
+      "prompt_eval_count": 3871,
+      "prompt_eval_duration": 29241000,
+      "total_duration": 873204734
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-taean": {
+    "created_utc": "2026-10-01T10:18:51.022020+00:00",
+    "elapsed_seconds": 1.532,
+    "full_parsed_sha256": "267b92550be0092774082dfa96577661447b8f71adaf1776688efa58caa7c2a2",
+    "id": "chungnam-taean",
+    "input_sha256": "41ad20c22996eb1721b5111a8f90f101685d584a491bd6b746efacf2b0877991",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP03C00400",
+        "NP04C00000",
+        "OP01C00000",
+        "OP02C00000",
+        "OP03C00000",
+        "OP03C00400",
+        "OP04C00000"
+      ]
+    },
+    "private_response_sha256": "3d5ca29c9fa58ce2698901c659c6f3248d39e86c105954e5def0cbedbdf1c8e3",
+    "request_sha256": "f7bccf191a91841a7b9c16d2b281e59390f88f9b276e42b9e011d1f4198d3226",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 101,
+      "eval_duration": 1462390000,
+      "load_duration": 1105433,
+      "prompt_eval_count": 3871,
+      "prompt_eval_duration": 27969000,
+      "total_duration": 1530854196
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-training-card": {
+    "created_utc": "2026-10-01T10:19:12.501728+00:00",
+    "elapsed_seconds": 2.061,
+    "full_parsed_sha256": "a09091f577750f531f19102c3032f5281a4f7151bb16fedf955c64eb499342ef",
+    "id": "chungnam-training-card",
+    "input_sha256": "a0b3a1d9974a4be4b66d428d2ad55a67db4d56c54d2156e74458261f25b6ff71",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000",
+        "NP05C00000",
+        "NP03C00400"
+      ]
+    },
+    "private_response_sha256": "fbe9530d69bb9f9c241f3eeac597c2f693603a34a304393e173ca51415656312",
+    "request_sha256": "37c5e73c665008223dc4696819dc8fe94bd1cc65591c19704a5f86d7378ec57a",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 855271000,
+      "load_duration": 2084482,
+      "prompt_eval_count": 3854,
+      "prompt_eval_duration": 815082000,
+      "total_duration": 2059352358
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-new-30": {
+    "created_utc": "2026-10-01T10:19:15.593959+00:00",
+    "elapsed_seconds": 0.971,
+    "full_parsed_sha256": "d207d7f601b31768539821418edd0116195246b43f4b854f8a022f004dd3caa4",
+    "id": "seoul-cap-new-30",
+    "input_sha256": "4f6a30c8f775d25019b5d31ad4166747efa05958d16e5a5570bd412a7fa04d4f",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP11C00000",
+        "NP09C00400",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "13767098e0b5704bbe302d08aaca3ab1e1f0da6f50ca9846b3c58da318627d60",
+    "request_sha256": "97307aff6af4a89b83e321be2561b13b3bd0109317e937c7ebc8988c071f9a07",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 906673000,
+      "load_duration": 2004131,
+      "prompt_eval_count": 3200,
+      "prompt_eval_duration": 21709000,
+      "total_duration": 969418974
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-new-40": {
+    "created_utc": "2026-10-01T10:19:14.622702+00:00",
+    "elapsed_seconds": 2.12,
+    "full_parsed_sha256": "d207d7f601b31768539821418edd0116195246b43f4b854f8a022f004dd3caa4",
+    "id": "seoul-cap-new-40",
+    "input_sha256": "8fdcec24654e62e2a2b7e2a4bfb3f0cb93c59d6e291fe76db2ebc419727b69fb",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP11C00000",
+        "NP09C00400",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "21c08bee9807e2f57c8c26b9f88fff96a4e094f4367a7e7bdfbd1bd543e6acb6",
+    "request_sha256": "045ae02b7da17ced98ee502b369f8c19dac04830c4d231275f581a0f0bc0d16d",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 905198000,
+      "load_duration": 1735690,
+      "prompt_eval_count": 3200,
+      "prompt_eval_duration": 927728000,
+      "total_duration": 2118615719
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-old-30": {
+    "created_utc": "2026-10-01T10:19:17.525053+00:00",
+    "elapsed_seconds": 0.968,
+    "full_parsed_sha256": "d207d7f601b31768539821418edd0116195246b43f4b854f8a022f004dd3caa4",
+    "id": "seoul-cap-old-30",
+    "input_sha256": "73bdb0223aa5ec479ab4286c8399497c5efd19c9272f1270e68be227e302ee1f",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP11C00000",
+        "NP09C00400",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "5d4a9882286eab45c51c2eac67c67ca263581ec147fa986cffef1f302f5da6d5",
+    "request_sha256": "97c2fbf03aba3ecc3276696036723badcf90f0dc0ad0764c003a64fe9dee5b22",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 899723000,
+      "load_duration": 1027914,
+      "prompt_eval_count": 3200,
+      "prompt_eval_duration": 20978000,
+      "total_duration": 966342448
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-old-40": {
+    "created_utc": "2026-10-01T10:19:16.556753+00:00",
+    "elapsed_seconds": 0.962,
+    "full_parsed_sha256": "d207d7f601b31768539821418edd0116195246b43f4b854f8a022f004dd3caa4",
+    "id": "seoul-cap-old-40",
+    "input_sha256": "00aa9f90945874c4fffb93d3aa11f1e2ef9aa416b280a160cbe5d83e94b66b0b",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP11C00000",
+        "NP09C00400",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "a42e3ea5c11038bea5bafe41591561faad1d47fa985a0e8854481c35e64b34e9",
+    "request_sha256": "2bb4275161d2deb2be6478a7965c1c77dd1c597531cb8ab2a04fc660570d0900",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 896818000,
+      "load_duration": 1006782,
+      "prompt_eval_count": 3200,
+      "prompt_eval_duration": 25636000,
+      "total_duration": 961057975
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-unknown-30": {
+    "created_utc": "2026-10-01T10:19:20.434946+00:00",
+    "elapsed_seconds": 0.97,
+    "full_parsed_sha256": "ec9b09b279833943c6c573c97f6391253b1cde4eed4943f93e8565622ce9aad7",
+    "id": "seoul-cap-unknown-30",
+    "input_sha256": "98d8c5c1b1e354c3fb75aca0e802f53ad0e48bc79a614e115a193bae4a68f9c9",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP09C00400",
+        "NP11C00000",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "15fcd4cd11cfcae952b5fe3292a790becc727adddc17f0ba3d2fe00b8707da09",
+    "request_sha256": "26d4eb1a3a630335b9f31dce013f8d23ac3649b9e1e6c0433052c5b16337132a",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 900761000,
+      "load_duration": 1738848,
+      "prompt_eval_count": 3193,
+      "prompt_eval_duration": 21124000,
+      "total_duration": 967974537
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-unknown-40": {
+    "created_utc": "2026-10-01T10:19:19.465047+00:00",
+    "elapsed_seconds": 1.94,
+    "full_parsed_sha256": "ec9b09b279833943c6c573c97f6391253b1cde4eed4943f93e8565622ce9aad7",
+    "id": "seoul-cap-unknown-40",
+    "input_sha256": "4001e871359cb9bc7c6c75da5d28f35c025b2a0f31dfaeaa68aa821cbc9db5b1",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP09C00400",
+        "NP11C00000",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "0aa5e4e025a8d49febe9f149b894863755b9ac9224e2f1e33b1f00355635c314",
+    "request_sha256": "6dbe277e7886a570b598b3396ce2bba7efcfddec089dc92d1a1507fe9f2ea385",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 899519000,
+      "load_duration": 1106119,
+      "prompt_eval_count": 3193,
+      "prompt_eval_duration": 767473000,
+      "total_duration": 1937801017
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-deposit-edge": {
+    "created_utc": "2026-10-01T10:19:30.526634+00:00",
+    "elapsed_seconds": 1.161,
+    "full_parsed_sha256": "d7a4885f7e60b360deaea40f5d523053250a6273ecb521e98485e120257f47db",
+    "id": "seoul-deposit-edge",
+    "input_sha256": "4613c3a426d036da7997521b5a81686a25e8efe9b0e09816622ea1c3a6740d46",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP08C00000",
+        "NP11C00000"
+      ]
+    },
+    "private_response_sha256": "6f264978baf70d4b885dd987f8498ee99d4d4abdcde027def911a2b4de7650fa",
+    "request_sha256": "c0586bf7bf2c87d5b271723378fef0ac90aae577c865ccefd58226e21a536558",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 53,
+      "eval_duration": 786971000,
+      "load_duration": 1150945,
+      "prompt_eval_count": 3037,
+      "prompt_eval_duration": 326066000,
+      "total_duration": 1158917514
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-deposit-over": {
+    "created_utc": "2026-10-01T10:19:32.342458+00:00",
+    "elapsed_seconds": 1.816,
+    "full_parsed_sha256": "d7a4885f7e60b360deaea40f5d523053250a6273ecb521e98485e120257f47db",
+    "id": "seoul-deposit-over",
+    "input_sha256": "932fd41bfc2a8e7dd46b04952a334323b234fffa1096bf1c75617630b49d6b44",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP08C00000",
+        "NP11C00000"
+      ]
+    },
+    "private_response_sha256": "d8cfb148c3fc18d52454229d24560c46f61e358b4384f67c9212dd0c6174cc87",
+    "request_sha256": "1acf36fa08a7198bd6408501a81bbc2cf1e55082203473eca91dd10940ac56aa",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 53,
+      "eval_duration": 789348000,
+      "load_duration": 2248467,
+      "prompt_eval_count": 3041,
+      "prompt_eval_duration": 786638000,
+      "total_duration": 1813966065
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-docs-2": {
+    "created_utc": "2026-10-01T10:19:21.524658+00:00",
+    "elapsed_seconds": 1.089,
+    "full_parsed_sha256": "c9fc73aa3619c28730d9fd4192a0e5212598f1d8bdd2101473d5eb4a4350d63b",
+    "id": "seoul-docs-2",
+    "input_sha256": "5da66cb56572e492b265e95c3940f6f8a74ffe170f64a619f5e21835d4244e10",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP09C00400",
+        "NP11C00000",
+        "NP08C00000"
+      ]
+    },
+    "private_response_sha256": "246f55b7b5457ec8336503c916f9ad1174f1322a17bca662475ecfd0677b5d4d",
+    "request_sha256": "a5c40bb15fd2c2b4bb031da5f6f5e1f5f2514bca26e99610169c686795c235d2",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 895377000,
+      "load_duration": 1131537,
+      "prompt_eval_count": 3133,
+      "prompt_eval_duration": 149962000,
+      "total_duration": 1087798913
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-docs-4": {
+    "created_utc": "2026-10-01T10:19:22.493531+00:00",
+    "elapsed_seconds": 0.969,
+    "full_parsed_sha256": "c9fc73aa3619c28730d9fd4192a0e5212598f1d8bdd2101473d5eb4a4350d63b",
+    "id": "seoul-docs-4",
+    "input_sha256": "715a557a5641764915493f49f06d58201f3b5f6d8d5d8f43ecdabaa4b4005b88",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP09C00400",
+        "NP11C00000",
+        "NP08C00000"
+      ]
+    },
+    "private_response_sha256": "1a3d0e87fffd11272492d5b79cf0e53ec5c96af27f850f33d8d56980f2826fbf",
+    "request_sha256": "cb45ee9bc66db49e305f2b5c8e944a72f0f9a9f6ad4cda5ead164c4b5c11b27a",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 892396000,
+      "load_duration": 1104425,
+      "prompt_eval_count": 3133,
+      "prompt_eval_duration": 24418000,
+      "total_duration": 967068449
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-insurance-expired": {
+    "created_utc": "2026-10-01T10:19:36.016720+00:00",
+    "elapsed_seconds": 1.796,
+    "full_parsed_sha256": "b660ffa6f8d2e0e6941a1baacbea448174a8f83d147a9806662e5b091bb5079d",
+    "id": "seoul-insurance-expired",
+    "input_sha256": "aec4c6317895cd9e160af5fd1b0f3915cb09ed9be4a99c733f0c2feab965f495",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP08C00000",
+        "NP11C00000",
+        "NP08C00400"
+      ]
+    },
+    "private_response_sha256": "296071a3a5d5ce0a015431e45af96e355375f1897ba62437e34e97274de17fec",
+    "request_sha256": "cd5c8a6671ec94e9ae95738d5f258048d6aae060896cffa91d6543ea52653792",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 889908000,
+      "load_duration": 1127759,
+      "prompt_eval_count": 2741,
+      "prompt_eval_duration": 615255000,
+      "total_duration": 1794157853
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-marriage-eight": {
+    "created_utc": "2026-10-01T10:19:34.220170+00:00",
+    "elapsed_seconds": 1.877,
+    "full_parsed_sha256": "a2532868b3be154363bc2461814313c9b470592544feea11dff79eee8b5a08be",
+    "id": "seoul-marriage-eight",
+    "input_sha256": "f79c410fb360d5dd3c7176106e735dee5823c390fd2edb7e0e9faa99967242fa",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP08C00000",
+        "NP08C00400",
+        "NP09C00800"
+      ]
+    },
+    "private_response_sha256": "e305aacf89370d7b75174e7962362e3662f450ab26e988df5cc081fc4c372326",
+    "request_sha256": "436149cb82d84e5f4db7b61e93c6550c7fda41ff4c1a532cc9c0343df0ff1c79",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 61,
+      "eval_duration": 895841000,
+      "load_duration": 980464,
+      "prompt_eval_count": 2862,
+      "prompt_eval_duration": 739052000,
+      "total_duration": 1875214528
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-proxy-cohabitant": {
+    "created_utc": "2026-10-01T10:19:24.251204+00:00",
+    "elapsed_seconds": 1.757,
+    "full_parsed_sha256": "ca4fa346abfffea641d3f5cdf4da59bf7dd7e04be619b672ed37b21b3468f885",
+    "id": "seoul-proxy-cohabitant",
+    "input_sha256": "675e3a248aee8af511ce530975d6b6d2f2348d70768d3dfdcac97e55ff4f40bb",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP03C00000",
+        "NP11C00000",
+        "NP09C00800",
+        "NP09C00400"
+      ]
+    },
+    "private_response_sha256": "534a8ecb899266054cfee353b01f83fdfaa5daefccfa4f117be9e6e6bda99dea",
+    "request_sha256": "0f1d5a56455cd08fd8ff57b8e790dcbf49c81ea1ea51328d0057d46f3ef617de",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 53,
+      "eval_duration": 789078000,
+      "load_duration": 1416416,
+      "prompt_eval_count": 2899,
+      "prompt_eval_duration": 670461000,
+      "total_duration": 1755626505
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-proxy-parent": {
+    "created_utc": "2026-10-01T10:19:25.867451+00:00",
+    "elapsed_seconds": 1.616,
+    "full_parsed_sha256": "8508d549d897317a4cb99f7bdeaa2d4c871dc43c0a9ff3e832084037b3df856f",
+    "id": "seoul-proxy-parent",
+    "input_sha256": "8ad3ae5ee844e32b705052eca1bd3ca422aeadab7194599ede4687cee518e271",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP09C00400",
+        "NP01C00000",
+        "NP11C00000"
+      ]
+    },
+    "private_response_sha256": "c04dadd9bd4f9ba139c1decd9af37e8a4e06255affd72936b83d84f127f16333",
+    "request_sha256": "49b6ea2385e9df5077d833c21697f47c1f23522d75df8b66fede57b68d002630",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 42,
+      "eval_duration": 647783000,
+      "load_duration": 1039793,
+      "prompt_eval_count": 3061,
+      "prompt_eval_duration": 625029000,
+      "total_duration": 1614341279
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-young-income-5000": {
+    "created_utc": "2026-10-01T10:19:27.647863+00:00",
+    "elapsed_seconds": 1.78,
+    "full_parsed_sha256": "0fcaaea535eead70e9df54687f52ef18bb9e244877a73eb4bc7f0f7ebfe408ea",
+    "id": "seoul-young-income-5000",
+    "input_sha256": "fbd1ee912f7b133b621e259e16d4babeeda721b9cd2119e36b75331297ea9fe9",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP02C00000",
+        "NP08C00000"
+      ]
+    },
+    "private_response_sha256": "1f552965feb407985a5d17c58d4a386f14c35942a4981ef69530f61bee8cf3dc",
+    "request_sha256": "86fa8dc92a652e0c0781d3c9e95395f625d0eccd0860de26650755dc83139047",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 50,
+      "eval_duration": 749000000,
+      "load_duration": 1145328,
+      "prompt_eval_count": 3234,
+      "prompt_eval_duration": 776693000,
+      "total_duration": 1778395721
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-young-income-5001": {
+    "created_utc": "2026-10-01T10:19:29.365360+00:00",
+    "elapsed_seconds": 1.717,
+    "full_parsed_sha256": "48f164a26b2e238843a57ae0330a992c98035572aa24445e7239abc8c1b3eeb1",
+    "id": "seoul-young-income-5001",
+    "input_sha256": "1c2c4b1eea8c565f09abd1a598351d8c517d00fc2a385dba4450cd4a2b90882a",
+    "model": "kanana-public",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP09C00800",
+        "NP01C00400",
+        "NP08C00000",
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "50106ac7f665c36bfdb35284dd9482dbd9b73e76e9645eb2d3f61e4edf1dfceb",
+    "request_sha256": "fbf1f76f542a055259d47017ead25895ea28d8cf513a9c3d622487077ccefc6e",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 58,
+      "eval_duration": 849531000,
+      "load_duration": 1393670,
+      "prompt_eval_count": 3198,
+      "prompt_eval_duration": 549760000,
+      "total_duration": 1715011594
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "after": {
+    "jeju-known-1": {
+      "created_utc": "2026-10-01T09:43:26.328605+00:00",
+      "elapsed_seconds": 0.984,
+      "full_parsed_sha256": "5b8aefa856dbae77a49898fa09b840bcd9d6b9d084a8b4648a19f539f013d77d",
+      "id": "jeju-known-1",
+      "input_sha256": "9984dee09a5dcf8219623ad23d1555fa35c407fae6a3cac986785b77381820b0",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "N006",
+          "N025"
+        ]
+      },
+      "private_response_sha256": "e3caa5e22ba14731b0ba0d9f0dfbe0b13f97cd2910db32cd34a833ee46308583",
+      "request_sha256": "9143e19f1efb36a872ff128d443e4ddee51d41f33615b3a23a96fdc7f851d1ad",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 714175000,
+        "load_duration": 906398,
+        "prompt_eval_count": 440,
+        "prompt_eval_duration": 197915000,
+        "total_duration": 982617323
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "jeju-known-2": {
+      "created_utc": "2026-10-01T09:43:30.258618+00:00",
+      "elapsed_seconds": 0.836,
+      "full_parsed_sha256": "d17be54bde6c2039b0b90966eb2632e9963ed6793b00289f940cf1ddb034daa3",
+      "id": "jeju-known-2",
+      "input_sha256": "489dbf1457b30851b82d292af0647c9d749edfe0b789c94336ecda3b3bb8c73e",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N025"
+        ]
+      },
+      "private_response_sha256": "c9ed7c6145d9491423900898b989f46fef211663475848d139c4d37d0a78d099",
+      "request_sha256": "e3bba03d355c8dc21654fecd09d9810cf39c6d2c10401b5c1ddb6201855f6ffe",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 562692000,
+        "load_duration": 952406,
+        "prompt_eval_count": 437,
+        "prompt_eval_duration": 198233000,
+        "total_duration": 834753563
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "jeju-known-3": {
+      "created_utc": "2026-10-01T09:43:34.307292+00:00",
+      "elapsed_seconds": 0.947,
+      "full_parsed_sha256": "4300843c4fb6f170e16c3d7a9b52b1e9d0d7256e6fe8fbc5a7db58cc3340de8f",
+      "id": "jeju-known-3",
+      "input_sha256": "d51303f30055829faa230d34720e3cd71b35bd4576771190a052817004056831",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N025",
+          "N006"
+        ]
+      },
+      "private_response_sha256": "2d35456945598b60e8979e851cdbcb26b310955352157234a2c13f64c5210d43",
+      "request_sha256": "3966e6df1627c6a64cf30d7968d3b2d66c92bf31f5955796e9974ac324a32d27",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 39,
+        "eval_duration": 672346000,
+        "load_duration": 878387,
+        "prompt_eval_count": 437,
+        "prompt_eval_duration": 199292000,
+        "total_duration": 945000257
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "jeju-known-4": {
+      "created_utc": "2026-10-01T09:43:38.023861+00:00",
+      "elapsed_seconds": 0.941,
+      "full_parsed_sha256": "f11a208f4e60b71471dfc8cacd603a576a3b4129400a87fd236989b51e2cf222",
+      "id": "jeju-known-4",
+      "input_sha256": "df9c9e869bdfc4b28ccb037e0ddb08c2369f2ad24dded307963ac775c19ab161",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "N025",
+          "N006"
+        ]
+      },
+      "private_response_sha256": "339f52f250f2cec641d80ece6e6f6e66c19933a4afee79b1b8ccb9181ee306ad",
+      "request_sha256": "618d2eb6fc78dc9f2b75216dc2762381962cba95ef91f05679440ad5058ab933",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 40,
+        "eval_duration": 668209000,
+        "load_duration": 970049,
+        "prompt_eval_count": 436,
+        "prompt_eval_duration": 197054000,
+        "total_duration": 939897332
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "jeju-known-5": {
+      "created_utc": "2026-10-01T09:43:42.181696+00:00",
+      "elapsed_seconds": 1.105,
+      "full_parsed_sha256": "661ebaa972a086c4b7614c5949298adba2a9e37a513aa9af7770db07a63f8d1a",
+      "id": "jeju-known-5",
+      "input_sha256": "45c2adb2130be2584df1688256cad9e15d8aab72e41e8123242868848ec33d78",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N006",
+          "N025",
+          "O020"
+        ]
+      },
+      "private_response_sha256": "41b15a897a6058213369a04830615afdefbbed6466df82c94a89e388b9a9ff55",
+      "request_sha256": "591af7edd08643a83dfb0cb78919e8f53bf62188c208f2e1f65c5a78e65c27bd",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 47,
+        "eval_duration": 831130000,
+        "load_duration": 762877,
+        "prompt_eval_count": 440,
+        "prompt_eval_duration": 197868000,
+        "total_duration": 1103085303
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "jeju-known-6": {
+      "created_utc": "2026-10-01T09:43:46.068390+00:00",
+      "elapsed_seconds": 0.797,
+      "full_parsed_sha256": "c5ba09d45b2583fef6f293608f3a915ba8b00520a08c5acfcebfa768d024bbd8",
+      "id": "jeju-known-6",
+      "input_sha256": "e7ecc35b01ecf5155608b8eeeea6527e7a6c69f1bfad7c47ea54fed2672e1880",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "N006"
+        ]
+      },
+      "private_response_sha256": "a68d428dd51a09b9af05ec9216efdadbf12b10a2bf29effcd7b5b4ba5a0039aa",
+      "request_sha256": "6a33ae4a3c4b2479a6c37202c151ec26972c4926afe4014a2c0b0ec6f5062fa0",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 28,
+        "eval_duration": 523960000,
+        "load_duration": 960795,
+        "prompt_eval_count": 443,
+        "prompt_eval_duration": 198283000,
+        "total_duration": 795290585
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    }
+  },
+  "before": {
+    "jeju-known-1": {
+      "created_utc": "2026-10-01T09:43:25.344285+00:00",
+      "elapsed_seconds": 0.902,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-1",
+      "input_sha256": "5932e3ee42b8649b5b420abcea22022ebcc9246262d8b6cfea701e1ab2f83ab2",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "1e1aa65d25b0ae515bbae664b33cf40a8a9404efa2be4b4e3b44848b2ee80a5a",
+      "request_sha256": "72a30ba70798833c4e35a5122269a791bd86500cb5f9fe0d64af6450be05365b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 689907000,
+        "load_duration": 959926,
+        "prompt_eval_count": 250,
+        "prompt_eval_duration": 128566000,
+        "total_duration": 900527910
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "jeju-known-2": {
+      "created_utc": "2026-10-01T09:43:29.421249+00:00",
+      "elapsed_seconds": 0.926,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-2",
+      "input_sha256": "24f61e3b72789c6e26f211982c38d19cf73927f8159bd0fec3a35f76b1c0ac15",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "cdd3fda3f7f88f92f5730d5f1f11a08f4c8f710c9f631a6feaf54fade0554eb4",
+      "request_sha256": "43efec0e1b95df1a02d9803bd4146bb842757fb7159aad50f187a25c96709458",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 693690000,
+        "load_duration": 741617,
+        "prompt_eval_count": 247,
+        "prompt_eval_duration": 127758000,
+        "total_duration": 924000814
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "jeju-known-3": {
+      "created_utc": "2026-10-01T09:43:33.360234+00:00",
+      "elapsed_seconds": 0.978,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-3",
+      "input_sha256": "8f8dc0870594a2d01a7c181346fbb51dbde3ef2031ad910a7b9cbd03e0aab160",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "94aee9ed60af92a6a0c2a859fdc35d8d2851fc29abee1a0a87e3fd7c3fd8e150",
+      "request_sha256": "8d61e7be08f1c3ee5c7d24e73c87669468f70546f344f21aa9392b46b37dc998",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 709529000,
+        "load_duration": 904305,
+        "prompt_eval_count": 247,
+        "prompt_eval_duration": 127316000,
+        "total_duration": 976573736
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "jeju-known-4": {
+      "created_utc": "2026-10-01T09:43:37.082184+00:00",
+      "elapsed_seconds": 0.945,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-4",
+      "input_sha256": "4e7dd98e4d673c82906fb7fa510a2b337ac6a5bd279ca07983e26971927a01ec",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "4868fb0587d30aafcca480542f9d121375b0e64f19d826868e658c97543103cb",
+      "request_sha256": "dda7c11d977f8d314ee562967ea8346f05e103cf2748693b57790a37e04dcbb4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 688579000,
+        "load_duration": 773157,
+        "prompt_eval_count": 246,
+        "prompt_eval_duration": 127584000,
+        "total_duration": 942944424
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "jeju-known-5": {
+      "created_utc": "2026-10-01T09:43:41.076063+00:00",
+      "elapsed_seconds": 0.943,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-5",
+      "input_sha256": "b101fa8cca7a5818e494121fa5cd634097a3bf0dd562581214711f9c8c2361d1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "2cb831b7045fca328c3ddde490695a107849695570c9483be1594c17c6c5cdc2",
+      "request_sha256": "7c66320f9a646bf8bd3a53e6f90012bea82130b5d75155eb66d711224f9fff63",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 688431000,
+        "load_duration": 721515,
+        "prompt_eval_count": 250,
+        "prompt_eval_duration": 127728000,
+        "total_duration": 941684084
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "jeju-known-6": {
+      "created_utc": "2026-10-01T09:43:45.271259+00:00",
+      "elapsed_seconds": 0.949,
+      "full_parsed_sha256": "03414ae6dab3658987d7a891bf26ff5135c926ceb954f1b41f3e1f1a2bcbe78b",
+      "id": "jeju-known-6",
+      "input_sha256": "9a3cade2b0961db22d1c84b20cdb59e177108a3a661ceebed978717b91aaf80e",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O020",
+          "O021"
+        ]
+      },
+      "private_response_sha256": "55a66c9578ee48f25592f921285e1e53cc8e9c43eab4bc7ec240c625e5263caf",
+      "request_sha256": "6bbf6d0a85345aa136f9647629160c9f330eeb36dc1a5c2e858b2a42f8ed128a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 690693000,
+        "load_duration": 857472,
+        "prompt_eval_count": 253,
+        "prompt_eval_duration": 128924000,
+        "total_duration": 948161711
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    }
+  },
+  "direct_gate": {
+    "jeju-known-1": {
+      "created_utc": "2026-10-01T09:43:27.298031+00:00",
+      "elapsed_seconds": 0.969,
+      "full_parsed_sha256": "f597fea1a8b42650dc9453ad3fb742c30cae31904869f41e1433c351f4c43736",
+      "id": "jeju-known-1",
+      "input_sha256": "c514b9b40ccde0c9d5bcb5146654d6e62d06ab44606ff3c83d43896d71cd5ff1",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N004",
+          "N006",
+          "N025",
+          "N026"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "8c0a6a86854028f85b5bec4a749355930612ae734b5e063591edac10c5a3047c",
+      "request_sha256": "196b0c0e1e4a99ca018e2e9f08074f8ccb7fc139ae000ba1fe7bba9ee5461f89",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 38,
+        "eval_duration": 681567000,
+        "load_duration": 751939,
+        "prompt_eval_count": 477,
+        "prompt_eval_duration": 211706000,
+        "total_duration": 967520027
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "jeju-known-2": {
+      "created_utc": "2026-10-01T09:43:31.269411+00:00",
+      "elapsed_seconds": 1.01,
+      "full_parsed_sha256": "f597fea1a8b42650dc9453ad3fb742c30cae31904869f41e1433c351f4c43736",
+      "id": "jeju-known-2",
+      "input_sha256": "abf761183b8df71fc93c5a20886dd7ef0d7abd7d03e4ffdfad8c80f169cea1d4",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N004",
+          "N006",
+          "N025",
+          "N026"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f2671ec8da1564b0efd8c505e1caade1fd366fdf7249f4d5ee7589a52d8f0f5f",
+      "request_sha256": "2135dd62dee5af4caefdcc049c8ae56f7094e5d79d5e929bd4fc41ddce12ef73",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 38,
+        "eval_duration": 707082000,
+        "load_duration": 848363,
+        "prompt_eval_count": 474,
+        "prompt_eval_duration": 219293000,
+        "total_duration": 1008319516
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "jeju-known-3": {
+      "created_utc": "2026-10-01T09:43:35.025662+00:00",
+      "elapsed_seconds": 0.718,
+      "full_parsed_sha256": "3f95c48b454bfd7e278d4ba5cc50bd0fca98a0342fbccbee934e1ff95161f578",
+      "id": "jeju-known-3",
+      "input_sha256": "419045b2185c8addd0e2043d348a35b5ffe83dd4a11e5431dd91513a590733f3",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "9193faeebbfe5079cdd62b11911d32c6a5c423ee895de97544004b3c71a7fa8b",
+      "request_sha256": "0dee1b03d0ff8559115effb38c1c07a9179b2f1a9187ed5f2d13ddba0dff01a3",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 20,
+        "eval_duration": 427865000,
+        "load_duration": 948122,
+        "prompt_eval_count": 474,
+        "prompt_eval_duration": 212267000,
+        "total_duration": 716430697
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "jeju-known-4": {
+      "created_utc": "2026-10-01T09:43:39.026422+00:00",
+      "elapsed_seconds": 1.002,
+      "full_parsed_sha256": "f597fea1a8b42650dc9453ad3fb742c30cae31904869f41e1433c351f4c43736",
+      "id": "jeju-known-4",
+      "input_sha256": "0f6b29fb23fdeebe7df6d1b00448ec8b4c05a6b1270631827041408172a4294d",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N004",
+          "N006",
+          "N025",
+          "N026"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f5e5983becb0b1f2ba995259d24afb3c5f27a86fff548121f949a99ace6a7aaf",
+      "request_sha256": "dc8019dc080c8d12711aaa79218731fc346ff1f6743de411af8cbe7d73ef3924",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 38,
+        "eval_duration": 711335000,
+        "load_duration": 832713,
+        "prompt_eval_count": 473,
+        "prompt_eval_duration": 212355000,
+        "total_duration": 1000756549
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "jeju-known-5": {
+      "created_utc": "2026-10-01T09:43:43.216322+00:00",
+      "elapsed_seconds": 1.034,
+      "full_parsed_sha256": "f597fea1a8b42650dc9453ad3fb742c30cae31904869f41e1433c351f4c43736",
+      "id": "jeju-known-5",
+      "input_sha256": "5ded5f8580097b44325f4a58dfc251a99ad4e36b43e97bd991d66121495509dd",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N004",
+          "N006",
+          "N025",
+          "N026"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f9d730eb11546ee0ff539eb6723bb96ecf69d3534116f865869f0bd38ffab161",
+      "request_sha256": "b22449192ecf4b53290e603f56acbbd2b6c1f55f25bf01ec8e9f9ca4d73c6a19",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 38,
+        "eval_duration": 734421000,
+        "load_duration": 788052,
+        "prompt_eval_count": 477,
+        "prompt_eval_duration": 213935000,
+        "total_duration": 1032349449
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "jeju-known-6": {
+      "created_utc": "2026-10-01T09:43:47.070561+00:00",
+      "elapsed_seconds": 1.001,
+      "full_parsed_sha256": "f597fea1a8b42650dc9453ad3fb742c30cae31904869f41e1433c351f4c43736",
+      "id": "jeju-known-6",
+      "input_sha256": "0db4d6837af0b3176fd08740098663451f5401c07477e9cf4a0f937ed1e80d3a",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N004",
+          "N006",
+          "N025",
+          "N026"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f139517e3bfbbf2ca3d59a5b23a94d44ea6c198a82f2ce39bc35f7333ff43983",
+      "request_sha256": "317585690a97519dc496d31a055b3228f56abfba1fa841481c9d5c058555fb14",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 38,
+        "eval_duration": 701647000,
+        "load_duration": 797593,
+        "prompt_eval_count": 480,
+        "prompt_eval_duration": 215370000,
+        "total_duration": 999636417
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    }
+  },
+  "map": {
+    "jeju-known": {
+      "created_utc": "2026-10-01T09:43:24.441954+00:00",
+      "elapsed_seconds": 5.271,
+      "full_parsed_sha256": "4f4f1d4b1680d656413b72fad3b0fc8b470b2b04726b6d703d1a18e29864db75",
+      "id": "jeju-known",
+      "input_sha256": "e97ae526d7b7f2686f80c3a79d743a1fd412ed0a40bb6d409742bc16a494f648",
+      "map_text_omitted": true,
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N025"
+            ],
+            "before_ids": [
+              "O020"
+            ],
+            "kind": "rule"
+          },
+          {
+            "after_ids": [
+              "N026"
+            ],
+            "before_ids": [
+              "O021"
+            ],
+            "kind": "rule"
+          },
+          {
+            "after_ids": [
+              "N004",
+              "N006"
+            ],
+            "before_ids": [],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "4d984816d16c8e991e95f21576668deb3d029c1bf8aea09b8ea9a078301a0907",
+      "request_sha256": "e4c11ade9e9c8f2a2977b8832d67a8c8e554249caee7cdcdeb6fbb0a28da2689",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 328,
+        "eval_duration": 4914686000,
+        "load_duration": 780373,
+        "prompt_eval_count": 377,
+        "prompt_eval_duration": 205123000,
+        "total_duration": 5269764640
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    }
+  },
+  "map_gate": {
+    "jeju-known-1": {
+      "created_utc": "2026-10-01T09:43:28.495370+00:00",
+      "elapsed_seconds": 1.197,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-1",
+      "input_sha256": "cacce3c01bd93bd3d7926c260f5188b871956b2629c67cc890803234b7f3efce",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "727ffffcadf0d4694e3c0bd29fef2f0a9a8972c83022e71f53f1641e7b045192",
+      "request_sha256": "5ea65d7db2ba14cded4c7f2126b90272631b9dc041c1a805cf4abbdeb66adb61",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 767101000,
+        "load_duration": 1099436,
+        "prompt_eval_count": 810,
+        "prompt_eval_duration": 350186000,
+        "total_duration": 1195611302
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "jeju-known-2": {
+      "created_utc": "2026-10-01T09:43:32.381876+00:00",
+      "elapsed_seconds": 1.112,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-2",
+      "input_sha256": "202ec8b1a45fc737c982f1fd4bd41843825b6c0e092454f4a18e95e90ca528be",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "e28531ed54ab64051feb07d8f383f66eb0448677e8d409f2742e01207d65b294",
+      "request_sha256": "2d6ac3540bb149e01c966bee2f2cb5c6b91a855f8781e747be6ee21509b75fdb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 775271000,
+        "load_duration": 818442,
+        "prompt_eval_count": 807,
+        "prompt_eval_duration": 252509000,
+        "total_duration": 1110423848
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "jeju-known-3": {
+      "created_utc": "2026-10-01T09:43:36.136941+00:00",
+      "elapsed_seconds": 1.111,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-3",
+      "input_sha256": "608c01fd804e49214ce2151aca2e63583888e6fef02ec000ddefacd94c76bd16",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f1c7164de2d34c85abda4847050717d7234023efed12f21ac1779315ab22e692",
+      "request_sha256": "b10bb9b7319727886a7031a7b0987dc778ea1bf81be9d339b553dc50aaa76abe",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 773699000,
+        "load_duration": 1051000,
+        "prompt_eval_count": 807,
+        "prompt_eval_duration": 254015000,
+        "total_duration": 1109182334
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "jeju-known-4": {
+      "created_utc": "2026-10-01T09:43:40.132495+00:00",
+      "elapsed_seconds": 1.106,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-4",
+      "input_sha256": "ddcc85e4641327ca4dd8ab70f9be54117cd90d0fd4f2b054835e76f8c0bbe4bb",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "206435f2e043eb2c5e883e93f1452b08c01d6a6a2bd2cafb0f5509c01643aac7",
+      "request_sha256": "627eb072806b2be172e501d558b7bd147bdd678b8e4ec53a7cf3db9a5dfc35cb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 770973000,
+        "load_duration": 884092,
+        "prompt_eval_count": 806,
+        "prompt_eval_duration": 252871000,
+        "total_duration": 1103860215
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "jeju-known-5": {
+      "created_utc": "2026-10-01T09:43:44.321505+00:00",
+      "elapsed_seconds": 1.105,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-5",
+      "input_sha256": "b59b3eaacd5d1b44cc7bc7261222688fd57ac097307fd1ad1b1cf03bdd69e798",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "805fd10f9e8b5a98a135e7e6522a5d5032176a83d821cc86437a890a43aabbd1",
+      "request_sha256": "9b7be6a70a2a37975fe53971b337162be9c3e376a28aa1e9b54221b3c552a402",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 769114000,
+        "load_duration": 823504,
+        "prompt_eval_count": 810,
+        "prompt_eval_duration": 254432000,
+        "total_duration": 1103559745
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "jeju-known-6": {
+      "created_utc": "2026-10-01T09:43:48.204889+00:00",
+      "elapsed_seconds": 1.134,
+      "full_parsed_sha256": "14a061679bbba0cc15c7c0e0f7573eb482c57c348c62fc205404c8ef12ae21d3",
+      "id": "jeju-known-6",
+      "input_sha256": "7d8e00fd6557d04ed04c1c9f63b058fb159fd04cb97206fcaaab8d376c6cc47b",
+      "model": "qwen",
+      "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model_name": "qwen3.5:9b",
+      "parsed": {
+        "evidence": [
+          "N025",
+          "N006"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "1d9068e3ae520488f267626660f54e1983bddb68b44db82af2713f3dffcbb72f",
+      "request_sha256": "5f37486377e5ee93cf772daaff405ac6b940ad9ab30f0a0f81f2bdc59bd3de2e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 42,
+        "eval_duration": 785018000,
+        "load_duration": 1075199,
+        "prompt_eval_count": 813,
+        "prompt_eval_duration": 262265000,
+        "total_duration": 1131874056
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    }
+  }
+}

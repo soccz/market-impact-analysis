@@ -1,0 +1,1072 @@
+{
+  "chungnam-boryeong": {
+    "created_utc": "2026-10-01T10:17:54.982444+00:00",
+    "elapsed_seconds": 0.833,
+    "full_parsed_sha256": "57e829b8ef5f5d757bb24676637c4f8f8a75578379633c4c4e9dcbce8afd63b9",
+    "id": "chungnam-boryeong",
+    "input_sha256": "942919c3dbbcbde6790f51324344fc4b5b6c8ca200fd836655e75d355c1c1f8d",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "4b7cb15f17bc594ba5802bbb46774d8cc22724cbcfffe7116388d57ca7f8d564",
+    "request_sha256": "d54f4d00d32b32e29782169539a8d50138d33e171308b9e76dc3e92ea0b3f230",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 552586000,
+      "load_duration": 1645807,
+      "prompt_eval_count": 2654,
+      "prompt_eval_duration": 261190999,
+      "total_duration": 831405238
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-cap-30": {
+    "created_utc": "2026-10-01T10:18:01.282225+00:00",
+    "elapsed_seconds": 1.959,
+    "full_parsed_sha256": "57e829b8ef5f5d757bb24676637c4f8f8a75578379633c4c4e9dcbce8afd63b9",
+    "id": "chungnam-cap-30",
+    "input_sha256": "6b571417b1264a049e7144f0073c6f147fe12fa99f369394779b9c45eeb5449f",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "117bd6dc4c1b43bbe8cd202d34ca87eb8a193ce58f9ed563ed5616507b4528f8",
+    "request_sha256": "917cbb40a835ac6dfe57291eebc00d4e3dde1cdd83a194c5bb357a0b5db01d66",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 554009000,
+      "load_duration": 1001720,
+      "prompt_eval_count": 3073,
+      "prompt_eval_duration": 1217664000,
+      "total_duration": 1957310613
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-cap-60": {
+    "created_utc": "2026-10-01T10:18:02.316585+00:00",
+    "elapsed_seconds": 1.034,
+    "full_parsed_sha256": "2c87fe76e88f698bd75d9f29c3ddc571a7e1199600c8e6827be29e54e77ae73a",
+    "id": "chungnam-cap-60",
+    "input_sha256": "5a735f723608ab15c0933c9b5e0c3bde778e4e7d193d014e181ed2b679103c5f",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP02C00000",
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "2bbc38309a71382df3c9afe895715f0a86baa98fa12ce9574e297d70ff9d1ef3",
+    "request_sha256": "b8c7348dff7a1bea8cb5de88539af77322e155daa6be36b87b87e4071f33f535",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 43,
+      "eval_duration": 749754000,
+      "load_duration": 967645,
+      "prompt_eval_count": 3073,
+      "prompt_eval_duration": 261331000,
+      "total_duration": 1032145023
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-dangjin": {
+    "created_utc": "2026-10-01T10:17:54.148578+00:00",
+    "elapsed_seconds": 1.786,
+    "full_parsed_sha256": "57e829b8ef5f5d757bb24676637c4f8f8a75578379633c4c4e9dcbce8afd63b9",
+    "id": "chungnam-dangjin",
+    "input_sha256": "cb939f0b333e13cef8745a82b6f53941bdb03bb51d28d25abe4522c80f1d8da6",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "5a6ad987f3702d09b567f12214f8a8cabf7a0f471541f964e06817081a91bcc0",
+    "request_sha256": "cd8619a4516d7a757948afbe365d3cffaa8ad6446ca3f8d5a7f8c382b09926da",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 559843000,
+      "load_duration": 1580787,
+      "prompt_eval_count": 2654,
+      "prompt_eval_duration": 1046827000,
+      "total_duration": 1784607998
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-deadline-10": {
+    "created_utc": "2026-10-01T10:17:58.446964+00:00",
+    "elapsed_seconds": 1.723,
+    "full_parsed_sha256": "c128fbeac5625f0ac865a4af208d19c83a18ee1f6d982225ede1e82c91a9243c",
+    "id": "chungnam-deadline-10",
+    "input_sha256": "99e5e52e7009579d22a8725467023a5edc068a848a33d476d04abd7990dfdc1b",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "ae9047c1cdf39db440fd0646336aa470262ec46b64712cf2327700087c5d61eb",
+    "request_sha256": "b6703e131a1f6d1d2b84385864f5462de9d0393423d03d0f2af8dab1720e5d7c",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 564865000,
+      "load_duration": 1020214,
+      "prompt_eval_count": 2439,
+      "prompt_eval_duration": 976269000,
+      "total_duration": 1721607150
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-deadline-18": {
+    "created_utc": "2026-10-01T10:17:59.323124+00:00",
+    "elapsed_seconds": 0.876,
+    "full_parsed_sha256": "c3339cc713d91538555f2205f6dfee31c412950678a0851eeefcba02b6aa7f20",
+    "id": "chungnam-deadline-18",
+    "input_sha256": "2751ff9bce896e9d34bd43a2655c813835b7682beb301059909398224a917b33",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "1264d6e21ee2c947369e56f03c2b59d7843287e47a3c15329411078d2fdb7d15",
+    "request_sha256": "7ea04219b4f55b4cc1419058934422b950e51cb477e7fec00f4c70b817eaa772",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 591993000,
+      "load_duration": 1038899,
+      "prompt_eval_count": 2439,
+      "prompt_eval_duration": 263834999,
+      "total_duration": 874351105
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-same": {
+    "created_utc": "2026-10-01T10:18:07.607198+00:00",
+    "elapsed_seconds": 2.106,
+    "full_parsed_sha256": "30e3718ea59a27a7cf1027f01bebe7bda7647e01f73d17627a71ea101fa305ea",
+    "id": "chungnam-duplicate-same",
+    "input_sha256": "6ea2b39c93991626798a396abd9de16fe9870bc626c5019b7603029298505373",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "fad272e6c090f5190889129cd37532234af62b4eb4d82159d717f29d0d4c866e",
+    "request_sha256": "b5656f8de039dc5d02538f28c7b4005932bb02c8f57474313431a400b84be077",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 38,
+      "eval_duration": 697839000,
+      "load_duration": 1231295,
+      "prompt_eval_count": 3009,
+      "prompt_eval_duration": 1193969000,
+      "total_duration": 2104446286
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-separated": {
+    "created_utc": "2026-10-01T10:18:09.550843+00:00",
+    "elapsed_seconds": 1.943,
+    "full_parsed_sha256": "12667f4615d8a61b58e32f06da50173e4a98c3a6d2c86b01a441cbcb087ea8c3",
+    "id": "chungnam-duplicate-separated",
+    "input_sha256": "882635fe6ab379b0884666f5016c54257542857cf1a9efd5d349e4eb95939a65",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "992e16abd95821040d89ac49a1674a6e00518a513604f336d53c3b7e17021bd5",
+    "request_sha256": "a34a9bfad3e15af533597dd9d52084bcdfbc5d687f790c21653b3c92a205a882",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 36,
+      "eval_duration": 649985000,
+      "load_duration": 1745422,
+      "prompt_eval_count": 2801,
+      "prompt_eval_duration": 1104127000,
+      "total_duration": 1941822603
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-duplicate-unknown": {
+    "created_utc": "2026-10-01T10:18:11.868171+00:00",
+    "elapsed_seconds": 2.317,
+    "full_parsed_sha256": "14f591ac6519a637fd924bf4ef542d102e5b0bb5a921fd93659f47c6e8edf827",
+    "id": "chungnam-duplicate-unknown",
+    "input_sha256": "b0afaf50ff24e25b2a28e06d63372c2e2ae21fe52ebd6be8d5ef624b1d48a6c1",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP02C00000",
+        "NP03C00000"
+      ]
+    },
+    "private_response_sha256": "adc4d89e95e335478fe92910a894ee36dae3b8c9972f5d68195bc34d4c9e042a",
+    "request_sha256": "f8357b66092861bfe69d1cfefcf87c4371a98622e73973745575440a61944843",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 55,
+      "eval_duration": 1067385000,
+      "load_duration": 1422934,
+      "prompt_eval_count": 3084,
+      "prompt_eval_duration": 1222768000,
+      "total_duration": 2315564357
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-employer-full": {
+    "created_utc": "2026-10-01T10:18:12.995297+00:00",
+    "elapsed_seconds": 1.127,
+    "full_parsed_sha256": "30e3718ea59a27a7cf1027f01bebe7bda7647e01f73d17627a71ea101fa305ea",
+    "id": "chungnam-employer-full",
+    "input_sha256": "f8d1926845db27dadf22e54e107a19bd9c39827b35246567ab4c211c966f73be",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "640962c9e7cc7a5f7bad0d0d47f8432009def0afe9ef61bc90404ddb0b25bfd8",
+    "request_sha256": "b736a83b8db8038c0dc21453bbd04e4f7abe6fb507df944cdac3b5ac75d925a2",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 38,
+      "eval_duration": 680921000,
+      "load_duration": 1198726,
+      "prompt_eval_count": 2996,
+      "prompt_eval_duration": 262855000,
+      "total_duration": 1125073451
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-employer-own": {
+    "created_utc": "2026-10-01T10:18:13.954217+00:00",
+    "elapsed_seconds": 0.959,
+    "full_parsed_sha256": "12667f4615d8a61b58e32f06da50173e4a98c3a6d2c86b01a441cbcb087ea8c3",
+    "id": "chungnam-employer-own",
+    "input_sha256": "710ce2f018f7ee3441353f91f3289e6d1a53028ec0bf1a77adb5d96f7ab6a61f",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP04C00000"
+      ]
+    },
+    "private_response_sha256": "02a2d31b685115efee96b1b99f952263e6849f89dee0f91975174c81a6ae0688",
+    "request_sha256": "23140e8d1441ab2b775d959429949255b68656765be8ba92e6a4787dffb7c9ac",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 36,
+      "eval_duration": 673730000,
+      "load_duration": 1088820,
+      "prompt_eval_count": 3000,
+      "prompt_eval_duration": 262708000,
+      "total_duration": 957079048
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-exam-failed": {
+    "created_utc": "2026-10-01T10:18:04.449746+00:00",
+    "elapsed_seconds": 2.133,
+    "full_parsed_sha256": "e343996a2ebe224dc3a16e57096cb1bf86531a40b2b7dc64e40a4cea1046ec0e",
+    "id": "chungnam-exam-failed",
+    "input_sha256": "dbdc4a3f7f5ecf4b550d79f09015d3e768df559b62c66125240b5155bcfa9ceb",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP05C00000",
+        "NP05C00400"
+      ]
+    },
+    "private_response_sha256": "b76b9f06f0d4ba9a961ced757f8433daba1fa2bbf1acadb507c3b9187976bebb",
+    "request_sha256": "f1b4e70a75462878a9858943ae06e3844f539bdc37472afab0c8497fb03a7173",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 49,
+      "eval_duration": 842634000,
+      "load_duration": 1789442,
+      "prompt_eval_count": 2753,
+      "prompt_eval_duration": 1088490000,
+      "total_duration": 2131395509
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-exam-third": {
+    "created_utc": "2026-10-01T10:18:05.500843+00:00",
+    "elapsed_seconds": 1.051,
+    "full_parsed_sha256": "9dcb3c1ef87095eae8163d2bc8d1cdafe6ab424cb6e0e12c5d00be5e59730235",
+    "id": "chungnam-exam-third",
+    "input_sha256": "996cb4b4637ea3eb147fefe82b12b43777e3e62557348f0a1ce92468c271dbe3",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "a940eed1e45c36042d7efbd940a7930061c0f51870ebd798dbe8d2f8c442c246",
+    "request_sha256": "851a407d0577c97128cdcdd3c02d842c52126dc29d305ed11cb831c84ba1ba16",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 33,
+      "eval_duration": 602425000,
+      "load_duration": 1223767,
+      "prompt_eval_count": 3081,
+      "prompt_eval_duration": 274242000,
+      "total_duration": 1049242560
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-seosan": {
+    "created_utc": "2026-10-01T10:17:56.723576+00:00",
+    "elapsed_seconds": 0.873,
+    "full_parsed_sha256": "e5a4d9eaae0172990c107c34fb13450a96811c4eb7cf9115681b53c789599de7",
+    "id": "chungnam-seosan",
+    "input_sha256": "d3ff6b5f81122ceee6d30453110026b88b124cb6aea52ac442283ef583d7ec7e",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "28a72ad52dbdfbffe5e08f0d882234e704cfe90fab3942125a04761bd8aa546e",
+    "request_sha256": "bbe47e31c4878fa6707a85d335e1f31d68ceefd64253cbbb96a86c399c401037",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 591172000,
+      "load_duration": 1251042,
+      "prompt_eval_count": 2653,
+      "prompt_eval_duration": 261923000,
+      "total_duration": 871451955
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-taean": {
+    "created_utc": "2026-10-01T10:17:55.850224+00:00",
+    "elapsed_seconds": 0.867,
+    "full_parsed_sha256": "e5a4d9eaae0172990c107c34fb13450a96811c4eb7cf9115681b53c789599de7",
+    "id": "chungnam-taean",
+    "input_sha256": "9db0b16824acf2016ec4d53c16068e737b7064e5ce0dffcc822049a38c91fc7e",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "06e19b9fbc7a83046d78e111eb4c65c1bd0e106335b61882ca2ab862b0962d40",
+    "request_sha256": "4d36c9477c87aff1cab44d98d4b994ca01f61a17b3495c523f74757dc2e95b2d",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 585130000,
+      "load_duration": 1624455,
+      "prompt_eval_count": 2654,
+      "prompt_eval_duration": 262327000,
+      "total_duration": 865352232
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "chungnam-training-card": {
+    "created_utc": "2026-10-01T10:18:15.042953+00:00",
+    "elapsed_seconds": 1.088,
+    "full_parsed_sha256": "57e829b8ef5f5d757bb24676637c4f8f8a75578379633c4c4e9dcbce8afd63b9",
+    "id": "chungnam-training-card",
+    "input_sha256": "b54ec337ac952279aa324dbb942a6e3fbc0489848072d088023e06b108f1131c",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP02C00000"
+      ]
+    },
+    "private_response_sha256": "b20889c32aee2e7579f32c9bd080851e899be2cee790d496ecb70dadf579e3cb",
+    "request_sha256": "1cd41df5d3715920b501e4ed6d6ce4237eedccc754371565773d07c6671b258a",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 565120000,
+      "load_duration": 1859945,
+      "prompt_eval_count": 2662,
+      "prompt_eval_duration": 271504000,
+      "total_duration": 1087018433
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-new-30": {
+    "created_utc": "2026-10-01T10:18:17.687175+00:00",
+    "elapsed_seconds": 0.875,
+    "full_parsed_sha256": "c3339cc713d91538555f2205f6dfee31c412950678a0851eeefcba02b6aa7f20",
+    "id": "seoul-cap-new-30",
+    "input_sha256": "b684a2605af504bc698dca06da082266027370f040e0492df47ac7a89b2abef3",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "660dcd048feacbe5bc7d0bde6a442937593b52d1cfc7e57a52749fbb391d9600",
+    "request_sha256": "fa301d56667c0bcaea46d69d50c9037f4134cb6ed65e4d8ed1e137add9b876ed",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 589358000,
+      "load_duration": 1198300,
+      "prompt_eval_count": 2471,
+      "prompt_eval_duration": 261692999,
+      "total_duration": 873223582
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-new-40": {
+    "created_utc": "2026-10-01T10:18:16.811513+00:00",
+    "elapsed_seconds": 1.768,
+    "full_parsed_sha256": "c128fbeac5625f0ac865a4af208d19c83a18ee1f6d982225ede1e82c91a9243c",
+    "id": "seoul-cap-new-40",
+    "input_sha256": "580333ef41cfb7fd96a22d8fa8ad1dbcb22121ef45de7be24a87e276b39d3b9b",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "81317072b1a829a6cac62e14c885958c99775d05ce7f81d55c42b2fdea980b5f",
+    "request_sha256": "0342a2a21f320c748c7b35cdb5dfcee5fe2d0b3b119a61e208ebcce411daab59",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 564351000,
+      "load_duration": 1085462,
+      "prompt_eval_count": 2471,
+      "prompt_eval_duration": 987115000,
+      "total_duration": 1766583916
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-old-30": {
+    "created_utc": "2026-10-01T10:18:19.427206+00:00",
+    "elapsed_seconds": 0.882,
+    "full_parsed_sha256": "c3339cc713d91538555f2205f6dfee31c412950678a0851eeefcba02b6aa7f20",
+    "id": "seoul-cap-old-30",
+    "input_sha256": "dca73d11e1bf1b0199dda34f5131e7628eeccb516c8e169a194aec3abbd3fb2f",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "267fc9d210b62d5d6e3a7e3915339d2824c93412462dc6f5be99eb3d0c5bec5d",
+    "request_sha256": "d196599884961072c79f303facbe44ff7b8d12089a2ae72281777a6e8c7b0830",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 598892000,
+      "load_duration": 1204163,
+      "prompt_eval_count": 2472,
+      "prompt_eval_duration": 261206000,
+      "total_duration": 880164773
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-old-40": {
+    "created_utc": "2026-10-01T10:18:18.544707+00:00",
+    "elapsed_seconds": 0.857,
+    "full_parsed_sha256": "c128fbeac5625f0ac865a4af208d19c83a18ee1f6d982225ede1e82c91a9243c",
+    "id": "seoul-cap-old-40",
+    "input_sha256": "4d437ddfffbb787596476b035696ae0a69c4b693fb6a57162b4131dca829838c",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "489f001d90d1a90aadbf27e4a3570bfa7a55161e36ec3faec720c93136b0ba4b",
+    "request_sha256": "f298f55d13b50c0c26b92d1fdc93fadabb7c54b9e94ee8c0322e4b12d0460eab",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 568328000,
+      "load_duration": 1442976,
+      "prompt_eval_count": 2472,
+      "prompt_eval_duration": 267493000,
+      "total_duration": 855256892
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-unknown-30": {
+    "created_utc": "2026-10-01T10:18:22.134730+00:00",
+    "elapsed_seconds": 0.885,
+    "full_parsed_sha256": "c3339cc713d91538555f2205f6dfee31c412950678a0851eeefcba02b6aa7f20",
+    "id": "seoul-cap-unknown-30",
+    "input_sha256": "f0b425d41134d1e07625176ab131467cc77a58cbf25d1f3bf0232641b95ca17d",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "87571d4d6533f5b820949f38c764a762711e52b664d77cf9fe268f2665b1108e",
+    "request_sha256": "e89dfcf8436162d1ea2a9ff6d44b38305e7b3245db269efe5340606a0ea5b5bb",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 594670000,
+      "load_duration": 1197107,
+      "prompt_eval_count": 2619,
+      "prompt_eval_duration": 262034000,
+      "total_duration": 883842501
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-cap-unknown-40": {
+    "created_utc": "2026-10-01T10:18:21.249151+00:00",
+    "elapsed_seconds": 1.822,
+    "full_parsed_sha256": "c128fbeac5625f0ac865a4af208d19c83a18ee1f6d982225ede1e82c91a9243c",
+    "id": "seoul-cap-unknown-40",
+    "input_sha256": "8931ed81391f0d895cffc1e9e95eaec3d40d11eb36372f8650ba8d98b11b299f",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000"
+      ]
+    },
+    "private_response_sha256": "0b285617cd1ae059a08d08bcdc6740d4894bbe816020e76861ccfa267a20a9ef",
+    "request_sha256": "95deec2539be055c12301308c7d842a8ddb43254708f6c04058963cb22c3470a",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 563714000,
+      "load_duration": 1323220,
+      "prompt_eval_count": 2619,
+      "prompt_eval_duration": 1039435000,
+      "total_duration": 1819967119
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-deposit-edge": {
+    "created_utc": "2026-10-01T10:18:32.856689+00:00",
+    "elapsed_seconds": 1.565,
+    "full_parsed_sha256": "a3e1aae3ba78171fd11ba7197099d17f49b68a4b4c871d4169380642454d25a6",
+    "id": "seoul-deposit-edge",
+    "input_sha256": "7658f5492ceda60978572a8117f87d899f727180a6def1a8b18e00bdc03ff745",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "154f013df28fe0196864707218b1808886d071842152dc4d0857a8ee6d6f01c5",
+    "request_sha256": "a24192eabaa326e63e597ba4868dbd883be0cf9b0ecf06e3affed26941a1f16c",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 565855000,
+      "load_duration": 1720245,
+      "prompt_eval_count": 2442,
+      "prompt_eval_duration": 979247000,
+      "total_duration": 1562811876
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-deposit-over": {
+    "created_utc": "2026-10-01T10:18:34.584024+00:00",
+    "elapsed_seconds": 1.727,
+    "full_parsed_sha256": "6b5ad9f3fb846274cee0bff7a4e6560ee4dc21b5d641e9b86acd2ea30d5c8221",
+    "id": "seoul-deposit-over",
+    "input_sha256": "a6217035246d7a1d5651e51fb7d87e377eeec1a24ff3b28a920a407a25f7f521",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "cce55a074d5fd5a36c18aac5e2e3ac3cb60ba5f257c8a0a90511f5d556024334",
+    "request_sha256": "22908bedbd3d8b98e7fa31fcd97bea7c837832bcc3162075621cca4c0e2cd91b",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 604477000,
+      "load_duration": 1060411,
+      "prompt_eval_count": 2414,
+      "prompt_eval_duration": 954832000,
+      "total_duration": 1725497062
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-docs-2": {
+    "created_utc": "2026-10-01T10:18:23.202748+00:00",
+    "elapsed_seconds": 1.068,
+    "full_parsed_sha256": "3f8510bcc726e90737348b216e29f205d9a99c19be37c8ca162bae9fdcde16fe",
+    "id": "seoul-docs-2",
+    "input_sha256": "e26bc642a225d574e58c3cb4cb1b001310a0e558cd0f3c7929b08c4ddcedb500",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "b4a1724fc97b3ee8864bda8ce21dae73f63624148c3fb2012e5db140d278ec96",
+    "request_sha256": "cf0b87857418be16b5089dd1537986a4b29512dbef16389396364a26c187a1a3",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 44,
+      "eval_duration": 777188000,
+      "load_duration": 1638436,
+      "prompt_eval_count": 2587,
+      "prompt_eval_duration": 261117000,
+      "total_duration": 1065811485
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-docs-4": {
+    "created_utc": "2026-10-01T10:18:24.378135+00:00",
+    "elapsed_seconds": 1.175,
+    "full_parsed_sha256": "3e09a3afce4347233e8ed97e2be5479421439cc1197b487a942dee8a1da0bd0b",
+    "id": "seoul-docs-4",
+    "input_sha256": "f67d3c8afc2f682711d104ec636d954737bb407fb45acb43c81d2b7db10acbfb",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00400",
+        "NP09C00800",
+        "NP09C00000"
+      ]
+    },
+    "private_response_sha256": "df998669bce395e35e9259c1811952d80922aabba9a928fd56023617cb8962c2",
+    "request_sha256": "83fc2697803a88d7a0ed7f524ea061fb142bb6e62a46fb2d2829022875a1aabc",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 52,
+      "eval_duration": 888567000,
+      "load_duration": 1112902,
+      "prompt_eval_count": 2587,
+      "prompt_eval_duration": 258601000,
+      "total_duration": 1173059777
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-insurance-expired": {
+    "created_utc": "2026-10-01T10:18:38.586165+00:00",
+    "elapsed_seconds": 1.963,
+    "full_parsed_sha256": "9d1d68e6c39269351dfd3dd14875a675c2c4cb4c7df211ab598ae187c6f67fe4",
+    "id": "seoul-insurance-expired",
+    "input_sha256": "783fe699f6040b93a146e0cdfd8936d6d884f6cbcd803ff4916d03de531785c1",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "15395945933fd1731665aa235bda11119f6d76c24143dc9eb9aaba8c8d6d485d",
+    "request_sha256": "022747137f5ba31e5bc32049392377bdc4b823910208b2878e444218a75b5df1",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 43,
+      "eval_duration": 744543000,
+      "load_duration": 1032236,
+      "prompt_eval_count": 2676,
+      "prompt_eval_duration": 1056209000,
+      "total_duration": 1961821637
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-marriage-eight": {
+    "created_utc": "2026-10-01T10:18:36.622417+00:00",
+    "elapsed_seconds": 2.038,
+    "full_parsed_sha256": "a7e3e4b93d91b9408628e17b66391124b82ab75e06ef67f6a0e839d925c79b33",
+    "id": "seoul-marriage-eight",
+    "input_sha256": "4f2aba90470ea1080c7f7048cb1d207085eead78a0825725fc2a6478cf1ffd33",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00400",
+        "NP08C00000",
+        "NP08C00400"
+      ]
+    },
+    "private_response_sha256": "107735528009925966b95b1f34efbf6782e793e22fa16c2cdc78412af5e20ebf",
+    "request_sha256": "44dab43c3db938279e76cc40ab9a3519ac2841958ad6dc7f4044ff49d90676eb",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 54,
+      "eval_duration": 906765000,
+      "load_duration": 1402019,
+      "prompt_eval_count": 2375,
+      "prompt_eval_duration": 953877000,
+      "total_duration": 2036401618
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-proxy-cohabitant": {
+    "created_utc": "2026-10-01T10:18:26.077115+00:00",
+    "elapsed_seconds": 1.699,
+    "full_parsed_sha256": "ecdfd125df46cfa86ba09836f17348c8f31d82d74e75cfed236760915e3108e9",
+    "id": "seoul-proxy-cohabitant",
+    "input_sha256": "ba4804cd3419363c688dec413a9c1f17871868e3c948fce05fb9e13ed6a493f6",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP03C00000"
+      ]
+    },
+    "private_response_sha256": "05a80f692df2450bdec23cc8e0aacf1336e1458fc3a5107fa789ac9a1580090b",
+    "request_sha256": "eb53cbbf9e0500265e9152d0c6e16ceb9dfe60ed9682898c54cf20349776436e",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 585782000,
+      "load_duration": 1035796,
+      "prompt_eval_count": 2374,
+      "prompt_eval_duration": 945906000,
+      "total_duration": 1697259406
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-proxy-parent": {
+    "created_utc": "2026-10-01T10:18:28.699842+00:00",
+    "elapsed_seconds": 2.622,
+    "full_parsed_sha256": "e701744d3b215f80cb01fa991d3ef317c82b88a56aac637a3237892a3b378b60",
+    "id": "seoul-proxy-parent",
+    "input_sha256": "cbce493c79d3cbf62238f5ceef9978dfb02b01b408b48b13c83f3c8b7b6eb0e8",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00000",
+        "NP01C00400",
+        "NP09C00000",
+        "NP09C00400",
+        "NP09C00800"
+      ]
+    },
+    "private_response_sha256": "42565bf7aac4b491a8c914404ffcb5c7c3826c30e4ad5cc907c737400826be18",
+    "request_sha256": "a4888c5e634596d4ea13058575e019f9d55629620e2664331fbea81253e569f8",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 88,
+      "eval_duration": 1412290000,
+      "load_duration": 1322049,
+      "prompt_eval_count": 2603,
+      "prompt_eval_duration": 1033930000,
+      "total_duration": 2620842172
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-young-income-5000": {
+    "created_utc": "2026-10-01T10:18:30.414204+00:00",
+    "elapsed_seconds": 1.714,
+    "full_parsed_sha256": "a3e1aae3ba78171fd11ba7197099d17f49b68a4b4c871d4169380642454d25a6",
+    "id": "seoul-young-income-5000",
+    "input_sha256": "29f9ac7770f41ce5c64c0a2a41ee7e8f269d8b4d9ec502e415bec1e58e9caf82",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "0b0838f9b40ba0862957ec9fd61daabe5e03db173a922f530b9db3d441f06719",
+    "request_sha256": "2306231356e060f3006349fc89d334f4880d9fc13c9c46e2cfa0166f2c4d1ed0",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 30,
+      "eval_duration": 562806000,
+      "load_duration": 1501576,
+      "prompt_eval_count": 2451,
+      "prompt_eval_duration": 977231000,
+      "total_duration": 1712344575
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  },
+  "seoul-young-income-5001": {
+    "created_utc": "2026-10-01T10:18:31.291578+00:00",
+    "elapsed_seconds": 0.877,
+    "full_parsed_sha256": "6b5ad9f3fb846274cee0bff7a4e6560ee4dc21b5d641e9b86acd2ea30d5c8221",
+    "id": "seoul-young-income-5001",
+    "input_sha256": "265c08bfd1ec0563f89844027caff500a032e508492a80deda4d3c3f2e418b17",
+    "model": "qwen",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "model_name": "qwen3.5:9b",
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "NP01C00400"
+      ]
+    },
+    "private_response_sha256": "6b72dad5aa46cab722624d07e5fd3daa36ca8ef949728cb0daa81e3d2e0c4b5c",
+    "request_sha256": "05fa425a9eb8b70ff18b8eeb3ea861543df5689ed4a4366240d3e4ffc3c7de2d",
+    "response_redacted": true,
+    "runtime": {
+      "done": true,
+      "done_reason": "stop",
+      "eval_count": 32,
+      "eval_duration": 590609000,
+      "load_duration": 1133448,
+      "prompt_eval_count": 2451,
+      "prompt_eval_duration": 259745000,
+      "total_duration": 874926888
+    },
+    "server": {
+      "version": "0.33.2"
+    },
+    "stage": "after"
+  }
+}

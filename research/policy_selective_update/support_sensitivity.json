@@ -1,0 +1,232 @@
+{
+  "created_utc": "2026-10-01T10:20:00.307129+00:00",
+  "stage": "Post-hoc annotation sensitivity after primary model results, before observing repair and contract outputs.",
+  "reason": "Original reference evidence IDs name whole selected clauses; EXCLUSIONS and INCOME contain neighboring rules not required for some narrow claims. Whole-span joint accuracy is a strict annotation choice, not minimal necessary evidence.",
+  "policy": "Keep first reference labels, routes, original evidence sets, source windows and predictions unchanged. Auxiliary current-source coverage uses narrower employer/other-program, youth/newlywed, deposit subclauses for 10 claims; others unchanged. AI revision, independent human review 0. Not a second independent evaluation.",
+  "after_support": {
+    "chungnam-dangjin": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 0,
+      "end": 57,
+      "text_sha256": "50da6f945cf362262494ff88c8c57d9f1ead4b886140c2c513cd0d793cd414f6"
+    },
+    "chungnam-boryeong": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 0,
+      "end": 57,
+      "text_sha256": "50da6f945cf362262494ff88c8c57d9f1ead4b886140c2c513cd0d793cd414f6"
+    },
+    "chungnam-taean": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 0,
+      "end": 57,
+      "text_sha256": "50da6f945cf362262494ff88c8c57d9f1ead4b886140c2c513cd0d793cd414f6"
+    },
+    "chungnam-seosan": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 0,
+      "end": 57,
+      "text_sha256": "50da6f945cf362262494ff88c8c57d9f1ead4b886140c2c513cd0d793cd414f6"
+    },
+    "chungnam-deadline-10": {
+      "document": "chungnam-after",
+      "page": 1,
+      "start": 433,
+      "end": 476,
+      "text_sha256": "88a1d8eb6419a618d69c0c86c28f48c2131acd290638030758f1014dd16d43a2"
+    },
+    "chungnam-deadline-18": {
+      "document": "chungnam-after",
+      "page": 1,
+      "start": 433,
+      "end": 476,
+      "text_sha256": "88a1d8eb6419a618d69c0c86c28f48c2131acd290638030758f1014dd16d43a2"
+    },
+    "chungnam-cap-30": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 58,
+      "end": 116,
+      "text_sha256": "f8abb3cc089590e97f7a55ab595bea859c822c4094051a0ffdd9f9ca5089a0b5"
+    },
+    "chungnam-cap-60": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 58,
+      "end": 116,
+      "text_sha256": "f8abb3cc089590e97f7a55ab595bea859c822c4094051a0ffdd9f9ca5089a0b5"
+    },
+    "chungnam-exam-failed": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 351,
+      "end": 395,
+      "text_sha256": "2a0126caf33ffa20b13493e5e7ccb3ab0075f2cec75fa64a2e912c0e29e55a78"
+    },
+    "chungnam-exam-third": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 351,
+      "end": 395,
+      "text_sha256": "2a0126caf33ffa20b13493e5e7ccb3ab0075f2cec75fa64a2e912c0e29e55a78"
+    },
+    "chungnam-duplicate-same": {
+      "document": "chungnam-after",
+      "page": 4,
+      "start": 391,
+      "end": 444,
+      "text_sha256": "e2f31b1ce07819c7480ab5abe31ca9066c2300a627d4f5262648db50b119127a"
+    },
+    "chungnam-duplicate-separated": {
+      "document": "chungnam-after",
+      "page": 4,
+      "start": 391,
+      "end": 444,
+      "text_sha256": "e2f31b1ce07819c7480ab5abe31ca9066c2300a627d4f5262648db50b119127a"
+    },
+    "chungnam-duplicate-unknown": {
+      "document": "chungnam-after",
+      "page": 4,
+      "start": 391,
+      "end": 444,
+      "text_sha256": "e2f31b1ce07819c7480ab5abe31ca9066c2300a627d4f5262648db50b119127a"
+    },
+    "chungnam-employer-full": {
+      "document": "chungnam-after",
+      "page": 4,
+      "start": 267,
+      "end": 315,
+      "text_sha256": "32155562bd8ead694f4010cd3ea2588242af86d216494154ed6f4efd4ef9b931"
+    },
+    "chungnam-employer-own": {
+      "document": "chungnam-after",
+      "page": 4,
+      "start": 267,
+      "end": 315,
+      "text_sha256": "32155562bd8ead694f4010cd3ea2588242af86d216494154ed6f4efd4ef9b931"
+    },
+    "chungnam-training-card": {
+      "document": "chungnam-after",
+      "page": 2,
+      "start": 157,
+      "end": 274,
+      "text_sha256": "7d16441dfc18bafca96107d41024db0c5272ec1e3da024da6c0a6399e12e7546"
+    },
+    "seoul-cap-new-40": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-cap-new-30": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-cap-old-40": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-cap-old-30": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-cap-unknown-40": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-cap-unknown-30": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 0,
+      "end": 86,
+      "text_sha256": "3c90233b1173d08a9425fd8b82211fc377e8bf18f219ec408938d8410642169a"
+    },
+    "seoul-docs-2": {
+      "document": "seoul-2025",
+      "page": 3,
+      "start": 631,
+      "end": 659,
+      "text_sha256": "bb406e993c99e42977bc0d66ffbecf50907ef7ef3db82f8e63b8e4f53ca23311"
+    },
+    "seoul-docs-4": {
+      "document": "seoul-2025",
+      "page": 3,
+      "start": 631,
+      "end": 659,
+      "text_sha256": "bb406e993c99e42977bc0d66ffbecf50907ef7ef3db82f8e63b8e4f53ca23311"
+    },
+    "seoul-proxy-cohabitant": {
+      "document": "seoul-2025",
+      "page": 3,
+      "start": 354,
+      "end": 483,
+      "text_sha256": "59a6f3b187a2a6d7a903506aaa49a758cf2facc3e27f55622a053de586aa70b3"
+    },
+    "seoul-proxy-parent": {
+      "document": "seoul-2025",
+      "page": 3,
+      "start": 354,
+      "end": 483,
+      "text_sha256": "59a6f3b187a2a6d7a903506aaa49a758cf2facc3e27f55622a053de586aa70b3"
+    },
+    "seoul-young-income-5000": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 370,
+      "end": 405,
+      "text_sha256": "301cb0f93d2d65d86fc0e07f64648447f1217488e017d4a80567c42c366b8237"
+    },
+    "seoul-young-income-5001": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 370,
+      "end": 405,
+      "text_sha256": "301cb0f93d2d65d86fc0e07f64648447f1217488e017d4a80567c42c366b8237"
+    },
+    "seoul-deposit-edge": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 296,
+      "end": 321,
+      "text_sha256": "75f565d5e3d3d4b5840fa8b0089d99fbf572a3a839210269d1c8e74f244c916b"
+    },
+    "seoul-deposit-over": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 296,
+      "end": 321,
+      "text_sha256": "75f565d5e3d3d4b5840fa8b0089d99fbf572a3a839210269d1c8e74f244c916b"
+    },
+    "seoul-marriage-eight": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 476,
+      "end": 522,
+      "text_sha256": "d1e22ec0e8d7a1f51304497c8245f4807ddb578d262a3a42f12647e1b25a39bd"
+    },
+    "seoul-insurance-expired": {
+      "document": "seoul-2025",
+      "page": 2,
+      "start": 549,
+      "end": 603,
+      "text_sha256": "666df468445d8b523e6ee46f6d6b674340554291eeff38b76ab20df189660c3f"
+    }
+  }
+}

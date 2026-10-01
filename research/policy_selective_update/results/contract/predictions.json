@@ -1,0 +1,589 @@
+{
+  "kanana-public": {
+    "contract": {
+      "after": {
+        "created_utc": "2026-10-01T10:20:41.722976+00:00",
+        "elapsed_seconds": 1.614,
+        "full_parsed_sha256": "2113457d6974e30258a67873383ebebabecd4f535d018ea89eb18d4eea58ce82",
+        "id": "after",
+        "input_sha256": "f1936aa9a5b684b9d972089be68d0fb787c672792b17543a0030958a4fd26089",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "branches": [
+            {
+              "evidence": [
+                "NCAP"
+              ],
+              "from_inclusive": "2025-03-31",
+              "max_krw": 400000,
+              "until_exclusive": null
+            },
+            {
+              "evidence": [
+                "NCAP"
+              ],
+              "from_inclusive": null,
+              "max_krw": 300000,
+              "until_exclusive": "2025-03-31"
+            }
+          ]
+        },
+        "private_response_sha256": "59e4b55129b3a01e004f96608207b7a40fdbf70ae8122cb718107a4a44d80d55",
+        "request_sha256": "af5317d2f48c36c56ba11b772d2cb23061e03796c1798a5495a2b4484a226878",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 113,
+          "eval_duration": 1548453000,
+          "load_duration": 893601,
+          "prompt_eval_count": 266,
+          "prompt_eval_duration": 33275000,
+          "total_duration": 1612538022
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "contract"
+      },
+      "before": {
+        "created_utc": "2026-10-01T10:20:40.108774+00:00",
+        "elapsed_seconds": 4.877,
+        "full_parsed_sha256": "7c6abd5dbd84a289180ea92549eaf6448aedc1b139077d15c63fa0a31838e466",
+        "id": "before",
+        "input_sha256": "e46ff2f60af48dfd50906b5f1f647add651d9d3400ac426b859a3219052bab78",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "branches": [
+            {
+              "evidence": [
+                "OCAP"
+              ],
+              "from_inclusive": "2023-01-01",
+              "max_krw": 300000,
+              "until_exclusive": "2023-12-31"
+            }
+          ]
+        },
+        "private_response_sha256": "1c9851bc0597fb6bbab559da4578e9545917f20d595fe4d41f8cb7448595ea9b",
+        "request_sha256": "a0d69e289d9419cf61abc393e2140d7e75d8c7077119eec4cfa71fd4dde49ad4",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 65,
+          "eval_duration": 955518000,
+          "load_duration": 3802603195,
+          "prompt_eval_count": 236,
+          "prompt_eval_duration": 92118000,
+          "total_duration": 4875951721
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "contract"
+      }
+    },
+    "matched": {
+      "seoul-cap-new-30": {
+        "created_utc": "2026-10-01T10:20:42.926671+00:00",
+        "elapsed_seconds": 0.533,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-new-30",
+        "input_sha256": "a049e7bb2b27038ec3bf5e4330c7103f6d626166573db4cf280aa1cf3fd33864",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "1a4e661cd37de8ffc1d2dd0d51be6a9a087f7b3c682c37d7e2981e18736a18c4",
+        "request_sha256": "c45e0944b5b435f6b1703f250645b203b8802cd2c8f58f0a4a042549948f4302",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 481298000,
+          "load_duration": 886489,
+          "prompt_eval_count": 429,
+          "prompt_eval_duration": 19356000,
+          "total_duration": 531661617
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-new-40": {
+        "created_utc": "2026-10-01T10:20:42.393061+00:00",
+        "elapsed_seconds": 0.67,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-new-40",
+        "input_sha256": "2bc366e6ee01e56e830a09f56788a46b5edc4031ec99078a16d93130c314fccc",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "02d0d9b12fc247c4605a1bb6180c540aa5f4737eb375731c75238a60b4ee5921",
+        "request_sha256": "ada5e70c4abbefff4d1025218befa1e9a39a6725584f51a42e85b4c15e5170c6",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 479846000,
+          "load_duration": 804033,
+          "prompt_eval_count": 429,
+          "prompt_eval_duration": 135483000,
+          "total_duration": 668419818
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-old-30": {
+        "created_utc": "2026-10-01T10:20:43.983238+00:00",
+        "elapsed_seconds": 0.525,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-old-30",
+        "input_sha256": "7c5b88245fd2d51b4598bcdd58b71838f247f7629365d75b8a81f6e290609be7",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "14204c5d8def2a644e97de41d1fd7a250f081c109b1ede55da74a8b4437afb55",
+        "request_sha256": "a20bebde3364d187a7589f48dca682fb0745c0588f386f05481d50bb9855d800",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 476975000,
+          "load_duration": 870951,
+          "prompt_eval_count": 429,
+          "prompt_eval_duration": 19249000,
+          "total_duration": 524002917
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-old-40": {
+        "created_utc": "2026-10-01T10:20:43.457780+00:00",
+        "elapsed_seconds": 0.531,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-old-40",
+        "input_sha256": "44a4e055b5da21f7e87a51953d31d15362dbdb27d6d2968da13b6bc49c2df4b2",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "bc718c85da09882957875647831754f869139c0d39b7b15aa86a36e9a4e4cbfb",
+        "request_sha256": "3d2e21287cf98647b3b8cffa47ba78197fa782f90314c6792684db8dbff7c639",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 481157000,
+          "load_duration": 829870,
+          "prompt_eval_count": 429,
+          "prompt_eval_duration": 22214000,
+          "total_duration": 529526340
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-unknown-30": {
+        "created_utc": "2026-10-01T10:20:45.034660+00:00",
+        "elapsed_seconds": 0.534,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-unknown-30",
+        "input_sha256": "5be7f39ef9969ddc66c9209cc3926dac2ed281fe1741d144f97a3996a00acfd2",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "2d17bd5786b24456a7dd80beb16e745fc5c3dbb646bd52b847f7850fb593f543",
+        "request_sha256": "67fbbc8bc37c701699e3f84ba6e7f39aaee8adbfd08e2acb06bb2de3b26483f4",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 482306000,
+          "load_duration": 824081,
+          "prompt_eval_count": 422,
+          "prompt_eval_duration": 19310000,
+          "total_duration": 532976645
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-unknown-40": {
+        "created_utc": "2026-10-01T10:20:44.499973+00:00",
+        "elapsed_seconds": 0.517,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-unknown-40",
+        "input_sha256": "203df2e84ad3bfba8fb49575f2005dc4778d0691e0971ae62e7aaad3da10daea",
+        "model": "kanana-public",
+        "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+        "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "a3df79ab00dcdce5913b9b1c334f0b70bf631eee7e29d4d3419d42fc78a33685",
+        "request_sha256": "a7d726a7e4fd57668025241a44938820df16ee3bcda8d7b32c5f551f836071e0",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 467108000,
+          "load_duration": 789625,
+          "prompt_eval_count": 422,
+          "prompt_eval_duration": 22079000,
+          "total_duration": 515200765
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      }
+    }
+  },
+  "qwen": {
+    "contract": {
+      "after": {
+        "created_utc": "2026-10-01T10:20:30.066151+00:00",
+        "elapsed_seconds": 2.706,
+        "full_parsed_sha256": "2113457d6974e30258a67873383ebebabecd4f535d018ea89eb18d4eea58ce82",
+        "id": "after",
+        "input_sha256": "f1936aa9a5b684b9d972089be68d0fb787c672792b17543a0030958a4fd26089",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "branches": [
+            {
+              "evidence": [
+                "NCAP"
+              ],
+              "from_inclusive": "2025-03-31",
+              "max_krw": 400000,
+              "until_exclusive": null
+            },
+            {
+              "evidence": [
+                "NCAP"
+              ],
+              "from_inclusive": null,
+              "max_krw": 300000,
+              "until_exclusive": "2025-03-31"
+            }
+          ]
+        },
+        "private_response_sha256": "81925281d9646adb6fef6ec4f291d1855048e39d92f4a0bd16ac78b9d0670ebf",
+        "request_sha256": "32793ae0624ad12802b508561b85dfcdc555521240fa3fb14c35d2b3b7d7e830",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 148,
+          "eval_duration": 2521760000,
+          "load_duration": 968132,
+          "prompt_eval_count": 236,
+          "prompt_eval_duration": 176610000,
+          "total_duration": 2703851065
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "contract"
+      },
+      "before": {
+        "created_utc": "2026-10-01T10:20:27.359247+00:00",
+        "elapsed_seconds": 7.215,
+        "full_parsed_sha256": "2bdaa13594529079f97214dd81876f299d00bb022f79b7fd196c2c21ecf2c22e",
+        "id": "before",
+        "input_sha256": "e46ff2f60af48dfd50906b5f1f647add651d9d3400ac426b859a3219052bab78",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "branches": [
+            {
+              "evidence": [
+                "OCAP"
+              ],
+              "from_inclusive": null,
+              "max_krw": 300000,
+              "until_exclusive": null
+            }
+          ]
+        },
+        "private_response_sha256": "b9287ac98c8f1b497247ceafe0f2e62d97ca35cacda55593dcc5fcb4e39eb144",
+        "request_sha256": "27d6cde54e6e396030627196cf3340e5d7aaa27a14528b80bd8aa41312a8826a",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 72,
+          "eval_duration": 1630152000,
+          "load_duration": 5426008070,
+          "prompt_eval_count": 204,
+          "prompt_eval_duration": 151464000,
+          "total_duration": 7213511990
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "contract"
+      }
+    },
+    "matched": {
+      "seoul-cap-new-30": {
+        "created_utc": "2026-10-01T10:20:32.123895+00:00",
+        "elapsed_seconds": 0.809,
+        "full_parsed_sha256": "7f3dcce4ed206b9ada217d33dd5156c771922b8e8b603a0c4b53bfb03ce0fd59",
+        "id": "seoul-cap-new-30",
+        "input_sha256": "a049e7bb2b27038ec3bf5e4330c7103f6d626166573db4cf280aa1cf3fd33864",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "contradicted",
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "312453762c7d09156d33d4a1d0e415ab73c8242813bd6b01c764b97f6e0fc790",
+        "request_sha256": "42dd1b21b2a67beb0b174b031a6a3591982bb0079742931ac326622cce3ac721",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 625159000,
+          "load_duration": 872095,
+          "prompt_eval_count": 378,
+          "prompt_eval_duration": 177036000,
+          "total_duration": 806459365
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-new-40": {
+        "created_utc": "2026-10-01T10:20:31.315008+00:00",
+        "elapsed_seconds": 1.248,
+        "full_parsed_sha256": "768c132465bfa54178fdff25bcb10080127425dbb503b73206fa7ebf45310e8c",
+        "id": "seoul-cap-new-40",
+        "input_sha256": "2bc366e6ee01e56e830a09f56788a46b5edc4031ec99078a16d93130c314fccc",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "supported",
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "7d898841188d8196095c42c0e15442d3eb17b0d8528f085ef96f9ae42dd1e4aa",
+        "request_sha256": "2390790e2e5fe1a0a1964f53d6bd68278303bd3784800f3ea12e93eb282fa8ed",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 29,
+          "eval_duration": 943162000,
+          "load_duration": 1047772,
+          "prompt_eval_count": 378,
+          "prompt_eval_duration": 201140000,
+          "total_duration": 1246257639
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-old-30": {
+        "created_utc": "2026-10-01T10:20:33.716348+00:00",
+        "elapsed_seconds": 0.824,
+        "full_parsed_sha256": "7f3dcce4ed206b9ada217d33dd5156c771922b8e8b603a0c4b53bfb03ce0fd59",
+        "id": "seoul-cap-old-30",
+        "input_sha256": "7c5b88245fd2d51b4598bcdd58b71838f247f7629365d75b8a81f6e290609be7",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "contradicted",
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "78b907e1b9fae79cc61309c9b129a60ba1e7f100e95e509aec0987fe94e5887f",
+        "request_sha256": "17131541c9c304fe7a348551002a78fdd2ccabef5dae4550cbf251498de19b14",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 31,
+          "eval_duration": 641154000,
+          "load_duration": 802815,
+          "prompt_eval_count": 379,
+          "prompt_eval_duration": 176568000,
+          "total_duration": 822260723
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-old-40": {
+        "created_utc": "2026-10-01T10:20:32.892274+00:00",
+        "elapsed_seconds": 0.768,
+        "full_parsed_sha256": "768c132465bfa54178fdff25bcb10080127425dbb503b73206fa7ebf45310e8c",
+        "id": "seoul-cap-old-40",
+        "input_sha256": "44a4e055b5da21f7e87a51953d31d15362dbdb27d6d2968da13b6bc49c2df4b2",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "supported",
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "e7ce5debaccc792c41e25368352563d9d64abfe88d0a7be284f22c61a1053a86",
+        "request_sha256": "59938d83fcf9e58b0de8a91ac55f23742612efd0d91ccadf2fbfaaad0548fcd5",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 29,
+          "eval_duration": 568991000,
+          "load_duration": 1343103,
+          "prompt_eval_count": 379,
+          "prompt_eval_duration": 191280000,
+          "total_duration": 765528549
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-unknown-30": {
+        "created_utc": "2026-10-01T10:20:35.228015+00:00",
+        "elapsed_seconds": 0.874,
+        "full_parsed_sha256": "80b89f1c255f2b836c2022dc121b2c510435a6f589943e8e3002d6a7ec67d647",
+        "id": "seoul-cap-unknown-30",
+        "input_sha256": "5be7f39ef9969ddc66c9209cc3926dac2ed281fe1741d144f97a3996a00acfd2",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "OCAP",
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "88543c8e80b9a89bf48851e692e68393ae0d4d9c5d3d26259afd9149feabaf39",
+        "request_sha256": "54935a863c7c7ef0ecfb30678db55ee06e7be72c52f08e37b21f49c62196c0f1",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 38,
+          "eval_duration": 692602000,
+          "load_duration": 814685,
+          "prompt_eval_count": 368,
+          "prompt_eval_duration": 175520000,
+          "total_duration": 872092180
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      },
+      "seoul-cap-unknown-40": {
+        "created_utc": "2026-10-01T10:20:34.354002+00:00",
+        "elapsed_seconds": 0.637,
+        "full_parsed_sha256": "54404ea0c36ccbd1ddf3b5fb79776b4eb6f869d25a879cc27206a6a888877327",
+        "id": "seoul-cap-unknown-40",
+        "input_sha256": "203df2e84ad3bfba8fb49575f2005dc4778d0691e0971ae62e7aaad3da10daea",
+        "model": "qwen",
+        "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "model_name": "qwen3.5:9b",
+        "parsed": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP"
+          ]
+        },
+        "private_response_sha256": "02d723338e5c593ef0af80afec2542a21a4650da74734d719094b8db74e8d32c",
+        "request_sha256": "daafa02f5d02e94f3ea34fdde062660fdbe5e183657aa425e7f1bf981174d66c",
+        "response_redacted": true,
+        "runtime": {
+          "done": true,
+          "done_reason": "stop",
+          "eval_count": 25,
+          "eval_duration": 454488000,
+          "load_duration": 1075025,
+          "prompt_eval_count": 368,
+          "prompt_eval_duration": 176229000,
+          "total_duration": 635791551
+        },
+        "server": {
+          "version": "0.33.2"
+        },
+        "stage": "matched"
+      }
+    }
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "kanana-public": {
+    "boundary_cases": [
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-1",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-2",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "supported",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-3",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-4",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-5",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-6",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "supported",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-7",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-8",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-9",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "supported",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-10",
+        "joined_on": null,
+        "predictions": {
+          "after": "contradicted",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "not_established",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-11",
+        "joined_on": null,
+        "predictions": {
+          "after": "not_established",
+          "before": "abstain"
+        }
+      },
+      {
+        "after": "not_established",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": false
+        },
+        "id": "boundary-12",
+        "joined_on": null,
+        "predictions": {
+          "after": "not_established",
+          "before": "abstain"
+        }
+      }
+    ],
+    "contracts_valid": {
+      "after": true,
+      "before": false
+    },
+    "matched_cases": [
+      {
+        "contract_correct": true,
+        "contract_prediction": "supported",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-new-40",
+        "reference": "supported"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "contradicted",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-new-30",
+        "reference": "contradicted"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "contradicted",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-old-40",
+        "reference": "contradicted"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "supported",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-old-30",
+        "reference": "supported"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "not_established",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-unknown-40",
+        "reference": "not_established"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "not_established",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-unknown-30",
+        "reference": "not_established"
+      }
+    ],
+    "summary": {
+      "after_correct": 12,
+      "before_correct": 0,
+      "boundary_n": 12,
+      "contract_correct": 6,
+      "direct_correct": 2,
+      "matched_n": 6
+    }
+  },
+  "qwen": {
+    "boundary_cases": [
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-1",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "contradicted",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-2",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "supported",
+          "before": "supported"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-3",
+        "joined_on": "2025-03-30",
+        "predictions": {
+          "after": "contradicted",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-4",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "contradicted",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-5",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "contradicted",
+          "before": "supported"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-6",
+        "joined_on": "2025-03-31",
+        "predictions": {
+          "after": "supported",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-7",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "contradicted",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-8",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "contradicted",
+          "before": "supported"
+        }
+      },
+      {
+        "after": "supported",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-9",
+        "joined_on": "2025-04-01",
+        "predictions": {
+          "after": "supported",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "contradicted",
+        "asserted_cap": 200000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-10",
+        "joined_on": null,
+        "predictions": {
+          "after": "contradicted",
+          "before": "contradicted"
+        }
+      },
+      {
+        "after": "not_established",
+        "asserted_cap": 300000,
+        "before": "supported",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-11",
+        "joined_on": null,
+        "predictions": {
+          "after": "not_established",
+          "before": "supported"
+        }
+      },
+      {
+        "after": "not_established",
+        "asserted_cap": 400000,
+        "before": "contradicted",
+        "correct": {
+          "after": true,
+          "before": true
+        },
+        "id": "boundary-12",
+        "joined_on": null,
+        "predictions": {
+          "after": "not_established",
+          "before": "contradicted"
+        }
+      }
+    ],
+    "contracts_valid": {
+      "after": true,
+      "before": true
+    },
+    "matched_cases": [
+      {
+        "contract_correct": true,
+        "contract_prediction": "supported",
+        "direct": {
+          "decision": "supported",
+          "evidence": [
+            "NCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-new-40",
+        "reference": "supported"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "contradicted",
+        "direct": {
+          "decision": "contradicted",
+          "evidence": [
+            "NCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-new-30",
+        "reference": "contradicted"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "contradicted",
+        "direct": {
+          "decision": "supported",
+          "evidence": [
+            "NCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-old-40",
+        "reference": "contradicted"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "supported",
+        "direct": {
+          "decision": "contradicted",
+          "evidence": [
+            "NCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": false,
+        "id": "seoul-cap-old-30",
+        "reference": "supported"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "not_established",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-unknown-40",
+        "reference": "not_established"
+      },
+      {
+        "contract_correct": true,
+        "contract_prediction": "not_established",
+        "direct": {
+          "decision": "not_established",
+          "evidence": [
+            "NCAP",
+            "OCAP"
+          ],
+          "reason": "valid"
+        },
+        "direct_correct": true,
+        "id": "seoul-cap-unknown-30",
+        "reference": "not_established"
+      }
+    ],
+    "summary": {
+      "after_correct": 12,
+      "before_correct": 12,
+      "boundary_n": 12,
+      "contract_correct": 6,
+      "direct_correct": 4,
+      "matched_n": 6
+    }
+  }
+}

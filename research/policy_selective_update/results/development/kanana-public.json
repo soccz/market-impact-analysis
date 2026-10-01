@@ -1,0 +1,3581 @@
+{
+  "after": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:44:37.237097+00:00",
+      "elapsed_seconds": 0.54,
+      "full_parsed_sha256": "9b0c9b8a3a7d0c56b09a849936e197982033907ee0ccc9c5dbb48317e9fb35b8",
+      "id": "added_exception-1",
+      "input_sha256": "f5a1d3b7817bfa306d307eed240512b4a68623fca0fa120b05d9b131dcf123a0",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "6f6c98c25c1ae25b774400d595838b0bf355de50e8f27397de8e3811998109f1",
+      "request_sha256": "3c3046855c84575a26e7d699cdcacd295830214d50110de118cc8ea680d96d81",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 28,
+        "eval_duration": 429109000,
+        "load_duration": 749691,
+        "prompt_eval_count": 354,
+        "prompt_eval_duration": 55266000,
+        "total_duration": 538667144
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:44:38.879590+00:00",
+      "elapsed_seconds": 0.439,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "added_exception-2",
+      "input_sha256": "4a709a488456ab82b314d80d7da230ed9baadf9fd22241aebe97fbd63f030aae",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "eccea5a385d9a4303340624e609f78e19d8dea3d6a37a1340c6f5a3e0178dd95",
+      "request_sha256": "376cc7f10f0665bc1112a88728ca26128b3525052a2f65c850555c06f5d9fdb9",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 370527000,
+        "load_duration": 969110,
+        "prompt_eval_count": 348,
+        "prompt_eval_duration": 19783000,
+        "total_duration": 437888287
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:44:40.568806+00:00",
+      "elapsed_seconds": 0.43,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "added_exception-3",
+      "input_sha256": "b9a5bb543b3b16c6856c7c6d7b2a5beed0a321d8f0b318cfe3b831dbfbf42112",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "3659a434b61c6cee74c648d3559ab549d458a0832f4e9449be921bcb5970bc55",
+      "request_sha256": "c52ebf7de39e44590d916d28aeb24cf32c165a39b7845385f046afd55d040aed",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 366635000,
+        "load_duration": 742829,
+        "prompt_eval_count": 348,
+        "prompt_eval_duration": 19870000,
+        "total_duration": 428527608
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:44:19.556736+00:00",
+      "elapsed_seconds": 0.468,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "exception-1",
+      "input_sha256": "aad1bf0e484a30abd23da54b3b4c0b850352866857eb017a749163d60f11f54a",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "5ae9586b67dbc1e99910c8e643b8129ae48f5a360894bc986c306a16a6fc7f1e",
+      "request_sha256": "94d5b46ec888b802d8cf79ae8c592e22505878412bd8bfaf80060239cb9bb701",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 364448000,
+        "load_duration": 724673,
+        "prompt_eval_count": 360,
+        "prompt_eval_duration": 56055000,
+        "total_duration": 466571184
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:44:21.612215+00:00",
+      "elapsed_seconds": 0.588,
+      "full_parsed_sha256": "a647ac17571b3e3550e8ed820af36f640708d4611297596f94f9a1619ff6d731",
+      "id": "exception-2",
+      "input_sha256": "1c41f822c021d3175ec7e9e8930fd0f6ee7cfa678baee44a1fbc5898566ca303",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "63c8df1da901101a127f9f69ac8c04867a3f4e726334c2e3e7109c164032cfcd",
+      "request_sha256": "a3a7ab3257ba91626ecad1e9f917058fd6317f502d6282e36672d70a53f68db4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 36,
+        "eval_duration": 520119000,
+        "load_duration": 939489,
+        "prompt_eval_count": 354,
+        "prompt_eval_duration": 19713000,
+        "total_duration": 586314111
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:44:23.500116+00:00",
+      "elapsed_seconds": 0.523,
+      "full_parsed_sha256": "792efdc814dcd92e5354f38a397b4b64af47db9a3d12c6bf0b0b9d52a9ea833f",
+      "id": "exception-3",
+      "input_sha256": "3c93b5fc86fa62e2e44400e63e55acd90ef03cf388f48b69964e40f7b46edcb2",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "N1",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "72fdad199323bfd99f49ec18d0904c66ff00474590b84549d8dfd601ac7c7371",
+      "request_sha256": "5c4d0db2ee99a7a70b8844e937a5907ba019cb6d11ad5baa07d29e58a623e682",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 456035000,
+        "load_duration": 902854,
+        "prompt_eval_count": 358,
+        "prompt_eval_duration": 19763000,
+        "total_duration": 521447112
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:44:13.764143+00:00",
+      "elapsed_seconds": 0.474,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "grandfather-1",
+      "input_sha256": "ecc515dd029096d778ae8ea4d693a03e536945ea525c89cb27d930b55abcf70d",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "0368129362cece91aaa16bfbc9d3502aba64be8eda398d8d6933a2d22d51c56c",
+      "request_sha256": "5f55e678f9a5ca135410d1b272dbc07b20c6ed9b2d508c49bd9175171e021ebc",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 359796000,
+        "load_duration": 823099,
+        "prompt_eval_count": 381,
+        "prompt_eval_duration": 62590000,
+        "total_duration": 473160328
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:44:15.800335+00:00",
+      "elapsed_seconds": 0.433,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "grandfather-2",
+      "input_sha256": "744ef84e77ba87bb9bc663feb73a07da8b70d9991970a297a4ce3a1bee821c88",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "0ef1c459c6d84f464169a85714ed91dfb272823cdebe19b14ced130bef3655c3",
+      "request_sha256": "9bba13a57180ee6d434ad11805ee97d24036bd57a632dfa9fd968047e5429275",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 362867000,
+        "load_duration": 886317,
+        "prompt_eval_count": 383,
+        "prompt_eval_duration": 23753000,
+        "total_duration": 431111472
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:44:17.614536+00:00",
+      "elapsed_seconds": 0.43,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "grandfather-3",
+      "input_sha256": "4edeb7d2b0e6dac021a324884a13cef487172fc1bb575ff0592cd5cc9a86db77",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "c5680b46e8ec47dd18b1165babf9275b91e2ddd40f9869c6f731550e604f7a79",
+      "request_sha256": "947ba97d0be4e0a256d6ae91a5af0d4019c3b51e1296338eaf04a3de9bcbe2a5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 360780000,
+        "load_duration": 831364,
+        "prompt_eval_count": 384,
+        "prompt_eval_duration": 21551000,
+        "total_duration": 428361305
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:44:42.468099+00:00",
+      "elapsed_seconds": 0.561,
+      "full_parsed_sha256": "dad4d20751b319c3d56569eed05da460d9bb6df6487985981fc53b622695108e",
+      "id": "modality-1",
+      "input_sha256": "3ddc2ce81c368c1e97376a709d791d5c704eed48029cbb22fc54aac05f95b898",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "contradicted",
+        "evidence": [
+          "O1",
+          "N1"
+        ]
+      },
+      "private_response_sha256": "f6b54bd78ae6f312d3a05639aa2cfadd2db1369d896b1291bb27ba170aae9874",
+      "request_sha256": "fc18374f59551f5bd14ad9b8883332bc0c8ee3a15c7538ec748753b069c35e7d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 454105000,
+        "load_duration": 857361,
+        "prompt_eval_count": 376,
+        "prompt_eval_duration": 56918000,
+        "total_duration": 559029603
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:44:44.503399+00:00",
+      "elapsed_seconds": 0.526,
+      "full_parsed_sha256": "5b4bdc037074acca3d320c8077c1925d989eecd031cbadf822409afc13c4dce6",
+      "id": "modality-2",
+      "input_sha256": "e8c7373c8be430d9cd74bed5b13d6609c1a8e6444f10f5ab46d308d9532ba033",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "N1"
+        ]
+      },
+      "private_response_sha256": "d463520516d29bb18e401c0ae5c472d5e6d82600bc9e3e3022f4460f781a9850",
+      "request_sha256": "61853cbc63ca24da6d796baeca09dcb900940ae36e6fd873002e6afa8486cd2c",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 457236000,
+        "load_duration": 720626,
+        "prompt_eval_count": 379,
+        "prompt_eval_duration": 19107000,
+        "total_duration": 524123414
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:44:46.344263+00:00",
+      "elapsed_seconds": 0.52,
+      "full_parsed_sha256": "dc5edbbf14699e35076f719fc79cfafadba47745699edb1d21414d0eff10cd70",
+      "id": "modality-3",
+      "input_sha256": "cdb7d85c381135a58614344a9f7f6c308cd62d6ed100250af0e26913fe275f00",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O2",
+          "N2"
+        ]
+      },
+      "private_response_sha256": "3163a4b172db3b47be5a7bad4fd1f81e5d28333b477ec6d6c1bbb9bcec0fe0b0",
+      "request_sha256": "b85f2913280834be45b9ae727b2ab47ace0f39a9f8b2591a2f4234bf7163b7c4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 442370000,
+        "load_duration": 974555,
+        "prompt_eval_count": 365,
+        "prompt_eval_duration": 21750000,
+        "total_duration": 518695958
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:44:25.482188+00:00",
+      "elapsed_seconds": 0.465,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "other_program-1",
+      "input_sha256": "ab4e3dbb8004129dc8d80d2d37d0dd14ec980058896dc95704a7a67d104976cb",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "7e6e454fa57df7ad2e39128fb4a7d594957a10ac6985e7f2770469eddee38d56",
+      "request_sha256": "d185f00ed1a0cb414cfade82e400cc52500fb9d68331c52c14a3455acc8efcbb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 356709000,
+        "load_duration": 831148,
+        "prompt_eval_count": 354,
+        "prompt_eval_duration": 55618000,
+        "total_duration": 462949654
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:44:27.437234+00:00",
+      "elapsed_seconds": 0.433,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "other_program-2",
+      "input_sha256": "46885402beb1693910cf5cfa33930c866c6b749a7657411409e95d22c60833c6",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "09d09edd824818474274d76f2fcc3af86c9953d890aa9f7bd093d67735d43cfb",
+      "request_sha256": "6606aa20a6f0afc09a323c5db7fb7eff691ab6d4dc77c3bbe9e6a3a50039192d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 364099000,
+        "load_duration": 859819,
+        "prompt_eval_count": 354,
+        "prompt_eval_duration": 19677000,
+        "total_duration": 430892885
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:44:29.432903+00:00",
+      "elapsed_seconds": 0.426,
+      "full_parsed_sha256": "b0592737e79a2185e7a66718a8c85bb04f6c8e50fd8ac8b79e8e43f2bec8fd54",
+      "id": "other_program-3",
+      "input_sha256": "819a0fa72ee3617cd1593c16ab2531327a8507fe403cef54ee39728c0dddc75f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N2"
+        ]
+      },
+      "private_response_sha256": "f19cb93089a213d93a42649d31e54acbfe43eee3a628438697421b4d7c8e3bc6",
+      "request_sha256": "25fb4d206e6e871353db8aa233811003a2834546562df8906097ca0ea368db95",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 358910000,
+        "load_duration": 874056,
+        "prompt_eval_count": 354,
+        "prompt_eval_duration": 21579000,
+        "total_duration": 424165012
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:44:31.384784+00:00",
+      "elapsed_seconds": 0.449,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "partial_evidence-1",
+      "input_sha256": "380aba33149c4cdbf60c94a5fa211b85a669271a6db59945034733994e8daec1",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "b476a3420d3515ce6b012b7168f3233f6cf74613253c34e150f5dc7d7bd02992",
+      "request_sha256": "05fcee44f7c87d56fa957d9608571175d9191126de1cf7733b4656deaef10297",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 356311000,
+        "load_duration": 761208,
+        "prompt_eval_count": 335,
+        "prompt_eval_duration": 45265000,
+        "total_duration": 447574299
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:44:33.184697+00:00",
+      "elapsed_seconds": 0.428,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "partial_evidence-2",
+      "input_sha256": "6ba038e0515dd980f2c18489812fcab0c45cbffe0bc75e439e5f6f1b486739aa",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "53bfb348b4b7b6ae4f33d4c4a6b5e18ed096e00e71ccc0984d9e18eaa8d6c63e",
+      "request_sha256": "ab1cdfece3dbfea7ad574691b6986e3b725b159ecc0c7ee4268f90506ba99d13",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 357346000,
+        "load_duration": 832173,
+        "prompt_eval_count": 332,
+        "prompt_eval_duration": 21519000,
+        "total_duration": 426942344
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:44:35.403366+00:00",
+      "elapsed_seconds": 0.589,
+      "full_parsed_sha256": "04d817f95e0e3ccc688c5fb461e58fe44711b2c143549430d4c8b6d9626858e2",
+      "id": "partial_evidence-3",
+      "input_sha256": "291b101a518a442984704444bc0ec2a5123fda9f404f751d13b0b63ed6cb2584",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "O2",
+          "N1"
+        ]
+      },
+      "private_response_sha256": "0992a9c0433f3f3fea4df42ada76fe3d30e737f2303f773ed386ef257d8d8348",
+      "request_sha256": "44d36e13daf4ba77d32beb80f9c8c416fb5b43139fb4ed29a43ab1229aea3793",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 36,
+        "eval_duration": 524616999,
+        "load_duration": 736168,
+        "prompt_eval_count": 332,
+        "prompt_eval_duration": 19968000,
+        "total_duration": 587558783
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:44:03.046867+00:00",
+      "elapsed_seconds": 0.542,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "threshold-1",
+      "input_sha256": "debfa3fc38b56a4c3e4cb4b8cd0c6d34f9545d1002cde0bd5761ec9b7a41ce3c",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "ef0a76ddad13537fe5d40b8f9fc7bb8b589412807cc207cbbbdfbcbfa3568ac5",
+      "request_sha256": "674e3355ff37e12d91bd189a2b97bb958bd0e9cd85945572fa81d2fe9d1b657c",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 365117000,
+        "load_duration": 1035218,
+        "prompt_eval_count": 306,
+        "prompt_eval_duration": 105726000,
+        "total_duration": 540458613
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:44:04.793067+00:00",
+      "elapsed_seconds": 0.433,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "threshold-2",
+      "input_sha256": "5cdc12c8ab4837aa8ba5d1c5b51ba4e73ffd66924b11bde69198b08a93baeff1",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "cba1332b1375e976f97a49d72c80d66c5a4f7ff2eb8eae33d65687f627ccdead",
+      "request_sha256": "71894aba1a754a4d3062ffacfb37b9f1de75fc37331605e44f666b5aa3fedd1e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 357639000,
+        "load_duration": 970980,
+        "prompt_eval_count": 306,
+        "prompt_eval_duration": 19474000,
+        "total_duration": 431351198
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:44:06.606457+00:00",
+      "elapsed_seconds": 0.535,
+      "full_parsed_sha256": "5b4bdc037074acca3d320c8077c1925d989eecd031cbadf822409afc13c4dce6",
+      "id": "threshold-3",
+      "input_sha256": "c5cdd00abf87e9cad56980bee76a703c446ce8bc6b38536b2e4cd7f4ad388816",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "N1"
+        ]
+      },
+      "private_response_sha256": "458cc7e0d6a6a6418454fdfb5ad6976f18b1761e40035057f36c534ae5316ea9",
+      "request_sha256": "4ee3f7e291a00a831f349b3c66fc4c3559daf51dda6f55183936b88c97817492",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 468343000,
+        "load_duration": 918346,
+        "prompt_eval_count": 306,
+        "prompt_eval_duration": 19721000,
+        "total_duration": 533968355
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:44:08.308181+00:00",
+      "elapsed_seconds": 0.452,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "wording-1",
+      "input_sha256": "7a8f4906ae2324158bfdb9d3bbb31aeec68379914106a2da26d0acafc5ab0ade",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "ef9b76da543f4decf5bcd976c69c8fb6cb8e790e45d313c3d3cfe9b56f214b72",
+      "request_sha256": "ce2f48cade73c6d1ee3c776ff436a54ff227ff64daba0928db2db676c112deac",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 361385000,
+        "load_duration": 810882,
+        "prompt_eval_count": 316,
+        "prompt_eval_duration": 40607000,
+        "total_duration": 450801030
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:44:09.995769+00:00",
+      "elapsed_seconds": 0.424,
+      "full_parsed_sha256": "341af07514b82608530669c412c8b757518692041099c7cbb02177495d9625e4",
+      "id": "wording-2",
+      "input_sha256": "acde7ed4037a81d491c135adaa226baa61ac830c071e23fd110d88028f2cdd55",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "N1"
+        ]
+      },
+      "private_response_sha256": "2d8c556a1c5cf690164db400e0302b4cbcfd6aac18beb46cbcf63b050f7bbb71",
+      "request_sha256": "893dc770c02b2c497621afb6bd59bfd762a429f11b7bebd36f44dbba227746b6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 357802000,
+        "load_duration": 745882,
+        "prompt_eval_count": 316,
+        "prompt_eval_duration": 19386000,
+        "total_duration": 422736786
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:44:11.868007+00:00",
+      "elapsed_seconds": 0.529,
+      "full_parsed_sha256": "5b4bdc037074acca3d320c8077c1925d989eecd031cbadf822409afc13c4dce6",
+      "id": "wording-3",
+      "input_sha256": "8ff06cf30c67fbf8a6dd801940743048c30c4e114f3438deabe1a02b3281251f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "N1"
+        ]
+      },
+      "private_response_sha256": "fc324cdba1ff640c210f8a29280bbd4041c6b81241af094ccc229b67e8d335b1",
+      "request_sha256": "14e122b0f98858ee8b724d871904d0a2cae00b90563d0a5ee6a5290d5a1cb277",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 457835000,
+        "load_duration": 845728,
+        "prompt_eval_count": 316,
+        "prompt_eval_duration": 19656000,
+        "total_duration": 527778553
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "after"
+    }
+  },
+  "before": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:44:36.696686+00:00",
+      "elapsed_seconds": 0.358,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "added_exception-1",
+      "input_sha256": "dca37df30972516e89037dfe62683d3e7175ea9c153c7d107258770e80374744",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "df0f2fd5042ccbb402f2accf72bf994d77d053513eccfe8a881dd35c146f027b",
+      "request_sha256": "fe707c525d68fbab02784bf2930f5a0f8d6bfdef476b2a7fd9def915aa9f90a8",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 247585000,
+        "load_duration": 746279,
+        "prompt_eval_count": 219,
+        "prompt_eval_duration": 32104000,
+        "total_duration": 356703139
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:44:38.440083+00:00",
+      "elapsed_seconds": 0.325,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "added_exception-2",
+      "input_sha256": "d62c19a14df2c6ed9c0e47590a2083f55eff161e711a2b11328a61df64cf1618",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "70f598c731748b4695deb4dcab9a4db341fe4dc516d5843602b021b2ccb4ed51",
+      "request_sha256": "dabb9bb88ded7e5bff2f11408489c47b36710dd0205f0a95946fca10adcefcef",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 237384000,
+        "load_duration": 941036,
+        "prompt_eval_count": 213,
+        "prompt_eval_duration": 19344000,
+        "total_duration": 322950160
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:44:40.138147+00:00",
+      "elapsed_seconds": 0.326,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "added_exception-3",
+      "input_sha256": "8f35cb689091e9d75d96c305f66a4723500b3837c954075214ece8d714e0e76d",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "476237ce9b65bfe6013c5e7831b18f361985ae6830d3e9c762bb6eafbe8cd92d",
+      "request_sha256": "ced4c21980f36432e385211422e78e9a374bf860330f7b1de0ae41cc0917c379",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 239273000,
+        "load_duration": 959907,
+        "prompt_eval_count": 213,
+        "prompt_eval_duration": 19242000,
+        "total_duration": 324407706
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:44:19.088508+00:00",
+      "elapsed_seconds": 0.438,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "exception-1",
+      "input_sha256": "1f2b2110bed9d9e110d8b78c604e821ff5c4a1a248b163d833bcb4c7cc60e437",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "4f3c9105030cc245e7ae3a69503c246e091be91055c9edd6e2c1efd465dfb899",
+      "request_sha256": "b6470d0f55ee13e8c86ca52005a9d6c5c38da163b59fe6b8ac6cd9eb458c885a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 326771000,
+        "load_duration": 830430,
+        "prompt_eval_count": 221,
+        "prompt_eval_duration": 32158000,
+        "total_duration": 436475274
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:44:21.024146+00:00",
+      "elapsed_seconds": 0.408,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "exception-2",
+      "input_sha256": "a53e28c286cf0141910c2b980ddeed286cfff5ac5e6e11d1f005399240d36489",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "50f5d50904487334b1204809a9d6454f0d9a8239bb1c80b45f8968c8eca5ba41",
+      "request_sha256": "6df75a004cc43de35055ea4bddf40b12adff9e13a834382003c57e71c96121a6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 314306000,
+        "load_duration": 923692,
+        "prompt_eval_count": 215,
+        "prompt_eval_duration": 19034000,
+        "total_duration": 406422033
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:44:22.976129+00:00",
+      "elapsed_seconds": 0.377,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "exception-3",
+      "input_sha256": "8fedcbd2951bc360cf578a1341f89cb382ebe25cec2b2fecc1ae812bad5179d4",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "c24882c6d172f4f82ead98f2876caed13ed9a423aeac4d2a851adf97fce74698",
+      "request_sha256": "27b6fb610c644855cc4dc758be5c2cbfb1f61c042d87e81eaf6b54e236f732ca",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 289500000,
+        "load_duration": 913172,
+        "prompt_eval_count": 219,
+        "prompt_eval_duration": 19225000,
+        "total_duration": 375382471
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:44:13.289346+00:00",
+      "elapsed_seconds": 0.48,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "grandfather-1",
+      "input_sha256": "8916d67ffb77a0d116589e84effef8470248fd97b2fdaa1c70bb037f6e53d099",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "53e326a41ba041eafc3a4dc56980c1d1fe9a3219536cd5ec25c5d9804a8503fe",
+      "request_sha256": "4ff1300efb0259977a20c29cfa3bfd2ea46cbafd568cceae1a69870a1fbcfb61",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 376066000,
+        "load_duration": 748189,
+        "prompt_eval_count": 228,
+        "prompt_eval_duration": 32670000,
+        "total_duration": 478903573
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:44:15.366746+00:00",
+      "elapsed_seconds": 0.48,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "grandfather-2",
+      "input_sha256": "56b8c956b9de53df39ae40c185ebdd5e9aea303c9a76accb8aef8002766f3553",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "b71470c5b1f0db2126e2fb7b98c66ab5de360f62e7af20ac372d5c4c84549013",
+      "request_sha256": "41f0484e62bfc5542d9218749cbd266b8e1bf3dfbfceb4dea6c1fde993cb6469",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 380970000,
+        "load_duration": 652045,
+        "prompt_eval_count": 230,
+        "prompt_eval_duration": 23934000,
+        "total_duration": 477765706
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:44:17.183768+00:00",
+      "elapsed_seconds": 0.392,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "grandfather-3",
+      "input_sha256": "f2ac4206b4ee7cff65a81c53606f80c94861d086e7f5a68db14adbc9f9476cb2",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "f3af774a883e16c87caf52d8544707220449b2f34e1ff1acd2d464cf8c2e945d",
+      "request_sha256": "917cf75394d053eda296a154f7072284545a2a3b5c11f3f08f2cb31da9504a06",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 292254000,
+        "load_duration": 727057,
+        "prompt_eval_count": 231,
+        "prompt_eval_duration": 20908000,
+        "total_duration": 390665131
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:44:41.907237+00:00",
+      "elapsed_seconds": 0.396,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "modality-1",
+      "input_sha256": "a4f912609534b18ecc3614597bf43a5ea8f798a263d3d942366a5748fdc162a3",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "9fe059f117d95e9e6ea22d395674015898173a0d5e40236c9c836f62cb075963",
+      "request_sha256": "5f139576fa46e6f7fd290466590e61094320a8d07018c853748823e24cb9a4cd",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 283241000,
+        "load_duration": 884518,
+        "prompt_eval_count": 241,
+        "prompt_eval_duration": 36793000,
+        "total_duration": 394509128
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:44:43.977083+00:00",
+      "elapsed_seconds": 0.436,
+      "full_parsed_sha256": "0152d0c0ba9c72c327d1324d3732cdb0d8acd4ce50aae47a51c06bfdb3254b47",
+      "id": "modality-2",
+      "input_sha256": "1484d348232920e5a4fcb3fae914421537e9a9c4490723fa7f6341f4556e8b27",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "O2"
+        ]
+      },
+      "private_response_sha256": "794dc4b26ccd988ba12f080199465f3dc1806fea24220ec896cfe674f9e04624",
+      "request_sha256": "39e5d9a1d42ca4fb6388e8ecf9fd2af146a4a719b681d6f379374cccb66f2bc5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 341727000,
+        "load_duration": 884090,
+        "prompt_eval_count": 244,
+        "prompt_eval_duration": 19301000,
+        "total_duration": 435097145
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:44:45.823810+00:00",
+      "elapsed_seconds": 0.321,
+      "full_parsed_sha256": "a66d8c250bb989e782afc47234cd3dd7f98b23476606ca4f6456b920597fffb4",
+      "id": "modality-3",
+      "input_sha256": "424994edaab4c91f45e0aa0539f0bef4d08611de3a6a7d8ea77b3154bdb41f00",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O2"
+        ]
+      },
+      "private_response_sha256": "a3ef062c2c2bd49e485b0768e9266c07af604972a35a4fa368ab7566a611d711",
+      "request_sha256": "a9b80c476416c0d9ff500415b6fba5079f140060959490f1ee408e8af85b20c6",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 225343000,
+        "load_duration": 899149,
+        "prompt_eval_count": 230,
+        "prompt_eval_duration": 21149000,
+        "total_duration": 319154369
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:44:25.016895+00:00",
+      "elapsed_seconds": 0.447,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "other_program-1",
+      "input_sha256": "784c710a8204d6e0388cd1d61ae7092e0ec83fe524b4455746f0163b62e9a27a",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "c269cf43ee98b8bc517b5b5dc5ba79a074dd448d238bc8a1bf9c3be195b4fed1",
+      "request_sha256": "f5ca7a711cf91896ac56c6a82f62ec4c327e522990c928619aaa41aa0cf91c11",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 341855000,
+        "load_duration": 750359,
+        "prompt_eval_count": 231,
+        "prompt_eval_duration": 35926000,
+        "total_duration": 444831630
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:44:27.004033+00:00",
+      "elapsed_seconds": 0.453,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "other_program-2",
+      "input_sha256": "e46d798c32eec9ce9b6069f9de04a36d97235bbf8cdd4eaa4b1853e1bc2d0d53",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "1605b5e8531415188122691e67bf6224a49e8c51064c249e27854165033cc23f",
+      "request_sha256": "046d314e19e77b08602e1b62ba0f2da37f74e554099a41cfd98e98cb638b1875",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 23,
+        "eval_duration": 350062000,
+        "load_duration": 835457,
+        "prompt_eval_count": 231,
+        "prompt_eval_duration": 19220000,
+        "total_duration": 450556980
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:44:29.006542+00:00",
+      "elapsed_seconds": 0.534,
+      "full_parsed_sha256": "0152d0c0ba9c72c327d1324d3732cdb0d8acd4ce50aae47a51c06bfdb3254b47",
+      "id": "other_program-3",
+      "input_sha256": "c76d8ccb2572d604cbaf81e8de0b0d579d0f648d2028e7e96e9cc23a4d02b9fb",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "O2"
+        ]
+      },
+      "private_response_sha256": "60100662ac62288bfb92ad8601ff9171251e76bf1eed18870bcfd80612bbf013",
+      "request_sha256": "3fb8fd5fd1bf7586e0b3d91a2dacc79885dcd6c8917f5e83fe90eedc44a3a903",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 444166000,
+        "load_duration": 755609,
+        "prompt_eval_count": 231,
+        "prompt_eval_duration": 20850000,
+        "total_duration": 532456016
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:44:30.935373+00:00",
+      "elapsed_seconds": 0.375,
+      "full_parsed_sha256": "a66d8c250bb989e782afc47234cd3dd7f98b23476606ca4f6456b920597fffb4",
+      "id": "partial_evidence-1",
+      "input_sha256": "dd469ed7f3a35803da5b16397b8b99e99c77201208ee76b665ad4cfa4b0c0f3e",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O2"
+        ]
+      },
+      "private_response_sha256": "7a5b1269924553d18898fa67019024875931a8c19b8029991624abcef4e1a524",
+      "request_sha256": "bd8c3849ccbd367dddfb2164235f37aa6ccaf15d477205b490476a5cae457000",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 262458000,
+        "load_duration": 726171,
+        "prompt_eval_count": 236,
+        "prompt_eval_duration": 35773000,
+        "total_duration": 373666118
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:44:32.755760+00:00",
+      "elapsed_seconds": 0.386,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "partial_evidence-2",
+      "input_sha256": "c0e5810949919c2273381c42c971368193d87fabe3bcaa9fb73ddd13f64adce5",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "57be60149debc1b07f383c5ffae934113a02501852cc7ca9f7eb7474e2d55982",
+      "request_sha256": "69f327fe61a06538ca597dacb37ea9d765daf95e6b79a8c98a6f846048e82cfa",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 286385000,
+        "load_duration": 718291,
+        "prompt_eval_count": 233,
+        "prompt_eval_duration": 21274000,
+        "total_duration": 383727801
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:44:34.813841+00:00",
+      "elapsed_seconds": 0.544,
+      "full_parsed_sha256": "0152d0c0ba9c72c327d1324d3732cdb0d8acd4ce50aae47a51c06bfdb3254b47",
+      "id": "partial_evidence-3",
+      "input_sha256": "3278dd568c33955be356800b3d998a3eb04ff00a078a8a5d5088b191ba6ae681",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1",
+          "O2"
+        ]
+      },
+      "private_response_sha256": "61d5e7a9a5cec5885844a0517b5551a6dc4e1fa1d512116d2e324a84d0811025",
+      "request_sha256": "57754c4c553805cb4aad7365224d95fe1c0ee4fcb3e7b85bc485e5ba0882a35d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 31,
+        "eval_duration": 449037000,
+        "load_duration": 743018,
+        "prompt_eval_count": 233,
+        "prompt_eval_duration": 18841000,
+        "total_duration": 542288987
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:44:02.504289+00:00",
+      "elapsed_seconds": 0.389,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "threshold-1",
+      "input_sha256": "253720a4831379441417b530e534eb5d81d2c25d10deaac6e5d6adcf10d13f5d",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "5ce28614065bb0e5e3eb1fbb6f211e8ad16dfa7ea13a3ceafce6aacd0db49374",
+      "request_sha256": "bf647a2554cd5431d27bd430e586bd5334aa8c993f2f528e2caeca7e5d70fb00",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 237046000,
+        "load_duration": 744191,
+        "prompt_eval_count": 209,
+        "prompt_eval_duration": 94183000,
+        "total_duration": 387639359
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:44:04.359513+00:00",
+      "elapsed_seconds": 0.385,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "threshold-2",
+      "input_sha256": "a1f04427e7f65ff8311fdc251619ab0073cb66f3bb30144fb90cb7b5fc9f96a8",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "19e546eb7e2215089a846fc9bcc72129f451b6ea76de78ea0ba019feef4616c3",
+      "request_sha256": "fff8323636aa81495c7590a124069c6c702f6fb76e0068b132584a5b3a02f855",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 296669000,
+        "load_duration": 853942,
+        "prompt_eval_count": 209,
+        "prompt_eval_duration": 19063000,
+        "total_duration": 383319592
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:44:06.070904+00:00",
+      "elapsed_seconds": 0.382,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "threshold-3",
+      "input_sha256": "0d7cdfbe1c2d0f20d858f1fd1cafe3dafafcb2949f565d9f37b7e921d6f4b4fb",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "c07aaf189cd53d4fad55a6f7f1d1bfbe7b0634356da3888bf893ca6b0aef9fb6",
+      "request_sha256": "fd9d6ae11f172dc0309b560a0420935cc9871964d7723db00e081ee2eafb2fab",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 288173000,
+        "load_duration": 1530302,
+        "prompt_eval_count": 209,
+        "prompt_eval_duration": 18904000,
+        "total_duration": 380589813
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:44:07.855562+00:00",
+      "elapsed_seconds": 0.355,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "wording-1",
+      "input_sha256": "311b7adeb9f1c50f3368ca61d85309055a2e248181ff2b023f1e155b0cccf676",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "5b1df666bcbdcb279eb8e345d10d7078b621c57b53dd1d56258404976d3e8fd8",
+      "request_sha256": "48995db6d6ba6c173bde90441f36f264b1d2ba07d0fdca9fb3facadb8798c7bc",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 247472000,
+        "load_duration": 747093,
+        "prompt_eval_count": 215,
+        "prompt_eval_duration": 31860000,
+        "total_duration": 353525930
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:44:09.571436+00:00",
+      "elapsed_seconds": 0.321,
+      "full_parsed_sha256": "0bd8ec3373ce4d0d2c74ac2ed1487acb651c9d4f400d83b89c16490a50f10610",
+      "id": "wording-2",
+      "input_sha256": "f42a0f4d13ed2079f707f0f89663a8629fe6ba08f4ec0fe600b9ae35850edf68",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "supported",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "7e41de648e410af8c0449e6303332236eca281eadfee6fbdf085f67e9b330710",
+      "request_sha256": "640f9315c8778ddf9317f31904bfeeed96caa3af0da99ed9af879afffd561ab0",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 16,
+        "eval_duration": 236844000,
+        "load_duration": 828860,
+        "prompt_eval_count": 215,
+        "prompt_eval_duration": 19089000,
+        "total_duration": 319747039
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:44:11.338512+00:00",
+      "elapsed_seconds": 0.417,
+      "full_parsed_sha256": "7cde88142e653c0a46f09951134903cbbb1ddfdd4fe7f1dfb98dfd7c46d14cbb",
+      "id": "wording-3",
+      "input_sha256": "4ff653c61cf36b2dd5ce92648d85ddf428b01dfeee77db7364caaa6d57daa484",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "decision": "not_established",
+        "evidence": [
+          "O1"
+        ]
+      },
+      "private_response_sha256": "93ca4b88be3a45ae4d20c6eae952eaa3bf757f5fa0cc9c6e721758b74bda3e46",
+      "request_sha256": "f8002977de8fb16049fbaf62bf085385d35644da03b131fa2a65ea8594720cfa",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 19,
+        "eval_duration": 322031000,
+        "load_duration": 744342,
+        "prompt_eval_count": 215,
+        "prompt_eval_duration": 19138000,
+        "total_duration": 414787391
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "before"
+    }
+  },
+  "direct_gate": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:44:37.655330+00:00",
+      "elapsed_seconds": 0.412,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "added_exception-1",
+      "input_sha256": "5706bc2ca3859944e43e87a69fe9417b6969486ada2613d7456ef82ada99c12b",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "eb87a5e8eb65bc57dedd13c5d82e290782652967240cf39039f7dbe76e091e07",
+      "request_sha256": "4ea1e9daa738572ef97c75779e54ebcd4baa3760fee1e48cb9c0d1d1fefeaa80",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 273254000,
+        "load_duration": 778684,
+        "prompt_eval_count": 383,
+        "prompt_eval_duration": 62965000,
+        "total_duration": 410800974
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:44:39.302914+00:00",
+      "elapsed_seconds": 0.423,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "added_exception-2",
+      "input_sha256": "5b4c958257f036284fdf85cd6c67658fc48d020b72c6b04889e8856f739591e5",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "69dda42862e76d4f1c1affa1a4bfcb1d1cf31e296c0b37a778651c57afb69aad",
+      "request_sha256": "d1c5f20e6d81a8d7da12b001922dbf2e1c61a1f1bba784b1b5a3003805a880a4",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 290700000,
+        "load_duration": 768298,
+        "prompt_eval_count": 377,
+        "prompt_eval_duration": 56902000,
+        "total_duration": 421512343
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:44:40.996635+00:00",
+      "elapsed_seconds": 0.428,
+      "full_parsed_sha256": "a65f99d879ebc8a63a745258c46d513350b794debe2b0dfd1d7e13ee6325cf1b",
+      "id": "added_exception-3",
+      "input_sha256": "09b4d1cc9e8c329ff528bd06628047e05ee9f6a1fcb9c3dd5d253968a6153dd6",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "3507c8c56e7c7d7bb5ea50fa719a7f0bba87f7197f048346089df4d4b4e49be4",
+      "request_sha256": "9fc58163bd72b73e58871057096695e5b125cf73c2e670110f973ae869c21fd8",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 290118000,
+        "load_duration": 959243,
+        "prompt_eval_count": 377,
+        "prompt_eval_duration": 56676000,
+        "total_duration": 425878313
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:44:20.034741+00:00",
+      "elapsed_seconds": 0.478,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-1",
+      "input_sha256": "935484b753630501ba27ea61fca5fe8cac7ec54c45a2e0d922bdf819aecc50e8",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "8614b5b5931560169464e0d22d1c7931328e000cd85c5c55fb1af10e7acd887a",
+      "request_sha256": "25d36de0d02222e66ab3a977a01b9eec22f0bcbb2f0bc46a758ae002d053bc62",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 338630000,
+        "load_duration": 1139467,
+        "prompt_eval_count": 389,
+        "prompt_eval_duration": 63427000,
+        "total_duration": 476275733
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:44:22.087496+00:00",
+      "elapsed_seconds": 0.475,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "exception-2",
+      "input_sha256": "682e629aafb54c839c60a0c245a7e9b0ac90a8089fc65b275123cb03a497c2a5",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "166904f3659fd4661098c290202409594dc72c715fe5eda9f98c05b7f2117c6b",
+      "request_sha256": "fd35ad21d6f614deb23af77724d52ad78c988f81ea9f40b0a74f438d76dcdd04",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 338963000,
+        "load_duration": 745757,
+        "prompt_eval_count": 383,
+        "prompt_eval_duration": 62874000,
+        "total_duration": 473371890
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:44:24.008078+00:00",
+      "elapsed_seconds": 0.508,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "exception-3",
+      "input_sha256": "f1da9d47eedd5c14f9b2b6422be2727c9b2c3d17fce12112579419d73b770626",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "0f72bfb7ff9bf0ada2e826f02c2df3ac5e06143cf364d69d406f565ec4c1c46f",
+      "request_sha256": "2dd9a911eb102d2d8e6ae389099837bc1e382bca9ed9d72d457da7e7b400fe3f",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 376590000,
+        "load_duration": 801753,
+        "prompt_eval_count": 387,
+        "prompt_eval_duration": 62611000,
+        "total_duration": 506254238
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:44:14.300355+00:00",
+      "elapsed_seconds": 0.536,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-1",
+      "input_sha256": "fb852b44911c3061ef1e76a680ab1c3a2d17d5c6f5239f10faf75735867b430d",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "c3051b0423ea277e9cbdf71a31f932b45209a7f598304353102cbcaf2d7157bb",
+      "request_sha256": "34037e2dbfce01afbfc12098761b516a37bb264b44e2eb89bab434f5e8e12152",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 393896000,
+        "load_duration": 852405,
+        "prompt_eval_count": 410,
+        "prompt_eval_duration": 71343000,
+        "total_duration": 534578390
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:44:16.238867+00:00",
+      "elapsed_seconds": 0.438,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-2",
+      "input_sha256": "37c5848f05f9a3063189502d231d840011a5962bc37370b9b42017d7f2121db1",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "5a960e5483402cfff43af4de005e4c547964a072dd9cb0fb7b6a95282c3f1e63",
+      "request_sha256": "83aec475ff906ff86cc6cd00f5e52cc43a5e41dbdbe1ec871e4ae926cd533775",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 335446000,
+        "load_duration": 894819,
+        "prompt_eval_count": 412,
+        "prompt_eval_duration": 28294000,
+        "total_duration": 436554872
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:44:18.101387+00:00",
+      "elapsed_seconds": 0.486,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-3",
+      "input_sha256": "6ed9fce61d8c402da268460107584c5d6cbb6d704721fd43a103f7c3ddb9074a",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "56422dd96d19de43e79615c2eb93b3c40bc71853034605cacb048f3dd9e17b5f",
+      "request_sha256": "a0471506c0e472291ec9f76c95764b395a9f44c9fac2537affe746df9058f837",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 335891000,
+        "load_duration": 859465,
+        "prompt_eval_count": 413,
+        "prompt_eval_duration": 71089000,
+        "total_duration": 484425210
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:44:42.953691+00:00",
+      "elapsed_seconds": 0.485,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "modality-1",
+      "input_sha256": "5d5a36e3d3da76fdda1259514baa924d143d781221b13ebadabae3957853cb5c",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "ed6f04b9c8f3b717582a4e4143762f81e282ba5dbb6702c8294f438d5f0c93a2",
+      "request_sha256": "7ed3d652894a697eceb436da6820ff72603cad8a40704f97ed82daf9b44ee5ac",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 340303000,
+        "load_duration": 781458,
+        "prompt_eval_count": 405,
+        "prompt_eval_duration": 65414000,
+        "total_duration": 483673828
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:44:44.981136+00:00",
+      "elapsed_seconds": 0.477,
+      "full_parsed_sha256": "44a9ed37a6bcc8cacf586a7d6c82d29f1f4563eb17a1580c0561090fe5b210f4",
+      "id": "modality-2",
+      "input_sha256": "9cdadc7a31ebb753613c60ddb8cece96cfcd44e0fd03ec649861e05d3852ab53",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "6e607ac23f198dd4c4722a5517bed28c2c3e49466bcd7d5092dd56c86d7fb8d2",
+      "request_sha256": "fe67c53ac1561ac183722840f0f5fff8e9f2fdc60c8fca5e9b5604fb52bacdd8",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 328714000,
+        "load_duration": 834390,
+        "prompt_eval_count": 412,
+        "prompt_eval_duration": 71141000,
+        "total_duration": 475545963
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:44:46.794199+00:00",
+      "elapsed_seconds": 0.45,
+      "full_parsed_sha256": "09467ebaa1a13404c861635d4272f641d5cf168abc3350278f7ab951316440dd",
+      "id": "modality-3",
+      "input_sha256": "d1ee052860e4ce1ff571b3452d96e10b1ab661dbce49f4a925bf39f1844c9b3b",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O2"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "3b451dc142d74b29ab593c064b03b6813eeab0a3ec082de951b69b51c794ed2a",
+      "request_sha256": "e396bbb2b6c3c35b613bbf4f2ceb09c95aeaadc4203aeed620109250f203f406",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 306974000,
+        "load_duration": 791355,
+        "prompt_eval_count": 394,
+        "prompt_eval_duration": 64657000,
+        "total_duration": 448353166
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:44:25.962238+00:00",
+      "elapsed_seconds": 0.48,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "other_program-1",
+      "input_sha256": "d2a600b05b9313be0d481d7a74c51b11df9f25712813c6908106616ae0cdf0bc",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "97e73e38e936c0f6a5a43553c58c74f547b5473ce4bac3e361da02927f359aad",
+      "request_sha256": "563cced94ff69fc0f40a80ecb78f0b0f5e39e110e15720951de5bbffab273aea",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 325706000,
+        "load_duration": 712223,
+        "prompt_eval_count": 383,
+        "prompt_eval_duration": 86392000,
+        "total_duration": 477966188
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:44:27.894949+00:00",
+      "elapsed_seconds": 0.457,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "other_program-2",
+      "input_sha256": "5748e7859a48bed4461bb1ec1be92ba8f16f90ffb80ca1301cbbfe4f6d56cc23",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "68860d92962fb739fb9822e55c6400211d431172e0d0b7be5536a60eb7655d50",
+      "request_sha256": "2d43db614022aafce986064af628362419d93c76f20032bd527c9d747c4e9dc9",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 326279000,
+        "load_duration": 997677,
+        "prompt_eval_count": 383,
+        "prompt_eval_duration": 62781000,
+        "total_duration": 455374937
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:44:29.940665+00:00",
+      "elapsed_seconds": 0.507,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "other_program-3",
+      "input_sha256": "29217d6bb2e6d764eca55b17c9f70fe2eb718f8c65b6062f77b4128664489dbf",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "4c187bda5eb6a6d6e33de98bd26bbfe849ad8db6d40ad95547cafa7468672351",
+      "request_sha256": "5bd0229eb554a4edc449a4a37a1d5bc9c503d616010533917493064fe431ab1a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 376415000,
+        "load_duration": 1397468,
+        "prompt_eval_count": 387,
+        "prompt_eval_duration": 62906000,
+        "total_duration": 505459845
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:44:31.774072+00:00",
+      "elapsed_seconds": 0.389,
+      "full_parsed_sha256": "09467ebaa1a13404c861635d4272f641d5cf168abc3350278f7ab951316440dd",
+      "id": "partial_evidence-1",
+      "input_sha256": "8167ea5b32fb73310c6bdc1a2fba17fc3bbdb21aacfafefdb83242ed81ca58ac",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O2"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "dddb1cc3ea0efbbb139b164b9611a1447e0bdc5b93277c2a4d7916c2838be363",
+      "request_sha256": "321775f405ceb91dba89cea648821997c4c09775817b925f5415413a65c5d74b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 264624000,
+        "load_duration": 835047,
+        "prompt_eval_count": 364,
+        "prompt_eval_duration": 55737000,
+        "total_duration": 387346546
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:44:33.672093+00:00",
+      "elapsed_seconds": 0.487,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "partial_evidence-2",
+      "input_sha256": "f4a947f8291fdcaa46ab5db0f3e9798cfff462fa92af213a145e4a6125dd2c11",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "432b9720fe86bb0fc3d271cecb2ffbfceb74a4371de54b48e59dd8e60cec7dea",
+      "request_sha256": "8d204923b1948b53d2e382a63c4f8445c97a7ab6f7907d8c269b63c5de774c8a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 22,
+        "eval_duration": 354159000,
+        "load_duration": 729037,
+        "prompt_eval_count": 361,
+        "prompt_eval_duration": 56206000,
+        "total_duration": 485530556
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:44:35.811461+00:00",
+      "elapsed_seconds": 0.408,
+      "full_parsed_sha256": "265f3f95377503bc111bcc8d6209af433a16051cc62492f810f2d15d1c753a60",
+      "id": "partial_evidence-3",
+      "input_sha256": "0fd4b4fb5bf22a72ea0a00ca1cdc24b5cc9461c76afa19ba68f5e4db5b25d52f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1"
+        ],
+        "route": "keep"
+      },
+      "private_response_sha256": "98a27e3886c1e72adabde374a82f9f47bd95f1c6c2be53eab3da5621cb10e57d",
+      "request_sha256": "daa1c483786d05b477da14c4a43e5e1868efcff3d7ab826dd7fcaf1eb46fce52",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 17,
+        "eval_duration": 281668000,
+        "load_duration": 792680,
+        "prompt_eval_count": 365,
+        "prompt_eval_duration": 56544000,
+        "total_duration": 405914967
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:44:03.515014+00:00",
+      "elapsed_seconds": 0.468,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-1",
+      "input_sha256": "261fb7e2e865f1f5efe04a997eff652f74b06628194c1cdc7d7396547e90f70f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "d1c5a5d29f5bb93681c398067ad0d42c195db83a7160ea72bc2fba0dbdbba05b",
+      "request_sha256": "9d8f711d31f5dd0ffa13078848b24f9f12d11f5dee4e6295d65b92dbd2560883",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 306885000,
+        "load_duration": 814303,
+        "prompt_eval_count": 335,
+        "prompt_eval_duration": 106064000,
+        "total_duration": 466344220
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:44:05.223858+00:00",
+      "elapsed_seconds": 0.43,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-2",
+      "input_sha256": "4e9393c40fafd8f6812372fbefc47973f7c441b0a6e16a70622e09e8fc4a9b90",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "c53874c69a679f93ff6230263a49b2c640c556a2874b7bd78dd4f9d570d7104f",
+      "request_sha256": "cb0526d7e49b63679465265e1ebea83662ce2aa246a860bbac7fdcaf836c7455",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 316512000,
+        "load_duration": 830090,
+        "prompt_eval_count": 335,
+        "prompt_eval_duration": 44916000,
+        "total_duration": 429001626
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:44:07.035907+00:00",
+      "elapsed_seconds": 0.429,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "threshold-3",
+      "input_sha256": "05ef5880e84e45171776e7c06167a292991ee3b3a8209293f0f862301168e2b0",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "f04fe7205840b5b5dd5f0256a61abe78088f5a5094e763f8449a922cf1ed1e91",
+      "request_sha256": "586d19f48046df20ef0cec514158a51c60f49225a6fa25776130084dc3e23a74",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 312970000,
+        "load_duration": 794336,
+        "prompt_eval_count": 335,
+        "prompt_eval_duration": 44794000,
+        "total_duration": 427709861
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:44:08.733314+00:00",
+      "elapsed_seconds": 0.425,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "wording-1",
+      "input_sha256": "24fadfbf363f567d374fd6b1b96e00b7d4c832d5ae79bc18d4b5d3f129aaf26b",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "ec6547f84d1a66879162b1dbe9f18ff9914b0840701eba3688e0b946117689e1",
+      "request_sha256": "c67251caa5545e9c7ecafdfe25592d6fa226c29ac2279a75c1b84af937cb8f75",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 312765000,
+        "load_duration": 926346,
+        "prompt_eval_count": 345,
+        "prompt_eval_duration": 46053000,
+        "total_duration": 423309024
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:44:10.420095+00:00",
+      "elapsed_seconds": 0.423,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "wording-2",
+      "input_sha256": "f17ae6e1c2208ac2e0de5ac2a8da4a9ed77a92599a29753d454f1c92c6e62788",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "da62d98525596eddfce5f87865423896ba7bde83d1c48281443dc8798a431472",
+      "request_sha256": "64897445194d5abe98c6310033f0ea5cc72798b7f9fc4477211a06c8f7719b03",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 304200000,
+        "load_duration": 1274099,
+        "prompt_eval_count": 345,
+        "prompt_eval_duration": 46347000,
+        "total_duration": 421615999
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:44:12.298823+00:00",
+      "elapsed_seconds": 0.43,
+      "full_parsed_sha256": "e35e1fc6c33f3ed261dd5d9625ba7ef060461dd172632e85a052d7d977347373",
+      "id": "wording-3",
+      "input_sha256": "9beef5eb31378a6f2a4221907e075a297bc70647e5e1c18457d610597c29cd15",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "712cb4ec919ebbf695f708c4ec606e075e934c933596c41e5d3d6c96f6fdf87b",
+      "request_sha256": "d0bfbd37735fe6873ea28cf78527254764c3c1d1064e6a9a88e4c6dbf9d43613",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 18,
+        "eval_duration": 314421000,
+        "load_duration": 777399,
+        "prompt_eval_count": 345,
+        "prompt_eval_duration": 46105000,
+        "total_duration": 428938887
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "direct_gate"
+    }
+  },
+  "map": {
+    "added_exception": {
+      "created_utc": "2026-10-01T09:44:00.993370+00:00",
+      "elapsed_seconds": 1.064,
+      "full_parsed_sha256": "7b4dbc3652f23df585b24d85f0835e621cd231ee3335b72726015cd190f727e0",
+      "id": "added_exception",
+      "input_sha256": "8ef03aa7d08089f651910e357892fb7bc557f745dc3f6b7173537ec18e559159",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "a698bffed5d31d744ccc4761c509b0f72fb2f2952c728810accba7f6cdc4996e",
+      "request_sha256": "9eef3ea48fc618cfd9c80260ed44691d62771266383458f644a0a35c43701cd2",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 66,
+        "eval_duration": 966244000,
+        "load_duration": 824401,
+        "prompt_eval_count": 315,
+        "prompt_eval_duration": 68053000,
+        "total_duration": 1062416245
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "exception": {
+      "created_utc": "2026-10-01T09:43:57.085469+00:00",
+      "elapsed_seconds": 1.107,
+      "full_parsed_sha256": "04d122d274c078fe1f194ce380f75ca1b0a12bec645aec531a6f77db5067074b",
+      "id": "exception",
+      "input_sha256": "d9651df54ca69723ab1189d870bb615b1b3a7b9e527f589a0a11f9f4835c6347",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "f2e57f2167a87825960c7809625a2fd179fbfaae4eb2ad490b7c095cc81f0404",
+      "request_sha256": "a8612e6a146c09fc905d84183e52f1aaa46baf99ae6875a2130f60aac14e1464",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 65,
+        "eval_duration": 973040000,
+        "load_duration": 1021466,
+        "prompt_eval_count": 319,
+        "prompt_eval_duration": 65754999,
+        "total_duration": 1105530807
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "grandfather": {
+      "created_utc": "2026-10-01T09:43:55.977969+00:00",
+      "elapsed_seconds": 1.823,
+      "full_parsed_sha256": "3ee245588b36ec16b8a1490b4d7fe208d000b0d122a04c3f62ebaf789d996e45",
+      "id": "grandfather",
+      "input_sha256": "6ad956b397931132c59370e433765bcd981880d5b1bfda434c9e8fdbe2726575",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          },
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "b04879e6bedfc4974b7fae52c063a82c7457bb97fe04f504587ef1d0357b1920",
+      "request_sha256": "0957c64bd0ead4b7da010bdc227f6586c37cc0c02a756e8de9fb1a05c504fbcc",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 119,
+        "eval_duration": 1727061000,
+        "load_duration": 722760,
+        "prompt_eval_count": 333,
+        "prompt_eval_duration": 68026000,
+        "total_duration": 1821801143
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "modality": {
+      "created_utc": "2026-10-01T09:44:02.114908+00:00",
+      "elapsed_seconds": 1.121,
+      "full_parsed_sha256": "38cedddffa11a1a0a2afbc6d504bbc0713a7ab1bc0a09d14b7f2b82841983676",
+      "id": "modality",
+      "input_sha256": "d2a61766e67aceece5651d9b163949e5e3768069731757299c78dac828787f04",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "7ab9519cdbcc08ce30e4b1b59c351f8568d0d285e92ab6d2492cd45651357924",
+      "request_sha256": "10140eaa210104ffc832796b93ca7765d97b775c152895d4b777c672b8d5f19a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 68,
+        "eval_duration": 1018863000,
+        "load_duration": 774865,
+        "prompt_eval_count": 342,
+        "prompt_eval_duration": 74493000,
+        "total_duration": 1119130133
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "other_program": {
+      "created_utc": "2026-10-01T09:43:58.167361+00:00",
+      "elapsed_seconds": 1.082,
+      "full_parsed_sha256": "7de5fb774f1631f894b717703d0e621fe424e473ddeb696c0f71d502bd9e6dfb",
+      "id": "other_program",
+      "input_sha256": "ed124b739efa620402d5695d2659285a2c01305b44f54e3fc7a20afb58c7353c",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N2"
+            ],
+            "before_ids": [
+              "O2"
+            ],
+            "kind": "scope"
+          }
+        ]
+      },
+      "private_response_sha256": "2495fffb5e6c2c155650e0979a059f10d9250c3d126210851f6a3711699c5ad4",
+      "request_sha256": "8293195fec038ccc960ebfefa5eebda688b2483ce80264a22b249f39125ce4fb",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 66,
+        "eval_duration": 980833000,
+        "load_duration": 757764,
+        "prompt_eval_count": 327,
+        "prompt_eval_duration": 70419000,
+        "total_duration": 1080053890
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "partial_evidence": {
+      "created_utc": "2026-10-01T09:43:59.928302+00:00",
+      "elapsed_seconds": 1.76,
+      "full_parsed_sha256": "efb17936c4ac8346887978c7441ce4c17a7113035449ce0e4f9f9cee08791c19",
+      "id": "partial_evidence",
+      "input_sha256": "91ba98c6d9895afae98b0b40710d0b83325c014fd12fa615cdf52234bce4164a",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          },
+          {
+            "after_ids": [],
+            "before_ids": [
+              "O2"
+            ],
+            "kind": "unresolved"
+          }
+        ]
+      },
+      "private_response_sha256": "b568157f01734a703d4a49fe61b1c42666dc8b4513fcf3239871110c44463628",
+      "request_sha256": "4cf0e330e14b47091a1c3a3586f4ad74183b05e6e231336354d5ddcc4e390967",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 116,
+        "eval_duration": 1657287000,
+        "load_duration": 950136,
+        "prompt_eval_count": 305,
+        "prompt_eval_duration": 72879000,
+        "total_duration": 1758652929
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "threshold": {
+      "created_utc": "2026-10-01T09:43:53.104519+00:00",
+      "elapsed_seconds": 4.896,
+      "full_parsed_sha256": "3c723e39037159ca269ccb9ee8a34620a51e96f8a7aefadfc5d5697f4024fcd0",
+      "id": "threshold",
+      "input_sha256": "7626f0d00f9233ec5cec27c3a54e77432bb69c31f98344f01bc1c0bd59b10b02",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [
+              "N1"
+            ],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "rule"
+          }
+        ]
+      },
+      "private_response_sha256": "093b7c99d23ee041f1bdb22cb5e32a8ff83964d159cc5f622b1c42baec8ea5b2",
+      "request_sha256": "d1cb65dba839ccfdaf6bdd9864ae3dd44d950003424b17a5260bfd3c2bbef863",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 64,
+        "eval_duration": 943566000,
+        "load_duration": 3779046377,
+        "prompt_eval_count": 275,
+        "prompt_eval_duration": 146114000,
+        "total_duration": 4894776790
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    },
+    "wording": {
+      "created_utc": "2026-10-01T09:43:54.154229+00:00",
+      "elapsed_seconds": 1.049,
+      "full_parsed_sha256": "7ac624a558e067cabd7bb806d0c1bf074731f5d9f937654564a2e28ad001ff68",
+      "id": "wording",
+      "input_sha256": "57e2043b42c5797f480c7e79b9ac7e9b9fb07be47e8bf7eba6010bc0410a7462",
+      "map_text_omitted": true,
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "changes": [
+          {
+            "after_ids": [],
+            "before_ids": [
+              "O1"
+            ],
+            "kind": "wording"
+          }
+        ]
+      },
+      "private_response_sha256": "6a5399363c9776c24bd16330e3302983f6ed99b24d730405998a511d380ee411",
+      "request_sha256": "f56b7a8f6a2152cb0100b570ea0aa2e4b91342e192eaa49a00677b3b39d33754",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 64,
+        "eval_duration": 953228000,
+        "load_duration": 963580,
+        "prompt_eval_count": 285,
+        "prompt_eval_duration": 61914000,
+        "total_duration": 1047440039
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map"
+    }
+  },
+  "map_gate": {
+    "added_exception-1": {
+      "created_utc": "2026-10-01T09:44:38.114455+00:00",
+      "elapsed_seconds": 0.459,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-1",
+      "input_sha256": "a9e90e6c7cd6514d73a3fe9bb29ef169774c903edda1b2392c9f3b89b837e06e",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "4a05449c2c06dcf8ad61dd99d9232976873bd0aa6bb812930246154d6c1f523e",
+      "request_sha256": "c5271508e569e1fc6bc143e6b6c86040c57e9949cce8bf6d2d3d6d6975ae5fa7",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 334230000,
+        "load_duration": 927451,
+        "prompt_eval_count": 498,
+        "prompt_eval_duration": 94495000,
+        "total_duration": 457360959
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "added_exception-2": {
+      "created_utc": "2026-10-01T09:44:39.811618+00:00",
+      "elapsed_seconds": 0.508,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-2",
+      "input_sha256": "b2b6dd8d669d98d5e43e0395a50d2ced326d2ce166d3a825c3e80986a0744298",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "5aed4bacd5b14be94f82ecacfcb220e341460c2c67b4b68cf6e9555a03dd1fb6",
+      "request_sha256": "54f3580b8660086a62837af05ba1c14ce54e5fcae9f86220757c396f35e6f562",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 386353000,
+        "load_duration": 673073,
+        "prompt_eval_count": 492,
+        "prompt_eval_duration": 94221000,
+        "total_duration": 506815516
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "added_exception-3": {
+      "created_utc": "2026-10-01T09:44:41.510546+00:00",
+      "elapsed_seconds": 0.513,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "added_exception-3",
+      "input_sha256": "a5e0f9c7df55430e42d66477780d6566c64493342a84d428dc53b16fc97a731f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "7efa4cab8edeaaabe9039319c1a9f3946e781eb595b3f1ec3b526868e9d511f1",
+      "request_sha256": "eeaa9a9ab23496061143c64d37a8019e6a577582d8c943384a9971ae40c8f890",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 387757000,
+        "load_duration": 972016,
+        "prompt_eval_count": 492,
+        "prompt_eval_duration": 94038000,
+        "total_duration": 511902154
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-1": {
+      "created_utc": "2026-10-01T09:44:20.615871+00:00",
+      "elapsed_seconds": 0.581,
+      "full_parsed_sha256": "f72fc132861bd1c0e530f7825d69d4f76932cbeb61fe443157c70dc87414070e",
+      "id": "exception-1",
+      "input_sha256": "3cf8b62dc053757e54b98234634690e7b5216cb3bb0c22f3cb180da7cc791085",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "e43b8545f9599b90786de954529d9be6a798acedbf53bbfe05f525da44c5a96f",
+      "request_sha256": "2fd66aee2c1ef9948f34bae4d91d78b8ea50d350c45166c4aa7ed790e1c55f1a",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 443306000,
+        "load_duration": 736516,
+        "prompt_eval_count": 507,
+        "prompt_eval_duration": 104051000,
+        "total_duration": 579474453
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-2": {
+      "created_utc": "2026-10-01T09:44:22.598367+00:00",
+      "elapsed_seconds": 0.511,
+      "full_parsed_sha256": "f72fc132861bd1c0e530f7825d69d4f76932cbeb61fe443157c70dc87414070e",
+      "id": "exception-2",
+      "input_sha256": "92be805925a1e1ed174dc360a68ef46a3e10a00a65e0b224bf97fb7d9d4efd4f",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "64f15539da5bfa7bb1871cce13a40db5da00ee9a36bffca414dd08b06e621923",
+      "request_sha256": "d6573fb418aa5837680b8c7f408ea58a9143d97f99f7ec4d6ecdcccbdf714faf",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 28,
+        "eval_duration": 386310000,
+        "load_duration": 732484,
+        "prompt_eval_count": 501,
+        "prompt_eval_duration": 94742000,
+        "total_duration": 508936659
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "exception-3": {
+      "created_utc": "2026-10-01T09:44:24.569770+00:00",
+      "elapsed_seconds": 0.561,
+      "full_parsed_sha256": "f72fc132861bd1c0e530f7825d69d4f76932cbeb61fe443157c70dc87414070e",
+      "id": "exception-3",
+      "input_sha256": "b4c9e74607b503e9c1fb2a172bc69b218f67db289b74deb13c9ee3296a5c2ff3",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "07dabd6d050927cd0d70bdf86b0fb79714d31d7378c980f5330f8c99e89b7d65",
+      "request_sha256": "34e94ec12208f1a41d1869cc36a1266e9fd9873ecfaf77b6424f18fc61b30151",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 438045000,
+        "load_duration": 953107,
+        "prompt_eval_count": 505,
+        "prompt_eval_duration": 95505000,
+        "total_duration": 559873438
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-1": {
+      "created_utc": "2026-10-01T09:44:14.886711+00:00",
+      "elapsed_seconds": 0.586,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-1",
+      "input_sha256": "53cc33f95c3ca538b906ed8f22e30de4530a46130f5c25963266162982dae303",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "b58cf18a828fbb96bc59b3fbd4143217eb4356d044c116fdc2d5108eef5ff140",
+      "request_sha256": "5e1e851fce22a3168eeb177c1ef1614c45cd8c6fd76199aa332fb136dd7b3030",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 403078000,
+        "load_duration": 768742,
+        "prompt_eval_count": 563,
+        "prompt_eval_duration": 115778000,
+        "total_duration": 584084375
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-2": {
+      "created_utc": "2026-10-01T09:44:16.791125+00:00",
+      "elapsed_seconds": 0.552,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-2",
+      "input_sha256": "42625cab49591ed6da0c910643ae85acc55eb634f7842556adcb2e339b8fd0ba",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "1f9ecd604140cc62896bf64009cf447359ace78059a21a9640b3175a9fa0e31f",
+      "request_sha256": "d722526a2fdbaed09bfef2757bd153b54bfc5f112a682924fb57510f56ba812e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 404388000,
+        "load_duration": 726303,
+        "prompt_eval_count": 565,
+        "prompt_eval_duration": 115834000,
+        "total_duration": 550071774
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "grandfather-3": {
+      "created_utc": "2026-10-01T09:44:18.649688+00:00",
+      "elapsed_seconds": 0.548,
+      "full_parsed_sha256": "fa21150b6af1952a56530536b48decc44191831c115f91d56579e19e3bc72647",
+      "id": "grandfather-3",
+      "input_sha256": "40189a3eb222747be400aaff0f865dccd18a6c34028d86cd5b5366f18d67166b",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "5ee369b8ff7243645714ee227eff77afe509bab487eb9510a653b847ccf2a1df",
+      "request_sha256": "4788c6ff05d1d150fa85265123f67739b368a4d04e0233a3e07315b76af1ccb3",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 399687000,
+        "load_duration": 791149,
+        "prompt_eval_count": 566,
+        "prompt_eval_duration": 115802000,
+        "total_duration": 546361331
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-1": {
+      "created_utc": "2026-10-01T09:44:43.540319+00:00",
+      "elapsed_seconds": 0.586,
+      "full_parsed_sha256": "f27761cdf75ebd1b35343d7918572abfcdd09fbc6e431ddba5167b65fdb0c2bc",
+      "id": "modality-1",
+      "input_sha256": "bc818b5eaaee3431f9f0c75a1f6ecf72b253129685efbdb66e1089ee3c087fc9",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "d918961d2f24c1a61b1cbbd88547ca0734dfdac2c9cbd883c5a9aff4214faeb2",
+      "request_sha256": "51c09f72b8bacb759f022136641a81d6d77df0e2d75ff98449a5e87f969bab68",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 448743000,
+        "load_duration": 814630,
+        "prompt_eval_count": 523,
+        "prompt_eval_duration": 106183000,
+        "total_duration": 584486504
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-2": {
+      "created_utc": "2026-10-01T09:44:45.502869+00:00",
+      "elapsed_seconds": 0.521,
+      "full_parsed_sha256": "ea7b19ea1c0cecb3ad717ae8d81deff238636a78122f86eef200049b14437111",
+      "id": "modality-2",
+      "input_sha256": "84c2e1da97f35635bdc764edabcf7b19507a121298772b518bd822516e77ba35",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "N1",
+          "O1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "a7061021e687fb993bbb6bc6c2615af36e2a7c109a929aa1abc3e568da0a32ff",
+      "request_sha256": "ed345edb8cbed8dab9e3d6cb70ac5924a2d67f27e85b775decdd5b04162f9b75",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 381671000,
+        "load_duration": 1006932,
+        "prompt_eval_count": 530,
+        "prompt_eval_duration": 107019000,
+        "total_duration": 520023235
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "modality-3": {
+      "created_utc": "2026-10-01T09:44:47.368825+00:00",
+      "elapsed_seconds": 0.574,
+      "full_parsed_sha256": "09a3415494703369cf016e8ac56f35c406beada21fdd4df4487afdf76b4391de",
+      "id": "modality-3",
+      "input_sha256": "4316a3e91456d49771bd792f92f8916df929213d9d0e9e0526d33bd354d8511b",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O2",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "4aaca6a8b48dbcea073eaf16816f538eb1ce5c644360e91ef2cd214b76f2fa9f",
+      "request_sha256": "0f9e21bcc07f2151697c1963f5ea54e0b4b8dc0714d62c485bd8968b11c8aa70",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 406059000,
+        "load_duration": 1375526,
+        "prompt_eval_count": 512,
+        "prompt_eval_duration": 106641000,
+        "total_duration": 572763046
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-1": {
+      "created_utc": "2026-10-01T09:44:26.550786+00:00",
+      "elapsed_seconds": 0.588,
+      "full_parsed_sha256": "f27761cdf75ebd1b35343d7918572abfcdd09fbc6e431ddba5167b65fdb0c2bc",
+      "id": "other_program-1",
+      "input_sha256": "c8830a872c56ca39187597f769a6158a6403e9a851d40501cf4b9ab8239cdd18",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "e092306cb4a3d1368b4d4e3ec43e5b36f1bc41bcabc62aae72ae984c4c3bc301",
+      "request_sha256": "432f0244080ce6feec3a64f075e24da367fc86e283bba83e5b0b7f975400427e",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 451405000,
+        "load_duration": 792228,
+        "prompt_eval_count": 502,
+        "prompt_eval_duration": 94884000,
+        "total_duration": 586230364
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-2": {
+      "created_utc": "2026-10-01T09:44:28.471813+00:00",
+      "elapsed_seconds": 0.576,
+      "full_parsed_sha256": "f27761cdf75ebd1b35343d7918572abfcdd09fbc6e431ddba5167b65fdb0c2bc",
+      "id": "other_program-2",
+      "input_sha256": "b5240b330a590c73fcc3fad46a705e7f521af41b65286765d8615907b943b0b8",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "0bf37564c4dc27847ecabad901dd1253847eaf4e7441e7398098742063d8feaa",
+      "request_sha256": "28b21529bea901e2d6ef1f60ef653bb54e41a0c696c5b24e5f0652c106f1f5e5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 32,
+        "eval_duration": 450145000,
+        "load_duration": 692251,
+        "prompt_eval_count": 502,
+        "prompt_eval_duration": 94866000,
+        "total_duration": 574296408
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "other_program-3": {
+      "created_utc": "2026-10-01T09:44:30.559983+00:00",
+      "elapsed_seconds": 0.619,
+      "full_parsed_sha256": "f27761cdf75ebd1b35343d7918572abfcdd09fbc6e431ddba5167b65fdb0c2bc",
+      "id": "other_program-3",
+      "input_sha256": "a43df5a3b1f71902bb2dbaf6312a9e42e0fff28c7c4b9c69d4057d7d4e21ed56",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1",
+          "N2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "e8fbf2a03f9e006d9d560f20ceb4f90b1a3152201d3b458988f584c6980c900f",
+      "request_sha256": "5f17a804b9080f6c141fb95129fd9f0e7d14a3cfec9250fb621966454ff04f44",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 34,
+        "eval_duration": 483914000,
+        "load_duration": 936412,
+        "prompt_eval_count": 506,
+        "prompt_eval_duration": 103690000,
+        "total_duration": 617561404
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-1": {
+      "created_utc": "2026-10-01T09:44:32.369244+00:00",
+      "elapsed_seconds": 0.595,
+      "full_parsed_sha256": "6a2042e749c6ec2e219a6368cb69d5728369be07a712dcb034fd7b811bcb79e8",
+      "id": "partial_evidence-1",
+      "input_sha256": "6b24181324cda81ce62545e5cccd506834fb22ac18b1a442071a5ec2cc861b9c",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "9811724cfa5013fa04366fcc069159a4067a085f65a785abedcd6cf9bb85dd0a",
+      "request_sha256": "6943e3bcccde0e899bc7bd834ae2cad66a46929cf7fb9a05faf164fd0ef2d19b",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 455600000,
+        "load_duration": 800409,
+        "prompt_eval_count": 521,
+        "prompt_eval_duration": 105788000,
+        "total_duration": 592828882
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-2": {
+      "created_utc": "2026-10-01T09:44:34.269683+00:00",
+      "elapsed_seconds": 0.597,
+      "full_parsed_sha256": "6a2042e749c6ec2e219a6368cb69d5728369be07a712dcb034fd7b811bcb79e8",
+      "id": "partial_evidence-2",
+      "input_sha256": "ecc3c9edcb684f228ac4940a712175b37ae1f6680bd31303780934be252b7a78",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "84e55757baa1fd1a5f6cdad712d9c4d3165e559094d89d548b936e8aee937e4b",
+      "request_sha256": "ae86d0571f784972cc15fb0a42aff17232e7d44cebf51c006340fcb9e4376830",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 30,
+        "eval_duration": 459718000,
+        "load_duration": 1237160,
+        "prompt_eval_count": 518,
+        "prompt_eval_duration": 105666000,
+        "total_duration": 595706261
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "partial_evidence-3": {
+      "created_utc": "2026-10-01T09:44:36.338257+00:00",
+      "elapsed_seconds": 0.526,
+      "full_parsed_sha256": "44a9ed37a6bcc8cacf586a7d6c82d29f1f4563eb17a1580c0561090fe5b210f4",
+      "id": "partial_evidence-3",
+      "input_sha256": "7283ae21e639e6d7317e138a6c51eb1169f1bea8c1f476fab3926f7cc7294861",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "O2"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "0b706ccaadd4adc574676f1cc0b527c7a3d33867a17f4a6b50abf6a0aeaa9a67",
+      "request_sha256": "6ecf510249ff55a520804c135c1d0dbef8226b0f6a527eadb5769c7051766876",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 388851000,
+        "load_duration": 789694,
+        "prompt_eval_count": 522,
+        "prompt_eval_duration": 105921000,
+        "total_duration": 525114842
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-1": {
+      "created_utc": "2026-10-01T09:44:03.973883+00:00",
+      "elapsed_seconds": 0.458,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "threshold-1",
+      "input_sha256": "72a26f26c978a7793e06d94912b1e172779d0c7a4bd38fdb80aed6093a9fbf27",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "7f2d3892ffa0159f56ef5a5b8e4b14b7dd80cd1a2b2e0220b74505e9bd25cee0",
+      "request_sha256": "9f406a5bab8b763b087f349b674a8a35b604e1a8d0b7beecf5dc1fc2cdbf9045",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 343863000,
+        "load_duration": 942809,
+        "prompt_eval_count": 453,
+        "prompt_eval_duration": 80300000,
+        "total_duration": 456584625
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-2": {
+      "created_utc": "2026-10-01T09:44:05.688473+00:00",
+      "elapsed_seconds": 0.464,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "threshold-2",
+      "input_sha256": "d14f923f74a339ad4ae690a061946fa6bbbc5152de390ed0b1cc990a25133494",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "625fdb10bea4fa244dbfe8f05fd3697f5f4e73c635bf84e17d835fd123f2406a",
+      "request_sha256": "c7632bd888f5b9e951ff91db1e2ae683e264e1ab1e035d9ad130a64b900d28a5",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 346584000,
+        "load_duration": 943105,
+        "prompt_eval_count": 453,
+        "prompt_eval_duration": 79268000,
+        "total_duration": 462742617
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "threshold-3": {
+      "created_utc": "2026-10-01T09:44:07.500299+00:00",
+      "elapsed_seconds": 0.464,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "threshold-3",
+      "input_sha256": "0c6cef5b46cbf5ce6ce24a66af4d84340e1d45735a85fd5dff06a441a0845892",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "21475e832236a6ccb95695fe1f75e764f1187ff04c68032f532553d38c79069c",
+      "request_sha256": "2876a0ab6bb3004d34f747e4bbd2b9091bd9c2f4d7e8d3bf8d89cb89f0d79d95",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 24,
+        "eval_duration": 346973000,
+        "load_duration": 855098,
+        "prompt_eval_count": 453,
+        "prompt_eval_duration": 79209000,
+        "total_duration": 462657844
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-1": {
+      "created_utc": "2026-10-01T09:44:09.249894+00:00",
+      "elapsed_seconds": 0.516,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "wording-1",
+      "input_sha256": "6b72a666cbe220423271693f3252aa219889b4205059497a2a0643313c0e3542",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "81bfa180844e19806d45ff4a867786221597b8646446d68515026906319c54e9",
+      "request_sha256": "3b641486a6e012d13519347340388648474526b4ea1750b77ef6f3b63c6ee089",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 397227000,
+        "load_duration": 899431,
+        "prompt_eval_count": 462,
+        "prompt_eval_duration": 80309000,
+        "total_duration": 514722300
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-2": {
+      "created_utc": "2026-10-01T09:44:10.921424+00:00",
+      "elapsed_seconds": 0.501,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "wording-2",
+      "input_sha256": "29a144e28694a18afca88ff75884bf7bab39a11a36c6837d16f2f8898bd3ffa1",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "5bed161bc36a3749a1fc24e946210c2685f7a84f1d471d2e0d43daf29861b416",
+      "request_sha256": "b14f4ebfd9f6e5bf150b450d3097830d0329018e20a84dfd66a168c4178446d3",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 390334000,
+        "load_duration": 922087,
+        "prompt_eval_count": 462,
+        "prompt_eval_duration": 80773000,
+        "total_duration": 499001703
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    },
+    "wording-3": {
+      "created_utc": "2026-10-01T09:44:12.808820+00:00",
+      "elapsed_seconds": 0.51,
+      "full_parsed_sha256": "ba2d76d55ceac7c41c877edc95799aef279f794b306c9f5e499495025a1dbef9",
+      "id": "wording-3",
+      "input_sha256": "fd556080732f84d4c909b4cab81947f465f4479ad280afb4463eea3c060523e3",
+      "model": "kanana-public",
+      "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+      "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "parsed": {
+        "evidence": [
+          "O1",
+          "N1"
+        ],
+        "route": "recheck"
+      },
+      "private_response_sha256": "ebfe47fb7bec70eeba56da91285555fb67a95cd866e0bb47a549b957abfe789c",
+      "request_sha256": "a6cd20d82435c5387d25c37b1fc9bd7ce4df17e3e0d61f82179ead3bf428541d",
+      "response_redacted": true,
+      "runtime": {
+        "done": true,
+        "done_reason": "stop",
+        "eval_count": 26,
+        "eval_duration": 396515000,
+        "load_duration": 937843,
+        "prompt_eval_count": 462,
+        "prompt_eval_duration": 79997000,
+        "total_duration": 508118056
+      },
+      "server": {
+        "version": "0.33.2"
+      },
+      "stage": "map_gate"
+    }
+  }
+}

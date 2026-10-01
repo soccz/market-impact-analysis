@@ -1,0 +1,3700 @@
+{
+  "neighbor5": {
+    "kanana-public": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.736,
+          "id": "chungnam-dangjin",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP02C00400",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.971,
+          "id": "chungnam-boryeong",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP02C00400",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.977,
+          "id": "chungnam-taean",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP02C00400",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.97,
+          "id": "chungnam-seosan",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP02C00400",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.604,
+          "id": "chungnam-deadline-10",
+          "input_characters": 3201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.84,
+          "id": "chungnam-deadline-18",
+          "input_characters": 3201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.749,
+          "id": "chungnam-cap-30",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.846,
+          "id": "chungnam-cap-60",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.526,
+          "id": "chungnam-exam-failed",
+          "input_characters": 4005,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400",
+              "NP05C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.123,
+          "id": "chungnam-exam-third",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.87,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 4182,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.538,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 3839,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP04C00000",
+              "NP04C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.357,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.2,
+          "id": "chungnam-employer-full",
+          "input_characters": 4182,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.974,
+          "id": "chungnam-employer-own",
+          "input_characters": 4182,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.146,
+          "id": "chungnam-training-card",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00400",
+              "NP02C00400",
+              "OP01C00400",
+              "OP02C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.767,
+          "id": "seoul-cap-new-40",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.958,
+          "id": "seoul-cap-new-30",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.964,
+          "id": "seoul-cap-old-40",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.951,
+          "id": "seoul-cap-old-30",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.821,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 0.954,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.965,
+          "id": "seoul-docs-2",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.956,
+          "id": "seoul-docs-4",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.735,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.604,
+          "id": "seoul-proxy-parent",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.621,
+          "id": "seoul-young-income-5000",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.871,
+          "id": "seoul-young-income-5001",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.088,
+          "id": "seoul-deposit-edge",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.552,
+          "id": "seoul-deposit-over",
+          "input_characters": 3473,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.595,
+          "id": "seoul-marriage-eight",
+          "input_characters": 3480,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP08C00000",
+              "NP08C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.818,
+          "id": "seoul-insurance-expired",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP08C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 14,
+        "correct": 6,
+        "joint": 0,
+        "supplied_full_span": 15
+      },
+      "n": 32,
+      "sum_observed_seconds": 41.647
+    },
+    "qwen": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.786,
+          "id": "chungnam-dangjin",
+          "input_characters": 3580,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.833,
+          "id": "chungnam-boryeong",
+          "input_characters": 3580,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.867,
+          "id": "chungnam-taean",
+          "input_characters": 3580,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.873,
+          "id": "chungnam-seosan",
+          "input_characters": 3580,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.723,
+          "id": "chungnam-deadline-10",
+          "input_characters": 3201,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.876,
+          "id": "chungnam-deadline-18",
+          "input_characters": 3201,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.959,
+          "id": "chungnam-cap-30",
+          "input_characters": 4201,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.034,
+          "id": "chungnam-cap-60",
+          "input_characters": 4201,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.133,
+          "id": "chungnam-exam-failed",
+          "input_characters": 4005,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP05C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.051,
+          "id": "chungnam-exam-third",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.106,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 4182,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.943,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 3839,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.317,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.127,
+          "id": "chungnam-employer-full",
+          "input_characters": 4182,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.959,
+          "id": "chungnam-employer-own",
+          "input_characters": 4182,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.088,
+          "id": "chungnam-training-card",
+          "input_characters": 3580,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.768,
+          "id": "seoul-cap-new-40",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 0.875,
+          "id": "seoul-cap-new-30",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.857,
+          "id": "seoul-cap-old-40",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.882,
+          "id": "seoul-cap-old-30",
+          "input_characters": 3804,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.822,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.885,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.068,
+          "id": "seoul-docs-2",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.175,
+          "id": "seoul-docs-4",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.699,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 3658,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.622,
+          "id": "seoul-proxy-parent",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.714,
+          "id": "seoul-young-income-5000",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 0.877,
+          "id": "seoul-young-income-5001",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.565,
+          "id": "seoul-deposit-edge",
+          "input_characters": 3658,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.727,
+          "id": "seoul-deposit-over",
+          "input_characters": 3473,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.038,
+          "id": "seoul-marriage-eight",
+          "input_characters": 3480,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400",
+              "NP08C00000",
+              "NP08C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.963,
+          "id": "seoul-insurance-expired",
+          "input_characters": 4158,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 15,
+        "correct": 24,
+        "joint": 13,
+        "supplied_full_span": 15
+      },
+      "n": 32,
+      "sum_observed_seconds": 46.212
+    }
+  },
+  "retrieved": {
+    "kanana-public": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.545,
+          "id": "chungnam-dangjin",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.886,
+          "id": "chungnam-boryeong",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.186,
+          "id": "chungnam-taean",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "OP01C00000",
+              "OP02C00000",
+              "OP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.194,
+          "id": "chungnam-seosan",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "OP01C00000",
+              "OP02C00000",
+              "OP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.26,
+          "id": "chungnam-deadline-10",
+          "input_characters": 2201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.731,
+          "id": "chungnam-deadline-18",
+          "input_characters": 2201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.202,
+          "id": "chungnam-cap-30",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.772,
+          "id": "chungnam-cap-60",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.429,
+          "id": "chungnam-exam-failed",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "OP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.887,
+          "id": "chungnam-exam-third",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.256,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 2979,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.379,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.018,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.348,
+          "id": "chungnam-employer-full",
+          "input_characters": 2979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.889,
+          "id": "chungnam-employer-own",
+          "input_characters": 2979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.887,
+          "id": "chungnam-training-card",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.338,
+          "id": "seoul-cap-new-40",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.828,
+          "id": "seoul-cap-new-30",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.885,
+          "id": "seoul-cap-old-40",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.856,
+          "id": "seoul-cap-old-30",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.24,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 0.875,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.862,
+          "id": "seoul-docs-2",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.854,
+          "id": "seoul-docs-4",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.082,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 2495,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP03C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.176,
+          "id": "seoul-proxy-parent",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.194,
+          "id": "seoul-young-income-5000",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.85,
+          "id": "seoul-young-income-5001",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.325,
+          "id": "seoul-deposit-edge",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP09C00800",
+              "OP01C00000",
+              "OP02C00000",
+              "OP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.196,
+          "id": "seoul-deposit-over",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.639,
+          "id": "seoul-marriage-eight",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP08C00000",
+              "NP09C00800",
+              "OP01C00000",
+              "OP08C00000",
+              "OP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.417,
+          "id": "seoul-insurance-expired",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP08C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 15,
+        "correct": 5,
+        "joint": 0,
+        "supplied_full_span": 15
+      },
+      "n": 32,
+      "sum_observed_seconds": 35.486
+    },
+    "qwen": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.536,
+          "id": "chungnam-dangjin",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.02,
+          "id": "chungnam-boryeong",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.999,
+          "id": "chungnam-taean",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.007,
+          "id": "chungnam-seosan",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.356,
+          "id": "chungnam-deadline-10",
+          "input_characters": 2201,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.102,
+          "id": "chungnam-deadline-18",
+          "input_characters": 2201,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.61,
+          "id": "chungnam-cap-30",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.218,
+          "id": "chungnam-cap-60",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.735,
+          "id": "chungnam-exam-failed",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP03C00000",
+              "NP05C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.068,
+          "id": "chungnam-exam-third",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.725,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 2979,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.59,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.963,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 2998,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.681,
+          "id": "chungnam-employer-full",
+          "input_characters": 2979,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.283,
+          "id": "chungnam-employer-own",
+          "input_characters": 2979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000",
+              "OP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.989,
+          "id": "chungnam-training-card",
+          "input_characters": 2998,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.324,
+          "id": "seoul-cap-new-40",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.046,
+          "id": "seoul-cap-new-30",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.035,
+          "id": "seoul-cap-old-40",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.992,
+          "id": "seoul-cap-old-30",
+          "input_characters": 2396,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.456,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.997,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.016,
+          "id": "seoul-docs-2",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.07,
+          "id": "seoul-docs-4",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.544,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 2495,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP03C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.627,
+          "id": "seoul-proxy-parent",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.434,
+          "id": "seoul-young-income-5000",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.064,
+          "id": "seoul-young-income-5001",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.021,
+          "id": "seoul-deposit-edge",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.461,
+          "id": "seoul-deposit-over",
+          "input_characters": 2413,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.644,
+          "id": "seoul-marriage-eight",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP08C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.502,
+          "id": "seoul-insurance-expired",
+          "input_characters": 2750,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 15,
+        "correct": 24,
+        "joint": 13,
+        "supplied_full_span": 15
+      },
+      "n": 32,
+      "sum_observed_seconds": 42.115
+    }
+  },
+  "top5": {
+    "kanana-public": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 10.01,
+          "id": "chungnam-dangjin",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000",
+              "OP01C00000",
+              "OP02C00000",
+              "OP03C00000",
+              "OP03C00400",
+              "OP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.887,
+          "id": "chungnam-boryeong",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.532,
+          "id": "chungnam-taean",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000",
+              "OP01C00000",
+              "OP02C00000",
+              "OP03C00000",
+              "OP03C00400",
+              "OP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.875,
+          "id": "chungnam-seosan",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 2.018,
+          "id": "chungnam-deadline-10",
+          "input_characters": 4005,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.957,
+          "id": "chungnam-deadline-18",
+          "input_characters": 4005,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP03C00000",
+              "NP03C00400",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.917,
+          "id": "chungnam-cap-30",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.964,
+          "id": "chungnam-cap-60",
+          "input_characters": 4201,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.102,
+          "id": "chungnam-exam-failed",
+          "input_characters": 4802,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP05C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.665,
+          "id": "chungnam-exam-third",
+          "input_characters": 4783,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 2.027,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 4783,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.919,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 4617,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000",
+              "NP04C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.831,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 4519,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000",
+              "NP04C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.203,
+          "id": "chungnam-employer-full",
+          "input_characters": 4783,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP04C00000",
+              "NP05C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.936,
+          "id": "chungnam-employer-own",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400",
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.061,
+          "id": "chungnam-training-card",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP03C00000",
+              "NP03C00400",
+              "NP05C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 2.12,
+          "id": "seoul-cap-new-40",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.971,
+          "id": "seoul-cap-new-30",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.962,
+          "id": "seoul-cap-old-40",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.968,
+          "id": "seoul-cap-old-30",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.94,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 4396,
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.97,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 4396,
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.089,
+          "id": "seoul-docs-2",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP08C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.969,
+          "id": "seoul-docs-4",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP08C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.757,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 3985,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP03C00000",
+              "NP09C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.616,
+          "id": "seoul-proxy-parent",
+          "input_characters": 4240,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP09C00400",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.78,
+          "id": "seoul-young-income-5000",
+          "input_characters": 4228,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP08C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.717,
+          "id": "seoul-young-income-5001",
+          "input_characters": 4236,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP02C00000",
+              "NP08C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.161,
+          "id": "seoul-deposit-edge",
+          "input_characters": 4059,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP08C00000",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.816,
+          "id": "seoul-deposit-over",
+          "input_characters": 4059,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP08C00000",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.877,
+          "id": "seoul-marriage-eight",
+          "input_characters": 3735,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400",
+              "NP08C00000",
+              "NP08C00400",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 1.796,
+          "id": "seoul-insurance-expired",
+          "input_characters": 3718,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000",
+              "NP08C00000",
+              "NP08C00400",
+              "NP09C00800",
+              "NP11C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 22,
+        "correct": 7,
+        "joint": 4,
+        "supplied_full_span": 23
+      },
+      "n": 32,
+      "sum_observed_seconds": 57.413
+    },
+    "qwen": {
+      "cases": [
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 12.412,
+          "id": "chungnam-dangjin",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.244,
+          "id": "chungnam-boryeong",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.96,
+          "id": "chungnam-taean",
+          "input_characters": 4979,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.843,
+          "id": "chungnam-seosan",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.044,
+          "id": "chungnam-deadline-10",
+          "input_characters": 4005,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.143,
+          "id": "chungnam-deadline-18",
+          "input_characters": 4005,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.385,
+          "id": "chungnam-cap-30",
+          "input_characters": 4201,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "OP01C00000",
+              "OP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.344,
+          "id": "chungnam-cap-60",
+          "input_characters": 4201,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000",
+              "OP01C00000",
+              "OP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.285,
+          "id": "chungnam-exam-failed",
+          "input_characters": 4802,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000",
+              "NP05C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 2.049,
+          "id": "chungnam-exam-third",
+          "input_characters": 4783,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.087,
+          "id": "chungnam-duplicate-same",
+          "input_characters": 4783,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.305,
+          "id": "chungnam-duplicate-separated",
+          "input_characters": 4617,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000",
+              "NP04C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 2.085,
+          "id": "chungnam-duplicate-unknown",
+          "input_characters": 4519,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000",
+              "NP04C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.111,
+          "id": "chungnam-employer-full",
+          "input_characters": 4783,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.208,
+          "id": "chungnam-employer-own",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP04C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.418,
+          "id": "chungnam-training-card",
+          "input_characters": 4979,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000",
+              "NP05C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.832,
+          "id": "seoul-cap-new-40",
+          "input_characters": 4396,
+          "joint": true,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 0.868,
+          "id": "seoul-cap-new-30",
+          "input_characters": 4396,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.014,
+          "id": "seoul-cap-old-40",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 0.88,
+          "id": "seoul-cap-old-30",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 1.881,
+          "id": "seoul-cap-unknown-40",
+          "input_characters": 4396,
+          "joint": true,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": true,
+          "correct": false,
+          "elapsed_seconds": 1.025,
+          "id": "seoul-cap-unknown-30",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "not_established",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.859,
+          "id": "seoul-docs-2",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": false,
+          "elapsed_seconds": 0.857,
+          "id": "seoul-docs-4",
+          "input_characters": 4396,
+          "joint": false,
+          "prediction": {
+            "decision": "not_established",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": true,
+          "correct": true,
+          "elapsed_seconds": 2.202,
+          "id": "seoul-proxy-cohabitant",
+          "input_characters": 3985,
+          "joint": true,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP03C00000",
+              "OP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": true
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.264,
+          "id": "seoul-proxy-parent",
+          "input_characters": 4240,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00000",
+              "NP12C00000",
+              "OP01C00000",
+              "OP03C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.178,
+          "id": "seoul-young-income-5000",
+          "input_characters": 4228,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400",
+              "NP02C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.059,
+          "id": "seoul-young-income-5001",
+          "input_characters": 4236,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400",
+              "NP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.685,
+          "id": "seoul-deposit-edge",
+          "input_characters": 4059,
+          "joint": false,
+          "prediction": {
+            "decision": "supported",
+            "evidence": [
+              "NP01C00400"
+            ],
+            "reason": "valid"
+          },
+          "reference": "supported",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.979,
+          "id": "seoul-deposit-over",
+          "input_characters": 4059,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400",
+              "OP02C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 2.075,
+          "id": "seoul-marriage-eight",
+          "input_characters": 3735,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00400",
+              "NP08C00000",
+              "NP09C00800"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        },
+        {
+          "cited_full_span": false,
+          "correct": true,
+          "elapsed_seconds": 1.731,
+          "id": "seoul-insurance-expired",
+          "input_characters": 3718,
+          "joint": false,
+          "prediction": {
+            "decision": "contradicted",
+            "evidence": [
+              "NP01C00000"
+            ],
+            "reason": "valid"
+          },
+          "reference": "contradicted",
+          "supplied_full_span": false
+        }
+      ],
+      "metrics": {
+        "cited_full_span": 22,
+        "correct": 24,
+        "joint": 17,
+        "supplied_full_span": 23
+      },
+      "n": 32,
+      "sum_observed_seconds": 64.312
+    }
+  }
+}
