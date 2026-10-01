@@ -1,0 +1,223 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 24,
+      "correct": 19,
+      "accuracy": 0.7916666666666666,
+      "abstain": 0,
+      "unknown": 12,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/not_established": 1,
+        "not_established/not_established": 8,
+        "supported/contradicted": 1,
+        "supported/not_established": 3,
+        "supported/supported": 8
+      }
+    },
+    "pipeline": {
+      "n": 24,
+      "correct": 4,
+      "accuracy": 0.16666666666666666,
+      "abstain": 8,
+      "unknown": 16,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/not_established": 3,
+        "not_established/abstain": 4,
+        "not_established/not_established": 4,
+        "supported/abstain": 3,
+        "supported/not_established": 9
+      }
+    },
+    "kleene": {
+      "n": 24,
+      "correct": 4,
+      "accuracy": 0.16666666666666666,
+      "abstain": 8,
+      "unknown": 16,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/not_established": 3,
+        "not_established/abstain": 4,
+        "not_established/not_established": 4,
+        "supported/abstain": 3,
+        "supported/not_established": 9
+      }
+    },
+    "reference_policy": {
+      "n": 24,
+      "correct": 9,
+      "accuracy": 0.375,
+      "abstain": 8,
+      "unknown": 11,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/contradicted": 1,
+        "contradicted/not_established": 2,
+        "not_established/abstain": 4,
+        "not_established/not_established": 4,
+        "supported/abstain": 3,
+        "supported/not_established": 5,
+        "supported/supported": 4
+      }
+    },
+    "reference_profile": {
+      "n": 24,
+      "correct": 8,
+      "accuracy": 0.3333333333333333,
+      "abstain": 0,
+      "unknown": 24,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/not_established": 4,
+        "not_established/not_established": 8,
+        "supported/not_established": 12
+      }
+    },
+    "both_reference": {
+      "n": 24,
+      "correct": 24,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "profile_exact": 6,
+    "policy_equivalent": 1,
+    "policy_n": 8,
+    "finite_changed_cases": [],
+    "pipeline_fixes_direct": [],
+    "pipeline_breaks_direct": [
+      "dev-age-income-1",
+      "dev-age-income-2",
+      "dev-age-income-3",
+      "dev-subject-or-1",
+      "dev-subject-or-2",
+      "dev-pledge-2",
+      "dev-pledge-3",
+      "dev-benefits-1",
+      "dev-benefits-2",
+      "dev-foreign-1",
+      "dev-foreign-2",
+      "dev-education-work-1",
+      "dev-money-2",
+      "dev-money-3",
+      "dev-insufficient-2"
+    ]
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 24,
+      "correct": 15,
+      "accuracy": 0.625,
+      "abstain": 0,
+      "unknown": 11,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/not_established": 3,
+        "contradicted/supported": 1,
+        "not_established/not_established": 6,
+        "not_established/supported": 2,
+        "supported/contradicted": 1,
+        "supported/not_established": 2,
+        "supported/supported": 9
+      }
+    },
+    "pipeline": {
+      "n": 24,
+      "correct": 8,
+      "accuracy": 0.3333333333333333,
+      "abstain": 0,
+      "unknown": 24,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/not_established": 4,
+        "not_established/not_established": 8,
+        "supported/not_established": 12
+      }
+    },
+    "kleene": {
+      "n": 24,
+      "correct": 8,
+      "accuracy": 0.3333333333333333,
+      "abstain": 0,
+      "unknown": 24,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/not_established": 4,
+        "not_established/not_established": 8,
+        "supported/not_established": 12
+      }
+    },
+    "reference_policy": {
+      "n": 24,
+      "correct": 18,
+      "accuracy": 0.75,
+      "abstain": 0,
+      "unknown": 13,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/contradicted": 1,
+        "supported/not_established": 5,
+        "supported/supported": 6
+      }
+    },
+    "reference_profile": {
+      "n": 24,
+      "correct": 8,
+      "accuracy": 0.3333333333333333,
+      "abstain": 0,
+      "unknown": 24,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/not_established": 4,
+        "not_established/not_established": 8,
+        "supported/not_established": 12
+      }
+    },
+    "both_reference": {
+      "n": 24,
+      "correct": 24,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "profile_exact": 10,
+    "policy_equivalent": 1,
+    "policy_n": 8,
+    "finite_changed_cases": [],
+    "pipeline_fixes_direct": [
+      "dev-subject-or-2",
+      "dev-benefits-3"
+    ],
+    "pipeline_breaks_direct": [
+      "dev-age-income-1",
+      "dev-subject-or-1",
+      "dev-pledge-1",
+      "dev-pledge-2",
+      "dev-pledge-3",
+      "dev-benefits-1",
+      "dev-foreign-1",
+      "dev-education-work-1",
+      "dev-money-1"
+    ]
+  }
+}

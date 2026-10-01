@@ -1,0 +1,114 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 16,
+      "correct": 11,
+      "abstain": 0,
+      "unknown": 4,
+      "false_determination": 0
+    },
+    "pipeline": {
+      "n": 16,
+      "correct": 11,
+      "abstain": 0,
+      "unknown": 1,
+      "false_determination": 1
+    },
+    "reference_policy": {
+      "n": 16,
+      "correct": 13,
+      "abstain": 0,
+      "unknown": 3,
+      "false_determination": 1
+    },
+    "reference_profile": {
+      "n": 16,
+      "correct": 11,
+      "abstain": 0,
+      "unknown": 1,
+      "false_determination": 1
+    },
+    "both_reference": {
+      "n": 16,
+      "correct": 16,
+      "abstain": 0,
+      "unknown": 2,
+      "false_determination": 0
+    },
+    "profile_exact": 11,
+    "policy_equivalent": 1,
+    "policy_n": 2,
+    "by_bundle": {
+      "cap-rent": {
+        "direct": 6,
+        "pipeline": 8,
+        "reference_policy": 8,
+        "reference_profile": 8,
+        "both_reference": 8
+      },
+      "cap-education": {
+        "direct": 5,
+        "pipeline": 3,
+        "reference_policy": 5,
+        "reference_profile": 3,
+        "both_reference": 8
+      }
+    }
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 16,
+      "correct": 6,
+      "abstain": 0,
+      "unknown": 4,
+      "false_determination": 2
+    },
+    "pipeline": {
+      "n": 16,
+      "correct": 3,
+      "abstain": 8,
+      "unknown": 2,
+      "false_determination": 1
+    },
+    "reference_policy": {
+      "n": 16,
+      "correct": 9,
+      "abstain": 0,
+      "unknown": 5,
+      "false_determination": 1
+    },
+    "reference_profile": {
+      "n": 16,
+      "correct": 3,
+      "abstain": 8,
+      "unknown": 2,
+      "false_determination": 1
+    },
+    "both_reference": {
+      "n": 16,
+      "correct": 16,
+      "abstain": 0,
+      "unknown": 2,
+      "false_determination": 0
+    },
+    "profile_exact": 4,
+    "policy_equivalent": 0,
+    "policy_n": 2,
+    "by_bundle": {
+      "cap-rent": {
+        "direct": 3,
+        "pipeline": 0,
+        "reference_policy": 6,
+        "reference_profile": 0,
+        "both_reference": 8
+      },
+      "cap-education": {
+        "direct": 3,
+        "pipeline": 3,
+        "reference_policy": 3,
+        "reference_profile": 3,
+        "both_reference": 8
+      }
+    }
+  }
+}

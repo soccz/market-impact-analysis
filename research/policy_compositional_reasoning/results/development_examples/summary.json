@@ -1,0 +1,240 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 24,
+      "correct": 19,
+      "accuracy": 0.7916666666666666,
+      "abstain": 0,
+      "unknown": 12,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/not_established": 1,
+        "not_established/not_established": 8,
+        "supported/contradicted": 1,
+        "supported/not_established": 3,
+        "supported/supported": 8
+      }
+    },
+    "pipeline": {
+      "n": 24,
+      "correct": 17,
+      "accuracy": 0.7083333333333334,
+      "abstain": 0,
+      "unknown": 7,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/supported": 1,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 6,
+        "supported/contradicted": 3,
+        "supported/not_established": 1,
+        "supported/supported": 8
+      }
+    },
+    "kleene": {
+      "n": 24,
+      "correct": 16,
+      "accuracy": 0.6666666666666666,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/supported": 1,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 6,
+        "supported/contradicted": 3,
+        "supported/not_established": 2,
+        "supported/supported": 7
+      }
+    },
+    "reference_policy": {
+      "n": 24,
+      "correct": 23,
+      "accuracy": 0.9583333333333334,
+      "abstain": 0,
+      "unknown": 9,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/not_established": 1,
+        "supported/supported": 11
+      }
+    },
+    "reference_profile": {
+      "n": 24,
+      "correct": 18,
+      "accuracy": 0.75,
+      "abstain": 0,
+      "unknown": 6,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/supported": 1,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 6,
+        "supported/contradicted": 3,
+        "supported/supported": 9
+      }
+    },
+    "both_reference": {
+      "n": 24,
+      "correct": 24,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "profile_exact": 23,
+    "policy_equivalent": 5,
+    "policy_n": 8,
+    "finite_changed_cases": [
+      "dev-pledge-3"
+    ],
+    "pipeline_fixes_direct": [
+      "dev-subject-or-3",
+      "dev-pledge-1",
+      "dev-education-work-3",
+      "dev-money-1"
+    ],
+    "pipeline_breaks_direct": [
+      "dev-subject-or-1",
+      "dev-subject-or-2",
+      "dev-benefits-1",
+      "dev-foreign-1",
+      "dev-foreign-3",
+      "dev-education-work-1"
+    ]
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 24,
+      "correct": 15,
+      "accuracy": 0.625,
+      "abstain": 0,
+      "unknown": 11,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/not_established": 3,
+        "contradicted/supported": 1,
+        "not_established/not_established": 6,
+        "not_established/supported": 2,
+        "supported/contradicted": 1,
+        "supported/not_established": 2,
+        "supported/supported": 9
+      }
+    },
+    "pipeline": {
+      "n": 24,
+      "correct": 14,
+      "accuracy": 0.5833333333333334,
+      "abstain": 1,
+      "unknown": 9,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 1,
+        "contradicted/not_established": 1,
+        "contradicted/supported": 2,
+        "not_established/abstain": 1,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 5,
+        "supported/contradicted": 1,
+        "supported/not_established": 3,
+        "supported/supported": 8
+      }
+    },
+    "kleene": {
+      "n": 24,
+      "correct": 13,
+      "accuracy": 0.5416666666666666,
+      "abstain": 1,
+      "unknown": 10,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 1,
+        "contradicted/not_established": 1,
+        "contradicted/supported": 2,
+        "not_established/abstain": 1,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 5,
+        "supported/contradicted": 1,
+        "supported/not_established": 4,
+        "supported/supported": 7
+      }
+    },
+    "reference_policy": {
+      "n": 24,
+      "correct": 19,
+      "accuracy": 0.7916666666666666,
+      "abstain": 1,
+      "unknown": 10,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/abstain": 1,
+        "not_established/not_established": 7,
+        "supported/contradicted": 1,
+        "supported/not_established": 3,
+        "supported/supported": 8
+      }
+    },
+    "reference_profile": {
+      "n": 24,
+      "correct": 16,
+      "accuracy": 0.6666666666666666,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 1,
+        "contradicted/not_established": 1,
+        "contradicted/supported": 2,
+        "not_established/contradicted": 2,
+        "not_established/not_established": 6,
+        "supported/contradicted": 2,
+        "supported/not_established": 1,
+        "supported/supported": 9
+      }
+    },
+    "both_reference": {
+      "n": 24,
+      "correct": 24,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "not_established/not_established": 8,
+        "supported/supported": 12
+      }
+    },
+    "profile_exact": 17,
+    "policy_equivalent": 3,
+    "policy_n": 8,
+    "finite_changed_cases": [
+      "dev-pledge-3"
+    ],
+    "pipeline_fixes_direct": [
+      "dev-subject-or-2",
+      "dev-subject-or-3",
+      "dev-benefits-3",
+      "dev-money-2"
+    ],
+    "pipeline_breaks_direct": [
+      "dev-age-income-3",
+      "dev-benefits-1",
+      "dev-foreign-3",
+      "dev-money-1",
+      "dev-money-3"
+    ]
+  }
+}

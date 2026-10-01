@@ -1,0 +1,243 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 32,
+      "correct": 19,
+      "accuracy": 0.59375,
+      "abstain": 0,
+      "unknown": 15,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 5,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 2,
+        "not_established/not_established": 8,
+        "supported/contradicted": 4,
+        "supported/not_established": 4,
+        "supported/supported": 6
+      }
+    },
+    "pipeline": {
+      "n": 32,
+      "correct": 19,
+      "accuracy": 0.59375,
+      "abstain": 1,
+      "unknown": 16,
+      "false_determination": 1,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/contradicted": 5,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 1,
+        "not_established/not_established": 7,
+        "not_established/supported": 1,
+        "supported/contradicted": 1,
+        "supported/not_established": 6,
+        "supported/supported": 7
+      }
+    },
+    "kleene": {
+      "n": 32,
+      "correct": 19,
+      "accuracy": 0.59375,
+      "abstain": 1,
+      "unknown": 16,
+      "false_determination": 1,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/contradicted": 5,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 1,
+        "not_established/not_established": 7,
+        "not_established/supported": 1,
+        "supported/contradicted": 1,
+        "supported/not_established": 6,
+        "supported/supported": 7
+      }
+    },
+    "reference_policy": {
+      "n": 32,
+      "correct": 28,
+      "accuracy": 0.875,
+      "abstain": 1,
+      "unknown": 11,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/abstain": 1,
+        "contradicted/contradicted": 7,
+        "contradicted/not_established": 2,
+        "not_established/not_established": 8,
+        "supported/not_established": 1,
+        "supported/supported": 13
+      }
+    },
+    "reference_profile": {
+      "n": 32,
+      "correct": 20,
+      "accuracy": 0.625,
+      "abstain": 0,
+      "unknown": 16,
+      "false_determination": 1,
+      "confusion": {
+        "contradicted/contradicted": 5,
+        "contradicted/not_established": 4,
+        "contradicted/supported": 1,
+        "not_established/not_established": 7,
+        "not_established/supported": 1,
+        "supported/contradicted": 1,
+        "supported/not_established": 5,
+        "supported/supported": 8
+      }
+    },
+    "both_reference": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 10,
+        "not_established/not_established": 8,
+        "supported/supported": 14
+      }
+    },
+    "profile_exact": 28,
+    "policy_equivalent": 4,
+    "policy_n": 8,
+    "finite_changed_cases": [],
+    "pipeline_fixes_direct": [
+      "dj-city-income-4",
+      "dj-foreign-2",
+      "dj-foreign-4",
+      "gj-work-2"
+    ],
+    "pipeline_breaks_direct": [
+      "dj-benefits-2",
+      "gj-benefits-1",
+      "gj-education-work-2",
+      "gj-education-work-3"
+    ]
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 32,
+      "correct": 12,
+      "accuracy": 0.375,
+      "abstain": 0,
+      "unknown": 11,
+      "false_determination": 4,
+      "confusion": {
+        "contradicted/not_established": 3,
+        "contradicted/supported": 7,
+        "not_established/not_established": 4,
+        "not_established/supported": 4,
+        "supported/contradicted": 2,
+        "supported/not_established": 4,
+        "supported/supported": 8
+      }
+    },
+    "pipeline": {
+      "n": 32,
+      "correct": 13,
+      "accuracy": 0.40625,
+      "abstain": 0,
+      "unknown": 17,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 2,
+        "contradicted/not_established": 4,
+        "contradicted/supported": 4,
+        "not_established/contradicted": 1,
+        "not_established/not_established": 6,
+        "not_established/supported": 1,
+        "supported/contradicted": 2,
+        "supported/not_established": 7,
+        "supported/supported": 5
+      }
+    },
+    "kleene": {
+      "n": 32,
+      "correct": 13,
+      "accuracy": 0.40625,
+      "abstain": 0,
+      "unknown": 17,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 2,
+        "contradicted/not_established": 4,
+        "contradicted/supported": 4,
+        "not_established/contradicted": 1,
+        "not_established/not_established": 6,
+        "not_established/supported": 1,
+        "supported/contradicted": 2,
+        "supported/not_established": 7,
+        "supported/supported": 5
+      }
+    },
+    "reference_policy": {
+      "n": 32,
+      "correct": 24,
+      "accuracy": 0.75,
+      "abstain": 0,
+      "unknown": 16,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 7,
+        "contradicted/not_established": 3,
+        "not_established/not_established": 8,
+        "supported/not_established": 5,
+        "supported/supported": 9
+      }
+    },
+    "reference_profile": {
+      "n": 32,
+      "correct": 15,
+      "accuracy": 0.46875,
+      "abstain": 0,
+      "unknown": 12,
+      "false_determination": 3,
+      "confusion": {
+        "contradicted/contradicted": 3,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 4,
+        "not_established/contradicted": 1,
+        "not_established/not_established": 5,
+        "not_established/supported": 2,
+        "supported/contradicted": 3,
+        "supported/not_established": 4,
+        "supported/supported": 7
+      }
+    },
+    "both_reference": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 8,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 10,
+        "not_established/not_established": 8,
+        "supported/supported": 14
+      }
+    },
+    "profile_exact": 20,
+    "policy_equivalent": 1,
+    "policy_n": 8,
+    "finite_changed_cases": [],
+    "pipeline_fixes_direct": [
+      "dj-benefits-3",
+      "dj-foreign-1",
+      "dj-foreign-3",
+      "gj-work-2",
+      "gj-education-work-3"
+    ],
+    "pipeline_breaks_direct": [
+      "dj-benefits-2",
+      "gj-city-age-income-3",
+      "gj-benefits-1",
+      "gj-education-work-1"
+    ]
+  }
+}

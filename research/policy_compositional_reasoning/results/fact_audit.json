@@ -1,0 +1,4241 @@
+{
+  "development": {
+    "qwen": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-age-income-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-age-income-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "age_years",
+                "predicted": null,
+                "reference": 25
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": false,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-benefits-1",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "dev-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": true,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-education-work-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "dropout"
+              },
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              },
+              {
+                "field": "weekly_work_hours",
+                "predicted": null,
+                "reference": 19
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "dev-education-work-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-foreign-1",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-foreign-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "foreign_national",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "permanent_resident",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": false,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "dev-foreign-3",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 2,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-insufficient-1",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-insufficient-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "income_pct",
+                "predicted": null,
+                "reference": 180
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": false,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-money-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": null,
+                "reference": 80000000
+              },
+              {
+                "field": "monthly_rent_krw",
+                "predicted": null,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "dev-money-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-money-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": null,
+                "reference": 500000
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": false,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-pledge-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-subject-or-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "parent_residence_months",
+                "predicted": null,
+                "reference": 12
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "dev-subject-or-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-age-income-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "foreign_national",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "permanent_resident",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dev-age-income-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-education-work-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "leave"
+              },
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "unemployed"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-foreign-1",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-foreign-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-foreign-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "foreign_national",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 2,
+        "errors": [
+          {
+            "id": "dev-insufficient-2",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-insufficient-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "income_krw",
+                "predicted": 300000000,
+                "reference": 30000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-money-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dev-money-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 61000000,
+                "reference": 610000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dev-money-3",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-pledge-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-subject-or-2",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-subject-or-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      }
+    }
+  },
+  "development_explicit": {
+    "qwen": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-education-work-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dev-education-work-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "enrolled",
+                "reference": "leave"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-foreign-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-foreign-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "foreign_national",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "duplicate_profile_field"
+          }
+        ]
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-money-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-pledge-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "pledge",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    }
+  },
+  "development_examples": {
+    "qwen": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 2,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "dev-age-income": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-benefits": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "homeowner",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-education-work": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-education-work-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dev-education-work-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "enrolled",
+                "reference": "leave"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-foreign": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-foreign-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "dev-foreign-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "foreign_national",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "duplicate_profile_field"
+          }
+        ]
+      },
+      "dev-insufficient": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dev-money": {
+        "n": 3,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dev-money-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-pledge": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dev-pledge-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "pledge",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dev-subject-or": {
+        "n": 3,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    }
+  },
+  "official": {
+    "qwen": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-city-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "대전광역시"
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-benefits-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-city-age-income-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "경기도 광주시"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-city-benefits-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-foreign-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "gj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-education-work-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "graduated",
+                "reference": "completed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-education-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduated"
+              },
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              },
+              {
+                "field": "weekly_work_hours",
+                "predicted": null,
+                "reference": 30
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "unemployed"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "official_examples": {
+    "qwen": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-city-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "대전광역시"
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-benefits-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-city-age-income-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "경기도 광주시"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-city-benefits-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-foreign-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "gj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-education-work-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "graduated",
+                "reference": "completed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-education-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduated"
+              },
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              },
+              {
+                "field": "weekly_work_hours",
+                "predicted": null,
+                "reference": 30
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "unemployed"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "composition": {
+    "qwen": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-education-or-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": "null",
+                "reference": null
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-impossible-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-age-or-income-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "residence_months",
+                "predicted": null,
+                "reference": 18
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-education-or-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-3",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-parent-or-pledge-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-unavailable-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 500000,
+                "reference": 5000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "composition_examples": {
+    "qwen": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-education-or-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": "null",
+                "reference": null
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-impossible-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-age-or-income-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "residence_months",
+                "predicted": null,
+                "reference": 18
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-education-or-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-3",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-parent-or-pledge-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-unavailable-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 500000,
+                "reference": 5000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "official_repair": {
+    "qwen": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-city-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "대전광역시"
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-benefits-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-city-age-income-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "residence_city",
+                "predicted": null,
+                "reference": "경기도 광주시"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "dj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "dj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-benefits": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "dj-city-benefits-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "dj-city-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "dj-foreign": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "dj-foreign-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-benefits": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "gj-benefits-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "housing_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "medical_benefit",
+                "predicted": null,
+                "reference": false
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-benefits-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "livelihood_benefit",
+                "predicted": null,
+                "reference": true
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "gj-city-age-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "gj-education-work": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "gj-education-work-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "graduated",
+                "reference": "completed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "gj-education-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduated"
+              },
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              },
+              {
+                "field": "weekly_work_hours",
+                "predicted": null,
+                "reference": 30
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "gj-work": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "gj-work-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "unemployed"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "composition_repair": {
+    "qwen": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-education-or-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": "null",
+                "reference": null
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-impossible-3",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 4,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      }
+    },
+    "kanana-public": {
+      "mix-age-or-income": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-age-or-income-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "residence_months",
+                "predicted": null,
+                "reference": 18
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-age-partition": {
+        "n": 4,
+        "answer_correct": 3,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-date-money": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-education-or": {
+        "n": 4,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-education-or-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "employment_status",
+                "predicted": null,
+                "reference": "employed"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "mix-exception-benefit": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 1,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-exception-benefit-2",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "mix-exception-benefit-3",
+            "answer_correct": true,
+            "differences": [],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-impossible": {
+        "n": 4,
+        "answer_correct": 0,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": []
+      },
+      "mix-parent-or-pledge": {
+        "n": 4,
+        "answer_correct": 2,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "mix-parent-or-pledge-4",
+            "answer_correct": false,
+            "differences": [],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "query_unsupported"
+          }
+        ]
+      },
+      "mix-unavailable": {
+        "n": 4,
+        "answer_correct": 4,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 3,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "mix-unavailable-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 500000,
+                "reference": 5000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "capability_base": {
+    "qwen": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 0,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "cap-education-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "credit_bank"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "completion_certificate",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "education_status",
+                "predicted": "enrolled",
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "completion_certificate",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "education_status",
+                "predicted": "enrolled",
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-6",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "query_unsupported"
+          },
+          {
+            "id": "cap-education-7",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-8",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 6,
+        "profile_exact": 7,
+        "joint_answer_and_profile": 6,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "cap-rent-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 24002400,
+                "reference": 24000240
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 0,
+        "profile_exact": 0,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "cap-education-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "graduated",
+                "reference": "enrolled"
+              },
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_field"
+          },
+          {
+            "id": "cap-education-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "foreign_national",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "permanent_resident",
+                "predicted": false,
+                "reference": null
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "credit_bank"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "completion_certificate",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": null,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_schema"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "age_years",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "applied_on",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "completion_certificate",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "deposit_krw",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "education_benefit",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "education_status",
+                "predicted": "enrolled",
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "employment_status",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "foreign_national",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "homeowner",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "household_income_krw",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "housing_benefit",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "income_krw",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "income_pct",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "joined_on",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "livelihood_benefit",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "marriage_years",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "medical_benefit",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "monthly_rent_krw",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "parent_residence_months",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "permanent_resident",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "pledge",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "residence_city",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "residence_months",
+                "predicted": "null",
+                "reference": null
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              },
+              {
+                "field": "weekly_work_hours",
+                "predicted": "null",
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_value"
+          },
+          {
+            "id": "cap-education-6",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "applied_on",
+                "predicted": "YYYY-MM-DD",
+                "reference": null
+              },
+              {
+                "field": "joined_on",
+                "predicted": "YYYY-MM-DD",
+                "reference": null
+              },
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": false
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "invalid_profile_value"
+          },
+          {
+            "id": "cap-education-7",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-8",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "graduated",
+                "reference": "enrolled"
+              },
+              {
+                "field": "prior_graduation",
+                "predicted": null,
+                "reference": true
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "invalid_profile_field"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 3,
+        "profile_exact": 2,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-rent-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 7000000,
+                "reference": 700000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 240000000,
+                "reference": 24000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 2400240,
+                "reference": 24000240
+              },
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 7000000,
+                "reference": 700000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-5",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 7500000,
+                "reference": 750000
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-8",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 111000000,
+                "reference": 110000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "capability_extended": {
+    "qwen": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 3,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 2,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-education-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "completed",
+                "reference": "enrolled"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduation_expected"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "prior_graduation",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-7",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": true,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 8,
+        "profile_exact": 7,
+        "joint_answer_and_profile": 7,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-rent-4",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 24002400,
+                "reference": 24000240
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 3,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 3,
+        "errors": [
+          {
+            "id": "cap-education-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-6",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-8",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 0,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 0,
+        "errors": [
+          {
+            "id": "cap-rent-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 2400240,
+                "reference": 24000240
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-5",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 7500000,
+                "reference": 750000
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-6",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 70000,
+                "reference": 700000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-8",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 1100000000,
+                "reference": 110000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "capability_repair": {
+    "qwen": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 1,
+        "profile_exact": 4,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-education-3",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": "completed",
+                "reference": "enrolled"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduation_expected"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "education_status",
+                "predicted": null,
+                "reference": "graduation_expected"
+              },
+              {
+                "field": "prior_graduation",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-7",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": true,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 8,
+        "profile_exact": 7,
+        "joint_answer_and_profile": 7,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-rent-4",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 24002400,
+                "reference": 24000240
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "cap-education": {
+        "n": 8,
+        "answer_correct": 3,
+        "profile_exact": 1,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 3,
+        "errors": [
+          {
+            "id": "cap-education-1",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-2",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-3",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "prior_graduation",
+                "predicted": false,
+                "reference": null
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-5",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "expected_graduation_month",
+                "predicted": null,
+                "reference": "2025-02"
+              },
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "general"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-6",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-education-8",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "school_kind",
+                "predicted": null,
+                "reference": "remote"
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          }
+        ]
+      },
+      "cap-rent": {
+        "n": 8,
+        "answer_correct": 1,
+        "profile_exact": 3,
+        "joint_answer_and_profile": 0,
+        "correct_answer_wrong_profile": 1,
+        "errors": [
+          {
+            "id": "cap-rent-1",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 6000000,
+                "reference": 600000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-4",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 2400240,
+                "reference": 24000240
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-5",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 7500000,
+                "reference": 750000
+              }
+            ],
+            "predicted_assertion": false,
+            "reference_assertion": false,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-6",
+            "answer_correct": true,
+            "differences": [
+              {
+                "field": "monthly_rent_krw",
+                "predicted": 70000,
+                "reference": 700000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          },
+          {
+            "id": "cap-rent-8",
+            "answer_correct": false,
+            "differences": [
+              {
+                "field": "deposit_krw",
+                "predicted": 1100000000,
+                "reference": 110000000
+              }
+            ],
+            "predicted_assertion": true,
+            "reference_assertion": true,
+            "profile_status": "valid"
+          }
+        ]
+      }
+    }
+  },
+  "boundary_example": {
+    "id": "cap-rent-4",
+    "monthly_rent_krw": 700000,
+    "reference_deposit_krw": 24000240,
+    "predicted_deposit_krw": 24002400,
+    "reference_converted_krw": "800001",
+    "predicted_converted_krw": "800010",
+    "interpretation": "Both exceed 800000, so the wrong parsed amount still yields the reference decision. This diagnostic was added after inspecting the UI trace."
+  }
+}

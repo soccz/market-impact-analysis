@@ -1,0 +1,4458 @@
+[
+  {
+    "id": "dj-city-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:24.137647+00:00",
+    "request_sha256": "6fb12102fbdbbbffcdddfddbaf1bef554a34fd38c17e6157841fbdc081abca42",
+    "input_sha256": "b884143e41a41011ed9aa1103ce7c75626702f05cc18d875b9f92f522368ef28",
+    "elapsed_seconds": 60.09,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_city",
+            "op": "eq",
+            "value": "대전광역시",
+            "evidence": [
+              "D-CITY"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "D-INCOME"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "0e4698d7115e19ddf2d7a91e71b5485cb64e5da130145a4f4cdfa5e2855ae837",
+    "done_reason": "stop",
+    "reported_eval_count": 128
+  },
+  {
+    "id": "dj-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:27.679080+00:00",
+    "request_sha256": "b66bab0d0b0cd7981cf2552e1ca1173a6bd4395d89ca142cbb75d62057678a63",
+    "input_sha256": "ffac9e5a8ec4242e05bd50891f50ba99dc4af0e566c2d318a9c3715846d4cfa9",
+    "elapsed_seconds": 3.541,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "ccaa4aaed46a088cf25a0460d0b50706bf3de240e5ed215efb7a45fcb393b718",
+    "done_reason": "stop",
+    "reported_eval_count": 206
+  },
+  {
+    "id": "dj-city-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:30.483775+00:00",
+    "request_sha256": "e8b39fee133d97bca52cdbacecd22d53fd5e643641f4b60244fdce2a570c9cb5",
+    "input_sha256": "11351a9e81a2b47ddf170acce7890f5b6c3e37a2bd85bd79ee0805925b5ca652",
+    "elapsed_seconds": 2.804,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_city",
+            "op": "eq",
+            "value": "대전광역시",
+            "evidence": [
+              "D-CITY"
+            ]
+          },
+          {
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": true,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          },
+          {
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false,
+            "evidence": [
+              "D-BENEFITS"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "c40dd11e9791f2d6b2ff3322a4cf76c0f6811f0744d24242599fb3c23d6a3521",
+    "done_reason": "stop",
+    "reported_eval_count": 156
+  },
+  {
+    "id": "dj-foreign",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:31.534618+00:00",
+    "request_sha256": "04a4428a87b795e3992f234d002ae37a1bcf5464903d7813542c71c3e226592d",
+    "input_sha256": "ae3490f016c8bfff7f8a3c95010148fdc6f3341f94a95a1d2c2c0f6798eb35a3",
+    "elapsed_seconds": 1.05,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "foreign_national",
+            "op": "ne",
+            "value": true,
+            "evidence": [
+              "D-FOREIGN"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "a177c721e1cf2616a1c08f883b31262d8d34f5a1e840ce510050bdb250a14f16",
+    "done_reason": "stop",
+    "reported_eval_count": 35
+  },
+  {
+    "id": "gj-city-age-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:35.408280+00:00",
+    "request_sha256": "d4f31be5adc9d003b5aa4c8335ef993c11a4db6f47d8d2d4ed0281743761ebf7",
+    "input_sha256": "b693a51d9bc0d743a81bb9121cf68dfc58a8dd1e1a8bdd25b38f610f9bdc66ac",
+    "elapsed_seconds": 3.873,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "residence_city",
+            "op": "eq",
+            "value": "광주광역시",
+            "evidence": [
+              "G-CITY"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "ge",
+            "value": 19,
+            "evidence": [
+              "G-AGE"
+            ]
+          },
+          {
+            "field": "age_years",
+            "op": "le",
+            "value": 39,
+            "evidence": [
+              "G-AGE"
+            ]
+          },
+          {
+            "field": "income_pct",
+            "op": "le",
+            "value": 150,
+            "evidence": [
+              "G-INCOME"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "e45fd8bab992c1d8f64e5aa5a4544a7972398013f53b4c25fbb479764c228973",
+    "done_reason": "stop",
+    "reported_eval_count": 227
+  },
+  {
+    "id": "gj-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:36.148912+00:00",
+    "request_sha256": "94c0038a62be5f0e1b49f74be30242220644e6787d395615ce6f7faa8ddb30fc",
+    "input_sha256": "866f7f423862a3f50b8cc9c9818e123341e818afb577482bcb6d03d081ecd0ec",
+    "elapsed_seconds": 0.74,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "a6b442d7bfab12528f094ad1dd5911fadbd68690a19f6f658f4c832788d7c1d3",
+    "done_reason": "stop",
+    "reported_eval_count": 11
+  },
+  {
+    "id": "gj-work",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:39.367725+00:00",
+    "request_sha256": "2f50ff36bbeba3b68c2b56ca0a3ee8da1a3c9a787a62ee576fb53ec08c67b8be",
+    "input_sha256": "52482d917ec3894848af15b199015339da9fcb2c2e5666400cc422a5fcc65311",
+    "elapsed_seconds": 3.218,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed",
+            "evidence": [
+              "G-UNEMPLOYED"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "employed",
+            "evidence": [
+              "G-HOURS"
+            ]
+          },
+          {
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 30,
+            "evidence": [
+              "G-HOURS"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "da705a248b26fb211629c8db5e8ef74df3ad06dc30471d59351c9f01d6112915",
+    "done_reason": "stop",
+    "reported_eval_count": 184
+  },
+  {
+    "id": "gj-education-work",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:45.398645+00:00",
+    "request_sha256": "6b206d480d27c4896eed82bbee3d533b75a6307578b0fbba009797d587aff3b4",
+    "input_sha256": "5219479e7f6e793605cd52b780307e27cf2411463d89db4ba65a672162cfbaf0",
+    "elapsed_seconds": 6.031,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "education_status",
+            "op": "in",
+            "value": [
+              "graduated",
+              "completed",
+              "dropout"
+            ],
+            "evidence": [
+              "G-EDUCATION"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled",
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ]
+          },
+          {
+            "field": "education_status",
+            "op": "ne",
+            "value": "leave",
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed",
+            "evidence": [
+              "G-UNEMPLOYED"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "employment_status",
+            "op": "eq",
+            "value": "employed",
+            "evidence": [
+              "G-HOURS"
+            ]
+          },
+          {
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 30,
+            "evidence": [
+              "G-HOURS"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "e98106bb43cf92baa882dce3aba6d9d4dec9b74fbf8e16306891b3332253c578",
+    "done_reason": "stop",
+    "reported_eval_count": 372
+  },
+  {
+    "id": "dj-city-income-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:47.089650+00:00",
+    "request_sha256": "5c869b94316ccf78c60ec94c4624ab92320f66b4ddf12dd26f9969fb2a4e80ef",
+    "input_sha256": "f7f733d3c34853a5ddb1a888f979695282a408e03be79585a86f114aff9d7b93",
+    "elapsed_seconds": 1.69,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "b5f3116516b5af2ded7ffd173163c206fb18b146486d850c886918c0bfb327bd",
+    "done_reason": "stop",
+    "reported_eval_count": 78
+  },
+  {
+    "id": "dj-city-income-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:48.021652+00:00",
+    "request_sha256": "5c1069c8bc2a71405df440ec88c5947ef504f85b3f03c294d4e07c6a5e4ea8fa",
+    "input_sha256": "23c355f5e1e834ce2de7df52d316ea4019966ec4addfa15be227da463e4cd8c5",
+    "elapsed_seconds": 0.931,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "b2413bb1024e3a5c9b6fc5cce25bc64eee8d34456ea6f2d5e46a9ce2154b8500",
+    "done_reason": "stop",
+    "reported_eval_count": 37
+  },
+  {
+    "id": "dj-city-income-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:49.511668+00:00",
+    "request_sha256": "b503e393c880f5e6b56b4a91cc79b8643c8e65fbca37a4a54916f0c4077e4249",
+    "input_sha256": "64c13761bf79b46583347d3b67b5720458b67523452a2b9a140422c12bc378bb",
+    "elapsed_seconds": 1.49,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "세종특별자치시"
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "response_sha256": "456641be2c75152ea43638c21fb1ce865d33245632c3a0e4e2b0307e2e9ff0fc",
+    "done_reason": "stop",
+    "reported_eval_count": 81
+  },
+  {
+    "id": "dj-city-income-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:50.488547+00:00",
+    "request_sha256": "9d3b02beff0dccfa6b8f65b6e374a55f3428ae69db05408f14f59727b0ceee84",
+    "input_sha256": "783f8cfa76f338ec3b96217744f6ded3c24c307fbaa7244dfb7600b52505ba22",
+    "elapsed_seconds": 0.976,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "6c2885ed00a1c2899a7947df08ab9276de34f5ff045d5068544d16d0a7618daa",
+    "done_reason": "stop",
+    "reported_eval_count": 38
+  },
+  {
+    "id": "dj-city-income-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:57.448460+00:00",
+    "request_sha256": "1e510a49afe8d28d9eebb3689080bcb1edf167aca267ec803b654e3c146e69ad",
+    "input_sha256": "f709fda1a3d255f8118c61ed4cfbf08f78796065dfe44ee800877fddcc34df79",
+    "elapsed_seconds": 6.959,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": 140
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "09505382a331525d4c1d16f6376be75ba4eb236d7abfb63dfc9af62c8b404717",
+    "done_reason": "stop",
+    "reported_eval_count": 447
+  },
+  {
+    "id": "dj-city-income-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:58.409691+00:00",
+    "request_sha256": "52eb6b4574514af4283f524800eebf17436cf84a0830857ea3acca9af85acfec",
+    "input_sha256": "c2ef6acd0e105a2c4383c21af7936d44bb0967986f4ce74ac465f4e8b3e4865e",
+    "elapsed_seconds": 0.961,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "6205b2b929f3917e216ed0fd659cf0425c59e43f247066bd1d0bc1be7c68a646",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "dj-city-income-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:29:59.854714+00:00",
+    "request_sha256": "afc7745b46098899758158cf23ac69d420a2d427017de5eeae2ba5492d6cca94",
+    "input_sha256": "50204aeb42a491195b0a4e7f70fa5d04838840220d6e173d45602e2505ece0d9",
+    "elapsed_seconds": 1.445,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 151
+        }
+      ]
+    },
+    "response_sha256": "2521d85e80d313eea6b8969d5ffa3c2604cb6848e0cb083d37b42c2be2ac6c71",
+    "done_reason": "stop",
+    "reported_eval_count": 78
+  },
+  {
+    "id": "dj-city-income-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:00.834103+00:00",
+    "request_sha256": "cd5f6a841238ed374b791c77652fbae457e745e4268ef17cc70bedcd0df8bac3",
+    "input_sha256": "0faf50e809286d39cafdc145653910babc05c8ec711695854f41bf03dc3e0d89",
+    "elapsed_seconds": 0.979,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "bce8a81540dbaa8e9ea328f38100fc359560be7c2b5fdff42ebbc6596fe223f0",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "dj-benefits-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:02.004617+00:00",
+    "request_sha256": "762745bba605d23edbbc0fb0559a70adc3eb5afb7578412da2bf9ec1629ef13e",
+    "input_sha256": "e529dd06c207321fbc57995b4c84d93c2fa86ad18223469e7ea452b3ae31c36a",
+    "elapsed_seconds": 1.17,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "04cf0dd5b70a4a6fc3714669aab36262570c94d0c9f05d68ab7df9998cd3132b",
+    "done_reason": "stop",
+    "reported_eval_count": 45
+  },
+  {
+    "id": "dj-benefits-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:02.847482+00:00",
+    "request_sha256": "0a3e0857938629fc7ab1ba46eb1fcce1875f2ba855f9edc4a6719f273afd3548",
+    "input_sha256": "7b6cfdf3b642a238f2d87c402ac1c464539f5d83415afe26f3d8848701224281",
+    "elapsed_seconds": 0.842,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "1ccf8e0e1d018bee6ef12d342b7edfe10d00346064cedd888ecfda577db1620a",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "dj-benefits-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:03.965087+00:00",
+    "request_sha256": "45d1a2fff7cb5ba9c2c542bb586edd154a553661892d1eacf70f3f2ecaf2edac",
+    "input_sha256": "403c650de6a53574052e5705abf142e1f04bdb4a664044984068fb5bcaa575ab",
+    "elapsed_seconds": 1.117,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "1296d639e6bb0972e98c1f40d926b9e49e45a6f57cc7a27621ff459ae601b3ce",
+    "done_reason": "stop",
+    "reported_eval_count": 55
+  },
+  {
+    "id": "dj-benefits-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:04.789839+00:00",
+    "request_sha256": "247cd2453408faa977ece3000c98773882d7037210c364fe66c6c8be2acd203b",
+    "input_sha256": "f54fb3fa57e85171e4125c23293d1285e19ed16f5f217a171ce551c69285ea17",
+    "elapsed_seconds": 0.824,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "fb5d8495db2a44f4d4f77c349c2e987fd92eb9ae1097851d0142cc8cac150b09",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dj-benefits-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:06.506913+00:00",
+    "request_sha256": "6ddd01be939e52781e5a99ed5d1835b913fe2b84310bba45870f817014e6d628",
+    "input_sha256": "42a5284eb8c29d5b6224a48e857b8af5fc94a8dc217ca56b5dad2c33fe1c1287",
+    "elapsed_seconds": 1.717,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "3a71848837f986696487f75e47b6d7103c49270e98c39c73e041fb9ff5ce5b09",
+    "done_reason": "stop",
+    "reported_eval_count": 96
+  },
+  {
+    "id": "dj-benefits-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:07.364581+00:00",
+    "request_sha256": "57b342abc87f621a3a210e1f26e6c8380aa3a703a17d49f856edb8088e6034af",
+    "input_sha256": "4e019d2641b4066d91c0a49dc175e1de8e310541faef4572e141d65efaca5bd2",
+    "elapsed_seconds": 0.857,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "0550e27a25d74f9a428d0b65c6bf21d47d1a77a6f5082831513d4c1ab454b357",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "dj-benefits-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:08.343557+00:00",
+    "request_sha256": "94add5f906035a56fd8e83f79de3530f53463ffef21f9b76884c48232226da86",
+    "input_sha256": "4d1765a31f0c085b7d67c57e240bd15aa819697e560d7fa338ea8917e3237fb0",
+    "elapsed_seconds": 0.979,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "65cb8e4d9ece45035dfee74eee3b00b90f6ea4192c0b384fa1381ad2909af7e4",
+    "done_reason": "stop",
+    "reported_eval_count": 45
+  },
+  {
+    "id": "dj-benefits-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:09.061638+00:00",
+    "request_sha256": "e9d89c915ba4baf32689af6c056a5a4ae6f9ab1e95265837986a49c08172eef9",
+    "input_sha256": "9c89a8760621572890382be7c6b4bd17dd1dbd42549c3ca4eb18872812cdc9d9",
+    "elapsed_seconds": 0.718,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": []
+    },
+    "response_sha256": "0f68a56315787ab1ac85adcb9f4a7da0ecd1c0180b8b8875b18f9485d5c8da3b",
+    "done_reason": "stop",
+    "reported_eval_count": 23
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:10.531825+00:00",
+    "request_sha256": "d3ab12935fa441bb99d8e10ef830892b2c8cebaeb7c391993c06fb034ccfaabc",
+    "input_sha256": "6c7402ee6616e60fab5fab17a0abbc34e21b0f3bf9693964d7627ed7aef3cafa",
+    "elapsed_seconds": 1.47,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "63bcb2cb179f43b67eddc19856dd68e481861b7c879dfd61dbc7fc51105ccc1a",
+    "done_reason": "stop",
+    "reported_eval_count": 66
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:11.441174+00:00",
+    "request_sha256": "9b0ae1bab22e4a98e0c9b8baba0940e4fe65485e993b5366757281b4faa1b06b",
+    "input_sha256": "6499e18f4f31c8925f0e66ad1a508f34320450b9c6b4e6e0b4801efd71403aab",
+    "elapsed_seconds": 0.909,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "0683133a61d6ef97b3ce7450ab40dec4fbc0bbaa41408697e8880eef89b0db24",
+    "done_reason": "stop",
+    "reported_eval_count": 41
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:19.141784+00:00",
+    "request_sha256": "b1c58c0a35b473db44b74b2b96de2db1400c3ceea32b06ccf107fbdb9b52abe2",
+    "input_sha256": "f1ceff31627cd049cbfb736edf34fea91bf54736fd9a0cd191a3f2c353a5780f",
+    "elapsed_seconds": 7.7,
+    "parsed": null,
+    "response_sha256": "ba06a96119d3c02e785224b21446cc8988527f6d67170437c28b255a9fa1e414",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:20.085796+00:00",
+    "request_sha256": "19ead41f3c07e8f3ca30527c0fe8e6ee62c9b865d997e7ce8ee402f0fa364ec7",
+    "input_sha256": "34b6808a898463b975b3880caf994fbd77f5c657bc837fd3aaf6d7e9e5d3d9e6",
+    "elapsed_seconds": 0.944,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "d866a00f39db0bc78c2871ce7bd8fbc4f4fb30aa887fb01723f46a56cb51468b",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:21.212879+00:00",
+    "request_sha256": "5874682d50bf1c97cc80af13abac1c4c1194f7d63b2b606df74f703b814bae9c",
+    "input_sha256": "1d4211b2aca1ec0c723220bbae02c3f126e0c2bd2ad2815c9579e77592050504",
+    "elapsed_seconds": 1.126,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "5b42ce104143fbc2253c08fd08e6d053b2e871fce32465de806f7c9a8966bac3",
+    "done_reason": "stop",
+    "reported_eval_count": 55
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:21.879926+00:00",
+    "request_sha256": "20dd3bfdb316c8b3613d25234e7eab47a7f767b2e0cc6c93e5f246aeb3794b30",
+    "input_sha256": "950c4c6e00f18a90e0f452f3057ef3beebcfb1d37f32b7459ee0c7e2a5b1734c",
+    "elapsed_seconds": 0.667,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": []
+    },
+    "response_sha256": "d269a36f6d5ad1584494e96728d75f9bc580aa90d5fc27f975d8561ad8c52a8b",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:23.167953+00:00",
+    "request_sha256": "3bdbe7d2435ef160e5818e8677586d52af6be3f8ea5289226305f654de0059db",
+    "input_sha256": "7093576525ef08764da7192a4a4454ddb06bf6f0296a3655e676d9729a052efe",
+    "elapsed_seconds": 1.288,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "부산광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "d9096ff679aa30a22a5bae111799beff90bfe90b0a09b41da6cf641fca31911a",
+    "done_reason": "stop",
+    "reported_eval_count": 66
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:24.106879+00:00",
+    "request_sha256": "08471236c5a58c17e0ee57dc8821b0bc2aafe4a9f55de08591792fd2338c8ef6",
+    "input_sha256": "0013d988a515b0af9621878eadc0ffb9b6dcee53827ba32b704ac6bc92df686b",
+    "elapsed_seconds": 0.938,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "1d2866faae1a3b182610aa67a7f16c3d189c5586af16f5f342481259aa753f0f",
+    "done_reason": "stop",
+    "reported_eval_count": 41
+  },
+  {
+    "id": "dj-foreign-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:25.669661+00:00",
+    "request_sha256": "678a2a69320407b10c437db27e5c43d0e77d820d10ffec4877493447b1bd04e0",
+    "input_sha256": "bd44011b16e4ed634f495f830fa8b6ad996ccb5c9ea05b4d8d75c9e4bfcb9f7e",
+    "elapsed_seconds": 1.562,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "8baece93c7ad83c556387836add6e20f90c5678c22db5810765a1b59b533cb4b",
+    "done_reason": "stop",
+    "reported_eval_count": 73
+  },
+  {
+    "id": "dj-foreign-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:26.450456+00:00",
+    "request_sha256": "0f74c19caad2ac966f5c5fec9e40eedb0c15b525e9b8e0aba77792e020d1c7a7",
+    "input_sha256": "ce5672950c83545528d17b26a0c78562ec3caf8f48dab9b4520ed3aa903d0bf6",
+    "elapsed_seconds": 0.78,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "67df8f696d52b098d515ab2fabbb54170c31324cb5fbdb58dc9beea26c84fbd3",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "dj-foreign-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:27.516654+00:00",
+    "request_sha256": "f45313a690733a90901a62cec79b64fc0272e1b89a717d88715cf1c8d600c412",
+    "input_sha256": "fd70b5e1a1956f87ccf145e69a6b0ebaf3f8fb3ced884531006cfc7db4d6bf3f",
+    "elapsed_seconds": 1.066,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "17ce65d539229bbf7e742af4a01748c5e8004e85c67b2ab5f2a3e02ee77a4f2f",
+    "done_reason": "stop",
+    "reported_eval_count": 51
+  },
+  {
+    "id": "dj-foreign-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:28.322047+00:00",
+    "request_sha256": "5b311e59587c961cfb7b9f1f22fb2029a1564fff94aaa3432374eb00a1708c00",
+    "input_sha256": "afbf1a2f798b2a149bec4992c9c7252b8742b401ec4678410bd9ae0b6ab4b043",
+    "elapsed_seconds": 0.805,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "6e1a10c6e6824fac759b6594f0b9f69cae9860a30b0528c1a82e2515be78436a",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "dj-foreign-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:29.733740+00:00",
+    "request_sha256": "312a63d765485002f05c51e321d709a1865ed2c7c920243f7436225aebc219e7",
+    "input_sha256": "d046165f981c81a2a54a39ea097f8fd142fb60fda9acb356923468acb4ef06a0",
+    "elapsed_seconds": 1.411,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "permanent_resident",
+          "value": false
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "f2dbeaebd8139aff4223e1ce98ff6d3188ed509e59d441914c612b3247881371",
+    "done_reason": "stop",
+    "reported_eval_count": 73
+  },
+  {
+    "id": "dj-foreign-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:30.524069+00:00",
+    "request_sha256": "457634d8354512a3f8bdb0134a9fd8209f29175f0eda49c39ae24e18c38b24ef",
+    "input_sha256": "6993065736c691c00bd046814f33362ca1c89792823eedd96fc32103700ce981",
+    "elapsed_seconds": 0.79,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "14d1f6ff6611edd16b4cfab89b9d702c99673ed752c751adec08d40956c636ba",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "dj-foreign-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:31.582808+00:00",
+    "request_sha256": "93b1926b8c21e997fa0ef976a8e81083459b0feeadc9b7af838775df2e1f5310",
+    "input_sha256": "3d43f8730d80b97f1bd1553307ee10262091ae6e8a5402d8ca49bc0efc086932",
+    "elapsed_seconds": 1.058,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "17b9c5d47c0218e2349a00086ccc5d69284403ff1cd55812a495ba87c9080f51",
+    "done_reason": "stop",
+    "reported_eval_count": 51
+  },
+  {
+    "id": "dj-foreign-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:32.387553+00:00",
+    "request_sha256": "39e14fab742bd6f180bedb6193f3fd73ad3a64b87238d45c6feaa9dbbe7e981f",
+    "input_sha256": "d704aa7b6f1f427cb4d53dfa785dd39049993168edd671cba6d67ffaceb5db4e",
+    "elapsed_seconds": 0.804,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "58763f9af8a4b0906c225c3695341479f10fdb1299cae181700888683bfeb6b2",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:34.384294+00:00",
+    "request_sha256": "b08d76de898d3b730709949ffc8f69bc8c8c8ceacefef8936f5d9dab9f32d539",
+    "input_sha256": "31810a444092c168cf9af58f01966bfdfd0c4d80e849a522fd48483c4fa188cf",
+    "elapsed_seconds": 1.996,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "b12f5cccc1766b6b4faa92e471c952be5632b4afd6f7ce5a7591a54940419c09",
+    "done_reason": "stop",
+    "reported_eval_count": 102
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:35.409997+00:00",
+    "request_sha256": "eb5c3e7689df731a463824912df59070235ad08d5b9ef7b30ddc182f6ae9d0d1",
+    "input_sha256": "a65084a485be927ddfce619bd58939284a3ed783ba5620363d00478a15328b49",
+    "elapsed_seconds": 1.025,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "eb9d0bfd04cea8bd7bc8109206037cd88156b43d79c78fbf8b0923f1cec67b0a",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:37.205133+00:00",
+    "request_sha256": "56f32e0a164e917da44d6c92f0eea6793db138e0ea7eacd826108e0ad70d5103",
+    "input_sha256": "65c3b83eebe285c61e3bc85516c0acc8195f879aac52abc4dc02b1b85326e1a2",
+    "elapsed_seconds": 1.795,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 18
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "response_sha256": "d34758b12e56f40fd4cdb264fc021fca292aacbf8c8d5f81331b27d7d937fdb4",
+    "done_reason": "stop",
+    "reported_eval_count": 102
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:38.083493+00:00",
+    "request_sha256": "81083611027e3431a61e8400aeb006aa40ab30fe9c4d94c82250caeae2df774c",
+    "input_sha256": "8211f198ab80bab45afbbb1afff04701b5d9684331716c72e6de299369e2a388",
+    "elapsed_seconds": 0.878,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-AGE"
+      ]
+    },
+    "response_sha256": "8e240816acbc9d1deb3006d66d92bd91542826670ac7371418ea31c608d20437",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:39.531850+00:00",
+    "request_sha256": "c6c1c27e0ece408f1475aa714df5bdf7b599e596be4fc448f99a6355f94d3ee0",
+    "input_sha256": "a239d9f262a991962fe113c89eb139df80fc2ff629ec1fe40f1df6255a180928",
+    "elapsed_seconds": 1.448,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 25
+        },
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        }
+      ]
+    },
+    "response_sha256": "c50d72a3cf5fd42b25b4f2e4b8739f0c8b7c7dcab96f63b328726232e25ff950",
+    "done_reason": "stop",
+    "reported_eval_count": 78
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:40.514581+00:00",
+    "request_sha256": "f4b5001173a4af070215b767c93768be03a39213d12f9daa04214c589fd6bea7",
+    "input_sha256": "b96e12d643bd35f11a1a3d651b63b0b8bf4846dd1df9a10a7fbb687b32fed4bd",
+    "elapsed_seconds": 0.982,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-CITY",
+        "G-AGE"
+      ]
+    },
+    "response_sha256": "7b45fb1bfd3e2823aeb759956f6b0c4e93a9050e1cc6579a076f041c5ffd5ca4",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:41.939287+00:00",
+    "request_sha256": "bd5194eed0e1d180478d621a7377ef7584b04540cba254dd701c4a5049c95de2",
+    "input_sha256": "669b7d944440ff36446ebd6868f0115c95ba7ebbf023fb79412f324d28baebbd",
+    "elapsed_seconds": 1.424,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 30
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "0d88544313fde709fb205dbcff040668bf28830ef6ad4f237768e0fbfca8f256",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:43.021664+00:00",
+    "request_sha256": "6775d60ce4331dd582150d6e11ceab69b462f67a4cb313d70e03fbe64ee62644",
+    "input_sha256": "94882ef238c39e8fb7666f12bcae75ae559f96d043f92f7775aa8524951ac746",
+    "elapsed_seconds": 1.082,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "7f51da25843b1ea650ee92539ff81e56790bb54a7733776b837e06adb7d7ff60",
+    "done_reason": "stop",
+    "reported_eval_count": 45
+  },
+  {
+    "id": "gj-benefits-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:44.928691+00:00",
+    "request_sha256": "2a308620c9065ac5cb92427620bf2fe0ea96fa7a054f69590d706301b7a958f2",
+    "input_sha256": "c35546b44c00b0926af72387e5d185f2f9d7a21046af0072670ea3f1e1abf67a",
+    "elapsed_seconds": 1.907,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "525968b12b8110a971e3cc806fc3d67324ba9e72f3c6ee17a0cec492020b890f",
+    "done_reason": "stop",
+    "reported_eval_count": 96
+  },
+  {
+    "id": "gj-benefits-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:45.710980+00:00",
+    "request_sha256": "1d4cb2966fe65cec9189a1a9d3eca01a7bd6beb80af4c5d14966042a3a315cc8",
+    "input_sha256": "f505e6e71feb40793bdcbaeda997f4e64af0043e100631e4e013497f98f9a9f2",
+    "elapsed_seconds": 0.782,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "755ca5054bfa1848fe7450efdd5a40512f900073be61908c9e28f10f76b26302",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "gj-benefits-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:46.546758+00:00",
+    "request_sha256": "daf74150ce88a2082a19d0740e01218efe4cc5db54e826ff8cab1337f20cf4c2",
+    "input_sha256": "21bef05c596f93cf2395e3c406cb22f42cb9846c02858df02d4974a10b902400",
+    "elapsed_seconds": 0.835,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "7237bc5ec6130924d5ea33453d1edfb30ad13b863a11f9d2e6f3c9f8e37dcfd8",
+    "done_reason": "stop",
+    "reported_eval_count": 35
+  },
+  {
+    "id": "gj-benefits-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:47.390890+00:00",
+    "request_sha256": "0322c9b0a2cd3b930be3f62211c652800694c68d2ad3cf2e66c209ed2d4726c1",
+    "input_sha256": "250bd048a8e5a132eae533960c3c8ab4386d3e2b6b77ebbb7a612af1bea07299",
+    "elapsed_seconds": 0.844,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "819ac43a719e00040a8b8780d5b8e859cfa66db7448b628d2deeac88441cef93",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "gj-benefits-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:49.787181+00:00",
+    "request_sha256": "79a8a37cfdd05478e5f58fc156a6cd3b9bb994f5f39b4d1881381e0b3bd67bf0",
+    "input_sha256": "041f99ec6e8e5b611655569ba133379d5f77e23ca09a21079be8bf921bab1540",
+    "elapsed_seconds": 2.396,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "02ce5acc46aa4af84ae7aee1e22ce32e964cab995717422c664e2271e94b1ab9",
+    "done_reason": "stop",
+    "reported_eval_count": 139
+  },
+  {
+    "id": "gj-benefits-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:50.608737+00:00",
+    "request_sha256": "e2df277f78dd26bf6c4bb02466afcf7f0ed5d67b1bf7de96dab7ec82cd887759",
+    "input_sha256": "e6d014cd5271f84f45f62a536e7ed4c69d480a5b7a06ae6f07e43d369e41a8bb",
+    "elapsed_seconds": 0.821,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "b934be5918ef102ede18c64ef8865d1c72f53ef41fbb6072e8a7ade9e90094c8",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "gj-benefits-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:54.289675+00:00",
+    "request_sha256": "85d4260b288ebe1cac74302406dfedcb80019b4929cc2f08825e78c0bf79076b",
+    "input_sha256": "def14df9eebc1e3a358e26a54d68ee1ca2e2fe8aa743663f25991a1a48c9328c",
+    "elapsed_seconds": 3.68,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "f0b9c6ee9984a0c9cac49ec8cb9f01ae6451e63daeac80baac0bc013c81ab335",
+    "done_reason": "stop",
+    "reported_eval_count": 233
+  },
+  {
+    "id": "gj-benefits-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:55.110498+00:00",
+    "request_sha256": "3b601b792910ed9049780a09aded784e1d0431e68d17c8ddaa40de7eb9040751",
+    "input_sha256": "17649763dea30df708e0c078f5e892085edd6d88cb1ef152f15e651eb0658223",
+    "elapsed_seconds": 0.82,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "f44d5760523503c33abbb8423eb7f069498439dda65fd8dcbc756900a60ae6d1",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "gj-work-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:56.738263+00:00",
+    "request_sha256": "3d3b08476cf2bbed4cc562ff35c1e52628e94bced2bea39ff627a08972c8f838",
+    "input_sha256": "35e648afff2b889c3ad107c5c8d9d50372ec8893632f2e67b5efeaa559300b89",
+    "elapsed_seconds": 1.627,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "response_sha256": "c16fc6bd5bc98d3f68482a451f1955ea14643423f3f3ac68669d14742a4da622",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "gj-work-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:57.672295+00:00",
+    "request_sha256": "8d29911e8e55add81b98dccb3a2ed6b639db535a359a98da5eca6e004867117f",
+    "input_sha256": "ba161eadd059a6d621b1d809da8c9f60ce9338684cc6a20aafe9f4ca5201e971",
+    "elapsed_seconds": 0.934,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "2bc872dae3ad3c22e40a54c850c705e3ddf8d1041afde42f921f04a9a76646fc",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "gj-work-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:59.093438+00:00",
+    "request_sha256": "20a5ee8c8e6073d325b19641f40a475e8dca2328b946d00cc4de86a1a36a0159",
+    "input_sha256": "41f0b994faa3a18994e72d530b2c2bf43166dd08ceba095b94a74f34a57d9515",
+    "elapsed_seconds": 1.421,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        }
+      ]
+    },
+    "response_sha256": "77e7ec7036e72a45e3bd5b504b6b1604206e6efeafdd03d1ae4eb29d2f09b083",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "gj-work-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:30:59.908159+00:00",
+    "request_sha256": "050ae96bd596dea4342dbb23c3fb26aafc835d0078667cfb098e8df25192f989",
+    "input_sha256": "991f020525c4a035e38fe2143b7cef3dafa3fc2cdc41047afa30aeac96c6503f",
+    "elapsed_seconds": 0.814,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "5f7029af91dc0f5e57216e5a128ca74149564537dea738b4435e4df35b7bfa39",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "gj-work-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:00.987715+00:00",
+    "request_sha256": "21742fbbfe131c3477490440f45a2a871567f98c1bcc408d0ebdca5368fea29f",
+    "input_sha256": "d491f18c0b89fa5e196d63b85307df44a18cd58b386eb419edb45fb614b7c3b1",
+    "elapsed_seconds": 1.079,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "response_sha256": "02b3419a537b7ad4c582d846d20bc0c8128d69be243bc76611b81183910e401b",
+    "done_reason": "stop",
+    "reported_eval_count": 52
+  },
+  {
+    "id": "gj-work-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:01.806411+00:00",
+    "request_sha256": "1c04625499d843bc48c40a2a756da28bffff67b4482e2c095d9d1a463e768d1e",
+    "input_sha256": "6e97aedf1c541184d7fe01b2cecaecabfbac8596d893f5f03bfdace80b2fb1c4",
+    "elapsed_seconds": 0.818,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "32374a9ea5eb53c7d71df8f38258b9df09bbac27655fa06911d1d8d753f3ab0c",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "gj-work-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:03.268504+00:00",
+    "request_sha256": "dc6d7cfb6941ccd962526f141dce437d88ff0739d9df015980ee22b939562704",
+    "input_sha256": "2ffa47fd9f1ccab8b7a48cfb528163c164f5a61eab1e05d5cb6542a6b6aebefb",
+    "elapsed_seconds": 1.462,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "0c0d1c40a33b1ccf48c792bb4d1ce5a277b96338348a10585ca31e5ace669c9e",
+    "done_reason": "stop",
+    "reported_eval_count": 75
+  },
+  {
+    "id": "gj-work-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:04.139838+00:00",
+    "request_sha256": "906a6254114e148181ed72e3098c48034374d8359a378614a5f8ea18830a0b9c",
+    "input_sha256": "76841357158b08ed68f94be9a04d677e04a71e21bf2ab408aec6444fbc7e01ca",
+    "elapsed_seconds": 0.871,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-UNEMPLOYED"
+      ]
+    },
+    "response_sha256": "6c20edd419be6e7f54b7a8a1f9db0eb8fe8e0af3573877f1649f9a82bcee0068",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "gj-education-work-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:06.115661+00:00",
+    "request_sha256": "445ce1a843b740ec4fbeced85bb3304ae416e3f91a03a28fc9d1546664444f59",
+    "input_sha256": "cd09754559e6988b23ef3bcd8e6ff27607d0cd4191f27fc2909fae9790960fda",
+    "elapsed_seconds": 1.975,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "dropout"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "response_sha256": "987d7ab3c9ec9f048fe101be1194c9ad0d9f8419f5acfef9cdfe406f6c837303",
+    "done_reason": "stop",
+    "reported_eval_count": 99
+  },
+  {
+    "id": "gj-education-work-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:07.454087+00:00",
+    "request_sha256": "7dd4e5235263e8a6d756263c23a325909dcecf462863d80c948bda8fb7a6bb52",
+    "input_sha256": "9b3b4a1edb516b9e1e25f5e8efb2e8fc8444a911258a392305692b7b7d8a1f67",
+    "elapsed_seconds": 1.338,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS",
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "004e1a9c15ea23aa25d509817c78645581c3274190aa9fd62a57ee704eb6c6a3",
+    "done_reason": "stop",
+    "reported_eval_count": 61
+  },
+  {
+    "id": "gj-education-work-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:08.925088+00:00",
+    "request_sha256": "1dd735160a58e4185b5e681733105f3998181e35a0cb9b5b3afcb7d6290071aa",
+    "input_sha256": "5373b76db61974e71577d323c44cfa1ff2caf0138b8bb978ae1e1c13877ab02c",
+    "elapsed_seconds": 1.47,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "leave"
+        },
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        }
+      ]
+    },
+    "response_sha256": "29ae901dfe8dc362b1abaa184e184d155f0c4928c4ccb3ec4de22fabb7ca6e36",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "gj-education-work-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:10.090038+00:00",
+    "request_sha256": "b7c85e5f2557c64fdcd26a85cd9e1688068555a1888fa823010d12aa02b7413f",
+    "input_sha256": "0eca196e322d56debcd2d0934ebb098a4e9c0f4117415af00b572c96467d7c19",
+    "elapsed_seconds": 1.164,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS",
+        "G-UNEMPLOYED"
+      ]
+    },
+    "response_sha256": "512a320e2470fb636335aadbbbc45995f20ec43a8a489d70d9022e7bcb4225d1",
+    "done_reason": "stop",
+    "reported_eval_count": 47
+  },
+  {
+    "id": "gj-education-work-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:11.552645+00:00",
+    "request_sha256": "7db07bc18a1acd41e7d54b3ce86000e2f479070c2836f0b91e9fd6681eee9286",
+    "input_sha256": "d59f95377c9c7f1c5eacd1ab0b448a6758399ad4472d5858ef0af5d3a4a90c7b",
+    "elapsed_seconds": 1.462,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "completed"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "response_sha256": "4e3a529406de2fc71259ecb4612537f1c9a9c777d6cc1cf0d3f776a38e3dc282",
+    "done_reason": "stop",
+    "reported_eval_count": 75
+  },
+  {
+    "id": "gj-education-work-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:12.988979+00:00",
+    "request_sha256": "c17a4ccd01c9e86fae8226b05dc5af919fb619cfaf1b9296ccf4689bc4e41103",
+    "input_sha256": "12020da2485d29c292648fffd9aa7c5e13572c563d4ec695ea3a009cb13adffe",
+    "elapsed_seconds": 1.436,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS",
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "c83c3e062faaf044826b21b308b2fdd1a322a015a04cf100efe33983e5dc1e47",
+    "done_reason": "stop",
+    "reported_eval_count": 64
+  },
+  {
+    "id": "gj-education-work-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:14.854954+00:00",
+    "request_sha256": "3fdd4b66d13e26cddaebe0d979c2402a8fab813dc91e27fcfd9394ea6ca84524",
+    "input_sha256": "346a170f00903bf102f3b46e6428fbe329c64e37f8a38a64c660fcc57bd91857",
+    "elapsed_seconds": 1.865,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        }
+      ]
+    },
+    "response_sha256": "3752f65958743dc42243d2f32fd990a59019e1e6c9322f6b6125ffe927581f11",
+    "done_reason": "stop",
+    "reported_eval_count": 100
+  },
+  {
+    "id": "gj-education-work-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:16.029668+00:00",
+    "request_sha256": "0c8a5d5fcea536dd97ee975d87c3b86e79e54c2016d6f105ac005bac3c20f538",
+    "input_sha256": "2150795e4f2dbb31a1a8dacb8f150b12662e6428d5129e1a78431451b08641e1",
+    "elapsed_seconds": 1.174,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-EDUCATION",
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "c1feefc0464dff4e2b9d915f4496b8a7cf956acbe00e523d63ca2620c7a2c049",
+    "done_reason": "stop",
+    "reported_eval_count": 50
+  },
+  {
+    "id": "dj-city-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:26.429615+00:00",
+    "request_sha256": "010aa5f5126ec737977487c340af62fdb2e804cb8e6cc8f5a5fc644e5ff30357",
+    "input_sha256": "b884143e41a41011ed9aa1103ce7c75626702f05cc18d875b9f92f522368ef28",
+    "elapsed_seconds": 10.397,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "D-CITY"
+            ],
+            "field": "residence_city",
+            "op": "eq",
+            "value": "대전광역시"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "D-INCOME"
+            ],
+            "field": "income_pct",
+            "op": "le",
+            "value": 150
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "83296fa46a8ae21b70f893a12420f6ad6183a8f34999b567093145e8f1dd63ba",
+    "done_reason": "stop",
+    "reported_eval_count": 101
+  },
+  {
+    "id": "dj-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:28.627216+00:00",
+    "request_sha256": "e55fe279ee62ff603a5a68ab3ca76c1456d58849d272b708488594079919b140",
+    "input_sha256": "ffac9e5a8ec4242e05bd50891f50ba99dc4af0e566c2d318a9c3715846d4cfa9",
+    "elapsed_seconds": 2.197,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "housing_benefit",
+            "op": "ne",
+            "value": false
+          },
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "livelihood_benefit",
+            "op": "ne",
+            "value": false
+          },
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "medical_benefit",
+            "op": "ne",
+            "value": false
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "3100329fa36658cb44d091f921d42bb7ccc095c58fb3890458402e525945f3d5",
+    "done_reason": "stop",
+    "reported_eval_count": 138
+  },
+  {
+    "id": "dj-city-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:31.370921+00:00",
+    "request_sha256": "f00eee67a5642034528c91df15bded4f30ef9db87f57eb535159bfc5c2cee6eb",
+    "input_sha256": "11351a9e81a2b47ddf170acce7890f5b6c3e37a2bd85bd79ee0805925b5ca652",
+    "elapsed_seconds": 2.743,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "D-CITY"
+            ],
+            "field": "residence_city",
+            "op": "eq",
+            "value": "대전광역시"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "D-BENEFITS"
+            ],
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "9afaf82e3973073ad3c82938bbce2554f76d70faa9904be63d66d2d38535cfc9",
+    "done_reason": "stop",
+    "reported_eval_count": 180
+  },
+  {
+    "id": "dj-foreign",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:32.533292+00:00",
+    "request_sha256": "88e597ed1a08cd49a3d20293d4f267035303ec60a5b3c90a7bb5e2acafda5e07",
+    "input_sha256": "ae3490f016c8bfff7f8a3c95010148fdc6f3341f94a95a1d2c2c0f6798eb35a3",
+    "elapsed_seconds": 1.162,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "D-FOREIGN"
+            ],
+            "field": "foreign_national",
+            "op": "ne",
+            "value": true
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "cc68ad7dee90ec44d38ff1c5343f9ad8ee4d4ab969aeae236e9672ba89a1ad36",
+    "done_reason": "stop",
+    "reported_eval_count": 59
+  },
+  {
+    "id": "gj-city-age-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:35.278303+00:00",
+    "request_sha256": "c2b275fa0db1146d5c6cdc415db5ec77cc7a8ce4f7bc4ff5ac12331c15f3827c",
+    "input_sha256": "b693a51d9bc0d743a81bb9121cf68dfc58a8dd1e1a8bdd25b38f610f9bdc66ac",
+    "elapsed_seconds": 2.745,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "G-CITY"
+            ],
+            "field": "residence_city",
+            "op": "eq",
+            "value": "광주광역시"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-AGE"
+            ],
+            "field": "age_years",
+            "op": "ge",
+            "value": 19
+          },
+          {
+            "evidence": [
+              "G-AGE"
+            ],
+            "field": "age_years",
+            "op": "le",
+            "value": 39
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-INCOME"
+            ],
+            "field": "income_pct",
+            "op": "le",
+            "value": 150
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "edf3a97ad3d46d1b1eef3990e50375ec3c7993f77c9def95daae0258c75d23c2",
+    "done_reason": "stop",
+    "reported_eval_count": 177
+  },
+  {
+    "id": "gj-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:38.146956+00:00",
+    "request_sha256": "f862fc3bf38c2f398b7402bdf08ac2f9ca58715053f77376b471ab17e925c1b9",
+    "input_sha256": "866f7f423862a3f50b8cc9c9818e123341e818afb577482bcb6d03d081ecd0ec",
+    "elapsed_seconds": 2.868,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "G-BENEFITS"
+            ],
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-BENEFITS"
+            ],
+            "field": "medical_benefit",
+            "op": "ne",
+            "value": true
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-BENEFITS"
+            ],
+            "field": "education_benefit",
+            "op": "ne",
+            "value": true
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-BENEFITS"
+            ],
+            "field": "housing_benefit",
+            "op": "ne",
+            "value": true
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "f6cfe97503e100171c445a0b704636260e04cb372a904286e7fe3f6547cb3f5a",
+    "done_reason": "stop",
+    "reported_eval_count": 187
+  },
+  {
+    "id": "gj-work",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:31:39.930230+00:00",
+    "request_sha256": "975b42310709b55f2eede39c732df8ac4b3a5bde88c33078b63985b0034af369",
+    "input_sha256": "52482d917ec3894848af15b199015339da9fcb2c2e5666400cc422a5fcc65311",
+    "elapsed_seconds": 1.782,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "G-UNEMPLOYED"
+            ],
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-HOURS"
+            ],
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 30
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "6521cd487e4acca944d601047f6bbf3b5a49f3330b9a4a59bc37005dcb00b4f0",
+    "done_reason": "stop",
+    "reported_eval_count": 103
+  },
+  {
+    "id": "gj-education-work",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:00.759792+00:00",
+    "request_sha256": "0d3185eb5e6a28d1cfe98dfd260eb28d74b6d6c230adbd3ca85bc24f7e3f683c",
+    "input_sha256": "5219479e7f6e793605cd52b780307e27cf2411463d89db4ba65a672162cfbaf0",
+    "elapsed_seconds": 20.829,
+    "parsed": null,
+    "response_sha256": "d73e1919acb260e16ae109eee885b12782fdd6c27d4440b0541794c1a95c39f9",
+    "done_reason": "length",
+    "reported_eval_count": 1536
+  },
+  {
+    "id": "dj-city-income-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:01.968250+00:00",
+    "request_sha256": "bd36389069d0b174b0e0b9c8e0099531a98b029ae6a57f106e980836172b4ae2",
+    "input_sha256": "f7f733d3c34853a5ddb1a888f979695282a408e03be79585a86f114aff9d7b93",
+    "elapsed_seconds": 1.208,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "bdafb5b08a33ba5e3f385f1788d63af7fde49f8167f2aed84db92fa15522528a",
+    "done_reason": "stop",
+    "reported_eval_count": 46
+  },
+  {
+    "id": "dj-city-income-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:02.625559+00:00",
+    "request_sha256": "9cfd832631254c279f0cedf66dccb006a33915a528759a65bfb5b53ba6a22ac5",
+    "input_sha256": "23c355f5e1e834ce2de7df52d316ea4019966ec4addfa15be227da463e4cd8c5",
+    "elapsed_seconds": 0.657,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "d91d3d39462c7a1c5fa0ab935eba0fdcd5f6911ba2cd776b17385000c3b56cda",
+    "done_reason": "stop",
+    "reported_eval_count": 25
+  },
+  {
+    "id": "dj-city-income-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:03.421056+00:00",
+    "request_sha256": "310f5ee23e5875654b519ce0f039acfeec4151e12397abf8596515dd9002ec4a",
+    "input_sha256": "64c13761bf79b46583347d3b67b5720458b67523452a2b9a140422c12bc378bb",
+    "elapsed_seconds": 0.795,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "세종특별자치시"
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "response_sha256": "1c00f03e8dbc67b61729ad36bfff8f61d2367ab38ecdad181f5502f40c7f6fba",
+    "done_reason": "stop",
+    "reported_eval_count": 49
+  },
+  {
+    "id": "dj-city-income-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:03.980605+00:00",
+    "request_sha256": "ac46d0fc0782588d41e4c992e0678fc1bdd8262dcaf3b11c91e2cdc73f0cf0d2",
+    "input_sha256": "783f8cfa76f338ec3b96217744f6ded3c24c307fbaa7244dfb7600b52505ba22",
+    "elapsed_seconds": 0.559,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "e330f11d0bea0a1b0dd7a51f22d0f24e186147849595e3cbe561ac0b6d7d4c67",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dj-city-income-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:05.198196+00:00",
+    "request_sha256": "75adb66833c1676180677defb79fe35d4392e651923255f2fe473b7c4ebc79ef",
+    "input_sha256": "f709fda1a3d255f8118c61ed4cfbf08f78796065dfe44ee800877fddcc34df79",
+    "elapsed_seconds": 1.217,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": 140
+        }
+      ]
+    },
+    "response_sha256": "951b3824a07163d0760c30d9e7cd316e346d3836fc288935f37f84e0a2b781d5",
+    "done_reason": "stop",
+    "reported_eval_count": 82
+  },
+  {
+    "id": "dj-city-income-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:05.725761+00:00",
+    "request_sha256": "89e3c71c76d7d8ca19a1fdd436e9dd44effe3158541f907908f98aff0545b35d",
+    "input_sha256": "c2ef6acd0e105a2c4383c21af7936d44bb0967986f4ce74ac465f4e8b3e4865e",
+    "elapsed_seconds": 0.527,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "f0d577cfd5bfe2da01168c022e2ad44e19f3fe12c53caea3f24ffdfca043c19d",
+    "done_reason": "stop",
+    "reported_eval_count": 25
+  },
+  {
+    "id": "dj-city-income-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:06.463891+00:00",
+    "request_sha256": "7b810e38779a64d3394722811e6a138a07b5c397231cf988d27d3680881208f4",
+    "input_sha256": "50204aeb42a491195b0a4e7f70fa5d04838840220d6e173d45602e2505ece0d9",
+    "elapsed_seconds": 0.738,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "income_pct",
+          "value": 151
+        }
+      ]
+    },
+    "response_sha256": "d9cb0e62d8f10d3000a0349298ee63a7a8b67def9544954835cca04c5da1bdf7",
+    "done_reason": "stop",
+    "reported_eval_count": 46
+  },
+  {
+    "id": "dj-city-income-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:07.021085+00:00",
+    "request_sha256": "b749567cb06e6676ad86d90fbfa2b4e107d5cd9b45b7eaf442dea5127e7b9f04",
+    "input_sha256": "0faf50e809286d39cafdc145653910babc05c8ec711695854f41bf03dc3e0d89",
+    "elapsed_seconds": 0.557,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-INCOME"
+      ]
+    },
+    "response_sha256": "7d7c57122718dce1adea1b110c7fd0ffd3fdfd04d674e3ee75585f4035c920e3",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dj-benefits-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:07.612570+00:00",
+    "request_sha256": "1185063966eead2c37ecabc05db1c2e25457214fe4bc8e9b37b53a66eaef3b73",
+    "input_sha256": "e529dd06c207321fbc57995b4c84d93c2fa86ad18223469e7ea452b3ae31c36a",
+    "elapsed_seconds": 0.591,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "c75807b8620d6bbf309eccf4ce2e31e02a97fe7994c5c464a5af28a60a96e881",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-benefits-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:08.080184+00:00",
+    "request_sha256": "4b2a06651c5cd39d643cf2299358b13d645d2e676d1124f26dfa9f3bff38170e",
+    "input_sha256": "7b6cfdf3b642a238f2d87c402ac1c464539f5d83415afe26f3d8848701224281",
+    "elapsed_seconds": 0.467,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "d56225a9ca7a33a702eec8735cd55143fc83dae1bf4270750da84b9c597b6341",
+    "done_reason": "stop",
+    "reported_eval_count": 19
+  },
+  {
+    "id": "dj-benefits-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:08.449746+00:00",
+    "request_sha256": "78ad6f52c5bdf2964c31457f64805838bcb177e2202e1396b630afdec71f4668",
+    "input_sha256": "403c650de6a53574052e5705abf142e1f04bdb4a664044984068fb5bcaa575ab",
+    "elapsed_seconds": 0.369,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "6ea47e05553943cf14919ab91106a4a162d620bc36c6c5380a56027f4d07056e",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-benefits-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:08.898233+00:00",
+    "request_sha256": "bca4dd17516f375f30e2fce9c1379584d6b115b8c248d844e4a5974c6d6c5b27",
+    "input_sha256": "f54fb3fa57e85171e4125c23293d1285e19ed16f5f217a171ce551c69285ea17",
+    "elapsed_seconds": 0.448,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "dc3061e332b49e61350f2f5c5cf6ce861f78d3a4b719ad6fd5cc169674d6e35e",
+    "done_reason": "stop",
+    "reported_eval_count": 19
+  },
+  {
+    "id": "dj-benefits-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:09.267031+00:00",
+    "request_sha256": "f21878829ed9de5a546d0ec3d75d7f3c43238159896a4bd7677784fe18549bd1",
+    "input_sha256": "42a5284eb8c29d5b6224a48e857b8af5fc94a8dc217ca56b5dad2c33fe1c1287",
+    "elapsed_seconds": 0.368,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "a5bdf125db95267c0df860ad3dc0a779bee7a6252937146a3f9ad28e7f93771c",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-benefits-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:09.742771+00:00",
+    "request_sha256": "12d5f9a253ef8d8719dac36c612ec4c4927667d130967b75899af2af5a164c9e",
+    "input_sha256": "4e019d2641b4066d91c0a49dc175e1de8e310541faef4572e141d65efaca5bd2",
+    "elapsed_seconds": 0.475,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "55f860f8ec171a09e0b4d8187fc117c2b9bb21ae6391234ae4a41312558dae48",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "dj-benefits-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:10.096924+00:00",
+    "request_sha256": "c55bbffed5559fedd1d921d31bbfc9c6b3bb2705a10a21253d1d321cf598bb20",
+    "input_sha256": "4d1765a31f0c085b7d67c57e240bd15aa819697e560d7fa338ea8917e3237fb0",
+    "elapsed_seconds": 0.354,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "07b21a06c14a00cae1be13afbaf7f95711acdc891ba5a722d63053c0b46ae985",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-benefits-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:10.575238+00:00",
+    "request_sha256": "a3657c814ae4c34589f8caf6867d361aa23948b669695c148d18d28ed31e712f",
+    "input_sha256": "9c89a8760621572890382be7c6b4bd17dd1dbd42549c3ca4eb18872812cdc9d9",
+    "elapsed_seconds": 0.478,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "c6bcc54c52a17da1ad40fdf79af589854fc5cad6ecbac09e95cc29929f41260b",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:12.256556+00:00",
+    "request_sha256": "d0b70b6a46f9762a3efb13a5da21a607ac19583af932cc4e23cb25b26136c5d2",
+    "input_sha256": "6c7402ee6616e60fab5fab17a0abbc34e21b0f3bf9693964d7627ed7aef3cafa",
+    "elapsed_seconds": 1.681,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "01f14c02a28ade44894f53497ebb1fc7fa58cf148d9b5b18376203ecb7b173fd",
+    "done_reason": "stop",
+    "reported_eval_count": 104
+  },
+  {
+    "id": "dj-city-benefits-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:12.849322+00:00",
+    "request_sha256": "c4ff5cf2cdc63dce0040bc0773e917869e11704e3b990129c2c7f1c3908064b7",
+    "input_sha256": "6499e18f4f31c8925f0e66ad1a508f34320450b9c6b4e6e0b4801efd71403aab",
+    "elapsed_seconds": 0.592,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "92b6dc73f5d860f532c4b22eba8e10cc0ef88d227450d362441cca232d68d4b7",
+    "done_reason": "stop",
+    "reported_eval_count": 27
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:13.814381+00:00",
+    "request_sha256": "83d066243e020debca909d9461700eb38ec26530dba132a1a8cb978cffbc559d",
+    "input_sha256": "f1ceff31627cd049cbfb736edf34fea91bf54736fd9a0cd191a3f2c353a5780f",
+    "elapsed_seconds": 0.965,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "대전광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "ad0115a6c7967b068eacfd9e70422ce7a1365cf4e42bb2c69047f9d69d58e667",
+    "done_reason": "stop",
+    "reported_eval_count": 66
+  },
+  {
+    "id": "dj-city-benefits-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:14.374380+00:00",
+    "request_sha256": "35d57513328b58bdd7e4e6d9ec603df0c4ba557d1ae9cb342a7cf6c3b8745ae5",
+    "input_sha256": "34b6808a898463b975b3880caf994fbd77f5c657bc837fd3aaf6d7e9e5d3d9e6",
+    "elapsed_seconds": 0.56,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "9adf0d288e29b1082158149acb2f8b3cb555f5a88854225564347a5fcdf4937f",
+    "done_reason": "stop",
+    "reported_eval_count": 27
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:15.560678+00:00",
+    "request_sha256": "0be89d841a4d00e7298e291e176f07d5f08dade41df2944d47d0449b3297e758",
+    "input_sha256": "1d4211b2aca1ec0c723220bbae02c3f126e0c2bd2ad2815c9579e77592050504",
+    "elapsed_seconds": 1.186,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "881be8aa43bf8c37518a3081bfb17150c43f335dc1c75924abac890d3f181ce8",
+    "done_reason": "stop",
+    "reported_eval_count": 82
+  },
+  {
+    "id": "dj-city-benefits-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:16.153049+00:00",
+    "request_sha256": "1eaebd775a5da6492622021b6cfe55ff52f9badfab3c3d5edee521204f7fd467",
+    "input_sha256": "950c4c6e00f18a90e0f452f3057ef3beebcfb1d37f32b7459ee0c7e2a5b1734c",
+    "elapsed_seconds": 0.592,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "70206094241effe9878d82b7460778a694046ce4444801e2e01a0a18373eb419",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:17.123722+00:00",
+    "request_sha256": "bd9db066ad02d420fca5c75aa090f22f56e2012cf14dcc79af81a02a5899a44b",
+    "input_sha256": "7093576525ef08764da7192a4a4454ddb06bf6f0296a3655e676d9729a052efe",
+    "elapsed_seconds": 0.97,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "부산광역시"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "0fc40c2fb0e89e59ce8a5e05b6a990c9df6dbe11bde76eccc7933e89934f2b84",
+    "done_reason": "stop",
+    "reported_eval_count": 66
+  },
+  {
+    "id": "dj-city-benefits-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:17.712886+00:00",
+    "request_sha256": "ee0992a62416c21119bda640bc6902624e73384989464f239b9095f6ec46bc6f",
+    "input_sha256": "0013d988a515b0af9621878eadc0ffb9b6dcee53827ba32b704ac6bc92df686b",
+    "elapsed_seconds": 0.589,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-CITY",
+        "D-BENEFITS"
+      ]
+    },
+    "response_sha256": "dfc28e94ca9070b380bbbe8767b736a1d2920dd64c48529d76158cd9c574f8a2",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dj-foreign-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:18.536531+00:00",
+    "request_sha256": "0e191696b3bd739649cfce2f126e4b92e360cbb06c76fb1d780d76a032525dcb",
+    "input_sha256": "bd44011b16e4ed634f495f830fa8b6ad996ccb5c9ea05b4d8d75c9e4bfcb9f7e",
+    "elapsed_seconds": 0.823,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "a6dfe5a3fec684693504941181d9ac8806936761e16c28f7542195589d1294fa",
+    "done_reason": "stop",
+    "reported_eval_count": 36
+  },
+  {
+    "id": "dj-foreign-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:18.992668+00:00",
+    "request_sha256": "bcc2e4c340d6b0a6048a0dbc8b4a831c7d9c6bdc056ce0092b8ea3fbb6554d0a",
+    "input_sha256": "ce5672950c83545528d17b26a0c78562ec3caf8f48dab9b4520ed3aa903d0bf6",
+    "elapsed_seconds": 0.456,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "93fd6613cd4ddb1415772d79d2575677b985660371dfb075375830cb82266070",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-foreign-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:19.504514+00:00",
+    "request_sha256": "35461782b52c4d6506654a8017ae926973ce279866e285d483c78f22b6003c38",
+    "input_sha256": "fd70b5e1a1956f87ccf145e69a6b0ebaf3f8fb3ced884531006cfc7db4d6bf3f",
+    "elapsed_seconds": 0.512,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "ab8ba75f8f19c4b0a5f602dfb12d7704a95c7a1fb7d7dc27e3e7ea0d470312e7",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dj-foreign-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:19.937879+00:00",
+    "request_sha256": "3cbff996f07d768843fbd4851d176dd058346a1c5825bb14e5df3cca01791148",
+    "input_sha256": "afbf1a2f798b2a149bec4992c9c7252b8742b401ec4678410bd9ae0b6ab4b043",
+    "elapsed_seconds": 0.433,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "7663703fe6cd181e94242fe8ffdbf94b5e3bec57a25f450fa78f943391630c09",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-foreign-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:20.435595+00:00",
+    "request_sha256": "b8f156cb0b1a7679525c5458e5a832a9cf4ec27b2ee969b82b56253cd2ad0472",
+    "input_sha256": "d046165f981c81a2a54a39ea097f8fd142fb60fda9acb356923468acb4ef06a0",
+    "elapsed_seconds": 0.497,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "permanent_resident",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "d070a428c9c886a5f85e0dc8914448deb7f24ffdbc610d8ac571ae6dcd058946",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dj-foreign-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:20.915221+00:00",
+    "request_sha256": "d549826f2f71860bbbee7508ac97f866ca7ddcdd5ecf0e5722a14a27b28f22b7",
+    "input_sha256": "6993065736c691c00bd046814f33362ca1c89792823eedd96fc32103700ce981",
+    "elapsed_seconds": 0.479,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "1110f7ab761e68fd814ab6f8705f0d9076a1aed144e7914721e2ef4dbe461587",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dj-foreign-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:21.338090+00:00",
+    "request_sha256": "8254239f9ed1a98c376ee799473764629539934e9caaeb534e9f5d4bdfd2fdc1",
+    "input_sha256": "3d43f8730d80b97f1bd1553307ee10262091ae6e8a5402d8ca49bc0efc086932",
+    "elapsed_seconds": 0.422,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "049339253d1cf048900f648684258a88ab566a5fa24601806be3b69f59f747cc",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "dj-foreign-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:21.782139+00:00",
+    "request_sha256": "ac5f729d39b5907de8bb9d6073893ad34a2a15c98a6c47f2cd0807cbcf2cd190",
+    "input_sha256": "d704aa7b6f1f427cb4d53dfa785dd39049993168edd671cba6d67ffaceb5db4e",
+    "elapsed_seconds": 0.444,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-FOREIGN"
+      ]
+    },
+    "response_sha256": "36ca150e3e156a17150e3a5c9143666337bb66d1d99bb42b5acd4bc769e33bb6",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:22.905131+00:00",
+    "request_sha256": "f17129237149189c88f082e66b59361c839251407d0564b7922ab605c1741c95",
+    "input_sha256": "31810a444092c168cf9af58f01966bfdfd0c4d80e849a522fd48483c4fa188cf",
+    "elapsed_seconds": 1.123,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "c2bf9b1c0e54976071bcb6c5f15446446d3317f624d132a0e9293cf37ef7e4bc",
+    "done_reason": "stop",
+    "reported_eval_count": 59
+  },
+  {
+    "id": "gj-city-age-income-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:23.644879+00:00",
+    "request_sha256": "6419f78ae29aace8ecce39298cbbf05b366cdb50957440d509050003324368d4",
+    "input_sha256": "a65084a485be927ddfce619bd58939284a3ed783ba5620363d00478a15328b49",
+    "elapsed_seconds": 0.739,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "da05f318e465e16e61d9358b1a0c7e2656e9799109801c305187b1febf51088b",
+    "done_reason": "stop",
+    "reported_eval_count": 36
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:24.561561+00:00",
+    "request_sha256": "41b9de6fbda4485c0ac4ec918473151b55f241fabddfc23f4502efc042d593a8",
+    "input_sha256": "65c3b83eebe285c61e3bc85516c0acc8195f879aac52abc4dc02b1b85326e1a2",
+    "elapsed_seconds": 0.916,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        },
+        {
+          "field": "age_years",
+          "value": 18
+        },
+        {
+          "field": "income_pct",
+          "value": 100
+        }
+      ]
+    },
+    "response_sha256": "be4360b8372eb37e101b27a97d3bfee35b760303c688903776ab0046023a3902",
+    "done_reason": "stop",
+    "reported_eval_count": 59
+  },
+  {
+    "id": "gj-city-age-income-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:25.161486+00:00",
+    "request_sha256": "c89e73a09334e46c666102938d321f42001999dfb41399a5dd0ca875d8d99037",
+    "input_sha256": "8211f198ab80bab45afbbb1afff04701b5d9684331716c72e6de299369e2a388",
+    "elapsed_seconds": 0.6,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "668c3d1b33f9cb3488c71f5d7ddccaadad073dab1720fd64be412373f09075b0",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:25.863302+00:00",
+    "request_sha256": "b0c80855a8d62cad362a901c95c9605decd88ca2c41a0fc61c230bd707e9fcfa",
+    "input_sha256": "a239d9f262a991962fe113c89eb139df80fc2ff629ec1fe40f1df6255a180928",
+    "elapsed_seconds": 0.701,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 25
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": "광주광역시"
+        }
+      ]
+    },
+    "response_sha256": "8b65292d243da860516dd0bda09d2c61e5c42ee83d572b130e946e1e1ff335e3",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "gj-city-age-income-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:26.487973+00:00",
+    "request_sha256": "68c820ab8655b0cbc73967a7de76d6a11183b008dc986f8b979f5358ddc6e8bd",
+    "input_sha256": "b96e12d643bd35f11a1a3d651b63b0b8bf4846dd1df9a10a7fbb687b32fed4bd",
+    "elapsed_seconds": 0.624,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "80691d2d00ba49d17948bb31b5e7e7eaf29723a84b9b7ca15437d38de1152944",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:27.405573+00:00",
+    "request_sha256": "4de2a2ee812b5dfc879281ecaab9c036977ac0c3fc36d29ec5aa24d99adfd1da",
+    "input_sha256": "669b7d944440ff36446ebd6868f0115c95ba7ebbf023fb79412f324d28baebbd",
+    "elapsed_seconds": 0.917,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_city",
+          "value": "경기도 광주시"
+        },
+        {
+          "field": "age_years",
+          "value": 30
+        },
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "912ce97161c4eda2a971c948b2e7e631e071685162fe384d4324df1e2b6dfcd4",
+    "done_reason": "stop",
+    "reported_eval_count": 60
+  },
+  {
+    "id": "gj-city-age-income-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:28.018564+00:00",
+    "request_sha256": "62db9adebe52433c11a31c7be0b2c01e4b2af6de6cd96edc893a75b2d6de0284",
+    "input_sha256": "94882ef238c39e8fb7666f12bcae75ae559f96d043f92f7775aa8524951ac746",
+    "elapsed_seconds": 0.613,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-CITY",
+        "G-AGE",
+        "G-INCOME"
+      ]
+    },
+    "response_sha256": "b25756c9feaf794d020d8cd80dd865a2eeaad106dfd649cc2065fd7c8758d076",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "gj-benefits-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:28.628071+00:00",
+    "request_sha256": "ef6a39f972ac851722214eb86d11c309ce3a6c30f526f6e3481ec7efbda629cd",
+    "input_sha256": "c35546b44c00b0926af72387e5d185f2f9d7a21046af0072670ea3f1e1abf67a",
+    "elapsed_seconds": 0.609,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "27328119ebff47c85b0dab6ebaaf8fe35d57c2b70ce86435781442aecab4eec4",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "gj-benefits-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:29.163691+00:00",
+    "request_sha256": "6e6411b9c4d4e629dc65d173128ce409f8a8bb2b62114b69bcd5830e6035f4e7",
+    "input_sha256": "f505e6e71feb40793bdcbaeda997f4e64af0043e100631e4e013497f98f9a9f2",
+    "elapsed_seconds": 0.535,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "e018c0bea13a7a03f502507f24cf65e089155e6d0a32be84dd6feb0369af384f",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "gj-benefits-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:30.108524+00:00",
+    "request_sha256": "c6d972283dd4238be100240923c1e8ba01c50995cabe9d49a66f4449faf4a58a",
+    "input_sha256": "21bef05c596f93cf2395e3c406cb22f42cb9846c02858df02d4974a10b902400",
+    "elapsed_seconds": 0.944,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": true
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "95089dac59a5509615c58775e49688f73de9fac08f850fa157b066b15e98981d",
+    "done_reason": "stop",
+    "reported_eval_count": 63
+  },
+  {
+    "id": "gj-benefits-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:30.638208+00:00",
+    "request_sha256": "dea9d618ec53e12d095fd87258df20d75cd0edfdf43e9bf97b631c54088163bc",
+    "input_sha256": "250bd048a8e5a132eae533960c3c8ab4386d3e2b6b77ebbb7a612af1bea07299",
+    "elapsed_seconds": 0.529,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "188eb508041e96f014e6bde93ad16a1cd2b65a336fbc5496e24914ff9d5fc702",
+    "done_reason": "stop",
+    "reported_eval_count": 25
+  },
+  {
+    "id": "gj-benefits-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:31.011200+00:00",
+    "request_sha256": "3e083da7882aba4d0d862431a72c2986f942c94f6716afb301611034520cef9d",
+    "input_sha256": "041f99ec6e8e5b611655569ba133379d5f77e23ca09a21079be8bf921bab1540",
+    "elapsed_seconds": 0.373,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "019d8ab3bf4d286b7be4b51f91d9d934055c1eb18f988fefb4b7040365d31d6f",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "gj-benefits-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:31.534888+00:00",
+    "request_sha256": "ff33ad72f4cb6e220ecca8183ba2961697e89cda39087087910c2a7fc55fb9f2",
+    "input_sha256": "e6d014cd5271f84f45f62a536e7ed4c69d480a5b7a06ae6f07e43d369e41a8bb",
+    "elapsed_seconds": 0.523,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "39e17f54ced65905c797254b7804be3b13ce97ff18d2e60e644e2d3105ce456f",
+    "done_reason": "stop",
+    "reported_eval_count": 25
+  },
+  {
+    "id": "gj-benefits-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:31.948954+00:00",
+    "request_sha256": "c62975ac1e367dfe1533cab984d5c41003d51103dc52588e68b66de1159585b1",
+    "input_sha256": "def14df9eebc1e3a358e26a54d68ee1ca2e2fe8aa743663f25991a1a48c9328c",
+    "elapsed_seconds": 0.414,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": []
+    },
+    "response_sha256": "04765a5163311ebc632be2faa0f8c9c81a2151e62a53cefb06431b3810abc87b",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "gj-benefits-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:32.458072+00:00",
+    "request_sha256": "4fd720264a8bee1179763b14327843a076b7c7d34e1bd1c89d732a968c0b64e0",
+    "input_sha256": "17649763dea30df708e0c078f5e892085edd6d88cb1ef152f15e651eb0658223",
+    "elapsed_seconds": 0.509,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-BENEFITS"
+      ]
+    },
+    "response_sha256": "c9131ab4e2aa54fe34ce5d486cddf939745b71b5f6ff5d4bd531efe05c3324f9",
+    "done_reason": "stop",
+    "reported_eval_count": 25
+  },
+  {
+    "id": "gj-work-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:33.244854+00:00",
+    "request_sha256": "ec76681af4455443a3f08fe82761e32f296edd7b7a88614aa433ac3fb3bd813e",
+    "input_sha256": "35e648afff2b889c3ad107c5c8d9d50372ec8893632f2e67b5efeaa559300b89",
+    "elapsed_seconds": 0.786,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "response_sha256": "98d02f7cb5e77089a87c9200052647945ef811182641b6ef1f005aaa3cb4af20",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "gj-work-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:33.742164+00:00",
+    "request_sha256": "63d1ed06884eff048531b320001d0e77449db1752e1bf5d4a7933880ea5b36b5",
+    "input_sha256": "ba161eadd059a6d621b1d809da8c9f60ce9338684cc6a20aafe9f4ca5201e971",
+    "elapsed_seconds": 0.497,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "986de470dc787775a3da6b0efea8be09576f71e5e3e28e9d05f07691fbea84f8",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "gj-work-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:34.305918+00:00",
+    "request_sha256": "61a2750a7adf4de5dd4847931f0a7484a3d0cdf42464929e91cd398648f046eb",
+    "input_sha256": "41f0b994faa3a18994e72d530b2c2bf43166dd08ceba095b94a74f34a57d9515",
+    "elapsed_seconds": 0.563,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "weekly_work_hours",
+          "value": 30
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        }
+      ]
+    },
+    "response_sha256": "1c07aaa0d01539da0dbb5a1fd48ac48c4547151fc59c7a950e31c6d60bc58409",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "gj-work-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:34.861345+00:00",
+    "request_sha256": "1598d569d13ca78d5b16f978bc89a21d07e6b54e6196da7bee7c2af9d829a5b5",
+    "input_sha256": "991f020525c4a035e38fe2143b7cef3dafa3fc2cdc41047afa30aeac96c6503f",
+    "elapsed_seconds": 0.555,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-HOURS",
+        "G-UNEMPLOYED"
+      ]
+    },
+    "response_sha256": "582e8894473c6af87864ce37c09660e2cea6e81ee82f8d303088b344d17f24b5",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "gj-work-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:35.417364+00:00",
+    "request_sha256": "b98ac6a95a3514df9774ab9c02c03997158628bfb5520d47e1271eeddb1bbcbc",
+    "input_sha256": "d491f18c0b89fa5e196d63b85307df44a18cd58b386eb419edb45fb614b7c3b1",
+    "elapsed_seconds": 0.555,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "c3fa03b802d447a0048325ec036c0b155806e755bebc8ca97a720a5b0c3ca542",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "gj-work-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:36.014421+00:00",
+    "request_sha256": "3fa7d9c3e8118f6e9deb010291bebf1ffe776391ecd987cb346b75492502af7a",
+    "input_sha256": "6e97aedf1c541184d7fe01b2cecaecabfbac8596d893f5f03bfdace80b2fb1c4",
+    "elapsed_seconds": 0.596,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "1af41c4ea9e1ae0771a3f9729b0a204f0668a455c2b7a3d1d49a2c4bc978b8f8",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "gj-work-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:36.382962+00:00",
+    "request_sha256": "5a3f06a38084f95eb042212c0c5f0f79b76f7b6de02c550a582b2c804fef127e",
+    "input_sha256": "2ffa47fd9f1ccab8b7a48cfb528163c164f5a61eab1e05d5cb6542a6b6aebefb",
+    "elapsed_seconds": 0.368,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "4988d5a4ff313589fc1b317a7328c5944afff79a0d62ae87d33997417598e349",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "gj-work-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:36.946102+00:00",
+    "request_sha256": "b29ff21927b298491afae91d1bc606950e2692870548150bca90e83e0505d02e",
+    "input_sha256": "76841357158b08ed68f94be9a04d677e04a71e21bf2ab408aec6444fbc7e01ca",
+    "elapsed_seconds": 0.563,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "4c5ef26ff895cca2377fcf635507f0d4a696619f0a04ff4578a77ea9a9aafb18",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "gj-education-work-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:38.067884+00:00",
+    "request_sha256": "fb27666f54014f62bc79b353b8b6fb1e019d488270db1196881304f6233fda68",
+    "input_sha256": "cd09754559e6988b23ef3bcd8e6ff27607d0cd4191f27fc2909fae9790960fda",
+    "elapsed_seconds": 1.121,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "dropout"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 29
+        }
+      ]
+    },
+    "response_sha256": "75f10f28f9b2872311e853126b18996461d28a33261049a3790c22ab9ac62618",
+    "done_reason": "stop",
+    "reported_eval_count": 57
+  },
+  {
+    "id": "gj-education-work-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:39.083390+00:00",
+    "request_sha256": "f807f62077d12f79e8ae2a80d59a0d8ae87bb8322de14b52f8ec41ac6d3f5bf7",
+    "input_sha256": "9b3b4a1edb516b9e1e25f5e8efb2e8fc8444a911258a392305692b7b7d8a1f67",
+    "elapsed_seconds": 1.015,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS",
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "5a622175490e97f9cbcdd471349673a3636afe1cf0694188f39f819ea29b0ecb",
+    "done_reason": "stop",
+    "reported_eval_count": 53
+  },
+  {
+    "id": "gj-education-work-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:40.063302+00:00",
+    "request_sha256": "d5a5cffdf9f8bdf1e51d2157d7671faad944ef24c7b381b12ba91bf6ae91beef",
+    "input_sha256": "5373b76db61974e71577d323c44cfa1ff2caf0138b8bb978ae1e1c13877ab02c",
+    "elapsed_seconds": 0.98,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "leave"
+        },
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        }
+      ]
+    },
+    "response_sha256": "fae10adbd8127f66709d3179add6f48f3d31fc3b46e9c7041a5729fb7245f8d0",
+    "done_reason": "stop",
+    "reported_eval_count": 63
+  },
+  {
+    "id": "gj-education-work-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:40.728527+00:00",
+    "request_sha256": "d43203358642dc5b5a02d5cfb67cfd2c0f792207735b5f3469856e8459615c00",
+    "input_sha256": "0eca196e322d56debcd2d0934ebb098a4e9c0f4117415af00b572c96467d7c19",
+    "elapsed_seconds": 0.665,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-UNEMPLOYED"
+      ]
+    },
+    "response_sha256": "5971ee71e3a2523a969e51481e2eda9e28f482ba2dee07b6b72ef001785e3c85",
+    "done_reason": "stop",
+    "reported_eval_count": 35
+  },
+  {
+    "id": "gj-education-work-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:41.451563+00:00",
+    "request_sha256": "b2b873ff2060fb0a62db092bab29ef9ae84fbf1b16875ecf981246368c6fb01c",
+    "input_sha256": "d59f95377c9c7f1c5eacd1ab0b448a6758399ad4472d5858ef0af5d3a4a90c7b",
+    "elapsed_seconds": 0.723,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "1a7dd972a39c81745a7597276b8dce450ac27bfc1d26c620a4c6c576ed55a469",
+    "done_reason": "stop",
+    "reported_eval_count": 43
+  },
+  {
+    "id": "gj-education-work-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:42.003503+00:00",
+    "request_sha256": "e2e3c01c66252b71b5d42e40ee616d94618ecc22474c0b405ef92e3f89af1346",
+    "input_sha256": "12020da2485d29c292648fffd9aa7c5e13572c563d4ec695ea3a009cb13adffe",
+    "elapsed_seconds": 0.551,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION"
+      ]
+    },
+    "response_sha256": "e114a052d40ad5363449d5e86ef5e6918c03c07b6345aeabf8195e467839c90b",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "gj-education-work-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:42.353341+00:00",
+    "request_sha256": "b46c86d48a5c20f68d48d50013ceeed10411cd1431c8b7fe13c34ac769c91b4f",
+    "input_sha256": "346a170f00903bf102f3b46e6428fbe329c64e37f8a38a64c660fcc57bd91857",
+    "elapsed_seconds": 0.349,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": []
+    },
+    "response_sha256": "eae493a175e960335a42bb59fdd30ede0f0aa354225c73c054c19017084d4161",
+    "done_reason": "stop",
+    "reported_eval_count": 15
+  },
+  {
+    "id": "gj-education-work-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:32:43.149743+00:00",
+    "request_sha256": "bc37786ef7d530a2f427e690f7bec93b57ee4540656ce6b19fcac4e265c6c053",
+    "input_sha256": "2150795e4f2dbb31a1a8dacb8f150b12662e6428d5129e1a78431451b08641e1",
+    "elapsed_seconds": 0.796,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-UNEMPLOYED",
+        "G-HOURS"
+      ]
+    },
+    "response_sha256": "229a9adb4d4e22dd309c6a3deba5ca4d6dc4b0cbfaf7b69eadcedf7fd48f6138",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  }
+]

@@ -1,0 +1,763 @@
+{
+  "bundles": [
+    {
+      "id": "dev-age-income",
+      "scope": "연령과 가구 중위소득 요건만",
+      "evidence": {
+        "E": "만 19세 이상 39세 이하이고 가구 소득이 기준 중위소득 150% 이하인 사람을 대상으로 한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "age_years",
+              "op": "ge",
+              "value": 19,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "age_years",
+              "op": "le",
+              "value": 39,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "income_pct",
+              "op": "le",
+              "value": 150,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-subject-or",
+      "scope": "본인 또는 부모의 거주기간 요건만",
+      "evidence": {
+        "E": "신청자 본인이 12개월 이상 거주했거나 부모가 36개월 이상 거주했다면 거주기간 요건을 충족한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "residence_months",
+              "op": "ge",
+              "value": 12,
+              "evidence": [
+                "E"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "parent_residence_months",
+              "op": "ge",
+              "value": 36,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-pledge",
+      "scope": "실거주 또는 거주확약 요건만",
+      "evidence": {
+        "E": "실거주 24개월 이상을 원칙으로 한다. 다만 24개월 미만이어도 향후 거주확약을 하면 이 요건을 충족한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "residence_months",
+              "op": "ge",
+              "value": 24,
+              "evidence": [
+                "E"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "residence_months",
+              "op": "lt",
+              "value": 24,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "pledge",
+              "op": "eq",
+              "value": true,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-benefits",
+      "scope": "주택보유 및 복지급여 제외요건만",
+      "evidence": {
+        "E": "주택 소유자, 주거급여 또는 생계급여 수급자는 제외한다. 교육급여만 받는 사람은 이 사유로 제외하지 않는다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "homeowner",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "housing_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "livelihood_benefit",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-foreign",
+      "scope": "국적·영주권 제외 및 예외만",
+      "evidence": {
+        "E": "외국 국적자는 제외한다. 단, 외국 국적자 중 영주권을 보유한 사람은 신청 가능하다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "foreign_national",
+              "op": "eq",
+              "value": false,
+              "evidence": [
+                "E"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "foreign_national",
+              "op": "eq",
+              "value": true,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "permanent_resident",
+              "op": "eq",
+              "value": true,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-education-work",
+      "scope": "학적과 근로시간 요건만",
+      "evidence": {
+        "E": "졸업·수료·중퇴자에 한한다. 이 중 미취업자 또는 주 20시간 미만 취업자에게 자격이 있다. 자영업자는 제외한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "education_status",
+              "op": "in",
+              "value": [
+                "graduated",
+                "completed",
+                "dropout"
+              ],
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "employment_status",
+              "op": "eq",
+              "value": "unemployed",
+              "evidence": [
+                "E"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "education_status",
+              "op": "in",
+              "value": [
+                "graduated",
+                "completed",
+                "dropout"
+              ],
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "employment_status",
+              "op": "eq",
+              "value": "employed",
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "weekly_work_hours",
+              "op": "lt",
+              "value": 20,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-money",
+      "scope": "임대보증금과 월세 상한 요건만",
+      "evidence": {
+        "E": "보증금 8천만원 이하이면서 월세 60만원 이하인 임대차 계약을 지원한다."
+      },
+      "reference_policy": {
+        "status": "ready",
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 80000000,
+              "evidence": [
+                "E"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "le",
+              "value": 600000,
+              "evidence": [
+                "E"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "authored"
+    },
+    {
+      "id": "dev-insufficient",
+      "scope": "가구 소득 요건만",
+      "evidence": {
+        "E": "가구 소득 기준은 별도 소득표를 따른다. 해당 표는 이 발췌문에 포함되어 있지 않다."
+      },
+      "reference_policy": {
+        "status": "insufficient",
+        "clauses": []
+      },
+      "origin": "authored"
+    }
+  ],
+  "cases": [
+    {
+      "id": "dev-age-income-1",
+      "bundle": "dev-age-income",
+      "claim": "만 39세이고 가구 소득이 중위소득 150%인 나는 이 두 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 39
+          },
+          {
+            "field": "income_pct",
+            "value": 150
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-age-income-2",
+      "bundle": "dev-age-income",
+      "claim": "만 40세인 나는 소득을 밝히지 않았어도 이 두 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 40
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "dev-age-income-3",
+      "bundle": "dev-age-income",
+      "claim": "만 25세이고 소득 정보가 없는 나는 이 두 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "age_years",
+            "value": 25
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-subject-or-1",
+      "bundle": "dev-subject-or",
+      "claim": "나는 3개월, 부모는 3년 거주했다. 거주기간 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 3
+          },
+          {
+            "field": "parent_residence_months",
+            "value": 36
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-subject-or-2",
+      "bundle": "dev-subject-or",
+      "claim": "부모는 1년 거주했고 내 거주기간은 밝히지 않았다. 거주기간 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "parent_residence_months",
+            "value": 12
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-subject-or-3",
+      "bundle": "dev-subject-or",
+      "claim": "나는 11개월, 부모는 35개월 거주했다. 거주기간 요건을 충족하지 않는다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 11
+          },
+          {
+            "field": "parent_residence_months",
+            "value": 35
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-pledge-1",
+      "bundle": "dev-pledge",
+      "claim": "나는 2년 거주했고 확약은 하지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 24
+          },
+          {
+            "field": "pledge",
+            "value": false
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-pledge-2",
+      "bundle": "dev-pledge",
+      "claim": "나는 6개월 거주했고 거주확약을 했다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "residence_months",
+            "value": 6
+          },
+          {
+            "field": "pledge",
+            "value": true
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-pledge-3",
+      "bundle": "dev-pledge",
+      "claim": "나는 거주확약을 했고 실제 거주기간은 밝히지 않았다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "pledge",
+            "value": true
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-benefits-1",
+      "bundle": "dev-benefits",
+      "claim": "무주택인 나는 교육급여만 받고 주거급여와 생계급여는 받지 않는다. 이 제외요건을 통과한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "homeowner",
+            "value": false
+          },
+          {
+            "field": "education_benefit",
+            "value": true
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          },
+          {
+            "field": "livelihood_benefit",
+            "value": false
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-benefits-2",
+      "bundle": "dev-benefits",
+      "claim": "나는 주택을 소유하고 있고 급여 수급 여부는 밝히지 않았다. 이 제외요건을 통과한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "homeowner",
+            "value": true
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "dev-benefits-3",
+      "bundle": "dev-benefits",
+      "claim": "무주택인 나는 주거급여는 받지 않고 생계급여 여부는 밝히지 않았다. 이 제외요건을 통과한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "homeowner",
+            "value": false
+          },
+          {
+            "field": "housing_benefit",
+            "value": false
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-foreign-1",
+      "bundle": "dev-foreign",
+      "claim": "나는 외국 국적자이며 영주권이 있다. 이 국적 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "foreign_national",
+            "value": true
+          },
+          {
+            "field": "permanent_resident",
+            "value": true
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-foreign-2",
+      "bundle": "dev-foreign",
+      "claim": "나는 외국 국적자이며 영주권이 없다. 이 국적 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "foreign_national",
+            "value": true
+          },
+          {
+            "field": "permanent_resident",
+            "value": false
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-foreign-3",
+      "bundle": "dev-foreign",
+      "claim": "나는 국적을 밝히지 않았고 영주권은 없다. 이 국적 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "permanent_resident",
+            "value": false
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-education-work-1",
+      "bundle": "dev-education-work",
+      "claim": "대학을 중퇴한 나는 취업하여 주 19시간 일한다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "dropout"
+          },
+          {
+            "field": "employment_status",
+            "value": "employed"
+          },
+          {
+            "field": "weekly_work_hours",
+            "value": 19
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-education-work-2",
+      "bundle": "dev-education-work",
+      "claim": "대학을 졸업한 나는 취업하여 주 20시간 일한다. 이 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "graduated"
+          },
+          {
+            "field": "employment_status",
+            "value": "employed"
+          },
+          {
+            "field": "weekly_work_hours",
+            "value": 20
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "dev-education-work-3",
+      "bundle": "dev-education-work",
+      "claim": "대학 휴학 중인 나는 미취업자이다. 이 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "leave"
+          },
+          {
+            "field": "employment_status",
+            "value": "unemployed"
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-money-1",
+      "bundle": "dev-money",
+      "claim": "내 계약은 보증금 0.8억원, 월세 60만원이다. 두 상한을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 80000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "dev-money-2",
+      "bundle": "dev-money",
+      "claim": "내 계약은 보증금 8천만원, 월세 61만원이다. 두 상한을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 80000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 610000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "dev-money-3",
+      "bundle": "dev-money",
+      "claim": "내 월세는 50만원이고 보증금은 밝히지 않았다. 두 상한을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 500000
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-insufficient-1",
+      "bundle": "dev-insufficient",
+      "claim": "내 가구 소득은 중위소득 120%이다. 소득 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 120
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-insufficient-2",
+      "bundle": "dev-insufficient",
+      "claim": "내 가구 소득은 중위소득 180%이다. 소득 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "income_pct",
+            "value": 180
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "dev-insufficient-3",
+      "bundle": "dev-insufficient",
+      "claim": "내 연 소득은 3000만원이다. 소득 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "income_krw",
+            "value": 30000000
+          }
+        ]
+      },
+      "label": "not_established"
+    }
+  ]
+}

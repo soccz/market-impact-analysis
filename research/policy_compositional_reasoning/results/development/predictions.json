@@ -1,0 +1,3631 @@
+[
+  {
+    "id": "dev-age-income",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:07.301611+00:00",
+    "request_sha256": "c905ba4fbef3c911904013687281d9b3f60f954465274385047eb8a18c9909e7",
+    "input_sha256": "474ebe72f5813515b0e620b7c7d59c2d55c99bf1cec625fb9a0fd9c72c9894fd",
+    "elapsed_seconds": 45.477,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "349be5d1f61b0dca2eebe882e3aba9a56a2e18f8539bad480a986a8499e4ebc6",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-subject-or",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:08.091573+00:00",
+    "request_sha256": "242a8b56488867390a97711028cd9e79df22c7c134cb6a767263bde290e378b0",
+    "input_sha256": "30e32f2e64582f66631ff3ad53dc0248998a95c44389c05f6026b75e38f83106",
+    "elapsed_seconds": 0.789,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "0f59b15de4bd7d956127a1ca1c49a3c8f1381e7bd4785d376eb92e0a219b96eb",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-pledge",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:08.863059+00:00",
+    "request_sha256": "eac8d3047e61e1fadb2c4d1cf662d394d84c91222dcff18d2e5989c2803c7203",
+    "input_sha256": "7e6bfe7e204146d02dd2fcf079be182d7394c891fc18259a4eee224c8e3b1fb8",
+    "elapsed_seconds": 0.771,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "d32d31e2ec486da1710e76116b6992d1f78a4817c1766fec93666bc8b5fd57e1",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-benefits",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:09.603976+00:00",
+    "request_sha256": "427e049709e193a0b7f568b3ddfa68de1561c09eae2cd3144a9193e520d99660",
+    "input_sha256": "533672aba5bbc55250408fa1d1f192036d2d1678604a6e342f400029a31a943d",
+    "elapsed_seconds": 0.741,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "8cd6c5d33cfcb1067cc040a355acc8ffda366878615a8e2b5b46f7882e40ccb6",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-foreign",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:10.344480+00:00",
+    "request_sha256": "9c8d0ccaef2e159210bde9a584230a4352d204628d265aafb66e1cf78f667e95",
+    "input_sha256": "bd8ff6e2327dc7fdce65c84e94d96c31a58f19a1b4c734afc4fc3843b4347e21",
+    "elapsed_seconds": 0.74,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "3fa2c7c81da5e18ea92a889a6d08df09d31772a96e6e2a61f91ea7ffc1b05229",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-education-work",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:11.082965+00:00",
+    "request_sha256": "4b676acb49096de4aeaff1316bba5a3a1b03d56c9a4ffa78c1b7c2734f64baab",
+    "input_sha256": "18cdf67dcc4a017e304222990bdf2a414b46e86209fc5f89afbf2ce31106c222",
+    "elapsed_seconds": 0.738,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "845dd4926c43c9f4cae6b038b099b47a66b8f441faa1660668319998448c7d0d",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-money",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:11.824597+00:00",
+    "request_sha256": "ba50dba9e982b56ce157aba9bd413fbfd9d65550f36e7ceb7838462605d74c9e",
+    "input_sha256": "c87a086e724d601a987de067d13a4e5cff2487f30efcc48b02e64bcc9f1a8f7b",
+    "elapsed_seconds": 0.741,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "d55d4ae42bb9ea48a93b1a8b2c72953b1109a0a274a708a130228a7c56a73c4f",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-insufficient",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:12.569997+00:00",
+    "request_sha256": "c92daa89f7af9711689255ebf9c43cfe1d74ad3104887653dd79d82bb78e1285",
+    "input_sha256": "55c6812f26fdc9ee86c962b8a1a8250c8947c7b5b3c011005b8651dd7b9df123",
+    "elapsed_seconds": 0.745,
+    "parsed": {
+      "status": "insufficient",
+      "clauses": []
+    },
+    "response_sha256": "4bd2219b4b951dd768b73edd46166d1b8ada5d7fffa4a5dd6659bf2d88c03add",
+    "done_reason": "stop",
+    "reported_eval_count": 20
+  },
+  {
+    "id": "dev-age-income-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:14.257438+00:00",
+    "request_sha256": "abe74acd94102c44907e3fb664dc109ae7c5f5d0090770534836f79f3a7c9b40",
+    "input_sha256": "1ce674675ab1af09c6a8729ad23a1570adb9ca7de6e5de4fd52f40167090b7f2",
+    "elapsed_seconds": 1.687,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "52c24f6d26f02a19c856a017388f984e232fad7cd77a616f108e08a7ab27b176",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "dev-age-income-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:15.043226+00:00",
+    "request_sha256": "081a7fb0d179924eea23066ca185c1eaa1ead4ab61d12f1039136d691c337861",
+    "input_sha256": "48cc72b88267d02b90af27f206c40350fdd786395cf34ed8a96bce394cd83942",
+    "elapsed_seconds": 0.785,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "4fa9c36687d1b190c4718be998d557c8c08283fc69a91b1fabbd51704387ba88",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-age-income-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:22.256446+00:00",
+    "request_sha256": "35cb9ae6c1f1480674ad10871bd7a8178029f8d8df9d5aceb49f0397e46206e6",
+    "input_sha256": "d556dfb24114a54bd29c19be3226ff75ff2b7203f9a15b7aa881fe07f21300ba",
+    "elapsed_seconds": 7.213,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "5bffc21c61c33d9e7476f65509f75233371277c856d4c6c71a95a06bf2832e45",
+    "done_reason": "stop",
+    "reported_eval_count": 469
+  },
+  {
+    "id": "dev-age-income-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:23.051423+00:00",
+    "request_sha256": "5d6515f518fe7fc28a31d338c093d497ad953a4c3c3a1246bc1edf8f452bb68b",
+    "input_sha256": "9bfc039b746e5d0bdfc676c84be850f0d2f877ebec629c58e4282b070f7e613a",
+    "elapsed_seconds": 0.795,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6307f2a7fe15331e4dd50af3c9693badf1498bec9398016b5bb5b7219d10d5db",
+    "done_reason": "stop",
+    "reported_eval_count": 29
+  },
+  {
+    "id": "dev-age-income-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:49.957256+00:00",
+    "request_sha256": "3f3158f7b96786bd54af40429a82037eebf90a80a8b27e6b526cdd4beef35629",
+    "input_sha256": "26d9bb106bb1f403ad598cf97d5bb1011afd24436d0376def5c84db1ecedfcc4",
+    "elapsed_seconds": 7.559,
+    "parsed": null,
+    "response_sha256": "67c2fd6c6cdbae5c60e25e7e62ab7816e0b86b564377b453221fb984169d6cc9",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-age-income-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:50.766169+00:00",
+    "request_sha256": "e3ae49a853f3ffd68476dad96e66f6831f66a33d075d4f44125a114af758ff69",
+    "input_sha256": "e2454edba81e68ecc40ddcdc19696ee383d572178851dbaf13b3938094a93ee4",
+    "elapsed_seconds": 0.808,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "9c391d0b557216d9bceddb2a221cc230a5a223b57aeb54cfb11a82e9df67d467",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-subject-or-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:52.458755+00:00",
+    "request_sha256": "ba87e15298580524840a30f74c46d2c5e767731f5c0e81f3fdbbc24571a9a698",
+    "input_sha256": "a3decb3dc5bd2d4626daf3a6dcf1af071c809aae6600838101fd49d5f9c03695",
+    "elapsed_seconds": 1.692,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 3
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 36
+        }
+      ]
+    },
+    "response_sha256": "938dcf5f16e659bcdfa97ad3f2f3da6110f41f07715c596d68e0d56a94d5fe32",
+    "done_reason": "stop",
+    "reported_eval_count": 78
+  },
+  {
+    "id": "dev-subject-or-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:15:53.216673+00:00",
+    "request_sha256": "113eccc9346a7517d66b50bb6fcb6fc2108a0ceaf60e93f9aa092ec40869e26e",
+    "input_sha256": "3ff4fe858eb6101940ff11249087ee66b055a8a1357ff4db780fd24145a6229c",
+    "elapsed_seconds": 0.757,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "2dc360c3e09c7b471cb3db7b7518d156f8235934d3769a1dc134b4e34a4b07de",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-subject-or-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:01.003836+00:00",
+    "request_sha256": "3cf8fc3c48685bb4cb6b16bfd534e08f6e22193fb67eec6718463a6bf0d78ee6",
+    "input_sha256": "95c15e26f08e67387ea8bd4edf5c45a2f5718ef7176e649450944e1d0fe63b4f",
+    "elapsed_seconds": 7.787,
+    "parsed": null,
+    "response_sha256": "fe07f88195234ddb54df1b0037e10e46c58ebce89474245a653b965d5c1317d0",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-subject-or-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:01.857358+00:00",
+    "request_sha256": "91314af5dfcc18f5aace2b1326dd3fa3451e0df983bcd2fc7a42656c5d05583b",
+    "input_sha256": "164f9092437d8e37dbfb8f03c9a5753700980ce0c79db92019e7d8fd8642872a",
+    "elapsed_seconds": 0.853,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "59a1ebce6b3fb44e37c7bea648d002a8f9be20642f1ecb1107a241a5b9a5ca9e",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-subject-or-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:03.466117+00:00",
+    "request_sha256": "900928f5e9b9ca75dd4e53a59c241711578383e75575cfb5ffa9fbc2c7ee166a",
+    "input_sha256": "fa13c0fbdc798fc4d9b177f4d1a873e3e3e775910dd23a2d589cc5b5150ce264",
+    "elapsed_seconds": 1.608,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 11
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 35
+        }
+      ]
+    },
+    "response_sha256": "9ad1b7f83a78aa916e7300699c26872a66411129110dce1dbc7793ae0c8368a8",
+    "done_reason": "stop",
+    "reported_eval_count": 79
+  },
+  {
+    "id": "dev-subject-or-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:04.287779+00:00",
+    "request_sha256": "bc77639037951680e305c3a4b16a322820239f0781a6111e808045ed25b75c5b",
+    "input_sha256": "8ffca3cc744baef533896945933c617d2dc4b8338be599cafc3d2fdb9f0ded69",
+    "elapsed_seconds": 0.821,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "a73030ddeee24d84af6f1f95155518c4217f0dca0ed4fd73936087d38afc1a03",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-pledge-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:06.334793+00:00",
+    "request_sha256": "c2f0c7d7497eb9dd1608a5b4a63d4b7e5c663283f676a5e1c77e07ff5d5df55d",
+    "input_sha256": "6a8a78b709e28392d4fc5188e16e92a9d24d7a113b4fa886d58be7536f33c15e",
+    "elapsed_seconds": 2.047,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "pledge",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "03832a45984b812ade6bcc583d5763b8acf78e7416d33cb18612b13e36b2986b",
+    "done_reason": "stop",
+    "reported_eval_count": 75
+  },
+  {
+    "id": "dev-pledge-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:07.177260+00:00",
+    "request_sha256": "2cd1358673138f0ae20847086a1b7860529020955d49c17bfebca00e1ac98280",
+    "input_sha256": "726e988c4eec9bbeb862f3b936f0beb597ca05ed6e97c2f25ddefea82c5f12c2",
+    "elapsed_seconds": 0.842,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "2851eb467e0d5f8d78752b6a2b29aa1f1a1b41107340b38e4922b098602288a4",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-pledge-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:08.699298+00:00",
+    "request_sha256": "c414451101cc2437dfcdf77ede7888e99761624ca2006e046369db67c6aaa350",
+    "input_sha256": "5eb8f775699b0de386ed8cf5195f8830cc85ce8c28edb35d2f5704d8a2186da4",
+    "elapsed_seconds": 1.522,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 6
+        },
+        {
+          "field": "pledge",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "99b0e48a38c6dd2d50bdc50f5bc593281b18e21944e2a63d12a8ea7a3817a3c4",
+    "done_reason": "stop",
+    "reported_eval_count": 74
+  },
+  {
+    "id": "dev-pledge-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:09.486115+00:00",
+    "request_sha256": "f29fcdc3913ec33e1bc73e2c68a1f5c6a1558f9c54b87b249001bbf9f6537ab3",
+    "input_sha256": "feb3b7b019dea6070b9fee79eb8572556400bc75d5232ee344e1189838dff0fe",
+    "elapsed_seconds": 0.786,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "bc43168d884c3ccd1819ce085c356194f8a8fa9a4384e1a8ec5e224d0984ced0",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-pledge-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:10.689524+00:00",
+    "request_sha256": "6753d3dd723c5acf02d18568c1251b054d616a065fce173f51a832fd520a695b",
+    "input_sha256": "fa445506af8afa02ddc892b9f35f0fb91fb13c151639fe0fe7691a9d43b047f0",
+    "elapsed_seconds": 1.203,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "pledge",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "ac23e843bedb6e2e1d67534735b23ee4317c2311f2685faf031fdb23cb6cbc1a",
+    "done_reason": "stop",
+    "reported_eval_count": 51
+  },
+  {
+    "id": "dev-pledge-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:11.464074+00:00",
+    "request_sha256": "f783e8e5513ebd3f4ddb1a81eb55fdcfa7549061d2c3dc76e452524d54689fbe",
+    "input_sha256": "4aab2c9e48923075a650729a4ed44e641023b799d50f7afb7280072d7f97fa2f",
+    "elapsed_seconds": 0.774,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "0d09f65e228af4a47148d02e471fd7ddd63014d7da2a683ec60f58f707a47b84",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-benefits-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:13.721867+00:00",
+    "request_sha256": "ee74d9a31b374b2bb02fe23ee84025695327cbcc8f67dc1f906dedb396ac7a06",
+    "input_sha256": "cb225687cb5b384e50f74c9344a47b98e83b2fef16868540924994b9655cc169",
+    "elapsed_seconds": 2.257,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        },
+        {
+          "field": "homeowner",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "d70f169be9f7ff4d3b295f58ee09036b77b46673c53644493aa7d5205fea840f",
+    "done_reason": "stop",
+    "reported_eval_count": 117
+  },
+  {
+    "id": "dev-benefits-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:14.478352+00:00",
+    "request_sha256": "46a69dff25dce5b7c5fd0bfc9696d0a6f24b1833642ee1c016b93d83831db3fe",
+    "input_sha256": "20d976ffa558bb556f770827cb2a06cdddd56141f693704c1a449e323cc6760d",
+    "elapsed_seconds": 0.756,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "3b391a9d0b20aa5c4583fe08bc84c9a9533c4f1a245d2c30d6fffbfa40f215c7",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-benefits-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:22.243447+00:00",
+    "request_sha256": "0ecab96c43817c994fea73638550ef6b2f498748dd16839e5b37de58addd7d8c",
+    "input_sha256": "e3da05e0093858a9bdee30cb6708d77927368750f643ddc717a44911ccfb126b",
+    "elapsed_seconds": 7.765,
+    "parsed": null,
+    "response_sha256": "235321bed53126f8571671e5c587877221467d67f2e8d0288cfa9085956ee037",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-benefits-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:23.029241+00:00",
+    "request_sha256": "ed2f1fb60655f4d0b27c8591ed288786050ef5336621ca43ddb38ca3d29460e8",
+    "input_sha256": "7f33a42594a6a46b5c808edaf208209d6573c4ec7b54d69534b2f61697cd5165",
+    "elapsed_seconds": 0.785,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "2faede9b54707233cb14ac3b0d130b5b04e6ccf8490a328dff9c339f59ee54e9",
+    "done_reason": "stop",
+    "reported_eval_count": 29
+  },
+  {
+    "id": "dev-benefits-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:24.827763+00:00",
+    "request_sha256": "a348f9b0458c8284e3d7c500f6768f6bc0a32931a3dd16aa89a6b2d5e22d4b8c",
+    "input_sha256": "b8bca9af60585e2c24894b0a70004d8c25f78771471528fb98901b55ffe7e269",
+    "elapsed_seconds": 1.798,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "homeowner",
+          "value": true
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "68f944577744d7846ad41a71b2e0faf4f50d075dc289b6672065ae874973f44d",
+    "done_reason": "stop",
+    "reported_eval_count": 95
+  },
+  {
+    "id": "dev-benefits-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:25.497208+00:00",
+    "request_sha256": "5f55342f8257686f5c9c6a0cb0ba5a0e00796f6b3697cecfe21ab002293d5d48",
+    "input_sha256": "8747bce57ff2f4c3200dbe2f8405f04c08b1d5f59443d1af3775841bf520747b",
+    "elapsed_seconds": 0.669,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": []
+    },
+    "response_sha256": "131ab7c843c01dc298300ceffcf66d6ceffb4fe54ddd18ca437a8da742cced06",
+    "done_reason": "stop",
+    "reported_eval_count": 22
+  },
+  {
+    "id": "dev-foreign-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:27.072563+00:00",
+    "request_sha256": "7f4f1ea1f73f1e62002b399f8ca72379b4a7198c4a50fd7022442b213d1e3c57",
+    "input_sha256": "900d6fc08c2d2f44729546f3a13d7e11593b060a88cb7b74a22645a57bb6b1c4",
+    "elapsed_seconds": 1.575,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "1b87443dd5c1be688ff976c72724954d8eb48c5640ef0d5b1d5550fab2407437",
+    "done_reason": "stop",
+    "reported_eval_count": 73
+  },
+  {
+    "id": "dev-foreign-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:27.791711+00:00",
+    "request_sha256": "a18e31b1835f079ab8e53f854782377ade413c0b238f0753b59c8307c1e670a5",
+    "input_sha256": "a75401dc533ae013cd11d2f8b6cb6a386f6fbc138cd26bdc9659c68a2fafd121",
+    "elapsed_seconds": 0.719,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "28497cd0a8d7a698967663b9cd22a4f1351e4109dcacea0741a90fe57254285e",
+    "done_reason": "stop",
+    "reported_eval_count": 27
+  },
+  {
+    "id": "dev-foreign-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:35.572202+00:00",
+    "request_sha256": "6830a553680ae07f7ab5cca49869779f1fc634edc7fd0bffd0c8bbc1fb949985",
+    "input_sha256": "b7265700ce8c96b991d2d914522cac6da8a9b203bcd79086bda15919dbb3aae8",
+    "elapsed_seconds": 7.78,
+    "parsed": null,
+    "response_sha256": "b2eb362eaa759dcbeafdda080d679e293b669ad32fab4ca1e738cab9534f572a",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-foreign-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:36.352726+00:00",
+    "request_sha256": "3d7238e97553292bd415d316726923b46370d9fe8ab3b7a3e5f26f0936c0f76c",
+    "input_sha256": "b3723a86f3ebb5425110ae3b99ff161c8402549d39a45b5f9ad042207821266d",
+    "elapsed_seconds": 0.78,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "cfe6fe07de1f2036aeacac8087de31591ce89ce86b2f6caf17ef2da10cac46e9",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-foreign-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:37.836307+00:00",
+    "request_sha256": "13ed64219cd816fc4fa840bde8a36500f5fff385c5a5d59ce1804ff7ca44992e",
+    "input_sha256": "5df9d77db4afaf8cd678cf25e121920cc379b8d32cbc9fa1a31e467a1f9c356f",
+    "elapsed_seconds": 1.483,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "57d6718912d2ad1c8d5ef1fe48972e7235be4be803e2fc09e02b77844bcf8143",
+    "done_reason": "stop",
+    "reported_eval_count": 73
+  },
+  {
+    "id": "dev-foreign-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:38.614808+00:00",
+    "request_sha256": "2bbf510a156afec4a1a04cfc1c1c471f7906e30285b1b4cd8eab19330f3e942a",
+    "input_sha256": "f6db1fe52cddab98b790c7b685ab635bb8c35398a73b7e1329a62bd4d21a98c9",
+    "elapsed_seconds": 0.778,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "0cf04b80160051fe0981d7c5afaab8cfeedfec0c0d0c55cb3d6d5d6b4ae66d33",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dev-education-work-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:46.642073+00:00",
+    "request_sha256": "f23ade14b7e543d9faf918c87fa612ed5779b4285ced91e35a9143176438c666",
+    "input_sha256": "1701da987a6931a65307a445c2dacfc7a4376f444f5441e388d47b61f091c6b7",
+    "elapsed_seconds": 8.027,
+    "parsed": null,
+    "response_sha256": "1fd683c2a38f2dfad080138ab6a2221eb16982fa95989a1442deb3f358cbdd36",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-education-work-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:47.414337+00:00",
+    "request_sha256": "2eb64e62cd291bbcf38f3ecf21f6c696ddfcf8d93f87bf83be5fda9151eab98a",
+    "input_sha256": "5ab135504ce1bc95c204a6f79ee0a47457de194443ccb5133a358b418aa780d0",
+    "elapsed_seconds": 0.772,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "c6381abf95508e357aa26d3118e632e949a3c4e4569fe648df9a95604ccc2841",
+    "done_reason": "stop",
+    "reported_eval_count": 28
+  },
+  {
+    "id": "dev-education-work-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:49.279951+00:00",
+    "request_sha256": "fe102feaac0c801db80d26051559a29810e5d1fffb122d0ecef77da04416ad1c",
+    "input_sha256": "9b9a8a9bc4f8f76aa1e6b14857fd6e1a6e60c390155cdc8b8dbe282232be38b2",
+    "elapsed_seconds": 1.865,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 20
+        }
+      ]
+    },
+    "response_sha256": "c8cca364caf0c7bafb935318d12f0ddfa24d827de4abeb88a5c357ea7e2bb75d",
+    "done_reason": "stop",
+    "reported_eval_count": 100
+  },
+  {
+    "id": "dev-education-work-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:50.069336+00:00",
+    "request_sha256": "ebe98ef037f9f5104be41a789a6b943723979632fe626335175e66cc6149f5de",
+    "input_sha256": "b82f178f2bf934ac0564fea550ab6e8652badf7ae27292aff6c5ea95cd7647c5",
+    "elapsed_seconds": 0.789,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b40250e2fc483e89ce493687a1a2c5a714185b0e8d1303effaac3a99ec02d3a7",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "dev-education-work-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:51.590713+00:00",
+    "request_sha256": "45ab3419e4b0fccdbce7a057f8c2ab3c11935303e02649f152962ff8fa253d2f",
+    "input_sha256": "1e5b6b9857ac352a1a2b4d00d601b03ebe37fc8c81a83600deaa2c8acc49c5cc",
+    "elapsed_seconds": 1.521,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "leave"
+        },
+        {
+          "field": "employment_status",
+          "value": "unemployed"
+        }
+      ]
+    },
+    "response_sha256": "0b66ac055c8a7b68cd28e955f4a5abb3940a0aabbbcc4bdef426cac6e55ccf2c",
+    "done_reason": "stop",
+    "reported_eval_count": 76
+  },
+  {
+    "id": "dev-education-work-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:16:52.399155+00:00",
+    "request_sha256": "7f309be72fde6b5852e792a8ed11898e3d505227a9854f128653b448803e197b",
+    "input_sha256": "36a5cd5765f60763bf5717fccda840e718ac23f9b7d7df424e9e2ff420555832",
+    "elapsed_seconds": 0.808,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "f07d8d4bafaac53ce2b5eb7a857ebe4c6ab3ea8dbbea1c23a45ebb2c491976bc",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-money-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:00.331571+00:00",
+    "request_sha256": "9156fb070dc5e4d2dbcf8de3619b5b1c0d608585078d179dd71a7b1e6c118a2b",
+    "input_sha256": "0b846ef0d3d72aa2c60846539783cad5e6ebae131f5ae48f0c0dbb2f23ddec3c",
+    "elapsed_seconds": 7.932,
+    "parsed": null,
+    "response_sha256": "99ae26c4cb01cdb7e6115e3db2b9d31c57466fd8ee694d3ae3d512b21a3ae1be",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-money-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:01.093831+00:00",
+    "request_sha256": "a7791431aa72fd9333575fb43ef1bbcaa2cdf6a4387af0497ffec32df7b6eb1a",
+    "input_sha256": "98117e3ef85318ac06a1f3995f234d3b5d1f6bb5064befc80c25edb78d17df54",
+    "elapsed_seconds": 0.762,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "603482ed919ce9886f322891872130a839d01e4a1be033bfae3668eedb523c1c",
+    "done_reason": "stop",
+    "reported_eval_count": 29
+  },
+  {
+    "id": "dev-money-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:02.803036+00:00",
+    "request_sha256": "1101a0d5bfc35fe45cceab140dfca213767a1d63af6f05aee440951ced652f84",
+    "input_sha256": "642edabb793de43a0e2bc77e016b48c6f7decb33cbaa5bf03f15cc9a17f32f82",
+    "elapsed_seconds": 1.709,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 610000
+        }
+      ]
+    },
+    "response_sha256": "2984692b7dd2d9bb67a1ef9d39aa23cd6843428acb2b02ab95062841524b52ed",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "dev-money-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:03.556389+00:00",
+    "request_sha256": "77bfa040587d230d1ba6b5b176e2480a09582c6cc5864d3d925c89464d6cb0bc",
+    "input_sha256": "da8ea138f0db9198e1c88fcf8b721fd0907cc7b7770b48a6d80cdebd4f7abdb7",
+    "elapsed_seconds": 0.753,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "23eaaede84b237bebd7e829da67c495e8f60fc0e82b2c0f1ef14fad3bcdf4d28",
+    "done_reason": "stop",
+    "reported_eval_count": 29
+  },
+  {
+    "id": "dev-money-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:11.409521+00:00",
+    "request_sha256": "28479a37d063024db05c973886c05a64c0e9b39fcf66605863ef22954dab218c",
+    "input_sha256": "4635a7c2d68fd48899047a8d6c8304905702b0b1ca3c1aedb8fa68f993454266",
+    "elapsed_seconds": 7.853,
+    "parsed": null,
+    "response_sha256": "97d87327623fd1d8075558839ad5f0144a96d5ea6f29282fe478d6ed46267b24",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-money-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:12.261653+00:00",
+    "request_sha256": "5a609cf8a1e9fab378c7c32a9b69dd7cd6173353d1194d7a187ceb76f590edc0",
+    "input_sha256": "67ded616ba4da6d97775a55b29ec3d04b4e2dd727f7c0fd45574fc4fcbe81aac",
+    "elapsed_seconds": 0.852,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "41683c81f808e97c9285250b00f1da699ddf4e018f3c7a9b07a1d04060e545ea",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-insufficient-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:13.559668+00:00",
+    "request_sha256": "d9a5fd2c74864766a0e1cc93b1431017fea1c9853be33b5318db1beba2edc3b3",
+    "input_sha256": "4b4efcba1a6c8d49ef101806e2222d784bbcd9ce396e1d7562f6af165583e8a9",
+    "elapsed_seconds": 1.298,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "1b5fa28d93ed532b9319f3cee57cb5126971d214e2f6a336ed29df177875aafb",
+    "done_reason": "stop",
+    "reported_eval_count": 53
+  },
+  {
+    "id": "dev-insufficient-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:14.354049+00:00",
+    "request_sha256": "605bb5692560875ef67411ac5fd9568830a434df25e70635dbb2a0d096dfca39",
+    "input_sha256": "591f898825259d9676ca6719c5a240eb78e2e1b305a47ee3beec21bc2232d3c2",
+    "elapsed_seconds": 0.794,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "35c4281d18d14ba94661250d7d78eaa2958d5fdc3bd7ebb5a7c889c92b654dde",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-insufficient-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:22.629519+00:00",
+    "request_sha256": "6d0df84a8fc99a71ee1ff149c211e74c6c07322783bb4d55d13c440d6aaff07c",
+    "input_sha256": "40edb42d881f5e2e8dcce8ab7059eab91e75a1fcb2533f2f645197b616c8bbb2",
+    "elapsed_seconds": 8.275,
+    "parsed": null,
+    "response_sha256": "e0d69d63a9bad6cd3d68c1ad982168e605efe8455644afbba846e875db287842",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "dev-insufficient-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:23.340489+00:00",
+    "request_sha256": "9dae59515e0937fc6ca7f137d91ee45177d36a998bafa85bc57dd45636935a61",
+    "input_sha256": "bbae91e7ea3655993eb75d1a77d62f3a5e8c2bd2a2be06074cb8ff65256ab6d1",
+    "elapsed_seconds": 0.71,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": []
+    },
+    "response_sha256": "1f338dc8c9d0fc0b972bc56e82059015af52700b0f182e9d1de9b5f171fe8b67",
+    "done_reason": "stop",
+    "reported_eval_count": 23
+  },
+  {
+    "id": "dev-insufficient-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:24.668880+00:00",
+    "request_sha256": "cbc5f782b7997aa3ff26b3c1a27cae2533bd35a5ad266830695c15dc19eef7cd",
+    "input_sha256": "9188aee8bea953221f33caf2c57f81523dde7c57219fc2eee81a9b98d66286f1",
+    "elapsed_seconds": 1.328,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "income_krw",
+          "value": 30000000
+        }
+      ]
+    },
+    "response_sha256": "bc1eccd01192733c652f7ad8acf74900377176d48ccaef1e5fa7072183747c29",
+    "done_reason": "stop",
+    "reported_eval_count": 60
+  },
+  {
+    "id": "dev-insufficient-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:25.498927+00:00",
+    "request_sha256": "1e0aae29f4868d4234ca6c6fa298f1d74060c3bc0827ffb0dc214bb83178e79a",
+    "input_sha256": "b098132f908e8f25d005d470306911a49bd00145fc5a8ef1863c7f668a734ded",
+    "elapsed_seconds": 0.83,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "c88d887f957f6189afaa92301a74826f42cc14fd703e2d4408a083845cf2d844",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-age-income",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:37.998892+00:00",
+    "request_sha256": "57eb65bf7e3692a0091924077ef6678b248aabf3a2c739347e50859c6b9eb20e",
+    "input_sha256": "474ebe72f5813515b0e620b7c7d59c2d55c99bf1cec625fb9a0fd9c72c9894fd",
+    "elapsed_seconds": 12.496,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E",
+              "E"
+            ],
+            "field": "age_years",
+            "op": "in",
+            "value": [
+              19,
+              39
+            ]
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "income_pct",
+            "op": "lt",
+            "value": 150
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "eee03bf1b54edcee95c2744bec2e1af02aa0ee03e11a33a4961b0a5f0b7106aa",
+    "done_reason": "stop",
+    "reported_eval_count": 111
+  },
+  {
+    "id": "dev-subject-or",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:39.753774+00:00",
+    "request_sha256": "ed047c16291c322a279bd2d02e019c06f67667c058c76a5b2526dfa00fb048b6",
+    "input_sha256": "30e32f2e64582f66631ff3ad53dc0248998a95c44389c05f6026b75e38f83106",
+    "elapsed_seconds": 1.754,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "residence_months",
+            "op": "ge",
+            "value": 12
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "parent_residence_months",
+            "op": "ge",
+            "value": 36
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "d8a07d30e22f57f698f55f94e7381182a1f29fdd3d12dc5fdfcb521440d0b59d",
+    "done_reason": "stop",
+    "reported_eval_count": 102
+  },
+  {
+    "id": "dev-pledge",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:41.493125+00:00",
+    "request_sha256": "777a0b57a9602b9739dd7d11dd86d5133dd274589562be932a6b81eef28f8d1b",
+    "input_sha256": "7e6bfe7e204146d02dd2fcf079be182d7394c891fc18259a4eee224c8e3b1fb8",
+    "elapsed_seconds": 1.739,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "residence_months",
+            "op": "ge",
+            "value": 24
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "pledge",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "f26bc37e6c9963fb207aae0cf399318256d232c4e84f1043e5fece4f967a6b2a",
+    "done_reason": "stop",
+    "reported_eval_count": 99
+  },
+  {
+    "id": "dev-benefits",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:44.319848+00:00",
+    "request_sha256": "758b1d3e69818706265f44a6903364dbb50807e6df997a04945fca454b768248",
+    "input_sha256": "533672aba5bbc55250408fa1d1f192036d2d1678604a6e342f400029a31a943d",
+    "elapsed_seconds": 2.826,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E",
+              "E"
+            ],
+            "field": "homeowner",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": true
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "education_benefit",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "b0074ccd67ce700be2836a2a242fc44f03f38d53125353df6dfd7d8c8b86be0b",
+    "done_reason": "stop",
+    "reported_eval_count": 183
+  },
+  {
+    "id": "dev-foreign",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:46.161085+00:00",
+    "request_sha256": "957b2f29780d6a443723a42335a2f02062bc70f1b5f36858b0fdd49d00f93911",
+    "input_sha256": "bd8ff6e2327dc7fdce65c84e94d96c31a58f19a1b4c734afc4fc3843b4347e21",
+    "elapsed_seconds": 1.841,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E",
+              "E"
+            ],
+            "field": "foreign_national",
+            "op": "eq",
+            "value": "false"
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "permanent_resident",
+            "op": "eq",
+            "value": "true"
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "8f1db8aea066eaeea3f033b18e1c58c1eec8712c99f12fd52d3afd476728066e",
+    "done_reason": "stop",
+    "reported_eval_count": 105
+  },
+  {
+    "id": "dev-education-work",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:52.269527+00:00",
+    "request_sha256": "3596e8ed5036acce99e7360da4ca97b16929534c62a6a8b5398bf0d159fae217",
+    "input_sha256": "18cdf67dcc4a017e304222990bdf2a414b46e86209fc5f89afbf2ce31106c222",
+    "elapsed_seconds": 6.108,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "education_status",
+            "op": "in",
+            "value": [
+              "enrolled",
+              "leave",
+              "dropout"
+            ]
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "employment_status",
+            "op": "in",
+            "value": [
+              "unemployed",
+              "employed"
+            ]
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "employment_status",
+            "op": "not_in",
+            "value": [
+              "self_employed"
+            ]
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 20
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "education_status",
+            "op": "in",
+            "value": [
+              "enrolled",
+              "leave",
+              "dropout"
+            ]
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "education_status",
+            "op": "in",
+            "value": [
+              "enrolled",
+              "leave",
+              "dropout"
+            ]
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "employment_status",
+            "op": "eq",
+            "value": "employed"
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 20
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "757b0cea5c639fd907195d027e7151c4c33e1b3dbf515bcbd317955567bde2eb",
+    "done_reason": "stop",
+    "reported_eval_count": 435
+  },
+  {
+    "id": "dev-money",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:17:54.194116+00:00",
+    "request_sha256": "cb0392f4714491d8d49e8a1eb53d5e2b21837ddcf5dd92cf9b00d900914fd9a5",
+    "input_sha256": "c87a086e724d601a987de067d13a4e5cff2487f30efcc48b02e64bcc9f1a8f7b",
+    "elapsed_seconds": 1.924,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E",
+              "E"
+            ],
+            "field": "deposit_krw",
+            "op": "lt",
+            "value": 8000000
+          },
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 600000
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "bf8a1eba89e3031f8183c8f97d84c81fa82463bad97d2d2aa2b5d5d2c144551b",
+    "done_reason": "stop",
+    "reported_eval_count": 109
+  },
+  {
+    "id": "dev-insufficient",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:04.994338+00:00",
+    "request_sha256": "680e1b0a73832275e09faaf93b4b14b2a60bd5d3e6b61a04d07bda8475a4dd60",
+    "input_sha256": "55c6812f26fdc9ee86c962b8a1a8250c8947c7b5b3c011005b8651dd7b9df123",
+    "elapsed_seconds": 10.8,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "E"
+            ],
+            "field": "income_pct",
+            "op": "lt",
+            "value": 100
+          },
+          {
+            "evidence": [],
+            "field": "income_krw",
+            "op": "lt",
+            "value": 3000000
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "household_income_krw",
+            "op": "lt",
+            "value": 6000000
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "residence_months",
+            "op": "gt",
+            "value": 12
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "pledge",
+            "op": "eq",
+            "value": true
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "homeowner",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "housing_benefit",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "livelihood_benefit",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "medical_benefit",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "education_benefit",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "foreign_national",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "permanent_resident",
+            "op": "eq",
+            "value": false
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "deposit_krw",
+            "op": "gt",
+            "value": 0
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "monthly_rent_krw",
+            "op": "lt",
+            "value": 500000
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "weekly_work_hours",
+            "op": "lt",
+            "value": 20
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "employment_status",
+            "op": "eq",
+            "value": "unemployed"
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "residence_city",
+            "op": "eq",
+            "value": "서울특별시"
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "joined_on",
+            "op": "eq",
+            "value": "2022-01-01"
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "applied_on",
+            "op": "eq",
+            "value": "2022-04-01"
+          }
+        ],
+        [
+          {
+            "evidence": [],
+            "field": "marriage_years",
+            "op": "lt",
+            "value": 3
+          }
+        ]
+      ],
+      "status": "insufficient"
+    },
+    "response_sha256": "9847a0e5c7d947ddf8c83e5515a80c2f6898d9de7b417f1c1c66bac923786620",
+    "done_reason": "stop",
+    "reported_eval_count": 806
+  },
+  {
+    "id": "dev-age-income-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:06.295305+00:00",
+    "request_sha256": "3f6cb927cbed1b5f7e3a43ecb1e4738487c603b843f512990cd41cabd92adcbb",
+    "input_sha256": "1ce674675ab1af09c6a8729ad23a1570adb9ca7de6e5de4fd52f40167090b7f2",
+    "elapsed_seconds": 1.3,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 39
+        },
+        {
+          "field": "income_pct",
+          "value": 150
+        }
+      ]
+    },
+    "response_sha256": "be5df1a47d8c04549f9ca688c6010ba9e30159be3ddcc46ca34fc42eb61688ce",
+    "done_reason": "stop",
+    "reported_eval_count": 63
+  },
+  {
+    "id": "dev-age-income-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:06.754999+00:00",
+    "request_sha256": "9f2854fe1506823cc09ad70a80a94b951a9636579ce03b18b1ea28956869ea36",
+    "input_sha256": "48cc72b88267d02b90af27f206c40350fdd786395cf34ed8a96bce394cd83942",
+    "elapsed_seconds": 0.459,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "819029940318298afee20f49822fdba81f0e1df11a576145022e2aea2a5c8db0",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-age-income-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:12.852637+00:00",
+    "request_sha256": "92f26950526c5bb6222bef558e3ae1be52393683da40dc97473578e789509389",
+    "input_sha256": "d556dfb24114a54bd29c19be3226ff75ff2b7203f9a15b7aa881fe07f21300ba",
+    "elapsed_seconds": 6.097,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 40
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": false
+        },
+        {
+          "field": "foreign_national",
+          "value": false
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "8d7ed6f2a2f393ff04f93655d9b1f67f4881ea88d5108d24c3a66ee86e189066",
+    "done_reason": "stop",
+    "reported_eval_count": 461
+  },
+  {
+    "id": "dev-age-income-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:13.347939+00:00",
+    "request_sha256": "edb95e4355022286afa77b286e502d27a6329a71ec4d84e982a94537deb79dab",
+    "input_sha256": "9bfc039b746e5d0bdfc676c84be850f0d2f877ebec629c58e4282b070f7e613a",
+    "elapsed_seconds": 0.495,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "cae21162f16dc1a8ea07bccda433a369b9192949333e4e4ca70c39d966aa6b71",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "dev-age-income-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:19.428202+00:00",
+    "request_sha256": "e4e57204b2786b0d01156f7900a7f568695eae8da2940cdff03081d602ecfae7",
+    "input_sha256": "26d9bb106bb1f403ad598cf97d5bb1011afd24436d0376def5c84db1ecedfcc4",
+    "elapsed_seconds": 6.08,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "age_years",
+          "value": 25
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "medical_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": false
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "d140f9ecc59dfaa8a3d66885f003cc80e8f036c59f878071c2c7d182c94b297b",
+    "done_reason": "stop",
+    "reported_eval_count": 461
+  },
+  {
+    "id": "dev-age-income-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:19.906846+00:00",
+    "request_sha256": "e83d093374286dc6ef76c3e1866ab4bfcdbd16ba36d2b7efb1b5c1477b327e64",
+    "input_sha256": "e2454edba81e68ecc40ddcdc19696ee383d572178851dbaf13b3938094a93ee4",
+    "elapsed_seconds": 0.478,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "9c0657146683a7bcf77d9d5ce888875196dcd53ff3db9d1db28159da461c8666",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "dev-subject-or-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:23.744130+00:00",
+    "request_sha256": "1f3ccad3491db518a68c0c397f131a88f8b07cdd20c941a4c77d7a57fcf96709",
+    "input_sha256": "a3decb3dc5bd2d4626daf3a6dcf1af071c809aae6600838101fd49d5f9c03695",
+    "elapsed_seconds": 3.837,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 3
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 36
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "f3a6090dfa12c114859115a5a87e2be14455e763b6bdf2d75f529141498a66b4",
+    "done_reason": "stop",
+    "reported_eval_count": 265
+  },
+  {
+    "id": "dev-subject-or-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:24.202802+00:00",
+    "request_sha256": "79217bc3af8259c58514e33cbd4ca209bb30abb446a01893ca037eb807c76aa1",
+    "input_sha256": "3ff4fe858eb6101940ff11249087ee66b055a8a1357ff4db780fd24145a6229c",
+    "elapsed_seconds": 0.458,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "e6376fbab525b52202ef6ecd822d72b0cf2b9a59d300fc5e80f4ae2759022813",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-subject-or-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:25.239069+00:00",
+    "request_sha256": "2766178f35b6735d4d27c99df6d7bd730078c9c5076c6235866434b7817e9467",
+    "input_sha256": "95c15e26f08e67387ea8bd4edf5c45a2f5718ef7176e649450944e1d0fe63b4f",
+    "elapsed_seconds": 1.036,
+    "parsed": {
+      "assertion": true,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "parent_residence_months",
+          "value": 12
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "32e364c26bf3677f3c3e0a4b87429e99d6e4e8911c943df9a879c46dcb9fc45d",
+    "done_reason": "stop",
+    "reported_eval_count": 65
+  },
+  {
+    "id": "dev-subject-or-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:25.653357+00:00",
+    "request_sha256": "5e019a774fbd8e7742a53b96376287fba0c0265cdee72061afd9bed20e0263fe",
+    "input_sha256": "164f9092437d8e37dbfb8f03c9a5753700980ce0c79db92019e7d8fd8642872a",
+    "elapsed_seconds": 0.414,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "638ff4715f8f347c2a2813513d6111e89b955e4ced7fb2c4802fb4788e30704f",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-subject-or-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:26.407119+00:00",
+    "request_sha256": "2873a7b6c7da20ee74d1eceaea7a0cb1c6fb48dfd30b73786e7a91718d420d7f",
+    "input_sha256": "fa13c0fbdc798fc4d9b177f4d1a873e3e3e775910dd23a2d589cc5b5150ce264",
+    "elapsed_seconds": 0.753,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 11
+        },
+        {
+          "field": "parent_residence_months",
+          "value": 35
+        }
+      ]
+    },
+    "response_sha256": "a0adbc925efb24a69ab057bd68bbc00ea3e0f7121287201fe32f9d7547b13a02",
+    "done_reason": "stop",
+    "reported_eval_count": 47
+  },
+  {
+    "id": "dev-subject-or-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:26.854651+00:00",
+    "request_sha256": "c9cbac55369824312889bbfefad1001fe57773b74d84af2c618fe266ee148da5",
+    "input_sha256": "8ffca3cc744baef533896945933c617d2dc4b8338be599cafc3d2fdb9f0ded69",
+    "elapsed_seconds": 0.447,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "f87fb13ece12d64945e400a7409c775af6140cb0c3f820e980b25f66a0653cab",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "dev-pledge-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:27.818043+00:00",
+    "request_sha256": "65683cda82a5a412b1a7312e80602f78526131600477474ca61fa9548cb641ce",
+    "input_sha256": "6a8a78b709e28392d4fc5188e16e92a9d24d7a113b4fa886d58be7536f33c15e",
+    "elapsed_seconds": 0.963,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 24
+        },
+        {
+          "field": "pledge",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "ac4a99f6dad88f5485c85c387f6bcf7e40761ded7a433c37c99131098bbb2bce",
+    "done_reason": "stop",
+    "reported_eval_count": 43
+  },
+  {
+    "id": "dev-pledge-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:28.244941+00:00",
+    "request_sha256": "7cc0ca4f7d3c367ad47299a23d8925ebc4449abbd17d90d9694bf086b4ae4f0f",
+    "input_sha256": "726e988c4eec9bbeb862f3b936f0beb597ca05ed6e97c2f25ddefea82c5f12c2",
+    "elapsed_seconds": 0.426,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "91e5a8ff48652e2630ee49614371396dc7d5a91c0e273a16fb0a18a67b4da8d3",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-pledge-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:28.997090+00:00",
+    "request_sha256": "2d2eaaf439ee4b532651d9c8ce734dbf997f4112ffd6ebf4ebc0b93dfbcb05a5",
+    "input_sha256": "5eb8f775699b0de386ed8cf5195f8830cc85ce8c28edb35d2f5704d8a2186da4",
+    "elapsed_seconds": 0.752,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "residence_months",
+          "value": 6
+        },
+        {
+          "field": "pledge",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "936a7ae345da0cf80c4252c1e6dc0222ded403b9ebaf57ad8279f48e76f9e5de",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "dev-pledge-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:29.399583+00:00",
+    "request_sha256": "36c6e15d46fb12f3dec7da52ab1eb40c2a37ad2c344397703987fa1ba9c38c62",
+    "input_sha256": "feb3b7b019dea6070b9fee79eb8572556400bc75d5232ee344e1189838dff0fe",
+    "elapsed_seconds": 0.402,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "3b219ce8480d7e8c14514ca00317bb393b5ffb2bafc3dac4828a28f750d83984",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-pledge-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:30.118237+00:00",
+    "request_sha256": "bfbf6c40fe4e41d3089fc960d48d9e67d2f1941fa4126e37dc8650573fed7e03",
+    "input_sha256": "fa445506af8afa02ddc892b9f35f0fb91fb13c151639fe0fe7691a9d43b047f0",
+    "elapsed_seconds": 0.718,
+    "parsed": {
+      "assertion": true,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "pledge",
+          "value": true
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "0aba3732a9e648a12a19716c36b8a32b52e10c0d13c82ab7e25300032333082d",
+    "done_reason": "stop",
+    "reported_eval_count": 43
+  },
+  {
+    "id": "dev-pledge-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:30.531966+00:00",
+    "request_sha256": "7f690231c593d9302072691db127ae698783872a16b01ca61caff41ce9c09994",
+    "input_sha256": "4aab2c9e48923075a650729a4ed44e641023b799d50f7afb7280072d7f97fa2f",
+    "elapsed_seconds": 0.413,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b14ca272d45a596f192afa7f26f047ffa926632e8d9d83a9cb779a05587bd453",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-benefits-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:32.230329+00:00",
+    "request_sha256": "60d9f92c80cb0800a670cbeaca175c13cb2ca6003d2d68f31f0261470b3f4466",
+    "input_sha256": "cb225687cb5b384e50f74c9344a47b98e83b2fef16868540924994b9655cc169",
+    "elapsed_seconds": 1.698,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "homeowner",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": false
+        },
+        {
+          "field": "education_benefit",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "48bd17385cdb5252f2013082b4fd290f888194ce96857720de22b108606a50cb",
+    "done_reason": "stop",
+    "reported_eval_count": 101
+  },
+  {
+    "id": "dev-benefits-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:32.636032+00:00",
+    "request_sha256": "40d0323a16915ef8b308f1b27d747631ee3650e8666765d184247d0f0cb2abab",
+    "input_sha256": "20d976ffa558bb556f770827cb2a06cdddd56141f693704c1a449e323cc6760d",
+    "elapsed_seconds": 0.405,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "ed458202e0ae91f230293ab3a253ba3d875a1738947d9baf88ca73197552dccb",
+    "done_reason": "stop",
+    "reported_eval_count": 15
+  },
+  {
+    "id": "dev-benefits-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:33.586441+00:00",
+    "request_sha256": "8689fc8b1ffff334d5f923532ad0f96119ce9627f55e035f94018e9a7c046c9b",
+    "input_sha256": "e3da05e0093858a9bdee30cb6708d77927368750f643ddc717a44911ccfb126b",
+    "elapsed_seconds": 0.95,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "homeowner",
+          "value": true
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "ea4c2e0a259eefaf1552f9c19b964560ea9db568414469f33e2a0488a0586e44",
+    "done_reason": "stop",
+    "reported_eval_count": 62
+  },
+  {
+    "id": "dev-benefits-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:33.996720+00:00",
+    "request_sha256": "88e6c1ddd575cee153c792c8175a0019956f9752510f19c342994ba7371ffbc7",
+    "input_sha256": "7f33a42594a6a46b5c808edaf208209d6573c4ec7b54d69534b2f61697cd5165",
+    "elapsed_seconds": 0.41,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "b3866ef9df56b5248d0aa1bfb54fb3c2ae6f36052a2412a583e443545f6c4ed0",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-benefits-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:39.869457+00:00",
+    "request_sha256": "4face2b5ddcc5665d4e16ef89876493c901c61719e7912e5b84d72ebbb183420",
+    "input_sha256": "b8bca9af60585e2c24894b0a70004d8c25f78771471528fb98901b55ffe7e269",
+    "elapsed_seconds": 5.872,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "homeowner",
+          "value": false
+        },
+        {
+          "field": "housing_benefit",
+          "value": false
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "education_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "566999bc39cda13987547ee2d88fa0a8c7b018e3e9fe4ce6ae8ffca6fb16bcaf",
+    "done_reason": "stop",
+    "reported_eval_count": 442
+  },
+  {
+    "id": "dev-benefits-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:40.270082+00:00",
+    "request_sha256": "5e8e41735c1a8df54193e766c028e12e8c543fd6287d6316794bb323593906f1",
+    "input_sha256": "8747bce57ff2f4c3200dbe2f8405f04c08b1d5f59443d1af3775841bf520747b",
+    "elapsed_seconds": 0.4,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "27d1501fa1fa4cec452cfa103df3b2ce06e5a566207131f2700cb95f17f49d6d",
+    "done_reason": "stop",
+    "reported_eval_count": 15
+  },
+  {
+    "id": "dev-foreign-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:41.516325+00:00",
+    "request_sha256": "294ef4f701803bade9255e4a9e416c994ac8f6398f2641c24a8f853b46419f15",
+    "input_sha256": "900d6fc08c2d2f44729546f3a13d7e11593b060a88cb7b74a22645a57bb6b1c4",
+    "elapsed_seconds": 1.246,
+    "parsed": {
+      "assertion": true,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "734d8eed379175fd54c2b4bbe28022b290a827b7934f4f7a35819845af7d14fa",
+    "done_reason": "stop",
+    "reported_eval_count": 63
+  },
+  {
+    "id": "dev-foreign-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:41.894956+00:00",
+    "request_sha256": "533cbef8cc9844e805b004d6efe767c086b872ec9e5bae1f4f5dfb612ff7d95f",
+    "input_sha256": "a75401dc533ae013cd11d2f8b6cb6a386f6fbc138cd26bdc9659c68a2fafd121",
+    "elapsed_seconds": 0.378,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6e63034263215b403d262d7dc7b8822c88d4dd7f7bab7c937f308eeb05c0ef40",
+    "done_reason": "stop",
+    "reported_eval_count": 15
+  },
+  {
+    "id": "dev-foreign-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:43.144687+00:00",
+    "request_sha256": "6c414edb6ced9435e8bde83b4e7602d094e788043fa2fc0e15671bb5dcb6d772",
+    "input_sha256": "b7265700ce8c96b991d2d914522cac6da8a9b203bcd79086bda15919dbb3aae8",
+    "elapsed_seconds": 1.249,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": true
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        },
+        {
+          "field": "foreign_national",
+          "value": true
+        }
+      ]
+    },
+    "response_sha256": "9c00cb3a5f9598ec426d0b1168ae02feaeaa804d7523e3fb47fb7b9346711f02",
+    "done_reason": "stop",
+    "reported_eval_count": 82
+  },
+  {
+    "id": "dev-foreign-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:43.549310+00:00",
+    "request_sha256": "85b48e643bd013c365bd1ed2ef00989b4b1f12c2b0083b0649c81faffcf6dd6d",
+    "input_sha256": "b3723a86f3ebb5425110ae3b99ff161c8402549d39a45b5f9ad042207821266d",
+    "elapsed_seconds": 0.404,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "56b9a57c209a5ba96c53da82dd4e271728f2965995743bd78af7883c11d0cebc",
+    "done_reason": "stop",
+    "reported_eval_count": 17
+  },
+  {
+    "id": "dev-foreign-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:45.033583+00:00",
+    "request_sha256": "a9095f2e63c13a2e4085b35e3eba5d37f99e9fc02c3a63a34a4de933025a824f",
+    "input_sha256": "5df9d77db4afaf8cd678cf25e121920cc379b8d32cbc9fa1a31e467a1f9c356f",
+    "elapsed_seconds": 1.484,
+    "parsed": {
+      "assertion": true,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": false
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        }
+      ]
+    },
+    "response_sha256": "33eaa46c5696f8b9c9e55acb1f5fdb6d57868337a84306eea277ea7301d1f201",
+    "done_reason": "stop",
+    "reported_eval_count": 101
+  },
+  {
+    "id": "dev-foreign-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:45.436599+00:00",
+    "request_sha256": "1f2aeec6b6ae99d659b86f9a0d5d354a5c678bf5bc247bed715db722267e81b4",
+    "input_sha256": "f6db1fe52cddab98b790c7b685ab635bb8c35398a73b7e1329a62bd4d21a98c9",
+    "elapsed_seconds": 0.403,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "6823ba16cde50a299bfc5710640c7b050bd0c739ca02120a2d1c17d017fd3a70",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-education-work-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:46.568389+00:00",
+    "request_sha256": "1764dce98ed71eb0dc766412a3583ab64ec9a1d952e0056e2020b44961c0bb2a",
+    "input_sha256": "1701da987a6931a65307a445c2dacfc7a4376f444f5441e388d47b61f091c6b7",
+    "elapsed_seconds": 1.131,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "dropout"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 19
+        }
+      ]
+    },
+    "response_sha256": "4acf5bf120bf4842172496858e511f3fbe798e2798c2c139f45e1b341edee8e4",
+    "done_reason": "stop",
+    "reported_eval_count": 57
+  },
+  {
+    "id": "dev-education-work-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:47.003663+00:00",
+    "request_sha256": "770ad3004863a379df4a9994288843892838db926dfe12ead7ca64adf947b281",
+    "input_sha256": "5ab135504ce1bc95c204a6f79ee0a47457de194443ccb5133a358b418aa780d0",
+    "elapsed_seconds": 0.435,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "ad836a893d6fc1145730fb2f5f5a476faef38c2e7e9fe744d124e76b8fa5348b",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-education-work-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:47.911184+00:00",
+    "request_sha256": "7ebc4937c889aa9ea27fc571ed1aa81c5c6e3378a17900dec7a15bd30a22a833",
+    "input_sha256": "9b9a8a9bc4f8f76aa1e6b14857fd6e1a6e60c390155cdc8b8dbe282232be38b2",
+    "elapsed_seconds": 0.907,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        },
+        {
+          "field": "employment_status",
+          "value": "employed"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": 20
+        }
+      ]
+    },
+    "response_sha256": "7b5702806533f56b9196c3cd1983cf48db95ea5bab64af2477aece8b446e99d2",
+    "done_reason": "stop",
+    "reported_eval_count": 58
+  },
+  {
+    "id": "dev-education-work-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:48.317806+00:00",
+    "request_sha256": "962cdb5b64afa3082ad31807c525c74795b8d7dd5e9a98f06b515cb295688d8a",
+    "input_sha256": "b82f178f2bf934ac0564fea550ab6e8652badf7ae27292aff6c5ea95cd7647c5",
+    "elapsed_seconds": 0.406,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "a9bda7d34ec6f9c192aa94831fff7085f204ced6cb1c88d0488e354cdcb7b0c8",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-education-work-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:48.711839+00:00",
+    "request_sha256": "6d9d23a491ffc543d21d70f224c69a23c7b99ed87618640066b4d221e82bc3be",
+    "input_sha256": "1e5b6b9857ac352a1a2b4d00d601b03ebe37fc8c81a83600deaa2c8acc49c5cc",
+    "elapsed_seconds": 0.394,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": []
+    },
+    "response_sha256": "0d70b0fc58f0d7edd77585e6f8363c85d6fdf08be535914e2ce57297f6a45d56",
+    "done_reason": "stop",
+    "reported_eval_count": 19
+  },
+  {
+    "id": "dev-education-work-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:49.159827+00:00",
+    "request_sha256": "5e683a0d7cef890d0364f36110799b82ac0d5a4edaa5b2f5c29ab3b2b33ac4a1",
+    "input_sha256": "36a5cd5765f60763bf5717fccda840e718ac23f9b7d7df424e9e2ff420555832",
+    "elapsed_seconds": 0.447,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "75aa769e9e123739b52e5d3319cb52e23c03c9b78a5aba55d31fb7053afbbcf0",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "dev-money-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:50.456905+00:00",
+    "request_sha256": "707eb3465b3653cffea7d0125b79cf3d7855603e59269c0b0033b40f4339ae75",
+    "input_sha256": "0b846ef0d3d72aa2c60846539783cad5e6ebae131f5ae48f0c0dbb2f23ddec3c",
+    "elapsed_seconds": 1.297,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 6000000
+        }
+      ]
+    },
+    "response_sha256": "5fca76e98bcc6e1cedf7b75a239b499bc30086a6f10cd3d6bb8335644a04e7de",
+    "done_reason": "stop",
+    "reported_eval_count": 70
+  },
+  {
+    "id": "dev-money-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:50.853155+00:00",
+    "request_sha256": "8fec4f4e114b2edeaa09859d68ec32a8d35a74fb39b59481efd90f22ffc3c62a",
+    "input_sha256": "98117e3ef85318ac06a1f3995f234d3b5d1f6bb5064befc80c25edb78d17df54",
+    "elapsed_seconds": 0.396,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "477069f198a33d0f882ef872e792d720af98b1b0db090fbebb7d28b6a309aaf8",
+    "done_reason": "stop",
+    "reported_eval_count": 15
+  },
+  {
+    "id": "dev-money-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:51.912165+00:00",
+    "request_sha256": "0a4483b5875799ad0ee5a750c3a0a2b479ae717e1bdac65ecc1d22f7c8aba162",
+    "input_sha256": "642edabb793de43a0e2bc77e016b48c6f7decb33cbaa5bf03f15cc9a17f32f82",
+    "elapsed_seconds": 1.059,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 61000000
+        }
+      ]
+    },
+    "response_sha256": "c2ac064f6ffdfe65ed661961e5473d24e8d2baf86cb34840cb65677a9d15fc7a",
+    "done_reason": "stop",
+    "reported_eval_count": 70
+  },
+  {
+    "id": "dev-money-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:52.312343+00:00",
+    "request_sha256": "eb9a51c785db9c21ce0c96d18fd9cb34466a047aa83b5b70c18713d740b8ff25",
+    "input_sha256": "da8ea138f0db9198e1c88fcf8b721fd0907cc7b7770b48a6d80cdebd4f7abdb7",
+    "elapsed_seconds": 0.4,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "83f108322b45b435675e44d413748ea8090f88be850e801d5f7b878c5f421fe1",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-money-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:53.337769+00:00",
+    "request_sha256": "93191f32e85ce1580b4113f1382f51aeb9d4a29acc5f8f8dcd669417b9771434",
+    "input_sha256": "4635a7c2d68fd48899047a8d6c8304905702b0b1ca3c1aedb8fa68f993454266",
+    "elapsed_seconds": 1.025,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 500000
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "2237f3ed4940898ba790d6cc2273d56452d532714835b5b1fe3d1caa69256f5d",
+    "done_reason": "stop",
+    "reported_eval_count": 66
+  },
+  {
+    "id": "dev-money-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:53.730352+00:00",
+    "request_sha256": "921cc4801923d5b68d584319a58c9a0671e1aece9932d9e26fe696791ffaca84",
+    "input_sha256": "67ded616ba4da6d97775a55b29ec3d04b4e2dd727f7c0fd45574fc4fcbe81aac",
+    "elapsed_seconds": 0.392,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "c6c974fe62a8a6372a048ef88918cd5e6eaf7e115e78095efadbc5e961e8c0e8",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-insufficient-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:54.553639+00:00",
+    "request_sha256": "0ff7f2d28b297d244c8797fa978faa0bedcffa797cf489804ff2f08ea3c97140",
+    "input_sha256": "4b4efcba1a6c8d49ef101806e2222d784bbcd9ce396e1d7562f6af165583e8a9",
+    "elapsed_seconds": 0.823,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 120
+        }
+      ]
+    },
+    "response_sha256": "774a041235e33cd0c51e3f979e8ca39a4960bd0ea79e8afe28d21876d2ea55af",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "dev-insufficient-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:54.970974+00:00",
+    "request_sha256": "1ea91ae8772ecc376178f39d2e8d2978dc87184ef0fc5448bdfcd29907b5a115",
+    "input_sha256": "591f898825259d9676ca6719c5a240eb78e2e1b305a47ee3beec21bc2232d3c2",
+    "elapsed_seconds": 0.417,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "3347d5d0915efbf8ef37a2bcfd50d8b618ec1d2b31cc307060aa1a370e19644c",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-insufficient-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:55.727548+00:00",
+    "request_sha256": "f005137e72c2e953f936e2197f3f5d693df31b90583a801b47fc8251cf2cd62b",
+    "input_sha256": "40edb42d881f5e2e8dcce8ab7059eab91e75a1fcb2533f2f645197b616c8bbb2",
+    "elapsed_seconds": 0.756,
+    "parsed": {
+      "assertion": false,
+      "status": "unsupported",
+      "values": [
+        {
+          "field": "income_pct",
+          "value": 180
+        }
+      ]
+    },
+    "response_sha256": "7b91709215cde8fc620aacc493e3be8a864a9d6500c4fe237bdb31da77d54b95",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "dev-insufficient-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:56.128287+00:00",
+    "request_sha256": "4fed62dc95d561403d27a32ad99a145b4f484a51e440847507eb487fabd4603a",
+    "input_sha256": "bbae91e7ea3655993eb75d1a77d62f3a5e8c2bd2a2be06074cb8ff65256ab6d1",
+    "elapsed_seconds": 0.4,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "e9b0b509ec0b5083522565d3fed703b65488044800f69b4123658ca9a8ecdce9",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  },
+  {
+    "id": "dev-insufficient-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:57.175791+00:00",
+    "request_sha256": "3510321d62b8a99d66410409bdb09a7e32e22e4f68cdce76fcebba13d35c46e9",
+    "input_sha256": "9188aee8bea953221f33caf2c57f81523dde7c57219fc2eee81a9b98d66286f1",
+    "elapsed_seconds": 1.047,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "income_krw",
+          "value": 300000000
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "4c8d3aee67a4f20806dfd8e267e8f31fb4470b8cb05668b7f73a295b94429028",
+    "done_reason": "stop",
+    "reported_eval_count": 65
+  },
+  {
+    "id": "dev-insufficient-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:18:57.577909+00:00",
+    "request_sha256": "b19d268b7fed6dc2a12196eb2e0865a9bbdcc98cbd2f69db9c41ed45cb0e025c",
+    "input_sha256": "b098132f908e8f25d005d470306911a49bd00145fc5a8ef1863c7f668a734ded",
+    "elapsed_seconds": 0.402,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "E"
+      ]
+    },
+    "response_sha256": "c6a4136048e2ed080e1c604032951d85f8498943641e5e15913234dc2d35e4b8",
+    "done_reason": "stop",
+    "reported_eval_count": 18
+  }
+]

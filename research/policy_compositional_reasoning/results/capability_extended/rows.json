@@ -1,0 +1,3458 @@
+[
+  {
+    "id": "cap-rent-1",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-2",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-3",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-4",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-5",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-6",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-7",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-rent-8",
+    "bundle": "cap-rent",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": true
+  },
+  {
+    "id": "cap-education-1",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-2",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-3",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            null,
+            false,
+            true,
+            false,
+            null,
+            null,
+            null,
+            false,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            null,
+            false,
+            true,
+            false,
+            null,
+            null,
+            null,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-4",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true,
+            null,
+            false,
+            false,
+            null,
+            true,
+            true,
+            null,
+            null,
+            null,
+            null,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            null,
+            false,
+            false,
+            true,
+            true,
+            true,
+            null,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-5",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            true,
+            false,
+            false,
+            null,
+            null,
+            null,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            null,
+            false,
+            false,
+            true,
+            true,
+            false,
+            null,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-6",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-7",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            null,
+            null,
+            true,
+            false,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null,
+            false,
+            false,
+            false,
+            null,
+            null,
+            null,
+            false,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-8",
+    "bundle": "cap-education",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            null,
+            null,
+            true,
+            true,
+            false,
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-1",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-2",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-3",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-4",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-5",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-6",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-7",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-rent-8",
+    "bundle": "cap-rent",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "undefined_derived",
+      "profile_status": "valid",
+      "trace": [],
+      "satisfiability": []
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-1",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-2",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-3",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-4",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-5",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-6",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ]
+        }
+      ],
+      "satisfiability": [
+        "unsat",
+        "sat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-7",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": true,
+    "policy_equivalent": false
+  },
+  {
+    "id": "cap-education-8",
+    "bundle": "cap-education",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "sat"
+      ]
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            null
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ]
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ]
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "satisfiability": [
+        "sat",
+        "unsat"
+      ]
+    },
+    "profile_exact": false,
+    "policy_equivalent": false
+  }
+]

@@ -1,0 +1,533 @@
+{
+  "bundles": [
+    {
+      "id": "cap-rent",
+      "scope": "공고 거주요건의 보증금·월세 상한 및 월세 초과 시 환산액 예외만. 다른 자격·증빙·건물유형·공동임차 분담은 범위 밖이며 질문 금액은 이미 본인 부담액이다.",
+      "evidence": {
+        "D-RENT": {
+          "source": "daejeon",
+          "unit_index": 1,
+          "unit": "page_zero_based",
+          "start": 590,
+          "end": 880,
+          "sha256": "61123033c2a39a55892c12cf1f0260bcbb78ef987800f0a3ae2ce91fa5bbec94",
+          "characters": 290
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "derived": [
+          {
+            "field": "derived_0",
+            "constant": 0,
+            "terms": [
+              {
+                "field": "monthly_rent_krw",
+                "numerator": 1,
+                "denominator": 1
+              },
+              {
+                "field": "deposit_krw",
+                "numerator": 0.05,
+                "denominator": 12
+              }
+            ],
+            "evidence": [
+              "D-RENT"
+            ]
+          }
+        ],
+        "clauses": [
+          [
+            {
+              "field": "deposit_krw",
+              "op": "le",
+              "value": 100000000,
+              "evidence": [
+                "D-RENT"
+              ]
+            },
+            {
+              "field": "monthly_rent_krw",
+              "op": "le",
+              "value": 600000,
+              "evidence": [
+                "D-RENT"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "monthly_rent_krw",
+              "op": "gt",
+              "value": 600000,
+              "evidence": [
+                "D-RENT"
+              ]
+            },
+            {
+              "field": "derived_0",
+              "op": "le",
+              "value": 800000,
+              "evidence": [
+                "D-RENT"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "post_collection_capability"
+    },
+    {
+      "id": "cap-education",
+      "scope": "국내 학교의 학력 요건과 원격대학·학점은행제 재학 및 2025년 2월 졸업예정자 예외만. 이전 학교 졸업과 현재 과정 학적을 구분한다. 해외 번역·다른 자격은 범위 밖이며 필요한 졸업증명서 제출 여부는 별도 요건으로 평가하지 않는다.",
+      "evidence": {
+        "G-EDUCATION": {
+          "source": "gwangju",
+          "unit_index": 31,
+          "unit": "nonempty_hwpx_paragraph_zero_based",
+          "start": 0,
+          "end": 34,
+          "sha256": "755ea3206406c8e27e0eb02339f47f6bc83803ce079991e452df4cdd8b73c6d8",
+          "characters": 34
+        },
+        "G-EDUCATION-EXCEPTIONS": {
+          "source": "gwangju",
+          "unit_index": 32,
+          "unit": "nonempty_hwpx_paragraph_zero_based",
+          "start": 0,
+          "end": 233,
+          "sha256": "11ec5b827939a96273efc70de71bffa2991a0620f5ec1f7f7600e5cfe96ed250",
+          "characters": 233
+        }
+      },
+      "reference_policy": {
+        "status": "ready",
+        "derived": [],
+        "clauses": [
+          [
+            {
+              "field": "education_status",
+              "op": "in",
+              "value": [
+                "graduated",
+                "completed",
+                "dropout",
+                "expelled"
+              ],
+              "evidence": [
+                "G-EDUCATION"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "education_status",
+              "op": "eq",
+              "value": "graduation_expected",
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            },
+            {
+              "field": "expected_graduation_month",
+              "op": "eq",
+              "value": "2025-02",
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            },
+            {
+              "field": "completion_certificate",
+              "op": "eq",
+              "value": true,
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            }
+          ],
+          [
+            {
+              "field": "education_status",
+              "op": "eq",
+              "value": "enrolled",
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            },
+            {
+              "field": "school_kind",
+              "op": "in",
+              "value": [
+                "remote",
+                "credit_bank"
+              ],
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            },
+            {
+              "field": "prior_graduation",
+              "op": "eq",
+              "value": true,
+              "evidence": [
+                "G-EDUCATION-EXCEPTIONS"
+              ]
+            }
+          ]
+        ]
+      },
+      "origin": "post_collection_capability"
+    }
+  ],
+  "cases": [
+    {
+      "id": "cap-rent-1",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 1억원, 월세는 60만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 100000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-rent-2",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 2천만원, 월세는 70만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 20000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-rent-3",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 2400만원, 월세는 70만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 24000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-rent-4",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 2400만 240원, 월세는 70만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 24000240
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-rent-5",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 2천만원, 월세는 75만원이다. 이 금액 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 20000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 750000
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-rent-6",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 밝히지 않았고 월세는 70만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "monthly_rent_krw",
+            "value": 700000
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "cap-rent-7",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 0.8억원, 월세는 60만원이다. 이 금액 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 80000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-rent-8",
+      "bundle": "cap-rent",
+      "claim": "내 보증금은 1억 1천만원, 월세는 60만원이다. 이 금액 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "deposit_krw",
+            "value": 110000000
+          },
+          {
+            "field": "monthly_rent_krw",
+            "value": 600000
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-education-1",
+      "bundle": "cap-education",
+      "claim": "나는 현재 사이버대학에 재학 중이고 이전에 고등학교를 졸업했다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "enrolled"
+          },
+          {
+            "field": "school_kind",
+            "value": "remote"
+          },
+          {
+            "field": "prior_graduation",
+            "value": true
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-education-2",
+      "bundle": "cap-education",
+      "claim": "나는 현재 일반 국내 대학에 재학 중이고 이전에 고등학교를 졸업했다. 졸업예정자는 아니다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "enrolled"
+          },
+          {
+            "field": "school_kind",
+            "value": "general"
+          },
+          {
+            "field": "prior_graduation",
+            "value": true
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-education-3",
+      "bundle": "cap-education",
+      "claim": "나는 현재 학점은행제 재학생이며 이전 학교 졸업 사실은 밝히지 않았다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "enrolled"
+          },
+          {
+            "field": "school_kind",
+            "value": "credit_bank"
+          }
+        ]
+      },
+      "label": "not_established"
+    },
+    {
+      "id": "cap-education-4",
+      "bundle": "cap-education",
+      "claim": "나는 일반 국내 대학에서 2025년 2월 졸업예정자이며 현재 과정의 수료증명서를 발급받을 수 있다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "graduation_expected"
+          },
+          {
+            "field": "school_kind",
+            "value": "general"
+          },
+          {
+            "field": "expected_graduation_month",
+            "value": "2025-02"
+          },
+          {
+            "field": "completion_certificate",
+            "value": true
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-education-5",
+      "bundle": "cap-education",
+      "claim": "나는 일반 국내 대학에서 2025년 2월 졸업예정자이며 현재 과정의 수료증명서를 발급받을 수 없다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "graduation_expected"
+          },
+          {
+            "field": "school_kind",
+            "value": "general"
+          },
+          {
+            "field": "expected_graduation_month",
+            "value": "2025-02"
+          },
+          {
+            "field": "completion_certificate",
+            "value": false
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-education-6",
+      "bundle": "cap-education",
+      "claim": "나는 현재 방송통신대학 재학생이며 이전 고교·대학·대학원 졸업 사실은 없다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "enrolled"
+          },
+          {
+            "field": "school_kind",
+            "value": "remote"
+          },
+          {
+            "field": "prior_graduation",
+            "value": false
+          }
+        ]
+      },
+      "label": "contradicted"
+    },
+    {
+      "id": "cap-education-7",
+      "bundle": "cap-education",
+      "claim": "나는 일반 국내 대학을 졸업했다. 현재 재학 중인 학교는 없다. 이 학력 요건을 충족한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": true,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "graduated"
+          },
+          {
+            "field": "school_kind",
+            "value": "general"
+          }
+        ]
+      },
+      "label": "supported"
+    },
+    {
+      "id": "cap-education-8",
+      "bundle": "cap-education",
+      "claim": "나는 현재 사이버대학 재학생이며 이전에 고등학교를 졸업했다. 이 학력 요건을 충족하지 못한다.",
+      "reference_profile": {
+        "status": "ready",
+        "assertion": false,
+        "values": [
+          {
+            "field": "education_status",
+            "value": "enrolled"
+          },
+          {
+            "field": "school_kind",
+            "value": "remote"
+          },
+          {
+            "field": "prior_graduation",
+            "value": true
+          }
+        ]
+      },
+      "label": "contradicted"
+    }
+  ]
+}

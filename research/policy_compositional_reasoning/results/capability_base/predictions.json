@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "cap-rent",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:27.674536+00:00",
+    "request_sha256": "62c00484da117a565247bcfe3662481c057f34087feefe8566518362c3af4023",
+    "input_sha256": "7170134f94df98811bcd5ab03ef8e798054d60286cc2db754634c37cd4b6a9a3",
+    "elapsed_seconds": 20.283,
+    "parsed": {
+      "status": "ready",
+      "clauses": [
+        [
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "D-RENT"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000,
+            "evidence": [
+              "D-RENT"
+            ]
+          }
+        ],
+        [
+          {
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 600000,
+            "evidence": [
+              "D-RENT"
+            ]
+          },
+          {
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 800000,
+            "evidence": [
+              "D-RENT"
+            ]
+          },
+          {
+            "field": "deposit_krw",
+            "op": "gt",
+            "value": 0,
+            "evidence": [
+              "D-RENT"
+            ]
+          },
+          {
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 100000000,
+            "evidence": [
+              "D-RENT"
+            ]
+          }
+        ]
+      ]
+    },
+    "response_sha256": "78bffec66282169b725d59fdc1ef2d8140fe702f8c820068015e1e3760ed7eeb",
+    "done_reason": "stop",
+    "reported_eval_count": 185
+  },
+  {
+    "id": "cap-education",
+    "stage": "policy",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:50.792702+00:00",
+    "request_sha256": "56f2ffe40b999ee3d21d7a058671f9bef636b6beeec48078dd4f8e9091107bd1",
+    "input_sha256": "1fce72d3d39dbc438d39864073a7ce38791ed0122aeb1803ad0925a02df46598",
+    "elapsed_seconds": 23.118,
+    "parsed": null,
+    "response_sha256": "90abc4b1c840595beddb87e9cb01c0fe7717a3d0785530ef438b78671e545097",
+    "done_reason": "length",
+    "reported_eval_count": 1536
+  },
+  {
+    "id": "cap-rent-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:52.841226+00:00",
+    "request_sha256": "17ddefd7360e7713170682bbd0d88b4b70b595f96abef4b431e1b05ee2ae6a13",
+    "input_sha256": "ae401834591e02bf89b514d1131f5f8326f6d90964d98352693cde3c7775bdf8",
+    "elapsed_seconds": 2.048,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "ab4a5158bb7aceafadbc39541fbb68cf233747de97f65bce8a221fdbd3ece85f",
+    "done_reason": "stop",
+    "reported_eval_count": 89
+  },
+  {
+    "id": "cap-rent-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:53.734816+00:00",
+    "request_sha256": "f45d9f787d1901c8b04cf68cd80d541f1df24f7cf69f630e3058f775dadbc2ef",
+    "input_sha256": "2f49db8c161906546fdb7bef669117031b3d3a91156c26669869882f9913ea31",
+    "elapsed_seconds": 0.893,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "61218520d4ce2657ad322091656acb02deb5b5250eb6ce2583785d6673ffbf7b",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "cap-rent-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:55.355665+00:00",
+    "request_sha256": "03f4cdbbbfb69b7bb3ca8e73e72e6efd274ad07e8c3351875759383eda29f164",
+    "input_sha256": "b347edcd725e5376432004d2be5ceab5e351f09d0c48ff152ca1d2bcbb8721d9",
+    "elapsed_seconds": 1.62,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "b73c2923978c91f3f96476401f8789fde470b04ae40e52186328221a42cae79b",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "cap-rent-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:56.245630+00:00",
+    "request_sha256": "bfed931ea30fb2d2d4637f1d19e16b8c6dedfb25e38d3d6097e55bdf1246c95a",
+    "input_sha256": "8f72c4f62d8bb16d71ea7280681beb7712b097127ebe07e2e258a5873936144a",
+    "elapsed_seconds": 0.889,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "c482620803c7cc68e19cf9416c18b4ad784524ea43b67ba3e7372aeaceda7bdc",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "cap-rent-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:57.850360+00:00",
+    "request_sha256": "b43e1e4b0664cc394c5f5f47f4eebf8bc74f318f28be36f27731248c809c4d70",
+    "input_sha256": "89cc2bc042d04d0bd7f784939f7d1dbc74f05f827bb5365a7d4f6608d0b6cc84",
+    "elapsed_seconds": 1.604,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "d850b8bd7cdb93b63f261462c29b35f12185b28442216be98ef2f0036f42ce48",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "cap-rent-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:40:58.728854+00:00",
+    "request_sha256": "0f1ade259f09d13725f714abcb2a28ebbde4180011c0bde16b9af4526c4bf8be",
+    "input_sha256": "7f0107dbf16e054b31e292a91297c37dd3f63630a9bf3c4e7f616416491fa01d",
+    "elapsed_seconds": 0.878,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "c28133279fe9c856d151fda6fc1252d79729b6a2780286c41521aa927856c99c",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "cap-rent-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:00.343667+00:00",
+    "request_sha256": "8adcf50ac3cdb9087b2cadd0a1d70f9a3fb984e8465f28c1cb838243d85ae4db",
+    "input_sha256": "5cca2f0aa1b99c253f6353f8149a88f2296cb26b61d2daf2933fefec075fda54",
+    "elapsed_seconds": 1.614,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 24002400
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "f3ac6e2ec85718a8006d2bfe4a117f52e666091128207bfd3cecb5574472f774",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "cap-rent-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:01.274629+00:00",
+    "request_sha256": "e986ee38a5c5fc612fb84e575ea97bcf321b306ae914ffc2d9f0f3f0a9222e4b",
+    "input_sha256": "d39ae4890feac7b2a652f2e229e1789447a742c7013d7b79a00cc1d523cb5fbe",
+    "elapsed_seconds": 0.93,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "23317b46342421314708a51c9459c4aa451c4c841e9abb87818f54ea1451ca8c",
+    "done_reason": "stop",
+    "reported_eval_count": 30
+  },
+  {
+    "id": "cap-rent-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:02.884389+00:00",
+    "request_sha256": "a57935ceafe6ac0318a61588f57c42551587225280c58e169ba32e3da8143f48",
+    "input_sha256": "19e7a9fcc2daa5a78bc516079f5032287ccac68722d98b09de8efccc4ef8fedd",
+    "elapsed_seconds": 1.609,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 750000
+        }
+      ]
+    },
+    "response_sha256": "f3eb135cd6b01b12f01f80933180b000b71d0b410a2f7c2dc2bfb6d3c9155124",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "cap-rent-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:03.842950+00:00",
+    "request_sha256": "b4f298391fb73fd1948386885f52902a85f9b53d74fb55ad397cb3ceb3e361b3",
+    "input_sha256": "d589565825c5428777da9ad9953372df27b3941b3d84466068150decf0d6c7a3",
+    "elapsed_seconds": 0.958,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "78720585e647165e1da9b30631653894600db20c97a429296cae58c240cdfec6",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "cap-rent-6",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:05.035609+00:00",
+    "request_sha256": "f0a380a8a1eddf7ef5cd2fe3a2e9aeba820b8cf43ea34002fc9af75b0edaec8d",
+    "input_sha256": "7b210e9eeac07a312f205c60229a8ce8f9ef184099275256f70608bf782c74a7",
+    "elapsed_seconds": 1.192,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "f5cd54fcc8fa9e48430b6fa2efb386363265ff3fcbd45ad9f147ebd0f37f84b5",
+    "done_reason": "stop",
+    "reported_eval_count": 58
+  },
+  {
+    "id": "cap-rent-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:05.920363+00:00",
+    "request_sha256": "6067a4794025344a3f3322bdcfad0a508a2a5868afb6a461e226dbd3a9593024",
+    "input_sha256": "87a29843861b0410b19c1624d908012581abd2b18ea38eb966528ba19fe1542f",
+    "elapsed_seconds": 0.884,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "ddcb2db7c26609725f9f029375d2591cd064cc268645ec434ffd99c4b2feeebd",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "cap-rent-7",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:07.535491+00:00",
+    "request_sha256": "dcb05d3936f8256e439a9ec97cba906e33a653edf0b67feed6e6faf410e7feaf",
+    "input_sha256": "aad83e672a4873156980ce3a6ca3bcd06513ad053b9ce634e04741b52ad1892c",
+    "elapsed_seconds": 1.615,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "bbdc08560137c9434bc11f16198da0b58ecad2bffc9be068a9e7e8fd8c6fcdcb",
+    "done_reason": "stop",
+    "reported_eval_count": 88
+  },
+  {
+    "id": "cap-rent-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:08.475756+00:00",
+    "request_sha256": "a8f82a709bebd90bc2402f390b99d24d3d9e8ece964ddd32e8cf4ff9c0237ecb",
+    "input_sha256": "d84b36f7f233e93e5591b6e492b2929dc791de454faffcea60a56fac9d4b5f77",
+    "elapsed_seconds": 0.94,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "544b6405c1e8fd90e78a58b68083750844a02a36ccb90614f290c1f59ffb8400",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "cap-rent-8",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:10.102146+00:00",
+    "request_sha256": "8d00ecc32762964678f52262340e1f11e416f18a8eaffd673ec544920e4de1e0",
+    "input_sha256": "87abe09982a04d5e2dabb5050371971e9fd1d640e2a5bf1ea65af2f92daddec1",
+    "elapsed_seconds": 1.626,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 110000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "619507314ce71a458e7aa7311af7d657e2eed4099181d58212ee3c8f27789eb1",
+    "done_reason": "stop",
+    "reported_eval_count": 89
+  },
+  {
+    "id": "cap-rent-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:11.060916+00:00",
+    "request_sha256": "baf6bb6a2d4416774959d29c4fe3a87c9d25134a2e01694d2eae7350e7ecb226",
+    "input_sha256": "e61ac1fbd8cbc21dd070f9bae4d859ef196659807b92348152cc871815358cbe",
+    "elapsed_seconds": 0.958,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "bc004fb5bc70f4928d9969b25f611db209150682c935b8e9c8af60d68f22b91c",
+    "done_reason": "stop",
+    "reported_eval_count": 32
+  },
+  {
+    "id": "cap-education-1",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:15.112410+00:00",
+    "request_sha256": "17cbeacf1326013b8674e0bcb39ee8e090bf81644979d72af0110b28bc3d5100",
+    "input_sha256": "a47bbaf44d347952a035becc9109cab82a261f5548e1293e60375edcb5eae07e",
+    "elapsed_seconds": 4.051,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "548b6870471eee7cbbe41fbb6aa57b2046350fe45345dd21bfb9bcc95a5ec834",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-1",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:16.137230+00:00",
+    "request_sha256": "a9049680d35cf1cdaa5c4ba94f3f3846a4e9cd92a59737bc16ec7740dd3bd84c",
+    "input_sha256": "ef52821bf0908ee891877aabbaf6afa3891506cc823086adef75c30613d0a741",
+    "elapsed_seconds": 1.024,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "078b913cf04be440ea62adb917bca7bad97410d8b34031e4e00c6cc24db320f5",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "cap-education-2",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:19.986136+00:00",
+    "request_sha256": "c71f13b9cba57d9283b95b97e489fdefca3afb52e441ad33b3b7e67eb2f22fe6",
+    "input_sha256": "93e9893713abe809a5fa2486cea3c047a80f2f445b96919051b8e7c63a9764fe",
+    "elapsed_seconds": 3.848,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "80754ea5271a34de7d8fadef1b2e9471b9f87d775067cfe23c9c0fd1c6327299",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-2",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:21.080224+00:00",
+    "request_sha256": "c6bc0ed740fb72d97a5380569ee3bb16d4770c190a87b21ab1ab58b43926b34c",
+    "input_sha256": "fd3218397b5a9f5fb029d928e12e8c0ad2b1ab00fb271a15c81928b7cda2142a",
+    "elapsed_seconds": 1.094,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "360362aaa17dc0b51e3340b87ba1dc255baa3147376c6e4566aa366ca6062ab3",
+    "done_reason": "stop",
+    "reported_eval_count": 45
+  },
+  {
+    "id": "cap-education-3",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:21.765859+00:00",
+    "request_sha256": "b826d56d60f4de39e8064a44208b937ddba834586a4e26a08cf76c0f71ba4c48",
+    "input_sha256": "da19fefe647e4aa4c0363cfb011bea5b74699ff86f34ad444a34a2577e5e47ca",
+    "elapsed_seconds": 0.685,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        }
+      ]
+    },
+    "response_sha256": "9c7d6e7265c046b106aad2596a7e9b1e9f7a212cf67bf0e5c3bfaa8ef712c5d0",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-education-3",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:22.915431+00:00",
+    "request_sha256": "b738aa13f0241a26b8f2d88df360c600698d8dc67d72d7f775f07ae82632ce50",
+    "input_sha256": "883b968feb97336aaf2b60414bf5b5ed323ddc9398486bddcd359ee11ed885eb",
+    "elapsed_seconds": 1.149,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "4035b2b121488748fc1fad6ff50274a5dff772a8ea9942ddabf0ca7ebd5bfdd0",
+    "done_reason": "stop",
+    "reported_eval_count": 47
+  },
+  {
+    "id": "cap-education-4",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:27.013038+00:00",
+    "request_sha256": "3e1eb5f3848b1cddb03e366a50d7c29b13cbe0c0e5e6b24fd1b9409ec57241f8",
+    "input_sha256": "1c44192148e9fe22bc8d845ba2fb12e842f544ec08d56250d8965077fb45c70b",
+    "elapsed_seconds": 4.097,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "637020091074f679a12ff4a88bd46b5cb2074f88568a6dc62ca4dd8bed474285",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-4",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:28.069205+00:00",
+    "request_sha256": "72022193d23f0c14a71e577ce227fd6b0b78e9e33a466d095e566565b818a913",
+    "input_sha256": "a982f56d4e3a3de164e3e4a631ba716c21b79af8863e8a51fa43dee55023ec4a",
+    "elapsed_seconds": 1.055,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "f6097607dc8713ab42e620e00b5cb78cc6b9ebfc216b11ff1088f7fc75642618",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "cap-education-5",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:31.930130+00:00",
+    "request_sha256": "a24dea4e9a282f0e6f708c4d6318d8553db995587f172d2b8c124ca847656fe5",
+    "input_sha256": "7fb686cb204838e905e9f430c79e7eb9709561b47b80e3a18e1de052b34c9a46",
+    "elapsed_seconds": 3.86,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "e81b77673ce3cb2f22d600cde3ff5bd0d9d6940d5887dbfb3cad4988f1ebda01",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-5",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:32.922215+00:00",
+    "request_sha256": "578c1f6f974c64d1ede6ec41958f44faf9f62e17643ba60cc1e7761aca0e4262",
+    "input_sha256": "3d72320c78acf48b8ee5908c3726dc2ec53b983187c799fb9094b698e016c5b2",
+    "elapsed_seconds": 0.992,
+    "parsed": {
+      "decision": "contradicted",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "cd2c5c543fe6a3192eda4ea2a13b9b16a71fe99173bda64b5ffd623d69ed9762",
+    "done_reason": "stop",
+    "reported_eval_count": 37
+  },
+  {
+    "id": "cap-education-6",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:33.618872+00:00",
+    "request_sha256": "36170163d215cd84e9fe8a801c3f72370551d5a6bd294c01131437291868a503",
+    "input_sha256": "a8521224b33685ab7733bb40d266ec2ce12f453e9f2a6a11187d8bb6d93263d8",
+    "elapsed_seconds": 0.696,
+    "parsed": {
+      "status": "unsupported",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        }
+      ]
+    },
+    "response_sha256": "dee7bf9418599f7311a0c151c3006482c66d4d8bfedc445f579ec8ea3c42ef4f",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-education-6",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:34.758962+00:00",
+    "request_sha256": "0a7a8b2588d9173c9383ae58e0e9e7a3c3fca2845f35e6e454942bc8ed266c90",
+    "input_sha256": "fd330f4df101edf70d6ae6de99309eee4d750dd5de9ca9a4638755eab6609cf2",
+    "elapsed_seconds": 1.14,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "48bc12fa624a733116cabd14ed89c2ad3ce4a5863cc62d7bc7ac1e5523490e4e",
+    "done_reason": "stop",
+    "reported_eval_count": 47
+  },
+  {
+    "id": "cap-education-7",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:35.444565+00:00",
+    "request_sha256": "588bf30e784d7ee2c6426a108be56930e9015cd4418b68d071aaa15b8ca69975",
+    "input_sha256": "e4724080220c5677fa23f3309874f3a8af35ead01cf1001ea5669b72fb24cafc",
+    "elapsed_seconds": 0.685,
+    "parsed": {
+      "status": "ready",
+      "assertion": true,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        }
+      ]
+    },
+    "response_sha256": "d37d48f0601e342ac4388ea4721218c0994d31bb85632ab2c4cb3ca449d17504",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-education-7",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:36.479761+00:00",
+    "request_sha256": "5c23440e53aa9d3ee3272fb0589b5e7f3f2ac7c35b01f1772de5c6d3913410bc",
+    "input_sha256": "011e7007088514d76d9514b03b5bc6ab5343689af24462e3b09c04108eb747f7",
+    "elapsed_seconds": 1.035,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "e2d116692a020cba52f958b1c97871c8a8fcf300d2fb381beb2138c178b45aba",
+    "done_reason": "stop",
+    "reported_eval_count": 44
+  },
+  {
+    "id": "cap-education-8",
+    "stage": "profile",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:37.293764+00:00",
+    "request_sha256": "4ac0c6ad9d3d4b46f393af28d33c12e628ddd9d5c833ae1e67b217850c17ee54",
+    "input_sha256": "085378e0029a5e058d4b488379d8024857dc951d4e9e42fdcd0decdc17e23667",
+    "elapsed_seconds": 0.813,
+    "parsed": {
+      "status": "ready",
+      "assertion": false,
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "b300b391d9d986f7035de6acf9606563c0486742290221ee2bd47da064b151a3",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "cap-education-8",
+    "stage": "direct",
+    "model": "qwen",
+    "model_name": "qwen3.5:9b",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:41:38.510494+00:00",
+    "request_sha256": "4e0a4b4669ecb18afd21bee4382b1ab6457058d2ccbfc772e07707799856bfcd",
+    "input_sha256": "3273512cec4bdb9a343ba553342b7e35c1facb20640482f0a53fe8e196d6a365",
+    "elapsed_seconds": 1.216,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "dfc2bf189a021066a8e093c63e1c421a35192d37a5d371594150469d802d211f",
+    "done_reason": "stop",
+    "reported_eval_count": 51
+  },
+  {
+    "id": "cap-rent",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:23.163838+00:00",
+    "request_sha256": "b018ccb8d657178d2de93ac4ee94a085991ea1ca89b29cc9b991e14f528d6b06",
+    "input_sha256": "7170134f94df98811bcd5ab03ef8e798054d60286cc2db754634c37cd4b6a9a3",
+    "elapsed_seconds": 7.641,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "D-RENT"
+            ],
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 10000000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "D-RENT"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 600000
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "D-RENT"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "gt",
+            "value": 600000
+          },
+          {
+            "evidence": [
+              "D-RENT"
+            ],
+            "field": "deposit_krw",
+            "op": "le",
+            "value": 10000000
+          },
+          {
+            "evidence": [
+              "D-RENT"
+            ],
+            "field": "monthly_rent_krw",
+            "op": "le",
+            "value": 800000
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "37d63dab69abec0c61273e2b5a64647c4d705b0d9e52dfab145c6795ab294eab",
+    "done_reason": "stop",
+    "reported_eval_count": 230
+  },
+  {
+    "id": "cap-education",
+    "stage": "policy",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:40.562279+00:00",
+    "request_sha256": "45621fbfcef0500881f60f1209307d47f9e61fdce4b5f141695a4dd6ef5751b0",
+    "input_sha256": "1fce72d3d39dbc438d39864073a7ce38791ed0122aeb1803ad0925a02df46598",
+    "elapsed_seconds": 17.398,
+    "parsed": {
+      "clauses": [
+        [
+          {
+            "evidence": [
+              "G-EDUCATION"
+            ],
+            "field": "education_status",
+            "op": "in",
+            "value": [
+              "enrolled",
+              "leave",
+              "graduated",
+              "completed",
+              "dropout"
+            ]
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "leave"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "graduated"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "completed"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "dropout"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "graduated"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "applied_on",
+            "op": "eq",
+            "value": "2025-02"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "leave"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "graduated"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "completed"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "dropout"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "leave"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "graduated"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "completed"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "dropout"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "dropout"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "leave"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "graduated"
+          }
+        ],
+        [
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "enrolled"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "completed"
+          },
+          {
+            "evidence": [
+              "G-EDUCATION-EXCEPTIONS"
+            ],
+            "field": "education_status",
+            "op": "eq",
+            "value": "dropout"
+          }
+        ]
+      ],
+      "status": "ready"
+    },
+    "response_sha256": "ab08cef20db90af67fc38fca907a723ed16b76ddaafe98e245ec9ec15dfeeee8",
+    "done_reason": "stop",
+    "reported_eval_count": 1269
+  },
+  {
+    "id": "cap-rent-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:41.701835+00:00",
+    "request_sha256": "78bf71e73687401400f2a57319a06a446dfac08d8d401f2c9080a9fcb6dc9683",
+    "input_sha256": "ae401834591e02bf89b514d1131f5f8326f6d90964d98352693cde3c7775bdf8",
+    "elapsed_seconds": 1.138,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 100000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 6000000
+        }
+      ]
+    },
+    "response_sha256": "d7d9e1f6c4cedc1b0b5861a5bd18905f032b2473bd25a036e169a1ca734d313d",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "cap-rent-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:42.290606+00:00",
+    "request_sha256": "48395a4f954a9d883e35fad96e2aaeba67f6232a9a6ccdb2b80b47fc9d284d3a",
+    "input_sha256": "2f49db8c161906546fdb7bef669117031b3d3a91156c26669869882f9913ea31",
+    "elapsed_seconds": 0.588,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "72f70a8899fd11f874d2f2d4e50285988de654802cdbf9e368f6e034a5e80096",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "cap-rent-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:42.942514+00:00",
+    "request_sha256": "3f4108354565b7b8e4aed804e16b452b61b294e11070f64f5d4435456469cee5",
+    "input_sha256": "b347edcd725e5376432004d2be5ceab5e351f09d0c48ff152ca1d2bcbb8721d9",
+    "elapsed_seconds": 0.651,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 7000000
+        }
+      ]
+    },
+    "response_sha256": "54d7d87e729067c197d3fd473e3c14b132e13ce2547f207cd6998cc7b13dfdfe",
+    "done_reason": "stop",
+    "reported_eval_count": 39
+  },
+  {
+    "id": "cap-rent-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:43.514564+00:00",
+    "request_sha256": "b5edf2095eafc54141ad20672cea5d18f1ad6b3bc6194f2c6a6f5301c33dadf1",
+    "input_sha256": "8f72c4f62d8bb16d71ea7280681beb7712b097127ebe07e2e258a5873936144a",
+    "elapsed_seconds": 0.572,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "d320f998c6ab45f788758ebae8b1ccfdcdcb991e877c01f8a101a17ec213ca8c",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "cap-rent-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:44.310748+00:00",
+    "request_sha256": "ab1ad49e379922863434b6f0cd354f8baafa105b285baa14751329f9addb2fcf",
+    "input_sha256": "89cc2bc042d04d0bd7f784939f7d1dbc74f05f827bb5365a7d4f6608d0b6cc84",
+    "elapsed_seconds": 0.796,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 240000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "741489d25551ecb11d62bc2332bc7a8ea26249a68b5ce66836d94aa1587d3da0",
+    "done_reason": "stop",
+    "reported_eval_count": 49
+  },
+  {
+    "id": "cap-rent-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:44.796833+00:00",
+    "request_sha256": "74fb2d0ca097196fb3cdafc0faf053d996e04da83311cb36a86edaa01a7f85e5",
+    "input_sha256": "7f0107dbf16e054b31e292a91297c37dd3f63630a9bf3c4e7f616416491fa01d",
+    "elapsed_seconds": 0.486,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "a7e38e6a5ba2b042272ef125cdf22315bfeb004684138f1d60e258cda538caef",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "cap-rent-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:45.610369+00:00",
+    "request_sha256": "d2233ad26b2091db2e3d73e71cae4b783b1c7d2f80600bb2e17d654fa90caae4",
+    "input_sha256": "5cca2f0aa1b99c253f6353f8149a88f2296cb26b61d2daf2933fefec075fda54",
+    "elapsed_seconds": 0.813,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 2400240
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 7000000
+        }
+      ]
+    },
+    "response_sha256": "a054c3823c17186f3a40c54c88479f3d0e92b25177e2f3167961aee2c092f596",
+    "done_reason": "stop",
+    "reported_eval_count": 50
+  },
+  {
+    "id": "cap-rent-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:46.112759+00:00",
+    "request_sha256": "c6e450e3093b1ac3a19048b515e3392c4583855ac7914597be25e1476ef6ecf0",
+    "input_sha256": "d39ae4890feac7b2a652f2e229e1789447a742c7013d7b79a00cc1d523cb5fbe",
+    "elapsed_seconds": 0.502,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "b04ca903c5fa7d2966473f9299b8fa656c2dc5698e72f252d5e85a1e7cf7abf3",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "cap-rent-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:46.928791+00:00",
+    "request_sha256": "4870839e1b19d2b8b304b0788da0d48ec7d85ae01ab6f26cb8a97578a34906aa",
+    "input_sha256": "19e7a9fcc2daa5a78bc516079f5032287ccac68722d98b09de8efccc4ef8fedd",
+    "elapsed_seconds": 0.815,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 20000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 7500000
+        }
+      ]
+    },
+    "response_sha256": "88781184c82ea733696cd7ba817c5eee756899c1266ac6f350b670eb961f2872",
+    "done_reason": "stop",
+    "reported_eval_count": 50
+  },
+  {
+    "id": "cap-rent-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:47.467255+00:00",
+    "request_sha256": "72496f90d05f4a4e6afb21102268170415264cafb93343956c66589fbce08451",
+    "input_sha256": "d589565825c5428777da9ad9953372df27b3941b3d84466068150decf0d6c7a3",
+    "elapsed_seconds": 0.538,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "c2ac9ddd8e9f0817f41420fc74183407b4fe8f49604ec44a70c1a613170c9aab",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-rent-6",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:47.948580+00:00",
+    "request_sha256": "fcc4ac0ddd85d3e861d07aeed52620a9c341bf2824d5610bff628b4423e2c86a",
+    "input_sha256": "7b210e9eeac07a312f205c60229a8ce8f9ef184099275256f70608bf782c74a7",
+    "elapsed_seconds": 0.481,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "monthly_rent_krw",
+          "value": 700000
+        }
+      ]
+    },
+    "response_sha256": "06262b14b0ac14e5d6af8dea651258ffd43e57e5380f281ec83835d7513b063a",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "cap-rent-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:48.429232+00:00",
+    "request_sha256": "153db8ee089f352fec46c6b0f477a58a6f637b4099ad81cf42d06c1229087c57",
+    "input_sha256": "87a29843861b0410b19c1624d908012581abd2b18ea38eb966528ba19fe1542f",
+    "elapsed_seconds": 0.48,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "54fd292947966a62ec5edeb4e96530509272ddc0c208d78bc9f0f41dc3def3e1",
+    "done_reason": "stop",
+    "reported_eval_count": 21
+  },
+  {
+    "id": "cap-rent-7",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:49.208394+00:00",
+    "request_sha256": "2817a6b6e2c48a9a9963d40ef9107565db44413c9f84581297a018329a8df190",
+    "input_sha256": "aad83e672a4873156980ce3a6ca3bcd06513ad053b9ce634e04741b52ad1892c",
+    "elapsed_seconds": 0.779,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 80000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "0bb9026d7556afcf83dc2568d6b52fc0bbb219cd752db18b9b91157fd083b9c3",
+    "done_reason": "stop",
+    "reported_eval_count": 49
+  },
+  {
+    "id": "cap-rent-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:49.747700+00:00",
+    "request_sha256": "8e022ae07bae06c5b20a0147eae60f7027c9d2c25e3cc98fe68fbf5260595e64",
+    "input_sha256": "d84b36f7f233e93e5591b6e492b2929dc791de454faffcea60a56fac9d4b5f77",
+    "elapsed_seconds": 0.539,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "48741fc90450b6e9fb9ff637e98095e0d958d562cf930e32853923cbbe5b1a79",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-rent-8",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:50.520597+00:00",
+    "request_sha256": "f94409949679c9d34d4730a771138c9919f06272f2d309b68673f39b38ac933d",
+    "input_sha256": "87abe09982a04d5e2dabb5050371971e9fd1d640e2a5bf1ea65af2f92daddec1",
+    "elapsed_seconds": 0.773,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "deposit_krw",
+          "value": 111000000
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": 600000
+        }
+      ]
+    },
+    "response_sha256": "11c1b22fe81ed5632c81c43cb7de6e46c44e04238b43d3a8ec5d8fb0fa48b597",
+    "done_reason": "stop",
+    "reported_eval_count": 49
+  },
+  {
+    "id": "cap-rent-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:51.034334+00:00",
+    "request_sha256": "480be3ce8679b0ce9145bc155eb56e155c50419a0eaf8f49d2972d64576aceb0",
+    "input_sha256": "e61ac1fbd8cbc21dd070f9bae4d859ef196659807b92348152cc871815358cbe",
+    "elapsed_seconds": 0.513,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "D-RENT"
+      ]
+    },
+    "response_sha256": "188422f0c5cfe23f59812c4eb8ab4f5368459570ab7d6095c21bf2f428cc4c63",
+    "done_reason": "stop",
+    "reported_eval_count": 24
+  },
+  {
+    "id": "cap-education-1",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:51.880726+00:00",
+    "request_sha256": "bae184f685749de01e5cb8b5ec86a67d6e2f1b4414ec675fab0c1fbcc0f0f83c",
+    "input_sha256": "a47bbaf44d347952a035becc9109cab82a261f5548e1293e60375edcb5eae07e",
+    "elapsed_seconds": 0.846,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "education_status",
+          "value": "graduated"
+        }
+      ]
+    },
+    "response_sha256": "7bb8700c9f79f658308f094172c0f81bf60a4d075d439ad72fab839f5b596149",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "cap-education-1",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:52.503984+00:00",
+    "request_sha256": "f1a4f7e90d9a5d1572536b274906da43d558ed2f51e8bbfa3c0ce7cd92c5c17e",
+    "input_sha256": "ef52821bf0908ee891877aabbaf6afa3891506cc823086adef75c30613d0a741",
+    "elapsed_seconds": 0.623,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "6c4876a5dd8fd6b8af9cbb13f9c19968df55b4d08ec0f4316c748a7c58fb466b",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "cap-education-2",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:55.850416+00:00",
+    "request_sha256": "0da30614dd3612d9c5f00f8ae815e9760134f46bff0d9a37a0ee9edcd8c2977d",
+    "input_sha256": "93e9893713abe809a5fa2486cea3c047a80f2f445b96919051b8e7c63a9764fe",
+    "elapsed_seconds": 3.346,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "age_years",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "foreign_national",
+          "value": null
+        },
+        {
+          "field": "permanent_resident",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "b5e6fc5585922c7d7400c0c521080fd15904f5b2bc4de1156c69324225f0d938",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-2",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:42:56.501571+00:00",
+    "request_sha256": "1d12a82385dcd62aa7104948b5f899eb7bd50ac3709bc7d27ffcf66f5fccbacf",
+    "input_sha256": "fd3218397b5a9f5fb029d928e12e8c0ad2b1ab00fb271a15c81928b7cda2142a",
+    "elapsed_seconds": 0.65,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "5c2de60192c4c0e479091128eea7a6cd148da7a4b611a25f7761d111b75c9b96",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "cap-education-3",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:00.141188+00:00",
+    "request_sha256": "7d2a55f06ca5c94642f2a40ec713d3b5bcdb884d6b0ef9f1ef4b68826fec2d16",
+    "input_sha256": "da19fefe647e4aa4c0363cfb011bea5b74699ff86f34ad444a34a2577e5e47ca",
+    "elapsed_seconds": 3.639,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "foreign_national",
+          "value": false
+        },
+        {
+          "field": "permanent_resident",
+          "value": false
+        },
+        {
+          "field": "pledge",
+          "value": null
+        },
+        {
+          "field": "homeowner",
+          "value": null
+        },
+        {
+          "field": "housing_benefit",
+          "value": null
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": null
+        },
+        {
+          "field": "medical_benefit",
+          "value": null
+        },
+        {
+          "field": "education_benefit",
+          "value": null
+        },
+        {
+          "field": "parent_residence_months",
+          "value": null
+        },
+        {
+          "field": "residence_months",
+          "value": null
+        },
+        {
+          "field": "income_pct",
+          "value": null
+        },
+        {
+          "field": "income_krw",
+          "value": null
+        },
+        {
+          "field": "household_income_krw",
+          "value": null
+        },
+        {
+          "field": "deposit_krw",
+          "value": null
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": null
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": null
+        },
+        {
+          "field": "employment_status",
+          "value": null
+        },
+        {
+          "field": "marriage_years",
+          "value": null
+        },
+        {
+          "field": "residence_city",
+          "value": null
+        },
+        {
+          "field": "joined_on",
+          "value": null
+        },
+        {
+          "field": "applied_on",
+          "value": null
+        },
+        {
+          "field": "age_years",
+          "value": null
+        }
+      ]
+    },
+    "response_sha256": "bb03ff874fea1b2b6c90fe5082cfb5f9419703ceb0a9c51b55dc0c695d59b261",
+    "done_reason": "stop",
+    "reported_eval_count": 263
+  },
+  {
+    "id": "cap-education-3",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:00.790521+00:00",
+    "request_sha256": "7138fc2ea84ae580b8db4ed6bbcd4965c87fbfb5a9f529d01e0ad57521ab49a2",
+    "input_sha256": "883b968feb97336aaf2b60414bf5b5ed323ddc9398486bddcd359ee11ed885eb",
+    "elapsed_seconds": 0.649,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "ec5c75d26867cb4b330cad417cd77dc34271b3e49e27e293cd2e8cd6e51ef3cf",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "cap-education-4",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:07.690550+00:00",
+    "request_sha256": "5ac308568d52828776fb1821b1ea2f27927a42b02f65cee4be5be59c62ac4130",
+    "input_sha256": "1c44192148e9fe22bc8d845ba2fb12e842f544ec08d56250d8965077fb45c70b",
+    "elapsed_seconds": 6.899,
+    "parsed": null,
+    "response_sha256": "23d65a3d3f9b94ddefb498b51801c48a03dd215a8d18231ed3e47ee619219e62",
+    "done_reason": "length",
+    "reported_eval_count": 512
+  },
+  {
+    "id": "cap-education-4",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:08.257893+00:00",
+    "request_sha256": "c6fba0033bb392035b9e6855af7bd1c6318c30755efe5364f292338dad8077ce",
+    "input_sha256": "a982f56d4e3a3de164e3e4a631ba716c21b79af8863e8a51fa43dee55023ec4a",
+    "elapsed_seconds": 0.567,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "871abb6e23874409c297680cd93ad1d4df456a6bdf9d14e97605b4044dd32607",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "cap-education-5",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:11.618613+00:00",
+    "request_sha256": "509a1dad9ffb2c5596f68d9f83662c008c3c40c31c5d94da03b02bb8793c8fb5",
+    "input_sha256": "7fb686cb204838e905e9f430c79e7eb9709561b47b80e3a18e1de052b34c9a46",
+    "elapsed_seconds": 3.36,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "residence_city",
+          "value": "null"
+        },
+        {
+          "field": "joined_on",
+          "value": "null"
+        },
+        {
+          "field": "applied_on",
+          "value": "null"
+        },
+        {
+          "field": "age_years",
+          "value": "null"
+        },
+        {
+          "field": "income_pct",
+          "value": "null"
+        },
+        {
+          "field": "income_krw",
+          "value": "null"
+        },
+        {
+          "field": "household_income_krw",
+          "value": "null"
+        },
+        {
+          "field": "residence_months",
+          "value": "null"
+        },
+        {
+          "field": "parent_residence_months",
+          "value": "null"
+        },
+        {
+          "field": "pledge",
+          "value": "null"
+        },
+        {
+          "field": "homeowner",
+          "value": "null"
+        },
+        {
+          "field": "housing_benefit",
+          "value": "null"
+        },
+        {
+          "field": "livelihood_benefit",
+          "value": "null"
+        },
+        {
+          "field": "medical_benefit",
+          "value": "null"
+        },
+        {
+          "field": "education_benefit",
+          "value": "null"
+        },
+        {
+          "field": "foreign_national",
+          "value": "null"
+        },
+        {
+          "field": "permanent_resident",
+          "value": "null"
+        },
+        {
+          "field": "deposit_krw",
+          "value": "null"
+        },
+        {
+          "field": "monthly_rent_krw",
+          "value": "null"
+        },
+        {
+          "field": "weekly_work_hours",
+          "value": "null"
+        },
+        {
+          "field": "employment_status",
+          "value": "null"
+        },
+        {
+          "field": "marriage_years",
+          "value": "null"
+        }
+      ]
+    },
+    "response_sha256": "01deccc6cdf98e983791b25966639356d60f73f69f3a8c0adf39c92054f59fba",
+    "done_reason": "stop",
+    "reported_eval_count": 243
+  },
+  {
+    "id": "cap-education-5",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:12.160421+00:00",
+    "request_sha256": "6b1506a3cd8845e9c1c9a3510bb068e847721b43233aff4b2109da8cf4070dcd",
+    "input_sha256": "3d72320c78acf48b8ee5908c3726dc2ec53b983187c799fb9094b698e016c5b2",
+    "elapsed_seconds": 0.541,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "a92cc4498908514477141c3555e21ac46dadb322da1bfcd053a27411d3250376",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "cap-education-6",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:12.965700+00:00",
+    "request_sha256": "a780843d3c7fdb9478c906614f35e89068cba80d2bce0b3bcae13d7a4980746e",
+    "input_sha256": "a8521224b33685ab7733bb40d266ec2ce12f453e9f2a6a11187d8bb6d93263d8",
+    "elapsed_seconds": 0.805,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "joined_on",
+          "value": "YYYY-MM-DD"
+        },
+        {
+          "field": "applied_on",
+          "value": "YYYY-MM-DD"
+        }
+      ]
+    },
+    "response_sha256": "c1864b13804bed41b0ef302040f8b1d7028e369ab5414b733ff1b78aa515839a",
+    "done_reason": "stop",
+    "reported_eval_count": 47
+  },
+  {
+    "id": "cap-education-6",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:13.537400+00:00",
+    "request_sha256": "0f86e88f627eca10174928e40cbf663cc75e5cd7b977571ff1a788923bf36c4a",
+    "input_sha256": "fd330f4df101edf70d6ae6de99309eee4d750dd5de9ca9a4638755eab6609cf2",
+    "elapsed_seconds": 0.571,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "6d9c042512ea99e0c954ec195fbcb210a06c04c0dc55a114336b965b2dab9eef",
+    "done_reason": "stop",
+    "reported_eval_count": 26
+  },
+  {
+    "id": "cap-education-7",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:14.095419+00:00",
+    "request_sha256": "8dd06663482381f6c4ddf9fd7ed7cfead5f2ab4f48be20479d004e7d4d2639c3",
+    "input_sha256": "e4724080220c5677fa23f3309874f3a8af35ead01cf1001ea5669b72fb24cafc",
+    "elapsed_seconds": 0.557,
+    "parsed": {
+      "assertion": true,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "graduated"
+        }
+      ]
+    },
+    "response_sha256": "e9fbb78b76ba9247844d64110e7d30456aa342e56833854641d3f8c90dbc7f28",
+    "done_reason": "stop",
+    "reported_eval_count": 31
+  },
+  {
+    "id": "cap-education-7",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:14.727708+00:00",
+    "request_sha256": "7b9fb5ddd13d7cfc337b568b9f7815a81c9b4d66e435a2d5c8af6b59f092d910",
+    "input_sha256": "011e7007088514d76d9514b03b5bc6ab5343689af24462e3b09c04108eb747f7",
+    "elapsed_seconds": 0.632,
+    "parsed": {
+      "decision": "supported",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "ba7c02550c2d47a58ea4db267152832cc5db733b228e74b6be12937ce327c9c6",
+    "done_reason": "stop",
+    "reported_eval_count": 33
+  },
+  {
+    "id": "cap-education-8",
+    "stage": "profile",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:15.338652+00:00",
+    "request_sha256": "f833810fab031247010d5ed0e79d51912e7d23eb6485830e59aae03dbb99a8ca",
+    "input_sha256": "085378e0029a5e058d4b488379d8024857dc951d4e9e42fdcd0decdc17e23667",
+    "elapsed_seconds": 0.61,
+    "parsed": {
+      "assertion": false,
+      "status": "ready",
+      "values": [
+        {
+          "field": "education_status",
+          "value": "enrolled"
+        },
+        {
+          "field": "education_status",
+          "value": "graduated"
+        }
+      ]
+    },
+    "response_sha256": "6607a828c096b0d132ebd7dd3de6d148d5e4f63e5514f6798e1c6946279e4462",
+    "done_reason": "stop",
+    "reported_eval_count": 34
+  },
+  {
+    "id": "cap-education-8",
+    "stage": "direct",
+    "model": "kanana-public",
+    "model_name": "policy-kanana15-public:q4km-f7ae0cc1",
+    "model_digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d",
+    "server": {
+      "version": "0.33.2"
+    },
+    "created_utc": "2026-10-01T12:43:16.089460+00:00",
+    "request_sha256": "d43a44eb5cb96bb0f22e43100ac935da609e70524707f2076878bc9fc58844ff",
+    "input_sha256": "3273512cec4bdb9a343ba553342b7e35c1facb20640482f0a53fe8e196d6a365",
+    "elapsed_seconds": 0.75,
+    "parsed": {
+      "decision": "not_established",
+      "evidence": [
+        "G-EDUCATION",
+        "G-EDUCATION-EXCEPTIONS"
+      ]
+    },
+    "response_sha256": "9183afe6e1e137af61961e9d5de58ea25aaa908b0908acbc079ecb221d301dcb",
+    "done_reason": "stop",
+    "reported_eval_count": 41
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "qwen": {
+    "direct": {
+      "n": 32,
+      "correct": 12,
+      "accuracy": 0.375,
+      "abstain": 0,
+      "unknown": 22,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 2,
+        "contradicted/not_established": 8,
+        "contradicted/supported": 3,
+        "not_established/not_established": 10,
+        "supported/contradicted": 5,
+        "supported/not_established": 4
+      }
+    },
+    "pipeline": {
+      "n": 32,
+      "correct": 14,
+      "accuracy": 0.4375,
+      "abstain": 0,
+      "unknown": 12,
+      "false_determination": 5,
+      "confusion": {
+        "contradicted/contradicted": 6,
+        "contradicted/not_established": 5,
+        "contradicted/supported": 2,
+        "not_established/contradicted": 4,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/contradicted": 4,
+        "supported/not_established": 2,
+        "supported/supported": 3
+      }
+    },
+    "kleene": {
+      "n": 32,
+      "correct": 11,
+      "accuracy": 0.34375,
+      "abstain": 0,
+      "unknown": 15,
+      "false_determination": 5,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "contradicted/not_established": 7,
+        "contradicted/supported": 2,
+        "not_established/contradicted": 4,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/contradicted": 4,
+        "supported/not_established": 3,
+        "supported/supported": 2
+      }
+    },
+    "reference_policy": {
+      "n": 32,
+      "correct": 29,
+      "accuracy": 0.90625,
+      "abstain": 0,
+      "unknown": 13,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 11,
+        "contradicted/not_established": 2,
+        "not_established/not_established": 10,
+        "supported/not_established": 1,
+        "supported/supported": 8
+      }
+    },
+    "reference_profile": {
+      "n": 32,
+      "correct": 15,
+      "accuracy": 0.46875,
+      "abstain": 0,
+      "unknown": 10,
+      "false_determination": 5,
+      "confusion": {
+        "contradicted/contradicted": 7,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 3,
+        "not_established/contradicted": 4,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/contradicted": 4,
+        "supported/not_established": 2,
+        "supported/supported": 3
+      }
+    },
+    "both_reference": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 10,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 13,
+        "not_established/not_established": 10,
+        "supported/supported": 9
+      }
+    },
+    "profile_exact": 28,
+    "policy_equivalent": 2,
+    "policy_n": 8,
+    "finite_changed_cases": [
+      "mix-age-or-income-4",
+      "mix-age-partition-1",
+      "mix-age-partition-4"
+    ],
+    "pipeline_fixes_direct": [
+      "mix-age-or-income-4",
+      "mix-date-money-1",
+      "mix-date-money-4",
+      "mix-parent-or-pledge-2",
+      "mix-age-partition-1",
+      "mix-age-partition-4",
+      "mix-education-or-2"
+    ],
+    "pipeline_breaks_direct": [
+      "mix-age-or-income-3",
+      "mix-exception-benefit-3",
+      "mix-date-money-3",
+      "mix-parent-or-pledge-3",
+      "mix-education-or-3"
+    ]
+  },
+  "kanana-public": {
+    "direct": {
+      "n": 32,
+      "correct": 13,
+      "accuracy": 0.40625,
+      "abstain": 0,
+      "unknown": 15,
+      "false_determination": 3,
+      "confusion": {
+        "contradicted/contradicted": 1,
+        "contradicted/not_established": 4,
+        "contradicted/supported": 8,
+        "not_established/not_established": 7,
+        "not_established/supported": 3,
+        "supported/not_established": 4,
+        "supported/supported": 5
+      }
+    },
+    "pipeline": {
+      "n": 32,
+      "correct": 16,
+      "accuracy": 0.5,
+      "abstain": 4,
+      "unknown": 12,
+      "false_determination": 1,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "contradicted/not_established": 5,
+        "contradicted/supported": 4,
+        "not_established/abstain": 4,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/not_established": 2,
+        "supported/supported": 7
+      }
+    },
+    "kleene": {
+      "n": 32,
+      "correct": 16,
+      "accuracy": 0.5,
+      "abstain": 4,
+      "unknown": 12,
+      "false_determination": 1,
+      "confusion": {
+        "contradicted/contradicted": 4,
+        "contradicted/not_established": 5,
+        "contradicted/supported": 4,
+        "not_established/abstain": 4,
+        "not_established/not_established": 5,
+        "not_established/supported": 1,
+        "supported/not_established": 2,
+        "supported/supported": 7
+      }
+    },
+    "reference_policy": {
+      "n": 32,
+      "correct": 29,
+      "accuracy": 0.90625,
+      "abstain": 0,
+      "unknown": 13,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 11,
+        "contradicted/not_established": 2,
+        "not_established/not_established": 10,
+        "supported/not_established": 1,
+        "supported/supported": 8
+      }
+    },
+    "reference_profile": {
+      "n": 32,
+      "correct": 16,
+      "accuracy": 0.5,
+      "abstain": 4,
+      "unknown": 9,
+      "false_determination": 2,
+      "confusion": {
+        "contradicted/contradicted": 5,
+        "contradicted/not_established": 3,
+        "contradicted/supported": 5,
+        "not_established/abstain": 4,
+        "not_established/not_established": 4,
+        "not_established/supported": 2,
+        "supported/not_established": 2,
+        "supported/supported": 7
+      }
+    },
+    "both_reference": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "abstain": 0,
+      "unknown": 10,
+      "false_determination": 0,
+      "confusion": {
+        "contradicted/contradicted": 13,
+        "not_established/not_established": 10,
+        "supported/supported": 9
+      }
+    },
+    "profile_exact": 26,
+    "policy_equivalent": 0,
+    "policy_n": 8,
+    "finite_changed_cases": [],
+    "pipeline_fixes_direct": [
+      "mix-age-or-income-4",
+      "mix-exception-benefit-3",
+      "mix-date-money-3",
+      "mix-parent-or-pledge-1",
+      "mix-age-partition-4",
+      "mix-education-or-1",
+      "mix-education-or-2",
+      "mix-education-or-3",
+      "mix-education-or-4"
+    ],
+    "pipeline_breaks_direct": [
+      "mix-age-or-income-3",
+      "mix-parent-or-pledge-4",
+      "mix-unavailable-1",
+      "mix-unavailable-2",
+      "mix-unavailable-3",
+      "mix-unavailable-4"
+    ]
+  }
+}

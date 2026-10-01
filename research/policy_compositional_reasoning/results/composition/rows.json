@@ -1,0 +1,7317 @@
+[
+  {
+    "id": "mix-age-or-income-1",
+    "bundle": "mix-age-or-income",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 8,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-2",
+    "bundle": "mix-age-or-income",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 8,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-3",
+    "bundle": "mix-age-or-income",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 8,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-4",
+    "bundle": "mix-age-or-income",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 8,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-1",
+    "bundle": "mix-exception-benefit",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 4,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-2",
+    "bundle": "mix-exception-benefit",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 4,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-3",
+    "bundle": "mix-exception-benefit",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 2
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 2
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 2
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 2
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 4,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-4",
+    "bundle": "mix-exception-benefit",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 4,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-1",
+    "bundle": "mix-date-money",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 15,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-2",
+    "bundle": "mix-date-money",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 15,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-3",
+    "bundle": "mix-date-money",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 15,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-4",
+    "bundle": "mix-date-money",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 15,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-1",
+    "bundle": "mix-parent-or-pledge",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 3,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-2",
+    "bundle": "mix-parent-or-pledge",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 3,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-3",
+    "bundle": "mix-parent-or-pledge",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 3,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-4",
+    "bundle": "mix-parent-or-pledge",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 3,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-1",
+    "bundle": "mix-age-partition",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "age_years"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 9,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-2",
+    "bundle": "mix-age-partition",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 9,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-3",
+    "bundle": "mix-age-partition",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 9,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-4",
+    "bundle": "mix-age-partition",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "age_years"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 9,
+      "mismatches": 0,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-1",
+    "bundle": "mix-impossible",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 35,
+      "mismatches": 15,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-2",
+    "bundle": "mix-impossible",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 35,
+      "mismatches": 15,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-3",
+    "bundle": "mix-impossible",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 35,
+      "mismatches": 15,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-4",
+    "bundle": "mix-impossible",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "household_income_krw"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 7
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 35,
+      "mismatches": 15,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-education-or-1",
+    "bundle": "mix-education-or",
+    "model": "qwen",
+    "label": "supported",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 36,
+      "mismatches": 13,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-education-or-2",
+    "bundle": "mix-education-or",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 36,
+      "mismatches": 13,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-education-or-3",
+    "bundle": "mix-education-or",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "weekly_work_hours"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "weekly_work_hours"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 36,
+      "mismatches": 13,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-education-or-4",
+    "bundle": "mix-education-or",
+    "model": "qwen",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            false,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 36,
+      "mismatches": 13,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-unavailable-1",
+    "bundle": "mix-unavailable",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 0,
+      "status": "policy_insufficient/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-2",
+    "bundle": "mix-unavailable",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 0,
+      "status": "policy_insufficient/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-3",
+    "bundle": "mix-unavailable",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 0,
+      "status": "policy_insufficient/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-4",
+    "bundle": "mix-unavailable",
+    "model": "qwen",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": true,
+      "worlds": 0,
+      "status": "policy_insufficient/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-age-or-income-1",
+    "bundle": "mix-age-or-income",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 10,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-2",
+    "bundle": "mix-age-or-income",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 10,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-3",
+    "bundle": "mix-age-or-income",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 10,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-or-income-4",
+    "bundle": "mix-age-or-income",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 27,
+      "mismatches": 10,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-1",
+    "bundle": "mix-exception-benefit",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 6,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-2",
+    "bundle": "mix-exception-benefit",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 6,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-3",
+    "bundle": "mix-exception-benefit",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "livelihood_benefit"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 2
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 6,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-exception-benefit-4",
+    "bundle": "mix-exception-benefit",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 8,
+      "mismatches": 6,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-1",
+    "bundle": "mix-date-money",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 15,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-2",
+    "bundle": "mix-date-money",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 15,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-3",
+    "bundle": "mix-date-money",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 15,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-date-money-4",
+    "bundle": "mix-date-money",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "joined_on"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 15,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-1",
+    "bundle": "mix-parent-or-pledge",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-2",
+    "bundle": "mix-parent-or-pledge",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-3",
+    "bundle": "mix-parent-or-pledge",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "parent_residence_months"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-parent-or-pledge-4",
+    "bundle": "mix-parent-or-pledge",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "contradicted"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "query_unsupported",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true,
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 12,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-1",
+    "bundle": "mix-age-partition",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 9,
+      "mismatches": 1,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-2",
+    "bundle": "mix-age-partition",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "age_years"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "age_years"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [
+        "age_years"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 9,
+      "mismatches": 1,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-3",
+    "bundle": "mix-age-partition",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 9,
+      "mismatches": 1,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-age-partition-4",
+    "bundle": "mix-age-partition",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null,
+            true
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 9,
+      "mismatches": 1,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-1",
+    "bundle": "mix-impossible",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 5,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-2",
+    "bundle": "mix-impossible",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 5,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-3",
+    "bundle": "mix-impossible",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "kleene": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "income_pct"
+      ],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        },
+        {
+          "atoms": [
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            null,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [],
+      "execution": "finite_partition",
+      "partition_worlds": 5
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 5,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-impossible-4",
+    "bundle": "mix-impossible",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "kleene": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene",
+      "partition_worlds": 0
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false,
+            true
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 5,
+      "mismatches": 5,
+      "status": "checked"
+    }
+  },
+  {
+    "id": "mix-education-or-1",
+    "bundle": "mix-education-or",
+    "model": "kanana-public",
+    "label": "supported",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "supported",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/valid"
+    }
+  },
+  {
+    "id": "mix-education-or-2",
+    "bundle": "mix-education-or",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            false
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/valid"
+    }
+  },
+  {
+    "id": "mix-education-or-3",
+    "bundle": "mix-education-or",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "supported"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "weekly_work_hours"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            false
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            true,
+            true,
+            null
+          ],
+          "value": null
+        }
+      ],
+      "missing_fields": [
+        "weekly_work_hours"
+      ],
+      "execution": "finite_partition",
+      "partition_worlds": 3
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/valid"
+    }
+  },
+  {
+    "id": "mix-education-or-4",
+    "bundle": "mix-education-or",
+    "model": "kanana-public",
+    "label": "contradicted",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "contradicted",
+      "policy_status": "valid",
+      "profile_status": "valid",
+      "trace": [
+        {
+          "atoms": [
+            true
+          ],
+          "value": true
+        },
+        {
+          "atoms": [
+            false,
+            null
+          ],
+          "value": false
+        },
+        {
+          "atoms": [
+            false,
+            null,
+            null
+          ],
+          "value": false
+        }
+      ],
+      "missing_fields": [],
+      "execution": "kleene_decided",
+      "partition_worlds": 0
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/valid"
+    }
+  },
+  {
+    "id": "mix-unavailable-1",
+    "bundle": "mix-unavailable",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": false,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-2",
+    "bundle": "mix-unavailable",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-3",
+    "bundle": "mix-unavailable",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/policy_insufficient"
+    }
+  },
+  {
+    "id": "mix-unavailable-4",
+    "bundle": "mix-unavailable",
+    "model": "kanana-public",
+    "label": "not_established",
+    "direct": {
+      "decision": "not_established"
+    },
+    "pipeline": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "kleene": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_policy": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "reference_profile": {
+      "decision": "abstain",
+      "policy_status": "invalid_value",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "both_reference": {
+      "decision": "not_established",
+      "policy_status": "policy_insufficient",
+      "profile_status": "valid",
+      "trace": [],
+      "missing_fields": []
+    },
+    "profile_exact": true,
+    "policy_equivalence": {
+      "equivalent": false,
+      "worlds": 0,
+      "status": "invalid_value/policy_insufficient"
+    }
+  }
+]

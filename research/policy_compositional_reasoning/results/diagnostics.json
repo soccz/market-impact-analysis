@@ -1,0 +1,1980 @@
+{
+  "development": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 0,
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "accuracy": null,
+        "review": 24,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 0,
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "accuracy": null,
+        "review": 24,
+        "wrong_ids": []
+      },
+      "policy_replacement_fixes": 5,
+      "profile_replacement_fixes": 4,
+      "failures": 20,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 0
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 0
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 0
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 0
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 0
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 2
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 0,
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "accuracy": null,
+        "review": 24,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 0,
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "accuracy": null,
+        "review": 24,
+        "wrong_ids": []
+      },
+      "policy_replacement_fixes": 10,
+      "profile_replacement_fixes": 0,
+      "failures": 16,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 0
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 0
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "development_explicit": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 4,
+        "n": 24,
+        "correct": 4,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 20,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 18,
+        "n": 24,
+        "correct": 8,
+        "wrong": 10,
+        "accuracy": 0.4444444444444444,
+        "review": 6,
+        "wrong_ids": [
+          "dev-subject-or-1",
+          "dev-subject-or-2",
+          "dev-pledge-1",
+          "dev-pledge-2",
+          "dev-pledge-3",
+          "dev-benefits-1",
+          "dev-benefits-3",
+          "dev-foreign-1",
+          "dev-foreign-3",
+          "dev-education-work-1"
+        ]
+      },
+      "policy_replacement_fixes": 10,
+      "profile_replacement_fixes": 0,
+      "failures": 11,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 0
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 0
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 1,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 1,
+        "cases": [
+          {
+            "id": "dev-pledge-3",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 9,
+        "n": 24,
+        "correct": 8,
+        "wrong": 1,
+        "accuracy": 0.8888888888888888,
+        "review": 15,
+        "wrong_ids": [
+          "dev-education-work-2"
+        ]
+      },
+      "all_determinate": {
+        "covered": 15,
+        "n": 24,
+        "correct": 9,
+        "wrong": 6,
+        "accuracy": 0.6,
+        "review": 9,
+        "wrong_ids": [
+          "dev-age-income-3",
+          "dev-benefits-2",
+          "dev-education-work-2",
+          "dev-education-work-3",
+          "dev-money-2",
+          "dev-money-3"
+        ]
+      },
+      "policy_replacement_fixes": 7,
+      "profile_replacement_fixes": 2,
+      "failures": 10,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 3
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "development_examples": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 7,
+        "n": 24,
+        "correct": 7,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 17,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 17,
+        "n": 24,
+        "correct": 11,
+        "wrong": 6,
+        "accuracy": 0.6470588235294118,
+        "review": 7,
+        "wrong_ids": [
+          "dev-subject-or-1",
+          "dev-subject-or-2",
+          "dev-foreign-1",
+          "dev-foreign-3",
+          "dev-education-work-1",
+          "dev-education-work-2"
+        ]
+      },
+      "policy_replacement_fixes": 6,
+      "profile_replacement_fixes": 1,
+      "failures": 7,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 2
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 1,
+        "fixed": 1,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": [
+          {
+            "id": "dev-pledge-3",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 8,
+        "n": 24,
+        "correct": 7,
+        "wrong": 1,
+        "accuracy": 0.875,
+        "review": 16,
+        "wrong_ids": [
+          "dev-education-work-2"
+        ]
+      },
+      "all_determinate": {
+        "covered": 14,
+        "n": 24,
+        "correct": 9,
+        "wrong": 5,
+        "accuracy": 0.6428571428571429,
+        "review": 10,
+        "wrong_ids": [
+          "dev-age-income-3",
+          "dev-benefits-2",
+          "dev-education-work-2",
+          "dev-money-1",
+          "dev-money-3"
+        ]
+      },
+      "policy_replacement_fixes": 6,
+      "profile_replacement_fixes": 2,
+      "failures": 10,
+      "by_bundle": {
+        "dev-age-income": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-subject-or": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 3
+        },
+        "dev-pledge": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "dev-benefits": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-foreign": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-education-work": {
+          "n": 3,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dev-money": {
+          "n": 3,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dev-insufficient": {
+          "n": 3,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 24,
+        "pipeline": 32,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 1,
+        "fixed": 1,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": [
+          {
+            "id": "dev-pledge-3",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          }
+        ]
+      }
+    }
+  },
+  "official": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 9,
+        "n": 32,
+        "correct": 8,
+        "wrong": 1,
+        "accuracy": 0.8888888888888888,
+        "review": 23,
+        "wrong_ids": [
+          "gj-education-work-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 21,
+        "n": 32,
+        "correct": 14,
+        "wrong": 7,
+        "accuracy": 0.6666666666666666,
+        "review": 11,
+        "wrong_ids": [
+          "dj-benefits-2",
+          "dj-benefits-3",
+          "dj-city-benefits-1",
+          "dj-city-benefits-3",
+          "gj-education-work-2",
+          "gj-education-work-3",
+          "gj-education-work-4"
+        ]
+      },
+      "policy_replacement_fixes": 9,
+      "profile_replacement_fixes": 2,
+      "failures": 13,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 4
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 4
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 1
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 9,
+        "n": 32,
+        "correct": 5,
+        "wrong": 4,
+        "accuracy": 0.5555555555555556,
+        "review": 23,
+        "wrong_ids": [
+          "dj-city-income-3",
+          "dj-city-benefits-2",
+          "gj-city-age-income-2",
+          "gj-city-age-income-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 15,
+        "n": 32,
+        "correct": 7,
+        "wrong": 8,
+        "accuracy": 0.4666666666666667,
+        "review": 17,
+        "wrong_ids": [
+          "dj-city-income-2",
+          "dj-city-income-3",
+          "dj-city-income-4",
+          "dj-city-benefits-2",
+          "gj-city-age-income-2",
+          "gj-city-age-income-3",
+          "gj-city-age-income-4",
+          "gj-benefits-2"
+        ]
+      },
+      "policy_replacement_fixes": 12,
+      "profile_replacement_fixes": 3,
+      "failures": 20,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 3
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 0
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "official_examples": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 7,
+        "n": 32,
+        "correct": 7,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 25,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 18,
+        "n": 32,
+        "correct": 14,
+        "wrong": 4,
+        "accuracy": 0.7777777777777778,
+        "review": 14,
+        "wrong_ids": [
+          "gj-work-1",
+          "gj-work-3",
+          "gj-education-work-1",
+          "gj-education-work-3"
+        ]
+      },
+      "policy_replacement_fixes": 8,
+      "profile_replacement_fixes": 2,
+      "failures": 12,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 4
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 2
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 12,
+        "n": 32,
+        "correct": 5,
+        "wrong": 7,
+        "accuracy": 0.4166666666666667,
+        "review": 20,
+        "wrong_ids": [
+          "dj-city-income-3",
+          "dj-city-benefits-2",
+          "dj-foreign-1",
+          "gj-city-age-income-2",
+          "gj-city-age-income-4",
+          "gj-education-work-2",
+          "gj-education-work-3"
+        ]
+      },
+      "all_determinate": {
+        "covered": 20,
+        "n": 32,
+        "correct": 6,
+        "wrong": 14,
+        "accuracy": 0.3,
+        "review": 12,
+        "wrong_ids": [
+          "dj-city-income-2",
+          "dj-city-income-3",
+          "dj-city-income-4",
+          "dj-city-benefits-2",
+          "dj-city-benefits-3",
+          "dj-foreign-1",
+          "dj-foreign-2",
+          "gj-city-age-income-2",
+          "gj-city-age-income-3",
+          "gj-city-age-income-4",
+          "gj-benefits-2",
+          "gj-education-work-2",
+          "gj-education-work-3",
+          "gj-education-work-4"
+        ]
+      },
+      "policy_replacement_fixes": 14,
+      "profile_replacement_fixes": 3,
+      "failures": 22,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 1,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 1,
+        "cases": [
+          {
+            "id": "gj-education-work-4",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    }
+  },
+  "composition": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 5,
+        "n": 32,
+        "correct": 2,
+        "wrong": 3,
+        "accuracy": 0.4,
+        "review": 27,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-parent-or-pledge-1",
+          "mix-education-or-1"
+        ]
+      },
+      "all_determinate": {
+        "covered": 17,
+        "n": 32,
+        "correct": 9,
+        "wrong": 8,
+        "accuracy": 0.5294117647058824,
+        "review": 15,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-1",
+          "mix-parent-or-pledge-1",
+          "mix-parent-or-pledge-3",
+          "mix-education-or-1",
+          "mix-education-or-3",
+          "mix-education-or-4"
+        ]
+      },
+      "policy_replacement_fixes": 13,
+      "profile_replacement_fixes": 0,
+      "failures": 16,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 4
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 4
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 3,
+        "fixed": 3,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": [
+          {
+            "id": "mix-date-money-4",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-age-partition-1",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-age-partition-4",
+            "label": "contradicted",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 11,
+        "n": 32,
+        "correct": 5,
+        "wrong": 6,
+        "accuracy": 0.45454545454545453,
+        "review": 21,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-exception-benefit-4",
+          "mix-date-money-2",
+          "mix-date-money-3",
+          "mix-impossible-1",
+          "mix-impossible-2"
+        ]
+      },
+      "all_determinate": {
+        "covered": 18,
+        "n": 32,
+        "correct": 8,
+        "wrong": 10,
+        "accuracy": 0.4444444444444444,
+        "review": 14,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-4",
+          "mix-date-money-2",
+          "mix-date-money-3",
+          "mix-parent-or-pledge-2",
+          "mix-impossible-1",
+          "mix-impossible-2",
+          "mix-impossible-3",
+          "mix-impossible-4"
+        ]
+      },
+      "policy_replacement_fixes": 19,
+      "profile_replacement_fixes": 1,
+      "failures": 21,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 0
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 4,
+        "fixed": 1,
+        "harmed": 1,
+        "both_wrong": 2,
+        "cases": [
+          {
+            "id": "mix-date-money-3",
+            "label": "not_established",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-date-money-4",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-impossible-1",
+            "label": "contradicted",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-impossible-3",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    }
+  },
+  "composition_examples": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 6,
+        "n": 32,
+        "correct": 2,
+        "wrong": 4,
+        "accuracy": 0.3333333333333333,
+        "review": 26,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-date-money-2",
+          "mix-parent-or-pledge-1",
+          "mix-education-or-1"
+        ]
+      },
+      "all_determinate": {
+        "covered": 20,
+        "n": 32,
+        "correct": 9,
+        "wrong": 11,
+        "accuracy": 0.45,
+        "review": 12,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-1",
+          "mix-exception-benefit-3",
+          "mix-date-money-2",
+          "mix-date-money-3",
+          "mix-parent-or-pledge-1",
+          "mix-parent-or-pledge-3",
+          "mix-education-or-1",
+          "mix-education-or-3",
+          "mix-education-or-4"
+        ]
+      },
+      "policy_replacement_fixes": 15,
+      "profile_replacement_fixes": 1,
+      "failures": 18,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 0
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 4
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 3,
+        "fixed": 3,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": [
+          {
+            "id": "mix-age-or-income-4",
+            "label": "contradicted",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          },
+          {
+            "id": "mix-age-partition-1",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-age-partition-4",
+            "label": "contradicted",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 8,
+        "n": 32,
+        "correct": 5,
+        "wrong": 3,
+        "accuracy": 0.625,
+        "review": 24,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-exception-benefit-4",
+          "mix-date-money-2"
+        ]
+      },
+      "all_determinate": {
+        "covered": 16,
+        "n": 32,
+        "correct": 11,
+        "wrong": 5,
+        "accuracy": 0.6875,
+        "review": 16,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-4",
+          "mix-date-money-2",
+          "mix-parent-or-pledge-2"
+        ]
+      },
+      "policy_replacement_fixes": 14,
+      "profile_replacement_fixes": 1,
+      "failures": 16,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 4
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 0
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "official_repair": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 9,
+        "n": 32,
+        "correct": 8,
+        "wrong": 1,
+        "accuracy": 0.8888888888888888,
+        "review": 23,
+        "wrong_ids": [
+          "gj-education-work-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 15,
+        "n": 32,
+        "correct": 12,
+        "wrong": 3,
+        "accuracy": 0.8,
+        "review": 17,
+        "wrong_ids": [
+          "gj-education-work-2",
+          "gj-education-work-3",
+          "gj-education-work-4"
+        ]
+      },
+      "policy_replacement_fixes": 9,
+      "profile_replacement_fixes": 1,
+      "failures": 13,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 4
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 4
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 3,
+          "pipeline": 1
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 9,
+        "n": 32,
+        "correct": 5,
+        "wrong": 4,
+        "accuracy": 0.5555555555555556,
+        "review": 23,
+        "wrong_ids": [
+          "dj-city-income-3",
+          "dj-city-benefits-2",
+          "gj-city-age-income-2",
+          "gj-city-age-income-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 15,
+        "n": 32,
+        "correct": 7,
+        "wrong": 8,
+        "accuracy": 0.4666666666666667,
+        "review": 17,
+        "wrong_ids": [
+          "dj-city-income-2",
+          "dj-city-income-3",
+          "dj-city-income-4",
+          "dj-city-benefits-2",
+          "gj-city-age-income-2",
+          "gj-city-age-income-3",
+          "gj-city-age-income-4",
+          "gj-benefits-2"
+        ]
+      },
+      "policy_replacement_fixes": 11,
+      "profile_replacement_fixes": 3,
+      "failures": 19,
+      "by_bundle": {
+        "dj-city-income": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-benefits": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "dj-city-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "dj-foreign": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 3
+        },
+        "gj-city-age-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-benefits": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "gj-work": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "gj-education-work": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "composition_repair": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 4,
+        "n": 32,
+        "correct": 2,
+        "wrong": 2,
+        "accuracy": 0.5,
+        "review": 28,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-parent-or-pledge-1"
+        ]
+      },
+      "all_determinate": {
+        "covered": 13,
+        "n": 32,
+        "correct": 8,
+        "wrong": 5,
+        "accuracy": 0.6153846153846154,
+        "review": 19,
+        "wrong_ids": [
+          "mix-age-or-income-1",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-1",
+          "mix-parent-or-pledge-1",
+          "mix-parent-or-pledge-3"
+        ]
+      },
+      "policy_replacement_fixes": 13,
+      "profile_replacement_fixes": 0,
+      "failures": 16,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 1
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 4
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 4
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 1
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 4
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 3,
+        "fixed": 3,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": [
+          {
+            "id": "mix-date-money-4",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-age-partition-1",
+            "label": "supported",
+            "kleene": "not_established",
+            "finite": "supported"
+          },
+          {
+            "id": "mix-age-partition-4",
+            "label": "contradicted",
+            "kleene": "not_established",
+            "finite": "contradicted"
+          }
+        ]
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 5,
+        "n": 32,
+        "correct": 3,
+        "wrong": 2,
+        "accuracy": 0.6,
+        "review": 27,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-exception-benefit-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 10,
+        "n": 32,
+        "correct": 6,
+        "wrong": 4,
+        "accuracy": 0.6,
+        "review": 22,
+        "wrong_ids": [
+          "mix-age-or-income-2",
+          "mix-age-or-income-3",
+          "mix-exception-benefit-4",
+          "mix-parent-or-pledge-2"
+        ]
+      },
+      "policy_replacement_fixes": 16,
+      "profile_replacement_fixes": 1,
+      "failures": 18,
+      "by_bundle": {
+        "mix-age-or-income": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-exception-benefit": {
+          "n": 4,
+          "direct": 1,
+          "pipeline": 2
+        },
+        "mix-date-money": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 0
+        },
+        "mix-parent-or-pledge": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 2
+        },
+        "mix-age-partition": {
+          "n": 4,
+          "direct": 2,
+          "pipeline": 3
+        },
+        "mix-impossible": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 0
+        },
+        "mix-education-or": {
+          "n": 4,
+          "direct": 0,
+          "pipeline": 1
+        },
+        "mix-unavailable": {
+          "n": 4,
+          "direct": 4,
+          "pipeline": 4
+        }
+      },
+      "comparison_calls": {
+        "direct": 32,
+        "pipeline": 40,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      },
+      "finite_partition": {
+        "changed": 0,
+        "fixed": 0,
+        "harmed": 0,
+        "both_wrong": 0,
+        "cases": []
+      }
+    }
+  },
+  "capability_base": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 7,
+        "n": 16,
+        "correct": 5,
+        "wrong": 2,
+        "accuracy": 0.7142857142857143,
+        "review": 9,
+        "wrong_ids": [
+          "cap-rent-4",
+          "cap-rent-5"
+        ]
+      },
+      "all_determinate": {
+        "covered": 7,
+        "n": 16,
+        "correct": 5,
+        "wrong": 2,
+        "accuracy": 0.7142857142857143,
+        "review": 9,
+        "wrong_ids": [
+          "cap-rent-4",
+          "cap-rent-5"
+        ]
+      },
+      "policy_replacement_fixes": 4,
+      "profile_replacement_fixes": 0,
+      "failures": 10,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 6,
+          "pipeline": 6
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 5,
+          "pipeline": 0
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 1,
+        "n": 16,
+        "correct": 0,
+        "wrong": 1,
+        "accuracy": 0.0,
+        "review": 15,
+        "wrong_ids": [
+          "cap-rent-4"
+        ]
+      },
+      "all_determinate": {
+        "covered": 7,
+        "n": 16,
+        "correct": 2,
+        "wrong": 5,
+        "accuracy": 0.2857142857142857,
+        "review": 9,
+        "wrong_ids": [
+          "cap-rent-1",
+          "cap-rent-2",
+          "cap-rent-3",
+          "cap-rent-4",
+          "cap-rent-8"
+        ]
+      },
+      "policy_replacement_fixes": 4,
+      "profile_replacement_fixes": 2,
+      "failures": 13,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 3
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 0
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    }
+  },
+  "capability_extended": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 6,
+        "n": 16,
+        "correct": 6,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 10,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 15,
+        "n": 16,
+        "correct": 10,
+        "wrong": 5,
+        "accuracy": 0.6666666666666666,
+        "review": 1,
+        "wrong_ids": [
+          "cap-education-1",
+          "cap-education-3",
+          "cap-education-4",
+          "cap-education-7",
+          "cap-education-8"
+        ]
+      },
+      "policy_replacement_fixes": 3,
+      "profile_replacement_fixes": 0,
+      "failures": 5,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 6,
+          "pipeline": 8
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 5,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 4,
+        "n": 16,
+        "correct": 1,
+        "wrong": 3,
+        "accuracy": 0.25,
+        "review": 12,
+        "wrong_ids": [
+          "cap-education-2",
+          "cap-education-3",
+          "cap-education-6"
+        ]
+      },
+      "all_determinate": {
+        "covered": 6,
+        "n": 16,
+        "correct": 3,
+        "wrong": 3,
+        "accuracy": 0.5,
+        "review": 10,
+        "wrong_ids": [
+          "cap-education-2",
+          "cap-education-3",
+          "cap-education-6"
+        ]
+      },
+      "policy_replacement_fixes": 8,
+      "profile_replacement_fixes": 0,
+      "failures": 13,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 0
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    }
+  },
+  "capability_repair": {
+    "qwen": {
+      "agreement_gate": {
+        "covered": 5,
+        "n": 16,
+        "correct": 5,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 11,
+        "wrong_ids": []
+      },
+      "all_determinate": {
+        "covered": 7,
+        "n": 16,
+        "correct": 7,
+        "wrong": 0,
+        "accuracy": 1.0,
+        "review": 9,
+        "wrong_ids": []
+      },
+      "policy_replacement_fixes": 5,
+      "profile_replacement_fixes": 0,
+      "failures": 7,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 6,
+          "pipeline": 8
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 5,
+          "pipeline": 1
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    },
+    "kanana-public": {
+      "agreement_gate": {
+        "covered": 4,
+        "n": 16,
+        "correct": 1,
+        "wrong": 3,
+        "accuracy": 0.25,
+        "review": 12,
+        "wrong_ids": [
+          "cap-education-2",
+          "cap-education-3",
+          "cap-education-6"
+        ]
+      },
+      "all_determinate": {
+        "covered": 6,
+        "n": 16,
+        "correct": 3,
+        "wrong": 3,
+        "accuracy": 0.5,
+        "review": 10,
+        "wrong_ids": [
+          "cap-education-2",
+          "cap-education-3",
+          "cap-education-6"
+        ]
+      },
+      "policy_replacement_fixes": 7,
+      "profile_replacement_fixes": 0,
+      "failures": 12,
+      "by_bundle": {
+        "cap-rent": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 1
+        },
+        "cap-education": {
+          "n": 8,
+          "direct": 3,
+          "pipeline": 3
+        }
+      },
+      "comparison_calls": {
+        "direct": 16,
+        "pipeline": 18,
+        "call_reuse_assumption": "one policy extraction per bundle, one profile parse per claim; execution adds no LLM call"
+      }
+    }
+  }
+}

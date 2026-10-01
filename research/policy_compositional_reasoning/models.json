@@ -1,0 +1,15 @@
+{
+  "server": "Ollama 0.33.2",
+  "models": {
+    "qwen": {
+      "name": "qwen3.5:9b",
+      "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7"
+    },
+    "kanana-public": {
+      "name": "policy-kanana15-public:q4km-f7ae0cc1",
+      "digest": "b1b93e15aca0378631ccedfa74dee888ac3b7e1a551d379edfa8bc33a402a89d"
+    }
+  },
+  "lineage": "../policy_scope_reading/models.json",
+  "new_training_runs": 0
+}

@@ -1,0 +1,23 @@
+{
+  "unique_saved_responses": 626,
+  "exported_entries_including_reuse": 1404,
+  "reused_entries": 778,
+  "by_model_stage": {
+    "kanana-public/direct": 104,
+    "kanana-public/policy": 66,
+    "kanana-public/profile": 144,
+    "qwen/direct": 104,
+    "qwen/policy": 64,
+    "qwen/profile": 144
+  },
+  "authored_development_claims": 24,
+  "authored_composition_claims": 32,
+  "new_document_primary_claims": 32,
+  "same_document_capability_claims": 16,
+  "total_base_claims": 104,
+  "document_families": 2,
+  "new_document_files": 2,
+  "independent_human_reviewers": 0,
+  "new_training_runs": 0,
+  "interruption_note": "개발 최초 runner가 SIGTERM으로 중단되어 저장된 응답 이후 재개했다. 보존 응답 수이며 전송 후 저장 전에 중단된 미보존 요청의 개수는 알 수 없다. 복사 재사용은 추가 호출로 세지 않는다."
+}

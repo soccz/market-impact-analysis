@@ -1,0 +1,362 @@
+[
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "dj-city-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "6fb12102fbdbbbffcdddfddbaf1bef554a34fd38c17e6157841fbdc081abca42"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "dj-benefits",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": false,
+      "meaning": "제공된 구조 안에서 어떤 신청자도 통과할 수 없다"
+    },
+    "origin_request_sha256": "b66bab0d0b0cd7981cf2552e1ca1173a6bd4395d89ca142cbb75d62057678a63"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "dj-city-benefits",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": false,
+      "meaning": "제공된 구조 안에서 어떤 신청자도 통과할 수 없다"
+    },
+    "origin_request_sha256": "e8b39fee133d97bca52cdbacecd22d53fd5e643641f4b60244fdce2a570c9cb5"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "dj-foreign",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "04a4428a87b795e3992f234d002ae37a1bcf5464903d7813542c71c3e226592d"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "gj-city-age-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "d4f31be5adc9d003b5aa4c8335ef993c11a4db6f47d8d2d4ed0281743761ebf7"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "gj-benefits",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "94c0038a62be5f0e1b49f74be30242220644e6787d395615ce6f7faa8ddb30fc"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "gj-work",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "2f50ff36bbeba3b68c2b56ca0a3ee8da1a3c9a787a62ee576fb53ec08c67b8be"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "qwen",
+    "id": "gj-education-work",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "6b206d480d27c4896eed82bbee3d533b75a6307578b0fbba009797d587aff3b4"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "dj-city-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "010aa5f5126ec737977487c340af62fdb2e804cb8e6cc8f5a5fc644e5ff30357"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "dj-benefits",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "e55fe279ee62ff603a5a68ab3ca76c1456d58849d272b708488594079919b140"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "dj-city-benefits",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "f00eee67a5642034528c91df15bded4f30ef9db87f57eb535159bfc5c2cee6eb"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "dj-foreign",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "88e597ed1a08cd49a3d20293d4f267035303ec60a5b3c90a7bb5e2acafda5e07"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "gj-city-age-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "c2b275fa0db1146d5c6cdc415db5ec77cc7a8ce4f7bc4ff5ac12331c15f3827c"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "gj-benefits",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "f862fc3bf38c2f398b7402bdf08ac2f9ca58715053f77376b471ab17e925c1b9"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "gj-work",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "975b42310709b55f2eede39c732df8ac4b3a5bde88c33078b63985b0034af369"
+  },
+  {
+    "split": "official_repair",
+    "origin": "official",
+    "model": "kanana-public",
+    "id": "gj-education-work",
+    "selected": true,
+    "feedback": {
+      "kind": "schema_or_type",
+      "status": "invalid_policy_schema"
+    },
+    "origin_request_sha256": "0d3185eb5e6a28d1cfe98dfd260eb28d74b6d6c230adbd3ca85bc24f7e3f683c"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-age-or-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "eeb6a44223abdc1b48f04170e22da5abbfbc2c1c49da44d338709822a3198ece"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-exception-benefit",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "54916e730446b9b118eca144246ba53cbdcd787d5a2f67e39f9e6af7121ba159"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-date-money",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "9343763c69138f6f802343c404a870e3c24580f3afe3b8f474d0fd162f9d8594"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-parent-or-pledge",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "21d05cbaa28ecbc05a5376fc290cf3b8cfbec940d293d2b7cc51d13d7c5e1817"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-age-partition",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "809009c72cfffe9e61fa525be2596cdd5be8df8aedd322f1ce32f063b7334029"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-impossible",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "221307593e4892b6fec629335fb0a82e0a59031b20300af4f2f6431099696873"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-education-or",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": false,
+      "meaning": "제공된 구조 안에서 어떤 신청자도 통과할 수 없다"
+    },
+    "origin_request_sha256": "807b3a98ffe4b5b5a8812305d290a92999dc78b9fff950ad42ff663cfae4a9a8"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "qwen",
+    "id": "mix-unavailable",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "cb78fca8bb6ecb9bfe7b1386627c84e827ba98582c2564de898735fe9e5c60a3"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-age-or-income",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "91220d2cc3f8b4841fc350b18119028eb7f34b4f1c5bb1117a8cc5554606d59d"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-exception-benefit",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "b98b342759c616eccd016ba280418153f37e492fa523e85b37833c2874108f54"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-date-money",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": true,
+      "meaning": "제공된 구조 안에서 모든 신청자가 통과한다"
+    },
+    "origin_request_sha256": "64bf3995aa177af39d71bd90ace92ef8e158e51984fa6c2985bd20c2f4c88d4f"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-parent-or-pledge",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "7a30d66b99eabb57c36a7920269ebeff8ba44114b123125b658eae0ed1646581"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-age-partition",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "77db969c3a21aa9b08c9f4313e842dfc43c15f92552cdc6cfe6f868aa9fd31b5"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-impossible",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": true,
+      "meaning": "제공된 구조 안에서 모든 신청자가 통과한다"
+    },
+    "origin_request_sha256": "cbd41587d240d379187d0ea12eaf7a91c270ded6fc568ac53e706520bdd10e85"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-education-or",
+    "selected": true,
+    "feedback": {
+      "kind": "schema_or_type",
+      "status": "invalid_value"
+    },
+    "origin_request_sha256": "073e073c90f6b15718e9911c1c5728453530d99cf09b70f8c6724646ba9928e5"
+  },
+  {
+    "split": "composition_repair",
+    "origin": "composition",
+    "model": "kanana-public",
+    "id": "mix-unavailable",
+    "selected": true,
+    "feedback": {
+      "kind": "schema_or_type",
+      "status": "invalid_value"
+    },
+    "origin_request_sha256": "40ade8a60330a7030c6da2b8bc69194eb646d3681d469e5e8ffe6288865c2cd1"
+  },
+  {
+    "split": "capability_repair",
+    "origin": "capability_extended",
+    "model": "qwen",
+    "id": "cap-rent",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "8d81a7fd47d75e2f8093c83dcfddd87b12dc9c7bd8ba4362c2dc00d3f4e9850c"
+  },
+  {
+    "split": "capability_repair",
+    "origin": "capability_extended",
+    "model": "qwen",
+    "id": "cap-education",
+    "selected": true,
+    "feedback": {
+      "kind": "global_constant",
+      "condition_value": false,
+      "meaning": "제공된 구조 안에서 어떤 신청자도 통과할 수 없다"
+    },
+    "origin_request_sha256": "66b226b7495321b2ecf396f5273cb4d34f4c4de368d84eb3e461697811afba01"
+  },
+  {
+    "split": "capability_repair",
+    "origin": "capability_extended",
+    "model": "kanana-public",
+    "id": "cap-rent",
+    "selected": true,
+    "feedback": {
+      "kind": "schema_or_type",
+      "status": "undefined_derived"
+    },
+    "origin_request_sha256": "5ab5f86ad7f54b6cef64ea9f9e7a5ad63dc86ecf49ed4a6bd710e24b0546baf7"
+  },
+  {
+    "split": "capability_repair",
+    "origin": "capability_extended",
+    "model": "kanana-public",
+    "id": "cap-education",
+    "selected": false,
+    "feedback": null,
+    "origin_request_sha256": "7f5959058f257192d6121abefe35c08f45775f748b1849ee7416ee573485775a"
+  }
+]
