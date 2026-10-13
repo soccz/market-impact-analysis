@@ -1,8 +1,10 @@
 # Policy & Market Impact Analysis
 
-정책 뉴스와 시장 데이터를 연결하는 분석 파이프라인의 공개 개발 기록입니다. **soccz가 담당한 데이터 처리·NLP 분석·집계·결과 생성 구현**을 정리합니다.
+정책 뉴스와 시장 데이터를 연결하는 분석 파이프라인의 공개 개발 기록입니다. **핵심 분석 로직의 설계·개발은 [soccz](https://github.com/soccz)가 주도했습니다.** 정책별 가설을 만들고, 기사 관련성과 가설에 대한 입장을 나누어 읽고, 그 결과를 정책·날짜별로 집계해 시장 데이터와 비교하는 처리 과정을 구현했습니다.
 
 교수님의 연구 요구와 피드백을 반영한 분석 기반을 개발하고, 서울경제의 기획취재 요구에 맞춰 정책별 흐름과 시각화용 데이터·보고서 생성 과정으로 확장했습니다. 이 저장소는 그중 **2026년 3~5월의 초기 공개 구현**을 중심으로 합니다. 이후 연구용 최종본과 서울경제 납품 코드·데이터 전체를 포함하지 않습니다.
+
+**협업·활용 관련 보도:** [서울경제](https://www.sedaily.com/article/20100770) · [디지털타임스](https://n.news.naver.com/article/029/0003052762?sid=103) — 두 기사는 서울경제와 서강대학교 산학협력단 금융기계학습 연구실의 정책·뉴스·주가 분석 협업을 소개합니다. 개인 개발 역할은 [구현 범위와 코드·커밋 기록](docs/DEVELOPMENT.md#development-role)에 연결해 정리했습니다.
 
 - [방법론을 고민한 과정과 다음 연구 구상](https://soccz.github.io/projects/market-impact-v2/)
 - [3–8월의 문제·실험·수정·후속 적용 과정](docs/DEVELOPMENT_JOURNEY.md)
@@ -22,7 +24,7 @@
 - [새 연도·지역의 4개 공고: 고정 판독기 첫 적용과 예외 누락](research/policy_condition_transfer/)
 - [전체 공고에서 조건 자동 추출: 4개 사업·8개 공고, 검색 비교와 실패](research/policy_condition_reading/)
 - [실제 공고의 조건·예외와 사례별 의미 변화: 첫 문서 쌍 연구](research/policy_semantic_diff/)
-- [담당 모듈과 개발 이력](docs/DEVELOPMENT.md)
+- [설계·개발 역할과 코드·커밋 근거](docs/DEVELOPMENT.md#development-role)
 - [외부 데이터 없이 실행하는 방법론 예제](docs/REPRODUCIBLE_EXAMPLES.md)
 - [서울경제 공개 활용 사례](https://en.sedaily.com/atlas/news-power#e1)
 
@@ -34,13 +36,14 @@
 
 ## 직접 구현한 범위
 
-| 업무 | 공개된 초기 구현 |
-|---|---|
-| 이벤트·기사·시장 데이터 연결 및 계산값 확인 | `verify_50_events.py`, `scripts/` |
-| 정책 정보를 입력으로 비교 가설 생성 | `v2/code/build/` |
-| 정책 맥락의 뉴스 점수화와 일별 집계 | `v2/code/ptei_utils.py`, `v2/code/build_daily_ptei_panel.py` |
-| 점검 사례·라벨 비교·학습 및 추론 | `v2/code/sanity/`, `v2/code/eval/`, `v2/code/finetune/` |
-| 중간 결과 분석과 시각화 | `v2/code/analysis/`, `v2/code/make_figures_part*.py` |
+| 업무 | 설계·구현한 연결 | 공개된 초기 구현 |
+|---|---|---|
+| 이벤트·기사·시장 데이터 연결 | 정책 사건의 기준일·종목·가격을 비교 가능한 입력으로 구성 | [이벤트 검증](verify_50_events.py), [수집·패키징](scripts/) |
+| 정책별 비교 가설 생성 | 정책 카드의 유형·방향·대상을 모델에 물을 가설로 변환 | [가설 생성](v2/code/build/build_hypotheses.py) |
+| 기사 관련성과 입장 분리 | 정책어 적중 정보와 지지·반박·중립 점수를 별도 출력으로 보존 | [관련성·입장 처리](v2/code/ptei_utils.py) |
+| 배치 추론과 일별 집계 | 정책별로 묶어 계산한 결과를 원래 기사 행에 연결하고 정책·날짜별 패널로 집계 | [배치 추론](v2/code/run_ptei_full_inference_batched.py), [일별 집계](v2/code/build_daily_ptei_panel.py) |
+| 점검·라벨·학습·후속 추론 | 점검 사례와 라벨 비교를 학습·평가 입력 및 후속 실행으로 연결 | [sanity](v2/code/sanity/), [평가](v2/code/eval/), [학습](v2/code/finetune/) |
+| 비교 결과와 시각화 | 중간 계산과 모델별 결과를 비교표·그림으로 구성 | [분석 코드](v2/code/analysis/), [구현 지도](docs/WORKSTREAMS.md) |
 
 사전학습 모델과 공개 라이브러리를 활용해 분석에 필요한 처리 과정을 구현했습니다. 연구 요구와 검토에는 지도교수님·연구실이, 기획취재 요구와 보도·편집에는 서울경제가 참여했습니다. 개발 기여의 설명은 법률상 권리 귀속이나 단독 저작자라는 주장을 대신하지 않습니다.
 
